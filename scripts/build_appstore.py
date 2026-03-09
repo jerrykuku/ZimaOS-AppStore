@@ -358,15 +358,6 @@ def process_app(app_dir, output_root, base_url):
     app_output = output_root / "apps" / app_id
     app_output.mkdir(parents=True, exist_ok=True)
 
-    # Write clean docker-compose.yml
-    compose_content = yaml.dump(
-        compose_data,
-        default_flow_style=False,
-        allow_unicode=True,
-        sort_keys=False,
-    )
-    (app_output / "docker-compose.yml").write_text(compose_content, encoding="utf-8")
-
     # ── Step 1: Convert and copy all image files ──
     copied_images = []
     image_mapping = {}  # original_name -> output_name
@@ -402,48 +393,8 @@ def process_app(app_dir, output_root, base_url):
             copied_images.append(output_name)
             image_mapping[img_file.name] = output_name
 
-    # ── Step 2: Build meta.json with converted filenames ──
-    if "icon" in meta:
-        del meta["icon"]  # icon stays in compose
-
-    if "thumbnail" in meta:
-        # Extract original filename from URL, then map to converted name
-        orig_thumb_url = meta["thumbnail"]
-        orig_fname = orig_thumb_url.rsplit("/", 1)[-1] if "/" in orig_thumb_url else orig_thumb_url
-        if orig_fname in image_mapping:
-            meta["thumbnail"] = image_mapping[orig_fname]
-        else:
-            # Try webp-converted version
-            webp_name = f"{Path(orig_fname).stem}.webp"
-            meta["thumbnail"] = webp_name if webp_name in copied_images else orig_fname
-
-    if "screenshot_link" in meta:
-        raw = meta["screenshot_link"]
-        if raw and isinstance(raw, list):
-            updated = []
-            for url in raw:
-                if not url:
-                    continue
-                fname = url.rsplit("/", 1)[-1] if "/" in url else url
-                if fname in image_mapping:
-                    updated.append(image_mapping[fname])
-                else:
-                    webp_name = f"{Path(fname).stem}.webp"
-                    updated.append(webp_name if webp_name in copied_images else fname)
-            meta["screenshot_link"] = updated
-        else:
-            meta["screenshot_link"] = []
-
-    # Write meta.json (single write, after image conversion)
-    meta_content = json.dumps(to_json_safe(meta), ensure_ascii=False, indent=2)
-    (app_output / "meta.json").write_text(meta_content, encoding="utf-8")
-
-    # ── Step 3: Build index entry ──
-    chash = content_hash(compose_content, meta_content)
+    # ── Step 2: Resolve asset URLs ──
     app_path = f"apps/{app_id}"
-
-    orig_icon = original_xcasaos.get("icon") or ""
-    orig_thumbnail = original_xcasaos.get("thumbnail") or ""
 
     # Icon priority: SVG > PNG > JPG > WebP
     icon_filename = "icon.png"  # default fallback
@@ -456,8 +407,61 @@ def process_app(app_dir, output_root, base_url):
     elif "icon.webp" in copied_images:
         icon_filename = "icon.webp"
 
-    # Thumbnail: prefer converted name from meta (already mapped to webp above)
-    thumbnail_filename = meta.get("thumbnail", "thumbnail.webp")
+    icon_url = url_join(base_url, f"{app_path}/{icon_filename}")
+
+    def _resolve_asset_filename(url_or_name):
+        """Extract filename from URL, map to converted output name."""
+        if not url_or_name:
+            return None
+        fname = url_or_name.rsplit("/", 1)[-1] if "/" in str(url_or_name) else str(url_or_name)
+        if fname in image_mapping:
+            return image_mapping[fname]
+        webp_name = f"{Path(fname).stem}.webp"
+        if webp_name in copied_images:
+            return webp_name
+        return fname
+
+    # ── Step 3: Update compose x-casaos.icon to point to built output ──
+    compose_data["x-casaos"]["icon"] = icon_url
+
+    # Write clean docker-compose.yml (after icon URL is updated)
+    compose_content = yaml.dump(
+        compose_data,
+        default_flow_style=False,
+        allow_unicode=True,
+        sort_keys=False,
+    )
+    (app_output / "docker-compose.yml").write_text(compose_content, encoding="utf-8")
+
+    # ── Step 4: Build meta.json with full URLs ──
+    if "icon" in meta:
+        del meta["icon"]  # icon stays in compose
+
+    if "thumbnail" in meta:
+        thumb_fname = _resolve_asset_filename(meta["thumbnail"])
+        meta["thumbnail"] = url_join(base_url, f"{app_path}/{thumb_fname}") if thumb_fname else ""
+
+    if "screenshot_link" in meta:
+        raw = meta["screenshot_link"]
+        if raw and isinstance(raw, list):
+            updated = []
+            for url in raw:
+                fname = _resolve_asset_filename(url)
+                if fname:
+                    updated.append(url_join(base_url, f"{app_path}/{fname}"))
+            meta["screenshot_link"] = updated
+        else:
+            meta["screenshot_link"] = []
+
+    # Write meta.json (single write, after image conversion)
+    meta_content = json.dumps(to_json_safe(meta), ensure_ascii=False, indent=2)
+    (app_output / "meta.json").write_text(meta_content, encoding="utf-8")
+
+    # ── Step 5: Build index entry ──
+    chash = content_hash(compose_content, meta_content)
+
+    # Thumbnail URL from meta (already a full URL now)
+    thumbnail_url = meta.get("thumbnail", "")
 
     entry = {
         "id": app_id,
@@ -467,8 +471,8 @@ def process_app(app_dir, output_root, base_url):
         "author": original_xcasaos.get("author", ""),
         "developer": original_xcasaos.get("developer", ""),
         "architectures": original_xcasaos.get("architectures", []),
-        "icon": orig_icon if orig_icon.startswith("http") else url_join(base_url, f"{app_path}/{icon_filename}"),
-        "thumbnail": orig_thumbnail if orig_thumbnail.startswith("http") else url_join(base_url, f"{app_path}/{thumbnail_filename}"),
+        "icon": icon_url,
+        "thumbnail": thumbnail_url,
         "compose_url": url_join(base_url, f"{app_path}/docker-compose.yml"),
         "meta_url": url_join(base_url, f"{app_path}/meta.json"),
         "content_hash": chash,

@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64",
+    "arm"
+  ],
+  "author": "The Navidrome Authors",
+  "category": "Media",
+  "description": {
+    "en_US": "Navidrome is an open source web-based music collection server and streamer. It gives you freedom to listen to your music collection from any browser or mobile device. It's like your personal Spotify!",
+    "zh_CN": "Navidrome是一个开源的基于Web的音乐收藏服务器和流媒体服务器。它让您可以在任何浏览器或移动设备上自由收听音乐收藏。就像您个人的Spotify一样！"
+  },
+  "tagline": {
+    "en_US": "Music Collection and Streaming Server",
+    "zh_CN": "音乐收藏和流媒体服务器"
+  },
+  "screenshot_link": [
+    "screenshot-1.webp",
+    "screenshot-2.webp"
+  ],
+  "store_app_id": "navidrome"
+}

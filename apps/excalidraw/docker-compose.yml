@@ -1,0 +1,22 @@
+name: excalidraw
+services:
+  excalidraw:
+    image: excalidraw/excalidraw:latest
+    container_name: excalidraw
+    deploy:
+      resources:
+        reservations:
+          memory: 256M
+    restart: unless-stopped
+    ports:
+    - target: 80
+      published: '17638'
+      protocol: tcp
+x-casaos:
+  main: excalidraw
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Excalidraw/icon.png
+  scheme: http
+  port_map: '17638'
+  index: /
+  title:
+    en_US: Excalidraw

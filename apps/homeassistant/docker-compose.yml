@@ -1,0 +1,35 @@
+name: homeassistant
+services:
+  homeassistant:
+    environment:
+      PGID: $PGID
+      PUID: $PUID
+      TZ: $TZ
+    image: homeassistant/home-assistant:2025.11
+    deploy:
+      resources:
+        reservations:
+          memory: 256M
+    network_mode: host
+    restart: unless-stopped
+    volumes:
+    - type: bind
+      source: /DATA/AppData/$AppID/config
+      target: /config
+    - type: bind
+      source: /etc/localtime
+      target: /etc/localtime
+      read_only: true
+    - type: bind
+      source: /run/dbus
+      target: /run/dbus
+      read_only: true
+    privileged: true
+    container_name: homeassistant
+x-casaos:
+  main: homeassistant
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/HomeAssistant/icon.png
+  title:
+    en_US: Home Assistant
+  index: /
+  port_map: '8123'

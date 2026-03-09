@@ -1,0 +1,33 @@
+name: photoprism
+services:
+  photoprism:
+    environment:
+      PHOTOPRISM_ADMIN_PASSWORD: casaos
+      PHOTOPRISM_UPLOAD_NSFW: 'true'
+      TZ: $TZ
+    image: photoprism/photoprism:250228
+    deploy:
+      resources:
+        reservations:
+          memory: 512M
+    network_mode: bridge
+    ports:
+    - target: 2342
+      published: '2342'
+      protocol: tcp
+    restart: unless-stopped
+    volumes:
+    - type: bind
+      source: /DATA/AppData/$AppID/photoprism/storage
+      target: /photoprism/storage
+    - type: bind
+      source: /DATA/Gallery
+      target: /photoprism/originals
+    container_name: photoprism
+x-casaos:
+  main: photoprism
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/PhotoPrism/icon.png
+  title:
+    en_US: PhotoPrism
+  index: /
+  port_map: '2342'

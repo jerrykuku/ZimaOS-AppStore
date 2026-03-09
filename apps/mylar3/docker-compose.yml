@@ -1,0 +1,35 @@
+name: mylar3
+services:
+  mylar3:
+    environment:
+      PGID: $PGID
+      PUID: $PUID
+      TZ: $TZ
+    image: linuxserver/mylar3:0.8.3
+    deploy:
+      resources:
+        reservations:
+          memory: 64M
+    network_mode: bridge
+    ports:
+    - target: 8090
+      published: '8090'
+      protocol: tcp
+    restart: unless-stopped
+    volumes:
+    - type: bind
+      source: /DATA/AppData/mylar3/config
+      target: /config
+    - type: bind
+      source: /DATA/Media/Comics
+      target: /comics
+    - type: bind
+      source: /DATA/Downloads
+      target: /downloads
+    container_name: mylar3
+x-casaos:
+  main: mylar3
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Mylar3/icon.png
+  title:
+    en_US: Mylar3
+  port_map: '8090'

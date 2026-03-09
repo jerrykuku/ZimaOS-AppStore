@@ -1,0 +1,13 @@
+{
+  "architectures": [
+    "amd64",
+    "arm",
+    "arm64"
+  ],
+  "author": "calganaygun",
+  "category": "Media",
+  "screenshot_link": [
+    "screenshot-1.webp"
+  ],
+  "store_app_id": "rdtclient"
+}

@@ -1,0 +1,26 @@
+name: uptimekuma
+services:
+  uptimekuma:
+    image: louislam/uptime-kuma:1.23.16-alpine
+    deploy:
+      resources:
+        reservations:
+          memory: 128M
+    network_mode: bridge
+    ports:
+    - target: 3001
+      published: '3001'
+      protocol: tcp
+    restart: unless-stopped
+    volumes:
+    - type: bind
+      source: /DATA/AppData/$AppID/app/data
+      target: /app/data
+    container_name: uptimekuma
+x-casaos:
+  main: uptimekuma
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/UptimeKuma/icon.png
+  title:
+    en_US: Uptime Kuma
+  index: /
+  port_map: '3001'

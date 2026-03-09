@@ -1,0 +1,36 @@
+name: komga
+services:
+  komga:
+    image: gotson/komga:1.23.6
+    container_name: komga
+    deploy:
+      resources:
+        reservations:
+          memory: 128M
+    network_mode: bridge
+    ports:
+    - target: 25600
+      published: '25600'
+      protocol: tcp
+    restart: unless-stopped
+    volumes:
+    - type: bind
+      source: /DATA/AppData/$AppID/config
+      target: /config
+    - type: bind
+      source: /DATA/AppData/$AppID/data
+      target: /data
+    - type: bind
+      source: /etc/timezone
+      target: /etc/timezone
+    environment:
+      PGID: '1000'
+      PUID: '1000'
+x-casaos:
+  main: komga
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Komga/icon.png
+  scheme: http
+  port_map: '25600'
+  index: /
+  title:
+    en_US: Komga

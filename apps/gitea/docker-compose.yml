@@ -1,0 +1,32 @@
+name: gitea
+services:
+  gitea:
+    environment:
+      USER_GID: '1000'
+      USER_UID: '1000'
+    image: gitea/gitea:1.25
+    deploy:
+      resources:
+        reservations:
+          memory: 256M
+    network_mode: bridge
+    ports:
+    - target: 3000
+      published: '3002'
+      protocol: tcp
+    - target: 22
+      published: '222'
+      protocol: tcp
+    restart: unless-stopped
+    volumes:
+    - type: bind
+      source: /DATA/AppData/$AppID/data
+      target: /data
+    container_name: gitea
+x-casaos:
+  main: gitea
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Gitea/icon.png
+  title:
+    en_US: Gitea
+  index: /
+  port_map: '3002'

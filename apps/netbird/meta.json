@@ -1,0 +1,36 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "category": "Networking",
+  "developer": "NetBird GmbH",
+  "author": "NetBird Team",
+  "tagline": {
+    "en_US": "Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.",
+    "en_GB": "Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.",
+    "zh_CN": "将设备连接到安全的 WireGuard® 覆盖网络，支持 SSO、MFA 和细粒度访问控制。",
+    "ja_JP": "SSO、MFA、きめ細かなアクセス制御を備えた安全なWireGuard®ベースのオーバーレイネットワークにデバイスを接続します。"
+  },
+  "description": {
+    "en_US": "NetBird combines a WireGuard®-based overlay network with Zero Trust Network Access, providing a unified open source platform for reliable and secure connectivity.\n\n- Secure Remote Access – Enable least privilege network access in a few clicks\n- Zero-Config Deployment – Replace legacy VPNs with a peer-to-peer WireGuard®-based network\n- Seamless SSO with MFA – Secure your network access with session-based SSO & MFA\n- Dynamic Posture Checks – Grant access only to devices meeting your security rules\n- Centralized Network Management – Control your private network from a single place\n- Detailed Activity Logging – Identify who did what, and when in your network\n\n**Learn More:**\n- [NetBird Website](https://netbird.io)\n- [Documentation](https://docs.netbird.io)\n- [Self-Hosting Guide](https://docs.netbird.io/selfhosted/selfhosted-quickstart)\n- [NetBird GitHub](https://github.com/netbirdio/netbird)\n- [Slack Community](https://docs.netbird.io/slack-url)\n",
+    "en_GB": "NetBird combines a WireGuard®-based overlay network with Zero Trust Network Access, providing a unified open source platform for reliable and secure connectivity.\n\n- Secure Remote Access – Enable least privilege network access in a few clicks\n- Zero-Config Deployment – Replace legacy VPNs with a peer-to-peer WireGuard®-based network\n- Seamless SSO with MFA – Secure your network access with session-based SSO & MFA\n- Dynamic Posture Checks – Grant access only to devices meeting your security rules\n- Centralised Network Management – Control your private network from a single place\n- Detailed Activity Logging – Identify who did what, and when in your network\n\n**Learn More:**\n- [NetBird Website](https://netbird.io)\n- [Documentation](https://docs.netbird.io)\n- [Self-Hosting Guide](https://docs.netbird.io/selfhosted/selfhosted-quickstart)\n- [NetBird GitHub](https://github.com/netbirdio/netbird)\n- [Slack Community](https://docs.netbird.io/slack-url)\n",
+    "zh_CN": "NetBird 将基于 WireGuard® 的覆盖网络与零信任网络访问相结合，提供一个统一的开源平台，实现可靠且安全的连接。\n\n- 安全远程访问 – 轻松实现最小权限网络访问\n- 零配置部署 – 使用点对点 WireGuard® 网络取代传统 VPN\n- 无缝 SSO 与 MFA – 通过基于会话的 SSO 和 MFA 保护网络访问\n- 动态 Posture 检查 – 仅允许符合安全规则的设备访问\n- 集中网络管理 – 从单一位置控制您的私有网络\n- 详细活动日志 – 识别网络中的操作者和操作时间\n\n**了解更多：**\n- [NetBird 官网](https://netbird.io)\n- [文档](https://docs.netbird.io)\n- [自托管指南](https://docs.netbird.io/selfhosted/selfhosted-quickstart)\n- [NetBird GitHub](https://github.com/netbirdio/netbird)\n- [Slack 社区](https://docs.netbird.io/slack-url)\n",
+    "ja_JP": "NetBirdはWireGuard®ベースのオーバーレイネットワークとゼロトラストネットワークアクセスを組み合わせ、信頼性とセキュリティを備えた統合オープンソースプラットフォームを提供します。\n\n- 安全なリモートアクセス – 数回のクリックで最小権限ネットワークアクセスを有効化\n- ゼロ設定デプロイメント – ピアツーピアWireGuard®ベースネットワークでレガシーVPNを置き換え\n- シームレスなSSOとMFA – セッションベースのSSOとMFAでネットワークアクセスを保護\n- 動的ポスチャチェック – セキュリティルールを満たすデバイスにのみアクセスを許可\n- 集中ネットワーク管理 – 単一の場所からプライベートネットワークを制御\n- 詳細なアクティビティログ – ネットワーク内で誰が、いつ、何を行ったかを特定\n\n**詳細：**\n- [NetBird ウェブサイト](https://netbird.io)\n- [ドキュメント](https://docs.netbird.io)\n- [セルフホストガイド](https://docs.netbird.io/selfhosted/selfhosted-quickstart)\n- [NetBird GitHub](https://github.com/netbirdio/netbird)\n- [Slack コミュニティ](https://docs.netbird.io/slack-url)\n"
+  },
+  "screenshot_link": [
+    "screenshot-1.webp",
+    "screenshot-2.webp",
+    "screenshot-3.webp"
+  ],
+  "thumbnail": "thumbnail.webp",
+  "hostname": "app.netbird.io",
+  "tips": {
+    "before_install": {
+      "en_US": "### Getting Started\n\n1. Visit your NetBird dashboard ([app.netbird.io](https://app.netbird.io) or your self-hosted instance) and log in or create a new account\n2. Navigate to the **Setup Keys** page\n3. Click **Create Setup Key** to create a new key\n4. Give your key a name (e.g., \"Zima Server\") and copy the generated setup key\n5. In ZimaOS, click the settings icon in the top-right corner of the app tile\n6. Paste the setup key in the **NB_SETUP_KEY** field\n7. (Optional) If using a self-hosted NetBird dashboard, enter the URL in **NB_MANAGEMENT_URL**\n8. (Optional) Customize the hostname in **NB_HOSTNAME** (default: Zima)\n9. Save and restart the app\n\nYour device will now appear in your NetBird dashboard and can connect to other devices in your mesh network.\n",
+      "en_GB": "### Getting Started\n\n1. Visit your NetBird dashboard ([app.netbird.io](https://app.netbird.io) or your self-hosted instance) and log in or create a new account\n2. Navigate to the **Setup Keys** page\n3. Click **Create Setup Key** to create a new key\n4. Give your key a name (e.g., \"Zima Server\") and copy the generated setup key\n5. In ZimaOS, click the settings icon in the top-right corner of the app tile\n6. Paste the setup key in the **NB_SETUP_KEY** field\n7. (Optional) If using a self-hosted NetBird dashboard, enter the URL in **NB_MANAGEMENT_URL**\n8. (Optional) Customise the hostname in **NB_HOSTNAME** (default: Zima)\n9. Save and restart the app\n\nYour device will now appear in your NetBird dashboard and can connect to other devices in your mesh network.\n",
+      "zh_CN": "### 入门\n\n1. 访问您的 NetBird 仪表板（[app.netbird.io](https://app.netbird.io) 或您的自托管实例）并登录或创建新账户\n2. 导航到 **Setup Keys** 页面\n3. 点击 **Create Setup Key** 创建新密钥\n4. 为您的密钥命名（例如\"Zima Server\"）并复制生成的设置密钥\n5. 在 ZimaOS 中，点击应用图块右上角的设置图标\n6. 在 **NB_SETUP_KEY** 字段中粘贴设置密钥\n7. （可选）如果使用自托管的 NetBird 仪表板，请在 **NB_MANAGEMENT_URL** 中输入 URL\n8. （可选）在 **NB_HOSTNAME** 中自定义主机名（默认：Zima）\n9. 保存并重启应用\n\n您的设备现在将出现在您的 NetBird 仪表板中，并可以连接到网格网络中的其他设备。\n",
+      "ja_JP": "### はじめに\n\n1. NetBirdダッシュボード（[app.netbird.io](https://app.netbird.io) またはセルフホストインスタンス）にアクセスしてログインまたは新規アカウントを作成\n2. **Setup Keys** ページに移動\n3. **Create Setup Key** をクリックして新しいキーを作成\n4. キーに名前を付け（例：「Zima Server」）、生成されたセットアップキーをコピー\n5. ZimaOSで、アプリタイルの右上にある設定アイコンをクリック\n6. **NB_SETUP_KEY** フィールドにセットアップキーを貼り付け\n7. （オプション）セルフホストの NetBird ダッシュボードを使用している場合、**NB_MANAGEMENT_URL** に URL を入力\n8. （オプション）**NB_HOSTNAME** でホスト名をカスタマイズ（デフォルト：Zima）\n9. 保存してアプリを再起動\n\nこれでデバイスがNetBirdダッシュボードに表示され、メッシュネットワーク内の他のデバイスと接続できるようになります。"
+    }
+  }
+}

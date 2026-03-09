@@ -1,0 +1,52 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64",
+    "arm"
+  ],
+  "author": "CasaOS Team",
+  "category": "Productivity",
+  "description": {
+    "en_US": "File Browser - Webbased File Browser including sharing functions etc.",
+    "zh_CN": "File Browser - 包含分享功能等的Webbased文件浏览器",
+    "ar_SA": "متصفح الملفات - متصفح ملفات Webbased يشمل وظائف المشاركة وما إلى ذلك",
+    "de_DE": "Datei Browser - Webbasierte Datei Browser, einschließlich Sharing-Funktionen usw.",
+    "es_ES": "File Browser - Navegador de archivos Webbased que incluye funciones de compartición, etc.",
+    "fr_FR": "File Browser - Navigateur de fichiers Webbased incluant des fonctions de partage, etc.",
+    "hu_HU": "File Browser - Webbased File Browser, beleértve a megosztási funkciókat stb.",
+    "it_IT": "File Browser - Browser di file Webbased che include funzioni di condivisione, ecc.",
+    "ru_RU": "File Browser - Webbased File Browser, включая функции обмена, и т.д.",
+    "pl_PL": "File Browser - Przeglądarka plików Webbased, w tym funkcje udostępniania itp.",
+    "pt_BR": "File Browser - Navegador de arquivos Webbased que inclui funções de compartilhamento, etc.",
+    "sv_SE": "File Browser - Webbaserad filbläddrare inklusive delningsfunktioner etc.",
+    "uk_UA": "File Browser - Webbased File Browser, включаючи функції обміну, тощо"
+  },
+  "developer": "File Browser",
+  "screenshot_link": [
+    "screenshot-1.webp",
+    "screenshot-2.webp",
+    "screenshot-3.webp"
+  ],
+  "tagline": {
+    "en_US": "Upload, delete, preview, rename, edit and share your files.",
+    "zh_CN": "上传，删除，预览，重命名，编辑和共享您的文件。",
+    "ar_SA": "قم بتحميل، حذف، معاينة، إعادة تسمية، تحرير ومشاركة ملفاتك.",
+    "de_DE": "Hochladen, Löschen, Vorschau, Umbenennen, Bearbeiten und Freigeben Ihrer Dateien.",
+    "es_ES": "Subir, eliminar, previsualizar, renombrar, editar y compartir sus archivos.",
+    "fr_FR": "Télécharger, supprimer, prévisualiser, renommer, modifier et partager vos fichiers.",
+    "hu_HU": "Töltsön fel, törölje, előnézze, átnevezze, szerkessze és ossza meg fájljait.",
+    "it_IT": "Carica, elimina, anteprima, rinomina, modifica e condividi i tuoi file.",
+    "ru_RU": "Загрузите, удалите, просмотрите, переименуйте, отредактируйте и поделитесь своими файлами.",
+    "pl_PL": "Prześlij, usuń, podgląd, zmień nazwę, edytuj i udostępnij swoje pliki.",
+    "pt_BR": "Faça upload, exclua, visualize, renomeie, edite e compartilhe seus arquivos.",
+    "sv_SE": "Ladda upp, ta bort, förhandsgranska, byt namn, redigera och dela dina filer.",
+    "uk_UA": "Завантажте, видаліть, перегляньте, перейменуйте, відредагуйте і поділіться своїми файлами."
+  },
+  "thumbnail": "thumbnail.webp",
+  "tips": {
+    "before_install": {
+      "en_US": "Default Account\n\n| Username | Password |\n| -------- | -------- |\n| `admin`    | `admin`    |\n",
+      "zh_CN": "默认账号\n\n| 用户名 | 密码 |\n| -------- | -------- |\n| `admin`    | `admin`    |\n"
+    }
+  }
+}

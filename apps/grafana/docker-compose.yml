@@ -1,0 +1,26 @@
+name: grafana
+services:
+  grafana:
+    image: grafana/grafana:12.1.4
+    deploy:
+      resources:
+        reservations:
+          memory: 64M
+    network_mode: bridge
+    ports:
+    - target: 3000
+      published: '3003'
+      protocol: tcp
+    restart: always
+    volumes:
+    - type: bind
+      source: /DATA/AppData/$AppID/data
+      target: /var/lib/grafana
+    container_name: grafana
+x-casaos:
+  main: grafana
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Grafana/icon.png
+  title:
+    en_US: Grafana
+  index: /
+  port_map: '3003'

@@ -1,0 +1,31 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "author": "LisonEvf",
+  "category": "AI",
+  "developer": "LisonEvf",
+  "thumbnail": "thumbnail.webp",
+  "screenshot_link": [
+    "screenshot-1.webp",
+    "screenshot-2.webp",
+    "screenshot-3.webp"
+  ],
+  "hostname": "",
+  "description": {
+    "en_US": "Your machine learning Env work with Jupyter Lab",
+    "zh_CN": "私有炼丹炉"
+  },
+  "tagline": {
+    "en_US": "Your machine learning Env work with Jupyter Lab",
+    "zh_CN": "私有炼丹炉"
+  },
+  "tips": {
+    "en_US": "Your machine learning Env work with Jupyter Lab",
+    "zh_CN": "私有炼丹炉",
+    "before_install": {
+      "en_US": "After installation, please check the token in the container log (Settings - TopRight - Terminal and Logs - Logs).",
+      "zh_CN": "安装完成后，请在容器日志（应用-设置-右上角-终端与日志-日志）中查看token。"
+    }
+  }
+}

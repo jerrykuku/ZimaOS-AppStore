@@ -1,0 +1,26 @@
+name: 2fauth
+services:
+  2fauth:
+    image: 2fauth/2fauth:5.4.3
+    deploy:
+      resources:
+        reservations:
+          memory: 64M
+    network_mode: bridge
+    ports:
+    - target: 8000
+      published: '8000'
+      protocol: tcp
+    restart: always
+    volumes:
+    - type: bind
+      source: /DATA/AppData/$AppID
+      target: /2fauth
+x-casaos:
+  main: 2fauth
+  index: /
+  port_map: '8000'
+  scheme: http
+  title:
+    en_US: 2FAuth
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/2FAuth/icon.png

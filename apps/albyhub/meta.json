@@ -1,0 +1,32 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "calganaygun",
+  "category": "Finance",
+  "description": {
+    "en_US": "Alby Hub is an open-source, self-custodial Bitcoin Lightning wallet, with the easiest-to-use Lightning Network node for everyone.\nWhether you're an individual, creator, or developer, Alby Hub is your centre for seamless Bitcoin payments.\nEffortlessly connect to a variety of apps like the Alby Browser Extension or Alby Go mobile app, create sub-wallets for family and friends, and take full control of your funds—all within an intuitive interface and developer-ready APIs.\n\n**USEFUL LINKS**\n- [Source Repository](https://github.com/getAlby/hub)\n- [Support](https://support.getalby.com/)\n- [Marketing Site](https://albyhub.com/)\n- [Community of users and developers](https://discord.getalby.com)\n- [Feedback Board, feature requests, bug reports[(https://feedback.getalby.com)\n"
+  },
+  "screenshot_link": [
+    "node.png",
+    "store.png",
+    "wallet.png"
+  ],
+  "tagline": {
+    "en_US": "Self-custodial Bitcoin Lightning wallet with integrated node and app connections.",
+    "zh_CN": "一个简单的比特币闪电节点，带有钱包、子账户和NWC连接。",
+    "ar_SA": "عقدة بسيكويت لايتنينغ بسيطة مع محفظة، وحسابات فرعية، واتصالات NWC.",
+    "de_DE": "Ein einfacher Bitcoin-Lightning-Knoten mit einer Wallet, Unterkonten und NWC-Verbindungen.",
+    "es_ES": "Un nodo de Lightning de Bitcoin simple con una cartera, subcuentas y conexiones NWC.",
+    "fr_FR": "Un nœud Bitcoin Lightning simple avec un portefeuille, des sous-comptes et des connexions NWC.",
+    "hu_HU": "Egy egyszerű Bitcoin Lightning csomópont pénztárcával, alszámlákkal és NWC csatlakozásokkal.",
+    "it_IT": "Un semplice nodo Bitcoin Lightning con un portafoglio, sottoconti e connessioni NWC.",
+    "ru_RU": "Простой узел Bitcoin Lightning с кошельком, субсчетами и подключениями NWC.",
+    "pl_PL": "Samodzielny węzeł Bitcoin Lightning z portfelem, subkontami i połączeniami NWC.",
+    "pt_BR": "Um nó Bitcoin Lightning simples com uma carteira, subcontas e conexões NWC.",
+    "sv_SE": "En enkel Bitcoin Lightning-nod med en plånbok, underkonton och NWC-anslutningar.",
+    "uk_UA": "Простий Bitcoin Lightning-вузол з гаманцем, субрахунками та підключеннями NWC."
+  },
+  "store_app_id": "albyhub"
+}

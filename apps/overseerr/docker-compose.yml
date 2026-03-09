@@ -1,0 +1,24 @@
+name: overseerr
+services:
+  overseerr:
+    image: linuxserver/overseerr:1.33.2
+    restart: unless-stopped
+    environment:
+      PUID: $PUID
+      PGID: $PGID
+      TZ: $TZ
+    ports:
+    - target: 5055
+      published: 5055
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: /DATA/AppData/overseerr/config
+      target: /config
+    container_name: overseerr
+x-casaos:
+  main: overseerr
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Overseerr/icon.png
+  title:
+    en_US: Overseerr
+  port_map: '5055'

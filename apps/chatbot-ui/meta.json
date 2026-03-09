@@ -1,0 +1,42 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "AI",
+  "description": {
+    "en_US": "Chatbot UI is an open source chat UI for AI models.",
+    "zh_CN": "Chatbot UI是一个开源的AI模型聊天界面。",
+    "ar_SA": "Chatbot UI هو واجهة محادثة مفتوحة المصدر لنماذج الذكاء الاصطناعي.",
+    "de_DE": "Chatbot UI ist eine Open-Source-Chat-Benutzeroberfläche für KI-Modelle.",
+    "es_ES": "Chatbot UI es una interfaz de chat de código abierto para modelos de IA.",
+    "fr_FR": "Chatbot UI est une interface de chat open source pour les modèles d'IA.",
+    "hu_HU": "A Chatbot UI egy nyílt forráskódú chat UI az AI modellekhez.",
+    "it_IT": "Chatbot UI è un'interfaccia di chat open source per modelli AI.",
+    "ru_RU": "Chatbot UI - это открытый чат-интерфейс для моделей ИИ.",
+    "pl_PL": "Chatbot UI to otwarty interfejs czatu dla modeli AI.",
+    "pt_BR": "Chatbot UI é uma interface de chat de código aberto para modelos de IA.",
+    "sv_SE": "Chatbot UI är ett öppen källkod chattgränssnitt för AI-modeller.",
+    "uk_UA": "Chatbot UI - це відкритий чат-інтерфейс для моделей ШІ."
+  },
+  "developer": "Mckay Wrigley",
+  "screenshot_link": [
+    "screenshot-1.webp"
+  ],
+  "tagline": {
+    "en_US": "Open source chat UI for AI models",
+    "zh_CN": "用于AI模型的开源聊天界面",
+    "ar_SA": "واجهة محادثة مفتوحة المصدر لنماذج الذكاء الاصطناعي",
+    "de_DE": "Open-Source-Chat-Benutzeroberfläche für KI-Modelle",
+    "es_ES": "Interfaz de chat de código abierto para modelos de IA",
+    "fr_FR": "Interface de chat open source pour les modèles d'IA",
+    "hu_HU": "Nyílt forráskódú chat UI az AI modellekhez",
+    "it_IT": "Interfaccia di chat open source per modelli AI",
+    "ru_RU": "Открытый чат-интерфейс для моделей ИИ",
+    "pl_PL": "Otwarty interfejs czatu dla modeli AI",
+    "pt_BR": "Interface de chat de código aberto para modelos de IA",
+    "sv_SE": "Öppen källkod chattgränssnitt för AI-modeller",
+    "uk_UA": "Відкритий чат-інтерфейс для моделей ШІ"
+  }
+}

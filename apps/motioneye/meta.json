@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "author": "f4bio",
+  "category": "Home",
+  "description": {
+    "en_US": "motionEye is a web-based frontend for motion. Check out the wiki for more details. Changelog is available on the releases page. https://github.com/motioneye-project/motioneye",
+    "zh_CN": "motionEye是motion的基于Web的前端。查看Wiki以获取更多详细信息。更改日志请参阅发布页面。https://github.com/motioneye-project/motioneye"
+  },
+  "developer": "Motioneye",
+  "screenshot_link": [
+    "screenshot-1.webp",
+    "screenshot-2.webp",
+    "screenshot-3.webp"
+  ],
+  "store_app_id": "motioneye",
+  "tagline": {
+    "en_US": "A web frontend for the motion daemon.",
+    "zh_CN": "用于motion的Web前端守护程序。"
+  }
+}

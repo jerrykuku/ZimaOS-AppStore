@@ -1,0 +1,52 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Media",
+  "description": {
+    "en_US": "Deluge contains the common features to BitTorrent clients such as Protocol Encryption, DHT, Local Peer Discovery (LSD), Peer Exchange (PEX), UPnP, NAT-PMP, Proxy support, Web seeds, global and per-torrent speed limits. As Deluge heavily utilises the ​libtorrent library it has a comprehensive list of the ​features provided.",
+    "zh_CN": "Deluge 包含 BitTorrent 客户端的常见功能，如协议加密、DHT、本地对等发现（LSD）、对等交换（PEX）、UPnP、NAT-PMP、代理支持、Web 种子、全局和每个 torrent 速度限制。由于 Deluge 大量利用了 libtorrent 库，因此它具有提供的功能的详细列表。",
+    "ar_SA": "يحتوي Deluge على الميزات الشائعة لعملاء BitTorrent مثل التشفير البروتوكولي و DHT واكتشاف الأقران المحلي (LSD) وتبادل الأقران (PEX) و UPnP و NAT-PMP ودعم الوكيل والبذور على الويب والحد العالمي والحد لكل torrent. لأن Deluge يستخدم بشكل كبير مكتبة libtorrent ، فإنه يحتوي على قائمة شاملة من الميزات المقدمة.",
+    "de_DE": "Deluge enthält die gängigen Funktionen von BitTorrent-Clients wie Protokollverschlüsselung, DHT, lokales Peersuche (LSD), Peeraustausch (PEX), UPnP, NAT-PMP, Proxy-Unterstützung, Web Seeds, globale und pro Torrent-Geschwindigkeitsbegrenzungen. Da Deluge die libtorrent-Bibliothek stark nutzt, verfügt es über eine umfassende Liste der bereitgestellten Funktionen.",
+    "es_ES": "Deluge contiene las características comunes de los clientes BitTorrent como el cifrado de protocolo, DHT, descubrimiento de pares locales (LSD), intercambio de pares (PEX), UPnP, NAT-PMP, soporte de proxy, semillas web, límites de velocidad globales y por torrent. Como Deluge utiliza intensamente la biblioteca libtorrent, tiene una lista completa de las características proporcionadas.",
+    "fr_FR": "Deluge contient les fonctionnalités communes aux clients BitTorrent tels que le chiffrement de protocole, DHT, découverte de pairs locaux (LSD), échange de pairs (PEX), UPnP, NAT-PMP, prise en charge des proxy, les graines Web, les limites de vitesse globales et par torrent. Comme Deluge utilise intensivement la bibliothèque libtorrent, il dispose d'une liste complète des fonctionnalités fournies.",
+    "hu_HU": "A Deluge a BitTorrent kliensek általános jellemzőit tartalmazza, mint például a protokoll titkosítás, a DHT, a helyi partner felfedezés (LSD), a partner cseréje (PEX), az UPnP, a NAT-PMP, a proxy támogatás, a webmagok, a globális és a torrentenkénti sebességkorlátok. Mivel a Deluge erősen kihasználja a libtorrent könyvtárat, rendelkezik egy teljes listával a szolgáltatott funkciókról.",
+    "it_IT": "Deluge contiene le caratteristiche comuni dei client BitTorrent come crittografia del protocollo, DHT, scoperta di peer locali (LSD), scambio di peer (PEX), UPnP, NAT-PMP, supporto proxy, semi web, limiti di velocità globali e per torrent. Poiché Deluge utilizza intensivamente la libreria libtorrent, dispone di un elenco completo delle funzionalità fornite.",
+    "ru_RU": "Deluge содержит общие функции клиентов BitTorrent, такие как шифрование протокола, DHT, локальный поиск пиров (LSD), обмен пиров (PEX), UPnP, NAT-PMP, поддержка прокси, веб-сиды, глобальные и ограничения скорости для каждого торрента. Поскольку Deluge сильно использует библиотеку libtorrent, он имеет полный список предоставляемых функций.",
+    "pl_PL": "Deluge zawiera wspólne funkcje klientów BitTorrent, takie jak szyfrowanie protokołu, DHT, lokalne odkrywanie par (LSD), wymiana par (PEX), UPnP, NAT-PMP, obsługa proxy, nasiona sieci Web, globalne i ograniczenia prędkości dla każdego torrenta. Ponieważ Deluge mocno wykorzystuje bibliotekę libtorrent, posiada pełną listę dostarczanych funkcji.",
+    "pt_BR": "O Deluge contém os recursos comuns dos clientes BitTorrent, como criptografia de protocolo, DHT, descoberta de pares locais (LSD), troca de pares (PEX), UPnP, NAT-PMP, suporte a proxy, sementes web, limites globais e por torrent. Como o Deluge usa intensivamente a biblioteca libtorrent, ele possui uma lista completa das funcionalidades fornecidas.",
+    "sv_SE": "Deluge innehåller de vanliga funktionerna hos BitTorrent-klienter, såsom protokollkryptering, DHT, lokalt parupptäckt (LSD), parbyte (PEX), UPnP, NAT-PMP, proxystöd, webblöss, globala och torrentbaserade hastighetsbegränsningar. Eftersom Deluge använder libtorrent-biblioteket intensivt har den en fullständig lista över tillhandahållna funktioner.",
+    "uk_UA": "Deluge містить загальні функції клієнтів BitTorrent, такі як шифрування протоколу, DHT, локальне виявлення пірів (LSD), обмін пірами (PEX), UPnP, NAT-PMP, підтримка проксі, веб-сіди, глобальні та обмеження швидкості для кожного торрента. Оскільки Deluge сильно використовує бібліотеку libtorrent, він має повний список наданих функцій."
+  },
+  "developer": "Deluge Team",
+  "screenshot_link": [
+    "screenshot-1.webp",
+    "screenshot-2.webp",
+    "screenshot-3.webp",
+    "screenshot-4.webp"
+  ],
+  "tagline": {
+    "en_US": "A lightweight and free BitTorrent client.",
+    "zh_CN": "轻量级且免费的 BitTorrent 客户端。",
+    "ar_SA": "عميل BitTorrent خفيف ومجاني.",
+    "de_DE": "Ein leichtgewichtiger und kostenloser BitTorrent-Client.",
+    "es_ES": "Un cliente ligero y gratuito de BitTorrent.",
+    "fr_FR": "Un client BitTorrent léger et gratuit.",
+    "hu_HU": "Egy könnyűsúlyú és ingyenes BitTorrent kliens.",
+    "it_IT": "Un client BitTorrent leggero e gratuito.",
+    "ru_RU": "Легковесный и бесплатный клиент BitTorrent.",
+    "pl_PL": "Lekki i darmowy klient BitTorrent.",
+    "pt_BR": "Um cliente BitTorrent leve e gratuito.",
+    "sv_SE": "En lättviktig och gratis BitTorrent-klient.",
+    "uk_UA": "Легкий і безкоштовний клієнт BitTorrent."
+  },
+  "thumbnail": "thumbnail.webp",
+  "tips": {
+    "before_install": {
+      "en_US": "Default Password: `deluge`\n\nDefault Accessible Path in Deluge\n\n| Name | Value |\n| --- | --- |\n| DATA Path | `/DATA` |\n| Downloads Path | `/DATA/Downloads` |\n| Media Path | `/DATA/Media` |\n\nThe paths of other DATA subdirectories in CasaOS are also similar.\n\nPlease make sure you use the correct path when using Deluge.\n",
+      "zh_CN": "默认密码：`deluge`\n\nDeluge 中可访问的路径\n\n| 名称 | 值 |\n| --- | --- |\n| DATA 路径 | `/DATA` |\n| 下载路径 | `/DATA/Downloads` |\n| 媒体路径 | `/DATA/Media` |\n\nCasaOS 中其他 DATA 子目录的路径也类似。\n\n请确保在使用 Deluge 时使用正确的路径。\n"
+    }
+  }
+}

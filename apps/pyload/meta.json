@@ -1,0 +1,32 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "joaobosconff",
+  "category": "Media",
+  "description": {
+    "en_US": "pyLoad is a Free and Open Source download manager written in Python and designed to be extremely lightweight, easily extensible and fully manageable via web.",
+    "zh_CN": "pyLoad是一款用Python编写的免费开源下载管理器，设计极轻量，易于扩展，并通过Web完全可管理。",
+    "pt_BR": "pyLoad é um gerenciador de download gratuito e de código aberto escrito em Python e projetado para ser extremamente leve, facilmente extensível e totalmente gerenciável via web."
+  },
+  "developer": "linuxserver",
+  "screenshot_link": [
+    "screenshot-1.webp",
+    "screenshot-2.webp",
+    "screenshot-3.webp"
+  ],
+  "tagline": {
+    "en_US": "Free Downloader Manager.",
+    "zh_CN": "免费下载管理器。",
+    "pt_BR": "Gerenciador de download gratuito."
+  },
+  "thumbnail": "thumbnail.png",
+  "tips": {
+    "before_install": {
+      "en_US": "Default Account\n\n| Username | Password |\n|----------|----------|\n| `pyload`    | `pyload` |\n\nDefault Accessible Path in Pyload\n\n| Name | Value |\n| ---- | ----- |\n| Downloads Path | `/DATA/Downloads` |\n",
+      "zh_CN": "默认账户\n\n| 用户名 | 密码 |\n|----------|----------|\n| `pyload`    | `pyload` |\n\nPyload中的默认可访问路径\n\n| 名称 | 值 |\n| ---- | ----- |\n| 下载路径 | `/DATA/Downloads` |\n",
+      "pt_BR": "Conta Padrão\n\n| Usuário | Senha |\n|----------|----------|\n| `pyload`    | `pyload` |\n\n Diretório padrão no Pyload\n\n| Nome | Valor |\n| ---- | ----- |\n| Diretório de Download | `/DATA/Downloads` |\n"
+    }
+  }
+}

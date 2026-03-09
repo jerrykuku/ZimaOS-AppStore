@@ -1,0 +1,30 @@
+{
+  "architectures": [
+    "amd64",
+    "arm",
+    "arm64"
+  ],
+  "author": "IceWhaleTech",
+  "category": "Networking",
+  "description": {
+    "en_US": "A powerful tool for port forwarding, reverse proxy, dynamic DNS, wake-on-LAN, IPv4 NAT traversal, webdav services, task scheduling, and automatic certificate management.",
+    "zh_CN": "一款功能强大的端口转发、反向代理、动态域名、网络唤醒、IPv4内网穿透、webdav服务、计划任务和自动证书管理工具。"
+  },
+  "developer": "gdy666",
+  "screenshot_link": [
+    "screenshot-1.webp",
+    "screenshot-2.webp",
+    "screenshot-3.webp"
+  ],
+  "tagline": {
+    "en_US": "Powerful networking tool",
+    "zh_CN": "家用软硬路由公网利器"
+  },
+  "tips": {
+    "before_install": {
+      "en_US": "Default login account `666`, Default login password `666`,tips:`Before each update, remember to back up the configuration`.",
+      "zh_CN": "默认登录账号 `666`，默认登录密码 `666`,提示：`每次更新前，请记得备份好配置`"
+    }
+  },
+  "store_app_id": "lucky"
+}

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "store_id": "zimaos-appstore",
+  "name": {
+    "en_US": "ZimaOS AppStore",
+    "zh_CN": "ZimaOS 应用商店"
+  },
+  "description": {
+    "en_US": "Official ZimaOS application store, providing a curated collection of self-hosted applications.",
+    "zh_CN": "ZimaOS 官方应用商店，提供精选的自托管应用集合。"
+  },
+  "maintainer": "IceWhaleTech",
+  "url": "https://github.com/IceWhaleTech/ZimaOS-AppStore"
+}

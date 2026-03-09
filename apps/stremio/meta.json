@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "joaobosconff",
+  "category": "Media",
+  "description": {
+    "en_US": "Stremio offers a secure, modern and seamless entertainment experience. With its easy-to-use interface and diverse content library, including 4K HDR support, users can enjoy their favorite movies and TV shows across all their devices. And with its commitment to security, Stremio is the ultimate choice for a worry-free, high-quality streaming experience.",
+    "pt_BR": "Stremio oferece uma experiência de entretenimento segura, moderna e perfeita. Com sua interface fácil de usar e uma biblioteca de conteúdo diversificada, incluindo suporte a 4K HDR, os usuários podem curtir seus filmes e programas de TV favoritos em todos os seus dispositivos. E com seu compromisso com a segurança, o Stremio é a escolha definitiva para uma experiência de streaming sem preocupações e de alta qualidade.",
+    "zh_CN": "Stremio提供了一个安全、现代且无缝的娱乐体验。通过其易于使用的界面和多样化的内容库，包括对4K HDR的支持，用户可以在所有设备上欣赏他们喜爱的电影和电视节目。并且凭借其对安全的承诺，Stremio是一个无忧、高质量的流媒体体验的最佳选择。"
+  },
+  "developer": "Andreas Tsarida / Stremio",
+  "screenshot_link": [
+    "screenshot-1.webp",
+    "screenshot-2.webp",
+    "screenshot-3.webp"
+  ],
+  "tagline": {
+    "en_US": "Stremio is a modern media center that gives you the freedom to watch everything you want.",
+    "pt_BR": "Stremio é um centro de mídia moderno que lhe dá a liberdade de assistir a tudo o que você quiser.",
+    "zh_CN": "现代的媒体中心，提供自由观看您喜欢的一切的体验。"
+  }
+}

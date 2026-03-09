@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64",
+    "arm"
+  ],
+  "author": "Jason McFeetors",
+  "developer": "pyMedusa (https://github.com/pymedusa)",
+  "category": "Media",
+  "description": {
+    "en_US": "Automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic."
+  },
+  "screenshot_link": [
+    "screenshot-1.webp",
+    "screenshot-2.webp",
+    "screenshot-3.webp",
+    "screenshot-4.webp",
+    "screenshot-5.webp",
+    "screenshot-6.webp"
+  ],
+  "store_app_id": "medusa"
+}

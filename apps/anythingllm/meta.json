@@ -1,0 +1,30 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "developer": "Mintplex Labs",
+  "category": "AI",
+  "description": {
+    "en_US": "AnythingLLM is the easiest to use, all-in-one AI application that can do RAG, AI Agents, and much more with no code or infrastructure headaches.",
+    "en_UK": "AnythingLLM is the easiest to use, all-in-one AI application that can do RAG, AI Agents, and much more with no code or infrastructure headaches.",
+    "zh_CN": "AnythingLLM 是最易于使用的一体化 AI 应用程序，可以使用 RAG、AI 代理等功能，无需代码或基础设施麻烦。",
+    "ja_JP": "AnythingLLM は、コードやインフラストラクチャの問題を気にすることなく、RAG、AI エージェントなどを行う最も使いやすいオールインワン AI アプリケーションです。"
+  },
+  "screenshot_link": [
+    "screenshot-1.webp"
+  ],
+  "tagline": {
+    "en_US": "The all-in-one AI application.",
+    "en_UK": "The all-in-one AI application.",
+    "zh_CN": "一体化 AI 应用程序。",
+    "ja_JP": "オールインワン AI アプリケーション。"
+  },
+  "tips": {
+    "before_install": {
+      "en_US": "**Usage Tips**\nAnythingLLM supports but does not directly provide various LLMs backends, you need to configure the backends you need yourself.\nPlease refer to the [official documentation](https://docs.anythingllm.com) for more information.\n",
+      "en_UK": "**Usage Tips**\nAnythingLLM supports but does not directly provide various LLMs backends, you need to configure the backends you need yourself.\nPlease refer to the [official documentation](https://docs.anythingllm.com) for more information.\n",
+      "zh_CN": "**使用提示**\nAnythingLLM 支持但不直接提供各种LLMs后端，您需要自行配置需要的后端。\n请参考[官方文档](https://docs.anythingllm.com)以获取更多信息。\n",
+      "ja_JP": "**使用上のヒント**\nAnythingLLM は、さまざまな LLMs バックエンドをサポートしていますが、必要なバックエンドを自分で構成する必要があります。\n詳細については、[公式ドキュメント](https://docs.anythingllm.com)を参照してください。\n"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": {
+    "en_US": "JDownloader is a free, open-source download management tool with a huge community that makes downloading as easy and fast as it should be. Users can start, stop or pause downloads, set bandwith limitations, auto-extract archives and much more. It's an easy-to-extend framework that can save hours of your valuable time every day!",
+    "zh_CN": "JDownloader是一个免费的、开源的下载管理工具，拥有庞大的社区，使下载变得简单而快速。用户可以启动、停止或暂停下载，设置带宽限制，自动解压缩存档等等。它是一个易于扩展的框架，可以每天节省您宝贵时间的数小时！"
+  },
+  "tagline": {
+    "en_US": "Free & open-source download management tool",
+    "zh_CN": "免费且开源的下载管理工具"
+  },
+  "developer": "jdownloader",
+  "screenshot_link": [
+    "screenshot-1.webp",
+    "screenshot-2.webp"
+  ],
+  "author": "Fabio Tea",
+  "category": "Media",
+  "store_app_id": "jdownloader2"
+}

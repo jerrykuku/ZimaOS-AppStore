@@ -1,0 +1,46 @@
+{
+  "architectures": [
+    "amd64",
+    "arm",
+    "arm64"
+  ],
+  "author": "Chàra Rose",
+  "category": "Media",
+  "description": {
+    "en_US": "Crafty is an open source Minecraft control panel built using Tornado and AdminLTE, featuring server scheduling, a interactive console and the ability to run almost any type of Minecraft server",
+    "es_ES": "Crafty es un panel de control de Minecraft de código abierto creado con Tornado y AdminLTE, que incluye programación de servidores, una consola interactiva y la capacidad de ejecutar casi cualquier tipo de servidor de Minecraft.",
+    "zh_CN": "Crafty是一个使用Tornado和AdminLTE构建的开源Minecraft控制面板，具有服务器调度、交互式控制台和运行几乎任何类型的Minecraft服务器的功能。"
+  },
+  "developer": "Crafty Team",
+  "screenshot_link": [
+    "screenshot-1.webp",
+    "screenshot-2.webp",
+    "screenshot-3.webp",
+    "screenshot-4.webp",
+    "screenshot-5.webp",
+    "screenshot-6.webp",
+    "screenshot-7.webp"
+  ],
+  "tagline": {
+    "en_US": "Take control of your Minecraft servers.",
+    "es_ES": "Toma el control de tus servidores de Minecraft.",
+    "zh_CN": "掌控你的Minecraft服务器。"
+  },
+  "tips": {
+    "before_install": {
+      "ar_SA": "الحساب الافتراضي\n\n| اسم المستخدم | كلمة المرور |\n|----------|----------|\n| `admin`    | `app/config/default-creds.txt` |\n",
+      "de_DE": "Standardkonto\n| Benutzername | Passwort |\n|----------|----------|\n| `admin`    | `app/config/default-creds.txt` |\n",
+      "en_US": "Default Account\n| Username | Password |\n|----------|----------|\n| `admin`    | `app/config/default-creds.txt` |\n",
+      "es_ES": "Cuenta predeterminada\n| Nombre de usuario | Contraseña |\n|----------|----------|\n| `admin`    | `app/config/default-creds.txt` |\n",
+      "fr_FR": "Compte par défaut\n| Nom d'utilisateur | Mot de passe |\n|----------|----------|\n| `admin`    | `app/config/default-creds.txt` |\n",
+      "hu_HU": "Alapértelmezett fiók\n| Felhasználónév | Jelszó |\n|----------|----------|\n| `admin`    | `app/config/default-creds.txt` |\n",
+      "it_IT": "Account predefinito\n| Nome utente | Password |\n|----------|----------|\n| `admin`    | `app/config/default-creds.txt` |\n",
+      "pl_PL": "Konto domyślne\n| Nazwa użytkownika | Hasło |\n|----------|----------|\n| `admin`    | `app/config/default-creds.txt` |\n",
+      "pt_BR": "Conta padrão\n| Nome de usuário | Senha |\n|----------|----------|\n| `admin`    | `app/config/default-creds.txt` |\n",
+      "ru_RU": "Учетная запись по умолчанию\n| Имя пользователя | Пароль |\n|----------|----------|\n| `admin`    | `app/config/default-creds.txt` |\n",
+      "sv_SE": "Standardkonto\n| Användarnamn | Lösenord |\n|----------|----------|\n| `admin`    | `app/config/default-creds.txt` |\n",
+      "uk_UA": "Обліковий запис за замовчуванням\n| Ім'я користувача | Пароль |\n|----------|----------|\n| `admin`    | `app/config/default-creds.txt` |\n",
+      "zh_CN": "默认账号\n| 用户名 | 密码 |\n|----------|----------|\n| `admin`    | `app/config/default-creds.txt` |\n"
+    }
+  }
+}

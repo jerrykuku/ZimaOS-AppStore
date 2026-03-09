@@ -1,0 +1,19 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64",
+    "arm"
+  ],
+  "description": {
+    "en_US": "Threadfin is a M3U proxy server for Plex, Emby, Jellyfin and any client and provider which supports the .TS and .M3U8 (HLS) streaming formats.",
+    "zh_CN": "Threadfin是一个M3U代理服务器，适用于Plex、Emby、Jellyfin以及任何支持的客户端和提供商。TS和。M3U8（HLS）流格式。"
+  },
+  "tagline": {
+    "en_US": "M3U proxy server",
+    "zh_CN": "M3U代理服务器"
+  },
+  "developer": "jdownloader",
+  "author": "Fabio Tea",
+  "category": "Media",
+  "store_app_id": "threadfin"
+}

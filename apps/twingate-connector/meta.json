@@ -1,0 +1,20 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64",
+    "arm"
+  ],
+  "author": "Shubhankar Trivedi",
+  "category": "Networking",
+  "description": {
+    "en_US": "It's a connector for Twingate\"."
+  },
+  "developer": "Twingate",
+  "screenshot_link": [],
+  "tagline": {
+    "en_US": "Twingate Connector for CasaOS"
+  },
+  "thumbnail": "thumbnail.webp",
+  "tips": {},
+  "hostname": ""
+}

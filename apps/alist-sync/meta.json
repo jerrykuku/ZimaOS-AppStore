@@ -1,0 +1,57 @@
+{
+  "envs": [
+    {
+      "container": "TZ",
+      "description": {
+        "en_US": "Set the timezone for the alist-sync application."
+      }
+    }
+  ],
+  "ports": [
+    {
+      "container": "52441",
+      "description": {
+        "en_US": "The port used by alist-sync for its service."
+      }
+    }
+  ],
+  "volumes": [
+    {
+      "container": "/app/data",
+      "description": {
+        "en_US": "Directory where the alist-sync application stores its data.",
+        "zh_CN": "alist-sync 配置目录"
+      }
+    }
+  ],
+  "architectures": [
+    "amd64",
+    "arm",
+    "arm64"
+  ],
+  "author": "xjxjin",
+  "category": "Productivity",
+  "description": {
+    "en_US": "Alist-Sync is a storage synchronization tool based on the Web interface. It can achieve data synchronization and mutual backup among multiple network disks, and also has practical functions such as multi-task management, scheduled synchronization and difference handling.\n",
+    "zh_CN": "Alist-Sync 是一款基于 Web 界面的存储同步工具，它能够在多个网盘之间实现数据同步以及相互备份，并且具备多任务管理、定时同步、差异处理等实用功能。\n"
+  },
+  "developer": "xjxjin",
+  "screenshot_link": [
+    "screenshot-1.webp",
+    "screenshot-2.webp",
+    "screenshot-3.webp",
+    "screenshot-4.webp",
+    "screenshot-5.webp"
+  ],
+  "tagline": {
+    "en_US": "An Alist storage synchronization tool based on the Web interface.",
+    "zh_CN": "一个基于 Web 界面的 Alist 存储同步工具。"
+  },
+  "thumbnail": "thumbnail.webp",
+  "tips": {
+    "before_install": {
+      "en_US": "The default login password is admin/admin.",
+      "zh_CN": "默认登录密码 admin/admin。"
+    }
+  }
+}

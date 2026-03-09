@@ -1,0 +1,28 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Developer",
+  "description": {
+    "en_US": "PocketBase is an open-source backend solution that combines a real-time database, authentication, file storage, and an admin dashboard into a single, portable executable.",
+    "pt_BR": "PocketBase é uma solução de backend de código aberto que combina um banco de dados em tempo real, autenticação, armazenamento de arquivos e um painel de administração em um único executável portátil."
+  },
+  "developer": "Gani Georgiev",
+  "screenshot_link": [
+    "screenshot-1.webp",
+    "screenshot-2.webp",
+    "screenshot-3.webp"
+  ],
+  "tagline": {
+    "en_US": "Open Source realtime backend in 1 file",
+    "pt_BR": "Backend open source em tempo real em um único arquivo"
+  },
+  "tips": {
+    "before_install": {
+      "en_US": "Default Account\n| Email | Password |\n| ----- | -------- |\n| `casaos@admin.local` | `adminpocketbase` |\n",
+      "pt_BR": "Conta Padrão\n| Email | Senha |\n| ----- | -------- |\n| `casaos@admin.local` | `adminpocketbase` |\n"
+    }
+  },
+  "thumbnail": "thumbnail.webp"
+}

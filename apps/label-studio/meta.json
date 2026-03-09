@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CorrectRoadH",
+  "category": "AI",
+  "description": {
+    "en_US": "Label Studio is an open source data labeling tool. It lets you label data types like audio, text, images, videos, and time series with a simple and straightforward UI and export to various model formats. It can be used to prepare raw data or improve existing training data to get more accurate ML models.",
+    "zh_CN": "Label Studio 是一个开源数据标记工具。 它允许您使用简单直观的 UI 来标记音频、文本、图像、视频和时间序列等数据类型，并导出为各种模型格式。 它可用于准备原始数据或改进现有训练数据以获得更准确的机器学习模型。"
+  },
+  "developer": "Yidadaa",
+  "screenshot_link": [
+    "screenshot-1.webp"
+  ],
+  "tagline": {
+    "en_US": "Label Studio is an open source data labeling tool. It lets you label data types like audio, text, images, videos, and time series with a simple and straightforward UI and export to various model formats. It can be used to prepare raw data or improve existing training data to get more accurate ML models.",
+    "zh_CN": "Label Studio 是一个开源数据标记工具。 它允许您使用简单直观的 UI 来标记音频、文本、图像、视频和时间序列等数据类型，并导出为各种模型格式。 它可用于准备原始数据或改进现有训练数据以获得更准确的机器学习模型。"
+  },
+  "thumbnail": "thumbnail.webp",
+  "tips": {}
+}

@@ -1,0 +1,33 @@
+name: gopeed
+services:
+  gopeed:
+    container_name: gopeed
+    deploy:
+      resources:
+        limits:
+          memory: 256M
+        reservations:
+          memory: 256M
+    image: liwei2633/gopeed:v1.8.3
+    ports:
+    - target: 9999
+      published: '9999'
+      protocol: tcp
+    restart: unless-stopped
+    volumes:
+    - type: bind
+      source: /DATA/AppData/$AppID/data
+      target: /app/storage
+    - type: bind
+      source: /DATA/Downloads
+      target: /app/Downloads
+    network_mode: bridge
+    privileged: false
+x-casaos:
+  main: gopeed
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Gopeed/icon.png
+  title:
+    en_US: Gopeed
+    pt_BR: Gopeed
+  index: /
+  port_map: '9999'

@@ -1,0 +1,20 @@
+{
+  "architectures": [
+    "amd64",
+    "arm",
+    "arm64"
+  ],
+  "author": "rstuhlmuller",
+  "category": "Networking",
+  "description": {
+    "en_US": "Program to keep DNS A and/or AAAA records updated for multiple DNS providers"
+  },
+  "developer": "qmcgaw",
+  "screenshot": [
+    "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/DDNS-Updater/screenshot-1.png"
+  ],
+  "tagline": {
+    "en_US": "Simple and easy to use DDNS",
+    "zh_CN": "简单好用的DDNS"
+  }
+}

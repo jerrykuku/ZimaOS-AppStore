@@ -1,0 +1,29 @@
+name: tautulli
+services:
+  tautulli:
+    environment:
+      PGID: '1000'
+      PUID: '1000'
+      TZ: Europe/London
+    image: linuxserver/tautulli:2.13.2
+    deploy:
+      resources:
+        reservations:
+          memory: 64M
+    network_mode: bridge
+    ports:
+    - target: 8181
+      published: '8181'
+    restart: unless-stopped
+    volumes:
+    - type: bind
+      source: /DATA/AppData/$AppID/config
+      target: /config
+    container_name: tautulli
+x-casaos:
+  main: tautulli
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Tautulli/icon.png
+  title:
+    en_US: Tautulli
+  index: /
+  port_map: '8181'

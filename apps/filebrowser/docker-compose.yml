@@ -1,0 +1,33 @@
+name: filebrowser
+services:
+  filebrowser:
+    environment:
+      PGID: $PGID
+      PUID: $PUID
+      TZ: $TZ
+    image: filebrowser/filebrowser:v2.49.0
+    deploy:
+      resources:
+        reservations:
+          memory: 64M
+    network_mode: bridge
+    ports:
+    - target: 80
+      published: '10180'
+      protocol: tcp
+    restart: unless-stopped
+    volumes:
+    - type: bind
+      source: /DATA/AppData/$AppID/db
+      target: /db
+    - type: bind
+      source: /DATA
+      target: /srv
+    container_name: filebrowser
+x-casaos:
+  main: filebrowser
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/FileBrowser/icon.png
+  title:
+    en_US: FileBrowser
+  index: /
+  port_map: '10180'

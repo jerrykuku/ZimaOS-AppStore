@@ -1,0 +1,45 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": {
+    "en_US": "Overseerr is a free and open source software application for managing requests for your media library. It integrates with your existing services, such as Sonarr, Radarr, and Plex!",
+    "zh_CN": "Overseerr 是一个免费开源的软件应用程序，用于管理媒体库的请求。它与您现有的服务集成，如 Sonarr、Radarr 和 Plex！",
+    "ar_SA": "Overseerr هو تطبيق برمجي مجاني ومفتوح المصدر لإدارة الطلبات لمكتبة الوسائط الخاصة بك. يدمج مع خدماتك الحالية ، مثل Sonarr و Radarr و Plex!",
+    "de_DE": "Overseerr ist eine kostenlose und Open-Source-Softwareanwendung zur Verwaltung von Anfragen für Ihre Medienbibliothek. Es integriert sich in Ihre vorhandenen Dienste wie Sonarr, Radarr und Plex!",
+    "es_ES": "Overseerr es una aplicación de software gratuita y de código abierto para gestionar solicitudes para tu biblioteca de medios. ¡Se integra con tus servicios existentes, como Sonarr, Radarr y Plex!",
+    "fr_FR": "Overseerr est une application logicielle gratuite et open source pour la gestion des demandes de votre bibliothèque multimédia. Il s'intègre à vos services existants, tels que Sonarr, Radarr et Plex !",
+    "hu_HU": "Az Overseerr egy ingyenes és nyílt forráskódú szoftveralkalmazás a média könyvtáradban található kérések kezelésére. Integrálódik a meglévő szolgáltatásaiddal, mint például a Sonarr, Radarr és Plex!",
+    "it_IT": "Overseerr è un'applicazione software gratuita e open source per la gestione delle richieste della tua libreria multimediale. Si integra con i tuoi servizi esistenti, come Sonarr, Radarr e Plex!",
+    "ru_RU": "Overseerr - это бесплатное и открытое программное приложение для управления запросами в вашей медиатеке. Оно интегрируется с вашими существующими сервисами, такими как Sonarr, Radarr и Plex!",
+    "pl_PL": "Overseerr to darmowy i otwarty program do zarządzania żądaniami w Twojej bibliotece multimedialnej. Współpracuje z istniejącymi usługami, takimi jak Sonarr, Radarr i Plex!",
+    "pt_BR": "O Overseerr é um aplicativo de software gratuito e de código aberto para gerenciar solicitações em sua biblioteca de mídia. Ele se integra aos seus serviços existentes, como Sonarr, Radarr e Plex!",
+    "sv_SE": "Overseerr är en gratis och öppen källkodsprogramvara för att hantera förfrågningar för din mediebibliotek. Den integrerar med dina befintliga tjänster, som Sonarr, Radarr och Plex!",
+    "uk_UA": "Overseerr - це безкоштовне та відкрите програмне забезпечення для керування запитами до вашої медіатеки. Воно інтегрується з існуючими сервісами, такими як Sonarr, Radarr і Plex!"
+  },
+  "tagline": {
+    "en_US": "Overseerr is a request management and media discovery tool built to work with your existing Plex ecosystem.",
+    "zh_CN": "Overseerr 是一个请求管理和媒体发现工具，专为与您现有的 Plex 生态系统配合使用而构建。",
+    "ar_SA": "Overseerr هو أداة إدارة الطلبات واكتشاف الوسائط المبنية للعمل مع نظام Plex الحالي الخاص بك.",
+    "de_DE": "Overseerr ist ein Anforderungsverwaltungs- und Medienentdeckungstool, das mit Ihrem bestehenden Plex-Ökosystem funktioniert.",
+    "es_ES": "Overseerr es una herramienta de gestión de solicitudes y descubrimiento de medios construida para funcionar con su ecosistema Plex existente.",
+    "fr_FR": "Overseerr est un outil de gestion des demandes et de découverte de médias conçu pour fonctionner avec votre écosystème Plex existant.",
+    "hu_HU": "Az Overseerr egy kérelemkezelő és médiakereső eszköz, amelyet a meglévő Plex ökoszisztémáddal együtt lehet használni.",
+    "it_IT": "Overseerr è uno strumento di gestione delle richieste e scoperta dei media creato per funzionare con il tuo ecosistema Plex esistente.",
+    "ru_RU": "Overseerr - это инструмент управления запросами и обнаружения медиа, разработанный для работы с вашей существующей экосистемой Plex.",
+    "pl_PL": "Overseerr to narzędzie do zarządzania żądaniami i odkrywania multimediów, zaprojektowane do pracy w Twoim istniejącym ekosystemie Plex.",
+    "pt_BR": "O Overseerr é uma ferramenta de gerenciamento de solicitações e descoberta de mídia construída para funcionar com seu ecossistema Plex existente.",
+    "sv_SE": "Overseerr är ett verktyg för hantering av begäranden och upptäckt av medier som är utformat för att fungera med ditt befintliga Plex-ekosystem.",
+    "uk_UA": "Overseerr - це інструмент керування запитами та виявлення медіа, створений для роботи з вашою існуючою екосистемою Plex."
+  },
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "screenshot_link": [
+    "screenshot-1.webp",
+    "screenshot-2.webp",
+    "screenshot-3.webp"
+  ],
+  "thumbnail": "thumbnail.png",
+  "category": "Media"
+}

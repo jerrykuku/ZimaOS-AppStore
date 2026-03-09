@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "joaobosconff",
+  "category": "Productivity",
+  "description": {
+    "en_US": "Glances is an open-source system cross-platform monitoring tool. It allows real-time monitoring of various aspects of your system such as CPU, memory, disk, network usage etc.",
+    "zh_CN": "Glances 是一个开源的跨平台系统监控工具。它允许实时监控系统的各个方面，如 CPU、内存、磁盘、网络使用情况等。",
+    "pt_BR": "Glances é uma ferramenta de monitoramento de sistema de plataforma cruzada de código aberto. Ele permite o monitoramento em tempo real de vários aspectos do seu sistema, como CPU, memória, disco, uso da rede, etc."
+  },
+  "developer": "Nicolas Hennion",
+  "screenshot_link": [
+    "screenshot-1.webp"
+  ],
+  "tagline": {
+    "en_US": "Cross-platform monitoring tool.",
+    "zh_CN": "跨平台监控工具",
+    "pt_BR": "Ferramenta de monitoramento multiplataforma."
+  }
+}

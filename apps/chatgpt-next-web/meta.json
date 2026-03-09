@@ -1,0 +1,23 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CorrectRoadH,Cp0204",
+  "category": "AI",
+  "description": {
+    "en_US": "An intelligent chat application based on ChatGPT, supports fast deployment, Markdown, beautiful UI, fluid response, privacy and security, and allows customization of preset roles for quick creation, sharing, and debugging of personalized conversations.",
+    "zh_CN": "一个基于 ChatGPT 的智能聊天应用，支持快速部署、Markdown 支持、精美 UI、流式响应、隐私安全等多个功能，并且能够自定义预制角色快速创建、分享和调试个性化对话。"
+  },
+  "developer": "Yidadaa",
+  "screenshot_link": [
+    "screenshot-1.webp",
+    "screenshot-2.webp"
+  ],
+  "tagline": {
+    "en_US": "A well-designed cross-platform ChatGPT UI.",
+    "zh_CN": "精心设计的跨平台 ChatGPT UI"
+  },
+  "thumbnail": "thumbnail.webp",
+  "tips": {}
+}

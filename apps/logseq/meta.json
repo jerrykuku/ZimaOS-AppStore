@@ -1,0 +1,25 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Productivity",
+  "description": {
+    "en_US": "A privacy-first, open-source platform for knowledge management and collaboration.",
+    "zh_CN": "A privacy-first, open-source platform for knowledge management and collaboration."
+  },
+  "developer": "Logseq  Team",
+  "screenshot_link": [
+    "screenshot-1.webp",
+    "screenshot-2.webp",
+    "screenshot-3.webp",
+    "screenshot-4.webp"
+  ],
+  "tagline": {
+    "en_US": "A privacy-first, open-source platform for knowledge management and collaboration.",
+    "zh_CN": "A privacy-first, open-source platform for knowledge management and collaboration."
+  },
+  "thumbnail": "thumbnail.webp",
+  "tips": {}
+}

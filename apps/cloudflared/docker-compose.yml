@@ -1,0 +1,21 @@
+name: cloudflared
+services:
+  cloudflared:
+    image: wisdomsky/cloudflared-web:2025.2.1
+    restart: unless-stopped
+    network_mode: host
+    ports:
+    - target: 14333
+      published: '14333'
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: /DATA/AppData/casaos-cloudflared/config
+      target: /config
+    container_name: cloudflared
+x-casaos:
+  main: cloudflared
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Cloudflared/icon.png
+  title:
+    en_US: Cloudflared
+  port_map: '14333'

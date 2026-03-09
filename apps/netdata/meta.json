@@ -1,0 +1,24 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64",
+    "arm"
+  ],
+  "author": "f4bio",
+  "category": "Productivity",
+  "description": {
+    "en_US": "Netdata is a real-time performance and health monitoring solution that helps you visualize and understand the behavior of your systems.",
+    "zh_CN": "Netdata是一个实时性能和健康监控解决方案，帮助您可视化并理解系统的行为。"
+  },
+  "tagline": {
+    "en_US": "Real-time Performance Monitoring",
+    "zh_CN": "实时性能监控"
+  },
+  "hostname": "",
+  "screenshot_link": [
+    "screenshot-1.webp",
+    "screenshot-2.webp",
+    "screenshot-3.webp"
+  ],
+  "store_app_id": "netdata"
+}

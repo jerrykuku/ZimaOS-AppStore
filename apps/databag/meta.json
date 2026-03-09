@@ -1,0 +1,21 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": {
+    "en_US": "Databag is a federated chat app for self-hosting that focuses on user privacy and security; the service includes clients for iOS, Android, and browser.",
+    "zh_CN": "Databag是一个自托管的联邦聊天应用，专注于用户隐私和安全；该服务包括iOS、Android和浏览器的客户端。"
+  },
+  "tagline": {
+    "en_US": "Messenger for the Decentralized Web",
+    "zh_CN": "分布式网络的通讯应用"
+  },
+  "developer": "balzack",
+  "screenshot_link": [
+    "screenshot-1.webp",
+    "screenshot-2.webp"
+  ],
+  "author": "Pierre Balzack",
+  "category": "Social"
+}

@@ -1,0 +1,12 @@
+name: playit-agent
+services:
+  playit-agent:
+    restart: unless-stopped
+    image: ghcr.io/mafen/playit-docker:latest
+    network_mode: bridge
+    container_name: playit-agent
+x-casaos:
+  main: playit-agent
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/playit-agent/icon.png
+  title:
+    en_US: Playit Agent

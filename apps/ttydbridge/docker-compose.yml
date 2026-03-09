@@ -1,0 +1,33 @@
+name: ttydbridge
+services:
+  ttydbridge:
+    container_name: ttydbridge
+    deploy:
+      resources:
+        reservations:
+          memory: 8M
+    environment:
+    - EXEC_DIR=/opt
+    - PORT=2222
+    - START_COMMAND=login
+    image: cp0204/ttydbridge:v0.0.3
+    labels:
+      icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/ttydbridge/icon.png
+    pid: host
+    privileged: true
+    restart: unless-stopped
+    volumes:
+    - type: bind
+      source: /opt
+      target: /opt
+      bind:
+        create_host_path: true
+    network_mode: bridge
+x-casaos:
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/ttydbridge/icon.png
+  index: /
+  main: ttydbridge
+  port_map: '2222'
+  scheme: http
+  title:
+    en_US: ttydBridge

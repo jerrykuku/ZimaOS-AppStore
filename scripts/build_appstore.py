@@ -300,12 +300,21 @@ def split_compose(compose_data):
         else:
             meta[key] = value
 
-    # Remove service-level x-casaos blocks
+    # Clean up service-level blocks
     services = compose_data.get("services", {})
     if isinstance(services, dict):
         for svc_name, svc_def in services.items():
-            if isinstance(svc_def, dict) and "x-casaos" in svc_def:
+            if not isinstance(svc_def, dict):
+                continue
+            # Remove service-level x-casaos blocks
+            if "x-casaos" in svc_def:
                 del svc_def["x-casaos"]
+            # Remove legacy labels.icon (superseded by x-casaos.icon)
+            labels = svc_def.get("labels", {})
+            if isinstance(labels, dict) and "icon" in labels:
+                del labels["icon"]
+                if not labels:
+                    del svc_def["labels"]
 
     # Put back minimal x-casaos
     compose_data["x-casaos"] = compose_xcasaos

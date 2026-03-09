@@ -9,7 +9,7 @@ on:
       base_url:
         description: "Base URL used by build_appstore.py"
         required: false
-        default: "https://cdn.jsdelivr.net/gh/IceWhaleTech/ZimaOS-AppStore@gh-pages"
+        default: "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 
 permissions:
   contents: write

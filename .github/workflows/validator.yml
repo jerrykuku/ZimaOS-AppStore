@@ -55,7 +55,9 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install pyyaml Pillow
+        run: |
+          sudo apt-get update && sudo apt-get install -y librsvg2-bin
+          pip install pyyaml Pillow
 
       - name: Validate appstore build
         run: |

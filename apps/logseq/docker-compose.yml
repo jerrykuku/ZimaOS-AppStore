@@ -29,7 +29,7 @@ services:
     container_name: logseq
 x-casaos:
   main: logseq
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Logseq/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/logseq/icon.svg
   title:
     en_US: Logseq
   port_map: '3325'

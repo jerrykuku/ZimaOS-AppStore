@@ -13,8 +13,8 @@
   },
   "developer": "jdownloader",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jdownloader2/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jdownloader2/screenshot-2.webp"
   ],
   "author": "Fabio Tea",
   "category": "Media",

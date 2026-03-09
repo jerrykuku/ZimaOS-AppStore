@@ -24,9 +24,9 @@
   },
   "developer": "mrmn2",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pdfding/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pdfding/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pdfding/screenshot-3.webp"
   ],
   "tagline": {
     "en_US": "Selfhosted PDF manager, viewer and editor",
@@ -45,7 +45,7 @@
     "ru_RU": "Самостоятельно размещаемый менеджер, просмотрщик и редактор PDF",
     "tr_TR": "Kendi kendine barındırılan PDF yöneticisi, görüntüleyicisi ve düzenleyicisi"
   },
-  "thumbnail": "thumbnail.png",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pdfding/thumbnail.png",
   "tips": {
     "before_install": {
       "en_US": "After installation, you can access PdfDing at http://your-server-ip:8000. Create your first admin account during the initial setup.\n\nNote: If you encounter access issues, you may need to manually edit the docker-compose.yml file and replace the HOST_NAME environment variable with your actual server IP address.\n",

@@ -35,7 +35,7 @@ networks:
     driver: bridge
 x-casaos:
   main: langflow
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/LangFlow/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/langflow/icon.svg
   scheme: http
   port_map: '17860'
   index: /

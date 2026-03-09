@@ -14,7 +14,7 @@
   "tagline": {
     "en_US": "Twingate Connector for CasaOS"
   },
-  "thumbnail": "thumbnail.webp",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/twingate-connector/thumbnail.webp",
   "tips": {},
   "hostname": ""
 }

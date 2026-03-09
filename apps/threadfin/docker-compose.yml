@@ -20,7 +20,7 @@ services:
     container_name: threadfin
 x-casaos:
   main: threadfin
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Threadfin/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/threadfin/icon.svg
   index: /web/
   port_map: '34400'
   scheme: http

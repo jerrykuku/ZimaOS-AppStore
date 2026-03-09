@@ -22,7 +22,7 @@ services:
           memory: 500M
 x-casaos:
   main: twingate-connector
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Twingate/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/twingate-connector/icon.svg
   title:
     en_US: Twingate
   index: /

@@ -26,9 +26,9 @@
   },
   "developer": "OpenSpeedTest",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/openspeedtest/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/openspeedtest/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/openspeedtest/screenshot-3.webp"
   ],
   "tagline": {
     "en_US": "HTML5 Network Speed Test Server.",
@@ -45,6 +45,6 @@
     "sv_SE": "HTML5-nätverkshastighetstestserver.",
     "uk_UA": "HTML5-сервер тестування швидкості мережі."
   },
-  "thumbnail": "thumbnail.webp",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/openspeedtest/thumbnail.webp",
   "tips": {}
 }

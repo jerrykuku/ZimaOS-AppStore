@@ -19,7 +19,7 @@ services:
     container_name: grafana
 x-casaos:
   main: grafana
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Grafana/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/grafana/icon.svg
   title:
     en_US: Grafana
   index: /

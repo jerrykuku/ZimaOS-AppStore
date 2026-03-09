@@ -22,10 +22,10 @@
   },
   "developer": "Readarr Team",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp",
-    "screenshot-4.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/readarr/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/readarr/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/readarr/screenshot-3.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/readarr/screenshot-4.webp"
   ],
   "tagline": {
     "en_US": "Ebook and audiobook collection manager for Usenet and BitTorrent users.",
@@ -42,6 +42,6 @@
     "sv_SE": "E-bokssamling för användare av Usenet och BitTorrent.",
     "uk_UA": "Менеджер колекцій електронних книг і аудіокниг для користувачів Usenet і BitTorrent."
   },
-  "thumbnail": "thumbnail.webp",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/readarr/thumbnail.webp",
   "tips": {}
 }

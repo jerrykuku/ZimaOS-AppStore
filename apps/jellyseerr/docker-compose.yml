@@ -31,5 +31,5 @@ x-casaos:
   title:
     en_US: Jellyseerr
   main: jellyseerr
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Jellyseerr/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jellyseerr/icon.svg
   port_map: '5055'

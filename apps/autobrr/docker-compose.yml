@@ -20,4 +20,4 @@ x-casaos:
   port_map: '7474'
   title:
     en_US: Autobrr
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Autobrr/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/autobrr/icon.svg

@@ -19,7 +19,7 @@
     "uk_UA": "Snapdrop - це прогресивний веб-додаток (PWA), який дозволяє передавати файли між пристроями в одній мережі без необхідності встановлювати що-небудь."
   },
   "screenshot_link": [
-    "screenshot-1.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/snapdrop/screenshot-1.webp"
   ],
   "tagline": {
     "en_US": "Cross-platform file sharing made easy.",

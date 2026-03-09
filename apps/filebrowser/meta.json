@@ -23,9 +23,9 @@
   },
   "developer": "File Browser",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/filebrowser/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/filebrowser/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/filebrowser/screenshot-3.webp"
   ],
   "tagline": {
     "en_US": "Upload, delete, preview, rename, edit and share your files.",
@@ -42,7 +42,7 @@
     "sv_SE": "Ladda upp, ta bort, förhandsgranska, byt namn, redigera och dela dina filer.",
     "uk_UA": "Завантажте, видаліть, перегляньте, перейменуйте, відредагуйте і поділіться своїми файлами."
   },
-  "thumbnail": "thumbnail.webp",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/filebrowser/thumbnail.webp",
   "tips": {
     "before_install": {
       "en_US": "Default Account\n\n| Username | Password |\n| -------- | -------- |\n| `admin`    | `admin`    |\n",

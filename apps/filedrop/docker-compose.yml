@@ -22,7 +22,7 @@ services:
     container_name: filedrop
 x-casaos:
   main: filedrop
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Filedrop/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/filedrop/icon.svg
   title:
     en_US: FileDrop
   port_map: '8000'

@@ -31,7 +31,7 @@ services:
     container_name: icewhale-stable-diffusion-webui
 x-casaos:
   main: icewhale-stable-diffusion-webui
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/StableDiffusionWebUI/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/icewhale-stable-diffusion-webui/icon.svg
   scheme: http
   title:
     en_US: Stable Diffusion

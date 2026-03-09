@@ -27,7 +27,7 @@ services:
     container_name: calibre-web
 x-casaos:
   main: calibre-web
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Calibre-web/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/calibre-web/icon.svg
   title:
     en_US: Calibre-web
   index: /

@@ -33,7 +33,7 @@ services:
     container_name: openhab
 x-casaos:
   main: openhab
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/OpenHAB/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/openhab/icon.svg
   title:
     en_US: OpenHAB
   index: /

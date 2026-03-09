@@ -22,9 +22,9 @@
   },
   "developer": "PhotoPrism",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/photoprism/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/photoprism/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/photoprism/screenshot-3.webp"
   ],
   "tagline": {
     "en_US": "Browse Your Life in Images",
@@ -41,7 +41,7 @@
     "sv_SE": "Bläddra, organisera och dela din fotokollektion",
     "uk_UA": "Перегляд, організація та обмін фотоколекцією"
   },
-  "thumbnail": "thumbnail.webp",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/photoprism/thumbnail.webp",
   "tips": {
     "before_install": {
       "en_US": "## PhotoPrism\n\nDefault Account\n\n| Username | Password |\n| -------- | -------- |\n| `admin`    | `casaos`   |\n",

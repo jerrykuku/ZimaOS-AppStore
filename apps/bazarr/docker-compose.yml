@@ -29,7 +29,7 @@ services:
     container_name: bazarr
 x-casaos:
   main: bazarr
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Bazarr/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/bazarr/icon.svg
   title:
     en_US: Bazarr
   port_map: '6767'

@@ -20,7 +20,7 @@ services:
     privileged: false
 x-casaos:
   main: myspeed
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/MySpeed/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/myspeed/icon.svg
   title:
     en_US: MySpeed
     pt_BR: MySpeed

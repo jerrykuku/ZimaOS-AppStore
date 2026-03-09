@@ -116,7 +116,7 @@ networks:
     driver: bridge
 x-casaos:
   main: maybe-web
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Maybe/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/maybe/icon.svg
   scheme: http
   port_map: '23000'
   index: /

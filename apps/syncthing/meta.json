@@ -40,10 +40,10 @@
     "ru_RU": "Открытая децентрализованная синхронизация файлов",
     "tr_TR": "Açık dağıtık dosya senkronizasyonu"
   },
-  "thumbnail": "thumbnail.webp",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/syncthing/thumbnail.webp",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/syncthing/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/syncthing/screenshot-2.webp"
   ],
   "tips": {}
 }

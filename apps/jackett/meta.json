@@ -22,9 +22,9 @@
   },
   "developer": "Jackett",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jackett/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jackett/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jackett/screenshot-3.webp"
   ],
   "tagline": {
     "en_US": "Jackett works as a proxy server",
@@ -41,6 +41,6 @@
     "sv_SE": "Jackett fungerar som en proxyserver",
     "uk_UA": "Jackett працює як проксі-сервер"
   },
-  "thumbnail": "thumbnail.webp",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jackett/thumbnail.webp",
   "tips": {}
 }

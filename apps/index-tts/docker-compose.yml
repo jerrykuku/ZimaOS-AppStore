@@ -33,4 +33,4 @@ x-casaos:
   port_map: '17869'
   index: /
   scheme: http
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Index-TTS/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/index-tts/icon.svg

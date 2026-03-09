@@ -25,11 +25,11 @@
   },
   "developer": "Xhofe",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp",
-    "screenshot-4.webp",
-    "screenshot-5.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/alist/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/alist/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/alist/screenshot-3.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/alist/screenshot-4.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/alist/screenshot-5.webp"
   ],
   "tagline": {
     "en_US": "Mount your cloud drive on your home NAS",
@@ -48,7 +48,7 @@
     "ru_RU": "Подключите ваш облачный диск к домашнему NAS",
     "tr_TR": "Bulut sürücünüzü ev NAS'ınıza bağlayın"
   },
-  "thumbnail": "thumbnail.webp",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/alist/thumbnail.webp",
   "tips": {
     "before_install": {
       "en_US": "After installation, please check the initial password in the container log (Settings - TopRight - Terminal and Logs - Logs).",

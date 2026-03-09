@@ -26,7 +26,7 @@ services:
     container_name: smokeping
 x-casaos:
   main: smokeping
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Smokeping/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/smokeping/icon.svg
   title:
     en_US: Smokeping
   port_map: '10280'

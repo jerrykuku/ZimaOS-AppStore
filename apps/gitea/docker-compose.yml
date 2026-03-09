@@ -25,7 +25,7 @@ services:
     container_name: gitea
 x-casaos:
   main: gitea
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Gitea/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/gitea/icon.svg
   title:
     en_US: Gitea
   index: /

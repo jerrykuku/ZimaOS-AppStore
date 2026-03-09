@@ -22,9 +22,9 @@
   },
   "developer": "Jellyfin",
   "screenshot_link": [
-    "screenshot-1.png",
-    "screenshot-2.png",
-    "screenshot-3.png"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jellyfin-nvidia/screenshot-1.png",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jellyfin-nvidia/screenshot-2.png",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jellyfin-nvidia/screenshot-3.png"
   ],
   "tagline": {
     "en_US": "The personal Media System",
@@ -41,6 +41,6 @@
     "sv_SE": "Lägger dig i centrum av dina medier.",
     "uk_UA": "Помагає вам контролювати вашу медіаінформацію."
   },
-  "thumbnail": "thumbnail.png",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jellyfin-nvidia/thumbnail.png",
   "tips": {}
 }

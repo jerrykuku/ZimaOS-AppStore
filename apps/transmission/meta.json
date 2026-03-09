@@ -24,9 +24,9 @@
   },
   "developer": "Transmission",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/transmission/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/transmission/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/transmission/screenshot-3.webp"
   ],
   "tagline": {
     "en_US": "Transmission is a cross-platform BitTorrent client",
@@ -45,7 +45,7 @@
     "ru_RU": "Transmission — это кроссплатформенный BitTorrent-клиент",
     "tr_TR": "Transmission, platformlar arası bir BitTorrent istemcisidir"
   },
-  "thumbnail": "thumbnail.webp",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/transmission/thumbnail.webp",
   "tips": {
     "before_install": {
       "en_US": "| username | password |\n| -------- | -------- |\n| `casaos` | `casaos` |\n",

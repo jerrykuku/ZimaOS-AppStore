@@ -27,7 +27,7 @@ services:
       target: /var/run/docker.sock
     container_name: portainer
 x-casaos:
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Portainer/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/portainer/icon.svg
   main: portainer
   title:
     en_US: Portainer

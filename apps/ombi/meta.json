@@ -22,9 +22,9 @@
   },
   "developer": "Sabnzbd Team",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ombi/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ombi/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ombi/screenshot-3.webp"
   ],
   "tagline": {
     "en_US": "Friendly media request tool, automatically syncs with your media servers!",
@@ -41,6 +41,6 @@
     "sv_SE": "Vänlig mediaförfrågan, synkroniserar automatiskt med dina mediaservrar!",
     "uk_UA": "Дружній інструмент запиту медіа, автоматично синхронізується з вашими медіа-серверами!"
   },
-  "thumbnail": "thumbnail.webp",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ombi/thumbnail.webp",
   "tips": {}
 }

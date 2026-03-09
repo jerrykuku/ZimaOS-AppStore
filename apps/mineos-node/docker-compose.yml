@@ -25,7 +25,7 @@ networks:
   mineos: null
 x-casaos:
   main: mineos
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/MineOS/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/mineos-node/icon.svg
   title:
     en_US: MineOS
   index: /admin/index.html

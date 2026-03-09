@@ -26,9 +26,9 @@
   },
   "developer": "Pi-hole",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pihole/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pihole/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pihole/screenshot-3.webp"
   ],
   "tagline": {
     "en_US": "Network-wide Ad Blocking",
@@ -47,7 +47,7 @@
     "ru_RU": "Блокировка Рекламы на Уровне Сети",
     "tr_TR": "Ağ Çapında Reklam Engelleme"
   },
-  "thumbnail": "thumbnail.png",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pihole/thumbnail.jpg",
   "tips": {
     "before_install": {
       "en_US": "Default password: `casaos`\n",

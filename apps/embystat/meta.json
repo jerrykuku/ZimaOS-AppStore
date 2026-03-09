@@ -22,9 +22,9 @@
   },
   "developer": "Embystart Team",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/embystat/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/embystat/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/embystat/screenshot-3.webp"
   ],
   "tagline": {
     "en_US": "Calculate all kinds of statistics from your (local) Emby or Jellyfin server",
@@ -41,6 +41,6 @@
     "sv_SE": "Beräkna alla typer av statistik från din (lokala) Emby- eller Jellyfin-server",
     "uk_UA": "Обчисліть всі види статистики з вашого (локального) сервера Emby або Jellyfin"
   },
-  "thumbnail": "thumbnail.png",
+  "thumbnail": "",
   "tips": {}
 }

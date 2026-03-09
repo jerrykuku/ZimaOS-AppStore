@@ -25,9 +25,9 @@
   },
   "developer": "GopeedLab",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/gopeed/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/gopeed/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/gopeed/screenshot-3.webp"
   ],
   "tagline": {
     "en_US": "Open source, lightweight, native, supports (HTTP, BitTorrent, Magnet, etc.) for downloading.",

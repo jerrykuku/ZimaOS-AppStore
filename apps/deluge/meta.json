@@ -22,10 +22,10 @@
   },
   "developer": "Deluge Team",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp",
-    "screenshot-4.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/deluge/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/deluge/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/deluge/screenshot-3.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/deluge/screenshot-4.webp"
   ],
   "tagline": {
     "en_US": "A lightweight and free BitTorrent client.",
@@ -42,7 +42,7 @@
     "sv_SE": "En lättviktig och gratis BitTorrent-klient.",
     "uk_UA": "Легкий і безкоштовний клієнт BitTorrent."
   },
-  "thumbnail": "thumbnail.webp",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/deluge/thumbnail.webp",
   "tips": {
     "before_install": {
       "en_US": "Default Password: `deluge`\n\nDefault Accessible Path in Deluge\n\n| Name | Value |\n| --- | --- |\n| DATA Path | `/DATA` |\n| Downloads Path | `/DATA/Downloads` |\n| Media Path | `/DATA/Media` |\n\nThe paths of other DATA subdirectories in CasaOS are also similar.\n\nPlease make sure you use the correct path when using Deluge.\n",

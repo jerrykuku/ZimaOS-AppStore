@@ -11,13 +11,13 @@
   },
   "developer": "Yidadaa",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/chatgpt-next-web/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/chatgpt-next-web/screenshot-2.webp"
   ],
   "tagline": {
     "en_US": "A well-designed cross-platform ChatGPT UI.",
     "zh_CN": "精心设计的跨平台 ChatGPT UI"
   },
-  "thumbnail": "thumbnail.webp",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/chatgpt-next-web/thumbnail.webp",
   "tips": {}
 }

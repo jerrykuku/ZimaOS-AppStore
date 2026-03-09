@@ -11,15 +11,15 @@
   },
   "developer": "Logseq  Team",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp",
-    "screenshot-4.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/logseq/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/logseq/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/logseq/screenshot-3.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/logseq/screenshot-4.webp"
   ],
   "tagline": {
     "en_US": "A privacy-first, open-source platform for knowledge management and collaboration.",
     "zh_CN": "A privacy-first, open-source platform for knowledge management and collaboration."
   },
-  "thumbnail": "thumbnail.webp",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/logseq/thumbnail.webp",
   "tips": {}
 }

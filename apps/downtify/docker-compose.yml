@@ -22,7 +22,7 @@ services:
     container_name: downtify
 x-casaos:
   main: downtify
-  icon: https://raw.githubusercontent.com/henriquesebastiao/downtify/refs/heads/main/assets/casaos-icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/downtify/icon.svg
   title:
     en_US: Downtify
   index: /

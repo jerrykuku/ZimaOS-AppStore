@@ -45,7 +45,7 @@ services:
       HTTP_PORT: '9000'
 x-casaos:
   main: lyrionmusicserver
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/LyrionMusicServer/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/lyrionmusicserver/icon.svg
   scheme: http
   port_map: '9000'
   index: /

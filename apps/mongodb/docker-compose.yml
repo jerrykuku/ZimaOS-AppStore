@@ -21,6 +21,6 @@ services:
     container_name: mongo
 x-casaos:
   main: mongo
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Mongo/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/mongodb/icon.svg
   title:
     en_US: MongoDB

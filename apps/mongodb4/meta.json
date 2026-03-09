@@ -32,6 +32,6 @@
   "screenshot_link": [],
   "developer": "MongoDB Inc.",
   "author": "WisdomSky",
-  "thumbnail": "thumbnail.png",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/mongodb4/icon.png",
   "category": "Developer"
 }

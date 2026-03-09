@@ -22,7 +22,7 @@ services:
     container_name: tautulli
 x-casaos:
   main: tautulli
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Tautulli/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/tautulli/icon.svg
   title:
     en_US: Tautulli
   index: /

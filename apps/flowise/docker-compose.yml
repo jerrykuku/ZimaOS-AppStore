@@ -24,7 +24,7 @@ services:
     entrypoint: /bin/sh -c "sleep 3; flowise start"
 x-casaos:
   main: flowise
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/FlowiseAi/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/flowise/icon.svg
   title:
     en_US: Flowise
   port_map: '3025'

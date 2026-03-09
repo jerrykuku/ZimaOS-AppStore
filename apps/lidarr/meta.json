@@ -22,9 +22,9 @@
   },
   "developer": "lidarr Team",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/lidarr/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/lidarr/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/lidarr/screenshot-3.webp"
   ],
   "tagline": {
     "en_US": "Music collection manager for Usenet and BitTorrent users",
@@ -41,6 +41,6 @@
     "sv_SE": "Musiksamling för användare av Usenet och BitTorrent",
     "uk_UA": "Менеджер музичних колекцій для користувачів Usenet і BitTorrent"
   },
-  "thumbnail": "thumbnail.webp",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/lidarr/thumbnail.webp",
   "tips": {}
 }

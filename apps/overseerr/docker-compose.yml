@@ -18,7 +18,7 @@ services:
     container_name: overseerr
 x-casaos:
   main: overseerr
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Overseerr/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/overseerr/icon.svg
   title:
     en_US: Overseerr
   port_map: '5055'

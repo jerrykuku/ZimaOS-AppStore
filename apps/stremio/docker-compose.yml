@@ -28,7 +28,7 @@ services:
     privileged: false
 x-casaos:
   main: stremio
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Stremio/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/stremio/icon.svg
   title:
     en_US: Stremio
     pt_BR: Stremio

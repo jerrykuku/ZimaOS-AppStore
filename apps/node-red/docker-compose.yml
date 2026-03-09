@@ -19,7 +19,7 @@ services:
     container_name: node-red
 x-casaos:
   main: node-red
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Node-RED/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/node-red/icon.svg
   title:
     en_US: Node-RED
   index: /

@@ -42,11 +42,11 @@
     "tr_TR": "RomM, emülatör meraklıları için tasarlanmış, oyunları taramak, zenginleştirmek, göz atmak ve oynamak için kullanışlı bir yol sunan kendi kendine barındırılan bir oyun koleksiyonu yönetim uygulamasıdır. Duyarlı Web arayüzü sayesinde kullanıcılar, herhangi bir modern tarayıcıdan koleksiyonlarını yönetebilir ve 400'den fazla platformu destekler; bu da kişisel oyun kütüphaneleri oluşturan retro oyun hayranları için idealdir.\n\nUygulamanın temel özellikleri arasında sağlam kütüphane yönetimi ve sorunsuz oyun deneyimi bulunur. IGDB, Screenscraper ve MobyGames'ten meta veriler ve SteamGridDB'den özel sanat eserleri alarak koleksiyonların görsel çekiciliğini artırır. Kullanıcılar, EmulatorJS ve RuffleRS kullanarak oyunları doğrudan tarayıcıda oynayabilir, çoklu diskli oyunlar, DLC'ler, yamalar ve kılavuzlar için destek sunar. Ayrıca, dosya adı etiketlerine göre ayrıştırma ve filtreleme yapılmasına olanak tanır. Ek olarak, sınırlı erişim izinlerine sahip çoklu kullanıcı hesaplarını destekler, böylece kütüphaneyi arkadaşlarla paylaşabilir ve RetroAchievements'ı görüntüleyebilirsiniz.\n\nPlaynite ve muOS için resmi uygulamalarla kişisel sunucularda veya NAS cihazlarında esnek bir şekilde dağıtılabilir, cihazlar arası erişimi artırır. Kullanıcılar, Web arayüzü üzerinden oyun yükleyebilir, güncelleyebilir veya silebilir ve topluluk destekli belgelerle işlevsellik genişletilebilir. İster kişisel bir retro oyun kütüphanesini yönetin ister başkalarıyla paylaşın, uygulamanın sezgisel arayüzü ve yüksek özelleştirilebilirliği, çeşitli ihtiyaçları karşılayan modern bir oyun yönetim platformu sunar.\n\n**Ana Özellikler:**\n- IGDB, Screenscraper ve MobyGames'ten meta verilerle oyun kütüphanenizi tarayın ve geliştirin\n- SteamGridDB'den özel sanat eserlerini alın\n- Retroachievements'tan başarılarınızı görüntüleyin\n- 400+ platform için meta veriler mevcut\n- EmulatorJS ve RuffleRS kullanarak oyunları doğrudan tarayıcıdan oynayın\n- Kütüphanenizi arkadaşlarınızla sınırlı erişim ve izinlerle paylaşın\n- Playnite ve muOS için resmi uygulamalar\n- Çoklu disk oyunları, DLC'ler, modlar, hackler, yamalar ve kılavuzları destekler\n- Dosya adlarındaki etiketlere göre ayrıştır ve filtrele\n- Herhangi bir modern web tarayıcısından oyunları görüntüleyin, yükleyin, güncelleyin ve silin\n\n**Daha fazla bilgi edinin:**\n- [RomM resmi web sitesi](https://romm.app)\n- [RomM GitHub deposu](https://github.com/rommapp/romm)\n"
   },
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp",
-    "screenshot-4.webp",
-    "screenshot-5.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/romm/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/romm/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/romm/screenshot-3.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/romm/screenshot-4.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/romm/screenshot-5.webp"
   ],
-  "thumbnail": "thumbnail.png"
+  "thumbnail": ""
 }

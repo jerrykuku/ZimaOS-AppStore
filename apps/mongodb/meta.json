@@ -32,7 +32,7 @@
   "screenshot_link": [],
   "developer": "MongoDB Inc.",
   "author": "WisdomSky",
-  "thumbnail": "thumbnail.png",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/mongodb/icon.png",
   "category": "Developer",
   "tips": {
     "before_install": {

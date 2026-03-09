@@ -22,9 +22,9 @@
   },
   "developer": "grafana",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/grafana/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/grafana/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/grafana/screenshot-3.webp"
   ],
   "tagline": {
     "en_US": "Grafana is a complete observability stack that allows you to monitor and analyze metrics, logs and traces. It allows you to query, visualize, alert on and understand your data no matter where it is stored.\n",
@@ -41,7 +41,7 @@
     "sv_SE": "Grafana är en komplett observabilitetsstapel som gör det möjligt att övervaka och analysera metriker, loggar och spår. Det gör det möjligt att fråga, visualisera, varna och förstå dina data, oavsett var de är lagrade.\n",
     "uk_UA": "Grafana - це повний стек наглядності, який дозволяє вам моніторити та аналізувати метрики, журнали та траси. Він дозволяє вам запитувати, візуалізувати, сповіщати та розуміти ваших даних, незалежно від того, де вони зберігаються.\n"
   },
-  "thumbnail": "thumbnail.webp",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/grafana/thumbnail.webp",
   "tips": {
     "before_install": {
       "en_US": "| username | password |\n| -------- | -------- |\n| `admin`    | `admin`    |\n",

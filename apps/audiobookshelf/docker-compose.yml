@@ -17,7 +17,7 @@ services:
     - 13378:80
 x-casaos:
   main: audiobookshelf
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Audiobookshelf/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/audiobookshelf/icon.svg
   scheme: http
   port_map: '13378'
   index: /

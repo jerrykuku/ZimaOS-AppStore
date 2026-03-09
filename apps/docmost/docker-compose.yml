@@ -55,7 +55,7 @@ networks:
     driver: bridge
 x-casaos:
   main: docmost
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Docmost/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/docmost/icon.svg
   scheme: http
   port_map: '3000'
   index: /

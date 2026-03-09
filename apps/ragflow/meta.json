@@ -23,9 +23,9 @@
   },
   "developer": "RagFlow",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ragflow/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ragflow/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ragflow/screenshot-3.webp"
   ],
   "tagline": {
     "de_DE": "RagFlow ist eine Open-Source-RAG-Engine, die auf tiefem Dokumentenverständnis basiert.",
@@ -44,5 +44,5 @@
     "tr_TR": "RagFlow, derin belge anlayışına dayalı açık kaynaklı bir RAG motorudur.",
     "zh_CN": "RagFlow是一个基于深度文档理解的开源RAG引擎。"
   },
-  "thumbnail": "thumbnail.webp"
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ragflow/thumbnail.webp"
 }

@@ -39,12 +39,12 @@
     "tr_TR": "Cloudflare tarafından sunulan bir tünel servisi olup web sunucularınızı güvenli bir şekilde internete açar."
   },
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/cloudflared/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/cloudflared/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/cloudflared/screenshot-3.webp"
   ],
   "developer": "Cloudflare Inc.",
   "author": "WisdomSky",
-  "thumbnail": "thumbnail.webp",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/cloudflared/thumbnail.webp",
   "category": "Networking"
 }

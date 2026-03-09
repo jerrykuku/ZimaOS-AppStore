@@ -13,8 +13,8 @@
   },
   "developer": "balzack",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/databag/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/databag/screenshot-2.webp"
   ],
   "author": "Pierre Balzack",
   "category": "Social"

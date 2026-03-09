@@ -21,7 +21,7 @@ services:
     container_name: freshrss
 x-casaos:
   main: freshrss
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/FreshRSS/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/freshrss/icon.svg
   port_map: '8749'
   scheme: http
   title:

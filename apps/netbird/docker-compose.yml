@@ -25,7 +25,7 @@ services:
       target: /var/lib/netbird
 x-casaos:
   main: netbird
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/NetBird/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/netbird/icon.svg
   scheme: https
   port_map: ''
   index: /

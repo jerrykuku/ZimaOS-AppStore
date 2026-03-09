@@ -13,12 +13,12 @@
     "ja_JP": "Difyはオープンソースの大規模言語モデル（LLM）開発プラットフォームです。Backend as ServiceとLLMOpsの理念を融合し、開発者が迅速に生成AIアプリケーションを構築できるようにします。技術者でなくても、AIアプリケーションの定義やデータ運用に参加することができます。"
   },
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp",
-    "screenshot-4.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/dify/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/dify/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/dify/screenshot-3.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/dify/screenshot-4.webp"
   ],
-  "thumbnail": "thumbnail.webp",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/dify/thumbnail.webp",
   "tagline": {
     "en_US": "LLM App Development Platform"
   }

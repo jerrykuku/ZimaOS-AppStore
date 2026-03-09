@@ -25,8 +25,8 @@
   },
   "developer": "Portainer",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/portainer/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/portainer/screenshot-2.webp"
   ],
   "tagline": {
     "en_US": "Lightweight Docker management UI",
@@ -45,6 +45,6 @@
     "ru_RU": "Легкий интерфейс управления Docker",
     "tr_TR": "Hafif Docker yönetim arayüzü"
   },
-  "thumbnail": "thumbnail.webp",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/portainer/thumbnail.webp",
   "tips": null
 }

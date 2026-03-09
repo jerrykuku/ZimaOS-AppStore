@@ -55,14 +55,14 @@
   "category": "Home",
   "author": "brandawg93",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/peanut/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/peanut/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/peanut/screenshot-3.webp"
   ],
   "architectures": [
     "amd64",
     "arm64"
   ],
   "developer": "brandawg93",
-  "thumbnail": "thumbnail.webp"
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/peanut/thumbnail.webp"
 }

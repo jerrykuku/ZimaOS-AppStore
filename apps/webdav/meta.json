@@ -24,7 +24,7 @@
   },
   "developer": "CasaOS Team",
   "screenshot_link": [
-    "screenshot-1.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/webdav/screenshot-1.webp"
   ],
   "tagline": {
     "en_US": "A web-based file sharing and management protocol",

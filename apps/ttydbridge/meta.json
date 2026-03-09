@@ -13,8 +13,8 @@
   "developer": "Cp0204",
   "hostname": "",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ttydbridge/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ttydbridge/screenshot-2.webp"
   ],
   "store_app_id": "ttydbridge",
   "tagline": {

@@ -23,10 +23,10 @@
   },
   "developer": "Nzbget Team",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp",
-    "screenshot-4.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/nzbget/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/nzbget/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/nzbget/screenshot-3.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/nzbget/screenshot-4.webp"
   ],
   "tagline": {
     "en_US": "Efficient Usenet downloader",
@@ -43,7 +43,7 @@
     "sv_SE": "Effektiv Usenet-downladdare",
     "uk_UA": "Ефективний завантажувач Usenet"
   },
-  "thumbnail": "thumbnail.webp",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/nzbget/thumbnail.webp",
   "tips": {
     "before_install": {
       "en_US": "Default Account\n\n| Username | Password |\n| -------- | -------- |\n| nzbget   | tegbzn6789 |\n",

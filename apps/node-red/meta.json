@@ -26,9 +26,9 @@
   },
   "developer": "Node-RED",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/node-red/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/node-red/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/node-red/screenshot-3.webp"
   ],
   "tagline": {
     "en_US": "Low-code programming for event-driven applications",
@@ -47,6 +47,6 @@
     "ru_RU": "Программирование с низким кодом для событийно-ориентированных приложений",
     "tr_TR": "Olay tabanlı uygulamalar için düşük kodlu programlama"
   },
-  "thumbnail": "thumbnail.png",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/node-red/thumbnail.png",
   "tips": {}
 }

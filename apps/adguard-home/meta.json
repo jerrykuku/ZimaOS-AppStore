@@ -25,9 +25,9 @@
   },
   "developer": "AdguardTeam",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/adguard-home/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/adguard-home/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/adguard-home/screenshot-3.webp"
   ],
   "tagline": {
     "en_US": "Blocking ads & tracking Network-widly",
@@ -44,6 +44,6 @@
     "sv_SE": "Nätverksnivå DNS-server för att blockera annonser och spårare",
     "uk_UA": "DNS-сервер блокування реклами та трекерів на рівні мережі"
   },
-  "thumbnail": "thumbnail.webp",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/adguard-home/thumbnail.webp",
   "tips": {}
 }

@@ -108,7 +108,7 @@ networks:
     driver: bridge
 x-casaos:
   main: archivebox
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/ArchiveBox/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/archivebox/icon.svg
   scheme: http
   port_map: '18010'
   index: /

@@ -22,9 +22,9 @@
   },
   "developer": "duplicati",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/duplicati/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/duplicati/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/duplicati/screenshot-3.webp"
   ],
   "tagline": {
     "en_US": "Store securely encrypted backups in the cloud!",
@@ -41,6 +41,6 @@
     "sv_SE": "Lagra säkert krypterade säkerhetskopior i molnet!",
     "uk_UA": "Зберігайте безпечні зашифровані резервні копії у хмарі!"
   },
-  "thumbnail": "thumbnail.webp",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/duplicati/thumbnail.webp",
   "tips": {}
 }

@@ -41,11 +41,11 @@
     "tr_TR": "Wallabag, kullanıcıların çevrimdışı okuma için makaleleri kaydetmelerine olanak tanıyan ve dikkat dağıtmayan bir deneyim için içeriği çıkaran bir web sayfası kaydetme uygulamasıdır. Sezgisel web arayüzü, tek tıklamayla makale kaydetmeyi sağlar ve kullanıcıların uygun zamanlarında okuyabilmelerini garanti eder.\n\nUygulamanın temel özellikleri arasında kullanışlı web sayfası kaydetme, optimize edilmiş okuma ve esnek içerik organizasyonu bulunur. Sadece makalenin içeriğini çıkarır, pop-up'ları ve reklamları kaldırır ve temiz, rahat bir görünümde gösterir. Kullanıcılar kaydedilen makaleleri etiketler ve otomatik etiketleme kurallarıyla organize edebilir, talep üzerine erişilebilen kişiselleştirilmiş bir içerik kütüphanesi oluşturabilirler. Tarayıcı uzantıları hızlı kaydetmeyi sağlar, Chrome, Firefox, Opera ve daha fazlasıyla uyumludur. Çoklu platform istemcileri Android, iOS ve diğer cihazları kapsar, sorunsuz bir okuma deneyimi sağlar. Ayrıca kaydedilen makaleleri paylaşmak için çok kullanıcılı işbirliğini destekler.\n\nPocket, Readability, Instapaper veya Pinboard gibi hizmetlerden veri içe aktarmayı sağlayarak içerik kütüphanesi geçişini basitleştirir. RSS oluşturma, kullanıcıların RSS okuyucularında kaydedilen makalelere erişmesini sağlar. Topluluk belgeleri kullanılabilirliği artırır ve uygulamanın yüksek esnekliği ve sezgisel işletimi modern bir web içerik yönetimi çözümü sunar.\n\n**Ana Özellikler:**\n- Çevrimdışı okuma için web sayfalarını kaydetme\n- Dikkat dağıtmayan okuma görünümü için saf içerik çıkarma\n- Kişiselleştirilmiş içerik kütüphanesi için otomatik etiketleme kurallarıyla makale sınıflandırması\n- Hızlı web sayfası kaydetme için tarayıcı uzantıları\n- Çoklu platform istemcileri (Android, iOS, Chrome, Firefox, Opera)\n- Kaydedilen makaleleri paylaşmak için çok kullanıcılı işbirliği\n- Pocket, Readability, Instapaper, Pinboard ve diğer hizmetlerden veri içe aktarma\n- Okuyuculardan kaydedilen makalelere erişim için RSS oluşturma\n\n**Daha Fazla Bilgi:**\n- [Wallabag Resmi Web Sitesi](https://wallabag.org)\n- [Wallabag GitHub Deposu](https://github.com/wallabag/wallabag)\n- [Wallabag Belgeleri](https://doc.wallabag.org)\n- [Wallabag Docker İmajı](https://hub.docker.com/r/wallabag/wallabag)\n"
   },
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/wallabag/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/wallabag/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/wallabag/screenshot-3.webp"
   ],
-  "thumbnail": "thumbnail.png",
+  "thumbnail": "",
   "tips": {
     "before_install": {
       "en_US": "You need to set the environment variable `SYMFONY__ENV__DOMAIN_NAME` to your domain name or IP address, which can be modified through the Wallabag settings page.\n\n**Default Account**\n\n| Username | Password |\n|----------|----------|\n| `wallabag`    | `wallabag` |\n",

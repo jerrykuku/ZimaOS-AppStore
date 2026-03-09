@@ -34,6 +34,6 @@ x-casaos:
     zh_CN: oPodSync
   main: opodsync
   port_map: '8086'
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/oPodSync/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/opodsync/icon.svg
   index: /
   scheme: http

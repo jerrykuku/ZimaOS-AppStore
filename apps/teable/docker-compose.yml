@@ -106,7 +106,7 @@ x-casaos:
     sv_SE: Teable
     tr_TR: Teable
     zh_CN: Teable
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Teable/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/teable/icon.svg
   main: teable
   port_map: '3200'
   index: /

@@ -19,7 +19,7 @@ services:
     - host.docker.internal:host-gateway
 x-casaos:
   main: anythingllm
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/AnythingLLM/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/anythingllm/icon.svg
   scheme: http
   title:
     en_US: AnythingLLM

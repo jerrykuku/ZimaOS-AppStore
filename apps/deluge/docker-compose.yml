@@ -33,7 +33,7 @@ services:
     container_name: deluge
 x-casaos:
   main: deluge
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Deluge/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/deluge/icon.svg
   title:
     en_US: Deluge
   index: /

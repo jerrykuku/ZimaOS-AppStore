@@ -174,4 +174,4 @@ x-casaos:
     zh_CN: LibreChat
   port_map: '3080'
   scheme: http
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/LibreChat/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/librechat/icon.svg

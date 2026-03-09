@@ -22,10 +22,10 @@
   },
   "developer": "Sonarr",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp",
-    "screenshot-4.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/sonarr/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/sonarr/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/sonarr/screenshot-3.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/sonarr/screenshot-4.webp"
   ],
   "tagline": {
     "en_US": "The PVR for Usenet and BitTorrent users",
@@ -42,6 +42,6 @@
     "sv_SE": "PVR för användare av Usenet och BitTorrent",
     "uk_UA": "PVR для користувачів Usenet і BitTorrent"
   },
-  "thumbnail": "thumbnail.webp",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/sonarr/thumbnail.webp",
   "tips": {}
 }

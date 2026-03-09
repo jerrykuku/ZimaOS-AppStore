@@ -22,9 +22,9 @@
   },
   "developer": "linuxserver",
   "screenshot_link": [
-    "screenshot-1.png",
-    "screenshot-2.png",
-    "screenshot-3.png"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/emby-nvidia/screenshot-1.png",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/emby-nvidia/screenshot-2.png",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/emby-nvidia/screenshot-3.png"
   ],
   "tagline": {
     "en_US": "TAKE YOUR MEDIA ANYWHERE WITH EMBY",
@@ -41,6 +41,6 @@
     "sv_SE": "TA DINA MEDIA VAR SOM HELST MED EMBY",
     "uk_UA": "ВЗЯТИ СЕБЕ МЕДІА ВСЮДИ З EMBY"
   },
-  "thumbnail": "thumbnail.png",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/emby-nvidia/thumbnail.png",
   "tips": {}
 }

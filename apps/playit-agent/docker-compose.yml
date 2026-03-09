@@ -7,6 +7,6 @@ services:
     container_name: playit-agent
 x-casaos:
   main: playit-agent
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/playit-agent/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/playit-agent/icon.svg
   title:
     en_US: Playit Agent

@@ -19,11 +19,11 @@
     "ja_JP": "NetBirdはWireGuard®ベースのオーバーレイネットワークとゼロトラストネットワークアクセスを組み合わせ、信頼性とセキュリティを備えた統合オープンソースプラットフォームを提供します。\n\n- 安全なリモートアクセス – 数回のクリックで最小権限ネットワークアクセスを有効化\n- ゼロ設定デプロイメント – ピアツーピアWireGuard®ベースネットワークでレガシーVPNを置き換え\n- シームレスなSSOとMFA – セッションベースのSSOとMFAでネットワークアクセスを保護\n- 動的ポスチャチェック – セキュリティルールを満たすデバイスにのみアクセスを許可\n- 集中ネットワーク管理 – 単一の場所からプライベートネットワークを制御\n- 詳細なアクティビティログ – ネットワーク内で誰が、いつ、何を行ったかを特定\n\n**詳細：**\n- [NetBird ウェブサイト](https://netbird.io)\n- [ドキュメント](https://docs.netbird.io)\n- [セルフホストガイド](https://docs.netbird.io/selfhosted/selfhosted-quickstart)\n- [NetBird GitHub](https://github.com/netbirdio/netbird)\n- [Slack コミュニティ](https://docs.netbird.io/slack-url)\n"
   },
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/netbird/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/netbird/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/netbird/screenshot-3.webp"
   ],
-  "thumbnail": "thumbnail.webp",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/netbird/thumbnail.webp",
   "hostname": "app.netbird.io",
   "tips": {
     "before_install": {

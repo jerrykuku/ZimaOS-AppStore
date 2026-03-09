@@ -18,7 +18,7 @@ services:
     network_mode: bridge
     privileged: false
 x-casaos:
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Motioneye/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/motioneye/icon.svg
   index: /
   main: motioneye
   port_map: '8765'

@@ -39,7 +39,7 @@ networks:
     driver: bridge
 x-casaos:
   main: petio
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Petio/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/petio/icon.svg
   title:
     en_US: Petio
   port_map: '7777'

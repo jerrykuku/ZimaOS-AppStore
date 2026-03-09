@@ -15,7 +15,7 @@ services:
     container_name: cloudflared
 x-casaos:
   main: cloudflared
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Cloudflared/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/cloudflared/icon.svg
   title:
     en_US: Cloudflared
   port_map: '14333'

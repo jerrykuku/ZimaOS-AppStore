@@ -120,7 +120,7 @@ networks:
     driver: bridge
 x-casaos:
   main: sure-web
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Sure/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/sure/icon.svg
   scheme: http
   port_map: '23000'
   index: /

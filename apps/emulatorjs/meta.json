@@ -19,7 +19,7 @@
     "uk_UA": "EmulatorJS - це застосунок емулятора, заснований на Docker, який може моделювати різні операційні систем"
   },
   "screenshot_link": [
-    "screenshot-1.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/emulatorjs/screenshot-1.webp"
   ],
   "tagline": null,
   "en_US": "Unlock the power of emulation with EmulatorJS – Explore, experiment, and innovate across diverse operating systems and device environments.",

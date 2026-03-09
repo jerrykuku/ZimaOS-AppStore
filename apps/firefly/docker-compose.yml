@@ -22,7 +22,7 @@ services:
           memory: 32M
 x-casaos:
   main: firefly
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Firefly/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/firefly/icon.svg
   title:
     en_US: Firefly
     zh_CN: 萤火虫

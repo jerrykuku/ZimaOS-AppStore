@@ -11,8 +11,6 @@ services:
     - PORT=2222
     - START_COMMAND=login
     image: cp0204/ttydbridge:v0.0.3
-    labels:
-      icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/ttydbridge/icon.png
     pid: host
     privileged: true
     restart: unless-stopped
@@ -24,7 +22,7 @@ services:
         create_host_path: true
     network_mode: bridge
 x-casaos:
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/ttydbridge/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ttydbridge/icon.svg
   index: /
   main: ttydbridge
   port_map: '2222'

@@ -25,4 +25,4 @@ x-casaos:
   title:
     en_US: Jenkins CI/CD
   port_map: '8080'
-  icon: https://icon.casaos.io/main/all/jenkins.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jenkins/icon.svg

@@ -32,7 +32,7 @@ services:
       target: /data/nes/roms
     container_name: emulatorjs
 x-casaos:
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/EmulatorJS/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/emulatorjs/icon.svg
   index: /
   port_map: '88'
   scheme: http

@@ -25,7 +25,7 @@ services:
     - --bind=0.0.0.0
 x-casaos:
   main: hugo
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Hugo/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/hugo/icon.svg
   scheme: http
   port_map: '1313'
   index: /

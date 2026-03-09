@@ -23,6 +23,6 @@ services:
     container_name: mariadb
 x-casaos:
   main: mariadb
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/MariaDB/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/mariadb/icon.svg
   title:
     en_US: MariaDB

@@ -23,7 +23,7 @@
   },
   "developer": "FreshRSS",
   "screenshot_link": [
-    "screenshot-1.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/freshrss/screenshot-1.webp"
   ],
   "tagline": {
     "en_US": "A free, self-hostable news aggregator…",

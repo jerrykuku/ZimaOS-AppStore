@@ -29,7 +29,7 @@ services:
     container_name: radarr
 x-casaos:
   main: radarr
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Radarr/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/radarr/icon.svg
   title:
     en_US: Radarr
   index: /

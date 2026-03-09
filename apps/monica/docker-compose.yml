@@ -51,7 +51,7 @@ networks:
     driver: bridge
 x-casaos:
   main: monica
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Monica/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/monica/icon.svg
   scheme: ''
   port_map: '18930'
   index: /

@@ -22,7 +22,7 @@ services:
     container_name: n8n
 x-casaos:
   main: n8n
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/N8n/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/n8n/icon.svg
   title:
     en_US: n8n
   index: /

@@ -25,10 +25,10 @@
   },
   "developer": "Home Assistant",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp",
-    "screenshot-4.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/homeassistant/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/homeassistant/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/homeassistant/screenshot-3.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/homeassistant/screenshot-4.webp"
   ],
   "tagline": {
     "en_US": "Open source home automation that puts local control and privacy first.",
@@ -47,6 +47,6 @@
     "ru_RU": "Домашняя автоматизация с открытым исходным кодом, которая ставит локальное управление и конфиденциальность на первое место.",
     "tr_TR": "Yerel kontrol ve gizliliği ön planda tutan açık kaynak ev otomasyonu."
   },
-  "thumbnail": "thumbnail.webp",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/homeassistant/thumbnail.webp",
   "tips": {}
 }

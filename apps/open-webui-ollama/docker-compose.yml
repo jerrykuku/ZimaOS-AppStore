@@ -28,7 +28,7 @@ services:
     container_name: open-webui-ollama
 x-casaos:
   main: open-webui-ollama
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/OpenWebUI/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/open-webui-ollama/icon.svg
   scheme: http
   title:
     en_US: Open WebUI

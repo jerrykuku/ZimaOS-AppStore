@@ -48,7 +48,7 @@ services:
     container_name: unifi-controller
 x-casaos:
   main: unifi-controller
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Unifi-controller/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/unifi-controller/icon.svg
   title:
     en_US: Unifi-controller [legacy]
     zh_CN: Unifi控制器 [legacy]

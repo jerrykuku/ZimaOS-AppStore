@@ -28,7 +28,7 @@ services:
     container_name: nzbget
 x-casaos:
   main: nzbget
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Nzbget/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/nzbget/icon.svg
   title:
     en_US: Nzbget
   port_map: '6789'

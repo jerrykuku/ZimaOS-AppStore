@@ -35,7 +35,7 @@ services:
     container_name: syncthing
 x-casaos:
   main: syncthing
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Syncthing/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/syncthing/icon.svg
   title:
     en_US: Syncthing
   index: /

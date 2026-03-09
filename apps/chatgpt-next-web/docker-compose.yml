@@ -22,7 +22,7 @@ services:
     container_name: chatgpt-next-web
 x-casaos:
   main: chatgpt-next-web
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/ChatGPT-Next-Web/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/chatgpt-next-web/icon.svg
   title:
     en_US: ChatGPT Next Web
   port_map: '3000'

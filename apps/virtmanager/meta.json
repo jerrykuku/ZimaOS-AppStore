@@ -27,8 +27,8 @@
   },
   "developer": "Red Hat",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/virtmanager/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/virtmanager/screenshot-2.webp"
   ],
   "tagline": {
     "en_US": "A GTK Broadway web UI for libvirt and virt-manager.",

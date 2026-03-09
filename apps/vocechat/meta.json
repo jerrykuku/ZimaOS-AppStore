@@ -23,10 +23,10 @@
   },
   "developer": "Privoce",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp",
-    "screenshot-4.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/vocechat/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/vocechat/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/vocechat/screenshot-3.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/vocechat/screenshot-4.webp"
   ],
   "tagline": {
     "en_US": "Have a Private Social Space Hosted on Your Site",
@@ -45,6 +45,6 @@
     "ru_RU": "Создайте Приватное Социальное Пространство на Вашем Сайте",
     "tr_TR": "Sitenizde Barındırılan Özel Bir Sosyal Alan Sahip Olun"
   },
-  "thumbnail": "thumbnail.webp",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/vocechat/thumbnail.webp",
   "tips": {}
 }

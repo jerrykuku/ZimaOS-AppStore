@@ -29,7 +29,7 @@ services:
     container_name: wg-easy
 x-casaos:
   main: wg-easy
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/WireGuardEasy/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/wg-easy/icon.svg
   title:
     en_US: WireGuard Easy
   port_map: '51821'

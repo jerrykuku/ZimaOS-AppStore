@@ -22,8 +22,8 @@
   },
   "developer": "Prowlarr Team",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/prowlarr/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/prowlarr/screenshot-2.webp"
   ],
   "tagline": {
     "en_US": "Integration of various PVR applications",
@@ -40,6 +40,6 @@
     "sv_SE": "Integration av olika PVR-appar",
     "uk_UA": "Інтеграція різних додатків PVR"
   },
-  "thumbnail": "thumbnail.webp",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/prowlarr/thumbnail.webp",
   "tips": {}
 }

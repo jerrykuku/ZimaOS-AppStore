@@ -7,8 +7,6 @@ services:
         reservations:
           memory: 1024M
     image: deluan/navidrome:0.58.5
-    labels:
-      icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Navidrome/icon.png
     restart: unless-stopped
     ports:
     - target: 4533
@@ -30,7 +28,7 @@ services:
     network_mode: bridge
     privileged: false
 x-casaos:
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Navidrome/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/navidrome/icon.svg
   index: /
   main: navidrome
   port_map: '4533'

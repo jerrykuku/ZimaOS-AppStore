@@ -40,11 +40,11 @@
     "amd64"
   ],
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/index-tts/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/index-tts/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/index-tts/screenshot-3.webp"
   ],
-  "thumbnail": "thumbnail.webp",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/index-tts/thumbnail.webp",
   "tips": {
     "before_install": {
       "de_DE": "1. Bitte stellen Sie sicher, dass verfügbarer Speicher > 12 GB ist, andernfalls kann die Anwendung möglicherweise nicht ordnungsgemäß ausgeführt werden\n2. Die Anwendung benötigt etwa 5 Minuten zum Starten, bitte haben Sie Geduld\n3. Diese Anwendung läuft standardmäßig auf der CPU. Dieser Modus hat eine geringe Recheneffizienz und verursacht extrem hohen Ressourcenverbrauch und potenzielle Systeminstabilität. Für optimale Leistung und Stabilität wird dringend empfohlen, diese Anwendung mit NVIDIA GPU auszuführen\n4. Wenn Sie NVIDIA GPU verwenden möchten, wählen Sie bitte \"Custom Install\" und aktivieren Sie die GPU-Option (unterstützt in ZimaOS 1.5.0 und höher)\n",

@@ -30,7 +30,7 @@ services:
     container_name: lazylibrarian
 x-casaos:
   main: lazylibrarian
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Lazylibrarian/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/lazylibrarian/icon.svg
   title:
     en_US: Lazylibrarian
   port_map: '5299'

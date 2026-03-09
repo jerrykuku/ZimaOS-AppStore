@@ -22,7 +22,7 @@ services:
     privileged: false
     container_name: snapdrop
 x-casaos:
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Snapdrop/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/snapdrop/icon.svg
   index: /
   port_map: '89'
   scheme: http

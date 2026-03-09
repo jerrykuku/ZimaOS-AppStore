@@ -22,12 +22,12 @@
   },
   "developer": "Sickchill Team",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp",
-    "screenshot-4.webp",
-    "screenshot-5.webp",
-    "screenshot-6.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/sickchill/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/sickchill/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/sickchill/screenshot-3.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/sickchill/screenshot-4.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/sickchill/screenshot-5.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/sickchill/screenshot-6.webp"
   ],
   "tagline": {
     "en_US": "Automatic video library manager for TV Shows",
@@ -44,6 +44,6 @@
     "sv_SE": "Automatisk videobibliotekshanterare för TV-program",
     "uk_UA": "Автоматичний менеджер відеобібліотек для телевізійних шоу"
   },
-  "thumbnail": "thumbnail.webp",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/sickchill/thumbnail.webp",
   "tips": {}
 }

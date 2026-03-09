@@ -28,7 +28,7 @@ services:
     privileged: false
     container_name: resilio-sync
 x-casaos:
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Resilio-sync/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/resilio-sync/icon.svg
   index: /
   port_map: '8888'
   scheme: http

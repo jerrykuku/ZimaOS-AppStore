@@ -29,7 +29,7 @@ services:
     container_name: readarr
 x-casaos:
   main: readarr
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Readarr/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/readarr/icon.svg
   title:
     en_US: Readarr
   port_map: '8787'

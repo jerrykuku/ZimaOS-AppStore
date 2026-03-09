@@ -9,9 +9,9 @@
     "zh_CN": "Stable Diffusion是一种基于扩散技术的深度学习文本到图像模型，于2022年发布。它主要用于根据文本描述生成详细的图像，但也可以应用于其他任务，例如修复、修复和根据文本提示生成图像到图像的转换。"
   },
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/icewhale-stable-diffusion-webui/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/icewhale-stable-diffusion-webui/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/icewhale-stable-diffusion-webui/screenshot-3.webp"
   ],
   "tagline": {
     "en_US": "An AI model used to generate images conditioned on text descriptions.",

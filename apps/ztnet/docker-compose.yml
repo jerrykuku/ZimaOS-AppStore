@@ -54,7 +54,7 @@ networks:
       - subnet: 172.31.255.0/29
 x-casaos:
   main: ztnet
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Ztnet/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ztnet/icon.svg
   scheme: http
   port_map: '3050'
   index: /

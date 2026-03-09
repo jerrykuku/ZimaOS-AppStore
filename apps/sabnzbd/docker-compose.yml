@@ -29,7 +29,7 @@ services:
     container_name: sabnzbd
 x-casaos:
   main: sabnzbd
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Sabnzbd/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/sabnzbd/icon.svg
   title:
     en_US: Sabnzbd
   port_map: '8282'

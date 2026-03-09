@@ -318,7 +318,7 @@ x-casaos:
     sv_SE: WeKnora
     tr_TR: WeKnora
     zh_CN: WeKnora
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/WeKnora/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/weknora/icon.svg
   main: weknora
   port_map: '1080'
   index: /

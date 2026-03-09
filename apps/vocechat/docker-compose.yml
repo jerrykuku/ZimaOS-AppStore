@@ -21,7 +21,7 @@ services:
     container_name: vocechat
 x-casaos:
   main: vocechat
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/VoceChat/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/vocechat/icon.svg
   title:
     en_US: VoceChat
   index: /

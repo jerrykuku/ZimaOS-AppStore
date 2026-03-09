@@ -19,7 +19,7 @@
     "uk_UA": "resilio-sync - це додаток на основі Docker, який забезпечує швидку і безпечну синхронізацію та обмін файлами."
   },
   "screenshot_link": [
-    "screenshot-1.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/resilio-sync/screenshot-1.webp"
   ],
   "tagline": {
     "en_US": "Unleash the power of seamless file synchronization.",

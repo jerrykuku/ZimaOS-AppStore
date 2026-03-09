@@ -39,7 +39,7 @@ services:
       source: /DATA/AppData/$AppID/data
       target: /updater/data
 x-casaos:
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/DDNS-Updater/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ddns-updater/icon.svg
   main: ddns-updater
   port_map: '8000'
   scheme: http

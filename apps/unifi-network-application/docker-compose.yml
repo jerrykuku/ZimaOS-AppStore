@@ -70,7 +70,7 @@ configs:
       \ \"unifi-db_stat\"}]});\n"
 x-casaos:
   main: unifi-network-application
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Unifi-Network-Application/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/unifi-network-application/icon.svg
   index: /
   port_map: '8443'
   scheme: https

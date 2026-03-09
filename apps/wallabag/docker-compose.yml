@@ -32,7 +32,7 @@ services:
       timeout: 3s
 x-casaos:
   main: wallabag
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Wallabag/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/wallabag/icon.svg
   scheme: http
   port_map: '25661'
   index: /

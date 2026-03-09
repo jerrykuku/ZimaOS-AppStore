@@ -15,8 +15,8 @@
     "zh_CN": "家庭自动化系统"
   },
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/esphome/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/esphome/screenshot-2.webp"
   ],
   "store_app_id": "esphome"
 }

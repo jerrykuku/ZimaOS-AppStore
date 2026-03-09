@@ -92,7 +92,7 @@ networks:
     name: immich
 x-casaos:
   main: immich-server
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Immich/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/immich/icon.svg
   title:
     en_US: Immich
   port_map: '2283'

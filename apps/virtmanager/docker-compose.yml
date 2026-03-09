@@ -26,7 +26,7 @@ services:
     container_name: virt-manager
 x-casaos:
   main: virt-manager
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/VirtualMachineManager/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/virtmanager/icon.svg
   port_map: '8185'
   scheme: http
   title:

@@ -12,16 +12,16 @@
   },
   "developer": "linuxserver",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pyload/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pyload/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pyload/screenshot-3.webp"
   ],
   "tagline": {
     "en_US": "Free Downloader Manager.",
     "zh_CN": "免费下载管理器。",
     "pt_BR": "Gerenciador de download gratuito."
   },
-  "thumbnail": "thumbnail.png",
+  "thumbnail": "",
   "tips": {
     "before_install": {
       "en_US": "Default Account\n\n| Username | Password |\n|----------|----------|\n| `pyload`    | `pyload` |\n\nDefault Accessible Path in Pyload\n\n| Name | Value |\n| ---- | ----- |\n| Downloads Path | `/DATA/Downloads` |\n",

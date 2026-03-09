@@ -34,7 +34,7 @@ services:
     container_name: pihole
 x-casaos:
   main: pihole
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Pihole/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pihole/icon.svg
   title:
     en_US: Pi-hole
   index: /admin

@@ -34,7 +34,7 @@
   },
   "developer": "MariaDB Foundation",
   "author": "WisdomSky",
-  "thumbnail": "thumbnail.png",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/mariadb/icon.png",
   "tips": {
     "before_install": {
       "en_US": "Default user: `casaos`\nDefault password: `casaos`\nDefault database: `casaos`\n\nDefault root password: `casaos`\n"

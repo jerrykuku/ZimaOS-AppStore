@@ -29,7 +29,7 @@ services:
     container_name: sickchill
 x-casaos:
   main: sickchill
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Sickchill/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/sickchill/icon.svg
   title:
     en_US: Sickchill
   port_map: '8081'

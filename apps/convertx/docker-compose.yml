@@ -20,7 +20,7 @@ services:
     network_mode: bridge
 x-casaos:
   main: convertx
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/ConvertX/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/convertx/icon.svg
   port_map: '3333'
   index: /
   scheme: http

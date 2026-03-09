@@ -18,7 +18,7 @@ services:
       protocol: tcp
     container_name: ddns-go
 x-casaos:
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Ddns-go/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ddns-go/icon.svg
   main: ddns-go
   port_map: '9876'
   scheme: http

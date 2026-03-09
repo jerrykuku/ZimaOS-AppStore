@@ -23,9 +23,9 @@
   },
   "developer": "Daniel García",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/vaultwarden/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/vaultwarden/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/vaultwarden/screenshot-3.webp"
   ],
   "tagline": {
     "en_US": "A self-hosted Bitwarden server",
@@ -42,6 +42,6 @@
     "sv_SE": "En självhärdad Bitwarden-server",
     "uk_UA": "Самостійний сервер Bitwarden"
   },
-  "thumbnail": "thumbnail.webp",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/vaultwarden/thumbnail.webp",
   "tips": {}
 }

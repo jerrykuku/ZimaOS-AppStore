@@ -41,8 +41,8 @@
     "tr_TR": "ConvertX, kullanıcıların sezgisel bir web arayüzü aracılığıyla farklı formatlar arasında dosya dönüştürmesine olanak tanıyan kendi kendine barındırılan bir dosya dönüştürme hizmetidir. Belgeleri, görüntüleri, videoları ve ses dosyalarını içeren geniş bir dosya türü yelpazesini destekleyerek, tüm dosya dönüştürme ihtiyaçlarınız için kapsamlı bir çözüm sunar.\n\nHizmet, basitlik ve kullanım kolaylığı göz önünde bulundurularak tasarlanmıştır. Kullanıcılar dosyalarını basitçe yükleyebilir, istedikleri çıktı formatını seçebilir ve dönüştürme işlemini ConvertX'in halletmesine izin verebilir. Web arayüzü, sürükle ve bırak desteği ve toplu dönüştürme yetenekleriyle temiz ve kullanıcı dostu bir deneyim sunar.\n\nConvertX tamamen kendi altyapınızda çalışır, dosyalarınızın özel ve güvende kalmasını sağlar. Hassas belgeleri üçüncü taraf hizmetlere yüklemenize gerek yoktur, bu da verileriniz üzerinde tam kontrol sahibi olmanızı sağlar. Hizmet, kolay dağıtım için konteynerleştirilmiştir ve mevcut ev sunucu kurulumlarına entegre edilebilir.\n\n**Önemli Özellikler:**\n- Çoklu dosya formatı desteği (belgeler, görüntüler, videolar, ses)\n- Sürükle ve bırak destekli sezgisel web arayüzü\n- Toplu dönüştürme yetenekleri\n- Gizlilik ve güvenlik için kendi kendine barındırılan\n- Kolay dağıtım için konteynerleştirilmiş\n- Dosya boyutu sınırlaması yok\n\n**Daha Fazla Bilgi Edinin:**\n- [ConvertX GitHub Deposu](https://github.com/c4illin/convertx)\n"
   },
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/convertx/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/convertx/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/convertx/screenshot-3.webp"
   ]
 }

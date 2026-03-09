@@ -27,7 +27,7 @@ services:
       TZ: $TZ
 x-casaos:
   main: obsidian
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Obsidian/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/obsidian/icon.svg
   scheme: https
   port_map: '15324'
   index: /

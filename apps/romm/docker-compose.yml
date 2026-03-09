@@ -62,7 +62,7 @@ networks:
     driver: bridge
 x-casaos:
   main: romm
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/RomM/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/romm/icon.svg
   scheme: http
   port_map: '8285'
   index: /

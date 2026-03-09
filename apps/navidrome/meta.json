@@ -15,8 +15,8 @@
     "zh_CN": "音乐收藏和流媒体服务器"
   },
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/navidrome/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/navidrome/screenshot-2.webp"
   ],
   "store_app_id": "navidrome"
 }

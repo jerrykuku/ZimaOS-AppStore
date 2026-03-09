@@ -14,7 +14,7 @@ services:
     - 8183:80
 x-casaos:
   main: retroarch
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/RetroArch/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/retroarch/icon.svg
   scheme: http
   port_map: '8183'
   index: /

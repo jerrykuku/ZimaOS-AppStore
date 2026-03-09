@@ -18,7 +18,7 @@ services:
       target: /opt/alist/data
     container_name: alist
 x-casaos:
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Alist/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/alist/icon.svg
   main: alist
   port_map: '5244'
   scheme: http

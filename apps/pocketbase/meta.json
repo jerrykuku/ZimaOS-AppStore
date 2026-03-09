@@ -10,9 +10,9 @@
   },
   "developer": "Gani Georgiev",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pocketbase/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pocketbase/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pocketbase/screenshot-3.webp"
   ],
   "tagline": {
     "en_US": "Open Source realtime backend in 1 file",
@@ -24,5 +24,5 @@
       "pt_BR": "Conta Padrão\n| Email | Senha |\n| ----- | -------- |\n| `casaos@admin.local` | `adminpocketbase` |\n"
     }
   },
-  "thumbnail": "thumbnail.webp"
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pocketbase/thumbnail.webp"
 }

@@ -41,16 +41,16 @@
     "tr_TR": "Docmost, gerçek zamanlı işbirliği için tasarlanmış, birden fazla kullanıcının aynı sayfayı çakışma olmadan aynı anda düzenlemesine olanak tanıyan, kendi kendine barındırılan işbirlikçi bir wiki ve dokümantasyon aracıdır. Sezgisel arayüzü, bilgi tabanları, proje belgeleri veya wiki'leri yöneten takımlar için idealdir ve verimli bilgi oluşturma ve paylaşım deneyimi sunar.\n\nAracın temel özellikleri arasında gerçek zamanlı işbirlikçi düzenleme ve alan organizasyonu bulunur. Sorunsuz işbirliği için birden fazla kullanıcının gerçek zamanlı olarak sayfaları düzenlemesini destekler ve sayfaları takımlar, projeler veya departmanlar için 'alanlara' düzenler, her biri bağımsız izin ayarlarına sahiptir. Markdown kısayollarına sahip zengin metin editörü içerik oluşturmayı basitleştirir. Yerleşik Draw.io, Excalidraw ve Mermaid araçları güçlü diyagram yetenekleri sağlar.\n\nİçerik güvenliği için kullanıcı grupları aracılığıyla erişim atayan izin yönetimi sunar. Sayfalar harici erişim için bağlantılar aracılığıyla herkese açık olarak paylaşılabilir. Yorumlar iletişim ve geri bildirimi geliştirir, sayfa geçmişi değişiklikleri izler. İç içe navigasyon, hızlı arama, dosya ekleri ve Markdown/HTML içe/dışa aktarma gibi özellikler desteklenir. Aracın işbirliği ve esnekliği modern bir dokümantasyon çözümü sunar.\n\n**Ana Özellikler:**\n- Birden fazla kullanıcı için gerçek zamanlı işbirlikçi düzenleme\n- Takım, proje veya departmana göre sayfa düzenleme için alanlar\n- Kullanıcı grubu erişim kontrolü ile izin yönetimi\n- Markdown kısayollarına sahip zengin metin editörü\n- Yerleşik Draw.io, Excalidraw, Mermaid diyagram araçları\n- Bağlantılar aracılığıyla herkese açık sayfa paylaşımı\n- İletişim ve geri bildirim için sayfa yorumları\n- Sayfa geçmişi, iç içe navigasyon, arama ve dosya ekleri\n\n**Daha Fazla Bilgi:**\n- [Docmost Resmi Web Sitesi](https://docmost.com/)\n- [Docmost GitHub](https://github.com/docmost/docmost)\n"
   },
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp",
-    "screenshot-4.webp",
-    "screenshot-5.webp",
-    "screenshot-6.webp",
-    "screenshot-7.webp",
-    "screenshot-8.webp",
-    "screenshot-9.webp",
-    "screenshot-10.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/docmost/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/docmost/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/docmost/screenshot-3.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/docmost/screenshot-4.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/docmost/screenshot-5.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/docmost/screenshot-6.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/docmost/screenshot-7.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/docmost/screenshot-8.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/docmost/screenshot-9.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/docmost/screenshot-10.webp"
   ],
-  "thumbnail": "thumbnail.png"
+  "thumbnail": ""
 }

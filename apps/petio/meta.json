@@ -32,12 +32,12 @@
     "pt_BR": "Um aplicativo complementar de terceiros disponível para proprietários de servidores Plex, permitindo que seus usuários solicitem, revisem e descubram conteúdo."
   },
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/petio/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/petio/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/petio/screenshot-3.webp"
   ],
   "developer": "Petio Team",
   "author": "WisdomSky",
-  "thumbnail": "thumbnail.png",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/petio/icon.png",
   "category": "Media"
 }

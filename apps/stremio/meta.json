@@ -12,9 +12,9 @@
   },
   "developer": "Andreas Tsarida / Stremio",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/stremio/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/stremio/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/stremio/screenshot-3.webp"
   ],
   "tagline": {
     "en_US": "Stremio is a modern media center that gives you the freedom to watch everything you want.",

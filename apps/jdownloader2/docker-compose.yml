@@ -31,7 +31,7 @@ services:
     container_name: jdownloader2
 x-casaos:
   main: jdownloader2
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/JDownloader2/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jdownloader2/icon.svg
   port_map: '5800'
   scheme: http
   title:

@@ -37,8 +37,8 @@
   "category": "Media",
   "author": "ganeshlab",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/opodsync/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/opodsync/screenshot-2.webp"
   ],
   "architectures": [
     "amd64",

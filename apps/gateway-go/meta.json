@@ -12,8 +12,8 @@
   },
   "developer": "iotserv",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/gateway-go/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/gateway-go/screenshot-2.webp"
   ],
   "tagline": {
     "en_US": "A third-party client for casaos and zimaOS, remote access management interface, remote access to installed applications.",

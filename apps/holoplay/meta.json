@@ -13,18 +13,18 @@
   },
   "developer": "Stéphane Richin",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp",
-    "screenshot-4.webp",
-    "screenshot-5.webp",
-    "screenshot-6.webp",
-    "screenshot-7.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/holoplay/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/holoplay/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/holoplay/screenshot-3.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/holoplay/screenshot-4.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/holoplay/screenshot-5.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/holoplay/screenshot-6.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/holoplay/screenshot-7.webp"
   ],
   "tagline": {
     "en_US": "A web app to listen Youtube audio source.",
     "fr_FR": "Une application Web pour écouter les sources audio de Youtube.",
     "zh_CN": "一个用于收听Youtube音频源的Web应用。"
   },
-  "thumbnail": "thumbnail.webp"
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/holoplay/thumbnail.webp"
 }

@@ -23,7 +23,7 @@ services:
     container_name: prowlarr
 x-casaos:
   main: prowlarr
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Prowlarr/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/prowlarr/icon.svg
   title:
     en_US: Prowlarr
   port_map: '9696'

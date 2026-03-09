@@ -28,7 +28,7 @@ services:
       PUID: '1000'
 x-casaos:
   main: komga
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Komga/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/komga/icon.svg
   scheme: http
   port_map: '25600'
   index: /

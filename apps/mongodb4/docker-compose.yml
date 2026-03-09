@@ -21,6 +21,6 @@ services:
     container_name: mongodb4
 x-casaos:
   main: mongodb4
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/MongoDB4/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/mongodb4/icon.svg
   title:
     en_US: MongoDB 4

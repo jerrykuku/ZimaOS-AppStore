@@ -23,7 +23,7 @@ services:
       target: /etc/v2raya
 x-casaos:
   main: v2raya
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/V2rayA/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/v2raya/icon.svg
   scheme: http
   port_map: '2017'
   index: /

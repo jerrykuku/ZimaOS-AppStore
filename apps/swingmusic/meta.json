@@ -23,12 +23,12 @@
   },
   "developer": "SwingMX",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp",
-    "screenshot-4.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/swingmusic/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/swingmusic/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/swingmusic/screenshot-3.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/swingmusic/screenshot-4.webp"
   ],
-  "thumbnail": "thumbnail.webp",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/swingmusic/thumbnail.webp",
   "tagline": {
     "en_US": "Swing Music is a beautifully designed, self-hosted music streaming server. Like a cooler Spotify ... but bring your own music.",
     "en_GB": "Swing Music is a beautifully designed, self-hosted music streaming server. Like a cooler Spotify ... but bring your own music.",

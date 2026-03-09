@@ -15,8 +15,6 @@ services:
       resources:
         reservations:
           memory: 1024M
-    labels:
-      icon: https://cdn.jsdelivr.net/gh/getAlby/umbrel-community-app-store@master/alby-albyhub/images/icon.svg
     ports:
     - target: 8080
       published: '58000'
@@ -30,7 +28,7 @@ services:
     network_mode: bridge
     privileged: false
 x-casaos:
-  icon: https://cdn.jsdelivr.net/gh/getAlby/hub@master/frontend/public/icon-512.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/albyhub/icon.svg
   index: /
   port_map: '58000'
   scheme: http

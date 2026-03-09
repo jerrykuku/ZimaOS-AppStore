@@ -27,11 +27,11 @@
   },
   "developer": "Nextcloud",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp",
-    "screenshot-4.webp",
-    "screenshot-5.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/nextcloud/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/nextcloud/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/nextcloud/screenshot-3.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/nextcloud/screenshot-4.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/nextcloud/screenshot-5.webp"
   ],
   "tagline": {
     "en_US": "Content collaboration platform",
@@ -48,6 +48,6 @@
     "sv_SE": "Produktivitetsplattformen som håller dig i kontroll",
     "uk_UA": "Платформа продуктивності, яка дозволяє вам залишатися під контролем"
   },
-  "thumbnail": "thumbnail.webp",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/nextcloud/thumbnail.webp",
   "tips": {}
 }

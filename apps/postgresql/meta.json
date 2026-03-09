@@ -38,7 +38,7 @@
   },
   "developer": "PostgreSQL Global Dev't Group",
   "author": "WisdomSky",
-  "thumbnail": "thumbnail.png",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/postgresql/icon.png",
   "tips": {
     "before_install": {
       "en_US": "Default user: `casaos`\nDefault password: `casaos`\nDefault database: `casaos`\n"

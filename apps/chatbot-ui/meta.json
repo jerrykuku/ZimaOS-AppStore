@@ -22,7 +22,7 @@
   },
   "developer": "Mckay Wrigley",
   "screenshot_link": [
-    "screenshot-1.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/chatbot-ui/screenshot-1.webp"
   ],
   "tagline": {
     "en_US": "Open source chat UI for AI models",

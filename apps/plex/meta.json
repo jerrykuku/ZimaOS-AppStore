@@ -11,15 +11,15 @@
   },
   "developer": "Plex",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/plex/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/plex/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/plex/screenshot-3.webp"
   ],
   "tagline": {
     "en_US": "Stream Movies & TV Shows",
     "zh_CN": "流式播放电影和电视剧"
   },
-  "thumbnail": "thumbnail.webp",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/plex/thumbnail.webp",
   "tips": {
     "before_install": {
       "en_US": "## Plex\n\n#### Stream Movies & TV Shows <br>\n\n*FAQ*\nAuthorized Files and Data to Plex\n\n1. Click setting via top right menu of App icon\n2. map your device's media location in 'Host Path' and link it to Plex's 'Container Path' at /Media for seamless access.\n  To add a media library in Plex\n3. Go to Plex settings\n4. click 'Add Library'\n5. select your media type, and specify the path, such as /Media, where your media files are stored for Plex to catalog and include in your library.\n",

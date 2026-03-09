@@ -40,9 +40,9 @@
     "tr_TR": "OpenHands, geliştiricilere akıllı kod tamamlama, oluşturma ve hata ayıklama yetenekleri sağlayan açık kaynaklı bir AI destekli kodlama asistanıdır. Güvenlik ve izolasyonu sağlamak için sandbox bir ortamda çalışırken çeşitli geliştirme araçlarına ve kaynaklara erişime izin verir.\n\n**Ana Özellikler:**\n- AI destekli kod tamamlama ve oluşturma\n- Etkileşimli hata ayıklama ve sorun çözme\n- Çoklu programlama dili desteği\n- Güvenli sandbox yürütme ortamı\n- Özelleştirilebilir çalışma zamanı yapılandırmaları\n- Kapsayıcılı iş akışları için Docker entegrasyonu\n\n**Daha Fazla Bilgi Edinin:**\n- [OpenHands Resmi Web Sitesi](https://www.all-hands.dev)\n- [OpenHands GitHub Deposu](https://github.com/All-Hands-AI/OpenHands)\n- [Belgeler](https://docs.all-hands.dev)\n"
   },
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/openhands/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/openhands/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/openhands/screenshot-3.webp"
   ],
-  "thumbnail": "thumbnail.png"
+  "thumbnail": ""
 }

@@ -10,8 +10,6 @@ services:
       TZ: $TZ
     hostname: fileflows
     image: revenz/fileflows:stable
-    labels:
-      icon: https://fileflows.com/img/logo.svg
     restart: unless-stopped
     ports:
     - target: 5000
@@ -44,4 +42,4 @@ x-casaos:
   title:
     en_US: FileFlows
   index: /
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/FileFlows/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/fileflows/icon.svg

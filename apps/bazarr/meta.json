@@ -23,10 +23,10 @@
   },
   "developer": "Sabnzbd Team",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp",
-    "screenshot-4.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/bazarr/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/bazarr/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/bazarr/screenshot-3.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/bazarr/screenshot-4.webp"
   ],
   "tagline": {
     "en_US": "Letter generators for Sonarr and Radarr",
@@ -43,6 +43,6 @@
     "sv_SE": "Brevgenererare för Sonarr och Radarr",
     "uk_UA": "Генератори листів для Sonarr і Radarr"
   },
-  "thumbnail": "thumbnail.webp",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/bazarr/thumbnail.webp",
   "tips": {}
 }

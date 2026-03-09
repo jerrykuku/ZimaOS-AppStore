@@ -50,7 +50,7 @@ networks:
   deepseek-ocr-network:
     driver: bridge
 x-casaos:
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/DeepSeek-OCR_Nvidia/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/deepseek-ocr-nvidia/icon.svg
   index: /
   main: deepseek-ocr-frontend
   port_map: '23000'

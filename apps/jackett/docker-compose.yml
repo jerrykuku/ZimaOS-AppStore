@@ -27,7 +27,7 @@ services:
     container_name: jackett
 x-casaos:
   main: jackett
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Jackett/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jackett/icon.svg
   title:
     en_US: Jackett
   index: /

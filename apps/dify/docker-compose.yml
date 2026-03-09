@@ -229,7 +229,7 @@ networks:
     name: dify
 x-casaos:
   main: web
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Dify/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/dify/icon.svg
   title:
     en_US: Dify
   index: /

@@ -344,7 +344,7 @@ networks:
   ragflow:
     driver: bridge
 x-casaos:
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/RagFlow/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ragflow/icon.svg
   index: /
   main: ragflow
   port_map: '30080'

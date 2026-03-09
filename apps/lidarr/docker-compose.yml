@@ -29,7 +29,7 @@ services:
     container_name: lidarr
 x-casaos:
   main: lidarr
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Lidarr/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/lidarr/icon.svg
   title:
     en_US: Lidarr
   port_map: '8686'

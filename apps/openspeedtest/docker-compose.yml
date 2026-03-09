@@ -15,7 +15,7 @@ services:
     container_name: openspeedtest
 x-casaos:
   main: openspeedtest
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/OpenSpeedTest/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/openspeedtest/icon.svg
   title:
     en_US: OpenSpeedTest
   index: /

@@ -11,8 +11,6 @@ services:
         limits:
           memory: 1794M
     image: netdata/netdata:v2.8.1
-    labels:
-      icon: https://icon.casaos.io/main/all/netdata.png
     pid: host
     ports:
     - target: 19999
@@ -52,7 +50,7 @@ services:
     network_mode: bridge
     privileged: false
 x-casaos:
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Netdata/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/netdata/icon.svg
   index: /
   port_map: '19999'
   scheme: http

@@ -14,7 +14,7 @@ services:
         max-file: '1'
 x-casaos:
   main: homebridge
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Homebridge/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/homebridge/icon.svg
   title:
     en_US: Homebridge
   index: /

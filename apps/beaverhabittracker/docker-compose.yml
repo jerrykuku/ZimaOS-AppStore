@@ -26,7 +26,7 @@ services:
       ENABLE_IOS_STANDALONE: true
 x-casaos:
   main: beaverhabittracker
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/BeaverHabitTracker/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/beaverhabittracker/icon.svg
   scheme: http
   port_map: '15580'
   index: /

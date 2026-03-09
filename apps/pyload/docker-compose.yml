@@ -30,7 +30,7 @@ services:
       protocol: tcp
 x-casaos:
   main: pyload
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/PyLoad/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pyload/icon.svg
   title:
     en_US: PyLoad
     zh_CN: PyLoad

@@ -11,16 +11,16 @@
   },
   "developer": "TaskingAI Team",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp",
-    "screenshot-4.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/taskingai/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/taskingai/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/taskingai/screenshot-3.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/taskingai/screenshot-4.webp"
   ],
   "tagline": {
     "en_US": "The developer-friendly cloud platform for building and running LLM agents for AI-native applications.",
     "zh_CN": "开发人员友好的云平台，用于构建和运行AI原生应用程序的LLM代理。"
   },
-  "thumbnail": "thumbnail.webp",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/taskingai/thumbnail.webp",
   "tips": {
     "before_install": {
       "en_US": "| Username | Password   |\n| -------- | ---------- |\n| admin    | TaskingAI321 |\n"

@@ -22,10 +22,10 @@
   },
   "developer": "Tautulli Team",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp",
-    "screenshot-4.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/tautulli/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/tautulli/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/tautulli/screenshot-3.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/tautulli/screenshot-4.webp"
   ],
   "tagline": {
     "en_US": "Monitor your Plex Media Server and much more.",
@@ -42,6 +42,6 @@
     "sv_SE": "Övervaka din Plex Media Server och mycket mer.",
     "uk_UA": "Відстежуйте свій сервер мультимедіа Plex та багато іншого."
   },
-  "thumbnail": "thumbnail.webp",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/tautulli/thumbnail.webp",
   "tips": {}
 }

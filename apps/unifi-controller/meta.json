@@ -22,9 +22,9 @@
   },
   "developer": "LinuxServer.io",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/unifi-controller/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/unifi-controller/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/unifi-controller/screenshot-3.webp"
   ],
   "tagline": {
     "en_US": "The Unifi-controller software is a powerful, enterprise wireless software engine ideal for high-density client deployments requiring low latency and high uptime performance.",
@@ -41,6 +41,6 @@
     "sv_SE": "Unifi-controller-programvaran är ett kraftfullt, företagsinriktat trådlöst programvarumotor som är idealiskt för kundimplantationer med hög kundtäthet som kräver låg latens och hög tillgänglighet.",
     "uk_UA": "ПО Unifi-controller - це потужний корпоративний бездротовий програмний двигун, ідеально підходящий для реалізації клієнтів з високою щільністю, які вимагають низької затримки та високої доступності."
   },
-  "thumbnail": "thumbnail.webp",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/unifi-controller/thumbnail.webp",
   "tips": {}
 }

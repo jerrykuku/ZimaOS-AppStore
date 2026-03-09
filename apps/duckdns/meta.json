@@ -22,7 +22,7 @@
   },
   "developer": "DuckDNS Team",
   "screenshot_link": [
-    "screenshot-1.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/duckdns/screenshot-1.webp"
   ],
   "tagline": {
     "en_US": "Dynamic DNS for your domain, supporting both IPv4 and IPv6",

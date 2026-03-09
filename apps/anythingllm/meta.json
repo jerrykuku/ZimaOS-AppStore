@@ -11,7 +11,7 @@
     "ja_JP": "AnythingLLM は、コードやインフラストラクチャの問題を気にすることなく、RAG、AI エージェントなどを行う最も使いやすいオールインワン AI アプリケーションです。"
   },
   "screenshot_link": [
-    "screenshot-1.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/anythingllm/screenshot-1.webp"
   ],
   "tagline": {
     "en_US": "The all-in-one AI application.",

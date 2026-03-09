@@ -14,7 +14,7 @@ services:
     container_name: databag
 x-casaos:
   main: databag
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Databag/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/databag/icon.svg
   title:
     en_US: Databag
   port_map: '7000'

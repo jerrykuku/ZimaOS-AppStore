@@ -23,7 +23,7 @@ services:
     container_name: memos
 x-casaos:
   main: memos
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Memos/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/memos/icon.svg
   title:
     en_US: Memos
   port_map: '5230'

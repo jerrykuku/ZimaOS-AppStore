@@ -28,7 +28,7 @@ services:
     container_name: nginxproxymanager
 x-casaos:
   main: nginxproxymanager
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/NginxProxyManager/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/nginxproxymanager/icon.svg
   title:
     en_US: Nginx Proxy Manager
     zh_CN: Nginx 代理管理器

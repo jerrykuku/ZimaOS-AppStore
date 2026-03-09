@@ -11,8 +11,8 @@
   },
   "developer": "Henrique Sebastião",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/downtify/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/downtify/screenshot-2.webp"
   ],
   "tagline": {
     "en_US": "Download Spotify music with album art and metadata",

@@ -18,7 +18,7 @@ services:
     tty: true
 x-casaos:
   main: openhands
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/OpenHands/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/openhands/icon.svg
   scheme: http
   port_map: '13333'
   index: /

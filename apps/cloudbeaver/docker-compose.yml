@@ -21,7 +21,7 @@ services:
     privileged: false
 x-casaos:
   main: cloudbeaver
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/CloudBeaver/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/cloudbeaver/icon.svg
   title:
     en_US: CloudBeaver
     pt_BR: CloudBeaver

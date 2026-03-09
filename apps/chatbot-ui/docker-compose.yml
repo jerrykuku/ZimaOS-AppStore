@@ -15,7 +15,7 @@ services:
     container_name: chatbot-ui
 x-casaos:
   main: chatbot-ui
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/ChatbotUI/icon.jpg
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/chatbot-ui/icon.svg
   title:
     en_US: Chatbot UI
   index: /

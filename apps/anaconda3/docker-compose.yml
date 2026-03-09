@@ -22,11 +22,9 @@ services:
     - -c
     - conda install -c conda-forge jupyterlab -y --quiet && jupyter lab --notebook-dir=/opt/notebooks
       --ip='*' --port=8888 --no-browser --allow-root
-    labels:
-      icon: https://cdn.jsdelivr.net/gh/LisonEvf/CasaOS-AppStore@main/Apps/Anaconda3/icon.png
 x-casaos:
   main: anaconda3
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Anaconda3/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/anaconda3/icon.svg
   scheme: http
   port_map: '8888'
   index: /

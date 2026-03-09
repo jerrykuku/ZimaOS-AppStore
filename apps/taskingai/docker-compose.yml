@@ -182,7 +182,7 @@ configs:
       \      proxy_pass http://frontend:80;\n  }\n}"
 x-casaos:
   main: frontend
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/TaskingAI/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/taskingai/icon.svg
   title:
     en_US: TaskingAI
   port_map: '3080'

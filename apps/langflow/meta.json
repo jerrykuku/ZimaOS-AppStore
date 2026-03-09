@@ -40,9 +40,9 @@
     "tr_TR": "Langflow, çoklu ajan ve Retrieval-Augmented Generation (RAG) uygulamaları oluşturmak ve hata ayıklamak için özel olarak tasarlanmış güçlü, açık kaynaklı bir kullanıcı arayüzüdür. Karmaşık AI iş akışları oluşturma sürecini basitleştiren görsel bir sürükle-bırak arayüzü sağlar.\n\nSistem iki ana bileşenden oluşur:\n- **Langflow**: AI iş akışları oluşturmak için görsel bir arayüz sağlayan ana uygulama\n- **PostgreSQL**: Uygulama verilerini ve yapılandırmalarını depolamak için sağlam bir veritabanı sistemi\n\n**Ana Özellikler:**\n- AI iş akışları oluşturmak için görsel sürükle-bırak arayüzü\n- Çoklu ajan sistemleri ve RAG uygulamaları için destek\n- Test ve optimizasyon için entegre hata ayıklama araçları\n- İş akışları ve yapılandırmalar için kalıcı depolama\n- Docker konteynerları ile kolay dağıtım\n\n**Daha Fazla Bilgi Edinin:**\n- [Langflow Resmi Web Sitesi](https://www.langflow.org)\n- [Langflow GitHub Deposu](https://github.com/langflow-ai/langflow)\n- [Belgeler](https://docs.langflow.org)\n"
   },
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/langflow/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/langflow/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/langflow/screenshot-3.webp"
   ],
-  "thumbnail": "thumbnail.png"
+  "thumbnail": ""
 }

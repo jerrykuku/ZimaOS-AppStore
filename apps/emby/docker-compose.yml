@@ -38,7 +38,7 @@ services:
     container_name: emby
 x-casaos:
   main: emby
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Emby/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/emby/icon.svg
   title:
     en_US: Emby
   index: /

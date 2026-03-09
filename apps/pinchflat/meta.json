@@ -24,8 +24,8 @@
   },
   "developer": "kieraneglin",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pinchflat/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pinchflat/screenshot-2.webp"
   ],
   "tagline": {
     "en_US": "Your next YouTube media manager",
@@ -44,7 +44,7 @@
     "ru_RU": "Ваш следующий менеджер медиа YouTube",
     "tr_TR": "Bir sonraki YouTube medya yöneticiniz"
   },
-  "thumbnail": "thumbnail.png",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pinchflat/thumbnail.png",
   "tips": {
     "before_install": {
       "en_US": "Pinchflat will automatically create the necessary directories and start downloading content based on your configured sources.\n\nMake sure you have enough storage space for your downloads. The app uses /downloads as the default download directory.\n\nAfter installation, access the web interface to configure your YouTube channels and playlists for automatic downloading.\n",

@@ -23,7 +23,7 @@ services:
     container_name: siyuan-note
 x-casaos:
   main: siyuan-note
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Siyuan-Note/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/siyuan-note/icon.svg
   title:
     en_US: SiYuan Note
     zh_CN: 思源笔记

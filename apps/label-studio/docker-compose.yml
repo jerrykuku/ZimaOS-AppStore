@@ -22,7 +22,7 @@ services:
       target: /label-studio/data
 x-casaos:
   main: label-studio
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/LabelStudio/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/label-studio/icon.svg
   title:
     en_US: Label Studio
   port_map: '3080'

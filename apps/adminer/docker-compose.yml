@@ -12,7 +12,7 @@ services:
     container_name: adminer
 x-casaos:
   main: adminer
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Adminer/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/adminer/icon.svg
   title:
     en_US: Adminer
   port_map: '8080'

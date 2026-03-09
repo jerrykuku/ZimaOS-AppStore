@@ -21,11 +21,11 @@
   },
   "developer": "Radarr",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp",
-    "screenshot-4.webp",
-    "screenshot-5.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/radarr/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/radarr/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/radarr/screenshot-3.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/radarr/screenshot-4.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/radarr/screenshot-5.webp"
   ],
   "tagline": {
     "en_US": "The movie collection manager for Usenet and BitTorrent users",
@@ -42,6 +42,6 @@
     "sv_SE": "Filmkolektionshanteraren för användare av Usenet och BitTorrent",
     "uk_UA": "Менеджер колекцій фільмів для користувачів Usenet і BitTorrent"
   },
-  "thumbnail": "thumbnail.webp",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/radarr/thumbnail.webp",
   "tips": {}
 }

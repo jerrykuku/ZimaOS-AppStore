@@ -40,4 +40,4 @@ x-casaos:
   port_map: '7867'
   index: /
   scheme: http
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Index-TTS_Nvidia/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/index-tts-nvidia/icon.svg

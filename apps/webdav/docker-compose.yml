@@ -15,8 +15,6 @@ services:
     - UDI=1000
     - USERNAME=casaos
     image: ugeek/webdav:amd64
-    labels:
-      icon: https://icon.casaos.io/main/all/webdav.png
     ports:
     - target: 80
       published: '5005'
@@ -30,7 +28,7 @@ services:
     privileged: false
 x-casaos:
   main: webdav
-  icon: https://icon.casaos.io/main/all/webdav.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/webdav/icon.svg
   title:
     en_US: WebDAV
   index: /

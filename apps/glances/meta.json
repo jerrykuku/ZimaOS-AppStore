@@ -12,7 +12,7 @@
   },
   "developer": "Nicolas Hennion",
   "screenshot_link": [
-    "screenshot-1.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/glances/screenshot-1.webp"
   ],
   "tagline": {
     "en_US": "Cross-platform monitoring tool.",

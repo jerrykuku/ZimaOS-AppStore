@@ -19,7 +19,7 @@ services:
     container_name: vaultwarden
 x-casaos:
   main: vaultwarden
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Vaultwarden/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/vaultwarden/icon.svg
   title:
     en_US: Vaultwarden
   index: /

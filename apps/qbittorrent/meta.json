@@ -22,9 +22,9 @@
   },
   "developer": "qBittorrent",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/qbittorrent/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/qbittorrent/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/qbittorrent/screenshot-3.webp"
   ],
   "tagline": {
     "en_US": "P2P bittorrent download",
@@ -41,7 +41,7 @@
     "sv_SE": "Gratis BitTorrent-downladdare",
     "uk_UA": "Безкоштовний завантажувач BitTorrent"
   },
-  "thumbnail": "thumbnail.webp",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/qbittorrent/thumbnail.webp",
   "tips": {
     "before_install": {
       "en_US": "Default Account\n\n| Username | Password |\n|----------|----------|\n| `admin`    | Get from log |\n\nPasswords need to be viewed in the log\n\nDefault Accessible Path in qBittorrent\n\n| Name | Value |\n| ---- | ----- |\n| DATA Path | `/DATA` |\n| Downloads Path | `/DATA/Downloads` |\n| Media Path | `/DATA/Media` |\n\nThe paths of other DATA subdirectories in CasaOS are also similar.\nPlease make sure you use the correct path when using qBittorrent.\n",

@@ -17,8 +17,6 @@ services:
         reservations:
           memory: 64M
     image: ghcr.io/flaresolverr/flaresolverr:v3.4.5
-    labels:
-      icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/FlareSolverr/icon.png
     ports:
     - target: 8191
       published: '8191'
@@ -27,7 +25,7 @@ services:
     network_mode: bridge
     privileged: false
 x-casaos:
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/FlareSolverr/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/flaresolverr/icon.svg
   index: /
   port_map: '8191'
   scheme: http

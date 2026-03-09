@@ -25,6 +25,6 @@ services:
     container_name: postgresql
 x-casaos:
   main: postgresql
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/PostgreSQL/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/postgresql/icon.svg
   title:
     en_US: PostgreSQL

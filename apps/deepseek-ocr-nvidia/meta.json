@@ -23,10 +23,10 @@
   },
   "developer": "rdumasia303",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp",
-    "screenshot-4.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/deepseek-ocr-nvidia/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/deepseek-ocr-nvidia/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/deepseek-ocr-nvidia/screenshot-3.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/deepseek-ocr-nvidia/screenshot-4.webp"
   ],
   "tagline": {
     "de_DE": "Leistungsstarkes OCR mit DeepSeek AI",

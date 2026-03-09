@@ -12,8 +12,8 @@
   },
   "developer": "Homebridge",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/homebridge/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/homebridge/screenshot-2.webp"
   ],
   "tagline": {
     "en_US": "HomeKit support for the impatient.",

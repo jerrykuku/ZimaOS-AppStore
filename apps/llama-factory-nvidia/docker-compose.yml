@@ -23,7 +23,7 @@ services:
             - gpu
     restart: unless-stopped
 x-casaos:
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/LLaMA-Factory_Nvidia/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/llama-factory-nvidia/icon.svg
   title:
     de_DE: LLaMA Factory(Nvidia GPU)
     el_GR: LLaMA Factory(Nvidia GPU)

@@ -28,7 +28,7 @@ services:
     privileged: false
 x-casaos:
   main: medusa
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Medusa/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/medusa/icon.svg
   index: /
   port_map: '8081'
   scheme: http

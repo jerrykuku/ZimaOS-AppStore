@@ -29,7 +29,7 @@ services:
     container_name: mylar3
 x-casaos:
   main: mylar3
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Mylar3/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/mylar3/icon.svg
   title:
     en_US: Mylar3
   port_map: '8090'

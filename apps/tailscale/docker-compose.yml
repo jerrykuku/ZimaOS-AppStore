@@ -25,7 +25,7 @@ services:
       & sleep 10; tailscale web --listen 0.0.0.0:5252"
 x-casaos:
   main: tailscale
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Tailscale/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/tailscale/icon.svg
   scheme: ''
   port_map: '5252'
   index: /

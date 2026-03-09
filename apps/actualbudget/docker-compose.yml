@@ -18,7 +18,7 @@ services:
       protocol: tcp
 x-casaos:
   main: actualbudget
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/ActualBudget/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/actualbudget/icon.svg
   scheme: http
   port_map: '15006'
   index: /

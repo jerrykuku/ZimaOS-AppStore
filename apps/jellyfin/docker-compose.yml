@@ -45,7 +45,7 @@ services:
     container_name: jellyfin
 x-casaos:
   main: jellyfin
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Jellyfin/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jellyfin/icon.svg
   title:
     en_US: Jellyfin
   index: /

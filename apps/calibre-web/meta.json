@@ -22,9 +22,9 @@
   },
   "developer": "linuxserver",
   "screenshot_link": [
-    "screenshot-1.webp",
-    "screenshot-2.webp",
-    "screenshot-3.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/calibre-web/screenshot-1.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/calibre-web/screenshot-2.webp",
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/calibre-web/screenshot-3.webp"
   ],
   "tagline": {
     "en_US": "Web app for browsing, reading and downloading eBooks stored in a Calibre database",
@@ -41,7 +41,7 @@
     "sv_SE": "Webbapplikation för att bläddra, läsa och ladda ner e-böcker som lagras i en Calibre-databas",
     "uk_UA": "Веб-застосунок для перегляду, читання та завантаження електронних книг, що зберігаються в базі даних Calibre"
   },
-  "thumbnail": "thumbnail.webp",
+  "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/calibre-web/thumbnail.webp",
   "tips": {
     "before_install": {
       "en_US": "| Username | Password |\n| -------- | -------- |\n| `admin`    | `admin123` |\n",

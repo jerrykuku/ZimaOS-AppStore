@@ -19,7 +19,7 @@ services:
     container_name: uptimekuma
 x-casaos:
   main: uptimekuma
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/UptimeKuma/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/uptimekuma/icon.svg
   title:
     en_US: Uptime Kuma
   index: /

@@ -15,7 +15,7 @@ services:
     restart: unless-stopped
 x-casaos:
   main: swingmusic
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/SwingMusic/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/swingmusic/icon.svg
   title:
     en_US: Swing Music
     zh_CN: Swing Music

@@ -17,7 +17,7 @@ services:
     restart: unless-stopped
 x-casaos:
   main: duckdns
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/DuckDNS/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/duckdns/icon.svg
   title:
     en_US: duckdns
   index: /

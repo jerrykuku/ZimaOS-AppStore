@@ -14,7 +14,7 @@ services:
       protocol: tcp
 x-casaos:
   main: excalidraw
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Excalidraw/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/excalidraw/icon.svg
   scheme: http
   port_map: '17638'
   index: /

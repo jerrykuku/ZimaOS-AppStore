@@ -32,7 +32,7 @@ services:
     container_name: plex
 x-casaos:
   main: plex
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Plex/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/plex-nvidia/icon.svg
   title:
     en_US: Plex(Nvidia GPU)
   index: /web/index.html

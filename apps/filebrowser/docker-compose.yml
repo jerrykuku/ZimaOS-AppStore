@@ -26,7 +26,7 @@ services:
     container_name: filebrowser
 x-casaos:
   main: filebrowser
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/FileBrowser/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/filebrowser/icon.svg
   title:
     en_US: FileBrowser
   index: /

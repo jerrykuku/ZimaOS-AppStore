@@ -7,8 +7,6 @@ services:
       resources:
         reservations:
           memory: 32M
-    labels:
-      icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Gateway-go/icon.png
     restart: unless-stopped
     volumes:
     - type: bind
@@ -20,7 +18,7 @@ services:
       protocol: tcp
     container_name: gateway-go
 x-casaos:
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Gateway-go/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/gateway-go/icon.svg
   main: gateway-go
   port_map: '34323'
   scheme: http

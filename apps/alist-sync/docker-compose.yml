@@ -14,7 +14,7 @@ services:
     - TZ=Asia/Shanghai
 x-casaos:
   main: alist-sync
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Alist-Sync/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/alist-sync/icon.svg
   title:
     en_US: Alist-Sync
   port_map: '52441'

@@ -25,7 +25,7 @@ services:
       target: /root/.ollama
 x-casaos:
   main: ollama
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Ollama/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ollama-nvidia/icon.svg
   scheme: http
   port_map: '11434'
   index: /

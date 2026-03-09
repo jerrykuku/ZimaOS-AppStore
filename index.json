@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-03-09T07:40:29Z",
+  "updated_at": "2026-03-09T08:18:19Z",
   "categories": [
     {
       "name": "Media",
@@ -74,11 +74,11 @@
         "arm64",
         "arm"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/2FAuth/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/2FAuth/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/2fauth/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/2fauth/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/2fauth/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/2fauth/meta.json",
-      "content_hash": "ae62295f"
+      "content_hash": "a9ba6e0f"
     },
     {
       "id": "actualbudget",
@@ -109,11 +109,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/ActualBudget/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/actualbudget/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/actualbudget/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/actualbudget/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/actualbudget/meta.json",
-      "content_hash": "5e4ce311"
+      "content_hash": "7e40eb36"
     },
     {
       "id": "adguard-home",
@@ -145,11 +145,11 @@
         "arm64",
         "ppc64le"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/AdGuardHome/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/AdGuardHome/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/adguard-home/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/adguard-home/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/adguard-home/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/adguard-home/meta.json",
-      "content_hash": "8641bfb8"
+      "content_hash": "e559ff0c"
     },
     {
       "id": "adminer",
@@ -168,11 +168,11 @@
         "arm",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Adminer/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Adminer/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/adminer/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/adminer/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/adminer/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/adminer/meta.json",
-      "content_hash": "b912fb82"
+      "content_hash": "9a481c34"
     },
     {
       "id": "albyhub",
@@ -201,11 +201,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/getAlby/hub@master/frontend/public/icon-512.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/albyhub/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/albyhub/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/albyhub/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/albyhub/meta.json",
-      "content_hash": "411d2c4e"
+      "content_hash": "d7ecc66f"
     },
     {
       "id": "alist",
@@ -237,11 +237,11 @@
         "arm",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Alist/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Alist/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/alist/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/alist/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/alist/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/alist/meta.json",
-      "content_hash": "40debc96"
+      "content_hash": "f7cc6a14"
     },
     {
       "id": "alist-sync",
@@ -260,11 +260,11 @@
         "arm",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Alist-Sync/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Alist-Sync/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/alist-sync/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/alist-sync/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/alist-sync/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/alist-sync/meta.json",
-      "content_hash": "75647582"
+      "content_hash": "208dbfb5"
     },
     {
       "id": "anaconda3",
@@ -281,11 +281,11 @@
       "architectures": [
         "amd64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Anaconda3/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Anaconda3/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/anaconda3/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/anaconda3/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/anaconda3/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/anaconda3/meta.json",
-      "content_hash": "99f4038e"
+      "content_hash": "fdaed56a"
     },
     {
       "id": "anythingllm",
@@ -307,11 +307,11 @@
       "architectures": [
         "amd64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/AnythingLLM/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/anythingllm/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/anythingllm/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/anythingllm/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/anythingllm/meta.json",
-      "content_hash": "c6f3d184"
+      "content_hash": "1895699d"
     },
     {
       "id": "archivebox",
@@ -355,11 +355,11 @@
       "architectures": [
         "amd64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/ArchiveBox/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/ArchiveBox/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/archivebox/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/archivebox/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/archivebox/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/archivebox/meta.json",
-      "content_hash": "efdb5436"
+      "content_hash": "21a73c23"
     },
     {
       "id": "audiobookshelf",
@@ -390,11 +390,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Audiobookshelf/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/audiobookshelf/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/audiobookshelf/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/audiobookshelf/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/audiobookshelf/meta.json",
-      "content_hash": "fbbd42c1"
+      "content_hash": "f73f693a"
     },
     {
       "id": "autobrr",
@@ -413,11 +413,11 @@
         "arm",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Autobrr/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Autobrr/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/autobrr/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/autobrr/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/autobrr/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/autobrr/meta.json",
-      "content_hash": "2e5f27c1"
+      "content_hash": "e1afe748"
     },
     {
       "id": "bazarr",
@@ -447,11 +447,11 @@
         "arm",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Bazarr/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Bazarr/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/bazarr/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/bazarr/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/bazarr/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/bazarr/meta.json",
-      "content_hash": "ee11ed12"
+      "content_hash": "bb024c71"
     },
     {
       "id": "beaverhabittracker",
@@ -482,11 +482,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/BeaverHabitTracker/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/beaverhabittracker/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/beaverhabittracker/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/beaverhabittracker/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/beaverhabittracker/meta.json",
-      "content_hash": "ba63caa3"
+      "content_hash": "585769b0"
     },
     {
       "id": "calibre-web",
@@ -515,11 +515,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Calibre-web/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Calibre-web/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/calibre-web/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/calibre-web/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/calibre-web/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/calibre-web/meta.json",
-      "content_hash": "d5f21a13"
+      "content_hash": "37d492c1"
     },
     {
       "id": "chatbot-ui",
@@ -548,11 +548,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/ChatbotUI/icon.jpg",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/chatbot-ui/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/chatbot-ui/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/chatbot-ui/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/chatbot-ui/meta.json",
-      "content_hash": "d6f25a03"
+      "content_hash": "843d132a"
     },
     {
       "id": "chatgpt-next-web",
@@ -570,11 +570,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/ChatGPT-Next-Web/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/ChatGPT-Next-Web/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/chatgpt-next-web/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/chatgpt-next-web/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/chatgpt-next-web/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/chatgpt-next-web/meta.json",
-      "content_hash": "176d67f5"
+      "content_hash": "c9319453"
     },
     {
       "id": "cloudbeaver",
@@ -594,11 +594,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/CloudBeaver/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/cloudbeaver/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/cloudbeaver/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/cloudbeaver/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/cloudbeaver/meta.json",
-      "content_hash": "c1cb9891"
+      "content_hash": "f23bbd27"
     },
     {
       "id": "cloudflared",
@@ -630,11 +630,11 @@
         "arm",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Cloudflared/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Cloudflared/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/cloudflared/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/cloudflared/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/cloudflared/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/cloudflared/meta.json",
-      "content_hash": "f43074db"
+      "content_hash": "06741d15"
     },
     {
       "id": "convertx",
@@ -665,11 +665,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/ConvertX/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/convertx/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/convertx/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/convertx/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/convertx/meta.json",
-      "content_hash": "73c812c1"
+      "content_hash": "f28144e3"
     },
     {
       "id": "crafty",
@@ -689,11 +689,11 @@
         "arm",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Crafty/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/crafty/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/crafty/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/crafty/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/crafty/meta.json",
-      "content_hash": "97590860"
+      "content_hash": "bc9016a0"
     },
     {
       "id": "databag",
@@ -711,11 +711,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Databag/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/databag/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/databag/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/databag/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/databag/meta.json",
-      "content_hash": "ce1617eb"
+      "content_hash": "fc7dddfc"
     },
     {
       "id": "ddns-go",
@@ -734,11 +734,11 @@
         "arm",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Ddns-go/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ddns-go/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ddns-go/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ddns-go/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ddns-go/meta.json",
-      "content_hash": "4495ca8b"
+      "content_hash": "c2ef3165"
     },
     {
       "id": "ddns-updater",
@@ -757,11 +757,11 @@
         "arm",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/DDNS-Updater/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ddns-updater/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ddns-updater/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ddns-updater/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ddns-updater/meta.json",
-      "content_hash": "589a549c"
+      "content_hash": "988f983f"
     },
     {
       "id": "deepseek-ocr-nvidia",
@@ -805,11 +805,11 @@
       "architectures": [
         "amd64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/DeepSeek-OCR_Nvidia/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/deepseek-ocr-nvidia/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/deepseek-ocr-nvidia/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/deepseek-ocr-nvidia/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/deepseek-ocr-nvidia/meta.json",
-      "content_hash": "32833235"
+      "content_hash": "5216eb10"
     },
     {
       "id": "deluge",
@@ -838,11 +838,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Deluge/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Deluge/thumbnail.jpg",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/deluge/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/deluge/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/deluge/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/deluge/meta.json",
-      "content_hash": "49410731"
+      "content_hash": "fb794ad5"
     },
     {
       "id": "dify",
@@ -859,11 +859,11 @@
         "arm64",
         "amd64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Dify/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Dify/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/dify/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/dify/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/dify/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/dify/meta.json",
-      "content_hash": "b0713343"
+      "content_hash": "a6f00052"
     },
     {
       "id": "docmost",
@@ -894,11 +894,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Docmost/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/docmost/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/docmost/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/docmost/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/docmost/meta.json",
-      "content_hash": "cb0bf33f"
+      "content_hash": "7ecb8baa"
     },
     {
       "id": "downtify",
@@ -916,11 +916,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://raw.githubusercontent.com/henriquesebastiao/downtify/refs/heads/main/assets/casaos-icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/downtify/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/downtify/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/downtify/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/downtify/meta.json",
-      "content_hash": "0322d93b"
+      "content_hash": "c7c07ce3"
     },
     {
       "id": "duckdns",
@@ -949,11 +949,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/DuckDNS/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/duckdns/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/duckdns/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/duckdns/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/duckdns/meta.json",
-      "content_hash": "f6487983"
+      "content_hash": "befac02b"
     },
     {
       "id": "duplicati",
@@ -982,11 +982,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Duplicati/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Duplicati/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/duplicati/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/duplicati/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/duplicati/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/duplicati/meta.json",
-      "content_hash": "d3d79f5c"
+      "content_hash": "14abb282"
     },
     {
       "id": "emby",
@@ -1017,11 +1017,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Emby/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Emby/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/emby/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/emby/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/emby/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/emby/meta.json",
-      "content_hash": "08c406a7"
+      "content_hash": "c0af09cf"
     },
     {
       "id": "emby-nvidia",
@@ -1050,11 +1050,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Emby/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Emby/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/emby-nvidia/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/emby-nvidia/thumbnail.png",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/emby-nvidia/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/emby-nvidia/meta.json",
-      "content_hash": "9f55d89b"
+      "content_hash": "07220a6f"
     },
     {
       "id": "embystat",
@@ -1083,11 +1083,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Embystat/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/embystat/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/embystat/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/embystat/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/embystat/meta.json",
-      "content_hash": "c19aadb1"
+      "content_hash": "db12fa39"
     },
     {
       "id": "emulatorjs",
@@ -1102,11 +1102,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/EmulatorJS/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/emulatorjs/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/emulatorjs/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/emulatorjs/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/emulatorjs/meta.json",
-      "content_hash": "b7f1eaad"
+      "content_hash": "75569bb1"
     },
     {
       "id": "esphome",
@@ -1125,11 +1125,11 @@
         "arm64",
         "arm"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/ESPHome/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/esphome/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/esphome/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/esphome/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/esphome/meta.json",
-      "content_hash": "55908d96"
+      "content_hash": "c4e8b972"
     },
     {
       "id": "excalidraw",
@@ -1159,11 +1159,11 @@
       "architectures": [
         "amd64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Excalidraw/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/excalidraw/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/excalidraw/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/excalidraw/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/excalidraw/meta.json",
-      "content_hash": "6273b808"
+      "content_hash": "05e67d5b"
     },
     {
       "id": "filebrowser",
@@ -1193,11 +1193,11 @@
         "arm64",
         "arm"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/FileBrowser/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/FileBrowser/thumbnail.jpg",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/filebrowser/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/filebrowser/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/filebrowser/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/filebrowser/meta.json",
-      "content_hash": "a57d77ce"
+      "content_hash": "fec2cbfa"
     },
     {
       "id": "filedrop",
@@ -1227,11 +1227,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Filedrop/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/filedrop/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/filedrop/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/filedrop/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/filedrop/meta.json",
-      "content_hash": "294050e9"
+      "content_hash": "6fcd2e93"
     },
     {
       "id": "fileflows",
@@ -1260,11 +1260,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/FileFlows/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/fileflows/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/fileflows/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/fileflows/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/fileflows/meta.json",
-      "content_hash": "fc02699f"
+      "content_hash": "653e8d52"
     },
     {
       "id": "firefly",
@@ -1284,11 +1284,11 @@
         "arm64",
         "arm"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Firefly/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/firefly/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/firefly/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/firefly/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/firefly/meta.json",
-      "content_hash": "7669fcf4"
+      "content_hash": "95ae47aa"
     },
     {
       "id": "flaresolverr",
@@ -1304,11 +1304,11 @@
         "arm",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/FlareSolverr/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/flaresolverr/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/flaresolverr/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/flaresolverr/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/flaresolverr/meta.json",
-      "content_hash": "e18211e1"
+      "content_hash": "432b5a22"
     },
     {
       "id": "flowise",
@@ -1338,11 +1338,11 @@
       "architectures": [
         "amd64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/FlowiseAi/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/flowise/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/flowise/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/flowise/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/flowise/meta.json",
-      "content_hash": "6e1401e2"
+      "content_hash": "7a2a5245"
     },
     {
       "id": "freshrss",
@@ -1371,11 +1371,11 @@
         "arm64",
         "arm"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/FreshRSS/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/freshrss/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/freshrss/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/freshrss/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/freshrss/meta.json",
-      "content_hash": "3f84b5bb"
+      "content_hash": "a30a94f2"
     },
     {
       "id": "gateway-go",
@@ -1394,11 +1394,11 @@
         "arm",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Gateway-go/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/gateway-go/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/gateway-go/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/gateway-go/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/gateway-go/meta.json",
-      "content_hash": "4cfa39de"
+      "content_hash": "a901e144"
     },
     {
       "id": "gitea",
@@ -1427,11 +1427,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Gitea/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Gitea/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/gitea/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/gitea/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/gitea/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/gitea/meta.json",
-      "content_hash": "c8f5c323"
+      "content_hash": "9b170f39"
     },
     {
       "id": "glances",
@@ -1452,11 +1452,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Glances/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/glances/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/glances/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/glances/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/glances/meta.json",
-      "content_hash": "fd65efcc"
+      "content_hash": "cf88b2ce"
     },
     {
       "id": "gopeed",
@@ -1489,11 +1489,11 @@
         "arm64",
         "arm"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Gopeed/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/gopeed/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/gopeed/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/gopeed/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/gopeed/meta.json",
-      "content_hash": "7c37a8a8"
+      "content_hash": "ed0164b7"
     },
     {
       "id": "grafana",
@@ -1522,11 +1522,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Grafana/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Grafana/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/grafana/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/grafana/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/grafana/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/grafana/meta.json",
-      "content_hash": "eac3896e"
+      "content_hash": "ceaee638"
     },
     {
       "id": "handbrake",
@@ -1554,11 +1554,11 @@
       "architectures": [
         "amd64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Handbrake/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/handbrake/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/handbrake/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/handbrake/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/handbrake/meta.json",
-      "content_hash": "0aa19653"
+      "content_hash": "3f09693d"
     },
     {
       "id": "holoplay",
@@ -1579,11 +1579,11 @@
         "arm64",
         "arm"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/HoloPlay/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/HoloPlay/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/holoplay/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/holoplay/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/holoplay/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/holoplay/meta.json",
-      "content_hash": "ea093c69"
+      "content_hash": "1ea401ad"
     },
     {
       "id": "homeassistant",
@@ -1615,11 +1615,11 @@
         "arm64",
         "arm"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/HomeAssistant/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/HomeAssistant/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/homeassistant/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/homeassistant/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/homeassistant/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/homeassistant/meta.json",
-      "content_hash": "4da9e61b"
+      "content_hash": "532fc638"
     },
     {
       "id": "homebridge",
@@ -1638,11 +1638,11 @@
         "arm",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Homebridge/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/homebridge/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/homebridge/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/homebridge/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/homebridge/meta.json",
-      "content_hash": "91f4b80f"
+      "content_hash": "108f8e8c"
     },
     {
       "id": "hugo",
@@ -1673,11 +1673,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Hugo/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/hugo/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/hugo/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/hugo/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/hugo/meta.json",
-      "content_hash": "b37de557"
+      "content_hash": "0ec672ef"
     },
     {
       "id": "icewhale-stable-diffusion-webui",
@@ -1694,11 +1694,11 @@
       "architectures": [
         "amd64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/StableDiffusionWebUI/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/icewhale-stable-diffusion-webui/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/icewhale-stable-diffusion-webui/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/icewhale-stable-diffusion-webui/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/icewhale-stable-diffusion-webui/meta.json",
-      "content_hash": "c4cc5774"
+      "content_hash": "5e7a9f03"
     },
     {
       "id": "immich",
@@ -1729,11 +1729,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Immich/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Immich/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/immich/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/immich/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/immich/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/immich/meta.json",
-      "content_hash": "0ad76915"
+      "content_hash": "b71837ea"
     },
     {
       "id": "index-tts",
@@ -1777,11 +1777,11 @@
       "architectures": [
         "amd64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Index-TTS/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Index-TTS/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/index-tts/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/index-tts/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/index-tts/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/index-tts/meta.json",
-      "content_hash": "53eb8190"
+      "content_hash": "e97967e3"
     },
     {
       "id": "index-tts-nvidia",
@@ -1825,11 +1825,11 @@
       "architectures": [
         "amd64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Index-TTS_Nvidia/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Index-TTS_Nvidia/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/index-tts-nvidia/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/index-tts-nvidia/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/index-tts-nvidia/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/index-tts-nvidia/meta.json",
-      "content_hash": "3b4b9696"
+      "content_hash": "c907721c"
     },
     {
       "id": "jackett",
@@ -1858,11 +1858,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Jackett/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Jackett/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jackett/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jackett/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jackett/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jackett/meta.json",
-      "content_hash": "2936a8cf"
+      "content_hash": "312cdc0a"
     },
     {
       "id": "jdownloader2",
@@ -1880,11 +1880,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/JDownloader2/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jdownloader2/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jdownloader2/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jdownloader2/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jdownloader2/meta.json",
-      "content_hash": "e07c68e5"
+      "content_hash": "36ffbc6d"
     },
     {
       "id": "jellyfin",
@@ -1915,11 +1915,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Jellyfin/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Jellyfin/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jellyfin/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jellyfin/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jellyfin/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jellyfin/meta.json",
-      "content_hash": "1fe48d78"
+      "content_hash": "0e38647c"
     },
     {
       "id": "jellyfin-nvidia",
@@ -1948,11 +1948,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Jellyfin/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Jellyfin/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jellyfin-nvidia/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jellyfin-nvidia/thumbnail.png",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jellyfin-nvidia/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jellyfin-nvidia/meta.json",
-      "content_hash": "fcc28a80"
+      "content_hash": "29f51992"
     },
     {
       "id": "jellyseerr",
@@ -1983,11 +1983,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Jellyseerr/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Jellyseerr/thumbnail.jpg",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jellyseerr/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jellyseerr/thumbnail.jpg",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jellyseerr/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jellyseerr/meta.json",
-      "content_hash": "a04acabf"
+      "content_hash": "5e126347"
     },
     {
       "id": "jenkins",
@@ -2015,11 +2015,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://icon.casaos.io/main/all/jenkins.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jenkins/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jenkins/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jenkins/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jenkins/meta.json",
-      "content_hash": "26eeb448"
+      "content_hash": "1392762a"
     },
     {
       "id": "kavita",
@@ -2051,11 +2051,11 @@
         "arm",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Kavita/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/kavita/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/kavita/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/kavita/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/kavita/meta.json",
-      "content_hash": "99871c8e"
+      "content_hash": "69c6d225"
     },
     {
       "id": "komga",
@@ -2087,11 +2087,11 @@
         "arm",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Komga/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/komga/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/komga/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/komga/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/komga/meta.json",
-      "content_hash": "83930c4a"
+      "content_hash": "0206c1d6"
     },
     {
       "id": "label-studio",
@@ -2109,11 +2109,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/LabelStudio/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/LabelStudio/thumbnail.jpg",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/label-studio/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/label-studio/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/label-studio/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/label-studio/meta.json",
-      "content_hash": "40dd6675"
+      "content_hash": "bfb8ec6b"
     },
     {
       "id": "langflow",
@@ -2157,11 +2157,11 @@
       "architectures": [
         "amd64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/LangFlow/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/langflow/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/langflow/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/langflow/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/langflow/meta.json",
-      "content_hash": "eb2a9939"
+      "content_hash": "93807643"
     },
     {
       "id": "lazylibrarian",
@@ -2190,11 +2190,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Lazylibrarian/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Lazylibrarian/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/lazylibrarian/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/lazylibrarian/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/lazylibrarian/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/lazylibrarian/meta.json",
-      "content_hash": "81270fae"
+      "content_hash": "9cdb927a"
     },
     {
       "id": "librechat",
@@ -2238,11 +2238,11 @@
       "architectures": [
         "amd64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/LibreChat/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/librechat/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/librechat/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/librechat/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/librechat/meta.json",
-      "content_hash": "f9ed9073"
+      "content_hash": "a8683bae"
     },
     {
       "id": "lidarr",
@@ -2271,11 +2271,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Lidarr/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Lidarr/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/lidarr/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/lidarr/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/lidarr/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/lidarr/meta.json",
-      "content_hash": "9a89c0ad"
+      "content_hash": "5a81ba6b"
     },
     {
       "id": "llama-factory-nvidia",
@@ -2319,11 +2319,11 @@
       "architectures": [
         "amd64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/LLaMA-Factory_Nvidia/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/llama-factory-nvidia/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/llama-factory-nvidia/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/llama-factory-nvidia/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/llama-factory-nvidia/meta.json",
-      "content_hash": "6aac9068"
+      "content_hash": "c8204553"
     },
     {
       "id": "logseq",
@@ -2341,11 +2341,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Logseq/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Logseq/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/logseq/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/logseq/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/logseq/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/logseq/meta.json",
-      "content_hash": "75a5986e"
+      "content_hash": "35ba6e6e"
     },
     {
       "id": "lucky",
@@ -2364,11 +2364,11 @@
         "arm",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Lucky/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/lucky/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/lucky/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/lucky/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/lucky/meta.json",
-      "content_hash": "750db483"
+      "content_hash": "e6075a0d"
     },
     {
       "id": "lyrionmusicserver",
@@ -2400,11 +2400,11 @@
         "arm",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/LyrionMusicServer/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/lyrionmusicserver/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/lyrionmusicserver/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/lyrionmusicserver/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/lyrionmusicserver/meta.json",
-      "content_hash": "c412f3f6"
+      "content_hash": "4ad1bfce"
     },
     {
       "id": "mariadb",
@@ -2433,11 +2433,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/MariaDB/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/MariaDB/icon.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/mariadb/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/mariadb/icon.png",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/mariadb/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/mariadb/meta.json",
-      "content_hash": "8efc1c97"
+      "content_hash": "c0661555"
     },
     {
       "id": "maybe",
@@ -2482,11 +2482,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Maybe/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/maybe/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/maybe/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/maybe/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/maybe/meta.json",
-      "content_hash": "41a3ef22"
+      "content_hash": "2e4be543"
     },
     {
       "id": "medusa",
@@ -2502,11 +2502,11 @@
         "arm64",
         "arm"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Medusa/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/medusa/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/medusa/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/medusa/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/medusa/meta.json",
-      "content_hash": "ae90400f"
+      "content_hash": "72c8a186"
     },
     {
       "id": "memos",
@@ -2538,11 +2538,11 @@
         "arm64",
         "arm"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Memos/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Memos/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/memos/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/memos/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/memos/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/memos/meta.json",
-      "content_hash": "018fb058"
+      "content_hash": "4883c6b0"
     },
     {
       "id": "mineos-node",
@@ -2570,11 +2570,11 @@
       "architectures": [
         "amd64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/MineOS/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/mineos-node/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/mineos-node/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/mineos-node/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/mineos-node/meta.json",
-      "content_hash": "c0ff93fb"
+      "content_hash": "a97c544b"
     },
     {
       "id": "mongodb",
@@ -2601,11 +2601,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Mongo/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Mongo/icon.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/mongodb/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/mongodb/icon.png",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/mongodb/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/mongodb/meta.json",
-      "content_hash": "6ad638e9"
+      "content_hash": "6cab02d3"
     },
     {
       "id": "mongodb4",
@@ -2632,11 +2632,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/MongoDB4/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/MongoDB4/icon.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/mongodb4/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/mongodb4/icon.png",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/mongodb4/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/mongodb4/meta.json",
-      "content_hash": "4ababf30"
+      "content_hash": "3c3a78d6"
     },
     {
       "id": "monica",
@@ -2667,11 +2667,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Monica/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/monica/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/monica/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/monica/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/monica/meta.json",
-      "content_hash": "22603776"
+      "content_hash": "139da799"
     },
     {
       "id": "motioneye",
@@ -2688,11 +2688,11 @@
       "architectures": [
         "amd64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Motioneye/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/motioneye/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/motioneye/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/motioneye/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/motioneye/meta.json",
-      "content_hash": "a156e473"
+      "content_hash": "0e7da984"
     },
     {
       "id": "mylar3",
@@ -2721,11 +2721,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Mylar3/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Mylar3/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/mylar3/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/mylar3/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/mylar3/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/mylar3/meta.json",
-      "content_hash": "b69e6e70"
+      "content_hash": "18f4ca1e"
     },
     {
       "id": "myspeed",
@@ -2746,11 +2746,11 @@
         "arm64",
         "arm"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/MySpeed/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/myspeed/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/myspeed/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/myspeed/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/myspeed/meta.json",
-      "content_hash": "60d7bb9f"
+      "content_hash": "f1e6581b"
     },
     {
       "id": "n8n",
@@ -2781,11 +2781,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/N8n/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/N8n/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/n8n/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/n8n/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/n8n/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/n8n/meta.json",
-      "content_hash": "43e6bc0b"
+      "content_hash": "02368886"
     },
     {
       "id": "navidrome",
@@ -2804,11 +2804,11 @@
         "arm64",
         "arm"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Navidrome/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/navidrome/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/navidrome/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/navidrome/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/navidrome/meta.json",
-      "content_hash": "19d061ee"
+      "content_hash": "d52bea0a"
     },
     {
       "id": "netbird",
@@ -2828,11 +2828,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/NetBird/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/NetBird/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/netbird/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/netbird/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/netbird/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/netbird/meta.json",
-      "content_hash": "99491277"
+      "content_hash": "c4d14ae6"
     },
     {
       "id": "netdata",
@@ -2851,11 +2851,11 @@
         "arm64",
         "arm"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Netdata/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/netdata/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/netdata/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/netdata/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/netdata/meta.json",
-      "content_hash": "28034a07"
+      "content_hash": "91e1fa0f"
     },
     {
       "id": "nextcloud",
@@ -2889,11 +2889,11 @@
         "ppc64le",
         "s390x"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Nextcloud/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Nextcloud/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/nextcloud/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/nextcloud/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/nextcloud/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/nextcloud/meta.json",
-      "content_hash": "c526a750"
+      "content_hash": "cfbc0614"
     },
     {
       "id": "nginxproxymanager",
@@ -2924,11 +2924,11 @@
         "arm64",
         "arm"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/NginxProxyManager/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/NginxProxyManager/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/nginxproxymanager/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/nginxproxymanager/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/nginxproxymanager/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/nginxproxymanager/meta.json",
-      "content_hash": "024cdcc3"
+      "content_hash": "76d92132"
     },
     {
       "id": "node-red",
@@ -2961,11 +2961,11 @@
         "s390x",
         "arm"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Node-RED/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Node-RED/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/node-red/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/node-red/thumbnail.png",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/node-red/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/node-red/meta.json",
-      "content_hash": "650810e2"
+      "content_hash": "119b70a7"
     },
     {
       "id": "nzbget",
@@ -2995,11 +2995,11 @@
         "arm",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Nzbget/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Nzbget/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/nzbget/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/nzbget/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/nzbget/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/nzbget/meta.json",
-      "content_hash": "e69f60e9"
+      "content_hash": "eb135c8d"
     },
     {
       "id": "obsidian",
@@ -3030,11 +3030,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Obsidian/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/obsidian/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/obsidian/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/obsidian/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/obsidian/meta.json",
-      "content_hash": "2f10e675"
+      "content_hash": "04a74c1c"
     },
     {
       "id": "ollama",
@@ -3065,11 +3065,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Ollama/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ollama/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ollama/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ollama/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ollama/meta.json",
-      "content_hash": "d978f670"
+      "content_hash": "e86b3086"
     },
     {
       "id": "ollama-nvidia",
@@ -3100,11 +3100,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Ollama/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ollama-nvidia/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ollama-nvidia/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ollama-nvidia/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ollama-nvidia/meta.json",
-      "content_hash": "2616027d"
+      "content_hash": "8ee9b8b7"
     },
     {
       "id": "ombi",
@@ -3133,11 +3133,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Ombi/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Ombi/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ombi/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ombi/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ombi/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ombi/meta.json",
-      "content_hash": "b56fd595"
+      "content_hash": "bbf38af5"
     },
     {
       "id": "open-webui-ollama",
@@ -3170,11 +3170,11 @@
       "architectures": [
         "amd64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/OpenWebUI/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/OpenWebUI/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/open-webui-ollama/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/open-webui-ollama/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/open-webui-ollama/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/open-webui-ollama/meta.json",
-      "content_hash": "b603c394"
+      "content_hash": "e6442ed8"
     },
     {
       "id": "openhab",
@@ -3204,11 +3204,11 @@
         "arm64",
         "arm"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/OpenHAB/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/OpenHAB/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/openhab/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/openhab/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/openhab/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/openhab/meta.json",
-      "content_hash": "53dcb767"
+      "content_hash": "943c8c13"
     },
     {
       "id": "openhands",
@@ -3252,11 +3252,11 @@
       "architectures": [
         "amd64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/OpenHands/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/openhands/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/openhands/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/openhands/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/openhands/meta.json",
-      "content_hash": "0db89c09"
+      "content_hash": "c6a0d7f0"
     },
     {
       "id": "openspeedtest",
@@ -3289,11 +3289,11 @@
         "386",
         "arm"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/OpenSpeedTest/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/OpenSpeedTest/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/openspeedtest/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/openspeedtest/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/openspeedtest/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/openspeedtest/meta.json",
-      "content_hash": "8e087968"
+      "content_hash": "87dca685"
     },
     {
       "id": "opodsync",
@@ -3338,11 +3338,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/oPodSync/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/opodsync/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/opodsync/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/opodsync/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/opodsync/meta.json",
-      "content_hash": "1b7963ac"
+      "content_hash": "1fae6b55"
     },
     {
       "id": "overseerr",
@@ -3371,11 +3371,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Overseerr/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Overseerr/icon.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/overseerr/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/overseerr/icon.png",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/overseerr/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/overseerr/meta.json",
-      "content_hash": "0c18163c"
+      "content_hash": "96f80694"
     },
     {
       "id": "pdfding",
@@ -3406,11 +3406,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/PdfDing/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/PdfDing/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pdfding/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pdfding/thumbnail.png",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pdfding/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pdfding/meta.json",
-      "content_hash": "151a3625"
+      "content_hash": "f93c12ce"
     },
     {
       "id": "peanut",
@@ -3455,11 +3455,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Peanut/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Peanut/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/peanut/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/peanut/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/peanut/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/peanut/meta.json",
-      "content_hash": "cebf21ca"
+      "content_hash": "6e7492a9"
     },
     {
       "id": "petio",
@@ -3487,11 +3487,11 @@
         "arm",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Petio/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Petio/icon.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/petio/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/petio/icon.png",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/petio/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/petio/meta.json",
-      "content_hash": "d645c5a9"
+      "content_hash": "7c93d925"
     },
     {
       "id": "photoprism",
@@ -3520,11 +3520,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/PhotoPrism/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/PhotoPrism/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/photoprism/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/photoprism/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/photoprism/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/photoprism/meta.json",
-      "content_hash": "384372b0"
+      "content_hash": "f1ecd9f1"
     },
     {
       "id": "pihole",
@@ -3557,11 +3557,11 @@
         "386",
         "arm"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Pihole/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Pihole/thumbnail.jpg",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pihole/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pihole/thumbnail.jpg",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pihole/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pihole/meta.json",
-      "content_hash": "47416828"
+      "content_hash": "0d59c996"
     },
     {
       "id": "pinchflat",
@@ -3592,11 +3592,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Pinchflat/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Pinchflat/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pinchflat/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pinchflat/thumbnail.png",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pinchflat/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pinchflat/meta.json",
-      "content_hash": "d008fb59"
+      "content_hash": "b8193e72"
     },
     {
       "id": "pingvin-share",
@@ -3641,11 +3641,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Pingvin-Share/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pingvin-share/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pingvin-share/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pingvin-share/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pingvin-share/meta.json",
-      "content_hash": "76626b46"
+      "content_hash": "97d3c968"
     },
     {
       "id": "playit-agent",
@@ -3674,11 +3674,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/playit-agent/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/playit-agent/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/playit-agent/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/playit-agent/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/playit-agent/meta.json",
-      "content_hash": "8420c33f"
+      "content_hash": "32791ae1"
     },
     {
       "id": "plex",
@@ -3696,11 +3696,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Plex/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Plex/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/plex/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/plex/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/plex/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/plex/meta.json",
-      "content_hash": "7ae7d34a"
+      "content_hash": "1752d186"
     },
     {
       "id": "plex-nvidia",
@@ -3718,11 +3718,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Plex/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Plex/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/plex-nvidia/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/plex-nvidia/thumbnail.png",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/plex-nvidia/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/plex-nvidia/meta.json",
-      "content_hash": "90dc3f45"
+      "content_hash": "31ed9b8b"
     },
     {
       "id": "pocketbase",
@@ -3739,11 +3739,11 @@
       "architectures": [
         "amd64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/PocketBase/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/PocketBase/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pocketbase/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pocketbase/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pocketbase/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pocketbase/meta.json",
-      "content_hash": "5130d3b8"
+      "content_hash": "52d8c557"
     },
     {
       "id": "portainer",
@@ -3775,11 +3775,11 @@
         "arm",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Portainer/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Portainer/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/portainer/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/portainer/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/portainer/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/portainer/meta.json",
-      "content_hash": "c2289747"
+      "content_hash": "84054057"
     },
     {
       "id": "postgresql",
@@ -3809,11 +3809,11 @@
         "arm",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/PostgreSQL/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/PostgreSQL/icon.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/postgresql/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/postgresql/icon.png",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/postgresql/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/postgresql/meta.json",
-      "content_hash": "98663276"
+      "content_hash": "ebc32e03"
     },
     {
       "id": "prowlarr",
@@ -3842,11 +3842,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Prowlarr/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Prowlarr/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/prowlarr/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/prowlarr/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/prowlarr/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/prowlarr/meta.json",
-      "content_hash": "86a1a2c5"
+      "content_hash": "8bf500d1"
     },
     {
       "id": "pyload",
@@ -3867,11 +3867,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/PyLoad/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pyload/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pyload/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pyload/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pyload/meta.json",
-      "content_hash": "fdfc5a75"
+      "content_hash": "bd136835"
     },
     {
       "id": "qbittorrent",
@@ -3900,11 +3900,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/qBittorrent/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/qBittorrent/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/qbittorrent/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/qbittorrent/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/qbittorrent/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/qbittorrent/meta.json",
-      "content_hash": "a4228fd6"
+      "content_hash": "187286f4"
     },
     {
       "id": "radarr",
@@ -3933,11 +3933,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Radarr/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Radarr/thumbnail.jpg",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/radarr/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/radarr/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/radarr/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/radarr/meta.json",
-      "content_hash": "0aa3dcc5"
+      "content_hash": "425cead3"
     },
     {
       "id": "ragflow",
@@ -3981,11 +3981,11 @@
       "architectures": [
         "amd64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/RagFlow/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/RagFlow/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ragflow/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ragflow/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ragflow/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ragflow/meta.json",
-      "content_hash": "708b2fa8"
+      "content_hash": "fc601866"
     },
     {
       "id": "rdtclient",
@@ -4001,11 +4001,11 @@
         "arm",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/RDTClient/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/rdtclient/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/rdtclient/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/rdtclient/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/rdtclient/meta.json",
-      "content_hash": "5bbd87b3"
+      "content_hash": "2cb40bb3"
     },
     {
       "id": "readarr",
@@ -4034,11 +4034,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Readarr/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Readarr/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/readarr/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/readarr/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/readarr/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/readarr/meta.json",
-      "content_hash": "360263ec"
+      "content_hash": "9a3f4ec5"
     },
     {
       "id": "resilio-sync",
@@ -4067,11 +4067,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Resilio-sync/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/resilio-sync/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/resilio-sync/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/resilio-sync/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/resilio-sync/meta.json",
-      "content_hash": "84ff7e08"
+      "content_hash": "17590d7f"
     },
     {
       "id": "retroarch",
@@ -4102,11 +4102,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/RetroArch/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/retroarch/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/retroarch/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/retroarch/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/retroarch/meta.json",
-      "content_hash": "f99f2532"
+      "content_hash": "a932f6c1"
     },
     {
       "id": "romm",
@@ -4138,11 +4138,11 @@
         "arm",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/RomM/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/romm/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/romm/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/romm/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/romm/meta.json",
-      "content_hash": "9b016f0e"
+      "content_hash": "cb2bd47c"
     },
     {
       "id": "sabnzbd",
@@ -4171,11 +4171,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Sabnzbd/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Readarr/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/sabnzbd/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/sabnzbd/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/sabnzbd/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/sabnzbd/meta.json",
-      "content_hash": "f35bb47c"
+      "content_hash": "212bc189"
     },
     {
       "id": "sickchill",
@@ -4204,11 +4204,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Sickchill/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Readarr/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/sickchill/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/sickchill/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/sickchill/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/sickchill/meta.json",
-      "content_hash": "d8deaa4b"
+      "content_hash": "c43b7be9"
     },
     {
       "id": "siyuan-note",
@@ -4228,11 +4228,11 @@
         "arm64",
         "arm"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Siyuan-Note/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Siyuan-Note/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/siyuan-note/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/siyuan-note/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/siyuan-note/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/siyuan-note/meta.json",
-      "content_hash": "54033cfe"
+      "content_hash": "6ff9b658"
     },
     {
       "id": "smokeping",
@@ -4261,11 +4261,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Smokeping/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Smokeping/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/smokeping/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/smokeping/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/smokeping/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/smokeping/meta.json",
-      "content_hash": "9274fd60"
+      "content_hash": "953882bb"
     },
     {
       "id": "snapdrop",
@@ -4294,11 +4294,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Snapdrop/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/snapdrop/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/snapdrop/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/snapdrop/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/snapdrop/meta.json",
-      "content_hash": "2206d73e"
+      "content_hash": "3f0ba316"
     },
     {
       "id": "sonarr",
@@ -4327,11 +4327,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Sonarr/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Radarr/thumbnail.jpg",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/sonarr/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/sonarr/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/sonarr/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/sonarr/meta.json",
-      "content_hash": "376c9ad1"
+      "content_hash": "dde23101"
     },
     {
       "id": "stremio",
@@ -4352,11 +4352,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Stremio/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/stremio/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/stremio/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/stremio/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/stremio/meta.json",
-      "content_hash": "c996fda3"
+      "content_hash": "dbde16c6"
     },
     {
       "id": "sure",
@@ -4403,11 +4403,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Sure/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/sure/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/sure/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/sure/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/sure/meta.json",
-      "content_hash": "8282fb65"
+      "content_hash": "a60e156c"
     },
     {
       "id": "swingmusic",
@@ -4438,11 +4438,11 @@
       "architectures": [
         "amd64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/SwingMusic/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/SwingMusic/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/swingmusic/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/swingmusic/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/swingmusic/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/swingmusic/meta.json",
-      "content_hash": "1c775f76"
+      "content_hash": "290babf0"
     },
     {
       "id": "syncthing",
@@ -4473,11 +4473,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Syncthing/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Syncthing/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/syncthing/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/syncthing/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/syncthing/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/syncthing/meta.json",
-      "content_hash": "b1bbe8e0"
+      "content_hash": "115c4a6c"
     },
     {
       "id": "tailscale",
@@ -4510,11 +4510,11 @@
         "arm64",
         "386"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Tailscale/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/tailscale/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/tailscale/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/tailscale/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/tailscale/meta.json",
-      "content_hash": "ca961f43"
+      "content_hash": "61cb0806"
     },
     {
       "id": "taskingai",
@@ -4532,11 +4532,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/TaskingAI/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/TaskingAI/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/taskingai/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/taskingai/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/taskingai/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/taskingai/meta.json",
-      "content_hash": "0b3f5b75"
+      "content_hash": "f8a14b1b"
     },
     {
       "id": "tautulli",
@@ -4565,11 +4565,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Tautulli/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Tautulli/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/tautulli/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/tautulli/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/tautulli/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/tautulli/meta.json",
-      "content_hash": "0f454d95"
+      "content_hash": "ebf3cb42"
     },
     {
       "id": "teable",
@@ -4614,11 +4614,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Teable/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Teable/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/teable/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/teable/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/teable/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/teable/meta.json",
-      "content_hash": "aac113c9"
+      "content_hash": "de2e6711"
     },
     {
       "id": "threadfin",
@@ -4638,11 +4638,11 @@
         "arm64",
         "arm"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Threadfin/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/threadfin/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/threadfin/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/threadfin/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/threadfin/meta.json",
-      "content_hash": "7fca0832"
+      "content_hash": "696c509f"
     },
     {
       "id": "transmission",
@@ -4673,11 +4673,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Transmission/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Transmission/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/transmission/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/transmission/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/transmission/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/transmission/meta.json",
-      "content_hash": "a63715c6"
+      "content_hash": "e99d1021"
     },
     {
       "id": "trilium",
@@ -4710,11 +4710,11 @@
         "arm64",
         "arm"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Trilium/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/trilium/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/trilium/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/trilium/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/trilium/meta.json",
-      "content_hash": "e300671d"
+      "content_hash": "3d9758de"
     },
     {
       "id": "ttydbridge",
@@ -4733,11 +4733,11 @@
         "arm",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/ttydbridge/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ttydbridge/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ttydbridge/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ttydbridge/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ttydbridge/meta.json",
-      "content_hash": "84b30821"
+      "content_hash": "9344d9a2"
     },
     {
       "id": "twingate-connector",
@@ -4755,11 +4755,11 @@
         "arm64",
         "arm"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Twingate/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Twingate/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/twingate-connector/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/twingate-connector/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/twingate-connector/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/twingate-connector/meta.json",
-      "content_hash": "7675526b"
+      "content_hash": "e9008545"
     },
     {
       "id": "unifi-controller",
@@ -4789,11 +4789,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Unifi-controller/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Unifi-controller/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/unifi-controller/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/unifi-controller/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/unifi-controller/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/unifi-controller/meta.json",
-      "content_hash": "55b3a85f"
+      "content_hash": "682e4a17"
     },
     {
       "id": "unifi-network-application",
@@ -4811,11 +4811,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Unifi-Network-Application/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Unifi-network-application/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/unifi-network-application/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/unifi-network-application/thumbnail.png",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/unifi-network-application/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/unifi-network-application/meta.json",
-      "content_hash": "dd2ae6a4"
+      "content_hash": "47801aab"
     },
     {
       "id": "uptimekuma",
@@ -4847,11 +4847,11 @@
         "arm64",
         "arm"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/UptimeKuma/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/UptimeKuma/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/uptimekuma/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/uptimekuma/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/uptimekuma/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/uptimekuma/meta.json",
-      "content_hash": "d16819dd"
+      "content_hash": "cade43ac"
     },
     {
       "id": "v2raya",
@@ -4882,11 +4882,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/V2rayA/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/v2raya/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/v2raya/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/v2raya/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/v2raya/meta.json",
-      "content_hash": "866b2dd4"
+      "content_hash": "5882372a"
     },
     {
       "id": "vaultwarden",
@@ -4916,11 +4916,11 @@
         "arm",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Vaultwarden/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Vaultwarden/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/vaultwarden/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/vaultwarden/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/vaultwarden/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/vaultwarden/meta.json",
-      "content_hash": "f316f3ac"
+      "content_hash": "0066a8e5"
     },
     {
       "id": "virtmanager",
@@ -4948,11 +4948,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/VirtualMachineManager/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/virtmanager/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/virtmanager/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/virtmanager/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/virtmanager/meta.json",
-      "content_hash": "c5fedc0b"
+      "content_hash": "f9e0f11e"
     },
     {
       "id": "vocechat",
@@ -4982,11 +4982,11 @@
       "architectures": [
         "amd64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/VoceChat/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/VoceChat/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/vocechat/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/vocechat/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/vocechat/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/vocechat/meta.json",
-      "content_hash": "f9994b9f"
+      "content_hash": "1e85cd6e"
     },
     {
       "id": "wallabag",
@@ -5017,11 +5017,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Wallabag/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/wallabag/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/wallabag/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/wallabag/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/wallabag/meta.json",
-      "content_hash": "87a397ab"
+      "content_hash": "b13dbe0e"
     },
     {
       "id": "webdav",
@@ -5052,11 +5052,11 @@
         "arm64",
         "arm"
       ],
-      "icon": "https://icon.casaos.io/main/all/webdav.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/webdav/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/webdav/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/webdav/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/webdav/meta.json",
-      "content_hash": "6f62fd62"
+      "content_hash": "88807541"
     },
     {
       "id": "weknora",
@@ -5101,11 +5101,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/WeKnora/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/WeKnora/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/weknora/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/weknora/thumbnail.webp",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/weknora/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/weknora/meta.json",
-      "content_hash": "cbea1e4d"
+      "content_hash": "314fde4f"
     },
     {
       "id": "wg-easy",
@@ -5134,11 +5134,11 @@
         "arm",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/WireGuardEasy/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/WireGuardEasy/icon.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/wg-easy/icon.svg",
+      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/wg-easy/icon.png",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/wg-easy/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/wg-easy/meta.json",
-      "content_hash": "72b2e1f8"
+      "content_hash": "49bf2be1"
     },
     {
       "id": "ztnet",
@@ -5169,11 +5169,11 @@
         "amd64",
         "arm64"
       ],
-      "icon": "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Ztnet/icon.png",
-      "thumbnail": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ztnet/thumbnail.png",
+      "icon": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ztnet/icon.svg",
+      "thumbnail": "",
       "compose_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ztnet/docker-compose.yml",
       "meta_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ztnet/meta.json",
-      "content_hash": "6c2cb73c"
+      "content_hash": "1f814de9"
     }
   ]
 }

@@ -28,7 +28,7 @@ services:
     container_name: homeassistant
 x-casaos:
   main: homeassistant
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/HomeAssistant/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/homeassistant/icon.svg
   title:
     en_US: Home Assistant
   index: /

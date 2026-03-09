@@ -18,7 +18,7 @@
     "uk_UA": "Handbrake - це додаток на основі Docker для транскодування та стиснення відео, що надає потужну та гнучку обробку мультимедіа на різних платформах."
   },
   "screenshot_link": [
-    "screenshot-1.webp"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/handbrake/screenshot-1.webp"
   ],
   "tagline": {
     "en_US": "Liberate your videos and unleash infinite possibilities.",

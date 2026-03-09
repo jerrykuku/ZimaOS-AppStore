@@ -11,7 +11,7 @@ services:
     container_name: holoplay
 x-casaos:
   main: holoplay
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/HoloPlay/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/holoplay/icon.svg
   title:
     en_US: HoloPlay
   index: /

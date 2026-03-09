@@ -3,7 +3,7 @@
 This guide is for contributors submitting changes to **this repository**.
 
 If you are building your own external store, use:
-- [docs/third-party-store-guide.md](docs/third-party-store-guide.md)
+- [docs/guides/third-party-store-guide.md](docs/guides/third-party-store-guide.md)
 
 ## 1. Submission Process
 
@@ -45,7 +45,7 @@ Field semantics:
 - `developer`: upstream project developer
 
 For full field reference and build output behavior, see:
-- [docs/third-party-store-guide.md](docs/third-party-store-guide.md)
+- [docs/guides/third-party-store-guide.md](docs/guides/third-party-store-guide.md)
 - [docs/internal-dev-guide.md](docs/internal-dev-guide.md)
 
 ## 5. i18n Rules

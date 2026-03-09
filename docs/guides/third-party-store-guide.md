@@ -17,7 +17,7 @@ my-appstore/
 ├── Apps/
 │   └── MyApp/
 │       ├── docker-compose.yml    # with x-casaos block
-│       └── icon.png
+│       └── icon.svg              # recommended
 ├── store-config.json             # store identity (input)
 └── scripts/
     └── build_appstore.py         # build script
@@ -33,8 +33,10 @@ dist/
     ├── my-app/
     │   ├── docker-compose.yml    # cleaned (minimal x-casaos)
     │   ├── meta.json             # extracted metadata
-    │   ├── icon.png
-    │   └── screenshot-*.png
+    │   ├── icon.svg              # kept if source has icon.svg
+    │   ├── icon.png              # generated from icon.svg (fallback)
+    │   ├── thumbnail.webp        # converted/optimized from thumbnail.*
+    │   └── screenshot-*.webp     # converted/optimized from screenshot-*.*
     └── another-app/
         └── ...
 ```
@@ -57,9 +59,9 @@ my-appstore/
 ├── Apps/
 │   └── MyApp/
 │       ├── docker-compose.yml
-│       ├── icon.png
-│       ├── thumbnail.png        (optional)
-│       ├── screenshot-1.png     (optional)
+│       ├── icon.svg             (recommended) / icon.png
+│       ├── thumbnail.png        (optional, .jpg/.jpeg/.webp also supported)
+│       ├── screenshot-1.png     (optional, .jpg/.jpeg/.webp also supported)
 │       └── screenshot-2.png     (optional)
 ├── store-config.json
 ├── scripts/
@@ -120,7 +122,9 @@ x-casaos:
   index: /
   port_map: "8080"
   scheme: http
-  icon: https://cdn.jsdelivr.net/gh/username/my-appstore@main/Apps/MyApp/icon.png
+  # In source compose this can be any reachable URL.
+  # Build output rewrites it to apps/my-app/icon.svg (or icon.png) under your --base-url.
+  icon: https://cdn.jsdelivr.net/gh/username/my-appstore@main/Apps/MyApp/icon.svg
   title:
     en_US: My App
     zh_CN: 我的应用
@@ -138,9 +142,13 @@ x-casaos:
     en_US: Does amazing things
     zh_CN: 做很棒的事情
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/username/my-appstore@main/Apps/MyApp/screenshot-1.png
-  thumbnail: https://cdn.jsdelivr.net/gh/username/my-appstore@main/Apps/MyApp/thumbnail.png
+    - screenshot-1.png
+  thumbnail: thumbnail.png
   tips: {}
+  version: "1.0.0"
+  updateAt: "2026-03-01"
+  releaseNotes:
+    en_US: First release
 ```
 
 > You can write everything in one docker-compose.yml — the build script will automatically split it into a clean compose file + meta.json.
@@ -193,64 +201,123 @@ Copy `scripts/build_appstore.py` from the [official repository](https://github.c
 Create `.github/workflows/deploy.yml`:
 
 ```yaml
-name: Build and Deploy Store
+name: Build And Publish Dist
 
 on:
   push:
-    branches: ["main"]
+    branches:
+      - main
+  workflow_dispatch:
+    inputs:
+      base_url:
+        description: "Base URL used by build_appstore.py"
+        required: false
+        default: "https://cdn.jsdelivr.net/gh/username/my-appstore@gh-pages"
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 jobs:
-  build-and-deploy:
+  publish:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install pyyaml
+        run: |
+          sudo apt-get update && sudo apt-get install -y librsvg2-bin
+          pip install pyyaml Pillow
 
-      - name: Build store
+      - name: Build static appstore dist
+        env:
+          BASE_URL_INPUT: ${{ inputs.base_url }}
+        run: |
+          BASE_URL="${BASE_URL_INPUT:-https://cdn.jsdelivr.net/gh/${{ github.repository }}@gh-pages}"
+          python3 scripts/build_appstore.py \
+            --source . \
+            --output dist \
+            --base-url "${BASE_URL}"
+          touch dist/.nojekyll
+
+      - name: Deploy dist to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./dist
+
+      - name: Refresh jsDelivr cache
+        run: |
+          curl -fsSL "https://purge.jsdelivr.net/gh/${{ github.repository }}@gh-pages/index.json" || true
+```
+
+### 5. Share your store URL
+
+After workflow runs, your store is available at:
+
+```
+https://cdn.jsdelivr.net/gh/username/my-appstore@gh-pages
+```
+
+Users can add this URL as a store source in ZimaOS settings.
+
+### 6. Alternative: No gh-pages, No jsDelivr
+
+If you don't want to use `gh-pages` or jsDelivr, you can still use the same build script and deploy `dist/` to any static host.
+
+Use a generic build workflow that only uploads artifacts:
+
+```yaml
+name: Build Store Dist
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update && sudo apt-get install -y librsvg2-bin
+          pip install pyyaml Pillow
+
+      - name: Build dist for your own domain
         run: |
           python3 scripts/build_appstore.py \
             --source . \
             --output dist \
-            --base-url https://username.github.io/my-appstore
+            --base-url "https://store.example.com"
 
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Upload dist artifact
+        uses: actions/upload-artifact@v4
         with:
+          name: appstore-dist
           path: dist
-
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
 ```
 
-### 5. Enable GitHub Pages
+Then deploy `dist/` using your preferred platform:
 
-Go to your repository **Settings > Pages > Source**, select **GitHub Actions**.
+- Netlify: set publish directory to `dist`
+- Cloudflare Pages: set output directory to `dist`
+- Self-hosted Nginx/Caddy: serve `dist/` as static files under your HTTPS domain
 
-Push your code. The workflow will build and deploy automatically.
-
-### 6. Share your store URL
-
-Your store is now live at:
-
-```
-https://username.github.io/my-appstore
-```
-
-Users can add this URL as a store source in ZimaOS settings.
+Your final store URL will be the same as `--base-url` (for example, `https://store.example.com`).
 
 ---
 
@@ -294,8 +361,8 @@ For third-party stores (without `category-list.json`), categories are auto-extra
       "author": "Your Name",
       "developer": "Original Developer",
       "architectures": ["amd64", "arm64"],
-      "icon": "apps/my-app/icon.png",
-      "thumbnail": "apps/my-app/thumbnail.png",
+      "icon": "apps/my-app/icon.svg",
+      "thumbnail": "apps/my-app/thumbnail.webp",
       "compose_url": "apps/my-app/docker-compose.yml",
       "meta_url": "apps/my-app/meta.json",
       "content_hash": "a1b2c3d4"
@@ -304,7 +371,7 @@ For third-party stores (without `category-list.json`), categories are auto-extra
 }
 ```
 
-> When `--base-url` is provided, URLs like `icon`, `compose_url`, etc. become absolute (e.g. `https://username.github.io/my-appstore/apps/my-app/icon.png`). Without it, they are relative paths.
+> When `--base-url` is provided, URLs like `icon`, `compose_url`, etc. become absolute (e.g. `https://username.github.io/my-appstore/apps/my-app/icon.svg`). Without it, they are relative paths.
 
 ### docker-compose.yml (after build)
 
@@ -328,16 +395,16 @@ Everything else is moved to `meta.json`.
 | Field | Type | Description |
 |-------|------|-------------|
 | `tagline` | `object` | Short description (i18n) |
-| `description` | `object` | Full description (i18n, supports Markdown) |
-| `thumbnail` | `string` | Thumbnail filename (relative) |
-| `screenshot_link` | `string[]` | Screenshot filenames (relative) |
+| `description` | `object` | Full description (i18n; markdown text is allowed, rendering depends on client) |
+| `thumbnail` | `string` | Thumbnail URL or relative path (depends on whether `--base-url` is set) |
+| `screenshot_link` | `string[]` | Screenshot URLs or relative paths (depends on whether `--base-url` is set) |
 | `tips` | `object` | Install tips (i18n, optional, see below) |
 | `author` | `string` | Packager name |
 | `developer` | `string` | Upstream developer |
 | `category` | `string` | App category |
 | `architectures` | `string[]` | Supported CPU architectures |
 | `version` | `string` | App version |
-| `updateAt` | `string` | Update date (recommended ISO 8601 / `YYYY-MM-DD`) |
+| `updateAt` | `string` | Update date (recommended `YYYY-MM-DD`, e.g. `"2026-03-01"`) |
 | `releaseNotes` | `object` | Release notes (i18n) |
 | `website` | `string` | Official website (optional) |
 | `repo` | `string` | Source repository (optional) |
@@ -359,34 +426,27 @@ Tips are shown to the user before installation. The keys under `tips` (e.g. `bef
 
 ### Image Assets
 
-| File | Format | Size | Required |
-|------|--------|------|----------|
-| `icon.svg` (recommended) / `icon.png` | SVG / PNG | 256×256 px | Yes |
-| `thumbnail.jpg` | JPG | 16:10 ratio, width 1280–1920 px (recommended 1920×1200) | No |
-| `screenshot-{n}.jpg` | JPG | 16:10 ratio, width 1280–1920 px (recommended 1920×1200) | No |
+| File | Source Formats | Build Output | Required |
+|------|----------------|--------------|----------|
+| `icon` | `.svg` (recommended), `.png`, `.jpg`, `.webp` | if `.svg` exists: keep `icon.svg` and generate `icon.png`; otherwise keep original icon file | Yes |
+| `thumbnail` | `.png`, `.jpg`, `.jpeg`, `.webp` | converted to `.webp` (and resized when too wide) | No |
+| `screenshot-{n}` | `.png`, `.jpg`, `.jpeg`, `.webp` | converted to `.webp` (and resized when too wide) | No |
 
-- If `icon.svg` exists, the build output keeps `icon.svg` and also generates `icon.png` from it
-- If no `icon.svg` exists, the build keeps the original icon file as-is
-- Thumbnail and screenshots: use JPG to keep file sizes small
+- Non-icon raster images are optimized with Pillow (WebP quality `85`, max width `1280`)
+- SVG files are copied as-is (except icon also gets PNG fallback when `rsvg-convert` is available)
 
 ---
 
-## Icon URLs: Two Locations, Two Purposes
+## Icon URL Behavior
 
-Your app's icon appears in two places, served from two different URLs:
+Your app's icon is used in two places:
 
-| Where | URL source | Purpose |
-|-------|-----------|---------|
-| **Store listing** (before install) | `index.json` → `icon` field | Built by the script, relative or absolute path to the deployed icon file |
-| **Dashboard** (after install) | `docker-compose.yml` → `x-casaos.icon` | Embedded in the compose file, used at runtime by ZimaOS |
+| Where | Field | Behavior |
+|-------|-------|----------|
+| **Store listing** (before install) | `index.json` → `icon` | generated from build output (`apps/<app-id>/icon.svg` or `icon.png`) |
+| **Dashboard** (after install) | `docker-compose.yml` → `x-casaos.icon` | rewritten by build script to the same built icon URL |
 
-The compose `icon` URL should point to a stable, publicly accessible location. Using jsDelivr with a pinned branch is recommended:
-
-```
-https://cdn.jsdelivr.net/gh/username/my-appstore@main/Apps/MyApp/icon.png
-```
-
-This URL points to the icon in your **source repository** (not the built output), so it works even before the store is deployed.
+In source compose, you can still set a stable URL. During build, `x-casaos.icon` is replaced with the built output URL based on `--base-url`.
 
 ---
 
@@ -422,7 +482,11 @@ All locale keys must use `ll_CC` format (language lowercase + country uppercase)
 | `zh_CN` | `zh_cn` |
 | `de_DE` | `de_de` |
 
-The build script normalizes locale keys automatically.
+The build script normalizes locale keys automatically for:
+- `store-config.json`: `name`, `description`
+- `x-casaos`: `title`, `tagline`, `description`, and each nested locale object under `tips`
+
+Other locale-like fields (for example `releaseNotes`) should be written directly in `ll_CC` format by contributors.
 
 At minimum, provide `en_US` for all i18n fields.
 
@@ -451,9 +515,11 @@ directory name (lowercased)
 
 ## Categories
 
-Use the standard category names to ensure proper display in ZimaOS:
+If your store has a `category-list.json`, `index.json` categories follow that file.
+If not, categories are auto-extracted from apps' `x-casaos.category`.
 
-`Analytics`, `Backup`, `Blog`, `Chat`, `Cloud`, `Developer`, `CRM`, `Documents`, `Email`, `File Sync`, `Finance`, `Forum`, `Gallery`, `Games`, `Learning`, `Media`, `Notes`, `Project Management`, `VPN`, `WEB`, `WiKi`, `Dapps`, `Downloader`, `Utilities`, `Home Automation`, `Network`, `Database`, `AI`
+In this repository, current official category names are:
+`Media`, `Productivity`, `Home`, `Networking`, `AI`, `Finance`, `Social`, `Developer`
 
 The build script auto-extracts categories from your apps — you don't need to create a `category-list.json` file. Just set the `category` field in each app's `x-casaos` block.
 
@@ -534,7 +600,7 @@ Yes. The build script:
 - Auto-extracts categories from your apps
 - Generates `index.json` with content hashes
 - Normalizes locale keys
-- Copies image assets
+- Copies/optimizes image assets (including `icon.svg` → `icon.png` fallback when possible)
 
 You should not create these output files by hand.
 
@@ -542,9 +608,16 @@ You should not create these output files by hand.
 
 Yes. Any static file hosting works (Netlify, Vercel, Cloudflare Pages, self-hosted Nginx, etc.). Just make sure the files are accessible via HTTPS. ZimaOS fetches store data from the backend (not from a browser), so CORS headers are not required.
 
+### Do I have to use jsDelivr?
+
+No. jsDelivr is only one optional CDN path. You can use any HTTPS URL as `--base-url`, including:
+- `https://username.github.io/my-appstore`
+- `https://store.example.com`
+- `https://my-store.pages.dev`
+
 ### Why is `--base-url` required?
 
-The frontend components that render app cards receive `index.json` data but don't know the host URL of your store. Without `--base-url`, resource paths like `apps/my-app/icon.png` are relative and the frontend cannot resolve them.
+The frontend components that render app cards receive `index.json` data but don't know the host URL of your store. Without `--base-url`, resource paths like `apps/my-app/icon.svg` are relative and the frontend cannot resolve them.
 
 `--base-url` makes all resource URLs absolute so they work directly:
 
@@ -552,12 +625,12 @@ The frontend components that render app cards receive `index.json` data but don'
 # GitHub Pages hosting
 python3 scripts/build_appstore.py --source . --output dist \
   --base-url https://username.github.io/my-appstore
-# icon: "https://username.github.io/my-appstore/apps/my-app/icon.png"
+# icon: "https://username.github.io/my-appstore/apps/my-app/icon.svg"
 
 # jsDelivr CDN hosting
 python3 scripts/build_appstore.py --source . --output dist \
   --base-url https://cdn.jsdelivr.net/gh/username/my-appstore@gh-pages
-# icon: "https://cdn.jsdelivr.net/gh/username/my-appstore@gh-pages/apps/my-app/icon.png"
+# icon: "https://cdn.jsdelivr.net/gh/username/my-appstore@gh-pages/apps/my-app/icon.svg"
 ```
 
 ### What's the minimum viable store?
@@ -567,7 +640,7 @@ my-appstore/
 ├── Apps/
 │   └── MyApp/
 │       ├── docker-compose.yml    # with x-casaos block
-│       └── icon.png
+│       └── icon.svg (or icon.png)
 ├── store-config.json
 └── scripts/
     └── build_appstore.py

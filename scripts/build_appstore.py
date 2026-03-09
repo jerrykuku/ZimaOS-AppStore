@@ -316,6 +316,8 @@ def split_compose(compose_data):
 def process_app(app_dir, output_root, base_url):
     """
     Process a single app directory.
+
+    Flow: parse compose → convert images → write meta.json → build index entry.
     Returns an index entry dict, or None if skipped.
     """
     compose_path = app_dir / "docker-compose.yml"
@@ -365,123 +367,97 @@ def process_app(app_dir, output_root, base_url):
     )
     (app_output / "docker-compose.yml").write_text(compose_content, encoding="utf-8")
 
-    # Convert image URLs in meta to relative filenames
-    existing_images = extract_image_filenames(app_dir)
-
-    if "icon" in meta:
-        del meta["icon"]  # icon stays in compose
-    if "thumbnail" in meta:
-        # Convert to relative filename
-        meta["thumbnail"] = "thumbnail.png"
-    if "screenshot_link" in meta:
-        raw = meta["screenshot_link"]
-        if raw and isinstance(raw, list):
-            # Convert full URLs to relative filenames
-            screenshots = []
-            for url in raw:
-                if url:
-                    fname = url.rsplit("/", 1)[-1] if "/" in url else url
-                    screenshots.append(fname)
-            meta["screenshot_link"] = screenshots
-        else:
-            meta["screenshot_link"] = []
-
-    # Write meta.json
-    meta_content = json.dumps(to_json_safe(meta), ensure_ascii=False, indent=2)
-    (app_output / "meta.json").write_text(meta_content, encoding="utf-8")
-
-    # Copy and optimize image files
+    # ── Step 1: Convert and copy all image files ──
     copied_images = []
     image_mapping = {}  # original_name -> output_name
     has_icon_svg = (app_dir / "icon.svg").exists()
     for img_file in app_dir.iterdir():
-        if img_file.is_file() and img_file.suffix.lower() in IMAGE_EXTENSIONS:
-            dst_path = app_output / img_file.name
-            # Icon strategy:
-            # - If icon.svg exists, always build icon.png from SVG and ignore other icon formats.
-            # - Otherwise keep original icon file as-is.
-            if img_file.stem.lower() == "icon":
-                if has_icon_svg:
-                    if img_file.suffix.lower() == ".svg":
-                        # Always keep SVG in output.
-                        shutil.copy2(img_file, app_output / "icon.svg")
-                        copied_images.append("icon.svg")
-                        image_mapping["icon.svg"] = "icon.svg"
+        if not img_file.is_file() or img_file.suffix.lower() not in IMAGE_EXTENSIONS:
+            continue
 
-                        # Generate PNG from SVG for compatibility.
-                        png_name = convert_svg_icon_to_png(img_file, app_output / "icon.png")
-                        if png_name:
-                            copied_images.append(png_name)
-                            image_mapping["icon.png"] = png_name
-                    else:
-                        # Ignore icon.png/icon.jpg/etc. when icon.svg is present.
-                        continue
-                else:
-                    shutil.copy2(img_file, dst_path)
-                    output_name = img_file.name
-            else:
-                output_name = optimize_and_convert_image(img_file, dst_path)
-            if img_file.stem.lower() == "icon" and has_icon_svg and img_file.suffix.lower() == ".svg":
-                # icon.svg branch already appended/copied both outputs.
+        dst_path = app_output / img_file.name
+
+        if img_file.stem.lower() == "icon":
+            # Icon strategy:
+            # - If icon.svg exists, keep SVG + generate PNG fallback, skip other icon formats.
+            # - Otherwise keep original icon file as-is.
+            if has_icon_svg:
+                if img_file.suffix.lower() == ".svg":
+                    shutil.copy2(img_file, app_output / "icon.svg")
+                    copied_images.append("icon.svg")
+                    image_mapping["icon.svg"] = "icon.svg"
+
+                    png_name = convert_svg_icon_to_png(img_file, app_output / "icon.png")
+                    if png_name:
+                        copied_images.append(png_name)
+                        image_mapping["icon.png"] = png_name
+                # Ignore icon.png/icon.jpg/etc. when icon.svg is present.
                 continue
+            else:
+                shutil.copy2(img_file, dst_path)
+                copied_images.append(img_file.name)
+                image_mapping[img_file.name] = img_file.name
+        else:
+            output_name = optimize_and_convert_image(img_file, dst_path)
             copied_images.append(output_name)
             image_mapping[img_file.name] = output_name
 
-    # Update meta.json with converted filenames
+    # ── Step 2: Build meta.json with converted filenames ──
+    if "icon" in meta:
+        del meta["icon"]  # icon stays in compose
+
     if "thumbnail" in meta:
-        orig_thumb = meta["thumbnail"]
-        if orig_thumb in image_mapping:
-            meta["thumbnail"] = image_mapping[orig_thumb]
-        elif not orig_thumb.startswith("http"):
-            # Try to find with .webp extension
-            base_name = Path(orig_thumb).stem
-            webp_name = f"{base_name}.webp"
-            if webp_name in copied_images:
-                meta["thumbnail"] = webp_name
+        # Extract original filename from URL, then map to converted name
+        orig_thumb_url = meta["thumbnail"]
+        orig_fname = orig_thumb_url.rsplit("/", 1)[-1] if "/" in orig_thumb_url else orig_thumb_url
+        if orig_fname in image_mapping:
+            meta["thumbnail"] = image_mapping[orig_fname]
+        else:
+            # Try webp-converted version
+            webp_name = f"{Path(orig_fname).stem}.webp"
+            meta["thumbnail"] = webp_name if webp_name in copied_images else orig_fname
 
-    if "screenshot_link" in meta and isinstance(meta["screenshot_link"], list):
-        updated_screenshots = []
-        for screenshot in meta["screenshot_link"]:
-            if screenshot in image_mapping:
-                updated_screenshots.append(image_mapping[screenshot])
-            else:
-                # Try to find with .webp extension
-                base_name = Path(screenshot).stem
-                webp_name = f"{base_name}.webp"
-                if webp_name in copied_images:
-                    updated_screenshots.append(webp_name)
+    if "screenshot_link" in meta:
+        raw = meta["screenshot_link"]
+        if raw and isinstance(raw, list):
+            updated = []
+            for url in raw:
+                if not url:
+                    continue
+                fname = url.rsplit("/", 1)[-1] if "/" in url else url
+                if fname in image_mapping:
+                    updated.append(image_mapping[fname])
                 else:
-                    updated_screenshots.append(screenshot)
-        meta["screenshot_link"] = updated_screenshots
+                    webp_name = f"{Path(fname).stem}.webp"
+                    updated.append(webp_name if webp_name in copied_images else fname)
+            meta["screenshot_link"] = updated
+        else:
+            meta["screenshot_link"] = []
 
-    # Re-write meta.json with updated image references
+    # Write meta.json (single write, after image conversion)
     meta_content = json.dumps(to_json_safe(meta), ensure_ascii=False, indent=2)
     (app_output / "meta.json").write_text(meta_content, encoding="utf-8")
 
-    # Compute content hash for caching
+    # ── Step 3: Build index entry ──
     chash = content_hash(compose_content, meta_content)
-
-    # Build index entry (lightweight summary for quick loading)
     app_path = f"apps/{app_id}"
 
-    # For icon/thumbnail: if the compose already has an absolute URL (e.g. jsDelivr),
-    # use it directly; otherwise build from --base-url with converted filename.
     orig_icon = original_xcasaos.get("icon") or ""
     orig_thumbnail = original_xcasaos.get("thumbnail") or ""
 
-    # Determine actual icon filename (check if converted to webp)
-    icon_filename = "icon.png"
-    if "icon.png" in image_mapping:
+    # Icon priority: SVG > PNG > JPG > WebP
+    icon_filename = "icon.png"  # default fallback
+    if "icon.svg" in copied_images:
+        icon_filename = "icon.svg"
+    elif "icon.png" in image_mapping:
         icon_filename = image_mapping["icon.png"]
     elif "icon.jpg" in image_mapping:
         icon_filename = image_mapping["icon.jpg"]
-    elif "icon.svg" in copied_images:
-        icon_filename = "icon.svg"
     elif "icon.webp" in copied_images:
         icon_filename = "icon.webp"
 
-    # Determine actual thumbnail filename
-    thumbnail_filename = meta.get("thumbnail", "thumbnail.png")
+    # Thumbnail: prefer converted name from meta (already mapped to webp above)
+    thumbnail_filename = meta.get("thumbnail", "thumbnail.webp")
 
     entry = {
         "id": app_id,

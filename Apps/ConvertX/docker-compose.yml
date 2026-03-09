@@ -97,7 +97,7 @@ x-casaos:
     - amd64
     - arm64
   main: convertx
-  category: Utilities
+  category: Productivity
   developer: c4illin
   author: c4illin
   tagline:

@@ -101,7 +101,7 @@ x-casaos:
     - arm64
   main: immich-server
   store_app_id: immich
-  category: Gallery
+  category: Media
   author: Cp0204
   developer: alextran1502
   icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Immich/icon.png
@@ -249,7 +249,7 @@ x-casaos:
     ru_RU: Самоуправляемое решение для управления медиа
     tr_TR: Kendi kendine barındırılan medya yönetimi çözümü
   title:
-    en_us: Immich
+    en_US: Immich
   tips:
     before_install:
       en_US: |

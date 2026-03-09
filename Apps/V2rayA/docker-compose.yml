@@ -79,7 +79,7 @@ x-casaos:
     - amd64
     - arm64
   main: v2raya
-  category: Network
+  category: Networking
   developer: v2rayA
   author: v2rayA
   tagline:

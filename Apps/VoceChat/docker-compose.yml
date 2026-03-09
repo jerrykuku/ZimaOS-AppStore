@@ -22,25 +22,25 @@ services:
       envs:
         - container: TZ
           description:
-            en_us: TimeZone
-            zh_cn: 时区
+            en_US: TimeZone
+            zh_CN: 时区
       ports:
         - container: "3000"
           description:
-            en_us: WebUI HTTP Port
-            zh_cn: WebUI HTTP 端口
+            en_US: WebUI HTTP Port
+            zh_CN: WebUI HTTP 端口
       volumes:
         - container: /home/vocechat-server/data
           description:
-            en_us: VoceChat Data
-            zh_cn: VoceChat 数据
+            en_US: VoceChat Data
+            zh_CN: VoceChat 数据
     container_name: vocechat
 x-casaos:
   architectures:
     - amd64
   main: vocechat
   author: Privoce
-  category: Chat
+  category: Social
   description:
     en_US: |
       VoceChat is a secure chat software designed for independent deployment, offering a flexible solution for seamless communication. It combines instant messaging with channel-based group chats, allowing you to engage in one-on-one conversations or create themed channels for group discussions.
@@ -158,6 +158,6 @@ x-casaos:
   thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/VoceChat/thumbnail.png
   tips: {}
   title:
-    en_us: VoceChat
+    en_US: VoceChat
   index: /
   port_map: "3009"

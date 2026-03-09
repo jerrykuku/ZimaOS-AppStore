@@ -1,2 +1,6 @@
 .idea/
 .DS_Store
+.claude/
+
+# Build output
+dist/

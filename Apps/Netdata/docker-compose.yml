@@ -58,13 +58,13 @@ x-casaos:
     - arm64
     - arm
   author: f4bio
-  category: Utilities
+  category: Productivity
   description:
-    en_us: Netdata is a real-time performance and health monitoring solution that helps you visualize and understand the behavior of your systems.
-    zh_cn: Netdata是一个实时性能和健康监控解决方案，帮助您可视化并理解系统的行为。
+    en_US: Netdata is a real-time performance and health monitoring solution that helps you visualize and understand the behavior of your systems.
+    zh_CN: Netdata是一个实时性能和健康监控解决方案，帮助您可视化并理解系统的行为。
   tagline:
-    en_us: Real-time Performance Monitoring
-    zh_cn: 实时性能监控
+    en_US: Real-time Performance Monitoring
+    zh_CN: 实时性能监控
   hostname: ""
   screenshot_link:
     - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Netdata/screenshot-1.jpg
@@ -76,4 +76,4 @@ x-casaos:
   scheme: http
   store_app_id: netdata
   title:
-    en_us: Netdata
+    en_US: Netdata

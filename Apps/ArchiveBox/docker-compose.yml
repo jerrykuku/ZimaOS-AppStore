@@ -509,7 +509,7 @@ x-casaos:
   architectures:
     - amd64
   main: archivebox
-  category: Utilities
+  category: Productivity
   developer: ArchiveBox
   author: ArchiveBox
   tagline:

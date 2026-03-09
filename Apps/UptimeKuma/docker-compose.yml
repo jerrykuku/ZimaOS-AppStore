@@ -62,7 +62,7 @@ x-casaos:
     - arm
   main: uptimekuma
   author: CasaOS Team
-  category: Network
+  category: Networking
   description:
     en_US: |
       Uptime Kuma is a free, easy-to-use self-hosted monitoring tool designed for real-time tracking of network services and infrastructure, offering a modern interface and robust functionality. It provides an intuitive Web dashboard for managing services, ideal for individual developers, home lab users, and small teams.

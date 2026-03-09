@@ -67,7 +67,7 @@ x-casaos:
     - amd64
     - arm64
   main: netbird
-  category: Network
+  category: Networking
   developer: NetBird GmbH
   author: NetBird Team
   tagline:

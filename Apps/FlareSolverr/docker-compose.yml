@@ -32,7 +32,7 @@ x-casaos:
       - arm
       - arm64
   author: calganaygun
-  category: Network
+  category: Networking
   icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/FlareSolverr/icon.png
   screenshot_link:
     - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/FlareSolverr/screenshot-1.png
@@ -41,4 +41,4 @@ x-casaos:
   scheme: http
   store_app_id: flaresolverr
   title:
-    en_us: FlareSolverr
+    en_US: FlareSolverr

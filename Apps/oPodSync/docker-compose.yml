@@ -298,7 +298,7 @@ x-casaos:
       **了解更多：**
       - [oPodSync GitHub Repo](https://github.com/kd2org/oPodSync)
   developer: ganeshlab
-  category: Utilities
+  category: Media
   author: ganeshlab
   main: opodsync
   port_map: "8086"

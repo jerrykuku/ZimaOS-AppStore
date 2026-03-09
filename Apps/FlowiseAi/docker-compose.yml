@@ -28,7 +28,7 @@ x-casaos:
     - amd64
   main: flowise
   store_app_id: flowise
-  category: Developer
+  category: AI
   author: Flowise
   developer: Flowise
   icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/FlowiseAi/icon.png

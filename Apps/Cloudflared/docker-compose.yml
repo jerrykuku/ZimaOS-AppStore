@@ -260,7 +260,7 @@ x-casaos:
   author: WisdomSky
   icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Cloudflared/icon.png
   thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Cloudflared/thumbnail.png
-  category: Developer
+  category: Networking
   title:
-    en_us: Cloudflared
+    en_US: Cloudflared
   port_map: '14333'

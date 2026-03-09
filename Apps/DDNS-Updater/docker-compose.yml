@@ -42,20 +42,20 @@ services:
       ports:
         - container: "8000"
           description:
-            en_us: WebUI HTTP Port
+            en_US: WebUI HTTP Port
       volumes:
         - container: /updater/data
           description:
-            en_us: ddns-updater config directory.
+            en_US: ddns-updater config directory.
 x-casaos:
   architectures:
     - amd64
     - arm
     - arm64
   author: rstuhlmuller
-  category: Network
+  category: Networking
   description:
-    en_us: Program to keep DNS A and/or AAAA records updated for multiple DNS providers
+    en_US: Program to keep DNS A and/or AAAA records updated for multiple DNS providers
   developer: qmcgaw
   screenshot:
     - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/DDNS-Updater/screenshot-1.png
@@ -64,7 +64,7 @@ x-casaos:
   port_map: "8000"
   scheme: http
   tagline:
-    en_us: Simple and easy to use DDNS
-    zh_cn: 简单好用的DDNS
+    en_US: Simple and easy to use DDNS
+    zh_CN: 简单好用的DDNS
   title:
-    en_us: ddns-updater
+    en_US: ddns-updater

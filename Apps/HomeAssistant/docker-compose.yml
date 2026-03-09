@@ -104,7 +104,7 @@ x-casaos:
     - arm
   main: homeassistant
   author: CasaOS Team
-  category: Home Automation
+  category: Home
   description:
     en_US: |
       Home Assistant is a smart home management app prioritizing local control and data privacy, managing devices through an intuitive interface with data stored locally, eliminating cloud dependency. Its robust features and community support make it ideal for DIY enthusiasts and home users creating personalized home experiences.

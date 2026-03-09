@@ -83,7 +83,7 @@ x-casaos:
     - arm64
     - "386"
   main: tailscale
-  category: Network
+  category: Networking
   developer: Tailscale Inc.
   author: CasaOS Team
   tagline:

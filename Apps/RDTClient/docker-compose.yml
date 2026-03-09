@@ -36,7 +36,7 @@ x-casaos:
       - arm
       - arm64
   author: calganaygun
-  category: Downloader
+  category: Media
   icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/RDTClient/icon.png
   screenshot_link:
     - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/RDTClient/screenshot-1.png
@@ -45,4 +45,4 @@ x-casaos:
   scheme: http
   store_app_id: rdtclient
   title:
-    en_us: Real-Debrid Torrent Client
+    en_US: Real-Debrid Torrent Client

@@ -426,7 +426,7 @@ x-casaos:
     - arm
     - arm64
   main: romm
-  category: Games
+  category: Media
   developer: rommapp
   author: rommapp
   tagline:

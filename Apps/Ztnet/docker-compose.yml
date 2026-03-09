@@ -319,7 +319,7 @@ x-casaos:
     - amd64
     - arm64
   main: ztnet
-  category: Network
+  category: Networking
   developer: sinamics
   author: sinamics
   tagline:

@@ -135,7 +135,7 @@ x-casaos:
     - amd64
     - arm64
   main: beaverhabittracker
-  category: Utilities
+  category: Productivity
   developer: daya0576
   author: daya0576
   tagline:

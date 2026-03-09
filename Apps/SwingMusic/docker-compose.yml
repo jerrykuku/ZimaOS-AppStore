@@ -257,7 +257,7 @@ x-casaos:
         | -------- | -------- |
         | `admin` | `admin` |
   title:
-    en_us: Swing Music
-    zh_cn: Swing Music
+    en_US: Swing Music
+    zh_CN: Swing Music
   index: /
   port_map: "1970"

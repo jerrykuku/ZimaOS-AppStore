@@ -35,7 +35,7 @@ x-casaos:
   architectures:
     - amd64
   main: excalidraw
-  category: Utilities
+  category: Productivity
   developer: excalidraw
   author: excalidraw
   tagline:

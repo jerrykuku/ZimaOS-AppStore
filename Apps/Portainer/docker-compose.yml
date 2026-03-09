@@ -86,7 +86,7 @@ x-casaos:
     - arm
     - arm64
   author: Cp0204
-  category: Utilities
+  category: Developer
   description:
     en_US: |
       Portainer Community Edition (CE) is a lightweight container management tool offering an intuitive Web interface to simplify building, managing, and monitoring containerized applications. With over 500,000 active users, it is widely appreciated for its ease of use and robust functionality, ideal for individual developers, home lab users, and small teams.

@@ -24,8 +24,8 @@ x-casaos:
   author: CasaOS Team
   category: Developer
   description:
-    en_us: PocketBase is an open-source backend solution that combines a real-time database, authentication, file storage, and an admin dashboard into a single, portable executable. 
-    pt_br: PocketBase é uma solução de backend de código aberto que combina um banco de dados em tempo real, autenticação, armazenamento de arquivos e um painel de administração em um único executável portátil.
+    en_US: PocketBase is an open-source backend solution that combines a real-time database, authentication, file storage, and an admin dashboard into a single, portable executable. 
+    pt_BR: PocketBase é uma solução de backend de código aberto que combina um banco de dados em tempo real, autenticação, armazenamento de arquivos e um painel de administração em um único executável portátil.
   developer: Gani Georgiev
   icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/PocketBase/icon.png
   screenshot_link:
@@ -33,22 +33,22 @@ x-casaos:
     - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/PocketBase/screenshot-2.png
     - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/PocketBase/screenshot-3.png
   tagline:
-    en_us: "Open Source realtime backend in 1 file"
-    pt_br: "Backend open source em tempo real em um único arquivo"
+    en_US: "Open Source realtime backend in 1 file"
+    pt_BR: "Backend open source em tempo real em um único arquivo"
   tips:
     before_install:
-      en_us: |
+      en_US: |
         Default Account
         | Email | Password |
         | ----- | -------- |
         | `casaos@admin.local` | `adminpocketbase` |
-      pt_br: |
+      pt_BR: |
         Conta Padrão
         | Email | Senha |
         | ----- | -------- |
         | `casaos@admin.local` | `adminpocketbase` |
   thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/PocketBase/thumbnail.png
   title:
-    en_us: PocketBase
+    en_US: PocketBase
   index: /_/
   port_map: "8090"

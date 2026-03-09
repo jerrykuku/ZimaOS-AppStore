@@ -258,7 +258,7 @@ x-casaos:
     - amd64
     - arm64
   main: docmost
-  category: Notes
+  category: Productivity
   developer: docmost
   author: docmost
   tagline:

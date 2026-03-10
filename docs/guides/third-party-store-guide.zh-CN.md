@@ -6,6 +6,8 @@
 - 面向构建/部署外部第三方商店的维护者。
 - 如果你是在本仓库提交 PR，请参考 [CONTRIBUTING.md](../../CONTRIBUTING.md)。
 
+> **📢 新增内容：** 我们在 `meta.json` 中新增了 7 个可选字段，可增强商店展示效果：`version`、`updateAt`、`releaseNotes`、`website`、`repo`、`support` 和 `docs`。这些字段在 [meta.json 章节](#metajson)中标注为 **[新增]**。现有商店无需修改即可继续工作，但我们建议添加这些字段以改善应用列表的展示效果。
+
 ## 概览
 
 只要能托管静态文件（GitHub Pages、Netlify、Cloudflare Pages、自建 Nginx 等），就可以作为 ZimaOS 商店源。
@@ -142,7 +144,11 @@ x-casaos:
 - 你只需要维护一份 `docker-compose.yml`。
 - 构建脚本会自动拆分出精简 compose + `meta.json`。
 
-### 4. 配置 CI/CD（gh-pages + jsDelivr 示例）
+### 4. 设置 CI/CD
+
+从[官方仓库](https://github.com/IceWhaleTech/ZimaOS-AppStore)复制 `scripts/build_appstore.py`。
+
+创建 `.github/workflows/deploy.yml`：
 
 ```yaml
 name: Build And Publish Dist
@@ -300,11 +306,26 @@ jobs:
 
 ### meta.json
 
-常见字段：
-- `title/icon` 不在 `meta.json`，保留在 compose 的 `x-casaos`。
-- `description`、`releaseNotes` 可写 Markdown 文本（具体渲染由客户端决定）。
-- `updateAt` 建议使用 `YYYY-MM-DD`，如 `"2026-03-01"`。
-- `thumbnail`、`screenshot_link` 在传入 `--base-url` 时会被写成绝对 URL。
+| 字段 | 类型 | 说明 |
+|------|------|------|
+| `tagline` | `object` | 一句话简介（i18n） |
+| `description` | `object` | 详细描述（i18n，支持 Markdown，具体渲染由客户端决定） |
+| `thumbnail` | `string` | 缩略图 URL 或相对路径（取决于是否设置 `--base-url`） |
+| `screenshot_link` | `string[]` | 截图 URL 或相对路径（取决于是否设置 `--base-url`） |
+| `tips` | `object` | 安装提示（i18n，可选） |
+| `author` | `string` | 打包者 |
+| `developer` | `string` | 上游开发者 |
+| `category` | `string` | 应用分类 |
+| `architectures` | `string[]` | 支持的 CPU 架构 |
+| `version` | `string` | **[新增，可选]** 应用版本号，可增强商店展示 |
+| `updateAt` | `string` | **[新增，可选]** 应用更新日期（建议 `YYYY-MM-DD`，如 `"2026-03-01"`），可增强商店展示 |
+| `releaseNotes` | `object` | **[新增，可选]** 版本更新日志（i18n），可增强商店展示 |
+| `website` | `string` | **[新增，可选]** 官方网站地址，可增强商店展示 |
+| `repo` | `string` | **[新增，可选]** 源码仓库地址，可增强商店展示 |
+| `support` | `string` | **[新增，可选]** 支持地址，可增强商店展示 |
+| `docs` | `string` | **[新增，可选]** 文档地址，可增强商店展示 |
+
+> 注意：`title` 与 `icon` 保留在 `docker-compose.yml` 的顶层 `x-casaos` 中，不写入 `meta.json`。
 
 ### 图片资源规则
 
@@ -314,6 +335,41 @@ jobs:
 - `thumbnail`/`screenshot-*`：
   - 支持 `.png/.jpg/.jpeg/.webp`
   - 构建时会优化并输出 `.webp`（宽度过大会缩放）
+
+---
+
+## 图标 URL 行为
+
+应用图标在两个地方使用：
+
+| 位置 | 字段 | 行为 |
+|------|------|------|
+| **商店列表**（安装前） | `index.json` → `icon` | 从构建输出生成（`apps/<app-id>/icon.svg` 或 `icon.png`） |
+| **仪表盘**（安装后） | `docker-compose.yml` → `x-casaos.icon` | 构建脚本会重写为相同的构建输出 URL |
+
+在源 compose 中，你仍可设置稳定 URL。构建时，`x-casaos.icon` 会根据 `--base-url` 替换为构建输出 URL。
+
+---
+
+## ZimaOS 运行时变量
+
+ZimaOS 提供以下在安装时解析的变量：
+
+| 变量 | 说明 | 示例值 |
+|------|------|--------|
+| `$AppID` | 应用唯一标识（用于数据隔离） | `my-app` |
+| `$TZ` | 系统时区 | `America/New_York` |
+| `$PUID` | 主机用户 ID | `1000` |
+| `$PGID` | 主机组 ID | `1000` |
+
+在卷路径中使用 `$AppID` 来隔离应用数据：
+
+```yaml
+volumes:
+  - type: bind
+    source: /DATA/AppData/$AppID/config
+    target: /config
+```
 
 ---
 
@@ -344,24 +400,86 @@ jobs:
 
 ---
 
+## 分类
+
+如果你的商店有 `category-list.json`，`index.json` 中的分类会遵循该文件。
+如果没有，分类会从应用的 `x-casaos.category` 自动提取。
+
+本仓库当前的官方分类名称为：
+`Media`、`Productivity`、`Home`、`Networking`、`AI`、`Finance`、`Social`、`Developer`
+
+构建脚本会自动从你的应用中提取分类——你不需要创建 `category-list.json` 文件。只需在每个应用的 `x-casaos` 块中设置 `category` 字段即可。
+
+你也可以使用自定义分类名称——它们会出现在你的商店中，但在默认的 ZimaOS UI 中可能没有图标。
+
+---
+
+## 更新应用
+
+要更新应用（例如升级镜像版本）：
+
+1. 编辑 `docker-compose.yml` —— 更改镜像标签、调整配置等
+2. 推送到 `main` 分支 —— CI 会自动重新构建和部署
+3. 应用在 `index.json` 中的 `content_hash` 会改变，因此 ZimaOS 设备在用户下次打开商店时会检测到更新
+
+协议中没有单独的版本控制或更新日志机制。`content_hash` 会自动处理变更检测。
+
+---
+
+## 带宽与更新效率
+
+v2 协议使用**增量更新**而非完整包下载，这显著降低了商店维护者和 ZimaOS 设备的带宽消耗。
+
+### 更新工作原理
+
+当用户打开应用商店时，ZimaOS 会使用 HTTP `ETag` 头请求 `index.json`：
+
+```
+1. GET index.json (with If-None-Match: <cached ETag>)
+   ├─ 304 Not Modified → 无数据传输，使用本地缓存
+   └─ 200 OK → 比较每个应用的 content_hash 与本地缓存
+                 ├─ hash 匹配 → 跳过（无需下载）
+                 └─ hash 不同 → 仅获取该应用的 compose + meta
+```
+
+### 带宽对比
+
+假设你的商店有 20 个应用，你更新了 1 个应用：
+
+| 方式 | 下载内容 | 流量 |
+|------|----------|------|
+| 旧方式（zip） | 所有 20 个应用作为完整包重新下载 | ~200 KB+ |
+| **新方式（v2）** | index.json + 1 个变更应用的 compose + meta | **~15 KB** |
+
+当**完全没有更新**时，v2 协议几乎不消耗流量——`304 Not Modified` 响应的主体为空。
+
+### 为什么这很重要
+
+- **降低托管成本**：GitHub Pages 有 100 GB/月的带宽限制。增量更新意味着你的商店可以在该配额内服务更多设备。
+- **用户体验更快**：检查更新只需约 100-200ms（单个 HTTP 请求），因此商店始终感觉很快。
+- **扩展性好**：如果 1,000 台设备每天检查你的商店但没有变化，总带宽接近零。使用旧的 zip 方式，将是 1,000 次完整下载。
+
+### 客户端何时检查更新？
+
+ZimaOS **在用户打开应用商店时**检查更新——没有后台轮询，没有定期下载。这意味着：
+
+- 很少打开商店的设备消耗零带宽
+- 打开商店的设备始终看到最新数据
+- 没有后台同步造成的流量浪费
+
+---
+
 ## FAQ
 
 ### 第三方商店的应用 ID 可以和官方商店重复吗？
 可以。即使应用 ID 相同，运行层会通过 `store_id` 做隔离（例如 Docker project name 带前缀），不会直接冲突。
 
 ### 如果其他第三方商店和我用了同一个应用 ID 会怎样？
+
 通常也不会冲突。安装时会基于各自的 `store_id` 做隔离，例如 `my-store_dashboard` 与 `other-store_dashboard` 会分开。
 
-### 可以不用 GitHub Pages 吗？
-可以，任何 HTTPS 静态托管都可用。
-
-### 必须用 jsDelivr 吗？
-不是。`jsDelivr` 只是可选 CDN。你可以把 `--base-url` 设为任意可访问 HTTPS 域名，例如：
-- `https://username.github.io/my-appstore`
-- `https://store.example.com`
-- `https://my-store.pages.dev`
-
 ### 一定要跑构建脚本吗？
+
 是。构建脚本负责：
 - `store-config.json` → `store.json`
 - `docker-compose.yml` → 精简 compose + `meta.json`
@@ -370,8 +488,36 @@ jobs:
 - i18n 归一化
 - 资源复制/优化（包含 `icon.svg` 到 `icon.png` 的兜底转换）
 
+你不应该手动创建这些输出文件。
+
+### 可以将商店托管在 GitHub Pages 以外的地方吗？
+
+可以。任何静态文件托管都可以（Netlify、Vercel、Cloudflare Pages、自建 Nginx 等）。只需确保文件可通过 HTTPS 访问。ZimaOS 从后端获取商店数据（不是从浏览器），因此不需要 CORS 头。
+
+### 必须用 jsDelivr 吗？
+
+不是。`jsDelivr` 只是可选 CDN。你可以把 `--base-url` 设为任意可访问 HTTPS 域名，例如：
+- `https://username.github.io/my-appstore`
+- `https://store.example.com`
+- `https://my-store.pages.dev`
+
 ### 为什么建议传 `--base-url`？
-因为可将资源路径输出为绝对 URL，前端解析更稳定。若不传，`apps/my-app/icon.svg` 这类相对路径在某些前端上下文中可能无法正确解析。
+
+前端组件接收 `index.json` 数据但不知道你的商店的主机 URL。如果没有 `--base-url`，像 `apps/my-app/icon.svg` 这样的资源路径是相对的，前端无法解析它们。
+
+`--base-url` 使所有资源 URL 变为绝对路径，因此可以直接使用：
+
+```bash
+# GitHub Pages 托管
+python3 scripts/build_appstore.py --source . --output dist \
+  --base-url https://username.github.io/my-appstore
+# icon: "https://username.github.io/my-appstore/apps/my-app/icon.svg"
+
+# jsDelivr CDN 托管
+python3 scripts/build_appstore.py --source . --output dist \
+  --base-url https://cdn.jsdelivr.net/gh/username/my-appstore@gh-pages
+# icon: "https://cdn.jsdelivr.net/gh/username/my-appstore@gh-pages/apps/my-app/icon.svg"
+```
 
 ### 最小可用商店结构是什么？
 

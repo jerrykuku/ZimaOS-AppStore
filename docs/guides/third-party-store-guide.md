@@ -6,6 +6,8 @@ Scope of this document:
 - For operators building/deploying an external third-party store.
 - For this repository's PR contribution process and repo-specific rules, use [CONTRIBUTING.md](../../CONTRIBUTING.md).
 
+> **📢 What's New:** We've added 7 new optional fields to `meta.json` that enhance store display: `version`, `updateAt`, `releaseNotes`, `website`, `repo`, `support`, and `docs`. These fields are marked with **[New]** in the [meta.json section](#metajson-after-build). Existing stores continue to work without changes, but we recommend adding these fields to improve your app listings.
+
 ## Overview
 
 Any static file host (GitHub Pages, Netlify, self-hosted Nginx, etc.) can serve as a ZimaOS app store source. You just need to output a few JSON files and app resources in the correct format.
@@ -403,13 +405,13 @@ Everything else is moved to `meta.json`.
 | `developer` | `string` | Upstream developer |
 | `category` | `string` | App category |
 | `architectures` | `string[]` | Supported CPU architectures |
-| `version` | `string` | App version |
-| `updateAt` | `string` | Update date (recommended `YYYY-MM-DD`, e.g. `"2026-03-01"`) |
-| `releaseNotes` | `object` | Release notes (i18n) |
-| `website` | `string` | Official website (optional) |
-| `repo` | `string` | Source repository (optional) |
-| `support` | `string` | Support URL (optional) |
-| `docs` | `string` | Documentation URL (optional) |
+| `version` | `string` | **[New, optional]** App version, enhances store display |
+| `updateAt` | `string` | **[New, optional]** Update date (recommended `YYYY-MM-DD`, e.g. `"2026-03-01"`), enhances store display |
+| `releaseNotes` | `object` | **[New, optional]** Release notes (i18n), enhances store display |
+| `website` | `string` | **[New, optional]** Official website, enhances store display |
+| `repo` | `string` | **[New, optional]** Source repository, enhances store display |
+| `support` | `string` | **[New, optional]** Support URL, enhances store display |
+| `docs` | `string` | **[New, optional]** Documentation URL, enhances store display |
 
 > Note: `title` and `icon` stay in top-level `x-casaos` inside `docker-compose.yml`; they are not written to `meta.json`.
 

@@ -27,7 +27,7 @@ my-appstore/
 
 **Output structure** (what gets deployed):
 
-```
+```text
 dist/
 ├── store.json              # generated from store-config.json
 ├── index.json              # app listing with categories + content hashes
@@ -56,7 +56,7 @@ https://username.github.io/my-appstore
 
 Create a new GitHub repository with this structure:
 
-```
+```text
 my-appstore/
 ├── Apps/
 │   └── MyApp/
@@ -637,7 +637,7 @@ python3 scripts/build_appstore.py --source . --output dist \
 
 ### What's the minimum viable store?
 
-```
+```text
 my-appstore/
 ├── Apps/
 │   └── MyApp/

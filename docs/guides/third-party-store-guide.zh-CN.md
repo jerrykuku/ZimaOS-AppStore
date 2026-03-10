@@ -6,7 +6,7 @@
 - 面向构建/部署外部第三方商店的维护者。
 - 如果你是在本仓库提交 PR，请参考 [CONTRIBUTING.md](../../CONTRIBUTING.md)。
 
-> **📢 新增内容：** 我们在 `meta.json` 中新增了 7 个可选字段，可增强商店展示效果：`version`、`updateAt`、`releaseNotes`、`website`、`repo`、`support` 和 `docs`。这些字段在 [meta.json 章节](#metajson)中标注为 **[新增]**。现有商店无需修改即可继续工作，但我们建议添加这些字段以改善应用列表的展示效果。
+> **📢 新增内容：** 我们在 `meta.json` 中新增了 7 个可选字段，可增强商店展示效果：`version`、`updateAt`、`releaseNotes`、`website`、`repo`、`support` 和 `docs`。这些字段在 [meta.json 章节](#metajson-after-build)中标注为 **[新增，可选]**。现有商店无需修改即可继续工作，但我们建议添加这些字段以改善应用列表的展示效果。
 
 ## 概览
 
@@ -304,7 +304,7 @@ jobs:
 - `port_map` 必须是字符串，建议写成 `"8080"`。
 - 其余字段会进入 `meta.json`。
 
-### meta.json
+### meta.json（构建后）
 
 | 字段 | 类型 | 说明 |
 |------|------|------|

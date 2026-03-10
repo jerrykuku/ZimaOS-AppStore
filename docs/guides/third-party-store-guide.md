@@ -588,7 +588,7 @@ ZimaOS checks for updates **when the user opens the app store** — no backgroun
 
 ### Can I use the same app ID as the official store?
 
-Yes. If a user has both your store and the official store enabled, ZimaOS will show both versions and let the user choose which one to install. Only one version can be installed at a time.
+Yes. Official store apps and third-party store apps are displayed separately in ZimaOS, so there's no conflict. Even if the app IDs are identical, they will be shown independently in their respective store pages.
 
 ### What if another third-party store uses the same app ID as mine?
 

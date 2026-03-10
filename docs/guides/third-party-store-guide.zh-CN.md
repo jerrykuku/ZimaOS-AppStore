@@ -10,7 +10,7 @@
 
 ## 概览
 
-只要能托管静态文件（GitHub Pages、Netlify、Cloudflare Pages、自建 Nginx 等），就可以作为 ZimaOS 商店源。
+只要能托管静态文件（GitHub Pages、Netlify、Cloudflare Pages、自建 Nginx 等），就可以作为 ZimaOS 商店源。你只需要输出一些 JSON 文件和应用资源，格式正确即可。
 
 **源目录结构**（你维护的内容）：
 
@@ -43,13 +43,18 @@ dist/
         └── ...
 ```
 
-用户在 ZimaOS 中添加商店时，填写你的商店 URL 即可。
+用户在 ZimaOS 中添加你的商店 URL：
+```
+https://username.github.io/my-appstore
+```
 
 ---
 
 ## 快速开始
 
 ### 1. 创建仓库
+
+创建一个新的 GitHub 仓库，结构如下：
 
 ```text
 my-appstore/
@@ -70,6 +75,8 @@ my-appstore/
 
 ### 2. 编写 store-config.json
 
+此文件标识你的商店。构建脚本会读取它并将 `store.json` 输出到部署目录。
+
 ```json
 {
   "version": 2,
@@ -86,18 +93,22 @@ my-appstore/
 }
 ```
 
-`store_id` 规则：
+**`store_id` 规则：**
 - 仅小写字符，匹配 `[a-z0-9-]`
-- 必须全局唯一
+- 必须全局唯一（选择一个有特色的名称）
 - 不能使用保留值 `zimaos-official`
 
 ### 3. 编写应用 docker-compose.yml
+
+每个应用都位于 `Apps/` 下的独立目录中。目录名称不重要（应用 ID 来自 compose 文件）。
+
+**docker-compose.yml：**
 
 ```yaml
 name: my-app
 services:
   my-app:
-    image: myrepo/my-app:1.0.0
+    image: myrepo/my-app:latest
     ports:
       - target: 8080
         published: "8080"
@@ -108,16 +119,18 @@ services:
         target: /config
     restart: unless-stopped
 x-casaos:
+  # --- 运行时字段（构建后保留在 compose 中）---
   main: my-app
   index: /
   port_map: "8080"
   scheme: http
-  # 源 compose 可写任意可访问 URL，构建后会被重写为 dist 内资源 URL
+  # 在源 compose 中可以是任何可访问的 URL。
+  # 构建输出会将其重写为 --base-url 下的 apps/my-app/icon.svg（或 icon.png）。
   icon: https://cdn.jsdelivr.net/gh/username/my-appstore@main/Apps/MyApp/icon.svg
   title:
     en_US: My App
     zh_CN: 我的应用
-
+  # --- 元数据字段（由构建脚本提取到 meta.json）---
   author: Your Name
   developer: Original Developer
   category: Utilities
@@ -140,9 +153,48 @@ x-casaos:
     en_US: First release
 ```
 
-说明：
-- 你只需要维护一份 `docker-compose.yml`。
-- 构建脚本会自动拆分出精简 compose + `meta.json`。
+> 你可以在一个 docker-compose.yml 中编写所有内容——构建脚本会自动将其拆分为精简的 compose 文件 + meta.json。
+
+**多服务示例**（带数据库的应用）：
+
+```yaml
+name: my-wiki
+services:
+  my-wiki:
+    image: requarks/wiki:2
+    ports:
+      - target: 3000
+        published: "3000"
+        protocol: tcp
+    environment:
+      DB_TYPE: postgres
+      DB_HOST: my-wiki-db
+      DB_PORT: "5432"
+      DB_USER: wiki
+      DB_PASS: wikisecret
+      DB_NAME: wiki
+    depends_on:
+      - my-wiki-db
+    restart: unless-stopped
+  my-wiki-db:
+    image: postgres:15
+    volumes:
+      - type: bind
+        source: /DATA/AppData/$AppID/db
+        target: /var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: wiki
+      POSTGRES_PASSWORD: wikisecret
+      POSTGRES_DB: wiki
+    restart: unless-stopped
+x-casaos:
+  main: my-wiki           # <- 指向 Web UI 服务，而不是数据库
+  index: /
+  port_map: "3000"
+  # ... 其他字段 ...
+```
+
+对于多服务应用，`main` 必须指向提供 Web UI 的服务。
 
 ### 4. 设置 CI/CD
 
@@ -208,17 +260,21 @@ jobs:
 
 ### 5. 商店 URL
 
-部署完成后可使用类似 URL：
+工作流运行后，你的商店可通过以下地址访问：
 
-```text
+```
 https://cdn.jsdelivr.net/gh/username/my-appstore@gh-pages
 ```
+
+用户可以在 ZimaOS 设置中将此 URL 添加为商店源。
 
 ---
 
 ### 6. 替代方案：不使用 gh-pages / 不使用 jsDelivr
 
-你可以只构建 `dist/`，再部署到任意静态托管。
+如果你不想使用 `gh-pages` 或 jsDelivr，仍然可以使用相同的构建脚本，并将 `dist/` 部署到任何静态托管。
+
+使用仅上传构建产物的通用构建工作流：
 
 ```yaml
 name: Build Store Dist
@@ -260,8 +316,12 @@ jobs:
 ```
 
 随后将 `dist/` 部署到：
+
 - Netlify（发布目录 `dist`）
 - Cloudflare Pages（输出目录 `dist`）
+- 自建 Nginx/Caddy（将 `dist/` 作为静态文件在 HTTPS 域名下提供服务）
+
+你的最终商店 URL 将与 `--base-url` 相同（例如 `https://store.example.com`）。
 - 自建 Nginx/Caddy（HTTPS 静态站点）
 
 最终商店地址应与 `--base-url` 保持一致。
@@ -271,6 +331,8 @@ jobs:
 ## 文件格式说明
 
 ### store-config.json（输入）→ store.json（输出）
+
+你在仓库根目录编写 `store-config.json`。构建脚本会将其复制到 `dist/store.json`（并归一化语言键）。当用户添加你的商店 URL 时，ZimaOS 会获取 `{url}/store.json` 来验证商店身份。
 
 | 字段 | 类型 | 必填 | 说明 |
 |------|------|------|------|
@@ -284,25 +346,56 @@ jobs:
 
 ### index.json
 
-自动生成，包含分类和应用摘要列表。
+由构建脚本自动生成。包含所有应用摘要和分类，用于快速加载。
 
-说明：
-- 有 `category-list.json` 时，分类按该文件输出。
-- 无 `category-list.json` 时，按应用 `x-casaos.category` 自动提取。
+对于第三方商店（没有 `category-list.json`），分类会从你的应用中自动提取：
+
+```json
+{
+  "version": 2,
+  "updated_at": "2026-03-03T12:00:00Z",
+  "categories": [
+    { "name": "Utilities" },
+    { "name": "Media" }
+  ],
+  "app_count": 5,
+  "apps": [
+    {
+      "id": "my-app",
+      "title": { "en_US": "My App" },
+      "tagline": { "en_US": "Does amazing things" },
+      "category": "Utilities",
+      "author": "Your Name",
+      "developer": "Original Developer",
+      "architectures": ["amd64", "arm64"],
+      "icon": "apps/my-app/icon.svg",
+      "thumbnail": "apps/my-app/thumbnail.webp",
+      "compose_url": "apps/my-app/docker-compose.yml",
+      "meta_url": "apps/my-app/meta.json",
+      "content_hash": "a1b2c3d4"
+    }
+  ]
+}
+```
+
+> 当提供 `--base-url` 时，像 `icon`、`compose_url` 等 URL 会变为绝对路径（例如 `https://username.github.io/my-appstore/apps/my-app/icon.svg`）。如果不提供，它们是相对路径。
 
 ### 构建后的 docker-compose.yml
 
-构建后 `x-casaos` 仅保留以下字段：
-- `main`
-- `index`
-- `port_map`
-- `scheme`
-- `icon`
-- `title`
+构建脚本在 `x-casaos` 中仅保留以下字段：
 
-注意：
-- `port_map` 必须是字符串，建议写成 `"8080"`。
-- 其余字段会进入 `meta.json`。
+| 字段 | 用途 | 示例 |
+|------|------|------|
+| `main` | 主服务名称（Web UI 入口点） | `my-app` |
+| `index` | Web UI 根路径 | `/` |
+| `port_map` | Web UI 发布端口（必须是**字符串**，使用引号） | `"8080"` |
+| `scheme` | Web UI 协议（`http` 或 `https`） | `http` |
+| `icon` | 图标 URL（安装后在 ZimaOS 仪表盘中显示） | `https://...` |
+| `title` | 应用名称（i18n） | `{ "en_US": "My App" }` |
+
+其余字段会移至 `meta.json`。
+
+> **重要：** `port_map` 必须是 YAML 字符串，不能是整数。始终使用引号：`port_map: "8080"`，而不是 `port_map: 8080`。
 
 ### meta.json（构建后）
 
@@ -327,14 +420,27 @@ jobs:
 
 > 注意：`title` 与 `icon` 保留在 `docker-compose.yml` 的顶层 `x-casaos` 中，不写入 `meta.json`。
 
+**Tips 格式：**
+
+```yaml
+tips:
+  before_install:
+    en_US: This app requires at least 4GB RAM.
+    zh_CN: 此应用需要至少 4GB 内存。
+```
+
+Tips 会在安装前显示给用户。`tips` 下的键（例如 `before_install`）支持 i18n 值。
+
 ### 图片资源规则
 
-- `icon`：
-  - 若存在 `icon.svg`：保留 `icon.svg`，并尝试生成 `icon.png`。
-  - 若不存在 `icon.svg`：直接使用现有 `icon.*`，不额外转换。
-- `thumbnail`/`screenshot-*`：
-  - 支持 `.png/.jpg/.jpeg/.webp`
-  - 构建时会优化并输出 `.webp`（宽度过大会缩放）
+| 文件 | 源格式 | 构建输出 | 必需 |
+|------|--------|----------|------|
+| `icon` | `.svg`（推荐）、`.png`、`.jpg`、`.webp` | 如果存在 `.svg`：保留 `icon.svg` 并生成 `icon.png`；否则保留原始图标文件 | 是 |
+| `thumbnail` | `.png`、`.jpg`、`.jpeg`、`.webp` | 转换为 `.webp`（宽度过大时会缩放） | 否 |
+| `screenshot-{n}` | `.png`、`.jpg`、`.jpeg`、`.webp` | 转换为 `.webp`（宽度过大时会缩放） | 否 |
+
+- 非图标的光栅图像使用 Pillow 优化（WebP 质量 `85`，最大宽度 `1280`）
+- SVG 文件按原样复制（但图标在 `rsvg-convert` 可用时也会生成 PNG 兜底）
 
 ---
 
@@ -375,28 +481,42 @@ volumes:
 
 ## i18n 规范
 
-语言键统一使用 `ll_CC`：
-- 正确：`en_US`、`zh_CN`
-- 错误：`en_us`、`zh_cn`
+所有语言键必须使用 `ll_CC` 格式（语言小写 + 国家大写）：
 
-构建脚本会自动归一化：
+| 正确 | 错误 |
+|------|------|
+| `en_US` | `en_us` |
+| `zh_CN` | `zh_cn` |
+| `de_DE` | `de_de` |
+
+构建脚本会自动归一化以下字段的语言键：
 - `store-config.json`：`name`、`description`
-- `x-casaos`：`title`、`tagline`、`description`、`tips` 内嵌 i18n
+- `x-casaos`：`title`、`tagline`、`description`、`tips` 下的每个嵌套 locale 对象
 
-建议所有 i18n 字段至少提供 `en_US`。
+其他类似 locale 的字段（例如 `releaseNotes`）应由贡献者直接以 `ll_CC` 格式编写。
+
+至少为所有 i18n 字段提供 `en_US`。
 
 ---
 
 ## App ID 规则
 
-优先级：
-1. `x-casaos.store_app_id`
-2. 顶层 `name`
-3. 目录名（转小写）
+应用 ID 决定了 Docker 项目名称以及 ZimaOS 如何识别你的应用。
 
-约束：
-- 建议匹配 `[a-z0-9-_]`
-- 在同一商店内必须唯一
+**解析优先级：**
+
+```
+store_app_id  (在 x-casaos 中，如果设置)
+    ↓ 未设置
+compose name  (顶层 "name:" 字段)
+    ↓ 未设置
+directory name (转小写)
+```
+
+**规则：**
+- 必须是小写，匹配 `[a-z0-9-_]`
+- 在你的商店内必须唯一
+- 不用担心与其他商店冲突——ZimaOS 在安装时会自动通过添加你的 `store_id` 前缀来处理隔离
 
 ---
 
@@ -472,11 +592,12 @@ ZimaOS **在用户打开应用商店时**检查更新——没有后台轮询，
 ## FAQ
 
 ### 第三方商店的应用 ID 可以和官方商店重复吗？
-可以。即使应用 ID 相同，运行层会通过 `store_id` 做隔离（例如 Docker project name 带前缀），不会直接冲突。
+
+可以。如果用户同时启用了你的商店和官方商店，ZimaOS 会显示两个版本，并让用户选择安装哪一个。一次只能安装一个版本。
 
 ### 如果其他第三方商店和我用了同一个应用 ID 会怎样？
 
-通常也不会冲突。安装时会基于各自的 `store_id` 做隔离，例如 `my-store_dashboard` 与 `other-store_dashboard` 会分开。
+没问题。ZimaOS 在安装时会用你的 `store_id` 作为 Docker 项目名称的前缀，因此 `my-store_dashboard` 和 `other-store_dashboard` 在 Docker 层面完全隔离。
 
 ### 一定要跑构建脚本吗？
 

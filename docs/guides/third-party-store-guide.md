@@ -517,15 +517,13 @@ directory name (lowercased)
 
 ## Categories
 
-If your store has a `category-list.json`, `index.json` categories follow that file.
-If not, categories are auto-extracted from apps' `x-casaos.category`.
+App categories in ZimaOS are standardized. You must use one of the following official category names:
 
-In this repository, current official category names are:
 `Media`, `Productivity`, `Home`, `Networking`, `AI`, `Finance`, `Social`, `Developer`
 
-The build script auto-extracts categories from your apps — you don't need to create a `category-list.json` file. Just set the `category` field in each app's `x-casaos` block.
+Set the `category` field in each app's `x-casaos` block to match one of these values. The build script will auto-extract categories from your apps and generate the category list in `index.json`.
 
-You can also use custom category names — they will appear in your store but may not have an icon in the default ZimaOS UI.
+If your store has a `category-list.json` file, it will be used instead, but all categories must still match the official names above to display correctly in ZimaOS.
 
 ---
 

@@ -522,15 +522,13 @@ directory name (转小写)
 
 ## 分类
 
-如果你的商店有 `category-list.json`，`index.json` 中的分类会遵循该文件。
-如果没有，分类会从应用的 `x-casaos.category` 自动提取。
+ZimaOS 中的应用分类是标准化的。你必须使用以下官方分类名称之一：
 
-本仓库当前的官方分类名称为：
 `Media`、`Productivity`、`Home`、`Networking`、`AI`、`Finance`、`Social`、`Developer`
 
-构建脚本会自动从你的应用中提取分类——你不需要创建 `category-list.json` 文件。只需在每个应用的 `x-casaos` 块中设置 `category` 字段即可。
+在每个应用的 `x-casaos` 块中设置 `category` 字段，使其匹配上述值之一。构建脚本会自动从你的应用中提取分类，并在 `index.json` 中生成分类列表。
 
-你也可以使用自定义分类名称——它们会出现在你的商店中，但在默认的 ZimaOS UI 中可能没有图标。
+如果你的商店有 `category-list.json` 文件，将使用该文件，但所有分类仍必须匹配上述官方名称才能在 ZimaOS 中正确显示。
 
 ---
 

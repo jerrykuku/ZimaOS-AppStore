@@ -524,11 +524,11 @@ directory name (转小写)
 
 ZimaOS 中的应用分类是标准化的。你必须使用以下官方分类名称之一：
 
-`Media`、`Productivity`、`Home`、`Networking`、`AI`、`Finance`、`Social`、`Developer`
+`Media`、`Productivity`、`Home`、`Networking`、`AI`、`Finance`、`Social`、`Developer`、`Others`
 
-在每个应用的 `x-casaos` 块中设置 `category` 字段，使其匹配上述值之一。构建脚本会自动从你的应用中提取分类，并在 `index.json` 中生成分类列表。
+在每个应用的 `x-casaos` 块中设置 `category` 字段，使其匹配上述值之一。如果你的应用不属于前 8 个分类，请使用 `Others`。
 
-如果你的商店有 `category-list.json` 文件，将使用该文件，但所有分类仍必须匹配上述官方名称才能在 ZimaOS 中正确显示。
+构建脚本会自动从你的应用中提取分类，并在 `index.json` 中生成分类列表。不支持自定义分类名称——使用未识别分类的应用将无法在 ZimaOS 中正确显示。
 
 ---
 

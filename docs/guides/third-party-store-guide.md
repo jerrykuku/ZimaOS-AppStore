@@ -519,11 +519,11 @@ directory name (lowercased)
 
 App categories in ZimaOS are standardized. You must use one of the following official category names:
 
-`Media`, `Productivity`, `Home`, `Networking`, `AI`, `Finance`, `Social`, `Developer`
+`Media`, `Productivity`, `Home`, `Networking`, `AI`, `Finance`, `Social`, `Developer`, `Others`
 
-Set the `category` field in each app's `x-casaos` block to match one of these values. The build script will auto-extract categories from your apps and generate the category list in `index.json`.
+Set the `category` field in each app's `x-casaos` block to match one of these values. If your app doesn't fit into the first 8 categories, use `Others`.
 
-If your store has a `category-list.json` file, it will be used instead, but all categories must still match the official names above to display correctly in ZimaOS.
+The build script will auto-extract categories from your apps and generate the category list in `index.json`. Custom category names are not supported — apps with unrecognized categories will not display correctly in ZimaOS.
 
 ---
 

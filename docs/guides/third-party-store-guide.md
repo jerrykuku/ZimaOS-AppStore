@@ -21,6 +21,7 @@ my-appstore/
 │       ├── docker-compose.yml    # with x-casaos block
 │       └── icon.svg              # recommended
 ├── store-config.json             # store identity (input)
+├── supported-languages.json      # list of output locales (optional)
 └── scripts/
     └── build_appstore.py         # build script
 ```
@@ -29,18 +30,26 @@ my-appstore/
 
 ```text
 dist/
-├── store.json              # generated from store-config.json
-├── index.json              # app listing with categories + content hashes
-└── apps/
-    ├── my-app/
-    │   ├── docker-compose.yml    # cleaned (minimal x-casaos)
-    │   ├── meta.json             # extracted metadata
-    │   ├── icon.svg              # kept if source has icon.svg
-    │   ├── icon.png              # generated from icon.svg (fallback)
-    │   ├── thumbnail.webp        # converted/optimized from thumbnail.*
-    │   └── screenshot-*.webp     # converted/optimized from screenshot-*.*
-    └── another-app/
-        └── ...
+├── assets/                        # shared image assets (one copy)
+│   └── apps/
+│       ├── my-app/
+│       │   ├── icon.svg
+│       │   ├── icon.png
+│       │   ├── thumbnail.webp
+│       │   └── screenshot-*.webp
+│       └── another-app/
+│           └── ...
+├── en_US/                         # per-language directory
+│   ├── store.json                 # single-language store info
+│   ├── index.json                 # single-language app listing
+│   └── apps/
+│       └── my-app/
+│           ├── docker-compose.yml # cleaned, single-language x-casaos
+│           └── meta.json          # single-language metadata
+├── zh_CN/
+│   └── ...                        # same structure, Chinese strings
+└── de_DE/
+    └── ...
 ```
 
 Users add your store in ZimaOS by entering your URL:
@@ -66,6 +75,7 @@ my-appstore/
 │       ├── screenshot-1.png     (optional, .jpg/.jpeg/.webp also supported)
 │       └── screenshot-2.png     (optional)
 ├── store-config.json
+├── supported-languages.json     (optional, defaults to en_US only)
 ├── scripts/
 │   └── build_appstore.py        (copy from official repo)
 └── .github/
@@ -255,7 +265,7 @@ jobs:
 
       - name: Refresh jsDelivr cache
         run: |
-          curl -fsSL "https://purge.jsdelivr.net/gh/${{ github.repository }}@gh-pages/index.json" || true
+          curl -fsSL "https://purge.jsdelivr.net/gh/${{ github.repository }}@gh-pages/en_US/index.json" || true
 ```
 
 ### 5. Share your store URL
@@ -323,11 +333,94 @@ Your final store URL will be the same as `--base-url` (for example, `https://sto
 
 ---
 
+## Upgrading from v1
+
+If you already have a third-party store built for the old CasaOS AppStore protocol (zip-based distribution), follow these steps to upgrade to v2.
+
+### What changed
+
+| | v1 (old) | v2 (new) |
+|---|----------|----------|
+| Distribution | zip package download | Static site (GitHub Pages, CDN, etc.) |
+| Store identity | None | `store-config.json` → `store.json` |
+| Build script | None | `scripts/build_appstore.py` |
+| Metadata | All in `x-casaos` block | Split into compose + `meta.json` |
+| Categories | Free-form | Standardized (9 official names) |
+| Update mechanism | Full zip re-download | Incremental (`content_hash`) |
+
+### Your existing `Apps/` directory works as-is
+
+The v2 build script reads the same `Apps/` directory structure. Your existing `docker-compose.yml` files are fully compatible — the build script will automatically:
+
+- Remove service-level `services.xxx.x-casaos` blocks
+- Split top-level `x-casaos` into runtime fields (kept in compose) + metadata (extracted to `meta.json`)
+- Normalize i18n locale keys (`en_us` → `en_US`)
+- Optimize and convert image assets
+
+### Step 1: Add `store-config.json`
+
+Create this file in your repository root:
+
+```json
+{
+  "version": 2,
+  "store_id": "your-store-id",
+  "name": {
+    "en_US": "Your Store Name"
+  },
+  "maintainer": "your-github-username",
+  "url": "https://github.com/username/your-appstore"
+}
+```
+
+### Step 2: Copy the build script
+
+Copy `scripts/build_appstore.py` from the [official repository](https://github.com/IceWhaleTech/ZimaOS-AppStore) into your `scripts/` directory.
+
+### Step 3: Update app categories
+
+v2 requires standardized categories. Update the `category` field in each app's `x-casaos` block to one of the 9 official names.
+
+Common mappings from old category names:
+
+| Old category | New category |
+|-------------|-------------|
+| `Utilities` | `Productivity` |
+| `Tools` | `Productivity` |
+| `Entertainment` | `Media` |
+| `Music` | `Media` |
+| `Video` | `Media` |
+| `Photos` | `Media` |
+| `Cloud` | `Networking` |
+| `Storage` | `Home` |
+| `Security` | `Networking` |
+| `Communication` | `Social` |
+| `Games` | `Others` |
+
+Full list of valid categories: `Media`, `Productivity`, `Home`, `Networking`, `AI`, `Finance`, `Social`, `Developer`, `Others`
+
+### Step 4: Add CI/CD workflow
+
+Follow [Quick Start Step 4](#4-set-up-cicd) to set up GitHub Actions for automated builds and deployment.
+
+### Optional improvements
+
+- Add the 7 new metadata fields (`version`, `updateAt`, `releaseNotes`, `website`, `repo`, `support`, `docs`) to enhance store display — see [meta.json](#metajson-after-build)
+- Add `supported-languages.json` for multi-language output
+- Replace PNG icons with SVG for better quality
+
+### Files you can keep
+
+- `featured-apps.json` and `recommend-list.json` can stay in your repository — the build script ignores them
+- `category-list.json` can stay but is no longer required — categories are auto-extracted from apps
+
+---
+
 ## File Format Reference
 
 ### store-config.json (input) → store.json (output)
 
-You write `store-config.json` in your repository root. The build script copies it to `dist/store.json` (with locale key normalization). When a user adds your store URL, ZimaOS fetches `{url}/store.json` to verify the store identity.
+You write `store-config.json` in your repository root. The build script generates a `store.json` for each language under `dist/{locale}/store.json`, with i18n fields resolved to plain strings. When a user adds your store URL, ZimaOS fetches `{url}/{locale}/store.json` to verify the store identity.
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
@@ -341,39 +434,33 @@ You write `store-config.json` in your repository root. The build script copies i
 
 ### index.json
 
-Generated automatically by the build script. Contains all app summaries and categories for quick loading.
-
-For third-party stores (without `category-list.json`), categories are auto-extracted from your apps:
+Generated automatically by the build script, one per language directory (`dist/{locale}/index.json`). Contains all app summaries for quick loading. All i18n fields are resolved to plain strings for the target locale.
 
 ```json
 {
   "version": 2,
   "updated_at": "2026-03-03T12:00:00Z",
-  "categories": [
-    { "name": "Utilities" },
-    { "name": "Media" }
-  ],
   "app_count": 5,
   "apps": [
     {
       "id": "my-app",
-      "title": { "en_US": "My App" },
-      "tagline": { "en_US": "Does amazing things" },
+      "title": "My App",
+      "tagline": "Does amazing things",
       "category": "Utilities",
       "author": "Your Name",
       "developer": "Original Developer",
       "architectures": ["amd64", "arm64"],
-      "icon": "apps/my-app/icon.svg",
-      "thumbnail": "apps/my-app/thumbnail.webp",
-      "compose_url": "apps/my-app/docker-compose.yml",
-      "meta_url": "apps/my-app/meta.json",
+      "icon": "assets/apps/my-app/icon.svg",
+      "thumbnail": "assets/apps/my-app/thumbnail.webp",
+      "compose_url": "en_US/apps/my-app/docker-compose.yml",
+      "meta_url": "en_US/apps/my-app/meta.json",
       "content_hash": "a1b2c3d4"
     }
   ]
 }
 ```
 
-> When `--base-url` is provided, URLs like `icon`, `compose_url`, etc. become absolute (e.g. `https://username.github.io/my-appstore/apps/my-app/icon.svg`). Without it, they are relative paths.
+> Image paths (like `icon`, `thumbnail`) point to the shared `assets/` directory. `compose_url` and `meta_url` include the locale prefix. All paths are relative to `base_url`.
 
 ### docker-compose.yml (after build)
 
@@ -386,7 +473,7 @@ The build script keeps only these fields in `x-casaos`:
 | `port_map` | Web UI published port (must be a **string**, use quotes) | `"8080"` |
 | `scheme` | Web UI protocol (`http` or `https`) | `http` |
 | `icon` | Icon URL (shown in ZimaOS dashboard after install) | `https://...` |
-| `title` | App name (i18n) | `{ "en_US": "My App" }` |
+| `title` | App name (resolved to plain string for the target locale) | `My App` |
 
 Everything else is moved to `meta.json`.
 
@@ -396,18 +483,18 @@ Everything else is moved to `meta.json`.
 
 | Field | Type | Description |
 |-------|------|-------------|
-| `tagline` | `object` | Short description (i18n) |
-| `description` | `object` | Full description (i18n; markdown text is allowed, rendering depends on client) |
-| `thumbnail` | `string` | Thumbnail URL or relative path (depends on whether `--base-url` is set) |
-| `screenshot_link` | `string[]` | Screenshot URLs or relative paths (depends on whether `--base-url` is set) |
-| `tips` | `object` | Install tips (i18n, optional, see below) |
+| `tagline` | `string` | Short description (resolved to plain string for the target locale) |
+| `description` | `string` | Full description (resolved to plain string; markdown text is allowed, rendering depends on client) |
+| `thumbnail` | `string` | Thumbnail path relative to `base_url` (e.g. `assets/apps/my-app/thumbnail.webp`) |
+| `screenshot_link` | `string[]` | Screenshot paths relative to `base_url` (e.g. `assets/apps/my-app/screenshot-1.webp`) |
+| `tips` | `object` | Install tips (resolved to plain strings, optional, see below) |
 | `author` | `string` | Packager name |
 | `developer` | `string` | Upstream developer |
 | `category` | `string` | App category |
 | `architectures` | `string[]` | Supported CPU architectures |
 | `version` | `string` | **[New, optional]** App version, enhances store display |
 | `updateAt` | `string` | **[New, optional]** Update date (recommended `YYYY-MM-DD`, e.g. `"2026-03-01"`), enhances store display |
-| `releaseNotes` | `object` | **[New, optional]** Release notes (i18n), enhances store display |
+| `releaseNotes` | `string` | **[New, optional]** Release notes (resolved to plain string), enhances store display |
 | `website` | `string` | **[New, optional]** Official website, enhances store display |
 | `repo` | `string` | **[New, optional]** Source repository, enhances store display |
 | `support` | `string` | **[New, optional]** Support URL, enhances store display |
@@ -428,6 +515,8 @@ Tips are shown to the user before installation. The keys under `tips` (e.g. `bef
 
 ### Image Assets
 
+All image assets are output to a shared `assets/apps/{app-id}/` directory (not duplicated per language).
+
 | File | Source Formats | Build Output | Required |
 |------|----------------|--------------|----------|
 | `icon` | `.svg` (recommended), `.png`, `.jpg`, `.webp` | if `.svg` exists: keep `icon.svg` and generate `icon.png`; otherwise keep original icon file | Yes |
@@ -445,7 +534,7 @@ Your app's icon is used in two places:
 
 | Where | Field | Behavior |
 |-------|-------|----------|
-| **Store listing** (before install) | `index.json` → `icon` | generated from build output (`apps/<app-id>/icon.svg` or `icon.png`) |
+| **Store listing** (before install) | `index.json` → `icon` | generated from build output (`assets/apps/<app-id>/icon.svg` or `icon.png`) |
 | **Dashboard** (after install) | `docker-compose.yml` → `x-casaos.icon` | rewritten by build script to the same built icon URL |
 
 In source compose, you can still set a stable URL. During build, `x-casaos.icon` is replaced with the built output URL based on `--base-url`.
@@ -486,11 +575,23 @@ All locale keys must use `ll_CC` format (language lowercase + country uppercase)
 
 The build script normalizes locale keys automatically for:
 - `store-config.json`: `name`, `description`
-- `x-casaos`: `title`, `tagline`, `description`, and each nested locale object under `tips`
+- `x-casaos`: `title`, `tagline`, `description`, `releaseNotes`, and each nested locale object under `tips`
 
-Other locale-like fields (for example `releaseNotes`) should be written directly in `ll_CC` format by contributors.
+At minimum, provide `en_US` for all i18n fields. Missing translations for other languages will automatically fall back to `en_US`.
 
-At minimum, provide `en_US` for all i18n fields.
+### Multi-language Output
+
+The build script reads `supported-languages.json` (a JSON array of locale codes) and generates a complete set of output files for each language. In the source `docker-compose.yml`, you still write i18n fields as locale-keyed objects:
+
+```yaml
+title:
+  en_US: My App
+  zh_CN: 我的应用
+```
+
+The build script resolves these to plain strings in each language directory. For example, `dist/zh_CN/apps/my-app/meta.json` will contain `"tagline": "做很棒的事情"` instead of `"tagline": { "en_US": "...", "zh_CN": "..." }`.
+
+If `supported-languages.json` is not present, only `en_US` output is generated.
 
 ---
 
@@ -523,7 +624,7 @@ App categories in ZimaOS are standardized. You must use one of the following off
 
 Set the `category` field in each app's `x-casaos` block to match one of these values. If your app doesn't fit into the first 8 categories, use `Others`.
 
-The build script will auto-extract categories from your apps and generate the category list in `index.json`. Custom category names are not supported — apps with unrecognized categories will not display correctly in ZimaOS.
+Custom category names are not supported — apps with unrecognized categories will not display correctly in ZimaOS.
 
 ---
 
@@ -545,10 +646,10 @@ The v2 protocol uses **incremental updates** instead of full-package downloads, 
 
 ### How updates work
 
-When a user opens the app store, ZimaOS requests `index.json` with an HTTP `ETag` header:
+When a user opens the app store, ZimaOS requests `{locale}/index.json` with an HTTP `ETag` header:
 
 ```
-1. GET index.json (with If-None-Match: <cached ETag>)
+1. GET {locale}/index.json (with If-None-Match: <cached ETag>)
    ├─ 304 Not Modified → no data transferred, use local cache
    └─ 200 OK → compare each app's content_hash with local cache
                  ├─ hash matches → skip (no download)
@@ -595,12 +696,12 @@ No problem. ZimaOS prefixes the Docker project name with your `store_id` at inst
 ### Do I need to run the build script?
 
 Yes. The build script:
-- Converts `store-config.json` → `store.json`
+- Converts `store-config.json` → per-language `store.json`
 - Splits `docker-compose.yml` → clean compose + `meta.json`
-- Auto-extracts categories from your apps
-- Generates `index.json` with content hashes
+- Generates per-language `index.json` with content hashes
+- Resolves i18n fields to plain strings per locale (with `en_US` fallback)
 - Normalizes locale keys
-- Copies/optimizes image assets (including `icon.svg` → `icon.png` fallback when possible)
+- Copies/optimizes image assets to shared `assets/` directory (including `icon.svg` → `icon.png` fallback when possible)
 
 You should not create these output files by hand.
 
@@ -617,7 +718,7 @@ No. jsDelivr is only one optional CDN path. You can use any HTTPS URL as `--base
 
 ### Why is `--base-url` required?
 
-The frontend components that render app cards receive `index.json` data but don't know the host URL of your store. Without `--base-url`, resource paths like `apps/my-app/icon.svg` are relative and the frontend cannot resolve them.
+The frontend components that render app cards receive `index.json` data but don't know the host URL of your store. Without `--base-url`, resource paths like `assets/apps/my-app/icon.svg` are relative and the frontend cannot resolve them.
 
 `--base-url` makes all resource URLs absolute so they work directly:
 
@@ -625,12 +726,12 @@ The frontend components that render app cards receive `index.json` data but don'
 # GitHub Pages hosting
 python3 scripts/build_appstore.py --source . --output dist \
   --base-url https://username.github.io/my-appstore
-# icon: "https://username.github.io/my-appstore/apps/my-app/icon.svg"
+# icon: "https://username.github.io/my-appstore/assets/apps/my-app/icon.svg"
 
 # jsDelivr CDN hosting
 python3 scripts/build_appstore.py --source . --output dist \
   --base-url https://cdn.jsdelivr.net/gh/username/my-appstore@gh-pages
-# icon: "https://cdn.jsdelivr.net/gh/username/my-appstore@gh-pages/apps/my-app/icon.svg"
+# icon: "https://cdn.jsdelivr.net/gh/username/my-appstore@gh-pages/assets/apps/my-app/icon.svg"
 ```
 
 ### What's the minimum viable store?
@@ -646,4 +747,4 @@ my-appstore/
     └── build_appstore.py
 ```
 
-One app, one icon, one config file. That's it.
+One app, one icon, one config file. That's it. Add `supported-languages.json` if you want multi-language output.

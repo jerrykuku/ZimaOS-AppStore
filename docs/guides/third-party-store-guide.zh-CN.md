@@ -623,11 +623,19 @@ directory name (转小写)
 
 ## 分类
 
-ZimaOS 中的应用分类是标准化的。你必须使用以下官方分类名称之一：
+ZimaOS 中的应用分类是标准化的。你必须在每个应用的 `x-casaos` 块中将 `category` 字段设置为以下官方分类名称之一：
 
-`Media`、`Productivity`、`Home`、`Networking`、`AI`、`Finance`、`Social`、`Developer`、`Others`
-
-在每个应用的 `x-casaos` 块中设置 `category` 字段，使其匹配上述值之一。如果你的应用不属于前 8 个分类，请使用 `Others`。
+| 分类 | 说明 |
+|------|------|
+| `Media` | 视频、音乐、照片、流媒体、字幕工具、媒体服务器 |
+| `Productivity` | 笔记、办公工具、项目管理、自动化、实用工具 |
+| `Home` | 智能家居、家庭自动化、存储管理、个人仪表盘 |
+| `Networking` | VPN、DNS、反向代理、防火墙、网络监控 |
+| `AI` | 机器学习、大语言模型、图像生成、AI 工具 |
+| `Finance` | 预算、记账、加密货币、财务追踪 |
+| `Social` | 聊天、论坛、社交媒体、通讯平台 |
+| `Developer` | 代码托管、CI/CD、数据库、开发工具、容器 |
+| `Others` | 不属于以上分类的应用 |
 
 不支持自定义分类名称——使用未识别分类的应用将无法在 ZimaOS 中正确显示。
 

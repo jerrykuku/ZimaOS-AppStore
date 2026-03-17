@@ -618,11 +618,19 @@ directory name (lowercased)
 
 ## Categories
 
-App categories in ZimaOS are standardized. You must use one of the following official category names:
+App categories in ZimaOS are standardized. You must use one of the following official category names in the `category` field of each app's `x-casaos` block:
 
-`Media`, `Productivity`, `Home`, `Networking`, `AI`, `Finance`, `Social`, `Developer`, `Others`
-
-Set the `category` field in each app's `x-casaos` block to match one of these values. If your app doesn't fit into the first 8 categories, use `Others`.
+| Category | Description |
+|----------|-------------|
+| `Media` | Video, music, photos, streaming, subtitle tools, media servers |
+| `Productivity` | Note-taking, office tools, project management, automation, utilities |
+| `Home` | Smart home, home automation, storage management, personal dashboards |
+| `Networking` | VPN, DNS, reverse proxy, firewalls, network monitoring |
+| `AI` | Machine learning, LLMs, image generation, AI-powered tools |
+| `Finance` | Budgeting, accounting, cryptocurrency, financial tracking |
+| `Social` | Chat, forums, social media, communication platforms |
+| `Developer` | Code hosting, CI/CD, databases, dev tools, containers |
+| `Others` | Anything that doesn't fit the above categories |
 
 Custom category names are not supported — apps with unrecognized categories will not display correctly in ZimaOS.
 

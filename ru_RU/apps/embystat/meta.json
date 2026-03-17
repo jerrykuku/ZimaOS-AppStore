@@ -1,0 +1,19 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Media",
+  "description": "EmbyStat - это личный веб-сервер, который может вычислить все виды статистики с вашего (локального) сервера Emby или Jellyfin. Просто установите это на свой сервер и пусть он вычисляет все виды веселых вещей. Этот проект все еще находится в альфа-стадии, но вы можете скачать его на свой компьютер и самостоятельно протестировать. Когда наступит время, я размещу полный информационный веб-сайт / выпуск для распространенных платформ и вики-страниц.",
+  "developer": "Embystart Team",
+  "screenshot_link": [
+    "assets/apps/embystat/screenshot-1.webp",
+    "assets/apps/embystat/screenshot-2.webp",
+    "assets/apps/embystat/screenshot-3.webp"
+  ],
+  "tagline": "Вычислите все виды статистики с вашего (локального) сервера Emby или Jellyfin",
+  "thumbnail": "",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

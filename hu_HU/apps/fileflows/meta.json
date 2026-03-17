@@ -1,0 +1,17 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "FileFlows",
+  "category": "Media",
+  "developer": "FileFlows",
+  "screenshot_link": [
+    "assets/apps/fileflows/screenshot-1.webp",
+    "assets/apps/fileflows/screenshot-2.webp",
+    "assets/apps/fileflows/screenshot-3.webp"
+  ],
+  "tagline": "A fájlkezelés egyszerűvé vált!",
+  "description": "Takarítson meg tárolóhelyet hatékony fájlkezeléssel.\n\nA FileFlows lehetővé teszi bármilyen fájltípus figyelését és feldolgozását testreszabott folyamatokkal. Videók, hangok, képek, archívumok, képregények, e-könyvek — minden, amit csak szeretne!\n",
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

@@ -1,0 +1,20 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Media",
+  "description": "Mylar är ett automatiskt program för att ladda ner serier (cbr / cbz) för användning med NZB och torrenter. Mylar låter dig skapa en lista över serier som övervakar olika saker (nya utgåvor, uppdaterade uppgifter, etc.). Det kommer att samla in, sortera och döpa om de nedladdade utgåvorna. Det kommer också att låta dig övervaka veckovisa extraktionslistor för att ladda ner objekt som tillhör serier i övervakningslistan, samt övervaka och underhålla arkiv med historier.",
+  "developer": "Mylar3 Team",
+  "screenshot_link": [
+    "assets/apps/mylar3/screenshot-1.webp",
+    "assets/apps/mylar3/screenshot-2.webp",
+    "assets/apps/mylar3/screenshot-3.webp",
+    "assets/apps/mylar3/screenshot-4.webp"
+  ],
+  "tagline": "Automatisk serie (cbr/cbz) nedladdare",
+  "thumbnail": "assets/apps/mylar3/thumbnail.webp",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

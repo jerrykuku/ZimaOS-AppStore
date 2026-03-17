@@ -1,0 +1,21 @@
+{
+  "architectures": [
+    "amd64",
+    "arm",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Media",
+  "description": "Bazarr är ett komplement till Sonarr och Radarr. Det kan hantera och ladda ner undertexter baserat på dina krav. Du definierar dina preferenser för TV-serie eller film och Bazarr tar hand om allt åt dig.",
+  "developer": "Sabnzbd Team",
+  "screenshot_link": [
+    "assets/apps/bazarr/screenshot-1.webp",
+    "assets/apps/bazarr/screenshot-2.webp",
+    "assets/apps/bazarr/screenshot-3.webp",
+    "assets/apps/bazarr/screenshot-4.webp"
+  ],
+  "tagline": "Brevgenererare för Sonarr och Radarr",
+  "thumbnail": "assets/apps/bazarr/thumbnail.webp",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

@@ -1,0 +1,21 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Media",
+  "description": "A Calibre-web egy webalkalmazás, amely egy tiszta felületet biztosít a könyvek böngészéséhez, olvasásához és letöltéséhez egy meglévő Calibre adatbázis használatával. Lehetőség van továbbá a Google Drive integrálására és a metaadatok és a Calibre könyvtár szerkesztésére az alkalmazás magában.",
+  "developer": "linuxserver",
+  "screenshot_link": [
+    "assets/apps/calibre-web/screenshot-1.webp",
+    "assets/apps/calibre-web/screenshot-2.webp",
+    "assets/apps/calibre-web/screenshot-3.webp"
+  ],
+  "tagline": "Webalkalmazás a Calibre adatbázisban tárolt könyvek böngészéséhez, olvasásához és letöltéséhez",
+  "thumbnail": "assets/apps/calibre-web/thumbnail.webp",
+  "tips": {
+    "before_install": "| Username | Password |\n| -------- | -------- |\n| `admin`    | `admin123` |\n"
+  },
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

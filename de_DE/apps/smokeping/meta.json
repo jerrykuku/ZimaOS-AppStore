@@ -1,0 +1,21 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Networking",
+  "description": "hält die Verfolgung Ihrer Netzwerklatenz.",
+  "developer": "Lazylibrarian Team",
+  "screenshot_link": [
+    "assets/apps/smokeping/screenshot-1.webp",
+    "assets/apps/smokeping/screenshot-2.webp",
+    "assets/apps/smokeping/screenshot-3.webp",
+    "assets/apps/smokeping/screenshot-4.webp",
+    "assets/apps/smokeping/screenshot-5.webp"
+  ],
+  "tagline": "Kostenlose Open-Source-Netzwerkleistungsüberwachungswerkzeug",
+  "thumbnail": "assets/apps/smokeping/thumbnail.webp",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

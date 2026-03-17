@@ -1,0 +1,18 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64",
+    "arm"
+  ],
+  "author": "joaobosconff",
+  "category": "Networking",
+  "description": "MySpeed是一款速度测试分析软件，可以存储您的互联网速度长达30天。如果您想知道您的网络何时可能会掉线，或者想要检查您的互联网是否与合同中预订的数值相匹配，这也可能会有所帮助。",
+  "developer": "Mathias Wagner",
+  "screenshot_link": [
+    "assets/apps/myspeed/screenshot-1.webp",
+    "assets/apps/myspeed/screenshot-2.webp",
+    "assets/apps/myspeed/screenshot-3.webp"
+  ],
+  "tagline": "记录网速度长达30天的分析软件。",
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

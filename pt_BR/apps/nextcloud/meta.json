@@ -1,0 +1,26 @@
+{
+  "architectures": [
+    "amd64",
+    "arm",
+    "arm64",
+    "386",
+    "mips64le",
+    "ppc64le",
+    "s390x"
+  ],
+  "author": "CasaOS Team",
+  "category": "Productivity",
+  "description": "O Nextcloud coloca seus dados nas suas mãos, sob o seu controle. Armazene seus documentos, calendário, contatos e fotos em um servidor em casa, em um de nossos provedores ou em um centro de dados que você confia.",
+  "developer": "Nextcloud",
+  "screenshot_link": [
+    "assets/apps/nextcloud/screenshot-1.webp",
+    "assets/apps/nextcloud/screenshot-2.webp",
+    "assets/apps/nextcloud/screenshot-3.webp",
+    "assets/apps/nextcloud/screenshot-4.webp",
+    "assets/apps/nextcloud/screenshot-5.webp"
+  ],
+  "tagline": "A plataforma de produtividade que mantém você sob controle",
+  "thumbnail": "assets/apps/nextcloud/thumbnail.webp",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

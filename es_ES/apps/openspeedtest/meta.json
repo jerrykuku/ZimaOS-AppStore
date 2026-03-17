@@ -1,0 +1,23 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64",
+    "ppc64le",
+    "s390x",
+    "386",
+    "arm"
+  ],
+  "author": "OpenSpeedTest",
+  "category": "Networking",
+  "description": "Una aplicación para iniciar un servidor de prueba de velocidad de red HTML5. Puede probar la velocidad de descarga y carga desde cualquier dispositivo dentro de su red con un navegador web que sea IE10 o superior.",
+  "developer": "OpenSpeedTest",
+  "screenshot_link": [
+    "assets/apps/openspeedtest/screenshot-1.webp",
+    "assets/apps/openspeedtest/screenshot-2.webp",
+    "assets/apps/openspeedtest/screenshot-3.webp"
+  ],
+  "tagline": "Servidor de prueba de velocidad de red HTML5.",
+  "thumbnail": "assets/apps/openspeedtest/thumbnail.webp",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

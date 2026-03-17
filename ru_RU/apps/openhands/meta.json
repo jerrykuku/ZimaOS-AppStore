@@ -1,0 +1,17 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "category": "AI",
+  "developer": "All-Hands-AI",
+  "author": "All-Hands-AI",
+  "tagline": "Ассистент программирования с открытым исходным кодом на основе ИИ",
+  "description": "OpenHands - это ассистент программирования с открытым исходным кодом на основе ИИ, который предоставляет разработчикам интеллектуальные возможности автодополнения, генерации и отладки кода. Он работает в изолированной среде для обеспечения безопасности и изоляции, позволяя при этом доступ к различным инструментам и ресурсам разработки.\n\n**Ключевые особенности:**\n- Автодополнение и генерация кода на основе ИИ\n- Интерактивная отладка и устранение ошибок\n- Поддержка нескольких языков программирования\n- Безопасная изолированная среда выполнения\n- Настраиваемые конфигурации среды выполнения\n- Интеграция с Docker для контейнеризированных рабочих процессов\n\n**Узнать больше:**\n- [Официальный сайт OpenHands](https://www.all-hands.dev)\n- [Репозиторий OpenHands на GitHub](https://github.com/All-Hands-AI/OpenHands)\n- [Документация](https://docs.all-hands.dev)\n",
+  "screenshot_link": [
+    "assets/apps/openhands/screenshot-1.webp",
+    "assets/apps/openhands/screenshot-2.webp",
+    "assets/apps/openhands/screenshot-3.webp"
+  ],
+  "thumbnail": "",
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

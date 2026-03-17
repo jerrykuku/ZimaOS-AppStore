@@ -1,0 +1,20 @@
+{
+  "architectures": [
+    "amd64",
+    "arm",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Productivity",
+  "description": "Rust nyelven írt Bitwarden szerver API alternatív megvalósítása, amely kompatibilis a felsőbb szintű Bitwarden kliensekkel *, tökéletes önellátó telepítésre, ahol az erőforrásigényes hivatalos szolgáltatás futtatása nem lehet ideális.",
+  "developer": "Daniel García",
+  "screenshot_link": [
+    "assets/apps/vaultwarden/screenshot-1.webp",
+    "assets/apps/vaultwarden/screenshot-2.webp",
+    "assets/apps/vaultwarden/screenshot-3.webp"
+  ],
+  "tagline": "Önellátó Bitwarden szerver",
+  "thumbnail": "assets/apps/vaultwarden/thumbnail.webp",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

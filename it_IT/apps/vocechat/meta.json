@@ -1,0 +1,19 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "author": "Privoce",
+  "category": "Social",
+  "description": "VoceChat è un software di chat sicuro progettato per un'implementazione indipendente, offrendo una soluzione flessibile per una comunicazione fluida. Combina la messaggistica istantanea con chat di gruppo basate su canali, consentendo conversazioni individuali o la creazione di canali tematici per discussioni di gruppo.\n\nVoceChat supporta una varietà di formati di messaggi, inclusi testo, immagini, file, emoji e testo ricco (Markdown), rendendo la tua comunicazione vivace ed espressiva. Una volta implementato, può essere accessibile tramite WebAPP o APP mobile, garantendo un'esperienza coerente su tutte le piattaforme.\n\nCon robuste funzionalità di gestione, VoceChat consente una facile amministrazione di membri e canali, offrendoti il pieno controllo dell'ambiente di comunicazione del tuo team o gruppo. Che sia per utenti individuali o team aziendali, VoceChat offre una soluzione di chat sicura, versatile ed efficiente.\n",
+  "developer": "Privoce",
+  "screenshot_link": [
+    "assets/apps/vocechat/screenshot-1.webp",
+    "assets/apps/vocechat/screenshot-2.webp",
+    "assets/apps/vocechat/screenshot-3.webp",
+    "assets/apps/vocechat/screenshot-4.webp"
+  ],
+  "tagline": "Ospita uno Spazio Sociale Privato sul Tuo Sito",
+  "thumbnail": "assets/apps/vocechat/thumbnail.webp",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

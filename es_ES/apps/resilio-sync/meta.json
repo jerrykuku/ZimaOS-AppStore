@@ -1,0 +1,16 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "resilio-sync es una aplicación basada en Docker que permite la sincronización y compartición de archivos de forma rápida y segura.",
+  "screenshot_link": [
+    "assets/apps/resilio-sync/screenshot-1.webp"
+  ],
+  "tagline": "Libera el poder de la sincronización de archivos sin problemas.",
+  "author": "self",
+  "category": "Productivity",
+  "hostname": "",
+  "store_app_id": "resilio-sync",
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

@@ -1,0 +1,26 @@
+{
+  "architectures": [
+    "amd64",
+    "arm",
+    "arm64",
+    "386",
+    "mips64le",
+    "ppc64le",
+    "s390x"
+  ],
+  "author": "CasaOS Team",
+  "category": "Productivity",
+  "description": "A Nextcloud adatait a saját kezében tartja, saját irányítása alatt. Tárolja dokumentumait, naptárát, kapcsolatait és fényképeit otthoni szerverén, szolgáltatóink egyikén vagy megbízható adatközpontjában.",
+  "developer": "Nextcloud",
+  "screenshot_link": [
+    "assets/apps/nextcloud/screenshot-1.webp",
+    "assets/apps/nextcloud/screenshot-2.webp",
+    "assets/apps/nextcloud/screenshot-3.webp",
+    "assets/apps/nextcloud/screenshot-4.webp",
+    "assets/apps/nextcloud/screenshot-5.webp"
+  ],
+  "tagline": "A termelékenységi platform, amely megőrzi a kontrollot",
+  "thumbnail": "assets/apps/nextcloud/thumbnail.webp",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

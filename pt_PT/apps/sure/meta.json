@@ -1,0 +1,20 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "category": "Finance",
+  "developer": "we-promise",
+  "author": "we-promise",
+  "tagline": "Aplicação de gestão financeira pessoal",
+  "description": "Sure é uma aplicação de gestão financeira pessoal concebida para o ajudar a acompanhar as suas despesas, rendimentos e investimentos num só lugar. Com uma interface intuitiva e funcionalidades poderosas, o Sure torna fácil compreender a sua situação financeira e tomar decisões informadas sobre o seu dinheiro.\n\n**Funcionalidades Principais:**\n- **Acompanhamento de Despesas**: Registe e categorize facilmente as suas despesas\n- **Gestão de Rendimentos**: Acompanhe múltiplas fontes de rendimento\n- **Monitorização de Investimentos**: Mantenha-se atento aos seus investimentos e ao seu desempenho\n- **Planeamento de Orçamento**: Crie e mantenha orçamentos para controlar as suas despesas\n- **Relatórios Financeiros**: Gere relatórios detalhados para compreender os seus hábitos financeiros\n- **Informações com IA**: Obtenha aconselhamento financeiro personalizado utilizando tecnologia IA\n\n**Casos de Uso:**\n- Gestão de orçamento pessoal\n- Acompanhamento e categorização de despesas\n- Monitorização de carteira de investimentos\n- Definição e acompanhamento de objetivos financeiros\n- Análise de fluxo de caixa\n\n**Saiba Mais:**\n- [Repositório GitHub Sure](https://github.com/we-promise/sure)\n",
+  "screenshot_link": [
+    "assets/apps/sure/screenshot-1.webp",
+    "assets/apps/sure/screenshot-2.webp",
+    "assets/apps/sure/screenshot-3.webp",
+    "assets/apps/sure/screenshot-4.webp",
+    "assets/apps/sure/screenshot-5.webp"
+  ],
+  "thumbnail": "",
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

@@ -1,0 +1,21 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64",
+    "arm"
+  ],
+  "author": "CasaOS Team",
+  "category": "Home",
+  "description": "The open Home Automation Bus (openHAB, pronounced ˈəʊpənˈhæb) is an open source, technology agnostic home automation platform which runs as the center of your smart home! Its ability to integrate a multitude of other devices and systems. openHAB includes other home automation systems, (smart) devices and other technologies into a single solution. To provide a uniform user interface and a common approach to automation rules across the entire system, regardless of the number of manufacturers and sub-systems involved. Giving you the most flexible tool available to make almost any home automation wish come true; if you can think it, odds are that you can implement it with openHAB.",
+  "developer": "openHAB",
+  "screenshot_link": [
+    "assets/apps/openhab/screenshot-1.webp",
+    "assets/apps/openhab/screenshot-2.webp",
+    "assets/apps/openhab/screenshot-3.webp",
+    "assets/apps/openhab/screenshot-4.webp"
+  ],
+  "tagline": "Empowering the smart home",
+  "thumbnail": "assets/apps/openhab/thumbnail.webp",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

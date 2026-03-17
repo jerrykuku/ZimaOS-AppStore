@@ -1,0 +1,15 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "AI",
+  "description": "Chatbot UI é uma interface de chat de código aberto para modelos de IA.",
+  "developer": "Mckay Wrigley",
+  "screenshot_link": [
+    "assets/apps/chatbot-ui/screenshot-1.webp"
+  ],
+  "tagline": "Interface de chat de código aberto para modelos de IA",
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

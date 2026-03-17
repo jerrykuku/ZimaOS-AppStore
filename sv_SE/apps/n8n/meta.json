@@ -1,0 +1,19 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "YoussofKhawaja",
+  "category": "Productivity",
+  "description": "n8n är en kraftfull öppen källkodsplattform för arbetsflödesautomatisering och konversationell AI som kombinerar kodningens flexibilitet med enkelheten i no-code-utveckling, vilket gör det möjligt för användare att skapa effektiva och säkra automatiseringsarbetsflöden. Den ansluter sömlöst till vilken app som helst med ett API och utnyttjar inbyggda AI-funktioner (som AI-agentarbetsflöden baserade på LangChain) för att bearbeta anpassade data, perfekt för personlig uppgiftshantering, teamsamarbete eller automatisering på företagsnivå. Dess livliga community erbjuder över 400 integrationer och mer än 900 färdiga mallar, vilket gör det möjligt för användare att snabbt implementera automatiseringar.\n\nPlattformen stöder mycket anpassningsbara arbetsflödesdesigner, vilket gör det möjligt för användare att skriva JavaScript/Python, lägga till npm-paket eller använda ett intuitivt visuellt gränssnitt för att hantera data, vilket täcker både enkla uppgifter och komplexa processer. Företagsanpassade funktioner som avancerade behörigheter och isolerade distributioner säkerställer säkerhet, medan flerspråkigt stöd gör den tillgänglig globalt. n8n levererar en mångsidig och användarvänlig automatiseringslösning.\n\nUpptäck n8ns automatiseringsscenarier\nn8ns community-resurser ger omfattande stöd och inspiration, vilket hjälper användare att utforska dess scenariobaserade värde och enkelt bygga automatiseringsarbetsflöden. Nedan finns två viktiga resurser som visar n8ns möjligheter inom olika användningsfall:\n\n1. [n8n Officiellt Community-Forum](https://community.n8n.io/): \nForumet är ett nav för användarsamarbete och lärande, och erbjuder resurser från nybörjarguider till avancerade arbetsflödesdesigner. Delade användningsfall inkluderar automatisering av inlägg på sociala medier eller realtidssynkronisering av data, som att använda n8n för att hämta data från Google Sheets och skicka Slack-meddelanden, vilket förbättrar teamsamarbete och dataeffektivitet.\n\n2. [n8n Officiell Mallbibliotek](https://n8n.io/workflows/): \nMallbiblioteket erbjuder över 900 färdiga arbetsflöden för scenarier som marknadsföringsautomatisering, dataanalys och kundsupport. Till exempel kan en mall koppla Shopify till Mailchimp, automatiskt lägga till nya kunder till e-postlistor och skicka välkomstmejl, vilket gör automatisering tillgänglig för icke-tekniska användare. AI-drivna arbetsflöden, som hantering av kundförfrågningar med LangChain, framhåller n8ns styrka i intelligenta interaktioner.\n",
+  "developer": "n8n",
+  "screenshot_link": [
+    "assets/apps/n8n/screenshot-1.webp",
+    "assets/apps/n8n/screenshot-2.webp",
+    "assets/apps/n8n/screenshot-3.webp"
+  ],
+  "tagline": "Verktyg för arbetsflödesautomatisering",
+  "thumbnail": "assets/apps/n8n/thumbnail.webp",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

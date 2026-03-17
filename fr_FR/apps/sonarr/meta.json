@@ -1,0 +1,20 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Media",
+  "description": "Sonarr est un PVR pour les utilisateurs de Usenet et de BitTorrent. Il peut surveiller plusieurs flux RSS pour de nouveaux épisodes de vos émissions préférées et les attraper, les trier et les renommer. Il peut également être configuré pour mettre automatiquement à niveau la qualité des fichiers déjà téléchargés lorsque une meilleure qualité est disponible.",
+  "developer": "Sonarr",
+  "screenshot_link": [
+    "assets/apps/sonarr/screenshot-1.webp",
+    "assets/apps/sonarr/screenshot-2.webp",
+    "assets/apps/sonarr/screenshot-3.webp",
+    "assets/apps/sonarr/screenshot-4.webp"
+  ],
+  "tagline": "Le PVR pour les utilisateurs de Usenet et de BitTorrent",
+  "thumbnail": "assets/apps/sonarr/thumbnail.webp",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

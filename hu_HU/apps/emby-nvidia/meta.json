@@ -1,0 +1,19 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Media",
+  "description": "A házimédia, zenék és fényképek összegyűjtése egy helyre soha nem volt ennyire egyszerű. Az Emby szervere automatikusan konvertálja és streameli a médiafájlokat, hogy bármilyen eszközön lejátszhassuk.",
+  "developer": "linuxserver",
+  "screenshot_link": [
+    "assets/apps/emby-nvidia/screenshot-1.png",
+    "assets/apps/emby-nvidia/screenshot-2.png",
+    "assets/apps/emby-nvidia/screenshot-3.png"
+  ],
+  "tagline": "VEGYE MAGÁVAL A MÉDIÁT EMBY-VAL",
+  "thumbnail": "assets/apps/emby-nvidia/thumbnail.png",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

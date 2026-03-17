@@ -1,0 +1,17 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "MongoDB è un programma di database orientato ai documenti, gratuito e open source, multipiattaforma. MongoDB viene classificato come un programma di database NoSQL e utilizza documenti simili a JSON con schemi. MongoDB è sviluppato da MongoDB Inc. ed è pubblicato sotto una combinazione della Server Side Public License e dell'Apache License.",
+  "tagline": "Un programma gratuito e open source di database orientato ai documenti, multipiattaforma. MongoDB viene classificato come un programma di database NoSQL e utilizza documenti simili a JSON con schemi.",
+  "screenshot_link": [],
+  "developer": "MongoDB Inc.",
+  "author": "WisdomSky",
+  "thumbnail": "assets/apps/mongodb/icon.png",
+  "category": "Developer",
+  "tips": {
+    "before_install": "Questa versione di MongoDB richiede una CPU con supporto AVX. Questa versione di MongoDB non funzionerà con ZimaBoard."
+  },
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

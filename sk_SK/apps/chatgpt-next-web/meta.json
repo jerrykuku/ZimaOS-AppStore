@@ -1,0 +1,18 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CorrectRoadH,Cp0204",
+  "category": "AI",
+  "description": "An intelligent chat application based on ChatGPT, supports fast deployment, Markdown, beautiful UI, fluid response, privacy and security, and allows customization of preset roles for quick creation, sharing, and debugging of personalized conversations.",
+  "developer": "Yidadaa",
+  "screenshot_link": [
+    "assets/apps/chatgpt-next-web/screenshot-1.webp",
+    "assets/apps/chatgpt-next-web/screenshot-2.webp"
+  ],
+  "tagline": "A well-designed cross-platform ChatGPT UI.",
+  "thumbnail": "assets/apps/chatgpt-next-web/thumbnail.webp",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

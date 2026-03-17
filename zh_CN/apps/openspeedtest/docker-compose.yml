@@ -1,0 +1,21 @@
+name: openspeedtest
+services:
+  openspeedtest:
+    image: openspeedtest/latest:v2.0.6
+    deploy:
+      resources:
+        reservations:
+          memory: 64M
+    network_mode: bridge
+    ports:
+    - target: 3000
+      published: '3004'
+      protocol: tcp
+    restart: always
+    container_name: openspeedtest
+x-casaos:
+  main: openspeedtest
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/assets/apps/openspeedtest/icon.svg
+  title: OpenSpeedTest
+  index: /
+  port_map: '3004'

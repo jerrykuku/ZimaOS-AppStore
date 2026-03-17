@@ -1,0 +1,14 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64",
+    "arm"
+  ],
+  "description": "Threadfin is a M3U proxy server for Plex, Emby, Jellyfin and any client and provider which supports the .TS and .M3U8 (HLS) streaming formats.",
+  "tagline": "M3U proxy server",
+  "developer": "jdownloader",
+  "author": "Fabio Tea",
+  "category": "Media",
+  "store_app_id": "threadfin",
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

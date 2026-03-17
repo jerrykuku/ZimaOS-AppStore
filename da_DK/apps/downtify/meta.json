@@ -1,0 +1,16 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "Henrique Sebastião",
+  "category": "Media",
+  "description": "With Downtify you can download Spotify musics containing album art, track names, album title and other metadata about the songs. Just copy the Spotify link, whether it's a single song, an album, etc. As soon as your downloads are complete you will be notified!\n",
+  "developer": "Henrique Sebastião",
+  "screenshot_link": [
+    "assets/apps/downtify/screenshot-1.webp",
+    "assets/apps/downtify/screenshot-2.webp"
+  ],
+  "tagline": "Download Spotify music with album art and metadata",
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

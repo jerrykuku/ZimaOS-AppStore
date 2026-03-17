@@ -1,0 +1,15 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "joaobosconff",
+  "category": "Productivity",
+  "description": "Glances é uma ferramenta de monitoramento de sistema de plataforma cruzada de código aberto. Ele permite o monitoramento em tempo real de vários aspectos do seu sistema, como CPU, memória, disco, uso da rede, etc.",
+  "developer": "Nicolas Hennion",
+  "screenshot_link": [
+    "assets/apps/glances/screenshot-1.webp"
+  ],
+  "tagline": "Ferramenta de monitoramento multiplataforma.",
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

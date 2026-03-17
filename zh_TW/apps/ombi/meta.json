@@ -1,0 +1,19 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Media",
+  "description": "Ombi is a self-hosted web application that automatically gives your shared Plex or Emby users the ability to request content by themselves! Ombi can be linked to multiple TV Show and Movie DVR tools to create a seamless end-to-end experience for your users.",
+  "developer": "Sabnzbd Team",
+  "screenshot_link": [
+    "assets/apps/ombi/screenshot-1.webp",
+    "assets/apps/ombi/screenshot-2.webp",
+    "assets/apps/ombi/screenshot-3.webp"
+  ],
+  "tagline": "Friendly media request tool, automatically syncs with your media servers!",
+  "thumbnail": "assets/apps/ombi/thumbnail.webp",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

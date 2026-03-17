@@ -1,0 +1,19 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Media",
+  "description": "Ombi är en självvärd webbapplikation som automatiskt ger dina delade Plex- eller Emby-användare självbetjäningsmöjligheter för att begära innehåll! Ombi kan kopplas samman med flera TV-program och film-DVR-verktyg för en sömlös helhetsupplevelse för användarna.",
+  "developer": "Sabnzbd Team",
+  "screenshot_link": [
+    "assets/apps/ombi/screenshot-1.webp",
+    "assets/apps/ombi/screenshot-2.webp",
+    "assets/apps/ombi/screenshot-3.webp"
+  ],
+  "tagline": "Vänlig mediaförfrågan, synkroniserar automatiskt med dina mediaservrar!",
+  "thumbnail": "assets/apps/ombi/thumbnail.webp",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

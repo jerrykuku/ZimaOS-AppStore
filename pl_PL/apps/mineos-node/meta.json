@@ -1,0 +1,14 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "author": "Chàra Rose",
+  "category": "Media",
+  "description": "MineOS to interfejs serwera ułatwiający zarządzanie zadaniami administracyjnymi Minecraft. Ta iteracja z wykorzystaniem Node.js ma na celu ulepszenie poprzednich skryptów MineOS (opartych na Pythonie), wykorzystując model asynchroniczny wyzwalania zdarzeń Node.JS i websockets.",
+  "developer": "hexparrot",
+  "tagline": "Darmowe i łatwe w użyciu narzędzie do zarządzania serwerem Minecraft.",
+  "tips": {
+    "before_install": "Konto domyślne\n\n| Nazwa użytkownika | Hasło |\n|----------|----------|\n| `mc`    | `root` |\n"
+  },
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

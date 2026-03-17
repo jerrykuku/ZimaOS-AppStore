@@ -1,0 +1,17 @@
+{
+  "architectures": [
+    "amd64",
+    "arm",
+    "arm64"
+  ],
+  "description": "PostgreSQL is a powerful, open source object-relational database system with over 35 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance.\n\nPostgreSQL is a highly stable database backed by more than 20 years of development by the open-source community.\n\nPostgreSQL is used as a primary database for many web applications as well as mobile and analytics applications.\n",
+  "tagline": "PostgreSQL är ett avancerat, företagsklassat och öppen källkod-relationellt databassystem. PostgreSQL stöder både SQL (relationell) och JSON (icke-relationell) frågning.",
+  "developer": "PostgreSQL Global Dev't Group",
+  "author": "WisdomSky",
+  "thumbnail": "assets/apps/postgresql/icon.png",
+  "tips": {
+    "before_install": "Default user: `casaos`\nDefault password: `casaos`\nDefault database: `casaos`\n"
+  },
+  "category": "Developer",
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

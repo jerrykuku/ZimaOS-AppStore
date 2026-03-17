@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64",
+    "arm"
+  ],
+  "author": "CasaOS Team",
+  "category": "Productivity",
+  "description": "File Browser - Browser di file Webbased che include funzioni di condivisione, ecc.",
+  "developer": "File Browser",
+  "screenshot_link": [
+    "assets/apps/filebrowser/screenshot-1.webp",
+    "assets/apps/filebrowser/screenshot-2.webp",
+    "assets/apps/filebrowser/screenshot-3.webp"
+  ],
+  "tagline": "Carica, elimina, anteprima, rinomina, modifica e condividi i tuoi file.",
+  "thumbnail": "assets/apps/filebrowser/thumbnail.webp",
+  "tips": {
+    "before_install": "Default Account\n\n| Username | Password |\n| -------- | -------- |\n| `admin`    | `admin`    |\n"
+  },
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Media",
+  "description": "Deluge contiene las características comunes de los clientes BitTorrent como el cifrado de protocolo, DHT, descubrimiento de pares locales (LSD), intercambio de pares (PEX), UPnP, NAT-PMP, soporte de proxy, semillas web, límites de velocidad globales y por torrent. Como Deluge utiliza intensamente la biblioteca libtorrent, tiene una lista completa de las características proporcionadas.",
+  "developer": "Deluge Team",
+  "screenshot_link": [
+    "assets/apps/deluge/screenshot-1.webp",
+    "assets/apps/deluge/screenshot-2.webp",
+    "assets/apps/deluge/screenshot-3.webp",
+    "assets/apps/deluge/screenshot-4.webp"
+  ],
+  "tagline": "Un cliente ligero y gratuito de BitTorrent.",
+  "thumbnail": "assets/apps/deluge/thumbnail.webp",
+  "tips": {
+    "before_install": "Default Password: `deluge`\n\nDefault Accessible Path in Deluge\n\n| Name | Value |\n| --- | --- |\n| DATA Path | `/DATA` |\n| Downloads Path | `/DATA/Downloads` |\n| Media Path | `/DATA/Media` |\n\nThe paths of other DATA subdirectories in CasaOS are also similar.\n\nPlease make sure you use the correct path when using Deluge.\n"
+  },
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

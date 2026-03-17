@@ -1,0 +1,21 @@
+{
+  "architectures": [
+    "amd64",
+    "arm",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Media",
+  "description": "Bazarr是Sonarr和Radarr的伴侣应用程序。它可以根据您的要求管理和下载字幕。您可以根据电视节目或电影来定义您的偏好，并且Bazarr会为您处理所有事情。",
+  "developer": "Sabnzbd Team",
+  "screenshot_link": [
+    "assets/apps/bazarr/screenshot-1.webp",
+    "assets/apps/bazarr/screenshot-2.webp",
+    "assets/apps/bazarr/screenshot-3.webp",
+    "assets/apps/bazarr/screenshot-4.webp"
+  ],
+  "tagline": "Sonarr和Radarr的信件生成器",
+  "thumbnail": "assets/apps/bazarr/thumbnail.webp",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

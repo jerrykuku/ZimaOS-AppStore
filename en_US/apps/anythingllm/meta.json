@@ -1,0 +1,16 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "developer": "Mintplex Labs",
+  "category": "AI",
+  "description": "AnythingLLM is the easiest to use, all-in-one AI application that can do RAG, AI Agents, and much more with no code or infrastructure headaches.",
+  "screenshot_link": [
+    "assets/apps/anythingllm/screenshot-1.webp"
+  ],
+  "tagline": "The all-in-one AI application.",
+  "tips": {
+    "before_install": "**Usage Tips**\nAnythingLLM supports but does not directly provide various LLMs backends, you need to configure the backends you need yourself.\nPlease refer to the [official documentation](https://docs.anythingllm.com) for more information.\n"
+  },
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

@@ -1,0 +1,20 @@
+{
+  "architectures": [
+    "amd64",
+    "386",
+    "arm64",
+    "arm"
+  ],
+  "author": "CasaOS Team",
+  "category": "Productivity",
+  "description": "WebDAV - это веб-протокол, который позволяет вам обмениваться файлами и управлять ими через Интернет, обеспечивая совместную среду для редактирования файлов и контроля версий.",
+  "developer": "CasaOS Team",
+  "screenshot_link": [
+    "assets/apps/webdav/screenshot-1.webp"
+  ],
+  "tagline": "Веб-протокол обмена и управления файлами",
+  "tips": {
+    "before_install": "Default Account\n\n| Username | Password |\n|----------|----------|\n| `casaos`    | `casaos` |\n"
+  },
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

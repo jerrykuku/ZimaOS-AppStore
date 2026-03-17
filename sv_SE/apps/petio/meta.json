@@ -1,0 +1,19 @@
+{
+  "architectures": [
+    "amd64",
+    "arm",
+    "arm64"
+  ],
+  "description": "Petio är en tredjeparts kompletterande app tillgänglig för Plex-serverägare för att låta deras användare begära, granska och upptäcka innehåll. Appen är utformad för att omedelbart kännas bekant och intuitiv även för användare som inte är teknikvana. Petio hjälper dig att hantera begäranden från dina användare, ansluta till andra tredjepartsappar som Sonarr och Radarr, meddela användare när innehåll finns tillgängligt och följa begärandens framsteg. Petio låter också användare upptäcka media både på och utanför din server, snabbt och enkelt hitta relaterat innehåll och lämna recensioner för andra användare.\n\nPetio är ett pågående, alltid gratis och ständigt utvecklande projekt som för närvarande befinner sig i alfa-prototypstadiet och är nu tillgängligt!\n",
+  "tagline": "A third party companion app available to Plex server owners to allow their users to request, review and discover content.",
+  "screenshot_link": [
+    "assets/apps/petio/screenshot-1.webp",
+    "assets/apps/petio/screenshot-2.webp",
+    "assets/apps/petio/screenshot-3.webp"
+  ],
+  "developer": "Petio Team",
+  "author": "WisdomSky",
+  "thumbnail": "assets/apps/petio/icon.png",
+  "category": "Media",
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

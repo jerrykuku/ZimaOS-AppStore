@@ -1,0 +1,23 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Media",
+  "description": "SABnzbd to oprogramowanie open source do czytania wiadomości binarnych napisane w Pythonie. Jest całkowicie darmowe, łatwe w obsłudze i działa praktycznie wszędzie. SABnzbd sprawia, że Usenet jest jak najprostszy i najbardziej wydajny, automatyzując wszystko, co możemy zrobić. Wszystko, co musisz zrobić, to dodać .nzb. SABnzbd przejmuje kontrolę od tamtego miejsca, gdzie zostanie pobrany automatycznie, zweryfikowany, naprawiony, wypakowany i zarchiwizowany bez udziału człowieka. SABnzbd oferuje prosty kreator konfiguracji i dysponuje samodzielnymi narzędziami do analizy konfiguracji.",
+  "developer": "Sabnzbd Team",
+  "screenshot_link": [
+    "assets/apps/sabnzbd/screenshot-1.webp",
+    "assets/apps/sabnzbd/screenshot-2.webp",
+    "assets/apps/sabnzbd/screenshot-3.webp",
+    "assets/apps/sabnzbd/screenshot-4.webp",
+    "assets/apps/sabnzbd/screenshot-5.webp",
+    "assets/apps/sabnzbd/screenshot-6.webp",
+    "assets/apps/sabnzbd/screenshot-7.webp"
+  ],
+  "tagline": "Darmowy i prosty czytnik wiadomości binarnych",
+  "thumbnail": "assets/apps/sabnzbd/thumbnail.webp",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

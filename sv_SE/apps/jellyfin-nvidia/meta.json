@@ -1,0 +1,19 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Media",
+  "description": "Jellyfin gör det möjligt att samla in, hantera och strömma dina medier. Kör Jellyfin-servern på ditt system och få tillgång till ledande underhållningssystem med fri mjukvara, med klockor och dekorationer inkluderade.",
+  "developer": "Jellyfin",
+  "screenshot_link": [
+    "assets/apps/jellyfin-nvidia/screenshot-1.png",
+    "assets/apps/jellyfin-nvidia/screenshot-2.png",
+    "assets/apps/jellyfin-nvidia/screenshot-3.png"
+  ],
+  "tagline": "Lägger dig i centrum av dina medier.",
+  "thumbnail": "assets/apps/jellyfin-nvidia/thumbnail.png",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

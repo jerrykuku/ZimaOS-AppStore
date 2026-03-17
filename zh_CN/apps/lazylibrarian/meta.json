@@ -1,0 +1,19 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Media",
+  "description": "Lazylibrarian是一个程序，用于跟踪作者并获取所有数字阅读需求的元数据。它使用Goodreads Librarything和可选的GoogleBooks作为作者信息和书籍信息的来源。此容器基于DobyTang分支。",
+  "developer": "Lazylibrarian Team",
+  "screenshot_link": [
+    "assets/apps/lazylibrarian/screenshot-1.webp",
+    "assets/apps/lazylibrarian/screenshot-2.webp",
+    "assets/apps/lazylibrarian/screenshot-3.webp"
+  ],
+  "tagline": "eBook自动下载器",
+  "thumbnail": "assets/apps/lazylibrarian/thumbnail.webp",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

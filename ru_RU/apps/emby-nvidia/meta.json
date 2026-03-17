@@ -1,0 +1,19 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Media",
+  "description": "Сбор всех ваших домашних видео, музыки и фотографий в одном месте никогда не был таким простым. Ваш личный сервер Emby автоматически конвертирует и потоково передает ваши медиа-файлы для воспроизведения на любом устройстве.",
+  "developer": "linuxserver",
+  "screenshot_link": [
+    "assets/apps/emby-nvidia/screenshot-1.png",
+    "assets/apps/emby-nvidia/screenshot-2.png",
+    "assets/apps/emby-nvidia/screenshot-3.png"
+  ],
+  "tagline": "ВЗЯТЬ СЕБЕ МЕДИА ВСЮДУ С EMBY",
+  "thumbnail": "assets/apps/emby-nvidia/thumbnail.png",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

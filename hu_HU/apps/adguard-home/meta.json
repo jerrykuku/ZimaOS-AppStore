@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "386",
+    "amd64",
+    "arm",
+    "arm64",
+    "ppc64le"
+  ],
+  "author": "CasaOS Team",
+  "category": "Networking",
+  "description": "Az AdGuard Home egy hálózati szintű szoftver a hirdetések és a követők blokkolására. Miután beállította, minden otthoni eszközét le fogja fedni, és erre nem lesz szüksége kliensoldali szoftverre sem. További információkért látogasson el hivatalos Github-tárolójába.",
+  "developer": "AdguardTeam",
+  "screenshot_link": [
+    "assets/apps/adguard-home/screenshot-1.webp",
+    "assets/apps/adguard-home/screenshot-2.webp",
+    "assets/apps/adguard-home/screenshot-3.webp"
+  ],
+  "tagline": "Hálózati szintű hirdetések és követők blokkoló DNS szerver",
+  "thumbnail": "assets/apps/adguard-home/thumbnail.webp",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

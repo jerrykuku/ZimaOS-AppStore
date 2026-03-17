@@ -1,0 +1,23 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64",
+    "ppc64le",
+    "s390x",
+    "386",
+    "arm"
+  ],
+  "author": "OpenSpeedTest",
+  "category": "Networking",
+  "description": "Приложение для запуска HTML5-сервера тестирования скорости сети. Вы можете проверить скорость загрузки и выгрузки с любого устройства в вашей сети с помощью веб-браузера, который поддерживает IE10 или новее.",
+  "developer": "OpenSpeedTest",
+  "screenshot_link": [
+    "assets/apps/openspeedtest/screenshot-1.webp",
+    "assets/apps/openspeedtest/screenshot-2.webp",
+    "assets/apps/openspeedtest/screenshot-3.webp"
+  ],
+  "tagline": "HTML5-сервер тестирования скорости сети.",
+  "thumbnail": "assets/apps/openspeedtest/thumbnail.webp",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

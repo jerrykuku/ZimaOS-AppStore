@@ -1,0 +1,19 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Productivity",
+  "description": "Duplicati è un client di backup gratuito e open source che memorizza in modo sicuro backup crittografati, incrementali e compressi su servizi di archiviazione in cloud e server file remoti.",
+  "developer": "duplicati",
+  "screenshot_link": [
+    "assets/apps/duplicati/screenshot-1.webp",
+    "assets/apps/duplicati/screenshot-2.webp",
+    "assets/apps/duplicati/screenshot-3.webp"
+  ],
+  "tagline": "Memorizza in modo sicuro i backup crittografati nella cloud!",
+  "thumbnail": "assets/apps/duplicati/thumbnail.webp",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

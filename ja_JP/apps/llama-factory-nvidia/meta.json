@@ -1,0 +1,16 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "author": "hiyouga",
+  "category": "AI",
+  "description": "LLaMA Factoryは、100以上のモデルをサポートする大規模言語モデル(LLMs)のファインチューニング用の包括的なフレームワークです。ユーザーフレンドリーなWebインターフェースと、LoRA、QLoRA、フルパラメータトレーニングなどの強力なトレーニング手法を提供します。\n\n**主な機能:**\n- LLaMA、Mistral、Qwenなど100以上のLLMsをサポート\n- 複数のファインチューニング手法(LoRA、QLoRA、Full、Freeze)\n- モデル管理を簡単にする直感的なWeb UI\n- モデル推論用の組み込みAPIサーバー\n- マルチGPUトレーニングのサポート\n- 量子化とモデルエクスポート機能\n\n**ハードウェア要件:**\n- GPU: CUDA対応のNVIDIA GPUが必要\n\n**詳細情報:**\n- [GitHubリポジトリ](https://github.com/hiyouga/LLaMA-Factory)\n- [ドキュメント](https://llamafactory.readthedocs.io/)\n",
+  "developer": "hiyouga",
+  "screenshot_link": [
+    "assets/apps/llama-factory-nvidia/screenshot-1.webp",
+    "assets/apps/llama-factory-nvidia/screenshot-2.webp",
+    "assets/apps/llama-factory-nvidia/screenshot-3.webp"
+  ],
+  "tagline": "100以上のモデルで統一されたLLMファインチューニング",
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

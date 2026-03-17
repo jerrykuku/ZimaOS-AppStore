@@ -1,0 +1,19 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64",
+    "arm"
+  ],
+  "author": "f4bio",
+  "category": "Productivity",
+  "description": "Netdata is a real-time performance and health monitoring solution that helps you visualize and understand the behavior of your systems.",
+  "tagline": "Real-time Performance Monitoring",
+  "hostname": "",
+  "screenshot_link": [
+    "assets/apps/netdata/screenshot-1.webp",
+    "assets/apps/netdata/screenshot-2.webp",
+    "assets/apps/netdata/screenshot-3.webp"
+  ],
+  "store_app_id": "netdata",
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

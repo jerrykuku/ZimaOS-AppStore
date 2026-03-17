@@ -1,0 +1,15 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "AI",
+  "description": "A Chatbot UI egy nyílt forráskódú chat UI az AI modellekhez.",
+  "developer": "Mckay Wrigley",
+  "screenshot_link": [
+    "assets/apps/chatbot-ui/screenshot-1.webp"
+  ],
+  "tagline": "Nyílt forráskódú chat UI az AI modellekhez",
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

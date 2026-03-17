@@ -1,0 +1,23 @@
+{
+  "architectures": [
+    "amd64",
+    "386",
+    "arm64",
+    "arm"
+  ],
+  "category": "Media",
+  "description": "HoloPlay est une alternative qui utilise l'API Invidious pour écouter des sources audio de Youtube.",
+  "developer": "Stéphane Richin",
+  "screenshot_link": [
+    "assets/apps/holoplay/screenshot-1.webp",
+    "assets/apps/holoplay/screenshot-2.webp",
+    "assets/apps/holoplay/screenshot-3.webp",
+    "assets/apps/holoplay/screenshot-4.webp",
+    "assets/apps/holoplay/screenshot-5.webp",
+    "assets/apps/holoplay/screenshot-6.webp",
+    "assets/apps/holoplay/screenshot-7.webp"
+  ],
+  "tagline": "Une application Web pour écouter les sources audio de Youtube.",
+  "thumbnail": "assets/apps/holoplay/thumbnail.webp",
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

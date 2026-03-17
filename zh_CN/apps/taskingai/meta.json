@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "AI",
+  "description": "开发人员友好的云平台，用于构建和运行AI原生应用程序的LLM代理。",
+  "developer": "TaskingAI Team",
+  "screenshot_link": [
+    "assets/apps/taskingai/screenshot-1.webp",
+    "assets/apps/taskingai/screenshot-2.webp",
+    "assets/apps/taskingai/screenshot-3.webp",
+    "assets/apps/taskingai/screenshot-4.webp"
+  ],
+  "tagline": "开发人员友好的云平台，用于构建和运行AI原生应用程序的LLM代理。",
+  "thumbnail": "assets/apps/taskingai/thumbnail.webp",
+  "tips": {
+    "before_install": "| Username | Password   |\n| -------- | ---------- |\n| admin    | TaskingAI321 |\n"
+  },
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

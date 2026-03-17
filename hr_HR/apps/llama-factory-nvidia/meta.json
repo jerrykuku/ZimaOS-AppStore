@@ -1,0 +1,16 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "author": "hiyouga",
+  "category": "AI",
+  "description": "LLaMA Factory je sveobuhvatan okvir za fino podešavanje velikih jezičnih modela (LLMs) s podrškom za preko 100 modela. Pruža korisničko sučelje i snažne metode obuke uključujući LoRA, QLoRA i potpunu obuku parametara.\n\n**Ključne Značajke:**\n- Podrška za 100+ LLMs uključujući LLaMA, Mistral, Qwen i više\n- Višestruke metode finog podešavanja (LoRA, QLoRA, Full, Freeze)\n- Intuitivno Web sučelje za jednostavno upravljanje modelima\n- Ugrađeni API poslužitelj za inferentiranje modela\n- Podrška za obuku s više GPU-a\n- Mogućnosti kvantizacije i izvoza modela\n\n**Hardverski Zahtjevi:**\n- GPU: Potreban NVIDIA GPU s CUDA podrškom\n\n**Saznajte Više:**\n- [GitHub Repozitorij](https://github.com/hiyouga/LLaMA-Factory)\n- [Dokumentacija](https://llamafactory.readthedocs.io/)\n",
+  "developer": "hiyouga",
+  "screenshot_link": [
+    "assets/apps/llama-factory-nvidia/screenshot-1.webp",
+    "assets/apps/llama-factory-nvidia/screenshot-2.webp",
+    "assets/apps/llama-factory-nvidia/screenshot-3.webp"
+  ],
+  "tagline": "Jedinstveno fino podešavanje LLM s 100+ modela",
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

@@ -1,0 +1,21 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "mrmn2",
+  "category": "Productivity",
+  "description": "PdfDing est un gestionnaire, visualiseur et éditeur PDF auto-hébergé offrant une expérience utilisateur transparente sur plusieurs appareils. Il est conçu pour être minimal, rapide et facile à configurer avec Docker.\n\nAvec des fonctionnalités comme la visualisation PDF basée sur navigateur qui se souvient de votre position actuelle, le marquage multi-niveaux, les fonctionnalités de favoris et d'archivage, l'édition PDF avec commentaires, surlignage et dessins, une interface utilisateur propre et intuitive avec mode sombre, le support SSO via OIDC, le partage PDF avec un public externe, les notes markdown et les barres de progression montrant l'avancement de la lecture, PdfDing assure une excellente expérience de gestion PDF.\n\nDéployer PdfDing sur des appareils cloud privés comme Zima apporte une commodité inégalée avec un accès multi-appareils, garantissant que votre collection PDF est toujours à portée de main et sécurisée, peu importe où vous êtes.\n",
+  "developer": "mrmn2",
+  "screenshot_link": [
+    "assets/apps/pdfding/screenshot-1.webp",
+    "assets/apps/pdfding/screenshot-2.webp",
+    "assets/apps/pdfding/screenshot-3.webp"
+  ],
+  "tagline": "Gestionnaire, visualiseur et éditeur PDF auto-hébergé",
+  "thumbnail": "assets/apps/pdfding/thumbnail.png",
+  "tips": {
+    "before_install": "Après l'installation, vous pouvez accéder à PdfDing sur http://your-server-ip:8000. Créez votre premier compte administrateur lors de la configuration initiale.\n\nNote : Si vous rencontrez des problèmes d'accès, vous devrez peut-être modifier manuellement le fichier docker-compose.yml et remplacer la variable d'environnement HOST_NAME par votre adresse IP de serveur réelle.\n"
+  },
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

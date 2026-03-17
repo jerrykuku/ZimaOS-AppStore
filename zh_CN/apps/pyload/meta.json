@@ -1,0 +1,21 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "joaobosconff",
+  "category": "Media",
+  "description": "pyLoad是一款用Python编写的免费开源下载管理器，设计极轻量，易于扩展，并通过Web完全可管理。",
+  "developer": "linuxserver",
+  "screenshot_link": [
+    "assets/apps/pyload/screenshot-1.webp",
+    "assets/apps/pyload/screenshot-2.webp",
+    "assets/apps/pyload/screenshot-3.webp"
+  ],
+  "tagline": "免费下载管理器。",
+  "thumbnail": "",
+  "tips": {
+    "before_install": "默认账户\n\n| 用户名 | 密码 |\n|----------|----------|\n| `pyload`    | `pyload` |\n\nPyload中的默认可访问路径\n\n| 名称 | 值 |\n| ---- | ----- |\n| 下载路径 | `/DATA/Downloads` |\n"
+  },
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

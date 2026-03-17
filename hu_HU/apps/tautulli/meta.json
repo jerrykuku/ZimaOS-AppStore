@@ -1,0 +1,20 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "Triskae",
+  "category": "Media",
+  "description": "A Tautulli egy harmadik fél alkalmazása, amelyet a Plex Media Server mellett futtathat, hogy nyomon követhesse az aktivitást és különböző statisztikákat nyomon követhessen.",
+  "developer": "Tautulli Team",
+  "screenshot_link": [
+    "assets/apps/tautulli/screenshot-1.webp",
+    "assets/apps/tautulli/screenshot-2.webp",
+    "assets/apps/tautulli/screenshot-3.webp",
+    "assets/apps/tautulli/screenshot-4.webp"
+  ],
+  "tagline": "Figyelje a Plex Media Serverét és még sok más dolgot is.",
+  "thumbnail": "assets/apps/tautulli/thumbnail.webp",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

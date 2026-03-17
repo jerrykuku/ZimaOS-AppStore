@@ -1,0 +1,20 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "Triskae",
+  "category": "Media",
+  "description": "Tautulli es una aplicación de terceros que puede ejecutar junto con su servidor de medios Plex para monitorear la actividad y rastrear varias estadísticas.",
+  "developer": "Tautulli Team",
+  "screenshot_link": [
+    "assets/apps/tautulli/screenshot-1.webp",
+    "assets/apps/tautulli/screenshot-2.webp",
+    "assets/apps/tautulli/screenshot-3.webp",
+    "assets/apps/tautulli/screenshot-4.webp"
+  ],
+  "tagline": "Monitoree su servidor de medios Plex y mucho más.",
+  "thumbnail": "assets/apps/tautulli/thumbnail.webp",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

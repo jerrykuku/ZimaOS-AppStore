@@ -1,0 +1,18 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "description": "Handbrake是一个基于Docker的视频转码和压缩应用，为多平台提供强大而灵活的多媒体处理功能。",
+  "screenshot_link": [
+    "assets/apps/handbrake/screenshot-1.webp"
+  ],
+  "tagline": "解放你的视频，创造无限可能。",
+  "tips": {
+    "before_install": "## Handbrake\n#### 专业视频转码\n"
+  },
+  "author": "self",
+  "category": "Media",
+  "hostname": "",
+  "store_app_id": "handbrake",
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

@@ -1,0 +1,16 @@
+{
+  "tagline": "Podcast-synkroniseringstjeneste",
+  "description": "oPodSync er en podcast-synkroniseringstjeneste som lar brukere synkronisere sine podcast-abonnementer og lyttefremskritt på tvers av flere enheter. Den gir en server-side løsning for å administrere podcast-data og sikrer at brukere kan sømløst bytte mellom enhetene sine.\n\n**Nøkkelegenskaper:**\n- Synkroniser podcast-abonnementer\n- Spor lyttefremskritt på tvers av enheter\n- Web-basert administrasjonsgrensesnitt\n- Støtte for flere podcast-klienter\n- Sentralisert datalagring\n- Enkel oppsett og konfigurasjon\n\n**Lær Mer:**\n- [oPodSync GitHub Repo](https://github.com/kd2org/oPodSync)\n",
+  "developer": "ganeshlab",
+  "category": "Media",
+  "author": "ganeshlab",
+  "screenshot_link": [
+    "assets/apps/opodsync/screenshot-1.webp",
+    "assets/apps/opodsync/screenshot-2.webp"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

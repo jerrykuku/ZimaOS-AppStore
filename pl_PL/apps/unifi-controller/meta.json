@@ -1,0 +1,19 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Networking",
+  "description": "Aby Unifi przyjął inne urządzenia, na przykład punkt dostępu, należy zmienić adres IP inform. Ponieważ Unifi jest domyślnie uruchamiany w Dockerze, używa adresu IP, który nie jest dostępny dla innych urządzeń. Aby to zmienić, przejdź do Ustawienia> Ustawienia systemowe> Konfiguracja kontrolera i ustaw nazwę hosta / adres IP kontrolera na nazwę hosta lub adres IP dostępny dla Twoich urządzeń. Ponadto pole wyboru \"Nadpisz host inform na nazwę hosta / adres IP kontrolera\" musi być zaznaczone, aby urządzenia mogły połączyć się z kontrolerem podczas adopcji (urządzenia korzystają z punktu końcowego inform podczas adopcji).",
+  "developer": "LinuxServer.io",
+  "screenshot_link": [
+    "assets/apps/unifi-controller/screenshot-1.webp",
+    "assets/apps/unifi-controller/screenshot-2.webp",
+    "assets/apps/unifi-controller/screenshot-3.webp"
+  ],
+  "tagline": "Oprogramowanie Unifi-controller to potężny, korporacyjny silnik oprogramowania bezprzewodowego, idealny do implementacji klientów o wysokiej gęstości, wymagających niskiej opóźnienia i wysokiej wydajności dostępności.",
+  "thumbnail": "assets/apps/unifi-controller/thumbnail.webp",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

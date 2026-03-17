@@ -1,0 +1,17 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64",
+    "arm"
+  ],
+  "author": "FreshRSS",
+  "category": "Productivity",
+  "description": "FreshRSS är en självhanterad RSS- och Atom-flödesaggregator. Det är lättviktigt, enkelt att arbeta med, kraftfullt och anpassningsbart.",
+  "developer": "FreshRSS",
+  "screenshot_link": [
+    "assets/apps/freshrss/screenshot-1.webp"
+  ],
+  "tagline": "En gratis, självhanterlig nyhetsaggregator ...",
+  "store_app_id": "freshrss",
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

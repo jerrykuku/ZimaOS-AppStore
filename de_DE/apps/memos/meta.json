@@ -1,0 +1,20 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64",
+    "arm"
+  ],
+  "author": "usememos Team",
+  "category": "Productivity",
+  "description": "Memos ist eine leichte, Open-Source- und selbst gehostete Notiz-App, die eine sichere und schlanke Lösung für Nutzer bietet, die Datenschutz und Datenkontrolle priorisieren. Alle Notizen werden auf dem eigenen Server des Nutzers gespeichert, wodurch Risiken im Zusammenhang mit Cloud-Diensten Dritter eliminiert werden. Die minimalistische Web-Oberfläche unterstützt Markdown-Syntax und tagbasierte Organisation, was das mühelose Erfassen von Ideen, das persönliche Wissensmanagement oder die Zusammenarbeit in kleinen Teams ermöglicht. Das Open-Source-Design gewährleistet Transparenz, langfristige Wartbarkeit und keine Abonnementkosten, was es ideal für Nutzer macht, die Datenhoheit und Kosteneffizienz suchen.\n\nFür Einfachheit und Effizienz konzipiert, deckt Memos eine Vielzahl von Anwendungsfällen ab. Ob es darum geht, tägliche Gedanken festzuhalten, Lernnotizen zu organisieren oder Aufgabennotizen in kleinen Teams zu teilen, Memos bietet eine nahtlose Erfahrung durch sein intuitives Tag-System und Markdown-Formatierung. Über jeden Webbrowser zugänglich, erfordert es keine proprietären Clients oder komplexe Einrichtung, sodass Nutzer ihre Notizen jederzeit und überall verwalten können.\n\nOb für die langfristige Archivierung persönlichen Wissens oder als leichtes Werkzeug für die Teamzusammenarbeit, Memos bietet eine sichere, flexible und benutzerfreundliche Lösung, die es Nutzern ermöglicht, die volle Kontrolle über ihre Daten zu behalten und gleichzeitig ein schlankes Notizerlebnis zu genießen。\n",
+  "developer": "usememos Team",
+  "screenshot_link": [
+    "assets/apps/memos/screenshot-1.webp",
+    "assets/apps/memos/screenshot-2.webp",
+    "assets/apps/memos/screenshot-3.webp"
+  ],
+  "tagline": "Memos ist ein leichter, selbst gehosteter Memo-Hub. Open Source und für immer kostenlos.",
+  "thumbnail": "assets/apps/memos/thumbnail.webp",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

@@ -1,0 +1,14 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "author": "Chàra Rose",
+  "category": "Media",
+  "description": "A MineOS egy szerver front-end, amely megkönnyíti a Minecraft adminisztratív feladatok kezelését. Ez az iteráció a Node.js használatával az előző MineOS parancsfájlok (Python alapú) javítására törekszik, kihasználva a Node.JS és a websockets eseményvezérelt, aszinkron modelljét.",
+  "developer": "hexparrot",
+  "tagline": "Ingyenes és könnyen használható Minecraft szerverkezelő eszköz.",
+  "tips": {
+    "before_install": "Alapértelmezett fiók\n\n| Felhasználónév | Jelszó |\n|----------|----------|\n| `mc`    | `root` |\n"
+  },
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

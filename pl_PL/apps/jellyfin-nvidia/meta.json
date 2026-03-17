@@ -1,0 +1,19 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Media",
+  "description": "Jellyfin pozwala zbierać, zarządzać i przesyłać swoją multimedialną zawartość. Uruchom serwer Jellyfin na swoim systemie i uzyskaj dostęp do liderującego systemu rozrywki z otwartym oprogramowaniem, w tym dzwonków i ozdób.",
+  "developer": "Jellyfin",
+  "screenshot_link": [
+    "assets/apps/jellyfin-nvidia/screenshot-1.png",
+    "assets/apps/jellyfin-nvidia/screenshot-2.png",
+    "assets/apps/jellyfin-nvidia/screenshot-3.png"
+  ],
+  "tagline": "Umieszcza Cię w centrum swojej multimedialnej zawartości.",
+  "thumbnail": "assets/apps/jellyfin-nvidia/thumbnail.png",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

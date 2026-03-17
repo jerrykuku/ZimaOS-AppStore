@@ -1,0 +1,49 @@
+{
+  "envs": [
+    {
+      "container": "TZ",
+      "description": {
+        "en_US": "Set the timezone for the alist-sync application."
+      }
+    }
+  ],
+  "ports": [
+    {
+      "container": "52441",
+      "description": {
+        "en_US": "The port used by alist-sync for its service."
+      }
+    }
+  ],
+  "volumes": [
+    {
+      "container": "/app/data",
+      "description": {
+        "en_US": "Directory where the alist-sync application stores its data.",
+        "zh_CN": "alist-sync 配置目录"
+      }
+    }
+  ],
+  "architectures": [
+    "amd64",
+    "arm",
+    "arm64"
+  ],
+  "author": "xjxjin",
+  "category": "Productivity",
+  "description": "Alist-Sync is a storage synchronization tool based on the Web interface. It can achieve data synchronization and mutual backup among multiple network disks, and also has practical functions such as multi-task management, scheduled synchronization and difference handling.\n",
+  "developer": "xjxjin",
+  "screenshot_link": [
+    "assets/apps/alist-sync/screenshot-1.webp",
+    "assets/apps/alist-sync/screenshot-2.webp",
+    "assets/apps/alist-sync/screenshot-3.webp",
+    "assets/apps/alist-sync/screenshot-4.webp",
+    "assets/apps/alist-sync/screenshot-5.webp"
+  ],
+  "tagline": "An Alist storage synchronization tool based on the Web interface.",
+  "thumbnail": "assets/apps/alist-sync/thumbnail.webp",
+  "tips": {
+    "before_install": "The default login password is admin/admin."
+  },
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

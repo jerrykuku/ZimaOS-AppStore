@@ -1,0 +1,25 @@
+{
+  "architectures": [
+    "amd64",
+    "arm",
+    "arm64"
+  ],
+  "author": "Chàra Rose",
+  "category": "Media",
+  "description": "Crafty is an open source Minecraft control panel built using Tornado and AdminLTE, featuring server scheduling, a interactive console and the ability to run almost any type of Minecraft server",
+  "developer": "Crafty Team",
+  "screenshot_link": [
+    "assets/apps/crafty/screenshot-1.webp",
+    "assets/apps/crafty/screenshot-2.webp",
+    "assets/apps/crafty/screenshot-3.webp",
+    "assets/apps/crafty/screenshot-4.webp",
+    "assets/apps/crafty/screenshot-5.webp",
+    "assets/apps/crafty/screenshot-6.webp",
+    "assets/apps/crafty/screenshot-7.webp"
+  ],
+  "tagline": "Take control of your Minecraft servers.",
+  "tips": {
+    "before_install": "Conta padrão\n| Nome de usuário | Senha |\n|----------|----------|\n| `admin`    | `app/config/default-creds.txt` |\n"
+  },
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

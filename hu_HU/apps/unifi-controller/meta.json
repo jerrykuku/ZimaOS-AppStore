@@ -1,0 +1,19 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Networking",
+  "description": "A Unifi-hez más eszközök, például egy hozzáférési pont, csatlakoztatásához meg kell változtatni az inform IP-címet. Mivel az Unifi alapértelmezetten Dockerben fut, használ egy IP-címet, amely nem elérhető más eszközöktől. Ehhez menj a Beállítások> Rendszerbeállítások> Vezérlő konfigurációhoz és állítsd be a Vezérlő hosztnevet / IP-címét egy hosztnévre vagy egy IP-címre, amely elérhető a készülékeidről. Továbbá a \"Inform hoszt felülírása a vezérlő hosztnevével / IP-címmel\" jelölőnégyzetet be kell jelölni, hogy a készülékek csatlakozhassanak a vezérlőhöz az öröklés során (a készülékek az inform végpontot használják az öröklés során).",
+  "developer": "LinuxServer.io",
+  "screenshot_link": [
+    "assets/apps/unifi-controller/screenshot-1.webp",
+    "assets/apps/unifi-controller/screenshot-2.webp",
+    "assets/apps/unifi-controller/screenshot-3.webp"
+  ],
+  "tagline": "A Unifi-controller szoftver egy erőteljes, vállalati vezeték nélküli szoftvermotor, amely tökéletesen alkalmas a magas sűrűségű kliensek telepítésére, amelyek alacsony késleltetést és magas rendelkezésre állást igényelnek.",
+  "thumbnail": "assets/apps/unifi-controller/thumbnail.webp",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

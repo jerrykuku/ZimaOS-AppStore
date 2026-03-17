@@ -1,42 +1,90 @@
 [
   {
-    "name": "Media",
+    "name": {
+      "en_US": "Media",
+      "zh_CN": "媒体"
+    },
     "font": "play-circle-outline",
-    "description": "Media Apps"
+    "description": {
+      "en_US": "Media Apps",
+      "zh_CN": "媒体应用"
+    }
   },
   {
-    "name": "Productivity",
+    "name": {
+      "en_US": "Productivity",
+      "zh_CN": "效率工具"
+    },
     "font": "toolbox-outline",
-    "description": "Productivity Apps"
+    "description": {
+      "en_US": "Productivity Apps",
+      "zh_CN": "效率工具应用"
+    }
   },
   {
-    "name": "Home",
+    "name": {
+      "en_US": "Home",
+      "zh_CN": "智能家居"
+    },
     "font": "home-automation",
-    "description": "Home Apps"
+    "description": {
+      "en_US": "Home Apps",
+      "zh_CN": "智能家居应用"
+    }
   },
   {
-    "name": "Networking",
+    "name": {
+      "en_US": "Networking",
+      "zh_CN": "网络"
+    },
     "font": "lan",
-    "description": "Networking Apps"
+    "description": {
+      "en_US": "Networking Apps",
+      "zh_CN": "网络应用"
+    }
   },
   {
-    "name": "AI",
+    "name": {
+      "en_US": "AI",
+      "zh_CN": "人工智能"
+    },
     "font": "chat-processing-outline",
-    "description": "AI Apps"
+    "description": {
+      "en_US": "AI Apps",
+      "zh_CN": "人工智能应用"
+    }
   },
   {
-    "name": "Finance",
+    "name": {
+      "en_US": "Finance",
+      "zh_CN": "金融"
+    },
     "font": "currency-usd",
-    "description": "Finance Apps"
+    "description": {
+      "en_US": "Finance Apps",
+      "zh_CN": "金融应用"
+    }
   },
   {
-    "name": "Social",
+    "name": {
+      "en_US": "Social",
+      "zh_CN": "社交"
+    },
     "font": "account-box-outline",
-    "description": "Social Apps"
+    "description": {
+      "en_US": "Social Apps",
+      "zh_CN": "社交应用"
+    }
   },
   {
-    "name": "Developer",
+    "name": {
+      "en_US": "Developer",
+      "zh_CN": "开发者"
+    },
     "font": "code-greater-than-or-equal",
-    "description": "Developer Apps"
+    "description": {
+      "en_US": "Developer Apps",
+      "zh_CN": "开发者应用"
+    }
   }
 ]

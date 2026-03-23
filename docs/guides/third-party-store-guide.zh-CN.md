@@ -198,7 +198,7 @@ services:
       POSTGRES_DB: wiki
     restart: unless-stopped
 x-casaos:
-  main: my-wiki           # <- 指向 Web UI 服务，而不是数据库
+  main: my-wiki           # <- 指向 Web UI 服务（service name），而不是数据库
   index: /
   port_map: "3000"
   # ... 其他字段 ...
@@ -342,6 +342,9 @@ jobs:
 
 如果你已有基于旧版 CasaOS AppStore 协议（zip 包分发）构建的第三方商店，按以下步骤升级到 v2。
 
+如果你只想先完成最小改动，请先看一页版清单：
+- [v1 -> v2 迁移清单（最小改动版）](./v1-to-v2-migration-checklist.zh-CN.md)
+
 ### 变更概览
 
 | | v1（旧版） | v2（新版） |
@@ -407,6 +410,20 @@ v2 要求使用标准化分类。将每个应用 `x-casaos` 块中的 `category`
 ### 第 4 步：添加 CI/CD 工作流
 
 参照[快速开始第 4 步](#4-设置-cicd)设置 GitHub Actions 自动构建和部署。
+
+### 第 5 步（推荐）：为旧用户保留 v1 -> v2 迁移提示能力
+
+在 v1/v2 并存阶段，`store-config.json` 本身已经是 v2 商店必备文件。
+
+对于迁移提醒，额外要求只有一条：
+
+- 在 v1 zip 包中包含同一个 `store-config.json` 文件
+
+原因：
+
+- 新版 AppStore 升级到 v2 后，会从旧 zip 解压目录扫描历史三方商店记录
+- 仅当检测到 v1 zip 中存在 `store-config.json` 时，客户端才能提示用户“一键恢复旧商店”
+- 若 v1 zip 不包含 `store-config.json`，旧用户仍可手动重新添加，但不会有自动迁移提醒
 
 ### 可选改进
 

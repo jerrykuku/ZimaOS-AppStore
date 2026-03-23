@@ -5,6 +5,7 @@ This folder contains project documentation for the ZimaOS AppStore source reposi
 ## Guides
 
 - [Third-party Store Guide](./guides/third-party-store-guide.md): Build and deploy a ZimaOS-compatible third-party app store source.
+- [v1 -> v2 Migration Checklist](./guides/v1-to-v2-migration-checklist.md): One-page minimum-change checklist for existing zip-based third-party stores.
 
 ## Contribution
 

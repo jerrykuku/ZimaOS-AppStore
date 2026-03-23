@@ -198,7 +198,7 @@ services:
       POSTGRES_DB: wiki
     restart: unless-stopped
 x-casaos:
-  main: my-wiki           # <- points to the web UI service, not the database
+  main: my-wiki           # <- points to the web UI service（service name）, not the database
   index: /
   port_map: "3000"
   # ... other fields ...
@@ -337,6 +337,9 @@ Your final store URL will be the same as `--base-url` (for example, `https://sto
 
 If you already have a third-party store built for the old CasaOS AppStore protocol (zip-based distribution), follow these steps to upgrade to v2.
 
+If you only want the minimum required changes first, start here:
+- [v1 -> v2 Migration Checklist (Minimum Changes)](./v1-to-v2-migration-checklist.md)
+
 ### What changed
 
 | | v1 (old) | v2 (new) |
@@ -402,6 +405,20 @@ Full list of valid categories: `Media`, `Productivity`, `Home`, `Networking`, `A
 ### Step 4: Add CI/CD workflow
 
 Follow [Quick Start Step 4](#4-set-up-cicd) to set up GitHub Actions for automated builds and deployment.
+
+### Step 5 (Recommended): Keep v1 -> v2 migration hints for existing users
+
+In the v1/v2 coexistence phase, `store-config.json` is already required for v2 stores.
+
+For migration reminders, the only extra requirement is:
+
+- Include the same `store-config.json` file in your v1 zip package
+
+Why this matters:
+
+- After users upgrade AppStore to v2, the client scans legacy zip-extracted third-party store records
+- The one-click "restore old store" prompt is available only when `store-config.json` is detected in legacy v1 zip content
+- If v1 zip does not include `store-config.json`, users can still re-add manually, but no migration reminder will be shown
 
 ### Optional improvements
 

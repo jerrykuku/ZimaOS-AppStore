@@ -30,26 +30,20 @@ my-appstore/
 
 ```text
 dist/
-├── assets/                        # shared image assets (one copy)
-│   └── apps/
-│       ├── my-app/
-│       │   ├── icon.svg
-│       │   ├── icon.png
-│       │   ├── thumbnail.webp
-│       │   └── screenshot-*.webp
-│       └── another-app/
-│           └── ...
-├── en_US/                         # per-language directory
-│   ├── store.json                 # single-language store info
-│   ├── index.json                 # single-language app listing
-│   └── apps/
-│       └── my-app/
-│           ├── docker-compose.yml # cleaned, single-language x-casaos
-│           └── meta.json          # single-language metadata
-├── zh_CN/
-│   └── ...                        # same structure, Chinese strings
-└── de_DE/
-    └── ...
+├── index.json                     # default locale app listing (en_US fallback)
+├── index.zh_CN.json               # generated only when locale is explicitly defined
+├── store.json                     # default locale store info
+├── store.zh_CN.json               # generated only when locale is explicitly defined
+└── apps/
+    └── my-app/
+        ├── docker-compose.yml     # one runtime compose per app
+        ├── meta.json              # default locale metadata
+        ├── meta.zh_CN.json        # generated only when locale is explicitly defined
+        └── assets/
+            ├── icon.svg
+            ├── icon.png
+            ├── thumbnail.webp
+            └── screenshot-*.webp
 ```
 
 Users add your store in ZimaOS by entering your URL:
@@ -106,7 +100,7 @@ This file identifies your store. The build script reads it and outputs `store.js
 **Rules for `store_id`:**
 - Lowercase only, `[a-z0-9-]`
 - Must be globally unique (choose something distinctive)
-- Cannot be `zimaos-official` (reserved)
+- Cannot be `zimaos-appstore` (reserved; also avoid historical reserved value `zimaos-official`)
 
 ### 3. Create your app
 
@@ -135,7 +129,7 @@ x-casaos:
   port_map: "8080"
   scheme: http
   # In source compose this can be any reachable URL.
-  # Build output rewrites it to apps/my-app/icon.svg (or icon.png) under your --base-url.
+  # Build output rewrites it to apps/my-app/assets/icon.svg (or icon.png) under your --base-url.
   icon: https://cdn.jsdelivr.net/gh/username/my-appstore@main/Apps/MyApp/icon.svg
   title:
     en_US: My App
@@ -143,7 +137,7 @@ x-casaos:
   # --- Metadata fields (extracted to meta.json by build script) ---
   author: Your Name
   developer: Original Developer
-  category: Utilities
+  category: Productivity
   architectures:
     - amd64
     - arm64
@@ -267,6 +261,51 @@ jobs:
         run: |
           curl -fsSL "https://purge.jsdelivr.net/gh/${{ github.repository }}@gh-pages/en_US/index.json" || true
 ```
+
+#### Optional: use the official GitHub Action directly (recommended for fast adoption)
+
+If you don't want to maintain build-step details yourself, you can use the official action:
+
+```yaml
+name: Build And Publish Dist
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+    inputs:
+      base_url:
+        description: "Base URL used by build_appstore.py"
+        required: false
+        default: "https://cdn.jsdelivr.net/gh/username/my-appstore@gh-pages"
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build dist via official action
+        uses: IceWhaleTech/ZimaOS-AppStore/actions/build-appstore@v1
+        with:
+          source: .
+          output: dist
+          base_url: ${{ inputs.base_url }}
+
+      - name: Deploy dist to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./dist
+```
+
+> Recommendation: start with `@v1`; switch to a pinned commit SHA for reproducible production builds.
+> When using this action, you usually do not need to copy `scripts/build_appstore.py` into your own repository.
 
 ### 5. Share your store URL
 
@@ -437,7 +476,7 @@ Why this matters:
 
 ### store-config.json (input) → store.json (output)
 
-You write `store-config.json` in your repository root. The build script generates a `store.json` for each language under `dist/{locale}/store.json`, with i18n fields resolved to plain strings. When a user adds your store URL, ZimaOS fetches `{url}/{locale}/store.json` to verify the store identity.
+You write `store-config.json` in your repository root. The build script always generates `dist/store.json` (default locale) and additionally generates `dist/store.{locale}.json` only for locales explicitly defined in store i18n fields (`name`, `description`). When a user adds your store URL, the client can fetch `store.json` or a locale-specific `store.{locale}.json`.
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
@@ -451,7 +490,7 @@ You write `store-config.json` in your repository root. The build script generate
 
 ### index.json
 
-Generated automatically by the build script, one per language directory (`dist/{locale}/index.json`). Contains all app summaries for quick loading. All i18n fields are resolved to plain strings for the target locale.
+Generated automatically by the build script as `dist/index.json` (default locale) and `dist/index.{locale}.json` (only when at least one app explicitly defines that locale in `title`/`tagline`). Each generated index includes the full app list.
 
 ```json
 {
@@ -463,21 +502,23 @@ Generated automatically by the build script, one per language directory (`dist/{
       "id": "my-app",
       "title": "My App",
       "tagline": "Does amazing things",
-      "category": "Utilities",
+      "category": "Productivity",
+      "version": "1.0.0",
       "author": "Your Name",
       "developer": "Original Developer",
       "architectures": ["amd64", "arm64"],
-      "icon": "assets/apps/my-app/icon.svg",
-      "thumbnail": "assets/apps/my-app/thumbnail.webp",
-      "compose_url": "en_US/apps/my-app/docker-compose.yml",
-      "meta_url": "en_US/apps/my-app/meta.json",
+      "icon": "apps/my-app/assets/icon.svg",
+      "thumbnail": "apps/my-app/assets/thumbnail.webp",
+      "compose_url": "apps/my-app/docker-compose.yml",
+      "meta_url": "apps/my-app/meta.json",
       "content_hash": "a1b2c3d4"
     }
   ]
 }
 ```
 
-> Image paths (like `icon`, `thumbnail`) point to the shared `assets/` directory. `compose_url` and `meta_url` include the locale prefix. All paths are relative to `base_url`.
+> Image paths (like `icon`, `thumbnail`) point to `apps/{app-id}/assets/`. `compose_url` and `meta_url` are app-relative paths without locale prefix. All paths are relative to `base_url`.
+> `content_hash` is computed from all files under `apps/{app-id}/` (compose, meta variants, and assets).
 
 ### docker-compose.yml (after build)
 
@@ -502,8 +543,8 @@ Everything else is moved to `meta.json`.
 |-------|------|-------------|
 | `tagline` | `string` | Short description (resolved to plain string for the target locale) |
 | `description` | `string` | Full description (resolved to plain string; markdown text is allowed, rendering depends on client) |
-| `thumbnail` | `string` | Thumbnail path relative to `base_url` (e.g. `assets/apps/my-app/thumbnail.webp`) |
-| `screenshot_link` | `string[]` | Screenshot paths relative to `base_url` (e.g. `assets/apps/my-app/screenshot-1.webp`) |
+| `thumbnail` | `string` | Thumbnail path relative to `base_url` (e.g. `apps/my-app/assets/thumbnail.webp`) |
+| `screenshot_link` | `string[]` | Screenshot paths relative to `base_url` (e.g. `apps/my-app/assets/screenshot-1.webp`) |
 | `tips` | `object` | Install tips (resolved to plain strings, optional, see below) |
 | `author` | `string` | Packager name |
 | `developer` | `string` | Upstream developer |
@@ -532,7 +573,7 @@ Tips are shown to the user before installation. The keys under `tips` (e.g. `bef
 
 ### Image Assets
 
-All image assets are output to a shared `assets/apps/{app-id}/` directory (not duplicated per language).
+All image assets are output to `apps/{app-id}/assets/` (not duplicated per locale).
 
 | File | Source Formats | Build Output | Required |
 |------|----------------|--------------|----------|
@@ -551,7 +592,7 @@ Your app's icon is used in two places:
 
 | Where | Field | Behavior |
 |-------|-------|----------|
-| **Store listing** (before install) | `index.json` → `icon` | generated from build output (`assets/apps/<app-id>/icon.svg` or `icon.png`) |
+| **Store listing** (before install) | `index.json` → `icon` | generated from build output (`apps/<app-id>/assets/icon.svg` or `icon.png`) |
 | **Dashboard** (after install) | `docker-compose.yml` → `x-casaos.icon` | rewritten by build script to the same built icon URL |
 
 In source compose, you can still set a stable URL. During build, `x-casaos.icon` is replaced with the built output URL based on `--base-url`.
@@ -594,11 +635,11 @@ The build script normalizes locale keys automatically for:
 - `store-config.json`: `name`, `description`
 - `x-casaos`: `title`, `tagline`, `description`, `releaseNotes`, and each nested locale object under `tips`
 
-At minimum, provide `en_US` for all i18n fields. Missing translations for other languages will automatically fall back to `en_US`.
+At minimum, provide `en_US` for all i18n fields. For generated locale-specific files, only explicitly defined locales are emitted.
 
 ### Multi-language Output
 
-The build script reads `supported-languages.json` (a JSON array of locale codes) and generates a complete set of output files for each language. In the source `docker-compose.yml`, you still write i18n fields as locale-keyed objects:
+The build script reads `supported-languages.json` (a JSON array of locale codes) as a candidate locale list. In the source `docker-compose.yml`, you still write i18n fields as locale-keyed objects:
 
 ```yaml
 title:
@@ -606,7 +647,7 @@ title:
   zh_CN: 我的应用
 ```
 
-The build script resolves these to plain strings in each language directory. For example, `dist/zh_CN/apps/my-app/meta.json` will contain `"tagline": "做很棒的事情"` instead of `"tagline": { "en_US": "...", "zh_CN": "..." }`.
+The build script always emits `dist/apps/my-app/meta.json` (default locale) and emits `dist/apps/my-app/meta.{locale}.json` only when that locale is explicitly defined in app i18n fields.
 
 If `supported-languages.json` is not present, only `en_US` output is generated.
 
@@ -671,10 +712,10 @@ The v2 protocol uses **incremental updates** instead of full-package downloads, 
 
 ### How updates work
 
-When a user opens the app store, ZimaOS requests `{locale}/index.json` with an HTTP `ETag` header:
+When a user opens the app store, ZimaOS requests `index.json` or `index.{locale}.json` with an HTTP `ETag` header:
 
 ```
-1. GET {locale}/index.json (with If-None-Match: <cached ETag>)
+1. GET index.{locale}.json (with If-None-Match: <cached ETag>)
    ├─ 304 Not Modified → no data transferred, use local cache
    └─ 200 OK → compare each app's content_hash with local cache
                  ├─ hash matches → skip (no download)
@@ -721,12 +762,12 @@ No problem. ZimaOS prefixes the Docker project name with your `store_id` at inst
 ### Do I need to run the build script?
 
 Yes. The build script:
-- Converts `store-config.json` → per-language `store.json`
+- Converts `store-config.json` → `store.json` plus on-demand `store.{locale}.json`
 - Splits `docker-compose.yml` → clean compose + `meta.json`
-- Generates per-language `index.json` with content hashes
-- Resolves i18n fields to plain strings per locale (with `en_US` fallback)
+- Generates `index.json` and on-demand `index.{locale}.json` with content hashes
+- Resolves i18n fields to plain strings (default outputs use `en_US` fallback; locale-suffixed files are generated only for explicitly defined locales)
 - Normalizes locale keys
-- Copies/optimizes image assets to shared `assets/` directory (including `icon.svg` → `icon.png` fallback when possible)
+- Copies/optimizes image assets to `apps/{app-id}/assets/` (including `icon.svg` → `icon.png` fallback when possible)
 
 You should not create these output files by hand.
 
@@ -743,7 +784,7 @@ No. jsDelivr is only one optional CDN path. You can use any HTTPS URL as `--base
 
 ### Why is `--base-url` required?
 
-The frontend components that render app cards receive `index.json` data but don't know the host URL of your store. Without `--base-url`, resource paths like `assets/apps/my-app/icon.svg` are relative and the frontend cannot resolve them.
+The frontend components that render app cards receive `index.json` data but don't know the host URL of your store. Without `--base-url`, resource paths like `apps/my-app/assets/icon.svg` are relative and the frontend cannot resolve them.
 
 `--base-url` makes all resource URLs absolute so they work directly:
 
@@ -751,12 +792,12 @@ The frontend components that render app cards receive `index.json` data but don'
 # GitHub Pages hosting
 python3 scripts/build_appstore.py --source . --output dist \
   --base-url https://username.github.io/my-appstore
-# icon: "https://username.github.io/my-appstore/assets/apps/my-app/icon.svg"
+# icon: "https://username.github.io/my-appstore/apps/my-app/assets/icon.svg"
 
 # jsDelivr CDN hosting
 python3 scripts/build_appstore.py --source . --output dist \
   --base-url https://cdn.jsdelivr.net/gh/username/my-appstore@gh-pages
-# icon: "https://cdn.jsdelivr.net/gh/username/my-appstore@gh-pages/assets/apps/my-app/icon.svg"
+# icon: "https://cdn.jsdelivr.net/gh/username/my-appstore@gh-pages/apps/my-app/assets/icon.svg"
 ```
 
 ### What's the minimum viable store?

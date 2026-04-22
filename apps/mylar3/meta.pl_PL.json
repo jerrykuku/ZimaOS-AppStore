@@ -1,0 +1,20 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Media",
+  "description": "Mylar to automatyczny program do pobierania komiksów (cbr / cbz) do użycia z NZB i torrentami. Mylar pozwala ci utworzyć listę obserwowanych seriali, które monitorują różne rzeczy (nowe wydania, aktualizowane informacje itp.). Zebrze, posortuje i zmieni nazwę pobranych wydań. Pozwoli ci również monitorować tygodniowe listy wyciągania, aby pobrać elementy należące do seriali na liście obserwowanych, a także monitorować i utrzymywać archiwa historii.",
+  "developer": "Mylar3 Team",
+  "screenshot_link": [
+    "apps/mylar3/assets/screenshot-1.webp",
+    "apps/mylar3/assets/screenshot-2.webp",
+    "apps/mylar3/assets/screenshot-3.webp",
+    "apps/mylar3/assets/screenshot-4.webp"
+  ],
+  "tagline": "Automatyczny program do pobierania komiksów (cbr/cbz)",
+  "thumbnail": "apps/mylar3/assets/thumbnail.webp",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

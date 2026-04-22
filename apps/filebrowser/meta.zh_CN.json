@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64",
+    "arm"
+  ],
+  "author": "CasaOS Team",
+  "category": "Productivity",
+  "description": "File Browser - 包含分享功能等的Webbased文件浏览器",
+  "developer": "File Browser",
+  "screenshot_link": [
+    "apps/filebrowser/assets/screenshot-1.webp",
+    "apps/filebrowser/assets/screenshot-2.webp",
+    "apps/filebrowser/assets/screenshot-3.webp"
+  ],
+  "tagline": "上传，删除，预览，重命名，编辑和共享您的文件。",
+  "thumbnail": "apps/filebrowser/assets/thumbnail.webp",
+  "tips": {
+    "before_install": "默认账号\n\n| 用户名 | 密码 |\n| -------- | -------- |\n| `admin`    | `admin`    |\n"
+  },
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

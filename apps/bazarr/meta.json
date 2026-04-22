@@ -1,0 +1,21 @@
+{
+  "architectures": [
+    "amd64",
+    "arm",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Media",
+  "description": "Bazarr is a companion application to Sonarr and Radarr. It can manage and download subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you.",
+  "developer": "Sabnzbd Team",
+  "screenshot_link": [
+    "apps/bazarr/assets/screenshot-1.webp",
+    "apps/bazarr/assets/screenshot-2.webp",
+    "apps/bazarr/assets/screenshot-3.webp",
+    "apps/bazarr/assets/screenshot-4.webp"
+  ],
+  "tagline": "Letter generators for Sonarr and Radarr",
+  "thumbnail": "apps/bazarr/assets/thumbnail.webp",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

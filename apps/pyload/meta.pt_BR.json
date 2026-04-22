@@ -1,0 +1,21 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "joaobosconff",
+  "category": "Media",
+  "description": "pyLoad é um gerenciador de download gratuito e de código aberto escrito em Python e projetado para ser extremamente leve, facilmente extensível e totalmente gerenciável via web.",
+  "developer": "linuxserver",
+  "screenshot_link": [
+    "apps/pyload/assets/screenshot-1.webp",
+    "apps/pyload/assets/screenshot-2.webp",
+    "apps/pyload/assets/screenshot-3.webp"
+  ],
+  "tagline": "Gerenciador de download gratuito.",
+  "thumbnail": "",
+  "tips": {
+    "before_install": "Conta Padrão\n\n| Usuário | Senha |\n|----------|----------|\n| `pyload`    | `pyload` |\n\n Diretório padrão no Pyload\n\n| Nome | Valor |\n| ---- | ----- |\n| Diretório de Download | `/DATA/Downloads` |\n"
+  },
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

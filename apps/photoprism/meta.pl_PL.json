@@ -1,0 +1,21 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Media",
+  "description": "PhotoPrism® to aplikacja napędzana przez AI do przeglądania, organizowania i udostępniania kolekcji zdjęć. Wykorzystuje najnowsze technologie do automatycznego oznaczania i wyszukiwania zdjęć bez przeszkadzania. Możesz uruchomić ją w domu, na prywatnym serwerze lub w chmurze.",
+  "developer": "PhotoPrism",
+  "screenshot_link": [
+    "apps/photoprism/assets/screenshot-1.webp",
+    "apps/photoprism/assets/screenshot-2.webp",
+    "apps/photoprism/assets/screenshot-3.webp"
+  ],
+  "tagline": "Przeglądanie, organizowanie i udostępnianie kolekcji zdjęć",
+  "thumbnail": "apps/photoprism/assets/thumbnail.webp",
+  "tips": {
+    "before_install": ""
+  },
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

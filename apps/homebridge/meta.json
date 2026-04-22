@@ -1,0 +1,17 @@
+{
+  "architectures": [
+    "amd64",
+    "arm",
+    "arm64"
+  ],
+  "author": "UnderCurve",
+  "category": "Home",
+  "description": "Homebridge is a lightweight NodeJS server you can run on your home network that emulates the iOS HomeKit API. It supports Plugins, which are community-contributed modules that provide a basic bridge from HomeKit to various 3rd-party APIs provided by manufacturers of \"smart home\" devices.",
+  "developer": "Homebridge",
+  "screenshot_link": [
+    "apps/homebridge/assets/screenshot-1.webp",
+    "apps/homebridge/assets/screenshot-2.webp"
+  ],
+  "tagline": "HomeKit support for the impatient.",
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

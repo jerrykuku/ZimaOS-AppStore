@@ -1,0 +1,17 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "category": "AI",
+  "developer": "All-Hands-AI",
+  "author": "All-Hands-AI",
+  "tagline": "Open-Source-KI-gestützter Codierungsassistent",
+  "description": "OpenHands ist ein Open-Source-KI-gestützter Codierungsassistent, der Entwicklern intelligente Code-Vervollständigung, -Generierung und Debugging-Fähigkeiten bietet. Er läuft in einer Sandbox-Umgebung, um Sicherheit und Isolation zu gewährleisten, während der Zugriff auf verschiedene Entwicklungstools und Ressourcen ermöglicht wird.\n\n**Hauptmerkmale:**\n- KI-gestützte Code-Vervollständigung und -Generierung\n- Interaktives Debugging und Fehlerbehebung\n- Unterstützung für mehrere Programmiersprachen\n- Sichere Sandbox-Ausführungsumgebung\n- Anpassbare Laufzeitkonfigurationen\n- Integration mit Docker für containerisierte Workflows\n\n**Mehr erfahren:**\n- [OpenHands offizielle Website](https://www.all-hands.dev)\n- [OpenHands GitHub Repository](https://github.com/All-Hands-AI/OpenHands)\n- [Dokumentation](https://docs.all-hands.dev)\n",
+  "screenshot_link": [
+    "apps/openhands/assets/screenshot-1.webp",
+    "apps/openhands/assets/screenshot-2.webp",
+    "apps/openhands/assets/screenshot-3.webp"
+  ],
+  "thumbnail": "",
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

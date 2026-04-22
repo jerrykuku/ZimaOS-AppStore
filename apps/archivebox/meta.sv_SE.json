@@ -1,0 +1,20 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "category": "Productivity",
+  "developer": "ArchiveBox",
+  "author": "ArchiveBox",
+  "tagline": "Självhostad internetarkiveringslösning",
+  "description": "ArchiveBox är en kraftfull, självhostad internetarkiveringslösning som låter dig skapa ditt eget personliga arkiv av webbsidor, PDF:er, videor och mer. Den fungerar som ett personligt internetarkiv och sparar innehåll i flera format för långtidsbevarande.\n\nSystemet består av flera komponenter:\n- **ArchiveBox**: Huvudapplikationen som tillhandahåller webbgränssnitt och arkiveringsfunktioner\n- **Sonic**: Ett snabbt sökbackend för fulltextsökning över arkiverat innehåll\n- **ArchiveBox Scheduler**: En bakgrundstjänst för schemalagda arkiveringsuppgifter\n- **NoVNC**: En webbaserad VNC-klient för webbläsarbaserad arkivering\n\n**Nyckelfunktioner:**\n- Spara webbsidor i flera format (HTML, PDF, skärmdumpar, etc.)\n- Fulltextsökning över allt arkiverat innehåll\n- Schemalagd arkivering av webbplatser och RSS-flöden\n- Webbläsarbaserad arkivering med NoVNC\n- Användarautentisering och åtkomstkontroll\n- Extrahera och spara mediefiler (videor, ljud, PDF:er, etc.)\n\n**Läs mer:**\n- [ArchiveBox officiella webbplats](https://archivebox.io)\n- [ArchiveBox GitHub Repository](https://github.com/ArchiveBox/ArchiveBox)\n- [ArchiveBox Dokumentation](https://github.com/ArchiveBox/ArchiveBox/wiki)\n",
+  "screenshot_link": [
+    "apps/archivebox/assets/screenshot-1.webp",
+    "apps/archivebox/assets/screenshot-2.webp",
+    "apps/archivebox/assets/screenshot-3.webp"
+  ],
+  "thumbnail": "apps/archivebox/assets/thumbnail.webp",
+  "tips": {
+    "before_install": "**Standardkonto**\n\n| Användarnamn | Lösenord |\n|--------------|----------|\n| `casaos`     | `casaos`  |\n"
+  },
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

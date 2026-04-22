@@ -1,0 +1,21 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Media",
+  "description": "Calibre-web är en webbapplikation som ger en ren gränssnitt för att bläddra, läsa och ladda ner e-böcker med hjälp av en befintlig Calibre-databas. Det är också möjligt att integrera Google Drive och redigera metadata och din Calibre-bibliotek via appen själv.",
+  "developer": "linuxserver",
+  "screenshot_link": [
+    "apps/calibre-web/assets/screenshot-1.webp",
+    "apps/calibre-web/assets/screenshot-2.webp",
+    "apps/calibre-web/assets/screenshot-3.webp"
+  ],
+  "tagline": "Webbapplikation för att bläddra, läsa och ladda ner e-böcker som lagras i en Calibre-databas",
+  "thumbnail": "apps/calibre-web/assets/thumbnail.webp",
+  "tips": {
+    "before_install": ""
+  },
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

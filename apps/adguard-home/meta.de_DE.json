@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "386",
+    "amd64",
+    "arm",
+    "arm64",
+    "ppc64le"
+  ],
+  "author": "CasaOS Team",
+  "category": "Networking",
+  "description": "AdGuard Home ist eine Netzwerksoftware zum Blockieren von Werbung und Tracking. Nachdem Sie es eingerichtet haben, deckt es alle Ihre Heimgeräte ab und Sie benötigen dafür keine Client-Software. Erfahren Sie mehr in unserem offiziellen Github-Repository.",
+  "developer": "AdguardTeam",
+  "screenshot_link": [
+    "apps/adguard-home/assets/screenshot-1.webp",
+    "apps/adguard-home/assets/screenshot-2.webp",
+    "apps/adguard-home/assets/screenshot-3.webp"
+  ],
+  "tagline": "Netzwerkweites Werbe- und Tracker-Blockierungs-DNS-Server",
+  "thumbnail": "apps/adguard-home/assets/thumbnail.webp",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

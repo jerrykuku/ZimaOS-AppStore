@@ -1,0 +1,21 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Developer",
+  "description": "A Gitea egy közösség által kezelt könnyű kódhelyezési megoldás, amelyet Go írt.",
+  "developer": "Gitea",
+  "screenshot_link": [
+    "apps/gitea/assets/screenshot-1.webp",
+    "apps/gitea/assets/screenshot-2.webp",
+    "apps/gitea/assets/screenshot-3.webp"
+  ],
+  "tagline": "Git egy csésze tea kíséretében",
+  "thumbnail": "apps/gitea/assets/thumbnail.webp",
+  "tips": {
+    "before_install": ""
+  },
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

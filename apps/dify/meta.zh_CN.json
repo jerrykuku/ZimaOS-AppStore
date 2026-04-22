@@ -1,0 +1,19 @@
+{
+  "architectures": [
+    "arm64",
+    "amd64"
+  ],
+  "author": "IceWhaleTech",
+  "developer": "LangGenius",
+  "category": "AI",
+  "description": "Dify 是一款开源的大语言模型(LLM) 应用开发平台。它融合了后端即服务（Backend as Service）和 LLMOps 的理念，使开发者可以快速搭建生产级的生成式 AI 应用。即使你是非技术人员，也能参与到 AI 应用的定义和数据运营过程中。",
+  "screenshot_link": [
+    "apps/dify/assets/screenshot-1.webp",
+    "apps/dify/assets/screenshot-2.webp",
+    "apps/dify/assets/screenshot-3.webp",
+    "apps/dify/assets/screenshot-4.webp"
+  ],
+  "thumbnail": "apps/dify/assets/thumbnail.webp",
+  "tagline": "",
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

@@ -1,0 +1,20 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Media",
+  "description": "Readarr är en e-bokssamling för användare av Usenet och BitTorrent. Den kan övervaka flera RSS-flöden för nya böcker från dina favoritförfattare och kommer att interagera med klienter och index för att hämta, sortera och döpa om dem.",
+  "developer": "Readarr Team",
+  "screenshot_link": [
+    "apps/readarr/assets/screenshot-1.webp",
+    "apps/readarr/assets/screenshot-2.webp",
+    "apps/readarr/assets/screenshot-3.webp",
+    "apps/readarr/assets/screenshot-4.webp"
+  ],
+  "tagline": "E-bokssamling för användare av Usenet och BitTorrent.",
+  "thumbnail": "apps/readarr/assets/thumbnail.webp",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

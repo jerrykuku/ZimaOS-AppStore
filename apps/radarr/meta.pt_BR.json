@@ -1,0 +1,21 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Media",
+  "description": "Radarr é um gerenciador de coleções de filmes para usuários de Usenet e BitTorrent. Ele pode monitorar vários feeds RSS para encontrar novos filmes e interagir com clientes e indexadores para classificá-los, renomeá-los e baixá-los. Ele também pode ser configurado para atualizar automaticamente a qualidade dos arquivos existentes na biblioteca quando uma qualidade melhor estiver disponível. Observe que apenas um tipo de filme específico é suportado. Se você deseja uma versão 4k e uma versão 1080p de um filme específico, você precisará de várias instâncias.",
+  "developer": "Radarr",
+  "screenshot_link": [
+    "apps/radarr/assets/screenshot-1.webp",
+    "apps/radarr/assets/screenshot-2.webp",
+    "apps/radarr/assets/screenshot-3.webp",
+    "apps/radarr/assets/screenshot-4.webp",
+    "apps/radarr/assets/screenshot-5.webp"
+  ],
+  "tagline": "O gerenciador de coleções de filmes para usuários de Usenet e BitTorrent",
+  "thumbnail": "apps/radarr/assets/thumbnail.webp",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

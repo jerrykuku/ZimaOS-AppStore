@@ -1,0 +1,20 @@
+{
+  "architectures": [
+    "amd64",
+    "arm",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Productivity",
+  "description": "用 Rust 编写的 Bitwarden 服务器 API 的替代实现，与上游 Bitwarden 客户端兼容，适合自托管部署，其中运行官方资源密集型服务可能不是理想的选择。",
+  "developer": "Daniel García",
+  "screenshot_link": [
+    "apps/vaultwarden/assets/screenshot-1.webp",
+    "apps/vaultwarden/assets/screenshot-2.webp",
+    "apps/vaultwarden/assets/screenshot-3.webp"
+  ],
+  "tagline": "自托管的 Bitwarden 服务器",
+  "thumbnail": "apps/vaultwarden/assets/thumbnail.webp",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

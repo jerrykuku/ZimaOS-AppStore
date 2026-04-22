@@ -1,0 +1,15 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "FileDrop, dosyaları aileniz, arkadaşlarınız veya iş arkadaşlarınızla kolayca paylaşmanıza olanak tanıyan, kendi kendine barındırılan bir dosya paylaşım hizmetidir. Kullanımı kolay ve kaynakları hafif olacak şekilde tasarlanmıştır.\n",
+  "tagline": "",
+  "developer": "Noé Favier (noe.favier@outlook.com)",
+  "author": "Noé Favier",
+  "screenshot_link": [
+    "apps/filedrop/assets/screenshot-1.webp"
+  ],
+  "category": "Productivity",
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

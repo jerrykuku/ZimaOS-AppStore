@@ -1,0 +1,29 @@
+name: pingvin-share
+services:
+  pingvin-share:
+    image: stonith404/pingvin-share
+    restart: unless-stopped
+    ports:
+    - target: 3000
+      published: '3410'
+      protocol: tcp
+    environment:
+      TRUST_PROXY: false
+    deploy:
+      resources:
+        reservations:
+          memory: 256M
+    volumes:
+    - type: bind
+      source: /DATA/AppData/$AppID/data
+      target: /opt/app/backend/data
+    - type: bind
+      source: /DATA/AppData/$AppID/images
+      target: /opt/app/frontend/public/img
+x-casaos:
+  title: Pingvin-Share
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pingvin-share/assets/icon.svg
+  main: pingvin-share
+  port_map: '3410'
+  index: /
+  scheme: http

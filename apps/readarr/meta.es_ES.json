@@ -1,0 +1,20 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Media",
+  "description": "Readarr es un administrador de colecciones de libros electrónicos para usuarios de Usenet y BitTorrent. Puede monitorear múltiples fuentes RSS para obtener nuevos libros de sus autores favoritos y se comunicará con clientes e indexadores para obtener, clasificar y renombrarlos.",
+  "developer": "Readarr Team",
+  "screenshot_link": [
+    "apps/readarr/assets/screenshot-1.webp",
+    "apps/readarr/assets/screenshot-2.webp",
+    "apps/readarr/assets/screenshot-3.webp",
+    "apps/readarr/assets/screenshot-4.webp"
+  ],
+  "tagline": "Administrador de colecciones de libros electrónicos y audiolibros para usuarios de Usenet y BitTorrent.",
+  "thumbnail": "apps/readarr/assets/thumbnail.webp",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

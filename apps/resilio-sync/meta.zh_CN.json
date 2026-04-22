@@ -1,0 +1,16 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "resilio-sync是一个基于Docker的应用，可以实现无缝快速、安全的文件同步和共享。",
+  "screenshot_link": [
+    "apps/resilio-sync/assets/screenshot-1.webp"
+  ],
+  "tagline": "发挥无缝文件同步的力量。",
+  "author": "self",
+  "category": "Productivity",
+  "hostname": "",
+  "store_app_id": "resilio-sync",
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

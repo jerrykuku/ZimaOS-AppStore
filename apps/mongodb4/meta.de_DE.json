@@ -1,0 +1,14 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "MongoDB ist ein kostenloses und Open-Source, plattformübergreifendes, dokumentenorientiertes Datenbankprogramm. MongoDB wird als NoSQL-Datenbankprogramm eingestuft und verwendet JSON-ähnliche Dokumente mit Schemata. MongoDB wird von MongoDB Inc. entwickelt und unter der Kombination der Server Side Public License und der Apache License veröffentlicht.",
+  "tagline": "Ein kostenloses und Open-Source, plattformübergreifendes, dokumentenorientiertes Datenbankprogramm. MongoDB wird als NoSQL-Datenbankprogramm eingestuft und verwendet JSON-ähnliche Dokumente mit Schemata.",
+  "screenshot_link": [],
+  "developer": "MongoDB Inc.",
+  "author": "WisdomSky",
+  "thumbnail": "apps/mongodb4/assets/icon.png",
+  "category": "Developer",
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

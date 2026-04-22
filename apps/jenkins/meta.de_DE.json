@@ -1,0 +1,15 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tagline": "Jenkins Server für kontinuierliche Integration und Bereitstellung.",
+  "description": "",
+  "developer": "bepp-boop",
+  "author": "bepp-boop",
+  "category": "Developer",
+  "tips": {
+    "before_install": ""
+  },
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

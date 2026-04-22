@@ -1,0 +1,23 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "author": "LisonEvf",
+  "category": "AI",
+  "developer": "LisonEvf",
+  "thumbnail": "apps/anaconda3/assets/thumbnail.webp",
+  "screenshot_link": [
+    "apps/anaconda3/assets/screenshot-1.webp",
+    "apps/anaconda3/assets/screenshot-2.webp",
+    "apps/anaconda3/assets/screenshot-3.webp"
+  ],
+  "hostname": "",
+  "description": "私有炼丹炉",
+  "tagline": "私有炼丹炉",
+  "tips": {
+    "en_US": "Your machine learning Env work with Jupyter Lab",
+    "zh_CN": "私有炼丹炉",
+    "before_install": "安装完成后，请在容器日志（应用-设置-右上角-终端与日志-日志）中查看token。"
+  },
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

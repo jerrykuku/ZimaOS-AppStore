@@ -1,0 +1,23 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64",
+    "ppc64le",
+    "s390x",
+    "386",
+    "arm"
+  ],
+  "author": "OpenSpeedTest",
+  "category": "Networking",
+  "description": "HTML5 hálózati sebességteszt szerver indítására szolgáló alkalmazás. Bármelyik eszközről tesztelheti a letöltési és feltöltési sebességet a hálózatában egy olyan webböngészővel, amely IE10 vagy újabb.",
+  "developer": "OpenSpeedTest",
+  "screenshot_link": [
+    "apps/openspeedtest/assets/screenshot-1.webp",
+    "apps/openspeedtest/assets/screenshot-2.webp",
+    "apps/openspeedtest/assets/screenshot-3.webp"
+  ],
+  "tagline": "HTML5 hálózati sebességteszt szerver.",
+  "thumbnail": "apps/openspeedtest/assets/thumbnail.webp",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

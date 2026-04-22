@@ -1,0 +1,25 @@
+name: actualbudget
+services:
+  actualbudget:
+    image: actualbudget/actual-server:25.7.1
+    container_name: actualbudget
+    deploy:
+      resources:
+        reservations:
+          memory: 128M
+    restart: unless-stopped
+    volumes:
+    - type: bind
+      source: /DATA/AppData/$AppID
+      target: /data
+    ports:
+    - target: 5006
+      published: '15006'
+      protocol: tcp
+x-casaos:
+  main: actualbudget
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/actualbudget/assets/icon.svg
+  scheme: http
+  port_map: '15006'
+  index: /
+  title: Actual Budget

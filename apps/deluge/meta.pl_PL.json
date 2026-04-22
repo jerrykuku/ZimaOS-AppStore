@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Media",
+  "description": "Deluge zawiera wspólne funkcje klientów BitTorrent, takie jak szyfrowanie protokołu, DHT, lokalne odkrywanie par (LSD), wymiana par (PEX), UPnP, NAT-PMP, obsługa proxy, nasiona sieci Web, globalne i ograniczenia prędkości dla każdego torrenta. Ponieważ Deluge mocno wykorzystuje bibliotekę libtorrent, posiada pełną listę dostarczanych funkcji.",
+  "developer": "Deluge Team",
+  "screenshot_link": [
+    "apps/deluge/assets/screenshot-1.webp",
+    "apps/deluge/assets/screenshot-2.webp",
+    "apps/deluge/assets/screenshot-3.webp",
+    "apps/deluge/assets/screenshot-4.webp"
+  ],
+  "tagline": "Lekki i darmowy klient BitTorrent.",
+  "thumbnail": "apps/deluge/assets/thumbnail.webp",
+  "tips": {
+    "before_install": ""
+  },
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

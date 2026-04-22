@@ -1,0 +1,49 @@
+{
+  "envs": [
+    {
+      "container": "TZ",
+      "description": {
+        "en_US": "Set the timezone for the alist-sync application."
+      }
+    }
+  ],
+  "ports": [
+    {
+      "container": "52441",
+      "description": {
+        "en_US": "The port used by alist-sync for its service."
+      }
+    }
+  ],
+  "volumes": [
+    {
+      "container": "/app/data",
+      "description": {
+        "en_US": "Directory where the alist-sync application stores its data.",
+        "zh_CN": "alist-sync 配置目录"
+      }
+    }
+  ],
+  "architectures": [
+    "amd64",
+    "arm",
+    "arm64"
+  ],
+  "author": "xjxjin",
+  "category": "Productivity",
+  "description": "Alist-Sync 是一款基于 Web 界面的存储同步工具，它能够在多个网盘之间实现数据同步以及相互备份，并且具备多任务管理、定时同步、差异处理等实用功能。\n",
+  "developer": "xjxjin",
+  "screenshot_link": [
+    "apps/alist-sync/assets/screenshot-1.webp",
+    "apps/alist-sync/assets/screenshot-2.webp",
+    "apps/alist-sync/assets/screenshot-3.webp",
+    "apps/alist-sync/assets/screenshot-4.webp",
+    "apps/alist-sync/assets/screenshot-5.webp"
+  ],
+  "tagline": "一个基于 Web 界面的 Alist 存储同步工具。",
+  "thumbnail": "apps/alist-sync/assets/thumbnail.webp",
+  "tips": {
+    "before_install": "默认登录密码 admin/admin。"
+  },
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

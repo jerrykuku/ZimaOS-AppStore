@@ -1,0 +1,23 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Media",
+  "description": "SABnzbd ist ein Open Source Binary Newsreader, der in Python geschrieben ist. Es ist völlig kostenlos, einfach zu bedienen und praktisch überall einsetzbar. SABnzbd macht Usenet so einfach und effizient wie möglich, indem es alles automatisiert, was wir tun können. Alles, was Sie tun müssen, ist eine .nzb hinzuzufügen. SABnzbd übernimmt dann die Kontrolle, wo es automatisch heruntergeladen, überprüft, repariert, extrahiert und archiviert wird, ohne menschliches Eingreifen. SABnzbd bietet einen einfachen Einrichtungsassistenten und hat selbstanalysierende Tools, um Ihre Einrichtung zu überprüfen.",
+  "developer": "Sabnzbd Team",
+  "screenshot_link": [
+    "apps/sabnzbd/assets/screenshot-1.webp",
+    "apps/sabnzbd/assets/screenshot-2.webp",
+    "apps/sabnzbd/assets/screenshot-3.webp",
+    "apps/sabnzbd/assets/screenshot-4.webp",
+    "apps/sabnzbd/assets/screenshot-5.webp",
+    "apps/sabnzbd/assets/screenshot-6.webp",
+    "apps/sabnzbd/assets/screenshot-7.webp"
+  ],
+  "tagline": "Freier und einfacher Binär-Newsreader",
+  "thumbnail": "apps/sabnzbd/assets/thumbnail.webp",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

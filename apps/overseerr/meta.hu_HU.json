@@ -1,0 +1,18 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "Az Overseerr egy ingyenes és nyílt forráskódú szoftveralkalmazás a média könyvtáradban található kérések kezelésére. Integrálódik a meglévő szolgáltatásaiddal, mint például a Sonarr, Radarr és Plex!",
+  "tagline": "Az Overseerr egy kérelemkezelő és médiakereső eszköz, amelyet a meglévő Plex ökoszisztémáddal együtt lehet használni.",
+  "developer": "LinuxServer.io",
+  "author": "WisdomSky",
+  "screenshot_link": [
+    "apps/overseerr/assets/screenshot-1.webp",
+    "apps/overseerr/assets/screenshot-2.webp",
+    "apps/overseerr/assets/screenshot-3.webp"
+  ],
+  "thumbnail": "apps/overseerr/assets/icon.png",
+  "category": "Media",
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

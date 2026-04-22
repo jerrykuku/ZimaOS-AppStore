@@ -1,0 +1,17 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "description": "",
+  "tagline": "",
+  "screenshot_link": [],
+  "developer": "MongoDB Inc.",
+  "author": "WisdomSky",
+  "thumbnail": "apps/mongodb/assets/icon.png",
+  "category": "Developer",
+  "tips": {
+    "before_install": "Den här versionen av MongoDB kräver en CPU med AVX-stöd. Den här versionen av MongoDB kommer inte att fungera med ZimaBoard."
+  },
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

@@ -1,0 +1,14 @@
+{
+  "architectures": [
+    "amd64",
+    "arm",
+    "arm64"
+  ],
+  "author": "calganaygun",
+  "category": "Media",
+  "screenshot_link": [
+    "apps/rdtclient/assets/screenshot-1.webp"
+  ],
+  "store_app_id": "rdtclient",
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

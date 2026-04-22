@@ -1,0 +1,20 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Media",
+  "description": "A Sonarr egy PVR Usenet és BitTorrent felhasználók számára. Követni tudja több RSS hírcsatornát az Ön kedvenc műsorainak új részeire, és elkapja, rendezni és átnevezni őket. Beállítható arra is, hogy automatikusan frissítse a már letöltött fájlok minőségét, ha egy jobb minőség áll rendelkezésre.",
+  "developer": "Sonarr",
+  "screenshot_link": [
+    "apps/sonarr/assets/screenshot-1.webp",
+    "apps/sonarr/assets/screenshot-2.webp",
+    "apps/sonarr/assets/screenshot-3.webp",
+    "apps/sonarr/assets/screenshot-4.webp"
+  ],
+  "tagline": "A PVR Usenet és BitTorrent felhasználók számára",
+  "thumbnail": "apps/sonarr/assets/thumbnail.webp",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

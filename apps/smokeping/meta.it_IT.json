@@ -1,0 +1,21 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Networking",
+  "description": "tiene traccia della latenza della rete.",
+  "developer": "Lazylibrarian Team",
+  "screenshot_link": [
+    "apps/smokeping/assets/screenshot-1.webp",
+    "apps/smokeping/assets/screenshot-2.webp",
+    "apps/smokeping/assets/screenshot-3.webp",
+    "apps/smokeping/assets/screenshot-4.webp",
+    "apps/smokeping/assets/screenshot-5.webp"
+  ],
+  "tagline": "Strumento di monitoraggio delle prestazioni di rete open source gratuito",
+  "thumbnail": "apps/smokeping/assets/thumbnail.webp",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

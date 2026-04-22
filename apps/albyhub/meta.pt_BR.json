@@ -1,0 +1,17 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "calganaygun",
+  "category": "Finance",
+  "description": "",
+  "screenshot_link": [
+    "apps/albyhub/assets/node.png",
+    "apps/albyhub/assets/store.png",
+    "apps/albyhub/assets/wallet.png"
+  ],
+  "tagline": "Um nó Bitcoin Lightning simples com uma carteira, subcontas e conexões NWC.",
+  "store_app_id": "albyhub",
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

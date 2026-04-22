@@ -1,0 +1,20 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Media",
+  "description": "Readarr是一个用于Usenet和BitTorrent用户的电子书收藏管理器。它可以监视多个RSS源以获取您最喜欢的作者的新书，并且可以与客户端和索引器进行交互以获取，排序和重命名它们。",
+  "developer": "Readarr Team",
+  "screenshot_link": [
+    "apps/readarr/assets/screenshot-1.webp",
+    "apps/readarr/assets/screenshot-2.webp",
+    "apps/readarr/assets/screenshot-3.webp",
+    "apps/readarr/assets/screenshot-4.webp"
+  ],
+  "tagline": "用于Usenet和BitTorrent用户的电子书和有声书收藏管理器。",
+  "thumbnail": "apps/readarr/assets/thumbnail.webp",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

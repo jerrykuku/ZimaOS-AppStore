@@ -1,0 +1,17 @@
+{
+  "architectures": [
+    "amd64",
+    "arm",
+    "arm64"
+  ],
+  "description": "",
+  "tagline": "PostgreSQL är ett avancerat, företagsklassat och öppen källkod-relationellt databassystem. PostgreSQL stöder både SQL (relationell) och JSON (icke-relationell) frågning.",
+  "developer": "PostgreSQL Global Dev't Group",
+  "author": "WisdomSky",
+  "thumbnail": "apps/postgresql/assets/icon.png",
+  "tips": {
+    "before_install": ""
+  },
+  "category": "Developer",
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

@@ -1,0 +1,16 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "author": "hiyouga",
+  "category": "AI",
+  "description": "LLaMA Factory — это комплексная платформа для тонкой настройки больших языковых моделей (LLMs) с поддержкой более 100 моделей. Она предоставляет удобный веб-интерфейс и мощные методы обучения, включая LoRA, QLoRA и полное обучение параметров.\n\n**Основные Функции:**\n- Поддержка 100+ LLMs, включая LLaMA, Mistral, Qwen и другие\n- Множественные методы тонкой настройки (LoRA, QLoRA, Full, Freeze)\n- Интуитивный веб-интерфейс для простого управления моделями\n- Встроенный API-сервер для вывода моделей\n- Поддержка обучения на нескольких GPU\n- Возможности квантования и экспорта моделей\n\n**Требования к Оборудованию:**\n- GPU: требуется NVIDIA GPU с поддержкой CUDA\n\n**Узнать Больше:**\n- [Репозиторий GitHub](https://github.com/hiyouga/LLaMA-Factory)\n- [Документация](https://llamafactory.readthedocs.io/)\n",
+  "developer": "hiyouga",
+  "screenshot_link": [
+    "apps/llama-factory-nvidia/assets/screenshot-1.webp",
+    "apps/llama-factory-nvidia/assets/screenshot-2.webp",
+    "apps/llama-factory-nvidia/assets/screenshot-3.webp"
+  ],
+  "tagline": "Унифицированная тонкая настройка LLM с 100+ моделями",
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

@@ -1,0 +1,20 @@
+{
+  "architectures": [
+    "amd64",
+    "386",
+    "arm64",
+    "arm"
+  ],
+  "author": "CasaOS Team",
+  "category": "Productivity",
+  "description": "WebDAV ist ein webbasiertes Protokoll, das es Ihnen ermöglicht, Dateien über das Internet zu teilen und zu verwalten und eine kollaborative Umgebung für die Dateibearbeitung und Versionskontrolle bietet.",
+  "developer": "CasaOS Team",
+  "screenshot_link": [
+    "apps/webdav/assets/screenshot-1.webp"
+  ],
+  "tagline": "Ein webbasiertes Dateifreigabe- und Verwaltungsprotokoll",
+  "tips": {
+    "before_install": ""
+  },
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

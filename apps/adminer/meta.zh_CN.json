@@ -1,0 +1,19 @@
+{
+  "architectures": [
+    "amd64",
+    "arm",
+    "arm64"
+  ],
+  "author": "Tim Düsterhus",
+  "category": "Developer",
+  "description": "Adminer（前身为phpMinAdmin）是一个用PHP编写的功能齐全的数据库管理工具。区别于phpMyAdmin，它仅为单个部署到目标服务器的文件（轻量）。Adminer可用于MySQL、PostgreSQL、SQLite、MS SQL、Oracle、Firebird、SimpleDB、Elasticsearch和MongoDB。",
+  "developer": "Jakub Vrána",
+  "screenshot_link": [
+    "apps/adminer/assets/screenshot-1.webp",
+    "apps/adminer/assets/screenshot-2.webp",
+    "apps/adminer/assets/screenshot-3.webp"
+  ],
+  "tagline": "单PHP文件的数据库管理工具",
+  "thumbnail": "apps/adminer/assets/thumbnail.webp",
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

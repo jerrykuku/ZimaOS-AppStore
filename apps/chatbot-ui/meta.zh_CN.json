@@ -1,0 +1,15 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "AI",
+  "description": "Chatbot UI是一个开源的AI模型聊天界面。",
+  "developer": "Mckay Wrigley",
+  "screenshot_link": [
+    "apps/chatbot-ui/assets/screenshot-1.webp"
+  ],
+  "tagline": "用于AI模型的开源聊天界面",
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

@@ -1,0 +1,17 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "FileFlows",
+  "category": "Media",
+  "developer": "FileFlows",
+  "screenshot_link": [
+    "apps/fileflows/assets/screenshot-1.webp",
+    "apps/fileflows/assets/screenshot-2.webp",
+    "apps/fileflows/assets/screenshot-3.webp"
+  ],
+  "tagline": "Обработка файлов стала проще!",
+  "description": "Сэкономьте место для хранения с эффективной обработкой файлов.\n\nFileFlows позволяет вам отслеживать и обрабатывать любой тип файлов с помощью настраиваемых потоков. Видео, аудио, изображения, архивы, комиксы, электронные книги — все, что вам нужно!\n",
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

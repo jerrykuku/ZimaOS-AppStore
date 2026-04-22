@@ -1,0 +1,17 @@
+{
+  "architectures": [
+    "amd64",
+    "arm",
+    "arm64"
+  ],
+  "description": "PostgreSQLは、35年以上の積極的な開発を経て確かな信頼性と機能の堅牢さ、高いパフォーマンスを備えた強力なオープンソースのオブジェクトリレーショナルデータベースシステムです。\n\nPostgreSQLはオープンソースコミュニティによる20年以上の開発によって高度に安定したデータベースです。\n\nPostgreSQLは多くのWebアプリケーションやモバイルアプリケーション、分析アプリケーションで主要なデータベースとして使用されています。\n",
+  "tagline": "",
+  "developer": "PostgreSQL Global Dev't Group",
+  "author": "WisdomSky",
+  "thumbnail": "apps/postgresql/assets/icon.png",
+  "tips": {
+    "before_install": ""
+  },
+  "category": "Developer",
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

@@ -1,0 +1,21 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Media",
+  "description": "Transmissionは、シンプルさと強力なパフォーマンスを追求して設計されたBitTorrentクライアントで、効率的でユーザーフレンドリーなダウンロード体験を提供します。暗号化、Webインターフェース、ピア交換、マグネットリンク、DHT、µTP、UPnPおよびNAT-PMPポートフォワーディング、webseedサポート、監視ディレクトリ、トラッカー編集、グローバルおよびトレントごとの速度制限など、期待されるすべての基本機能が搭載されています。\n\n直感的なインターフェースにより、Transmissionは初心者から上級者まで対応しています。単一のダウンロードを管理する場合でも、複雑なトレントキューをやりくりする場合でも、Transmissionは最適化されたリソース使用と信頼性の高いパフォーマンスでシームレスな体験を保証します。カジュアルユーザーとテクノロジー愛好家の両方にとって、Transmissionは理想的なBitTorrentソリューションです。\n",
+  "developer": "Transmission",
+  "screenshot_link": [
+    "apps/transmission/assets/screenshot-1.webp",
+    "apps/transmission/assets/screenshot-2.webp",
+    "apps/transmission/assets/screenshot-3.webp"
+  ],
+  "tagline": "Transmission はクロスプラットフォームの BitTorrent クライアントです",
+  "thumbnail": "apps/transmission/assets/thumbnail.webp",
+  "tips": {
+    "before_install": "| ユーザー名 | パスワード |\n| --------- | --------- |\n| `casaos` | `casaos` |\n"
+  },
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

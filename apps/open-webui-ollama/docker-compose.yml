@@ -1,0 +1,35 @@
+name: open-webui-ollama
+services:
+  open-webui-ollama:
+    image: ghcr.io/open-webui/open-webui:ollama
+    runtime: nvidia
+    ipc: host
+    environment:
+      CPU_FALLBACK: 'true'
+      NVIDIA_VISIBLE_DEVICES: all
+    deploy:
+      resources:
+        reservations:
+          memory: 512M
+    network_mode: bridge
+    ports:
+    - target: 8080
+      published: '3050'
+      protocol: tcp
+    restart: always
+    volumes:
+    - type: bind
+      source: /DATA/AppData/open-webui-ollama/open-webui
+      target: /app/backend/data
+    - type: bind
+      source: /DATA/AppData/open-webui-ollama/ollama
+      target: /root/.ollama
+    privileged: false
+    container_name: open-webui-ollama
+x-casaos:
+  main: open-webui-ollama
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/open-webui-ollama/assets/icon.svg
+  scheme: http
+  title: Open WebUI
+  index: /
+  port_map: '3050'

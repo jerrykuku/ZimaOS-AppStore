@@ -1,0 +1,17 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "category": "AI",
+  "developer": "All-Hands-AI",
+  "author": "All-Hands-AI",
+  "tagline": "Açık Kaynaklı AI Destekli Kodlama Asistanı",
+  "description": "OpenHands, geliştiricilere akıllı kod tamamlama, oluşturma ve hata ayıklama yetenekleri sağlayan açık kaynaklı bir AI destekli kodlama asistanıdır. Güvenlik ve izolasyonu sağlamak için sandbox bir ortamda çalışırken çeşitli geliştirme araçlarına ve kaynaklara erişime izin verir.\n\n**Ana Özellikler:**\n- AI destekli kod tamamlama ve oluşturma\n- Etkileşimli hata ayıklama ve sorun çözme\n- Çoklu programlama dili desteği\n- Güvenli sandbox yürütme ortamı\n- Özelleştirilebilir çalışma zamanı yapılandırmaları\n- Kapsayıcılı iş akışları için Docker entegrasyonu\n\n**Daha Fazla Bilgi Edinin:**\n- [OpenHands Resmi Web Sitesi](https://www.all-hands.dev)\n- [OpenHands GitHub Deposu](https://github.com/All-Hands-AI/OpenHands)\n- [Belgeler](https://docs.all-hands.dev)\n",
+  "screenshot_link": [
+    "apps/openhands/assets/screenshot-1.webp",
+    "apps/openhands/assets/screenshot-2.webp",
+    "apps/openhands/assets/screenshot-3.webp"
+  ],
+  "thumbnail": "",
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

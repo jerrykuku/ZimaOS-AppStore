@@ -1,0 +1,20 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Media",
+  "description": "Mylar est un programme de téléchargement automatique de bandes dessinées (cbr / cbz) à utiliser avec NZB et torrents. Mylar vous permet de créer une liste de surveillance de séries qui surveille diverses choses (nouveaux problèmes, informations mises à jour, etc.). Il récupérera, triera et renommera les problèmes téléchargés. Il vous permettra également de surveiller les listes de tirage hebdomadaires pour télécharger des éléments appartenant aux séries de la liste de surveillance, ainsi que de surveiller et de maintenir les arcs de l'histoire.",
+  "developer": "Mylar3 Team",
+  "screenshot_link": [
+    "apps/mylar3/assets/screenshot-1.webp",
+    "apps/mylar3/assets/screenshot-2.webp",
+    "apps/mylar3/assets/screenshot-3.webp",
+    "apps/mylar3/assets/screenshot-4.webp"
+  ],
+  "tagline": "Téléchargeur de bandes dessinées automatique (cbr/cbz)",
+  "thumbnail": "apps/mylar3/assets/thumbnail.webp",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

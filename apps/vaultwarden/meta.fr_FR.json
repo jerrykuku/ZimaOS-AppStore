@@ -1,0 +1,20 @@
+{
+  "architectures": [
+    "amd64",
+    "arm",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Productivity",
+  "description": "Implémentation alternative de l'API du serveur Bitwarden écrite en Rust et compatible avec les clients Bitwarden supérieurs *, parfaite pour le déploiement auto-hébergé où l'exécution du service officiel lourd en ressources peut ne pas être idéale.",
+  "developer": "Daniel García",
+  "screenshot_link": [
+    "apps/vaultwarden/assets/screenshot-1.webp",
+    "apps/vaultwarden/assets/screenshot-2.webp",
+    "apps/vaultwarden/assets/screenshot-3.webp"
+  ],
+  "tagline": "Un serveur Bitwarden auto-hébergé",
+  "thumbnail": "apps/vaultwarden/assets/thumbnail.webp",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

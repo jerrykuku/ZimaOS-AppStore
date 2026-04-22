@@ -1,0 +1,19 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Productivity",
+  "description": "Duplicati - это бесплатный клиент резервного копирования с открытым исходным кодом, который безопасно хранит зашифрованные, инкрементальные, сжатые резервные копии на облачных службах хранения и удаленных файловых серверах.",
+  "developer": "duplicati",
+  "screenshot_link": [
+    "apps/duplicati/assets/screenshot-1.webp",
+    "apps/duplicati/assets/screenshot-2.webp",
+    "apps/duplicati/assets/screenshot-3.webp"
+  ],
+  "tagline": "Храните безопасные зашифрованные резервные копии в облаке!",
+  "thumbnail": "apps/duplicati/assets/thumbnail.webp",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

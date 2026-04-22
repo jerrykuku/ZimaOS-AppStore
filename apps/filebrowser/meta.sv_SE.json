@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64",
+    "arm"
+  ],
+  "author": "CasaOS Team",
+  "category": "Productivity",
+  "description": "File Browser - Webbaserad filbläddrare inklusive delningsfunktioner etc.",
+  "developer": "File Browser",
+  "screenshot_link": [
+    "apps/filebrowser/assets/screenshot-1.webp",
+    "apps/filebrowser/assets/screenshot-2.webp",
+    "apps/filebrowser/assets/screenshot-3.webp"
+  ],
+  "tagline": "Ladda upp, ta bort, förhandsgranska, byt namn, redigera och dela dina filer.",
+  "thumbnail": "apps/filebrowser/assets/thumbnail.webp",
+  "tips": {
+    "before_install": ""
+  },
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

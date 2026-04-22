@@ -1,0 +1,21 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "author": "CasaOS Team",
+  "category": "Networking",
+  "description": "отслеживает задержку сети.",
+  "developer": "Lazylibrarian Team",
+  "screenshot_link": [
+    "apps/smokeping/assets/screenshot-1.webp",
+    "apps/smokeping/assets/screenshot-2.webp",
+    "apps/smokeping/assets/screenshot-3.webp",
+    "apps/smokeping/assets/screenshot-4.webp",
+    "apps/smokeping/assets/screenshot-5.webp"
+  ],
+  "tagline": "Бесплатный инструмент мониторинга производительности сети с открытым исходным кодом",
+  "thumbnail": "apps/smokeping/assets/thumbnail.webp",
+  "tips": {},
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

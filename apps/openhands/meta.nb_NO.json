@@ -1,0 +1,17 @@
+{
+  "architectures": [
+    "amd64"
+  ],
+  "category": "AI",
+  "developer": "All-Hands-AI",
+  "author": "All-Hands-AI",
+  "tagline": "Åpen kildekode AI-drevet kodeassistent",
+  "description": "OpenHands er en åpen kildekode AI-drevet kodeassistent som gir utviklere intelligent kodedekning, generering og feilsøkingsmuligheter. Det kjører i et sandkasse-miljø for å sikre sikkerhet og isolasjon, samtidig som det gir tilgang til ulike utviklingsverktøy og ressurser.\n\n**Nøkkelegenskaper:**\n- AI-drevet kodedekning og generering\n- Interaktiv feilsøking og feilløsning\n- Støtte for flere programmeringsspråk\n- Sikkert sandkasse-kjøremiljø\n- Tilpassbare kjøretidskonfigurasjoner\n- Integrasjon med Docker for containeriserte arbeidsflyter\n\n**Lær mer:**\n- [OpenHands offisielt nettsted](https://www.all-hands.dev)\n- [OpenHands GitHub Repository](https://github.com/All-Hands-AI/OpenHands)\n- [Dokumentasjon](https://docs.all-hands.dev)\n",
+  "screenshot_link": [
+    "apps/openhands/assets/screenshot-1.webp",
+    "apps/openhands/assets/screenshot-2.webp",
+    "apps/openhands/assets/screenshot-3.webp"
+  ],
+  "thumbnail": "",
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

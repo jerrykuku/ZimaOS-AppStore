@@ -1,0 +1,28 @@
+{
+  "thumbnail": "apps/2fauth/assets/thumbnail.webp",
+  "screenshot_link": [
+    "apps/2fauth/assets/screenshot-1.webp",
+    "apps/2fauth/assets/screenshot-2.webp",
+    "apps/2fauth/assets/screenshot-3.webp"
+  ],
+  "tagline": "Aplikacja internetowa do zarządzania kontami uwierzytelniania dwuskładnikowego (2FA) i generowania ich kodów bezpieczeństwa",
+  "description": "2FAuth to alternatywa samohostowana na podstawie sieci web do generatorów kodów jednorazowych (OTP) takich jak Google Authenticator, zaprojektowana dla urządzeń mobilnych i stacjonarnych.",
+  "tips": {},
+  "author": "CasaOS Team",
+  "developer": "Bubka",
+  "category": "Productivity",
+  "architectures": [
+    "amd64",
+    "386",
+    "arm64",
+    "arm"
+  ],
+  "version": "1.0.0",
+  "updateAt": "2024-06-01",
+  "releaseNotes": "",
+  "website": "http://www.2fauth.com/",
+  "repo": "http://www.2fauth.com/",
+  "support": "http://www.2fauth.com/",
+  "docs": "http://www.2fauth.com/",
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

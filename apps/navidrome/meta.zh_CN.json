@@ -1,0 +1,17 @@
+{
+  "architectures": [
+    "amd64",
+    "arm64",
+    "arm"
+  ],
+  "author": "The Navidrome Authors",
+  "category": "Media",
+  "description": "Navidrome是一个开源的基于Web的音乐收藏服务器和流媒体服务器。它让您可以在任何浏览器或移动设备上自由收听音乐收藏。就像您个人的Spotify一样！",
+  "tagline": "音乐收藏和流媒体服务器",
+  "screenshot_link": [
+    "apps/navidrome/assets/screenshot-1.webp",
+    "apps/navidrome/assets/screenshot-2.webp"
+  ],
+  "store_app_id": "navidrome",
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+}

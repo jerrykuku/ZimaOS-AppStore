@@ -2,22 +2,27 @@
 """
 Build script for ZimaOS AppStore online metadata.
 
-Processes Apps/ directory to produce a GitHub Pages-ready static site
-with per-language output directories:
+Generates a flat output layout:
 
   dist/
-    assets/apps/{app_id}/          # shared images (once)
-    {locale}/store.json            # single-language store info
-    {locale}/index.json            # single-language app listing
-    {locale}/apps/{app_id}/
-        docker-compose.yml         # single-language compose
-        meta.json                  # single-language metadata
+    index.json
+    index.{locale}.json            # only when locale is explicitly defined in app i18n
+    store.json
+    store.{locale}.json            # only when locale is explicitly defined in store i18n
+    apps/{app_id}/
+      docker-compose.yml
+      meta.json
+      meta.{locale}.json           # only when locale is explicitly defined in app i18n
+      assets/
+        icon.svg
+        thumbnail.webp
+        screenshot-1.webp
 """
 
 import argparse
+import copy
 import hashlib
 import json
-import os
 import shutil
 import subprocess
 import sys
@@ -47,15 +52,24 @@ WEBP_QUALITY = 85
 # Store config input filename
 STORE_CONFIG_FILE = "store-config.json"
 
-# Category list input filename (optional, for official store)
-CATEGORY_LIST_FILE = "category-list.json"
-
 # Supported languages config filename
 SUPPORTED_LANGUAGES_FILE = "supported-languages.json"
 
 # Default / fallback locale
 DEFAULT_LOCALE = "en_US"
 
+# Fields in x-casaos that contain i18n locale dicts
+I18N_FIELDS = {"title", "tagline", "description", "releaseNotes"}
+# Fields that contain nested i18n dicts (e.g. tips.before_install)
+I18N_NESTED_FIELDS = {"tips"}
+
+# Index-level i18n fields
+INDEX_I18N_FIELDS = {"title", "tagline"}
+
+
+# ---------------------------------------------------------------------------
+# Arguments / utility helpers
+# ---------------------------------------------------------------------------
 
 def parse_args():
     parser = argparse.ArgumentParser(
@@ -79,10 +93,6 @@ def parse_args():
     return parser.parse_args()
 
 
-# ---------------------------------------------------------------------------
-# Utility helpers
-# ---------------------------------------------------------------------------
-
 def content_hash(*parts):
     """Compute a short SHA-256 hash over multiple content strings/bytes."""
     h = hashlib.sha256()
@@ -90,6 +100,22 @@ def content_hash(*parts):
         if isinstance(p, str):
             p = p.encode("utf-8")
         h.update(p)
+    return h.hexdigest()[:8]
+
+
+def hash_directory_files(root_dir):
+    """Compute a stable short hash from all files under a directory."""
+    h = hashlib.sha256()
+    files = sorted(
+        p for p in root_dir.rglob("*")
+        if p.is_file()
+    )
+    for file_path in files:
+        rel = file_path.relative_to(root_dir).as_posix().encode("utf-8")
+        h.update(rel)
+        h.update(b"\0")
+        h.update(file_path.read_bytes())
+        h.update(b"\0")
     return h.hexdigest()[:8]
 
 
@@ -116,16 +142,10 @@ def normalize_locale_key(key):
 
 
 def normalize_locale_dict(d):
-    """Recursively normalize all locale keys in i18n dicts."""
+    """Normalize locale keys in i18n dicts."""
     if not isinstance(d, dict):
         return d
     return {normalize_locale_key(k): v for k, v in d.items()}
-
-
-# Fields in x-casaos that contain i18n locale dicts
-I18N_FIELDS = {"title", "tagline", "description", "releaseNotes"}
-# Fields that contain nested i18n dicts (e.g. tips.before_install)
-I18N_NESTED_FIELDS = {"tips"}
 
 
 def normalize_i18n_in_dict(data):
@@ -142,29 +162,57 @@ def normalize_i18n_in_dict(data):
 
 
 def resolve_i18n(value, locale):
-    """Resolve an i18n dict to a plain string for the given locale.
-
-    Falls back to DEFAULT_LOCALE, then first available value.
-    If value is already a string, return as-is.
-    """
+    """Resolve an i18n dict to plain text with fallback chain."""
     if not isinstance(value, dict):
         return value if value is not None else ""
     if locale in value:
         return value[locale]
     if DEFAULT_LOCALE in value:
         return value[DEFAULT_LOCALE]
-    # Last resort: first available value
     return next(iter(value.values()), "")
 
 
-def resolve_i18n_nested(value, locale):
+def resolve_i18n_strict(value, locale):
+    """Resolve i18n without fallback; return empty string when locale missing."""
+    if not isinstance(value, dict):
+        return value if value is not None else ""
+    return value.get(locale, "")
+
+
+def resolve_i18n_nested(value, locale, strict=False):
     """Resolve a nested i18n structure (like tips) for a given locale."""
     if not isinstance(value, dict):
         return value
+    resolver = resolve_i18n_strict if strict else resolve_i18n
     result = {}
     for key, sub_val in value.items():
-        result[key] = resolve_i18n(sub_val, locale)
+        result[key] = resolver(sub_val, locale)
     return result
+
+
+def collect_locales_from_i18n(data, fields=None, nested_fields=None):
+    """Collect explicitly defined locales from i18n dict fields."""
+    if not isinstance(data, dict):
+        return set()
+
+    fields = fields or I18N_FIELDS
+    nested_fields = nested_fields or I18N_NESTED_FIELDS
+    locales = set()
+
+    for field in fields:
+        value = data.get(field)
+        if isinstance(value, dict):
+            locales.update(value.keys())
+
+    for field in nested_fields:
+        value = data.get(field)
+        if not isinstance(value, dict):
+            continue
+        for sub_val in value.values():
+            if isinstance(sub_val, dict):
+                locales.update(sub_val.keys())
+
+    return locales
 
 
 def to_json_safe(obj):
@@ -184,15 +232,16 @@ def load_supported_languages(source):
     """Load supported languages list from config file."""
     lang_path = source / SUPPORTED_LANGUAGES_FILE
     if not lang_path.exists():
-        print(f"  WARN  {SUPPORTED_LANGUAGES_FILE} not found, using {DEFAULT_LOCALE} only",
-              file=sys.stderr)
+        print(
+            f"  WARN  {SUPPORTED_LANGUAGES_FILE} not found, using {DEFAULT_LOCALE} only",
+            file=sys.stderr,
+        )
         return [DEFAULT_LOCALE]
     with open(lang_path, "r", encoding="utf-8") as f:
         languages = json.load(f)
-    # Ensure default locale is always included
     if DEFAULT_LOCALE not in languages:
         languages.insert(0, DEFAULT_LOCALE)
-    return languages
+    return [normalize_locale_key(l) for l in languages]
 
 
 # ---------------------------------------------------------------------------
@@ -207,11 +256,11 @@ def optimize_and_convert_image(src_path, dst_path, max_width=MAX_IMAGE_WIDTH, qu
 
     src_ext = src_path.suffix.lower()
 
-    if src_ext == '.svg':
+    if src_ext == ".svg":
         shutil.copy2(src_path, dst_path)
         return dst_path.name
 
-    if src_ext == '.webp':
+    if src_ext == ".webp":
         try:
             with Image.open(src_path) as img:
                 if img.width <= max_width:
@@ -223,22 +272,22 @@ def optimize_and_convert_image(src_path, dst_path, max_width=MAX_IMAGE_WIDTH, qu
 
     try:
         with Image.open(src_path) as img:
-            if img.mode in ('RGBA', 'LA', 'P'):
-                background = Image.new('RGB', img.size, (255, 255, 255))
-                if img.mode == 'P':
-                    img = img.convert('RGBA')
-                background.paste(img, mask=img.split()[-1] if img.mode in ('RGBA', 'LA') else None)
+            if img.mode in ("RGBA", "LA", "P"):
+                background = Image.new("RGB", img.size, (255, 255, 255))
+                if img.mode == "P":
+                    img = img.convert("RGBA")
+                background.paste(img, mask=img.split()[-1] if img.mode in ("RGBA", "LA") else None)
                 img = background
-            elif img.mode != 'RGB':
-                img = img.convert('RGB')
+            elif img.mode != "RGB":
+                img = img.convert("RGB")
 
             if img.width > max_width:
                 ratio = max_width / img.width
                 new_height = int(img.height * ratio)
                 img = img.resize((max_width, new_height), Image.Resampling.LANCZOS)
 
-            webp_path = dst_path.with_suffix('.webp')
-            img.save(webp_path, 'WEBP', quality=quality, method=6)
+            webp_path = dst_path.with_suffix(".webp")
+            img.save(webp_path, "WEBP", quality=quality, method=6)
             return webp_path.name
 
     except Exception as e:
@@ -252,7 +301,10 @@ def convert_svg_icon_to_png(src_svg, dst_png):
     try:
         subprocess.run(
             ["rsvg-convert", str(src_svg), "-o", str(dst_png)],
-            check=True, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, text=True,
+            check=True,
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.PIPE,
+            text=True,
         )
         return dst_png.name
     except FileNotFoundError:
@@ -264,14 +316,14 @@ def convert_svg_icon_to_png(src_svg, dst_png):
 
 
 def process_app_assets(app_dir, assets_output):
-    """Process images for a single app into the shared assets directory.
+    """Process images for a single app into apps/{app_id}/assets.
 
     Returns (copied_images, image_mapping, icon_filename).
     """
     assets_output.mkdir(parents=True, exist_ok=True)
 
     copied_images = []
-    image_mapping = {}  # original_name -> output_name
+    image_mapping = {}
     has_icon_svg = (app_dir / "icon.svg").exists()
 
     for img_file in app_dir.iterdir():
@@ -291,16 +343,14 @@ def process_app_assets(app_dir, assets_output):
                         copied_images.append(png_name)
                         image_mapping["icon.png"] = png_name
                 continue
-            else:
-                shutil.copy2(img_file, dst_path)
-                copied_images.append(img_file.name)
-                image_mapping[img_file.name] = img_file.name
+            shutil.copy2(img_file, dst_path)
+            copied_images.append(img_file.name)
+            image_mapping[img_file.name] = img_file.name
         else:
             output_name = optimize_and_convert_image(img_file, dst_path)
             copied_images.append(output_name)
             image_mapping[img_file.name] = output_name
 
-    # Determine icon filename
     icon_filename = "icon.png"
     if "icon.svg" in copied_images:
         icon_filename = "icon.svg"
@@ -340,33 +390,8 @@ def load_store_config(source):
     return config
 
 
-def load_categories(source, entries):
-    """Load categories from category-list.json or auto-extract from entries."""
-    cat_path = source / CATEGORY_LIST_FILE
-    if cat_path.exists():
-        with open(cat_path, "r", encoding="utf-8") as f:
-            categories = json.load(f)
-        for cat in categories:
-            for field in ("name", "description"):
-                if field in cat and isinstance(cat[field], dict):
-                    cat[field] = normalize_locale_dict(cat[field])
-        return categories
-
-    seen = set()
-    categories = []
-    for entry in entries:
-        cat = entry.get("category", "")
-        if cat and cat not in seen:
-            seen.add(cat)
-            categories.append({"name": cat})
-    return categories
-
-
 def split_compose(compose_data):
-    """Split parsed docker-compose.yml into clean compose + meta dict.
-
-    Returns (compose_data, meta_dict, original_xcasaos).
-    """
+    """Split parsed docker-compose.yml into clean compose + meta dict."""
     xcasaos = compose_data.pop("x-casaos", {})
 
     if "port_map" in xcasaos and not isinstance(xcasaos["port_map"], str):
@@ -382,7 +407,7 @@ def split_compose(compose_data):
 
     services = compose_data.get("services", {})
     if isinstance(services, dict):
-        for svc_name, svc_def in services.items():
+        for svc_def in services.values():
             if not isinstance(svc_def, dict):
                 continue
             if "x-casaos" in svc_def:
@@ -394,7 +419,7 @@ def split_compose(compose_data):
                     del svc_def["labels"]
 
     compose_data["x-casaos"] = compose_xcasaos
-    return compose_data, meta, xcasaos
+    return compose_data, meta
 
 
 # ---------------------------------------------------------------------------
@@ -429,7 +454,7 @@ def parse_app(app_dir):
     original_xcasaos = dict(compose_data.get("x-casaos", {}))
     app_id = resolve_app_id(compose_data, original_xcasaos, app_dir.name)
 
-    compose_data, meta, _ = split_compose(compose_data)
+    compose_data, meta = split_compose(compose_data)
 
     normalize_i18n_in_dict(compose_data.get("x-casaos", {}))
     normalize_i18n_in_dict(meta)
@@ -451,36 +476,20 @@ def resolve_asset_filename(url_or_name, image_mapping, copied_images):
     return fname
 
 
-def write_locale_app(app_id, compose_data, meta, original_xcasaos,
-                     locale, locale_output, assets_path,
-                     icon_filename, copied_images, image_mapping, base_url):
-    """Write single-language compose + meta for one app in one locale.
-
-    Returns an index entry dict.
-    """
-    import copy
-    compose_l = copy.deepcopy(compose_data)
+def build_meta_payload(meta, locale, assets_path, copied_images, image_mapping, base_url, strict=False):
+    """Build locale-resolved meta payload."""
     meta_l = copy.deepcopy(meta)
 
-    # Resolve i18n fields in compose x-casaos
-    xc = compose_l.get("x-casaos", {})
-    if "title" in xc:
-        xc["title"] = resolve_i18n(xc["title"], locale)
-    xc["icon"] = url_join(base_url, f"{assets_path}/{icon_filename}")
-    compose_l["x-casaos"] = xc
-
-    # Resolve i18n fields in meta
+    resolver = resolve_i18n_strict if strict else resolve_i18n
     for field in I18N_FIELDS:
         if field in meta_l:
-            meta_l[field] = resolve_i18n(meta_l[field], locale)
+            meta_l[field] = resolver(meta_l[field], locale)
     for field in I18N_NESTED_FIELDS:
         if field in meta_l and isinstance(meta_l[field], dict):
-            meta_l[field] = resolve_i18n_nested(meta_l[field], locale)
+            meta_l[field] = resolve_i18n_nested(meta_l[field], locale, strict=strict)
 
-    # Remove icon from meta (stays in compose)
     meta_l.pop("icon", None)
 
-    # Resolve image paths to assets/
     if "thumbnail" in meta_l:
         thumb_fname = resolve_asset_filename(meta_l["thumbnail"], image_mapping, copied_images)
         meta_l["thumbnail"] = f"{assets_path}/{thumb_fname}" if thumb_fname else ""
@@ -488,46 +497,41 @@ def write_locale_app(app_id, compose_data, meta, original_xcasaos,
         raw = meta_l["screenshot_link"]
         if raw and isinstance(raw, list):
             meta_l["screenshot_link"] = [
-                f"{assets_path}/{resolve_asset_filename(u, image_mapping, copied_images)}"
+                f"{assets_path}/{resolved}"
                 for u in raw
-                if resolve_asset_filename(u, image_mapping, copied_images)
+                for resolved in [resolve_asset_filename(u, image_mapping, copied_images)]
+                if resolved
             ]
         else:
             meta_l["screenshot_link"] = []
 
     meta_l["base_url"] = normalize_base_url(base_url)
+    return meta_l
 
-    # Write files
-    app_output = locale_output / "apps" / app_id
-    app_output.mkdir(parents=True, exist_ok=True)
 
-    compose_content = yaml.dump(
-        compose_l, default_flow_style=False, allow_unicode=True, sort_keys=False,
-    )
-    (app_output / "docker-compose.yml").write_text(compose_content, encoding="utf-8")
-
-    meta_content = json.dumps(to_json_safe(meta_l), ensure_ascii=False, indent=2)
-    (app_output / "meta.json").write_text(meta_content, encoding="utf-8")
-
-    # Build index entry
-    chash = content_hash(compose_content, meta_content)
-
-    entry = {
+def build_index_entry(app_id, original_xcasaos, locale, assets_path, icon_filename,
+                      thumbnail, compose_url, meta_url, content_hash_value, strict=False):
+    """Build one index entry for a locale."""
+    resolver = resolve_i18n_strict if strict else resolve_i18n
+    return {
         "id": app_id,
-        "title": resolve_i18n(original_xcasaos.get("title", ""), locale),
-        "tagline": resolve_i18n(original_xcasaos.get("tagline", ""), locale),
+        "title": resolver(original_xcasaos.get("title", ""), locale),
+        "tagline": resolver(original_xcasaos.get("tagline", ""), locale),
         "category": original_xcasaos.get("category", ""),
+        "version": original_xcasaos.get("version") or "",
         "author": original_xcasaos.get("author", ""),
         "developer": original_xcasaos.get("developer", ""),
         "architectures": original_xcasaos.get("architectures", []),
         "icon": f"{assets_path}/{icon_filename}",
-        "thumbnail": meta_l.get("thumbnail", ""),
-        "compose_url": f"{locale}/apps/{app_id}/docker-compose.yml",
-        "meta_url": f"{locale}/apps/{app_id}/meta.json",
-        "content_hash": chash,
+        "thumbnail": thumbnail,
+        "compose_url": compose_url,
+        "meta_url": meta_url,
+        "content_hash": content_hash_value,
     }
 
-    return entry
+
+def write_json(path, data):
+    path.write_text(json.dumps(to_json_safe(data), ensure_ascii=False, indent=2), encoding="utf-8")
 
 
 # ---------------------------------------------------------------------------
@@ -545,7 +549,6 @@ def main():
     print(f"Base URL: {base_url or '(relative)'}")
     print()
 
-    # Clean output directory
     if output.exists():
         shutil.rmtree(output)
     output.mkdir(parents=True)
@@ -555,21 +558,19 @@ def main():
         print(f"Error: Apps directory not found at {apps_dir}", file=sys.stderr)
         sys.exit(1)
 
-    # Load supported languages
     languages = load_supported_languages(source)
-    print(f"Languages: {len(languages)} ({', '.join(languages)})")
+    supported_locales = set(languages)
+    print(f"Languages (candidate): {len(languages)} ({', '.join(languages)})")
     print()
 
-    # Load store config
     store_config = load_store_config(source)
     if store_config:
         print(f"  STORE {store_config.get('store_id', '(unknown)')}")
     else:
         print(f"  WARN  {STORE_CONFIG_FILE} not found, skipping store.json")
 
-    # ── Phase 1: Parse all apps and process assets ──
     print("\n── Processing apps ──")
-    app_data_list = []  # list of (app_id, compose_data, meta, original_xcasaos, assets_info)
+    app_records = []
     skipped = []
 
     for app_dir in sorted(apps_dir.iterdir()):
@@ -584,78 +585,190 @@ def main():
 
         app_id, compose_data, meta, original_xcasaos = result
 
-        # Process images into shared assets directory
-        assets_app_dir = output / "assets" / "apps" / app_id
-        copied_images, image_mapping, icon_filename = process_app_assets(app_dir, assets_app_dir)
+        app_output = output / "apps" / app_id
+        assets_output = app_output / "assets"
+        copied_images, image_mapping, icon_filename = process_app_assets(app_dir, assets_output)
 
-        app_data_list.append((
-            app_id, compose_data, meta, original_xcasaos,
-            copied_images, image_mapping, icon_filename,
-        ))
+        assets_path = f"apps/{app_id}/assets"
+
+        compose_l = copy.deepcopy(compose_data)
+        compose_xc = compose_l.get("x-casaos", {})
+        if "title" in compose_xc:
+            compose_xc["title"] = resolve_i18n(compose_xc["title"], DEFAULT_LOCALE)
+        compose_xc["icon"] = url_join(base_url, f"{assets_path}/{icon_filename}")
+        compose_l["x-casaos"] = compose_xc
+
+        app_output.mkdir(parents=True, exist_ok=True)
+        compose_content = yaml.dump(
+            compose_l,
+            default_flow_style=False,
+            allow_unicode=True,
+            sort_keys=False,
+        )
+        compose_path = app_output / "docker-compose.yml"
+        compose_path.write_text(compose_content, encoding="utf-8")
+
+        meta_default = build_meta_payload(
+            meta,
+            DEFAULT_LOCALE,
+            assets_path,
+            copied_images,
+            image_mapping,
+            base_url,
+            strict=False,
+        )
+        meta_default_content = json.dumps(to_json_safe(meta_default), ensure_ascii=False, indent=2)
+        (app_output / "meta.json").write_text(meta_default_content, encoding="utf-8")
+
+        meta_locales = collect_locales_from_i18n(meta)
+        meta_locales = {
+            loc for loc in meta_locales
+            if loc in supported_locales and loc != DEFAULT_LOCALE
+        }
+        for locale in sorted(meta_locales):
+            meta_locale = build_meta_payload(
+                meta,
+                locale,
+                assets_path,
+                copied_images,
+                image_mapping,
+                base_url,
+                strict=True,
+            )
+            write_json(app_output / f"meta.{locale}.json", meta_locale)
+
+        chash = hash_directory_files(app_output)
+
+        index_locales = collect_locales_from_i18n(
+            original_xcasaos,
+            fields=INDEX_I18N_FIELDS,
+            nested_fields=set(),
+        )
+        index_locales = {
+            loc for loc in index_locales
+            if loc in supported_locales and loc != DEFAULT_LOCALE
+        }
+
+        app_records.append({
+            "app_id": app_id,
+            "original_xcasaos": original_xcasaos,
+            "assets_path": assets_path,
+            "icon_filename": icon_filename,
+            "thumbnail": meta_default.get("thumbnail", ""),
+            "content_hash": chash,
+            "index_locales": index_locales,
+        })
         print(f"  OK   {app_id}")
 
-    # Sort by app_id for stable output
-    app_data_list.sort(key=lambda x: x[0])
+    app_records.sort(key=lambda x: x["app_id"])
 
-    # ── Phase 2: Generate per-language output ──
-    print(f"\n── Generating {len(languages)} language outputs ──")
+    print("\n── Generating store/index files ──")
 
-    for locale in languages:
-        locale_output = output / locale
-        locale_output.mkdir(parents=True, exist_ok=True)
+    if store_config:
+        store_default = {
+            "version": store_config.get("version", 2),
+            "store_id": store_config.get("store_id", ""),
+            "name": resolve_i18n(store_config.get("name", ""), DEFAULT_LOCALE),
+            "description": resolve_i18n(store_config.get("description", ""), DEFAULT_LOCALE),
+            "maintainer": store_config.get("maintainer", ""),
+            "url": store_config.get("url", ""),
+        }
+        write_json(output / "store.json", store_default)
 
-        # Write store.json for this locale
-        if store_config:
-            store_l = {
+        store_locales = set()
+        for field in ("name", "description"):
+            value = store_config.get(field)
+            if isinstance(value, dict):
+                store_locales.update(value.keys())
+        store_locales = {
+            loc for loc in store_locales
+            if loc in supported_locales and loc != DEFAULT_LOCALE
+        }
+
+        for locale in sorted(store_locales):
+            store_locale = {
                 "version": store_config.get("version", 2),
                 "store_id": store_config.get("store_id", ""),
-                "name": resolve_i18n(store_config.get("name", ""), locale),
-                "description": resolve_i18n(store_config.get("description", ""), locale),
+                "name": resolve_i18n_strict(store_config.get("name", ""), locale),
+                "description": resolve_i18n_strict(store_config.get("description", ""), locale),
                 "maintainer": store_config.get("maintainer", ""),
                 "url": store_config.get("url", ""),
             }
-            (locale_output / "store.json").write_text(
-                json.dumps(store_l, ensure_ascii=False, indent=2), encoding="utf-8"
+            write_json(output / f"store.{locale}.json", store_locale)
+            print(f"  store.{locale}.json")
+
+    default_entries = []
+    for record in app_records:
+        app_id = record["app_id"]
+        default_entries.append(
+            build_index_entry(
+                app_id=app_id,
+                original_xcasaos=record["original_xcasaos"],
+                locale=DEFAULT_LOCALE,
+                assets_path=record["assets_path"],
+                icon_filename=record["icon_filename"],
+                thumbnail=record["thumbnail"],
+                compose_url=f"apps/{app_id}/docker-compose.yml",
+                meta_url=f"apps/{app_id}/meta.json",
+                content_hash_value=record["content_hash"],
+                strict=False,
             )
-
-        # Write per-app files and collect index entries
-        entries = []
-        for (app_id, compose_data, meta, original_xcasaos,
-             copied_images, image_mapping, icon_filename) in app_data_list:
-
-            assets_path = f"assets/apps/{app_id}"
-            entry = write_locale_app(
-                app_id, compose_data, meta, original_xcasaos,
-                locale, locale_output, assets_path,
-                icon_filename, copied_images, image_mapping, base_url,
-            )
-            entries.append(entry)
-
-        # Write index.json for this locale
-        index = {
-            "version": 2,
-            "updated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-            "app_count": len(entries),
-            "base_url": normalize_base_url(base_url),
-            "apps": entries,
-        }
-        index_path = locale_output / "index.json"
-        index_path.write_text(
-            json.dumps(index, ensure_ascii=False, indent=2), encoding="utf-8"
         )
 
-        print(f"  {locale}: {len(entries)} apps, index {index_path.stat().st_size / 1024:.1f} KB")
+    index_default = {
+        "version": 2,
+        "updated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "app_count": len(default_entries),
+        "base_url": normalize_base_url(base_url),
+        "apps": default_entries,
+    }
+    write_json(output / "index.json", index_default)
 
-    # ── Summary ──
-    print(f"\n{'='*50}")
-    print(f"Done! {len(app_data_list)} apps × {len(languages)} languages")
+    candidate_index_locales = set()
+    for record in app_records:
+        candidate_index_locales.update(record["index_locales"])
+
+    for locale in sorted(candidate_index_locales):
+        locale_entries = []
+        for record in app_records:
+            app_id = record["app_id"]
+            locale_entries.append(
+                build_index_entry(
+                    app_id=app_id,
+                    original_xcasaos=record["original_xcasaos"],
+                    locale=locale,
+                    assets_path=record["assets_path"],
+                    icon_filename=record["icon_filename"],
+                    thumbnail=record["thumbnail"],
+                    compose_url=f"apps/{app_id}/docker-compose.yml",
+                    meta_url=f"apps/{app_id}/meta.json",
+                    content_hash_value=record["content_hash"],
+                    strict=False,
+                )
+            )
+
+        if not locale_entries:
+            continue
+
+        index_locale = {
+            "version": 2,
+            "updated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "app_count": len(locale_entries),
+            "base_url": normalize_base_url(base_url),
+            "apps": locale_entries,
+        }
+        write_json(output / f"index.{locale}.json", index_locale)
+        print(f"  index.{locale}.json ({len(locale_entries)} apps)")
+
+    print(f"\n{'=' * 50}")
+    print(f"Done! {len(app_records)} apps")
     print(f"Output: {output}/")
-    print(f"  assets/     (shared images)")
-    for locale in languages:
-        lp = output / locale / "index.json"
-        size = f"{lp.stat().st_size / 1024:.1f} KB" if lp.exists() else "?"
-        print(f"  {locale}/    (index: {size})")
-    print(f"  categories  (removed from output)")
+    print("  index.json")
+    print("  index.{locale}.json (only when locale is explicitly defined)")
+    print("  store.json / store.{locale}.json")
+    print("  apps/{app_id}/docker-compose.yml")
+    print("  apps/{app_id}/meta.json / meta.{locale}.json")
+    print("  apps/{app_id}/assets/*")
     if skipped:
         print(f"  Skipped: {', '.join(skipped)}")
 

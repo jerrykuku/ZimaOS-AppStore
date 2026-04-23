@@ -1,17 +1,4 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
-  "author": "calganaygun",
-  "category": "Finance",
-  "description": "",
-  "screenshot_link": [
-    "apps/albyhub/assets/node.png",
-    "apps/albyhub/assets/store.png",
-    "apps/albyhub/assets/wallet.png"
-  ],
-  "tagline": "一个简单的比特币闪电节点，带有钱包、子账户和NWC连接。",
-  "store_app_id": "albyhub",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "id": "albyhub",
+  "tagline": "一个简单的比特币闪电节点，带有钱包、子账户和NWC连接。"
 }

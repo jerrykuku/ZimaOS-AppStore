@@ -8,12 +8,12 @@
   "category": "AI",
   "description": "Dify is an open-source large language model (LLM) application development platform. It combines the concepts of Backend-as-a-Service and LLMOps to enable developers to quickly build production-grade generative AI applications. Even non-technical personnel can participate in the definition and data operations of AI applications.",
   "screenshot_link": [
-    "apps/dify/assets/screenshot-1.webp",
-    "apps/dify/assets/screenshot-2.webp",
-    "apps/dify/assets/screenshot-3.webp",
-    "apps/dify/assets/screenshot-4.webp"
+    "/apps/dify/assets/screenshot-1.webp",
+    "/apps/dify/assets/screenshot-2.webp",
+    "/apps/dify/assets/screenshot-3.webp",
+    "/apps/dify/assets/screenshot-4.webp"
   ],
-  "thumbnail": "apps/dify/assets/thumbnail.webp",
+  "thumbnail": "/apps/dify/assets/thumbnail.webp",
   "tagline": "LLM App Development Platform",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

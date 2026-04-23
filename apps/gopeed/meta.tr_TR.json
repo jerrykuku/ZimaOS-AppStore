@@ -1,18 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64",
-    "arm"
-  ],
-  "author": "joaobosconff",
-  "category": "Media",
+  "id": "gopeed",
   "description": "Gopeed, HTTP, BitTorrent ve Magnet protokollerini destekleyen, güzel bir arayüz ve güçlü işlevsellik sunan modern bir yüksek hızlı indirme aracıdır. Hafif tasarımı ve çoklu platform desteği, çeşitli cihazlarda verimli dosya indirme için ideal hale getirir.\n\nAracın temel özellikleri arasında yüksek hızlı indirme ve zarif bir arayüz bulunur. Eşzamanlı indirme için Golang coroutinelerini kullanır, hızlı, kararlı performans için HTTP, HTTPS, BitTorrent ve Magnet protokollerini destekler. Arayüz, karanlık mod dahil Material Design standartlarını takip eder, estetik ve kullanılabilirlik arasında denge kurar. Gelişmiş özellikler arasında seeding, DHT, PEX, uTP, Webtorrent ve UPnP desteği ile indirme verimliliğini artırmak için günlük otomatik tracker listesi güncellemeleri bulunur.\n\nAçık entegrasyon için RESTful API sağlar, kullanıcıların indirme görevlerini uzaktan kontrol etmesine, duraklatmasına veya silmesine olanak tanır. Merkezi olmayan uzantılar, web sitelerinden video veya müzik indirme gibi işlevselliği artırmak için JavaScript eklentilerini mümkün kılar. Aracın hızı, esnekliği ve kullanıcı dostu tasarımı modern bir indirme çözümü sunar.\n\n**Ana Özellikler:**\n- HTTP, BitTorrent, Magnet protokolleri ile yüksek hızlı indirme\n- Seeding, DHT, PEX, uTP, Webtorrent, UPnP\n- Günlük otomatik tracker listesi güncellemeleri\n- İndirme görevlerinin uzaktan kontrolü için RESTful API\n- JavaScript eklentileri ile merkezi olmayan uzantılar\n\n**Daha Fazla Bilgi:**\n- [Gopeed Resmi Web Sitesi](https://gopeed.com)\n- [Gopeed GitHub Deposu](https://github.com/gopeedlab/gopeed)\n",
-  "developer": "GopeedLab",
-  "screenshot_link": [
-    "apps/gopeed/assets/screenshot-1.webp",
-    "apps/gopeed/assets/screenshot-2.webp",
-    "apps/gopeed/assets/screenshot-3.webp"
-  ],
-  "tagline": "Açık kaynak, hafif, yerel, indirme için (HTTP, BitTorrent, Magnet, vb.) destekler.",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Açık kaynak, hafif, yerel, indirme için (HTTP, BitTorrent, Magnet, vb.) destekler."
 }

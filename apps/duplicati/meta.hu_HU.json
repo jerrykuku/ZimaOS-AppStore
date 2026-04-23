@@ -1,19 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
-  "author": "CasaOS Team",
-  "category": "Productivity",
+  "id": "duplicati",
   "description": "A Duplicati egy ingyenes és nyílt forráskódú biztonsági másolat kliens, amely biztonságosan tárolja az inkrementálisan, tömörített módon titkosított biztonsági mentéseket felhőtárhelyeken és távoli fájl szervereken.",
-  "developer": "duplicati",
-  "screenshot_link": [
-    "apps/duplicati/assets/screenshot-1.webp",
-    "apps/duplicati/assets/screenshot-2.webp",
-    "apps/duplicati/assets/screenshot-3.webp"
-  ],
-  "tagline": "Biztonságosan tárolhatja az adattárolót felhőben titkosítva!",
-  "thumbnail": "apps/duplicati/assets/thumbnail.webp",
-  "tips": {},
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Biztonságosan tárolhatja az adattárolót felhőben titkosítva!"
 }

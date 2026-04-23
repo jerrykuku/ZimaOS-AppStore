@@ -1,19 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
-  "author": "CasaOS Team",
-  "category": "Media",
+  "id": "lidarr",
   "description": "Lidarr ist ein Musiksammlungsmanager für Usenet- und BitTorrent-Nutzer. Es kann mehrere RSS-Feeds überwachen, um neue Alben von Ihren Lieblingskünstlern zu finden und mit Clients und Indexern zu kommunizieren, um sie zu holen, zu sortieren und umzubenennen. Es kann auch so konfiguriert werden, dass die Qualität vorhandener Dateien in der Bibliothek automatisch aktualisiert wird, wenn eine bessere Qualität verfügbar ist.",
-  "developer": "lidarr Team",
-  "screenshot_link": [
-    "apps/lidarr/assets/screenshot-1.webp",
-    "apps/lidarr/assets/screenshot-2.webp",
-    "apps/lidarr/assets/screenshot-3.webp"
-  ],
-  "tagline": "Musiksammlungsmanager für Usenet- und BitTorrent-Nutzer",
-  "thumbnail": "apps/lidarr/assets/thumbnail.webp",
-  "tips": {},
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Musiksammlungsmanager für Usenet- und BitTorrent-Nutzer"
 }

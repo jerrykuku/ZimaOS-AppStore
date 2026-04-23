@@ -7,11 +7,11 @@
   "tagline": "Free & open-source download management tool",
   "developer": "jdownloader",
   "screenshot_link": [
-    "apps/jdownloader2/assets/screenshot-1.webp",
-    "apps/jdownloader2/assets/screenshot-2.webp"
+    "/apps/jdownloader2/assets/screenshot-1.webp",
+    "/apps/jdownloader2/assets/screenshot-2.webp"
   ],
   "author": "Fabio Tea",
   "category": "Media",
   "store_app_id": "jdownloader2",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

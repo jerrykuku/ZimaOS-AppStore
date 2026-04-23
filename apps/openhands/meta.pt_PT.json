@@ -1,17 +1,5 @@
 {
-  "architectures": [
-    "amd64"
-  ],
-  "category": "AI",
-  "developer": "All-Hands-AI",
-  "author": "All-Hands-AI",
-  "tagline": "Assistente de Codificação de Código Aberto Alimentado por IA",
+  "id": "openhands",
   "description": "OpenHands é um assistente de codificação de código aberto alimentado por IA que fornece aos programadores capacidades inteligentes de conclusão, geração e depuração de código. Ele é executado num ambiente sandbox para garantir segurança e isolamento, permitindo ao mesmo tempo o acesso a várias ferramentas e recursos de desenvolvimento.\n\n**Características Principais:**\n- Conclusão e geração de código alimentadas por IA\n- Depuração interativa e resolução de erros\n- Suporte para múltiplas linguagens de programação\n- Ambiente de execução sandbox seguro\n- Configurações de runtime personalizáveis\n- Integração com Docker para fluxos de trabalho contentorizados\n\n**Saiba Mais:**\n- [Website Oficial OpenHands](https://www.all-hands.dev)\n- [Repositório GitHub OpenHands](https://github.com/All-Hands-AI/OpenHands)\n- [Documentação](https://docs.all-hands.dev)\n",
-  "screenshot_link": [
-    "apps/openhands/assets/screenshot-1.webp",
-    "apps/openhands/assets/screenshot-2.webp",
-    "apps/openhands/assets/screenshot-3.webp"
-  ],
-  "thumbnail": "",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Assistente de Codificação de Código Aberto Alimentado por IA"
 }

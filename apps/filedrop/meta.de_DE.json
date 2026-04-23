@@ -1,15 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
+  "id": "filedrop",
   "description": "FileDrop ist ein selbst gehosteter Dateifreigabedienst, mit dem Sie Dateien ganz einfach mit Familie, Freunden oder Kollegen austauschen können. Er ist benutzerfreundlich und ressourcenschonend gestaltet.\n",
-  "tagline": "FileDrop ist ein kostenloser Open-Source-Dienst zur gemeinsamen Nutzung von Dateien.",
-  "developer": "Noé Favier (noe.favier@outlook.com)",
-  "author": "Noé Favier",
-  "screenshot_link": [
-    "apps/filedrop/assets/screenshot-1.webp"
-  ],
-  "category": "Productivity",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "FileDrop ist ein kostenloser Open-Source-Dienst zur gemeinsamen Nutzung von Dateien."
 }

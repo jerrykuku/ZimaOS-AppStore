@@ -1,19 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
-  "author": "CasaOS Team",
-  "category": "Media",
+  "id": "emby-nvidia",
   "description": "Alle Ihre Heimvideos, Musik und Fotos an einem Ort zusammenzubringen, war noch nie einfacher. Ihr persönlicher Emby-Server wandelt Ihre Medien automatisch um und streamt sie in Echtzeit, um sie auf jedem Gerät abzuspielen.",
-  "developer": "linuxserver",
-  "screenshot_link": [
-    "apps/emby-nvidia/assets/screenshot-1.png",
-    "apps/emby-nvidia/assets/screenshot-2.png",
-    "apps/emby-nvidia/assets/screenshot-3.png"
-  ],
-  "tagline": "MIT EMBY IHRE MEDIEN ÜBERALL MITNEHMEN",
-  "thumbnail": "apps/emby-nvidia/assets/thumbnail.png",
-  "tips": {},
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "MIT EMBY IHRE MEDIEN ÜBERALL MITNEHMEN"
 }

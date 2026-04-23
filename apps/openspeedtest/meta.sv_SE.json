@@ -1,23 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64",
-    "ppc64le",
-    "s390x",
-    "386",
-    "arm"
-  ],
-  "author": "OpenSpeedTest",
-  "category": "Networking",
+  "id": "openspeedtest",
   "description": "En applikation för att starta en HTML5-nätverkshastighetstestserver. Du kan testa nedladdnings- och uppladdningshastighet från vilket enhet som helst i ditt nätverk med en webbläsare som är IE10 eller nyare.",
-  "developer": "OpenSpeedTest",
-  "screenshot_link": [
-    "apps/openspeedtest/assets/screenshot-1.webp",
-    "apps/openspeedtest/assets/screenshot-2.webp",
-    "apps/openspeedtest/assets/screenshot-3.webp"
-  ],
-  "tagline": "HTML5-nätverkshastighetstestserver.",
-  "thumbnail": "apps/openspeedtest/assets/thumbnail.webp",
-  "tips": {},
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "HTML5-nätverkshastighetstestserver."
 }

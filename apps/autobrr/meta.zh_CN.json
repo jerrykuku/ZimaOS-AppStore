@@ -1,17 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm",
-    "arm64"
-  ],
-  "author": "Autobrr Team",
-  "developer": "Autobrr Team",
-  "category": "Media",
-  "thumbnail": "apps/autobrr/assets/thumbnail.webp",
-  "screenshot_link": [
-    "apps/autobrr/assets/screenshot-1.webp"
-  ],
+  "id": "autobrr",
   "description": "Autobrr是用于torrents和Usenet的现代下载自动化工具。受到trackarr、autodl-irssi和flexget等工具的启发和理念，我们构建了一个可以完成所有这些任务的工具，甚至更多。",
-  "tagline": "现代、易于使用的Torrents和Usenet下载自动化工具。",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "现代、易于使用的Torrents和Usenet下载自动化工具。"
 }

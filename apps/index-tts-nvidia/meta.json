@@ -8,10 +8,10 @@
     "amd64"
   ],
   "screenshot_link": [
-    "apps/index-tts-nvidia/assets/screenshot-1.webp",
-    "apps/index-tts-nvidia/assets/screenshot-2.webp",
-    "apps/index-tts-nvidia/assets/screenshot-3.webp"
+    "/apps/index-tts-nvidia/assets/screenshot-1.webp",
+    "/apps/index-tts-nvidia/assets/screenshot-2.webp",
+    "/apps/index-tts-nvidia/assets/screenshot-3.webp"
   ],
-  "thumbnail": "apps/index-tts-nvidia/assets/thumbnail.webp",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "thumbnail": "/apps/index-tts-nvidia/assets/thumbnail.webp",
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

@@ -5,7 +5,7 @@
   ],
   "description": "EmulatorJS is a Docker-based emulator application that can simulate various operating systems and device environments within containers for development, testing, and learning purposes.",
   "screenshot_link": [
-    "apps/emulatorjs/assets/screenshot-1.webp"
+    "/apps/emulatorjs/assets/screenshot-1.webp"
   ],
   "tagline": "",
   "en_US": "Unlock the power of emulation with EmulatorJS – Explore, experiment, and innovate across diverse operating systems and device environments.",
@@ -25,5 +25,5 @@
   "category": "Media",
   "hostname": "",
   "store_app_id": "emulatorjs",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

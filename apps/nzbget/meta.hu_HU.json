@@ -1,23 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm",
-    "arm64"
-  ],
-  "author": "CasaOS Team",
-  "category": "Media",
+  "id": "nzbget",
   "description": "A NZBGet szinte bármilyen eszközön futtatható - klasszikus PC, NAS, médialejátszó, SAT-vetítő, WLAN-router stb. A letöltési terület előre fordított bináris állományokat tartalmaz Windows, macOS, Linux (több CPU és platformváltozat kompatibilitása), FreeBSD és Android esetében. Más platformok esetén a program forráskódból fordítható.",
-  "developer": "Nzbget Team",
-  "screenshot_link": [
-    "apps/nzbget/assets/screenshot-1.webp",
-    "apps/nzbget/assets/screenshot-2.webp",
-    "apps/nzbget/assets/screenshot-3.webp",
-    "apps/nzbget/assets/screenshot-4.webp"
-  ],
-  "tagline": "Hatékony Usenet letöltő",
-  "thumbnail": "apps/nzbget/assets/thumbnail.webp",
-  "tips": {
-    "before_install": ""
-  },
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Hatékony Usenet letöltő"
 }

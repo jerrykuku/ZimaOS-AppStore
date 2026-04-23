@@ -10,8 +10,8 @@
   "developer": "Twingate",
   "screenshot_link": [],
   "tagline": "Twingate Connector for CasaOS",
-  "thumbnail": "apps/twingate-connector/assets/thumbnail.webp",
+  "thumbnail": "/apps/twingate-connector/assets/thumbnail.webp",
   "tips": {},
   "hostname": "",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

@@ -9,9 +9,9 @@
   "description": "ESPHome is a system to control your microcontrollers by simple yet powerful configuration files and control them remotely through Home Automation systems.",
   "tagline": "Home Automation systems",
   "screenshot_link": [
-    "apps/esphome/assets/screenshot-1.webp",
-    "apps/esphome/assets/screenshot-2.webp"
+    "/apps/esphome/assets/screenshot-1.webp",
+    "/apps/esphome/assets/screenshot-2.webp"
   ],
   "store_app_id": "esphome",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

@@ -1,19 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
-  "author": "CasaOS Team",
-  "category": "Media",
+  "id": "jellyfin-nvidia",
   "description": "O Jellyfin permite que você colete, gerencie e transmita seus meios de comunicação. Execute o servidor Jellyfin em seu sistema e obtenha acesso ao sistema de entretenimento de software livre líder, com toques e decorações incluídos.",
-  "developer": "Jellyfin",
-  "screenshot_link": [
-    "apps/jellyfin-nvidia/assets/screenshot-1.png",
-    "apps/jellyfin-nvidia/assets/screenshot-2.png",
-    "apps/jellyfin-nvidia/assets/screenshot-3.png"
-  ],
-  "tagline": "Coloca você no controle de seus meios de comunicação.",
-  "thumbnail": "apps/jellyfin-nvidia/assets/thumbnail.png",
-  "tips": {},
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Coloca você no controle de seus meios de comunicação."
 }

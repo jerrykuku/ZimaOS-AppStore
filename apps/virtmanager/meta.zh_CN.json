@@ -1,20 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
-  "author": "mber5",
-  "category": "Developer",
-  "tips": {
-    "before_install": ""
-  },
+  "id": "virtmanager",
   "description": "Libvirt 和 virt-manager 的 GTK Broadway Web UI，用于使用 QEMU/KVM 运行虚拟机。",
-  "developer": "Red Hat",
-  "screenshot_link": [
-    "apps/virtmanager/assets/screenshot-1.webp",
-    "apps/virtmanager/assets/screenshot-2.webp"
-  ],
-  "tagline": "Libvirt 和 virt-manager 的 GTK Broadway Web UI。",
-  "store_app_id": "virtmanager",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Libvirt 和 virt-manager 的 GTK Broadway Web UI。"
 }

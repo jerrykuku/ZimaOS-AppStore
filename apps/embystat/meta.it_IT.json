@@ -1,19 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
-  "author": "CasaOS Team",
-  "category": "Media",
+  "id": "embystat",
   "description": "EmbyStat è un server web personale in grado di calcolare tutte le statistiche possibili dal tuo server Emby o Jellyfin (locale). Installa semplicemente questo sul tuo server e lascialo calcolare tutte le cose divertenti. Questo progetto è ancora in fase alpha, ma sentiti libero di scaricarlo sul tuo computer e provarlo da solo. Quando sarà il momento, ospiterò un sito web completo / rilascio per piattaforme comuni e pagine Wiki.",
-  "developer": "Embystart Team",
-  "screenshot_link": [
-    "apps/embystat/assets/screenshot-1.webp",
-    "apps/embystat/assets/screenshot-2.webp",
-    "apps/embystat/assets/screenshot-3.webp"
-  ],
-  "tagline": "Calcola tutti i tipi di statistiche dal tuo server Emby o Jellyfin (locale)",
-  "thumbnail": "",
-  "tips": {},
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Calcola tutti i tipi di statistiche dal tuo server Emby o Jellyfin (locale)"
 }

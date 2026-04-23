@@ -5,12 +5,12 @@
   "category": "Media",
   "author": "ganeshlab",
   "screenshot_link": [
-    "apps/opodsync/assets/screenshot-1.webp",
-    "apps/opodsync/assets/screenshot-2.webp"
+    "/apps/opodsync/assets/screenshot-1.webp",
+    "/apps/opodsync/assets/screenshot-2.webp"
   ],
   "architectures": [
     "amd64",
     "arm64"
   ],
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

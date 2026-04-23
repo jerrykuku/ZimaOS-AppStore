@@ -1,19 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
-  "author": "CasaOS Team",
-  "category": "Media",
+  "id": "lazylibrarian",
   "description": "Lazylibrarian è un programma per seguire gli autori e ottenere i metadati per tutte le vostre esigenze di lettura digitali. Usa una combinazione di Goodreads Librarything e opzionalmente GoogleBooks come fonti di informazioni sull'autore e sul libro. Questo contenitore si basa sulla biforcazione di DobyTang.",
-  "developer": "Lazylibrarian Team",
-  "screenshot_link": [
-    "apps/lazylibrarian/assets/screenshot-1.webp",
-    "apps/lazylibrarian/assets/screenshot-2.webp",
-    "apps/lazylibrarian/assets/screenshot-3.webp"
-  ],
-  "tagline": "eBook Auto Downloader",
-  "thumbnail": "apps/lazylibrarian/assets/thumbnail.webp",
-  "tips": {},
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "eBook Auto Downloader"
 }

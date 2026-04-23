@@ -1,21 +1,4 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
-  "author": "CasaOS Team",
-  "category": "Media",
-  "description": "",
-  "developer": "Radarr",
-  "screenshot_link": [
-    "apps/radarr/assets/screenshot-1.webp",
-    "apps/radarr/assets/screenshot-2.webp",
-    "apps/radarr/assets/screenshot-3.webp",
-    "apps/radarr/assets/screenshot-4.webp",
-    "apps/radarr/assets/screenshot-5.webp"
-  ],
-  "tagline": "A Usenet és BitTorrent felhasználók filmgyűjteménye",
-  "thumbnail": "apps/radarr/assets/thumbnail.webp",
-  "tips": {},
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "id": "radarr",
+  "tagline": "A Usenet és BitTorrent felhasználók filmgyűjteménye"
 }

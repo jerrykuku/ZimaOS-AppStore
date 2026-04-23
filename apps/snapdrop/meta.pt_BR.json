@@ -1,16 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
+  "id": "snapdrop",
   "description": "Snapdrop é um aplicativo da Web progressivo (PWA) que permite transferir arquivos entre dispositivos na mesma rede sem precisar instalar nada.",
-  "screenshot_link": [
-    "apps/snapdrop/assets/screenshot-1.webp"
-  ],
-  "tagline": "Compartilhamento de arquivos entre plataformas feito fácil.",
-  "author": "self",
-  "category": "Productivity",
-  "hostname": "",
-  "store_app_id": "snapdrop",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Compartilhamento de arquivos entre plataformas feito fácil."
 }

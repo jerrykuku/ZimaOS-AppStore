@@ -1,21 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm",
-    "arm64"
-  ],
-  "author": "CasaOS Team",
-  "category": "Media",
+  "id": "bazarr",
   "description": "O Bazarr é um aplicativo complementar ao Sonarr e Radarr. Ele pode gerenciar e baixar legendas com base em suas necessidades. Você define suas preferências por série de TV ou filme e o Bazarr cuida de tudo para você.",
-  "developer": "Sabnzbd Team",
-  "screenshot_link": [
-    "apps/bazarr/assets/screenshot-1.webp",
-    "apps/bazarr/assets/screenshot-2.webp",
-    "apps/bazarr/assets/screenshot-3.webp",
-    "apps/bazarr/assets/screenshot-4.webp"
-  ],
-  "tagline": "Geradores de cartas para Sonarr e Radarr",
-  "thumbnail": "apps/bazarr/assets/thumbnail.webp",
-  "tips": {},
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Geradores de cartas para Sonarr e Radarr"
 }

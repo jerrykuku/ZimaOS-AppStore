@@ -1,16 +1,5 @@
 {
-  "architectures": [
-    "amd64"
-  ],
-  "author": "hiyouga",
-  "category": "AI",
+  "id": "llama-factory-nvidia",
   "description": "LLaMA Factory, 100'den fazla modeli destekleyen Büyük Dil Modelleri (LLMs) için kapsamlı bir ince ayar çerçevesidir. LoRA, QLoRA ve tam parametre eğitimi dahil olmak üzere kullanıcı dostu bir web arayüzü ve güçlü eğitim yöntemleri sağlar.\n\n**Ana Özellikler:**\n- LLaMA, Mistral, Qwen ve daha fazlası dahil 100+ LLM desteği\n- Birden fazla ince ayar yöntemi (LoRA, QLoRA, Full, Freeze)\n- Kolay model yönetimi için sezgisel Web Arayüzü\n- Model çıkarımı için yerleşik API sunucusu\n- Çoklu GPU eğitim desteği\n- Kuantizasyon ve model dışa aktarma yetenekleri\n\n**Donanım Gereksinimleri:**\n- GPU: CUDA desteği olan NVIDIA GPU gerekli\n\n**Daha Fazla Bilgi:**\n- [GitHub Deposu](https://github.com/hiyouga/LLaMA-Factory)\n- [Dokümantasyon](https://llamafactory.readthedocs.io/)\n",
-  "developer": "hiyouga",
-  "screenshot_link": [
-    "apps/llama-factory-nvidia/assets/screenshot-1.webp",
-    "apps/llama-factory-nvidia/assets/screenshot-2.webp",
-    "apps/llama-factory-nvidia/assets/screenshot-3.webp"
-  ],
-  "tagline": "100+ Model ile Birleşik LLM İnce Ayarı",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "100+ Model ile Birleşik LLM İnce Ayarı"
 }

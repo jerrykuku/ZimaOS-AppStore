@@ -1,18 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
-  "author": "DuckDNS Team",
-  "category": "Networking",
+  "id": "duckdns",
   "description": "A duckdns egy DDNS (dinamikus DNS) alkalmazás, amely dinamikusan köti az IP-címeket a domainnevekhez, és támogatja az IPv4 és IPv6 protokollokat.",
-  "developer": "DuckDNS Team",
-  "screenshot_link": [
-    "apps/duckdns/assets/screenshot-1.webp"
-  ],
-  "tagline": "Dinamikus DNS a domainjéhez, támogatja az IPv4 és IPv6 protokollokat",
-  "tips": {
-    "before_install": ""
-  },
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Dinamikus DNS a domainjéhez, támogatja az IPv4 és IPv6 protokollokat"
 }

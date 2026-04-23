@@ -1,22 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64",
-    "arm"
-  ],
-  "author": "CasaOS Team",
-  "category": "Networking",
+  "id": "nginxproxymanager",
   "description": "A Nginx Proxy Manager egy egyszerű, erőteljes eszköz, amely segít több webhelyet egyetlen kiszolgálón tárolni.",
-  "developer": "Nginx Proxy Manager",
-  "screenshot_link": [
-    "apps/nginxproxymanager/assets/screenshot-1.webp",
-    "apps/nginxproxymanager/assets/screenshot-2.webp",
-    "apps/nginxproxymanager/assets/screenshot-3.webp"
-  ],
-  "tagline": "Nginx proxy kiszolgálók kezelése egyszerű, erőteljes felülettel.",
-  "thumbnail": "apps/nginxproxymanager/assets/thumbnail.webp",
-  "tips": {
-    "before_install": ""
-  },
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Nginx proxy kiszolgálók kezelése egyszerű, erőteljes felülettel."
 }

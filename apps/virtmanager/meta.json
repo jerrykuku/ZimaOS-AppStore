@@ -11,10 +11,10 @@
   "description": "A GTK Broadway web UI for libvirt and virt-manager, to run virtual machines using QEMU/KVM.",
   "developer": "Red Hat",
   "screenshot_link": [
-    "apps/virtmanager/assets/screenshot-1.webp",
-    "apps/virtmanager/assets/screenshot-2.webp"
+    "/apps/virtmanager/assets/screenshot-1.webp",
+    "/apps/virtmanager/assets/screenshot-2.webp"
   ],
   "tagline": "A GTK Broadway web UI for libvirt and virt-manager.",
   "store_app_id": "virtmanager",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

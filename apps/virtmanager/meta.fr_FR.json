@@ -1,20 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
-  "author": "mber5",
-  "category": "Developer",
-  "tips": {
-    "before_install": ""
-  },
+  "id": "virtmanager",
   "description": "Une interface web GTK Broadway pour libvirt et virt-manager, pour exécuter des machines virtuelles utilisant QEMU/KVM.",
-  "developer": "Red Hat",
-  "screenshot_link": [
-    "apps/virtmanager/assets/screenshot-1.webp",
-    "apps/virtmanager/assets/screenshot-2.webp"
-  ],
-  "tagline": "Une interface web GTK Broadway pour libvirt et virt-manager.",
-  "store_app_id": "virtmanager",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Une interface web GTK Broadway pour libvirt et virt-manager."
 }

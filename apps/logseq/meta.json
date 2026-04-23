@@ -8,13 +8,13 @@
   "description": "A privacy-first, open-source platform for knowledge management and collaboration.",
   "developer": "Logseq  Team",
   "screenshot_link": [
-    "apps/logseq/assets/screenshot-1.webp",
-    "apps/logseq/assets/screenshot-2.webp",
-    "apps/logseq/assets/screenshot-3.webp",
-    "apps/logseq/assets/screenshot-4.webp"
+    "/apps/logseq/assets/screenshot-1.webp",
+    "/apps/logseq/assets/screenshot-2.webp",
+    "/apps/logseq/assets/screenshot-3.webp",
+    "/apps/logseq/assets/screenshot-4.webp"
   ],
   "tagline": "A privacy-first, open-source platform for knowledge management and collaboration.",
-  "thumbnail": "apps/logseq/assets/thumbnail.webp",
+  "thumbnail": "/apps/logseq/assets/thumbnail.webp",
   "tips": {},
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

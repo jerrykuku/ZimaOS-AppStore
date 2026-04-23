@@ -7,10 +7,10 @@
   "tagline": "Messenger for the Decentralized Web",
   "developer": "balzack",
   "screenshot_link": [
-    "apps/databag/assets/screenshot-1.webp",
-    "apps/databag/assets/screenshot-2.webp"
+    "/apps/databag/assets/screenshot-1.webp",
+    "/apps/databag/assets/screenshot-2.webp"
   ],
   "author": "Pierre Balzack",
   "category": "Social",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

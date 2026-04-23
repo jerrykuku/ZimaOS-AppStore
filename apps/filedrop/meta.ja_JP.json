@@ -1,15 +1,4 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
-  "description": "FileDropは、家族や友人、同僚と簡単にファイルを共有できる、セルフホスト型のファイル共有サービスです。使いやすく、軽いリソースで利用できるように設計されています。\n",
-  "tagline": "",
-  "developer": "Noé Favier (noe.favier@outlook.com)",
-  "author": "Noé Favier",
-  "screenshot_link": [
-    "apps/filedrop/assets/screenshot-1.webp"
-  ],
-  "category": "Productivity",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "id": "filedrop",
+  "description": "FileDropは、家族や友人、同僚と簡単にファイルを共有できる、セルフホスト型のファイル共有サービスです。使いやすく、軽いリソースで利用できるように設計されています。\n"
 }

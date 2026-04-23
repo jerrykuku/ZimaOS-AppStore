@@ -1,18 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
-  "category": "Social",
-  "developer": "monica",
-  "author": "monica",
-  "tagline": "Ett personligt relationsstyrningsverktyg för att hjälpa dig dokumentera ditt sociala liv.",
+  "id": "monica",
   "description": "Monica är ett självhostet personligt relationsstyrningsverktyg som hjälper användare att dokumentera och organisera interaktioner med familj och vänner via ett intuitivt webbgränssnitt, vilket skapar en personlig kontaktdatabas. Det är idealiskt för användare som balanserar arbete och liv och säkerställer att viktiga personliga kopplingar aldrig missas.\n\nVerktygets kärnfunktioner inkluderar omfattande kontakthantering och smarta påminnelser. Det stöder skapande av detaljerade kontaktprofiler, loggning av personliga detaljer, relationer (t.ex. familj, vänner) och hur kontakter träffades. Användare kan ställa in automatiska påminnelser för födelsedagar, årsdagar och andra viktiga datum, medan de spårar konversationer, aktiviteter och presentidéer. En dagboksfunktion registrerar dagliga humör och betydelsefulla ögonblick, vilket upprätthåller en tydlig livsjournal.\n\nDet erbjuder uppgifts- och skuldhantering för att spåra att-göra-saker eller finansiella interaktioner. Användare kan ladda upp foton och dokument, favoritmarkera kontakter och organisera relationer med etiketter för strömlinjeformad datahantering. Full kontroll över lokal data säkerställer integritet. Verktygets intuitiva drift och höga flexibilitet levererar en modern relationsstyrningslösning.\n\n**Huvudfunktioner:**\n- Omfattande kontakthantering med detaljerade profiler\n- Automatiska påminnelser för födelsedagar, årsdagar och viktiga datum\n- Spåra konversationer, aktiviteter och presentidéer\n- Dagboksfunktion för att registrera dagliga humör och ögonblick\n- Uppgifts- och skuldhantering för att-göra och finanser\n- Ladda upp foton och dokument, favoritkontakter\n- Organisera kontakter med etiketter\n- Lokal datalagring för integritetsförsäkring\n\n**Lär Dig Mer:**\n- [Monica Officiell Webbplats](https://www.monicahq.com)\n- [Monica GitHub Repository](https://github.com/monicahq/monica)\n",
-  "screenshot_link": [
-    "apps/monica/assets/screenshot-1.webp",
-    "apps/monica/assets/screenshot-2.webp",
-    "apps/monica/assets/screenshot-3.webp"
-  ],
-  "thumbnail": "",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Ett personligt relationsstyrningsverktyg för att hjälpa dig dokumentera ditt sociala liv."
 }

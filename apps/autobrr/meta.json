@@ -7,11 +7,11 @@
   "author": "Autobrr Team",
   "developer": "Autobrr Team",
   "category": "Media",
-  "thumbnail": "apps/autobrr/assets/thumbnail.webp",
+  "thumbnail": "/apps/autobrr/assets/thumbnail.webp",
   "screenshot_link": [
-    "apps/autobrr/assets/screenshot-1.webp"
+    "/apps/autobrr/assets/screenshot-1.webp"
   ],
   "description": "Autobrr is the modern download automation tool for torrents and usenet. With inspiration and ideas from tools like trackarr, autodl-irssi and flexget we built one tool that can do it all, and then some.",
   "tagline": "Modern, easy to use download automation for torrents and usenet.",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

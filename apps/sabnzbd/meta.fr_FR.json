@@ -1,23 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
-  "author": "CasaOS Team",
-  "category": "Media",
+  "id": "sabnzbd",
   "description": "SABnzbd est un lecteur de nouvelles binaires open source écrit en Python. Il est entièrement gratuit, facile à utiliser et fonctionne pratiquement partout. SABnzbd rend Usenet aussi simple et efficace que possible en automatisant tout ce que nous pouvons faire. Tout ce que vous avez à faire est d'ajouter un .nzb. SABnzbd prend le contrôle de là, où il sera automatiquement téléchargé, vérifié, réparé, extrait et archivé sans intervention humaine. SABnzbd offre un assistant de configuration facile et dispose d'outils d'analyse autonomes pour vérifier votre configuration.",
-  "developer": "Sabnzbd Team",
-  "screenshot_link": [
-    "apps/sabnzbd/assets/screenshot-1.webp",
-    "apps/sabnzbd/assets/screenshot-2.webp",
-    "apps/sabnzbd/assets/screenshot-3.webp",
-    "apps/sabnzbd/assets/screenshot-4.webp",
-    "apps/sabnzbd/assets/screenshot-5.webp",
-    "apps/sabnzbd/assets/screenshot-6.webp",
-    "apps/sabnzbd/assets/screenshot-7.webp"
-  ],
-  "tagline": "Lecteur de nouvelles binaire gratuit et facile à utiliser",
-  "thumbnail": "apps/sabnzbd/assets/thumbnail.webp",
-  "tips": {},
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Lecteur de nouvelles binaire gratuit et facile à utiliser"
 }

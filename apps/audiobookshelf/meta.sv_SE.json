@@ -1,18 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
-  "category": "Media",
-  "developer": "advplyr",
-  "author": "advplyr",
-  "tagline": "Audiobookshelf är en självhostad ljudboks- och podcastserver.",
+  "id": "audiobookshelf",
   "description": "Audiobookshelf är en självhostad mediaserver utformad för att hantera och strömma ljudböcker, podcaster och e-böcker, och erbjuder en säker och flexibel lösning för personliga mediebibliotek. Dess lätta arkitektur och intuitiva webbgränssnitt (tillgängligt som en Progressive Web App, PWA) möjliggör smidig åtkomst från vilken webbläsare som helst, medan betaappar för Android och iOS stöder offline-lyssning, vilket passar integritetsmedvetna användare.\n\nAppen stöder direktströmning av alla ljudformat och erbjuder robusta hanteringsverktyg, inklusive automatisk hämtning av metadata och omslagsbilder från flera källor, massuppladdning via dra-och-släpp för böcker och podcaster samt kapitelredigering med uppslag via Audnexus API. Användare kan söka och prenumerera på podcaster med automatisk nedladdning av avsnitt eller hantera innehåll via öppna RSS-flöden. Den stöder flera användare med anpassade behörigheter, vilket säkerställer att individuell uppspelningsstatus synkroniseras mellan enheter. Dessutom erbjuder den ljudverktyg (som att slå samman filer till m4b eller bädda in metadata) och experimentellt stöd för e-böcker (epub, pdf, cbr, cbz), med möjlighet att skicka e-böcker till enheter som Kindle.\n\nDen upptäcker automatiskt biblioteksuppdateringar, vilket eliminerar behovet av manuella omgenomsökningar, och inkluderar dagliga automatiska säkerhetskopior för att skydda metadata. Chromecast-stöd (på webben och Android-appar) förbättrar strömningsmöjligheterna, medan en aktiv community tillhandahåller stöddokumentation för kontinuerliga förbättringar. Oavsett om det gäller personliga samlingar eller familjedelning levererar appens intuitiva gränssnitt och mångsidiga funktioner en modern plattform för mediehantering som möter olika behov.\n\n**Huvudfunktioner:**\n- Stöd för flera användare med anpassade behörigheter\n- Behåller framsteg per användare och synkroniserar mellan enheter\n- Slår upp och tillämpar metadata och omslagsbilder från flera leverantörer\n- Ljudbokskapitelredigerare med kapiteluppslag\n- Ljudboksverktyg: Bädda in metadata i ljudfiler och sammanfoga flera ljudfiler till en enda m4b\n- Sök och lägg till podcaster för att ladda ner avsnitt med automatisk nedladdning\n- Öppna RSS-flöden för ljudböcker och podcastavsnitt\n- Säkerhetskopior med automatiserad säkerhetskopieringsschemaläggning\n- Grundläggande eboksstöd och e-läsare (epub, pdf, cbr, cbz) + skicka till enhet (t.ex. Kindle)\n\n**Läs mer:**\n- [Audiobookshelfs officiella webbplats](https://audiobookshelf.org)\n- [Audiobookshelf GitHub Repository](https://github.com/advplyr/audiobookshelf)\n",
-  "screenshot_link": [
-    "apps/audiobookshelf/assets/screenshot-1.webp",
-    "apps/audiobookshelf/assets/screenshot-2.webp",
-    "apps/audiobookshelf/assets/screenshot-3.webp"
-  ],
-  "thumbnail": "",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Audiobookshelf är en självhostad ljudboks- och podcastserver."
 }

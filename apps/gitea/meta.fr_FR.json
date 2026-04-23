@@ -1,21 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
-  "author": "CasaOS Team",
-  "category": "Developer",
+  "id": "gitea",
   "description": "Gitea est une solution d'hébergement de code légère gérée par la communauté écrite en Go.",
-  "developer": "Gitea",
-  "screenshot_link": [
-    "apps/gitea/assets/screenshot-1.webp",
-    "apps/gitea/assets/screenshot-2.webp",
-    "apps/gitea/assets/screenshot-3.webp"
-  ],
-  "tagline": "Git avec une tasse de thé",
-  "thumbnail": "apps/gitea/assets/thumbnail.webp",
-  "tips": {
-    "before_install": ""
-  },
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Git avec une tasse de thé"
 }

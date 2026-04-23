@@ -1,20 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
-  "author": "CasaOS Team",
-  "category": "Media",
+  "id": "mylar3",
   "description": "Mylar è un programma di download automatico di fumetti (cbr / cbz) da utilizzare con NZB e torrent. Mylar consente di creare un elenco di monitoraggio di serie che monitora varie cose (nuovi problemi, informazioni aggiornate, ecc.). Raccoglierà, ordinerà e rinominerà i problemi scaricati. Ti permetterà anche di monitorare le liste di estrazione settimanali per scaricare elementi che appartengono alle serie dell'elenco di monitoraggio, oltre a monitorare e mantenere gli archi della storia.",
-  "developer": "Mylar3 Team",
-  "screenshot_link": [
-    "apps/mylar3/assets/screenshot-1.webp",
-    "apps/mylar3/assets/screenshot-2.webp",
-    "apps/mylar3/assets/screenshot-3.webp",
-    "apps/mylar3/assets/screenshot-4.webp"
-  ],
-  "tagline": "Download automatico di fumetti (cbr/cbz)",
-  "thumbnail": "apps/mylar3/assets/thumbnail.webp",
-  "tips": {},
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Download automatico di fumetti (cbr/cbz)"
 }

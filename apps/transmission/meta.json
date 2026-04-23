@@ -8,14 +8,14 @@
   "description": "Transmission is a BitTorrent client designed for simplicity and powerful performance, delivering an efficient and user-friendly downloading experience. It comes equipped with all the essential features you expect, including encryption, a web interface, peer exchange, magnet links, DHT, µTP, UPnP and NAT-PMP port forwarding, webseed support, watch directories, tracker editing, global and per-torrent speed limits, and more.\n\nWith its intuitive interface, Transmission caters to both beginners and advanced users. Whether you’re managing a single download or juggling complex torrent queues, Transmission ensures a seamless experience with optimized resource usage and reliable performance. For casual users and tech enthusiasts alike, Transmission is the ideal BitTorrent solution.\n",
   "developer": "Transmission",
   "screenshot_link": [
-    "apps/transmission/assets/screenshot-1.webp",
-    "apps/transmission/assets/screenshot-2.webp",
-    "apps/transmission/assets/screenshot-3.webp"
+    "/apps/transmission/assets/screenshot-1.webp",
+    "/apps/transmission/assets/screenshot-2.webp",
+    "/apps/transmission/assets/screenshot-3.webp"
   ],
   "tagline": "Transmission is a cross-platform BitTorrent client",
-  "thumbnail": "apps/transmission/assets/thumbnail.webp",
+  "thumbnail": "/apps/transmission/assets/thumbnail.webp",
   "tips": {
     "before_install": "| username | password |\n| -------- | -------- |\n| `casaos` | `casaos` |\n"
   },
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

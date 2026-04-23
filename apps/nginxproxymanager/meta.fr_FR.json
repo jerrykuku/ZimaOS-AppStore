@@ -1,22 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64",
-    "arm"
-  ],
-  "author": "CasaOS Team",
-  "category": "Networking",
+  "id": "nginxproxymanager",
   "description": "Nginx Proxy Manager est un outil simple et puissant pour vous aider à héberger plusieurs sites Web sur un seul serveur.",
-  "developer": "Nginx Proxy Manager",
-  "screenshot_link": [
-    "apps/nginxproxymanager/assets/screenshot-1.webp",
-    "apps/nginxproxymanager/assets/screenshot-2.webp",
-    "apps/nginxproxymanager/assets/screenshot-3.webp"
-  ],
-  "tagline": "Gestion des hôtes proxy Nginx avec une interface simple et puissante.",
-  "thumbnail": "apps/nginxproxymanager/assets/thumbnail.webp",
-  "tips": {
-    "before_install": ""
-  },
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Gestion des hôtes proxy Nginx avec une interface simple et puissante."
 }

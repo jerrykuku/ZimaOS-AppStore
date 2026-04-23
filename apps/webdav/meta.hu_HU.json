@@ -1,20 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "386",
-    "arm64",
-    "arm"
-  ],
-  "author": "CasaOS Team",
-  "category": "Productivity",
+  "id": "webdav",
   "description": "A WebDAV egy webalapú protokoll, amely lehetővé teszi a fájlok megosztását és kezelését az interneten keresztül, együttműködési környezetet biztosítva a fájlszerkesztéshez és a verziókövetéshez.",
-  "developer": "CasaOS Team",
-  "screenshot_link": [
-    "apps/webdav/assets/screenshot-1.webp"
-  ],
-  "tagline": "Webalapú fájlmegosztási és -kezelési protokoll",
-  "tips": {
-    "before_install": ""
-  },
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Webalapú fájlmegosztási és -kezelési protokoll"
 }

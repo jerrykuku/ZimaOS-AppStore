@@ -1,18 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
-  "category": "Networking",
-  "developer": "v2rayA",
-  "author": "v2rayA",
-  "tagline": "En webb-GUI-klient för Project V som stöder VMess, VLESS, SS, SSR, Trojan, Tuic och Juicity-protokoll",
+  "id": "v2raya",
   "description": "v2rayA är en V2Ray-klient som stöder global transparent proxy, kompatibel med SS, SSR, Trojan (trojan-go), Tuic och Juicity-protokoll. Designad för enkelhet, möter den de flesta användarnas behov, idealisk för scenarion som kräver effektiva proxy-tjänster.\n\nKärnfunktioner inkluderar global transparent proxy och multi-utgång lastbalansering med trafikdelning. Den tillhandahåller proxy-tjänster för nästan alla applikationer utan att kräva applikationsspecifik proxy-stöd. Stöd för att skapa och ansluta flera utgångsnoder säkerställer lastbalansering och effektiv trafikdelning för optimal nätverksprestanda.\n\nDen erbjuder RoutingA, ett anpassat routingspråk för V2Ray, som ger kraftfullt och bekvämt trafikdelningsstöd. Flera strategier adresserar DNS-förorening, med avancerade inställningar som möjliggör anpassade konfigurationer. Med enkelhet och funktionalitet i kärnan levererar plattformen en modern lösning för proxy-hantering.\n\n**Huvudfunktioner:**\n- Webbaserat GUI för enkel konfiguration och hantering\n- Stöd för flera protokoll: VMess, VLESS, SS, SSR, Trojan, Tuic, Juicity\n- Global transparent proxy för sömlösa applikations-proxy-tjänster\n- Multi-utgång lastbalansering och trafikdelning\n- RoutingA anpassad routing för bekväm trafikdelning\n- Flera DNS-förorening bekämpningsstrategier med avancerade anpassade inställningar\n\n**Lär Dig Mer:**\n- [V2rayA Officiell Webbplats](https://v2raya.org/)\n- [V2rayA GitHub](https://github.com/v2rayA/v2rayA)\n",
-  "screenshot_link": [
-    "apps/v2raya/assets/screenshot-1.webp",
-    "apps/v2raya/assets/screenshot-2.webp",
-    "apps/v2raya/assets/screenshot-3.webp"
-  ],
-  "thumbnail": "",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "En webb-GUI-klient för Project V som stöder VMess, VLESS, SS, SSR, Trojan, Tuic och Juicity-protokoll"
 }

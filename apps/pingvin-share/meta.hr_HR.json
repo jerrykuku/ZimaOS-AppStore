@@ -1,17 +1,5 @@
 {
-  "tagline": "Samostalno hostano dijeljenje datoteka s modernim web sučeljem",
+  "id": "pingvin-share",
   "description": "Pingvin-Share je samostalno hostana aplikacija za dijeljenje datoteka kompatibilna s Nextcloud aplikacijama, koja nudi moderno i intuitivno web sučelje. Omogućuje korisnicima sigurno spremanje, organiziranje i dijeljenje datoteka bez oslanjanja na vanjske cloud usluge. Aplikacija podržava više metoda autentikacije i nudi funkcije poput poveznica za dijeljenje, korisničkih računa i responzivnog sučelja.\n\n**Glavne značajke:**\n- Moderno, responzivno web sučelje\n- Korisnički računi sa sustavom dozvola\n- Sigurne poveznice za dijeljenje datoteka\n- Učitavanje datoteka povlačenjem i ispuštanjem\n- Dijeljenja zaštićena lozinkom\n- Više metoda autentikacije\n- Docker implementacija za jednostavnu instalaciju\n\n**Saznajte više:**\n- [Pingvin-Share GitHub](https://github.com/stonith404/pingvin-share)\n",
-  "category": "Productivity",
-  "author": "stonith404",
-  "developer": "stonith404",
-  "screenshot_link": [
-    "apps/pingvin-share/assets/screenshot-1.webp",
-    "apps/pingvin-share/assets/screenshot-2.webp",
-    "apps/pingvin-share/assets/screenshot-3.webp"
-  ],
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Samostalno hostano dijeljenje datoteka s modernim web sučeljem"
 }

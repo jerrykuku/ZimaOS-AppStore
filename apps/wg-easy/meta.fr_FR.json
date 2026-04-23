@@ -1,22 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm",
-    "arm64"
-  ],
-  "tagline": "WEB UI pour gérer WireGuard VPN.",
+  "id": "wg-easy",
   "description": "Vous avez trouvé le moyen le plus simple d'installer et de gérer WireGuard sur n'importe quel hôte Linux !",
-  "screenshot_link": [
-    "apps/wg-easy/assets/screenshot-1.webp",
-    "apps/wg-easy/assets/screenshot-2.webp",
-    "apps/wg-easy/assets/screenshot-3.webp"
-  ],
-  "developer": "WeejeWel",
-  "author": "Sawy",
-  "thumbnail": "apps/wg-easy/assets/icon.png",
-  "category": "Networking",
-  "tips": {
-    "before_install": ""
-  },
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "WEB UI pour gérer WireGuard VPN."
 }

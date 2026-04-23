@@ -1,14 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
+  "id": "mongodb4",
   "description": "A MongoDB egy ingyenes és nyílt forráskódú, többplatformos dokumentumorientált adatbázisprogram. A MongoDB-t NoSQL adatbázisprogramként sorolják be, JSON-szerű dokumentumokat használ sémákkal. A MongoDB-t a MongoDB Inc. fejleszti és a Server Side Public License és az Apache License kombinációjával jelenteti meg.",
-  "tagline": "Egy ingyenes, nyílt forráskódú, többplatformos dokumentumorientált adatbázisprogram. A MongoDB-t NoSQL adatbázisprogramként sorolják be, JSON-szerű dokumentumokat használ sémákkal.",
-  "screenshot_link": [],
-  "developer": "MongoDB Inc.",
-  "author": "WisdomSky",
-  "thumbnail": "apps/mongodb4/assets/icon.png",
-  "category": "Developer",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Egy ingyenes, nyílt forráskódú, többplatformos dokumentumorientált adatbázisprogram. A MongoDB-t NoSQL adatbázisprogramként sorolják be, JSON-szerű dokumentumokat használ sémákkal."
 }

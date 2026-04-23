@@ -1,22 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64",
-    "arm"
-  ],
-  "author": "CasaOS Team",
-  "category": "Networking",
+  "id": "uptimekuma",
   "description": "Uptime Kuma är ett gratis, lättanvänt själv-hostat övervakningsverktyg designat för realtidsspårning av nätverkstjänster och infrastruktur, som erbjuder ett modernt gränssnitt och robust funktionalitet。Det tillhandahåller en intuitiv webbdashboard för att hantera tjänster, idealisk för enskilda utvecklare, hemlabbanvändare och små team。\n\nVerktygets kärnfunktioner inkluderar omfattande övervakning och mångsidiga notifieringskanaler。Det övervakar HTTP/HTTPS, TCP-portar, DNS-poster, databaser, Ping och Steam-spelservrar, med interaktiva Ping-diagram som visuellt visar svarstider och status。Användare kan ta emot realtidsvarningar via Telegram, Discord, Slack, e-post (SMTP) och över 95 andra notifieringstjänster。SSL-certifikatövervakning kontrollerar certifikatgiltighet och utgång, vilket hjälper till med rättida förnyelser。\n\nDet stöder 20-sekunders övervakningsintervall för snabb driftstoppsdetektering och erbjuder flera statussidor för att dela realtidstjänststatus med kunder。Proxy-stöd möjliggör fjärråtkomst via Cloudflare, Nginx eller liknande tjänster, vilket förbättrar flexibiliteten。Tvåfaktorsautentisering (2FA) och API-nycklar stärker säkerheten, vilket säkerställer fullständig användarkontroll över lokala data。Verktyget levererar en effektiv övervakningslösning med intuitiv drift och gemenskapsstöd。\n\n**Huvudfunktioner：**\n- Övervaka HTTP/HTTPS, TCP, DNS, databaser och andra tjänster\n- Notifieringar via Telegram, Discord, Slack och över 95 andra kanaler\n- Interaktiva Ping-diagram som visar svarstider och status\n- SSL-certifikatövervakning för giltighet och utgång\n- 20-sekunders övervakningsintervall för snabb driftstoppsdetektering\n- Flera statussidor för delning av tjänststatus\n- Proxy-stöd kompatibelt med Cloudflare, Nginx och mer\n- Tvåfaktorsautentisering (2FA) och API-nycklar för förbättrad säkerhet\n\n**Lär Dig Mer：**\n- [Uptime Kuma Officiell Webbplats](https://uptimekuma.org)\n- [Uptime Kuma GitHub Repository](https://github.com/louislam/uptime-kuma)\n",
-  "developer": "Louis Lam",
-  "screenshot_link": [
-    "apps/uptimekuma/assets/screenshot-1.webp",
-    "apps/uptimekuma/assets/screenshot-2.webp",
-    "apps/uptimekuma/assets/screenshot-3.webp",
-    "apps/uptimekuma/assets/screenshot-4.webp",
-    "apps/uptimekuma/assets/screenshot-5.webp"
-  ],
-  "tagline": "Ett fint övervakningsverktyg",
-  "thumbnail": "apps/uptimekuma/assets/thumbnail.webp",
-  "tips": {},
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Ett fint övervakningsverktyg"
 }

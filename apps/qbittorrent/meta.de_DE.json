@@ -1,21 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
-  "author": "CasaOS Team",
-  "category": "Media",
+  "id": "qbittorrent",
   "description": "Das qBittorrent-Projekt zielt darauf ab, eine Open-Source-Software-Alternative zu µTorrent zu bieten.",
-  "developer": "qBittorrent",
-  "screenshot_link": [
-    "apps/qbittorrent/assets/screenshot-1.webp",
-    "apps/qbittorrent/assets/screenshot-2.webp",
-    "apps/qbittorrent/assets/screenshot-3.webp"
-  ],
-  "tagline": "Kostenloser BitTorrent-Downloader",
-  "thumbnail": "apps/qbittorrent/assets/thumbnail.webp",
-  "tips": {
-    "before_install": ""
-  },
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Kostenloser BitTorrent-Downloader"
 }

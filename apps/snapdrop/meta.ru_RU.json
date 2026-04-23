@@ -1,16 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
+  "id": "snapdrop",
   "description": "Snapdrop - это прогрессивное веб-приложение (PWA), которое позволяет передавать файлы между устройствами в одной сети без необходимости устанавливать что-либо.",
-  "screenshot_link": [
-    "apps/snapdrop/assets/screenshot-1.webp"
-  ],
-  "tagline": "Простой обмен файлами между платформами.",
-  "author": "self",
-  "category": "Productivity",
-  "hostname": "",
-  "store_app_id": "snapdrop",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Простой обмен файлами между платформами."
 }

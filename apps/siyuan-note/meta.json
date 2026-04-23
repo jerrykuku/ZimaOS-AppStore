@@ -10,14 +10,14 @@
   "tagline": "Private personal knowledge management",
   "developer": "siyuan-note",
   "screenshot_link": [
-    "apps/siyuan-note/assets/screenshot-1.webp",
-    "apps/siyuan-note/assets/screenshot-2.webp",
-    "apps/siyuan-note/assets/screenshot-3.webp",
-    "apps/siyuan-note/assets/screenshot-4.webp"
+    "/apps/siyuan-note/assets/screenshot-1.webp",
+    "/apps/siyuan-note/assets/screenshot-2.webp",
+    "/apps/siyuan-note/assets/screenshot-3.webp",
+    "/apps/siyuan-note/assets/screenshot-4.webp"
   ],
-  "thumbnail": "apps/siyuan-note/assets/thumbnail.webp",
+  "thumbnail": "/apps/siyuan-note/assets/thumbnail.webp",
   "tips": {
     "before_install": "| accessAuthCode |\n| -------- |\n| `casaos`    |\n"
   },
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

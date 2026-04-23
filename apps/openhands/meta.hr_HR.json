@@ -1,17 +1,5 @@
 {
-  "architectures": [
-    "amd64"
-  ],
-  "category": "AI",
-  "developer": "All-Hands-AI",
-  "author": "All-Hands-AI",
-  "tagline": "Open-source AI pokretani asistent za kodiranje",
+  "id": "openhands",
   "description": "OpenHands je open-source AI pokretani asistent za kodiranje koji pruža programerima inteligentno dovršavanje koda, generiranje i mogućnosti otklanjanja pogrešaka. Radi u sandbox okruženju kako bi osigurao sigurnost i izolaciju, istovremeno dopuštajući pristup raznim razvojnim alatima i resursima.\n\n**Ključne značajke:**\n- AI pokretano dovršavanje i generiranje koda\n- Interaktivno otklanjanje pogrešaka i rješavanje problema\n- Podrška za više programskih jezika\n- Sigurno sandbox izvršno okruženje\n- Prilagodljive konfiguracije izvršavanja\n- Integracija s Dockerom za containerizirane radne tijekove\n\n**Saznajte više:**\n- [Službena web stranica OpenHands](https://www.all-hands.dev)\n- [OpenHands GitHub Repozitorij](https://github.com/All-Hands-AI/OpenHands)\n- [Dokumentacija](https://docs.all-hands.dev)\n",
-  "screenshot_link": [
-    "apps/openhands/assets/screenshot-1.webp",
-    "apps/openhands/assets/screenshot-2.webp",
-    "apps/openhands/assets/screenshot-3.webp"
-  ],
-  "thumbnail": "",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Open-source AI pokretani asistent za kodiranje"
 }

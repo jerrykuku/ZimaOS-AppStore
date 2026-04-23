@@ -1,17 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64",
-    "arm"
-  ],
-  "author": "FreshRSS",
-  "category": "Productivity",
+  "id": "freshrss",
   "description": "FreshRSS è un aggregatore di feed RSS e Atom autoportato. È leggero, facile da usare, potente e personalizzabile.",
-  "developer": "FreshRSS",
-  "screenshot_link": [
-    "apps/freshrss/assets/screenshot-1.webp"
-  ],
-  "tagline": "Un aggregatore di notizie gratuito e auto-ostabile...",
-  "store_app_id": "freshrss",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Un aggregatore di notizie gratuito e auto-ostabile..."
 }

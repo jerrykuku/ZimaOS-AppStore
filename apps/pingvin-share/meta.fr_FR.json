@@ -1,17 +1,5 @@
 {
-  "tagline": "Partage de fichiers auto-hébergé avec une interface web moderne",
+  "id": "pingvin-share",
   "description": "Pingvin-Share est une application de partage de fichiers auto-hébergée compatible avec les applications Nextcloud, offrant une interface web moderne et intuitive. Elle permet aux utilisateurs de stocker, d’organiser et de partager des fichiers en toute sécurité sans dépendre de services cloud externes. L’application prend en charge plusieurs méthodes d’authentification et propose des fonctionnalités telles que des liens de partage, des comptes utilisateurs et une interface responsive.\n\n**Fonctionnalités principales :**\n- Interface web moderne et responsive\n- Comptes utilisateurs avec système de permissions\n- Liens de partage sécurisés pour les fichiers\n- Téléversement de fichiers par glisser-déposer\n- Partages protégés par mot de passe\n- Plusieurs méthodes d’authentification\n- Déploiement basé sur Docker pour une installation facile\n\n**En savoir plus :**\n- [Pingvin-Share GitHub](https://github.com/stonith404/pingvin-share)\n",
-  "category": "Productivity",
-  "author": "stonith404",
-  "developer": "stonith404",
-  "screenshot_link": [
-    "apps/pingvin-share/assets/screenshot-1.webp",
-    "apps/pingvin-share/assets/screenshot-2.webp",
-    "apps/pingvin-share/assets/screenshot-3.webp"
-  ],
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Partage de fichiers auto-hébergé avec une interface web moderne"
 }

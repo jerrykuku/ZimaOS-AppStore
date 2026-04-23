@@ -1,17 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64",
-    "arm"
-  ],
-  "author": "FreshRSS",
-  "category": "Productivity",
+  "id": "freshrss",
   "description": "FreshRSS ist ein selbstgehosteter RSS- und Atom-Feed-Aggregator. Er ist leichtgewichtig, einfach zu bedienen, leistungsstark und anpassbar.",
-  "developer": "FreshRSS",
-  "screenshot_link": [
-    "apps/freshrss/assets/screenshot-1.webp"
-  ],
-  "tagline": "Ein kostenloser, selbst zu hostender Nachrichten-Aggregator...",
-  "store_app_id": "freshrss",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Ein kostenloser, selbst zu hostender Nachrichten-Aggregator..."
 }

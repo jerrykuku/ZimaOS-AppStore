@@ -1,25 +1,6 @@
 {
-  "architectures": [
-    "amd64",
-    "arm",
-    "arm64"
-  ],
-  "author": "Chàra Rose",
-  "category": "Media",
-  "description": "",
-  "developer": "Crafty Team",
-  "screenshot_link": [
-    "apps/crafty/assets/screenshot-1.webp",
-    "apps/crafty/assets/screenshot-2.webp",
-    "apps/crafty/assets/screenshot-3.webp",
-    "apps/crafty/assets/screenshot-4.webp",
-    "apps/crafty/assets/screenshot-5.webp",
-    "apps/crafty/assets/screenshot-6.webp",
-    "apps/crafty/assets/screenshot-7.webp"
-  ],
-  "tagline": "",
+  "id": "crafty",
   "tips": {
     "before_install": "Conta padrão\n| Nome de usuário | Senha |\n|----------|----------|\n| `admin`    | `app/config/default-creds.txt` |\n"
-  },
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  }
 }

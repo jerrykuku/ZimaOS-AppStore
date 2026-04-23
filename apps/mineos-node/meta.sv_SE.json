@@ -1,14 +1,8 @@
 {
-  "architectures": [
-    "amd64"
-  ],
-  "author": "Chàra Rose",
-  "category": "Media",
+  "id": "mineos-node",
   "description": "MineOS är ett serverfront som underlättar hanteringen av administrativa uppgifter för Minecraft. Denna iteration med Node.js syftar till att förbättra tidigare MineOS-skript (baserade på Python), genom att utnyttja Node.JS och websockets händelseutlösningsmodell.",
-  "developer": "hexparrot",
   "tagline": "Gratis och enkelt att använda Minecraft serverhanteringsverktyg.",
   "tips": {
     "before_install": "Standardkonto\n\n| Användarnamn | Lösenord |\n|----------|----------|\n| `mc`    | `root` |\n"
-  },
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  }
 }

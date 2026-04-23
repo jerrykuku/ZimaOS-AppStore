@@ -8,13 +8,13 @@
   "description": "Sonarr is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.",
   "developer": "Sonarr",
   "screenshot_link": [
-    "apps/sonarr/assets/screenshot-1.webp",
-    "apps/sonarr/assets/screenshot-2.webp",
-    "apps/sonarr/assets/screenshot-3.webp",
-    "apps/sonarr/assets/screenshot-4.webp"
+    "/apps/sonarr/assets/screenshot-1.webp",
+    "/apps/sonarr/assets/screenshot-2.webp",
+    "/apps/sonarr/assets/screenshot-3.webp",
+    "/apps/sonarr/assets/screenshot-4.webp"
   ],
   "tagline": "The PVR for Usenet and BitTorrent users",
-  "thumbnail": "apps/sonarr/assets/thumbnail.webp",
+  "thumbnail": "/apps/sonarr/assets/thumbnail.webp",
   "tips": {},
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

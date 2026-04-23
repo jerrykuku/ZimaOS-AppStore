@@ -1,22 +1,5 @@
 {
-  "architectures": [
-    "386",
-    "amd64",
-    "arm",
-    "arm64",
-    "ppc64le"
-  ],
-  "author": "CasaOS Team",
-  "category": "Networking",
+  "id": "adguard-home",
   "description": "O AdGuard Home é um software de rede para bloquear anúncios e rastreamento. Depois de configurá-lo, ele cobrirá todos os seus dispositivos domésticos e você não precisará de nenhum software cliente para isso. Saiba mais em nosso repositório oficial do Github.",
-  "developer": "AdguardTeam",
-  "screenshot_link": [
-    "apps/adguard-home/assets/screenshot-1.webp",
-    "apps/adguard-home/assets/screenshot-2.webp",
-    "apps/adguard-home/assets/screenshot-3.webp"
-  ],
-  "tagline": "Servidor DNS de bloqueio de anúncios e rastreadores em nível de rede",
-  "thumbnail": "apps/adguard-home/assets/thumbnail.webp",
-  "tips": {},
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Servidor DNS de bloqueio de anúncios e rastreadores em nível de rede"
 }

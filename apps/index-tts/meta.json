@@ -8,13 +8,13 @@
     "amd64"
   ],
   "screenshot_link": [
-    "apps/index-tts/assets/screenshot-1.webp",
-    "apps/index-tts/assets/screenshot-2.webp",
-    "apps/index-tts/assets/screenshot-3.webp"
+    "/apps/index-tts/assets/screenshot-1.webp",
+    "/apps/index-tts/assets/screenshot-2.webp",
+    "/apps/index-tts/assets/screenshot-3.webp"
   ],
-  "thumbnail": "apps/index-tts/assets/thumbnail.webp",
+  "thumbnail": "/apps/index-tts/assets/thumbnail.webp",
   "tips": {
     "before_install": "1. Please ensure available memory > 12 GB, otherwise the application may not run properly\n2. The application takes approximately 5 minutes to start, please be patient\n3. This application runs on CPU by default. This mode has low computational efficiency and will cause extremely high resource consumption and potential system instability. For optimal performance and stability, it is strongly recommended to use NVIDIA GPU to run this application\n4. If you need to use NVIDIA GPU, please select \"Custom Install\" and enable the GPU option (supported in ZimaOS 1.5.0 and above)\n"
   },
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

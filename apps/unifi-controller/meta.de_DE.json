@@ -1,19 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
-  "author": "CasaOS Team",
-  "category": "Networking",
+  "id": "unifi-controller",
   "description": "Um Unifi zu anderen Geräten, z. B. einem Access Point, zu übernehmen, muss die Inform-IP-Adresse geändert werden. Da Unifi standardmäßig in Docker läuft, verwendet es eine IP-Adresse, die von anderen Geräten nicht erreichbar ist. Um dies zu ändern, gehen Sie zu Einstellungen> Systemeinstellungen> Controller-Konfiguration und setzen Sie den Controller-Hostname / IP auf einen Hostname oder eine IP-Adresse, die von Ihren Geräten erreichbar ist. Zusätzlich muss die Option \"Inform-Host mit Controller-Hostname / IP überschreiben\" aktiviert sein, damit Geräte während der Übernahme mit dem Controller verbunden werden können (Geräte verwenden während der Übernahme den Inform-Endpunkt).",
-  "developer": "LinuxServer.io",
-  "screenshot_link": [
-    "apps/unifi-controller/assets/screenshot-1.webp",
-    "apps/unifi-controller/assets/screenshot-2.webp",
-    "apps/unifi-controller/assets/screenshot-3.webp"
-  ],
-  "tagline": "Die Unifi-controller-Software ist ein leistungsstarker, unternehmensweiter Wireless-Software-Engine, der für hochdichte Client-Implementierungen mit niedriger Latenz und hoher Verfügbarkeitsleistung ideal ist.",
-  "thumbnail": "apps/unifi-controller/assets/thumbnail.webp",
-  "tips": {},
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Die Unifi-controller-Software ist ein leistungsstarker, unternehmensweiter Wireless-Software-Engine, der für hochdichte Client-Implementierungen mit niedriger Latenz und hoher Verfügbarkeitsleistung ideal ist."
 }

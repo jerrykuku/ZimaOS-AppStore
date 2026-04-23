@@ -1,17 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
-  "author": "FileFlows",
-  "category": "Media",
-  "developer": "FileFlows",
-  "screenshot_link": [
-    "apps/fileflows/assets/screenshot-1.webp",
-    "apps/fileflows/assets/screenshot-2.webp",
-    "apps/fileflows/assets/screenshot-3.webp"
-  ],
-  "tagline": "Dateiverarbeitung leicht gemacht!",
+  "id": "fileflows",
   "description": "Speichern Sie Speicherplatz durch effiziente Dateiverarbeitung.\n\nMit FileFlows können Sie jede Art von Datei mit benutzerdefinierten Workflows überwachen und verarbeiten. Videos, Audios, Bilder, Archive, Comics, E-Books – alles, was Sie sich wünschen!\n",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Dateiverarbeitung leicht gemacht!"
 }

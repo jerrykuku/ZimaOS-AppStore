@@ -1,16 +1,4 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
-  "description": "",
-  "tagline": "Serwer MariaDB jest jednym z najpopularniejszych serwerów baz danych na świecie. Został stworzony przez oryginalnych twórców MySQL i gwarantuje pozostanie otwartym źródłem.",
-  "developer": "MariaDB Foundation",
-  "author": "WisdomSky",
-  "thumbnail": "apps/mariadb/assets/icon.png",
-  "tips": {
-    "before_install": ""
-  },
-  "category": "Developer",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "id": "mariadb",
+  "tagline": "Serwer MariaDB jest jednym z najpopularniejszych serwerów baz danych na świecie. Został stworzony przez oryginalnych twórców MySQL i gwarantuje pozostanie otwartym źródłem."
 }

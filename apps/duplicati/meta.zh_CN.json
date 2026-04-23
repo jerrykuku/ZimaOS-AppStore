@@ -1,19 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
-  "author": "CasaOS Team",
-  "category": "Productivity",
+  "id": "duplicati",
   "description": "Duplicati是一个免费的开源备份客户端，它可以安全地存储加密的、增量的、压缩的备份文件到云存储服务和远程文件服务器。",
-  "developer": "duplicati",
-  "screenshot_link": [
-    "apps/duplicati/assets/screenshot-1.webp",
-    "apps/duplicati/assets/screenshot-2.webp",
-    "apps/duplicati/assets/screenshot-3.webp"
-  ],
-  "tagline": "在云端存储安全加密的备份文件！",
-  "thumbnail": "apps/duplicati/assets/thumbnail.webp",
-  "tips": {},
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "在云端存储安全加密的备份文件！"
 }

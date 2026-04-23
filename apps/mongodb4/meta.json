@@ -8,7 +8,7 @@
   "screenshot_link": [],
   "developer": "MongoDB Inc.",
   "author": "WisdomSky",
-  "thumbnail": "apps/mongodb4/assets/icon.png",
+  "thumbnail": "/apps/mongodb4/assets/icon.png",
   "category": "Developer",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

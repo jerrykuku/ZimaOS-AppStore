@@ -1,17 +1,5 @@
 {
-  "architectures": [
-    "amd64"
-  ],
-  "author": "RagFlow",
-  "category": "AI",
+  "id": "ragflow",
   "description": "Το RagFlow είναι μια μηχανή RAG (Retrieval-Augmented Generation) ανοιχτού κώδικα βασισμένη σε βαθιά κατανόηση εγγράφων. Επιτρέπει στους χρήστες να δημιουργήσουν το δικό τους ιδιωτικό ChatGPT αξιοποιώντας τη δύναμη των μεγάλων γλωσσικών μοντέλων και των ικανοτήτων βαθιάς ανάλυσης εγγράφων. Το RagFlow υποστηρίζει διάφορες μορφές εγγράφων, συμπεριλαμβανομένων των PDF, Word, Markdown και άλλες, επιτρέποντας στους χρήστες να δημιουργήσουν έξυπνα συστήματα ερωτήσεων-απαντήσεων βασισμένα στα δικά τους έγγραφα.\n**Βασικά Χαρακτηριστικά:**\n- Βαθιά κατανόηση εγγράφων με προηγμένες ικανότητες ανάλυσης\n- Υποστήριξη για πολλαπλές μορφές εγγράφων (PDF, Word, Markdown, κ.λπ.)\n- Ιδιωτική βάση γνώσεων με εγγύηση ασφάλειας δεδομένων\n- Προσαρμόσιμες ροές εργασίας RAG για διάφορες περιπτώσεις χρήσης\n- Ενσωμάτωση με δημοφιλή μεγάλα γλωσσικά μοντέλα\n- Διεπαφή Web για εύκολη διαχείριση και αλληλεπίδραση\n**Απαιτήσεις Υλικού:**\n- CPU >= 4 πυρήνες\n- RAM >= 16 GB\n- Δίσκος >= 50 GB\n**Μάθετε Περισσότερα:**\n- [Επίσημη Ιστοσελίδα RagFlow](https://ragflow.io)\n- [RagFlow GitHub Repository](https://github.com/infiniflow/ragflow)\n",
-  "developer": "RagFlow",
-  "screenshot_link": [
-    "apps/ragflow/assets/screenshot-1.webp",
-    "apps/ragflow/assets/screenshot-2.webp",
-    "apps/ragflow/assets/screenshot-3.webp"
-  ],
-  "tagline": "Το RagFlow είναι μια μηχανή RAG ανοιχτού κώδικα βασισμένη σε βαθιά κατανόηση εγγράφων.",
-  "thumbnail": "apps/ragflow/assets/thumbnail.webp",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Το RagFlow είναι μια μηχανή RAG ανοιχτού κώδικα βασισμένη σε βαθιά κατανόηση εγγράφων."
 }

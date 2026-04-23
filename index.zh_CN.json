@@ -1,2898 +1,632 @@
 {
-  "version": 2,
-  "updated_at": "2026-04-22T11:10:13Z",
-  "app_count": 158,
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/",
   "apps": [
     {
       "id": "2fauth",
-      "title": "2FAuth",
-      "tagline": "一个用于管理您的两步验证（2FA）帐户并生成其安全代码的Web应用程序",
-      "category": "Productivity",
-      "version": "1.0.0",
-      "author": "CasaOS Team",
-      "developer": "Bubka",
-      "architectures": [
-        "amd64",
-        "386",
-        "arm64",
-        "arm"
-      ],
-      "icon": "apps/2fauth/assets/icon.svg",
-      "thumbnail": "apps/2fauth/assets/thumbnail.webp",
-      "compose_url": "apps/2fauth/docker-compose.yml",
-      "meta_url": "apps/2fauth/meta.json",
-      "content_hash": "b5f2941e"
+      "tagline": "一个用于管理您的两步验证（2FA）帐户并生成其安全代码的Web应用程序"
     },
     {
       "id": "actualbudget",
-      "title": "Actual Budget",
-      "tagline": "隐私优先的财务应用，支持信封预算和多设备同步。",
-      "category": "Finance",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "ActualBudget",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/actualbudget/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/actualbudget/docker-compose.yml",
-      "meta_url": "apps/actualbudget/meta.json",
-      "content_hash": "d2464f0d"
+      "tagline": "隐私优先的财务应用，支持信封预算和多设备同步。"
     },
     {
       "id": "adguard-home",
-      "title": "AdGuard Home",
-      "tagline": "在网络侧阻止广告和跟踪",
-      "category": "Networking",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "AdguardTeam",
-      "architectures": [
-        "386",
-        "amd64",
-        "arm",
-        "arm64",
-        "ppc64le"
-      ],
-      "icon": "apps/adguard-home/assets/icon.svg",
-      "thumbnail": "apps/adguard-home/assets/thumbnail.webp",
-      "compose_url": "apps/adguard-home/docker-compose.yml",
-      "meta_url": "apps/adguard-home/meta.json",
-      "content_hash": "ef998df2"
+      "tagline": "在网络侧阻止广告和跟踪"
     },
     {
       "id": "adminer",
-      "title": "Adminer",
-      "tagline": "单PHP文件的数据库管理工具",
-      "category": "Developer",
-      "version": "",
-      "author": "Tim Düsterhus",
-      "developer": "Jakub Vrána",
-      "architectures": [
-        "amd64",
-        "arm",
-        "arm64"
-      ],
-      "icon": "apps/adminer/assets/icon.svg",
-      "thumbnail": "apps/adminer/assets/thumbnail.webp",
-      "compose_url": "apps/adminer/docker-compose.yml",
-      "meta_url": "apps/adminer/meta.json",
-      "content_hash": "afaaebfe"
+      "tagline": "单PHP文件的数据库管理工具"
     },
     {
       "id": "albyhub",
-      "title": "Alby Hub ✨",
-      "tagline": "一个简单的比特币闪电节点，带有钱包、子账户和NWC连接。",
-      "category": "Finance",
-      "version": "",
-      "author": "calganaygun",
-      "developer": "",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/albyhub/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/albyhub/docker-compose.yml",
-      "meta_url": "apps/albyhub/meta.json",
-      "content_hash": "90dfdb29"
+      "tagline": "一个简单的比特币闪电节点，带有钱包、子账户和NWC连接。"
     },
     {
       "id": "alist",
-      "title": "Alist",
-      "tagline": "将你的云盘挂载到家用NAS上",
-      "category": "Productivity",
-      "version": "",
-      "author": "Xhofe",
-      "developer": "Xhofe",
-      "architectures": [
-        "amd64",
-        "arm",
-        "arm64"
-      ],
-      "icon": "apps/alist/assets/icon.svg",
-      "thumbnail": "apps/alist/assets/thumbnail.webp",
-      "compose_url": "apps/alist/docker-compose.yml",
-      "meta_url": "apps/alist/meta.json",
-      "content_hash": "b82f5e61"
+      "tagline": "将你的云盘挂载到家用NAS上"
     },
     {
       "id": "alist-sync",
-      "title": "Alist-Sync",
-      "tagline": "一个基于 Web 界面的 Alist 存储同步工具。",
-      "category": "Productivity",
-      "version": "",
-      "author": "xjxjin",
-      "developer": "xjxjin",
-      "architectures": [
-        "amd64",
-        "arm",
-        "arm64"
-      ],
-      "icon": "apps/alist-sync/assets/icon.svg",
-      "thumbnail": "apps/alist-sync/assets/thumbnail.webp",
-      "compose_url": "apps/alist-sync/docker-compose.yml",
-      "meta_url": "apps/alist-sync/meta.json",
-      "content_hash": "1ba5e325"
+      "tagline": "一个基于 Web 界面的 Alist 存储同步工具。"
     },
     {
       "id": "anaconda3",
-      "title": "Anaconda3",
-      "tagline": "私有炼丹炉",
-      "category": "AI",
-      "version": "",
-      "author": "LisonEvf",
-      "developer": "LisonEvf",
-      "architectures": [
-        "amd64"
-      ],
-      "icon": "apps/anaconda3/assets/icon.svg",
-      "thumbnail": "apps/anaconda3/assets/thumbnail.webp",
-      "compose_url": "apps/anaconda3/docker-compose.yml",
-      "meta_url": "apps/anaconda3/meta.json",
-      "content_hash": "6c540df0"
+      "tagline": "私有炼丹炉"
     },
     {
       "id": "anythingllm",
       "title": "AnythingLLM",
-      "tagline": "一体化 AI 应用程序。",
-      "category": "AI",
-      "version": "",
-      "author": "",
-      "developer": "Mintplex Labs",
-      "architectures": [
-        "amd64"
-      ],
-      "icon": "apps/anythingllm/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/anythingllm/docker-compose.yml",
-      "meta_url": "apps/anythingllm/meta.json",
-      "content_hash": "a3fc0abc"
+      "tagline": "一体化 AI 应用程序。"
     },
     {
       "id": "archivebox",
       "title": "ArchiveBox",
-      "tagline": "自托管互联网存档解决方案",
-      "category": "Productivity",
-      "version": "",
-      "author": "ArchiveBox",
-      "developer": "ArchiveBox",
-      "architectures": [
-        "amd64"
-      ],
-      "icon": "apps/archivebox/assets/icon.svg",
-      "thumbnail": "apps/archivebox/assets/thumbnail.webp",
-      "compose_url": "apps/archivebox/docker-compose.yml",
-      "meta_url": "apps/archivebox/meta.json",
-      "content_hash": "0b4dca08"
+      "tagline": "自托管互联网存档解决方案"
     },
     {
       "id": "audiobookshelf",
-      "title": "Audiobookshelf",
-      "tagline": "Audiobookshelf 是一个自托管的有声书和播客服务器。",
-      "category": "Media",
-      "version": "",
-      "author": "advplyr",
-      "developer": "advplyr",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/audiobookshelf/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/audiobookshelf/docker-compose.yml",
-      "meta_url": "apps/audiobookshelf/meta.json",
-      "content_hash": "1ff27d75"
+      "tagline": "Audiobookshelf 是一个自托管的有声书和播客服务器。"
     },
     {
       "id": "autobrr",
-      "title": "Autobrr",
-      "tagline": "现代、易于使用的Torrents和Usenet下载自动化工具。",
-      "category": "Media",
-      "version": "",
-      "author": "Autobrr Team",
-      "developer": "Autobrr Team",
-      "architectures": [
-        "amd64",
-        "arm",
-        "arm64"
-      ],
-      "icon": "apps/autobrr/assets/icon.svg",
-      "thumbnail": "apps/autobrr/assets/thumbnail.webp",
-      "compose_url": "apps/autobrr/docker-compose.yml",
-      "meta_url": "apps/autobrr/meta.json",
-      "content_hash": "89390eee"
+      "tagline": "现代、易于使用的Torrents和Usenet下载自动化工具。"
     },
     {
       "id": "bazarr",
-      "title": "Bazarr",
-      "tagline": "Sonarr和Radarr的信件生成器",
-      "category": "Media",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "Sabnzbd Team",
-      "architectures": [
-        "amd64",
-        "arm",
-        "arm64"
-      ],
-      "icon": "apps/bazarr/assets/icon.svg",
-      "thumbnail": "apps/bazarr/assets/thumbnail.webp",
-      "compose_url": "apps/bazarr/docker-compose.yml",
-      "meta_url": "apps/bazarr/meta.json",
-      "content_hash": "03643afb"
+      "tagline": "Sonarr和Radarr的信件生成器"
     },
     {
       "id": "beaverhabittracker",
-      "title": "BeaverHabitTracker",
-      "tagline": "一款自托管的无目标习惯跟踪工具。",
-      "category": "Productivity",
-      "version": "",
-      "author": "daya0576",
-      "developer": "daya0576",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/beaverhabittracker/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/beaverhabittracker/docker-compose.yml",
-      "meta_url": "apps/beaverhabittracker/meta.json",
-      "content_hash": "c4b79ab3"
+      "tagline": "一款自托管的无目标习惯跟踪工具。"
     },
     {
       "id": "calibre-web",
-      "title": "Calibre-web",
-      "tagline": "用于浏览，阅读和下载存储在Calibre数据库中的电子书的Web应用程序",
-      "category": "Media",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "linuxserver",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/calibre-web/assets/icon.svg",
-      "thumbnail": "apps/calibre-web/assets/thumbnail.webp",
-      "compose_url": "apps/calibre-web/docker-compose.yml",
-      "meta_url": "apps/calibre-web/meta.json",
-      "content_hash": "001e5aa3"
+      "tagline": "用于浏览，阅读和下载存储在Calibre数据库中的电子书的Web应用程序"
     },
     {
       "id": "chatbot-ui",
-      "title": "Chatbot UI",
-      "tagline": "用于AI模型的开源聊天界面",
-      "category": "AI",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "Mckay Wrigley",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/chatbot-ui/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/chatbot-ui/docker-compose.yml",
-      "meta_url": "apps/chatbot-ui/meta.json",
-      "content_hash": "c70b982c"
+      "tagline": "用于AI模型的开源聊天界面"
     },
     {
       "id": "chatgpt-next-web",
-      "title": "ChatGPT Next Web",
-      "tagline": "精心设计的跨平台 ChatGPT UI",
-      "category": "AI",
-      "version": "",
-      "author": "CorrectRoadH,Cp0204",
-      "developer": "Yidadaa",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/chatgpt-next-web/assets/icon.svg",
-      "thumbnail": "apps/chatgpt-next-web/assets/thumbnail.webp",
-      "compose_url": "apps/chatgpt-next-web/docker-compose.yml",
-      "meta_url": "apps/chatgpt-next-web/meta.json",
-      "content_hash": "1ee40552"
+      "tagline": "精心设计的跨平台 ChatGPT UI"
     },
     {
       "id": "cloudbeaver",
-      "title": "CloudBeaver",
-      "tagline": "云数据库管理器。",
-      "category": "Developer",
-      "version": "",
-      "author": "joaobosconff",
-      "developer": "dbeaver",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/cloudbeaver/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/cloudbeaver/docker-compose.yml",
-      "meta_url": "apps/cloudbeaver/meta.json",
-      "content_hash": "774ff9d5"
+      "tagline": "云数据库管理器。"
     },
     {
       "id": "cloudflared",
-      "title": "Cloudflared",
-      "tagline": "Cloudflare提供的隧道守护程序，可安全地将您的Web服务器暴露在互联网上。",
-      "category": "Networking",
-      "version": "",
-      "author": "WisdomSky",
-      "developer": "Cloudflare Inc.",
-      "architectures": [
-        "amd64",
-        "arm",
-        "arm64"
-      ],
-      "icon": "apps/cloudflared/assets/icon.svg",
-      "thumbnail": "apps/cloudflared/assets/thumbnail.webp",
-      "compose_url": "apps/cloudflared/docker-compose.yml",
-      "meta_url": "apps/cloudflared/meta.json",
-      "content_hash": "b1b165dc"
+      "tagline": "Cloudflare提供的隧道守护程序，可安全地将您的Web服务器暴露在互联网上。"
     },
     {
       "id": "convertx",
-      "title": "ConvertX",
-      "tagline": "一款支持多种格式的多功能文件转换工具。",
-      "category": "Productivity",
-      "version": "",
-      "author": "c4illin",
-      "developer": "c4illin",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/convertx/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/convertx/docker-compose.yml",
-      "meta_url": "apps/convertx/meta.json",
-      "content_hash": "4962c002"
+      "tagline": "一款支持多种格式的多功能文件转换工具。"
     },
     {
       "id": "crafty",
-      "title": "Crafty",
-      "tagline": "掌控你的Minecraft服务器。",
-      "category": "Media",
-      "version": "",
-      "author": "Chàra Rose",
-      "developer": "Crafty Team",
-      "architectures": [
-        "amd64",
-        "arm",
-        "arm64"
-      ],
-      "icon": "apps/crafty/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/crafty/docker-compose.yml",
-      "meta_url": "apps/crafty/meta.json",
-      "content_hash": "e2646a63"
+      "tagline": "掌控你的Minecraft服务器。"
     },
     {
       "id": "databag",
-      "title": "Databag",
-      "tagline": "分布式网络的通讯应用",
-      "category": "Social",
-      "version": "",
-      "author": "Pierre Balzack",
-      "developer": "balzack",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/databag/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/databag/docker-compose.yml",
-      "meta_url": "apps/databag/meta.json",
-      "content_hash": "a08cbe2c"
+      "tagline": "分布式网络的通讯应用"
     },
     {
       "id": "ddns-go",
-      "title": "ddns-go",
-      "tagline": "简单好用的DDNS",
-      "category": "Networking",
-      "version": "",
-      "author": "zxxhz,Cp0204",
-      "developer": "jeessy2",
-      "architectures": [
-        "amd64",
-        "arm",
-        "arm64"
-      ],
-      "icon": "apps/ddns-go/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/ddns-go/docker-compose.yml",
-      "meta_url": "apps/ddns-go/meta.json",
-      "content_hash": "b23959ce"
+      "tagline": "简单好用的DDNS"
     },
     {
       "id": "ddns-updater",
-      "title": "ddns-updater",
-      "tagline": "简单好用的DDNS",
-      "category": "Networking",
-      "version": "",
-      "author": "rstuhlmuller",
-      "developer": "qmcgaw",
-      "architectures": [
-        "amd64",
-        "arm",
-        "arm64"
-      ],
-      "icon": "apps/ddns-updater/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/ddns-updater/docker-compose.yml",
-      "meta_url": "apps/ddns-updater/meta.json",
-      "content_hash": "e0cbe112"
+      "tagline": "简单好用的DDNS"
     },
     {
       "id": "deepseek-ocr-nvidia",
       "title": "DeepSeek OCR(Nvidia GPU)",
-      "tagline": "DeepSeek AI 驱动的强大 OCR",
-      "category": "AI",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "rdumasia303",
-      "architectures": [
-        "amd64"
-      ],
-      "icon": "apps/deepseek-ocr-nvidia/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/deepseek-ocr-nvidia/docker-compose.yml",
-      "meta_url": "apps/deepseek-ocr-nvidia/meta.json",
-      "content_hash": "7183d5aa"
+      "tagline": "DeepSeek AI 驱动的强大 OCR"
     },
     {
       "id": "deluge",
-      "title": "Deluge",
-      "tagline": "轻量级且免费的 BitTorrent 客户端。",
-      "category": "Media",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "Deluge Team",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/deluge/assets/icon.svg",
-      "thumbnail": "apps/deluge/assets/thumbnail.webp",
-      "compose_url": "apps/deluge/docker-compose.yml",
-      "meta_url": "apps/deluge/meta.json",
-      "content_hash": "c366c296"
-    },
-    {
-      "id": "dify",
-      "title": "Dify",
-      "tagline": "LLM App Development Platform",
-      "category": "AI",
-      "version": "",
-      "author": "IceWhaleTech",
-      "developer": "LangGenius",
-      "architectures": [
-        "arm64",
-        "amd64"
-      ],
-      "icon": "apps/dify/assets/icon.svg",
-      "thumbnail": "apps/dify/assets/thumbnail.webp",
-      "compose_url": "apps/dify/docker-compose.yml",
-      "meta_url": "apps/dify/meta.json",
-      "content_hash": "8b3d0b71"
+      "tagline": "轻量级且免费的 BitTorrent 客户端。"
     },
     {
       "id": "docmost",
-      "title": "Docmost",
-      "tagline": "现代化的团队知识库和wiki平台",
-      "category": "Productivity",
-      "version": "",
-      "author": "docmost",
-      "developer": "docmost",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/docmost/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/docmost/docker-compose.yml",
-      "meta_url": "apps/docmost/meta.json",
-      "content_hash": "5baaed89"
-    },
-    {
-      "id": "downtify",
-      "title": "Downtify",
-      "tagline": "Download Spotify music with album art and metadata",
-      "category": "Media",
-      "version": "",
-      "author": "Henrique Sebastião",
-      "developer": "Henrique Sebastião",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/downtify/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/downtify/docker-compose.yml",
-      "meta_url": "apps/downtify/meta.json",
-      "content_hash": "2386848c"
+      "tagline": "现代化的团队知识库和wiki平台"
     },
     {
       "id": "duckdns",
-      "title": "duckdns",
-      "tagline": "为您的域名提供动态DNS服务，支持IPv4和IPv6",
-      "category": "Networking",
-      "version": "",
-      "author": "DuckDNS Team",
-      "developer": "DuckDNS Team",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/duckdns/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/duckdns/docker-compose.yml",
-      "meta_url": "apps/duckdns/meta.json",
-      "content_hash": "c532ed4a"
+      "tagline": "为您的域名提供动态DNS服务，支持IPv4和IPv6"
     },
     {
       "id": "duplicati",
-      "title": "Duplicati",
-      "tagline": "在云端存储安全加密的备份文件！",
-      "category": "Productivity",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "duplicati",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/duplicati/assets/icon.svg",
-      "thumbnail": "apps/duplicati/assets/thumbnail.webp",
-      "compose_url": "apps/duplicati/docker-compose.yml",
-      "meta_url": "apps/duplicati/meta.json",
-      "content_hash": "2b543f9b"
+      "tagline": "在云端存储安全加密的备份文件！"
     },
     {
       "id": "emby",
-      "title": "Emby",
-      "tagline": "Emby 整合您的个人视频、音乐、照片和直播电视。",
-      "category": "Media",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "linuxserver",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/emby/assets/icon.svg",
-      "thumbnail": "apps/emby/assets/thumbnail.webp",
-      "compose_url": "apps/emby/docker-compose.yml",
-      "meta_url": "apps/emby/meta.json",
-      "content_hash": "c3559531"
+      "tagline": "Emby 整合您的个人视频、音乐、照片和直播电视。"
     },
     {
       "id": "emby-nvidia",
-      "title": "Emby(Nvidia GPU)",
-      "tagline": "用EMBY随时随地带着媒体",
-      "category": "Media",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "linuxserver",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/emby-nvidia/assets/icon.svg",
-      "thumbnail": "apps/emby-nvidia/assets/thumbnail.png",
-      "compose_url": "apps/emby-nvidia/docker-compose.yml",
-      "meta_url": "apps/emby-nvidia/meta.json",
-      "content_hash": "178ae1d3"
+      "tagline": "用EMBY随时随地带着媒体"
     },
     {
       "id": "embystat",
-      "title": "Embystat",
-      "tagline": "从您的（本地）Emby或Jellyfin服务器计算各种统计数据",
-      "category": "Media",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "Embystart Team",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/embystat/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/embystat/docker-compose.yml",
-      "meta_url": "apps/embystat/meta.json",
-      "content_hash": "552a0f57"
-    },
-    {
-      "id": "emulatorjs",
-      "title": "emulatorjs",
-      "tagline": "",
-      "category": "Media",
-      "version": "",
-      "author": "self",
-      "developer": "",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/emulatorjs/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/emulatorjs/docker-compose.yml",
-      "meta_url": "apps/emulatorjs/meta.json",
-      "content_hash": "ff48457e"
+      "tagline": "从您的（本地）Emby或Jellyfin服务器计算各种统计数据"
     },
     {
       "id": "esphome",
-      "title": "ESPHome",
-      "tagline": "家庭自动化系统",
-      "category": "Home",
-      "version": "",
-      "author": "kd9lsv",
-      "developer": "",
-      "architectures": [
-        "amd64",
-        "arm64",
-        "arm"
-      ],
-      "icon": "apps/esphome/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/esphome/docker-compose.yml",
-      "meta_url": "apps/esphome/meta.json",
-      "content_hash": "f4a8bc97"
+      "tagline": "家庭自动化系统"
     },
     {
       "id": "excalidraw",
-      "title": "Excalidraw",
-      "tagline": "用于绘制手绘风格图表的虚拟白板",
-      "category": "Productivity",
-      "version": "",
-      "author": "excalidraw",
-      "developer": "excalidraw",
-      "architectures": [
-        "amd64"
-      ],
-      "icon": "apps/excalidraw/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/excalidraw/docker-compose.yml",
-      "meta_url": "apps/excalidraw/meta.json",
-      "content_hash": "fd4fe297"
+      "tagline": "用于绘制手绘风格图表的虚拟白板"
     },
     {
       "id": "filebrowser",
-      "title": "FileBrowser",
-      "tagline": "上传，删除，预览，重命名，编辑和共享您的文件。",
-      "category": "Productivity",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "File Browser",
-      "architectures": [
-        "amd64",
-        "arm64",
-        "arm"
-      ],
-      "icon": "apps/filebrowser/assets/icon.svg",
-      "thumbnail": "apps/filebrowser/assets/thumbnail.webp",
-      "compose_url": "apps/filebrowser/docker-compose.yml",
-      "meta_url": "apps/filebrowser/meta.json",
-      "content_hash": "62e6e6dc"
+      "tagline": "上传，删除，预览，重命名，编辑和共享您的文件。"
     },
     {
       "id": "filedrop",
-      "title": "FileDrop",
-      "tagline": "FileDrop 是一项免费的开放源代码文件共享服务。",
-      "category": "Productivity",
-      "version": "",
-      "author": "Noé Favier",
-      "developer": "Noé Favier (noe.favier@outlook.com)",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/filedrop/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/filedrop/docker-compose.yml",
-      "meta_url": "apps/filedrop/meta.json",
-      "content_hash": "b413856b"
+      "tagline": "FileDrop 是一项免费的开放源代码文件共享服务。"
     },
     {
       "id": "fileflows",
-      "title": "FileFlows",
-      "tagline": "文件处理变得轻松！",
-      "category": "Media",
-      "version": "",
-      "author": "FileFlows",
-      "developer": "FileFlows",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/fileflows/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/fileflows/docker-compose.yml",
-      "meta_url": "apps/fileflows/meta.json",
-      "content_hash": "ec61edcf"
+      "tagline": "文件处理变得轻松！"
     },
     {
       "id": "firefly",
       "title": "萤火虫",
-      "tagline": "最简单易用的WireGuard服务器。可广泛应用于内网穿透、异地组网、远程办公等场景。",
-      "category": "Networking",
-      "version": "",
-      "author": "Cp0204",
-      "developer": "Safe3",
-      "architectures": [
-        "amd64",
-        "arm64",
-        "arm"
-      ],
-      "icon": "apps/firefly/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/firefly/docker-compose.yml",
-      "meta_url": "apps/firefly/meta.json",
-      "content_hash": "9ed02409"
-    },
-    {
-      "id": "flaresolverr",
-      "title": "FlareSolverr",
-      "tagline": "",
-      "category": "Networking",
-      "version": "",
-      "author": "calganaygun",
-      "developer": "",
-      "architectures": [
-        "amd64",
-        "arm",
-        "arm64"
-      ],
-      "icon": "apps/flaresolverr/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/flaresolverr/docker-compose.yml",
-      "meta_url": "apps/flaresolverr/meta.json",
-      "content_hash": "7e23cc0b"
+      "tagline": "最简单易用的WireGuard服务器。可广泛应用于内网穿透、异地组网、远程办公等场景。"
     },
     {
       "id": "flowise",
-      "title": "Flowise",
-      "tagline": "用于构建AI代理和LLM工作流的开源生成式AI开发平台",
-      "category": "AI",
-      "version": "",
-      "author": "Flowise",
-      "developer": "Flowise",
-      "architectures": [
-        "amd64"
-      ],
-      "icon": "apps/flowise/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/flowise/docker-compose.yml",
-      "meta_url": "apps/flowise/meta.json",
-      "content_hash": "1d7bb0ad"
+      "tagline": "用于构建AI代理和LLM工作流的开源生成式AI开发平台"
     },
     {
       "id": "freshrss",
-      "title": "FreshRSS",
-      "tagline": "一个免费的、可自行托管的新闻聚合器...",
-      "category": "Productivity",
-      "version": "",
-      "author": "FreshRSS",
-      "developer": "FreshRSS",
-      "architectures": [
-        "amd64",
-        "arm64",
-        "arm"
-      ],
-      "icon": "apps/freshrss/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/freshrss/docker-compose.yml",
-      "meta_url": "apps/freshrss/meta.json",
-      "content_hash": "754f7e62"
+      "tagline": "一个免费的、可自行托管的新闻聚合器..."
     },
     {
       "id": "gateway-go",
-      "title": "gateway-go",
-      "tagline": "支持内网穿透，作为开源第三方客户端支持客户端远程管理casaOS、zimaOS，远程访问你的所有应用。",
-      "category": "Networking",
-      "version": "",
-      "author": "iotserv",
-      "developer": "iotserv",
-      "architectures": [
-        "amd64",
-        "arm",
-        "arm64"
-      ],
-      "icon": "apps/gateway-go/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/gateway-go/docker-compose.yml",
-      "meta_url": "apps/gateway-go/meta.json",
-      "content_hash": "0301b159"
+      "tagline": "支持内网穿透，作为开源第三方客户端支持客户端远程管理casaOS、zimaOS，远程访问你的所有应用。"
     },
     {
       "id": "gitea",
-      "title": "Gitea",
-      "tagline": "自托管软件开发服务",
-      "category": "Developer",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "Gitea",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/gitea/assets/icon.svg",
-      "thumbnail": "apps/gitea/assets/thumbnail.webp",
-      "compose_url": "apps/gitea/docker-compose.yml",
-      "meta_url": "apps/gitea/meta.json",
-      "content_hash": "8b23fc23"
+      "tagline": "自托管软件开发服务"
     },
     {
       "id": "glances",
       "title": "Glances",
-      "tagline": "跨平台监控工具",
-      "category": "Productivity",
-      "version": "",
-      "author": "joaobosconff",
-      "developer": "Nicolas Hennion",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/glances/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/glances/docker-compose.yml",
-      "meta_url": "apps/glances/meta.json",
-      "content_hash": "e29259ef"
+      "tagline": "跨平台监控工具"
     },
     {
       "id": "gopeed",
-      "title": "Gopeed",
-      "tagline": "开源、轻量级、原生、支持（HTTP、BitTorrent、Magnet等）下载。",
-      "category": "Media",
-      "version": "",
-      "author": "joaobosconff",
-      "developer": "GopeedLab",
-      "architectures": [
-        "amd64",
-        "arm64",
-        "arm"
-      ],
-      "icon": "apps/gopeed/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/gopeed/docker-compose.yml",
-      "meta_url": "apps/gopeed/meta.json",
-      "content_hash": "74028a7d"
+      "tagline": "开源、轻量级、原生、支持（HTTP、BitTorrent、Magnet等）下载。"
     },
     {
       "id": "grafana",
-      "title": "Grafana",
-      "tagline": "Grafana是一个完整的可观察性堆栈，允许您监视和分析指标，日志和跟踪。无论数据存储在何处，它都允许您查询，可视化，警报和理解数据。\n",
-      "category": "Developer",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "grafana",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/grafana/assets/icon.svg",
-      "thumbnail": "apps/grafana/assets/thumbnail.webp",
-      "compose_url": "apps/grafana/docker-compose.yml",
-      "meta_url": "apps/grafana/meta.json",
-      "content_hash": "19fe8bb7"
+      "tagline": "Grafana是一个完整的可观察性堆栈，允许您监视和分析指标，日志和跟踪。无论数据存储在何处，它都允许您查询，可视化，警报和理解数据。\n"
     },
     {
       "id": "handbrake",
-      "title": "handbrake",
-      "tagline": "解放你的视频，创造无限可能。",
-      "category": "Media",
-      "version": "",
-      "author": "self",
-      "developer": "",
-      "architectures": [
-        "amd64"
-      ],
-      "icon": "apps/handbrake/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/handbrake/docker-compose.yml",
-      "meta_url": "apps/handbrake/meta.json",
-      "content_hash": "64ed9a1c"
+      "tagline": "解放你的视频，创造无限可能。"
     },
     {
       "id": "holoplay",
-      "title": "HoloPlay",
-      "tagline": "一个用于收听Youtube音频源的Web应用。",
-      "category": "Media",
-      "version": "",
-      "author": "",
-      "developer": "Stéphane Richin",
-      "architectures": [
-        "amd64",
-        "386",
-        "arm64",
-        "arm"
-      ],
-      "icon": "apps/holoplay/assets/icon.svg",
-      "thumbnail": "apps/holoplay/assets/thumbnail.webp",
-      "compose_url": "apps/holoplay/docker-compose.yml",
-      "meta_url": "apps/holoplay/meta.json",
-      "content_hash": "65e670df"
+      "tagline": "一个用于收听Youtube音频源的Web应用。"
     },
     {
       "id": "homeassistant",
-      "title": "Home Assistant",
-      "tagline": "开源家庭自动化系统，优先考虑本地控制和隐私保护。",
-      "category": "Home",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "Home Assistant",
-      "architectures": [
-        "amd64",
-        "arm64",
-        "arm"
-      ],
-      "icon": "apps/homeassistant/assets/icon.svg",
-      "thumbnail": "apps/homeassistant/assets/thumbnail.webp",
-      "compose_url": "apps/homeassistant/docker-compose.yml",
-      "meta_url": "apps/homeassistant/meta.json",
-      "content_hash": "ae3d00e6"
+      "tagline": "开源家庭自动化系统，优先考虑本地控制和隐私保护。"
     },
     {
       "id": "homebridge",
-      "title": "Homebridge",
-      "tagline": "HomeKit 为急性子提供支持",
-      "category": "Home",
-      "version": "",
-      "author": "UnderCurve",
-      "developer": "Homebridge",
-      "architectures": [
-        "amd64",
-        "arm",
-        "arm64"
-      ],
-      "icon": "apps/homebridge/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/homebridge/docker-compose.yml",
-      "meta_url": "apps/homebridge/meta.json",
-      "content_hash": "8fa62153"
+      "tagline": "HomeKit 为急性子提供支持"
     },
     {
       "id": "hugo",
-      "title": "Hugo",
-      "tagline": "世界上最快的网站构建框架",
-      "category": "Developer",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "gohugoio",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/hugo/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/hugo/docker-compose.yml",
-      "meta_url": "apps/hugo/meta.json",
-      "content_hash": "96c38341"
+      "tagline": "世界上最快的网站构建框架"
     },
     {
       "id": "icewhale-stable-diffusion-webui",
-      "title": "Stable Diffusion",
-      "tagline": "用于根据文本描述生成图像的AI模型。",
-      "category": "AI",
-      "version": "",
-      "author": "",
-      "developer": "stability.ai",
-      "architectures": [
-        "amd64"
-      ],
-      "icon": "apps/icewhale-stable-diffusion-webui/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/icewhale-stable-diffusion-webui/docker-compose.yml",
-      "meta_url": "apps/icewhale-stable-diffusion-webui/meta.json",
-      "content_hash": "4efa7978"
+      "tagline": "用于根据文本描述生成图像的AI模型。"
     },
     {
       "id": "immich",
-      "title": "Immich",
-      "tagline": "自托管媒体管理解决方案",
-      "category": "Media",
-      "version": "",
-      "author": "Cp0204",
-      "developer": "alextran1502",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/immich/assets/icon.svg",
-      "thumbnail": "apps/immich/assets/thumbnail.webp",
-      "compose_url": "apps/immich/docker-compose.yml",
-      "meta_url": "apps/immich/meta.json",
-      "content_hash": "eeefe6d3"
+      "tagline": "自托管媒体管理解决方案"
     },
     {
       "id": "index-tts",
       "title": "Index-TTS",
-      "tagline": "工业级可控高效的零样本文本转语音系统",
-      "category": "AI",
-      "version": "",
-      "author": "index-tts",
-      "developer": "icewhaletech",
-      "architectures": [
-        "amd64"
-      ],
-      "icon": "apps/index-tts/assets/icon.svg",
-      "thumbnail": "apps/index-tts/assets/thumbnail.webp",
-      "compose_url": "apps/index-tts/docker-compose.yml",
-      "meta_url": "apps/index-tts/meta.json",
-      "content_hash": "2fedd659"
+      "tagline": "工业级可控高效的零样本文本转语音系统"
     },
     {
       "id": "index-tts-nvidia",
       "title": "Index-TTS(Nvidia GPU)",
-      "tagline": "工业级可控高效的零样本文本转语音系统",
-      "category": "AI",
-      "version": "",
-      "author": "index-tts",
-      "developer": "icewhaletech",
-      "architectures": [
-        "amd64"
-      ],
-      "icon": "apps/index-tts-nvidia/assets/icon.svg",
-      "thumbnail": "apps/index-tts-nvidia/assets/thumbnail.webp",
-      "compose_url": "apps/index-tts-nvidia/docker-compose.yml",
-      "meta_url": "apps/index-tts-nvidia/meta.json",
-      "content_hash": "1e3152cb"
+      "tagline": "工业级可控高效的零样本文本转语音系统"
     },
     {
       "id": "jackett",
-      "title": "Jackett",
-      "tagline": "Jackett作为代理服务器工作",
-      "category": "Media",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "Jackett",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/jackett/assets/icon.svg",
-      "thumbnail": "apps/jackett/assets/thumbnail.webp",
-      "compose_url": "apps/jackett/docker-compose.yml",
-      "meta_url": "apps/jackett/meta.json",
-      "content_hash": "36a73b4e"
+      "tagline": "Jackett作为代理服务器工作"
     },
     {
       "id": "jdownloader2",
-      "title": "JDownloader2",
-      "tagline": "免费且开源的下载管理工具",
-      "category": "Media",
-      "version": "",
-      "author": "Fabio Tea",
-      "developer": "jdownloader",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/jdownloader2/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/jdownloader2/docker-compose.yml",
-      "meta_url": "apps/jdownloader2/meta.json",
-      "content_hash": "d7c00918"
+      "tagline": "免费且开源的下载管理工具"
     },
     {
       "id": "jellyfin",
-      "title": "Jellyfin",
-      "tagline": "个人媒体系统",
-      "category": "Media",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "Jellyfin",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/jellyfin/assets/icon.svg",
-      "thumbnail": "apps/jellyfin/assets/thumbnail.webp",
-      "compose_url": "apps/jellyfin/docker-compose.yml",
-      "meta_url": "apps/jellyfin/meta.json",
-      "content_hash": "821fec73"
+      "tagline": "个人媒体系统"
     },
     {
       "id": "jellyfin-nvidia",
-      "title": "Jellyfin(Nvidia GPU)",
-      "tagline": "个人媒体系统",
-      "category": "Media",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "Jellyfin",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/jellyfin-nvidia/assets/icon.svg",
-      "thumbnail": "apps/jellyfin-nvidia/assets/thumbnail.png",
-      "compose_url": "apps/jellyfin-nvidia/docker-compose.yml",
-      "meta_url": "apps/jellyfin-nvidia/meta.json",
-      "content_hash": "c975d84c"
+      "tagline": "个人媒体系统"
     },
     {
       "id": "jellyseerr",
-      "title": "Jellyseerr",
-      "tagline": "Jellyseerr 是一个免费开源的软件应用，用于管理您的媒体库请求。",
-      "category": "Media",
-      "version": "",
-      "author": "Fallenbagel",
-      "developer": "Fallenbagel",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/jellyseerr/assets/icon.svg",
-      "thumbnail": "apps/jellyseerr/assets/thumbnail.jpg",
-      "compose_url": "apps/jellyseerr/docker-compose.yml",
-      "meta_url": "apps/jellyseerr/meta.json",
-      "content_hash": "fee625ba"
+      "tagline": "Jellyseerr 是一个免费开源的软件应用，用于管理您的媒体库请求。"
     },
     {
       "id": "jenkins",
-      "title": "Jenkins CI/CD",
-      "tagline": "Jenkins 持续集成和交付服务器。",
-      "category": "Developer",
-      "version": "",
-      "author": "bepp-boop",
-      "developer": "bepp-boop",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/jenkins/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/jenkins/docker-compose.yml",
-      "meta_url": "apps/jenkins/meta.json",
-      "content_hash": "a4d8fef9"
+      "tagline": "Jenkins 持续集成和交付服务器。"
     },
     {
       "id": "kavita",
-      "title": "Kavita",
-      "tagline": "Kavita 是一个免费和开源的基于 Web 的漫画和书籍服务器。",
-      "category": "Media",
-      "version": "",
-      "author": "jvmilazz0",
-      "developer": "jvmilazz0",
-      "architectures": [
-        "amd64",
-        "arm",
-        "arm64"
-      ],
-      "icon": "apps/kavita/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/kavita/docker-compose.yml",
-      "meta_url": "apps/kavita/meta.json",
-      "content_hash": "b93985b0"
+      "tagline": "Kavita 是一个免费和开源的基于 Web 的漫画和书籍服务器。"
     },
     {
       "id": "komga",
-      "title": "Komga",
-      "tagline": "Komga 是你的漫画、杂志和电子书的媒体服务器。",
-      "category": "Media",
-      "version": "",
-      "author": "gotson",
-      "developer": "gotson",
-      "architectures": [
-        "amd64",
-        "arm",
-        "arm64"
-      ],
-      "icon": "apps/komga/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/komga/docker-compose.yml",
-      "meta_url": "apps/komga/meta.json",
-      "content_hash": "987e5db7"
+      "tagline": "Komga 是你的漫画、杂志和电子书的媒体服务器。"
     },
     {
       "id": "label-studio",
-      "title": "Label Studio",
-      "tagline": "Label Studio 是一个开源数据标记工具。 它允许您使用简单直观的 UI 来标记音频、文本、图像、视频和时间序列等数据类型，并导出为各种模型格式。 它可用于准备原始数据或改进现有训练数据以获得更准确的机器学习模型。",
-      "category": "AI",
-      "version": "",
-      "author": "CorrectRoadH",
-      "developer": "Yidadaa",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/label-studio/assets/icon.svg",
-      "thumbnail": "apps/label-studio/assets/thumbnail.webp",
-      "compose_url": "apps/label-studio/docker-compose.yml",
-      "meta_url": "apps/label-studio/meta.json",
-      "content_hash": "8adafa15"
+      "tagline": "Label Studio 是一个开源数据标记工具。 它允许您使用简单直观的 UI 来标记音频、文本、图像、视频和时间序列等数据类型，并导出为各种模型格式。 它可用于准备原始数据或改进现有训练数据以获得更准确的机器学习模型。"
     },
     {
       "id": "langflow",
       "title": "Langflow",
-      "tagline": "用于构建和调试多智能体和RAG应用的开源UI",
-      "category": "AI",
-      "version": "",
-      "author": "langflowai",
-      "developer": "langflowai",
-      "architectures": [
-        "amd64"
-      ],
-      "icon": "apps/langflow/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/langflow/docker-compose.yml",
-      "meta_url": "apps/langflow/meta.json",
-      "content_hash": "cda0f597"
+      "tagline": "用于构建和调试多智能体和RAG应用的开源UI"
     },
     {
       "id": "lazylibrarian",
-      "title": "Lazylibrarian",
-      "tagline": "eBook自动下载器",
-      "category": "Media",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "Lazylibrarian Team",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/lazylibrarian/assets/icon.svg",
-      "thumbnail": "apps/lazylibrarian/assets/thumbnail.webp",
-      "compose_url": "apps/lazylibrarian/docker-compose.yml",
-      "meta_url": "apps/lazylibrarian/meta.json",
-      "content_hash": "35a49ddb"
+      "tagline": "eBook自动下载器"
     },
     {
       "id": "librechat",
       "title": "LibreChat",
-      "tagline": "功能完整的开源AI聊天界面",
-      "category": "AI",
-      "version": "",
-      "author": "LibreChat",
-      "developer": "LibreChat",
-      "architectures": [
-        "amd64"
-      ],
-      "icon": "apps/librechat/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/librechat/docker-compose.yml",
-      "meta_url": "apps/librechat/meta.json",
-      "content_hash": "8d8b9cb7"
+      "tagline": "功能完整的开源AI聊天界面"
     },
     {
       "id": "lidarr",
-      "title": "Lidarr",
-      "tagline": "用于Usenet和BitTorrent用户的音乐收藏管理器",
-      "category": "Media",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "lidarr Team",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/lidarr/assets/icon.svg",
-      "thumbnail": "apps/lidarr/assets/thumbnail.webp",
-      "compose_url": "apps/lidarr/docker-compose.yml",
-      "meta_url": "apps/lidarr/meta.json",
-      "content_hash": "9a60a52e"
+      "tagline": "用于Usenet和BitTorrent用户的音乐收藏管理器"
     },
     {
       "id": "llama-factory-nvidia",
       "title": "LLaMA Factory(Nvidia GPU)",
-      "tagline": "统一的LLM微调,支持100+模型",
-      "category": "AI",
-      "version": "",
-      "author": "hiyouga",
-      "developer": "hiyouga",
-      "architectures": [
-        "amd64"
-      ],
-      "icon": "apps/llama-factory-nvidia/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/llama-factory-nvidia/docker-compose.yml",
-      "meta_url": "apps/llama-factory-nvidia/meta.json",
-      "content_hash": "8ef57557"
+      "tagline": "统一的LLM微调,支持100+模型"
     },
     {
       "id": "logseq",
-      "title": "Logseq",
-      "tagline": "A privacy-first, open-source platform for knowledge management and collaboration.",
-      "category": "Productivity",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "Logseq  Team",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/logseq/assets/icon.svg",
-      "thumbnail": "apps/logseq/assets/thumbnail.webp",
-      "compose_url": "apps/logseq/docker-compose.yml",
-      "meta_url": "apps/logseq/meta.json",
-      "content_hash": "3d3a1cc6"
+      "tagline": "A privacy-first, open-source platform for knowledge management and collaboration."
     },
     {
       "id": "lucky",
-      "title": "Lucky",
-      "tagline": "家用软硬路由公网利器",
-      "category": "Networking",
-      "version": "",
-      "author": "IceWhaleTech",
-      "developer": "gdy666",
-      "architectures": [
-        "amd64",
-        "arm",
-        "arm64"
-      ],
-      "icon": "apps/lucky/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/lucky/docker-compose.yml",
-      "meta_url": "apps/lucky/meta.json",
-      "content_hash": "382bc6ce"
+      "tagline": "家用软硬路由公网利器"
     },
     {
       "id": "lyrionmusicserver",
-      "title": "LyrionMusicServer",
-      "tagline": "Lyrion Music Server 是一个支持 Squeezebox 音频播放器的流媒体音频服务器。",
-      "category": "Media",
-      "version": "",
-      "author": "lmscommunity",
-      "developer": "LMS-Community",
-      "architectures": [
-        "amd64",
-        "arm",
-        "arm64"
-      ],
-      "icon": "apps/lyrionmusicserver/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/lyrionmusicserver/docker-compose.yml",
-      "meta_url": "apps/lyrionmusicserver/meta.json",
-      "content_hash": "25945cf4"
+      "tagline": "Lyrion Music Server 是一个支持 Squeezebox 音频播放器的流媒体音频服务器。"
     },
     {
       "id": "mariadb",
-      "title": "MariaDB",
-      "tagline": "MariaDB Server 是世界上最受欢迎的数据库服务器之一。它由 MySQL 的原始开发者创建，并保证始终保持开源。",
-      "category": "Developer",
-      "version": "",
-      "author": "WisdomSky",
-      "developer": "MariaDB Foundation",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/mariadb/assets/icon.svg",
-      "thumbnail": "apps/mariadb/assets/icon.png",
-      "compose_url": "apps/mariadb/docker-compose.yml",
-      "meta_url": "apps/mariadb/meta.json",
-      "content_hash": "70f340a6"
+      "tagline": "MariaDB Server 是世界上最受欢迎的数据库服务器之一。它由 MySQL 的原始开发者创建，并保证始终保持开源。"
     },
     {
       "id": "maybe",
       "title": "Maybe",
-      "tagline": "个人理财管理应用",
-      "category": "Finance",
-      "version": "",
-      "author": "maybe-finance",
-      "developer": "maybe-finance",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/maybe/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/maybe/docker-compose.yml",
-      "meta_url": "apps/maybe/meta.json",
-      "content_hash": "1634d5a7"
-    },
-    {
-      "id": "medusa",
-      "title": "Medusa",
-      "tagline": "",
-      "category": "Media",
-      "version": "",
-      "author": "Jason McFeetors",
-      "developer": "pyMedusa (https://github.com/pymedusa)",
-      "architectures": [
-        "amd64",
-        "arm64",
-        "arm"
-      ],
-      "icon": "apps/medusa/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/medusa/docker-compose.yml",
-      "meta_url": "apps/medusa/meta.json",
-      "content_hash": "6046e9bc"
+      "tagline": "个人理财管理应用"
     },
     {
       "id": "memos",
-      "title": "Memos",
-      "tagline": "Memos 是一个轻量级的自托管备忘录中心。开源且永久免费。",
-      "category": "Productivity",
-      "version": "",
-      "author": "usememos Team",
-      "developer": "usememos Team",
-      "architectures": [
-        "amd64",
-        "arm64",
-        "arm"
-      ],
-      "icon": "apps/memos/assets/icon.svg",
-      "thumbnail": "apps/memos/assets/thumbnail.webp",
-      "compose_url": "apps/memos/docker-compose.yml",
-      "meta_url": "apps/memos/meta.json",
-      "content_hash": "4be7427c"
+      "tagline": "Memos 是一个轻量级的自托管备忘录中心。开源且永久免费。"
     },
     {
       "id": "mineos-node",
-      "title": "MineOS",
-      "tagline": "免费且易于使用的Minecraft服务器管理工具。",
-      "category": "Media",
-      "version": "",
-      "author": "Chàra Rose",
-      "developer": "hexparrot",
-      "architectures": [
-        "amd64"
-      ],
-      "icon": "apps/mineos-node/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/mineos-node/docker-compose.yml",
-      "meta_url": "apps/mineos-node/meta.json",
-      "content_hash": "ef0af3b9"
+      "tagline": "免费且易于使用的Minecraft服务器管理工具。"
     },
     {
       "id": "mongodb",
-      "title": "MongoDB",
-      "tagline": "一个免费且开源的跨平台面向文档的数据库程序。MongoDB 被归类为 NoSQL 数据库程序，它使用具有模式的类似 JSON 的文档。",
-      "category": "Developer",
-      "version": "",
-      "author": "WisdomSky",
-      "developer": "MongoDB Inc.",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/mongodb/assets/icon.svg",
-      "thumbnail": "apps/mongodb/assets/icon.png",
-      "compose_url": "apps/mongodb/docker-compose.yml",
-      "meta_url": "apps/mongodb/meta.json",
-      "content_hash": "314e7eb2"
+      "tagline": "一个免费且开源的跨平台面向文档的数据库程序。MongoDB 被归类为 NoSQL 数据库程序，它使用具有模式的类似 JSON 的文档。"
     },
     {
       "id": "mongodb4",
-      "title": "MongoDB 4",
-      "tagline": "一个免费且开源的跨平台面向文档的数据库程序。MongoDB 被归类为 NoSQL 数据库程序，它使用具有模式的类似 JSON 的文档。",
-      "category": "Developer",
-      "version": "",
-      "author": "WisdomSky",
-      "developer": "MongoDB Inc.",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/mongodb4/assets/icon.svg",
-      "thumbnail": "apps/mongodb4/assets/icon.png",
-      "compose_url": "apps/mongodb4/docker-compose.yml",
-      "meta_url": "apps/mongodb4/meta.json",
-      "content_hash": "9826138e"
+      "tagline": "一个免费且开源的跨平台面向文档的数据库程序。MongoDB 被归类为 NoSQL 数据库程序，它使用具有模式的类似 JSON 的文档。"
     },
     {
       "id": "monica",
-      "title": "Monica",
-      "tagline": "个人关系管理工具，帮助您记录社交生活。",
-      "category": "Social",
-      "version": "",
-      "author": "monica",
-      "developer": "monica",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/monica/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/monica/docker-compose.yml",
-      "meta_url": "apps/monica/meta.json",
-      "content_hash": "14132748"
+      "tagline": "个人关系管理工具，帮助您记录社交生活。"
     },
     {
       "id": "motioneye",
-      "title": "Motioneye",
-      "tagline": "用于motion的Web前端守护程序。",
-      "category": "Home",
-      "version": "",
-      "author": "f4bio",
-      "developer": "Motioneye",
-      "architectures": [
-        "amd64"
-      ],
-      "icon": "apps/motioneye/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/motioneye/docker-compose.yml",
-      "meta_url": "apps/motioneye/meta.json",
-      "content_hash": "891e0e2c"
+      "tagline": "用于motion的Web前端守护程序。"
     },
     {
       "id": "mylar3",
-      "title": "Mylar3",
-      "tagline": "自动漫画（cbr/cbz）下载程序",
-      "category": "Media",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "Mylar3 Team",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/mylar3/assets/icon.svg",
-      "thumbnail": "apps/mylar3/assets/thumbnail.webp",
-      "compose_url": "apps/mylar3/docker-compose.yml",
-      "meta_url": "apps/mylar3/meta.json",
-      "content_hash": "18cd9b03"
+      "tagline": "自动漫画（cbr/cbz）下载程序"
     },
     {
       "id": "myspeed",
-      "title": "MySpeed",
-      "tagline": "记录网速度长达30天的分析软件。",
-      "category": "Networking",
-      "version": "",
-      "author": "joaobosconff",
-      "developer": "Mathias Wagner",
-      "architectures": [
-        "amd64",
-        "arm64",
-        "arm"
-      ],
-      "icon": "apps/myspeed/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/myspeed/docker-compose.yml",
-      "meta_url": "apps/myspeed/meta.json",
-      "content_hash": "92703fd9"
+      "tagline": "记录网速度长达30天的分析软件。"
     },
     {
       "id": "n8n",
-      "title": "n8n",
-      "tagline": "工作流自动化工具",
-      "category": "Productivity",
-      "version": "",
-      "author": "YoussofKhawaja",
-      "developer": "n8n",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/n8n/assets/icon.svg",
-      "thumbnail": "apps/n8n/assets/thumbnail.webp",
-      "compose_url": "apps/n8n/docker-compose.yml",
-      "meta_url": "apps/n8n/meta.json",
-      "content_hash": "dbc01c29"
+      "tagline": "工作流自动化工具"
     },
     {
       "id": "navidrome",
-      "title": "Navidrome",
-      "tagline": "音乐收藏和流媒体服务器",
-      "category": "Media",
-      "version": "",
-      "author": "The Navidrome Authors",
-      "developer": "",
-      "architectures": [
-        "amd64",
-        "arm64",
-        "arm"
-      ],
-      "icon": "apps/navidrome/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/navidrome/docker-compose.yml",
-      "meta_url": "apps/navidrome/meta.json",
-      "content_hash": "915ee3c1"
+      "tagline": "音乐收藏和流媒体服务器"
     },
     {
       "id": "netbird",
-      "title": "NetBird",
-      "tagline": "将设备连接到安全的 WireGuard® 覆盖网络，支持 SSO、MFA 和细粒度访问控制。",
-      "category": "Networking",
-      "version": "",
-      "author": "NetBird Team",
-      "developer": "NetBird GmbH",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/netbird/assets/icon.svg",
-      "thumbnail": "apps/netbird/assets/thumbnail.webp",
-      "compose_url": "apps/netbird/docker-compose.yml",
-      "meta_url": "apps/netbird/meta.json",
-      "content_hash": "c731ff27"
+      "tagline": "将设备连接到安全的 WireGuard® 覆盖网络，支持 SSO、MFA 和细粒度访问控制。"
     },
     {
       "id": "netdata",
-      "title": "Netdata",
-      "tagline": "实时性能监控",
-      "category": "Productivity",
-      "version": "",
-      "author": "f4bio",
-      "developer": "",
-      "architectures": [
-        "amd64",
-        "arm64",
-        "arm"
-      ],
-      "icon": "apps/netdata/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/netdata/docker-compose.yml",
-      "meta_url": "apps/netdata/meta.json",
-      "content_hash": "b2a23289"
+      "tagline": "实时性能监控"
     },
     {
       "id": "nextcloud",
-      "title": "Nextcloud",
-      "tagline": "内容协作平台",
-      "category": "Productivity",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "Nextcloud",
-      "architectures": [
-        "amd64",
-        "arm",
-        "arm64",
-        "386",
-        "mips64le",
-        "ppc64le",
-        "s390x"
-      ],
-      "icon": "apps/nextcloud/assets/icon.svg",
-      "thumbnail": "apps/nextcloud/assets/thumbnail.webp",
-      "compose_url": "apps/nextcloud/docker-compose.yml",
-      "meta_url": "apps/nextcloud/meta.json",
-      "content_hash": "932cc858"
+      "tagline": "内容协作平台"
     },
     {
       "id": "nginxproxymanager",
       "title": "Nginx 代理管理器",
-      "tagline": "通过简单、强大的界面管理 Nginx 代理主机。",
-      "category": "Networking",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "Nginx Proxy Manager",
-      "architectures": [
-        "amd64",
-        "arm64",
-        "arm"
-      ],
-      "icon": "apps/nginxproxymanager/assets/icon.svg",
-      "thumbnail": "apps/nginxproxymanager/assets/thumbnail.webp",
-      "compose_url": "apps/nginxproxymanager/docker-compose.yml",
-      "meta_url": "apps/nginxproxymanager/meta.json",
-      "content_hash": "e047e7a3"
+      "tagline": "通过简单、强大的界面管理 Nginx 代理主机。"
     },
     {
       "id": "node-red",
-      "title": "Node-RED",
-      "tagline": "用于事件驱动应用程序的低代码编程",
-      "category": "Developer",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "Node-RED",
-      "architectures": [
-        "amd64",
-        "arm64",
-        "s390x",
-        "arm"
-      ],
-      "icon": "apps/node-red/assets/icon.svg",
-      "thumbnail": "apps/node-red/assets/thumbnail.png",
-      "compose_url": "apps/node-red/docker-compose.yml",
-      "meta_url": "apps/node-red/meta.json",
-      "content_hash": "65289579"
+      "tagline": "用于事件驱动应用程序的低代码编程"
     },
     {
       "id": "nzbget",
-      "title": "Nzbget",
-      "tagline": "高效的Usenet下载器",
-      "category": "Media",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "Nzbget Team",
-      "architectures": [
-        "amd64",
-        "arm",
-        "arm64"
-      ],
-      "icon": "apps/nzbget/assets/icon.svg",
-      "thumbnail": "apps/nzbget/assets/thumbnail.webp",
-      "compose_url": "apps/nzbget/docker-compose.yml",
-      "meta_url": "apps/nzbget/meta.json",
-      "content_hash": "555754d6"
+      "tagline": "高效的Usenet下载器"
     },
     {
       "id": "obsidian",
-      "title": "Obsidian",
-      "tagline": "Obsidian 是一款知识管理应用，支持 Markdown 笔记的创建、链接与可视化组织。",
-      "category": "Productivity",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "linuxserver",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/obsidian/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/obsidian/docker-compose.yml",
-      "meta_url": "apps/obsidian/meta.json",
-      "content_hash": "fe42ee0f"
+      "tagline": "Obsidian 是一款知识管理应用，支持 Markdown 笔记的创建、链接与可视化组织。"
     },
     {
       "id": "ollama",
-      "title": "Ollama",
-      "tagline": "在本地运行大型语言模型",
-      "category": "AI",
-      "version": "",
-      "author": "ollama",
-      "developer": "ollama",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/ollama/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/ollama/docker-compose.yml",
-      "meta_url": "apps/ollama/meta.json",
-      "content_hash": "33ba88ba"
+      "tagline": "在本地运行大型语言模型"
     },
     {
       "id": "ollama-nvidia",
-      "title": "Ollama(Nvidia GPU)",
-      "tagline": "在本地运行大型语言模型",
-      "category": "AI",
-      "version": "",
-      "author": "ollama",
-      "developer": "ollama",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/ollama-nvidia/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/ollama-nvidia/docker-compose.yml",
-      "meta_url": "apps/ollama-nvidia/meta.json",
-      "content_hash": "63c48c5e"
+      "tagline": "在本地运行大型语言模型"
     },
     {
       "id": "ombi",
-      "title": "Ombi",
-      "tagline": "友好的媒体请求工具，自动与您的媒体服务器同步！",
-      "category": "Media",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "Sabnzbd Team",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/ombi/assets/icon.svg",
-      "thumbnail": "apps/ombi/assets/thumbnail.webp",
-      "compose_url": "apps/ombi/docker-compose.yml",
-      "meta_url": "apps/ombi/meta.json",
-      "content_hash": "9a26fc17"
+      "tagline": "友好的媒体请求工具，自动与您的媒体服务器同步！"
     },
     {
       "id": "open-webui-ollama",
       "title": "Open WebUI",
-      "tagline": "用户友好的 LLMs WebUI（前身为 Ollama WebUI）",
-      "category": "AI",
-      "version": "",
-      "author": "",
-      "developer": "Tim J. Baek",
-      "architectures": [
-        "amd64"
-      ],
-      "icon": "apps/open-webui-ollama/assets/icon.svg",
-      "thumbnail": "apps/open-webui-ollama/assets/thumbnail.webp",
-      "compose_url": "apps/open-webui-ollama/docker-compose.yml",
-      "meta_url": "apps/open-webui-ollama/meta.json",
-      "content_hash": "5e4d731a"
+      "tagline": "用户友好的 LLMs WebUI（前身为 Ollama WebUI）"
     },
     {
       "id": "openhab",
-      "title": "OpenHAB",
-      "tagline": "助力智能家居",
-      "category": "Home",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "openHAB",
-      "architectures": [
-        "amd64",
-        "arm64",
-        "arm"
-      ],
-      "icon": "apps/openhab/assets/icon.svg",
-      "thumbnail": "apps/openhab/assets/thumbnail.webp",
-      "compose_url": "apps/openhab/docker-compose.yml",
-      "meta_url": "apps/openhab/meta.json",
-      "content_hash": "5df54bf6"
+      "tagline": "助力智能家居"
     },
     {
       "id": "openhands",
       "title": "OpenHands",
-      "tagline": "开源AI驱动的编程助手",
-      "category": "AI",
-      "version": "",
-      "author": "All-Hands-AI",
-      "developer": "All-Hands-AI",
-      "architectures": [
-        "amd64"
-      ],
-      "icon": "apps/openhands/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/openhands/docker-compose.yml",
-      "meta_url": "apps/openhands/meta.json",
-      "content_hash": "e7115d8e"
+      "tagline": "开源AI驱动的编程助手"
     },
     {
       "id": "openspeedtest",
-      "title": "OpenSpeedTest",
-      "tagline": "HTML5网络速度测试服务器。",
-      "category": "Networking",
-      "version": "",
-      "author": "OpenSpeedTest",
-      "developer": "OpenSpeedTest",
-      "architectures": [
-        "amd64",
-        "arm64",
-        "ppc64le",
-        "s390x",
-        "386",
-        "arm"
-      ],
-      "icon": "apps/openspeedtest/assets/icon.svg",
-      "thumbnail": "apps/openspeedtest/assets/thumbnail.webp",
-      "compose_url": "apps/openspeedtest/docker-compose.yml",
-      "meta_url": "apps/openspeedtest/meta.json",
-      "content_hash": "9b07b4e8"
+      "tagline": "HTML5网络速度测试服务器。"
     },
     {
       "id": "opodsync",
       "title": "oPodSync",
-      "tagline": "播客同步服务",
-      "category": "Media",
-      "version": "",
-      "author": "ganeshlab",
-      "developer": "ganeshlab",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/opodsync/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/opodsync/docker-compose.yml",
-      "meta_url": "apps/opodsync/meta.json",
-      "content_hash": "b1e6f222"
+      "tagline": "播客同步服务"
     },
     {
       "id": "overseerr",
-      "title": "Overseerr",
-      "tagline": "Overseerr 是一个请求管理和媒体发现工具，专为与您现有的 Plex 生态系统配合使用而构建。",
-      "category": "Media",
-      "version": "",
-      "author": "WisdomSky",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/overseerr/assets/icon.svg",
-      "thumbnail": "apps/overseerr/assets/icon.png",
-      "compose_url": "apps/overseerr/docker-compose.yml",
-      "meta_url": "apps/overseerr/meta.json",
-      "content_hash": "f1a921e3"
+      "tagline": "Overseerr 是一个请求管理和媒体发现工具，专为与您现有的 Plex 生态系统配合使用而构建。"
     },
     {
       "id": "pdfding",
-      "title": "PdfDing",
-      "tagline": "自托管的 PDF 管理器、查看器和编辑器",
-      "category": "Productivity",
-      "version": "",
-      "author": "mrmn2",
-      "developer": "mrmn2",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/pdfding/assets/icon.svg",
-      "thumbnail": "apps/pdfding/assets/thumbnail.png",
-      "compose_url": "apps/pdfding/docker-compose.yml",
-      "meta_url": "apps/pdfding/meta.json",
-      "content_hash": "216ef807"
+      "tagline": "自托管的 PDF 管理器、查看器和编辑器"
     },
     {
       "id": "peanut",
       "title": "PeaNUT",
-      "tagline": "UPS监控和停电通知系统",
-      "category": "Home",
-      "version": "",
-      "author": "brandawg93",
-      "developer": "brandawg93",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/peanut/assets/icon.svg",
-      "thumbnail": "apps/peanut/assets/thumbnail.webp",
-      "compose_url": "apps/peanut/docker-compose.yml",
-      "meta_url": "apps/peanut/meta.json",
-      "content_hash": "98239fbe"
+      "tagline": "UPS监控和停电通知系统"
     },
     {
       "id": "petio",
-      "title": "Petio",
-      "tagline": "为 Plex 服务器所有者提供的第三方附属应用程序，允许他们的用户请求、审查和发现内容。",
-      "category": "Media",
-      "version": "",
-      "author": "WisdomSky",
-      "developer": "Petio Team",
-      "architectures": [
-        "amd64",
-        "arm",
-        "arm64"
-      ],
-      "icon": "apps/petio/assets/icon.svg",
-      "thumbnail": "apps/petio/assets/icon.png",
-      "compose_url": "apps/petio/docker-compose.yml",
-      "meta_url": "apps/petio/meta.json",
-      "content_hash": "12500a88"
+      "tagline": "为 Plex 服务器所有者提供的第三方附属应用程序，允许他们的用户请求、审查和发现内容。"
     },
     {
       "id": "photoprism",
-      "title": "PhotoPrism",
-      "tagline": "用照片回忆您的生活",
-      "category": "Media",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "PhotoPrism",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/photoprism/assets/icon.svg",
-      "thumbnail": "apps/photoprism/assets/thumbnail.webp",
-      "compose_url": "apps/photoprism/docker-compose.yml",
-      "meta_url": "apps/photoprism/meta.json",
-      "content_hash": "1d66b2d7"
+      "tagline": "用照片回忆您的生活"
     },
     {
       "id": "pihole",
-      "title": "Pi-hole",
-      "tagline": "网络广告拦截",
-      "category": "Networking",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "Pi-hole",
-      "architectures": [
-        "amd64",
-        "arm64",
-        "386",
-        "arm"
-      ],
-      "icon": "apps/pihole/assets/icon.svg",
-      "thumbnail": "apps/pihole/assets/thumbnail.jpg",
-      "compose_url": "apps/pihole/docker-compose.yml",
-      "meta_url": "apps/pihole/meta.json",
-      "content_hash": "6088a0a1"
+      "tagline": "网络广告拦截"
     },
     {
       "id": "pinchflat",
-      "title": "Pinchflat",
-      "tagline": "你的下一个 YouTube 媒体管理器",
-      "category": "Media",
-      "version": "",
-      "author": "kieraneglin",
-      "developer": "kieraneglin",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/pinchflat/assets/icon.svg",
-      "thumbnail": "apps/pinchflat/assets/thumbnail.png",
-      "compose_url": "apps/pinchflat/docker-compose.yml",
-      "meta_url": "apps/pinchflat/meta.json",
-      "content_hash": "decd2496"
+      "tagline": "你的下一个 YouTube 媒体管理器"
     },
     {
       "id": "pingvin-share",
       "title": "Pingvin-Share",
-      "tagline": "具有现代Web界面的自托管文件共享",
-      "category": "Productivity",
-      "version": "",
-      "author": "stonith404",
-      "developer": "stonith404",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/pingvin-share/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/pingvin-share/docker-compose.yml",
-      "meta_url": "apps/pingvin-share/meta.json",
-      "content_hash": "5b62c990"
+      "tagline": "具有现代Web界面的自托管文件共享"
     },
     {
       "id": "playit-agent",
-      "title": "Playit Agent",
-      "tagline": "用于隧道服务的免费反向代理（非自托管）。",
-      "category": "Networking",
-      "version": "",
-      "author": "mafen",
-      "developer": "Patrick Lorio",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/playit-agent/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/playit-agent/docker-compose.yml",
-      "meta_url": "apps/playit-agent/meta.json",
-      "content_hash": "fbaf33ec"
+      "tagline": "用于隧道服务的免费反向代理（非自托管）。"
     },
     {
       "id": "plex",
-      "title": "Plex",
-      "tagline": "流式播放电影和电视剧",
-      "category": "Media",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "Plex",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/plex/assets/icon.svg",
-      "thumbnail": "apps/plex/assets/thumbnail.webp",
-      "compose_url": "apps/plex/docker-compose.yml",
-      "meta_url": "apps/plex/meta.json",
-      "content_hash": "2da2dc75"
+      "tagline": "流式播放电影和电视剧"
     },
     {
       "id": "plex-nvidia",
-      "title": "Plex(Nvidia GPU)",
-      "tagline": "流式播放电影和电视剧",
-      "category": "Media",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "Plex",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/plex-nvidia/assets/icon.svg",
-      "thumbnail": "apps/plex-nvidia/assets/thumbnail.png",
-      "compose_url": "apps/plex-nvidia/docker-compose.yml",
-      "meta_url": "apps/plex-nvidia/meta.json",
-      "content_hash": "e30df6d1"
-    },
-    {
-      "id": "pocketbase",
-      "title": "PocketBase",
-      "tagline": "Open Source realtime backend in 1 file",
-      "category": "Developer",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "Gani Georgiev",
-      "architectures": [
-        "amd64"
-      ],
-      "icon": "apps/pocketbase/assets/icon.svg",
-      "thumbnail": "apps/pocketbase/assets/thumbnail.webp",
-      "compose_url": "apps/pocketbase/docker-compose.yml",
-      "meta_url": "apps/pocketbase/meta.json",
-      "content_hash": "65b75de4"
+      "tagline": "流式播放电影和电视剧"
     },
     {
       "id": "portainer",
-      "title": "Portainer",
-      "tagline": "轻量级 Docker 管理界面",
-      "category": "Developer",
-      "version": "",
-      "author": "Cp0204",
-      "developer": "Portainer",
-      "architectures": [
-        "amd64",
-        "arm",
-        "arm64"
-      ],
-      "icon": "apps/portainer/assets/icon.svg",
-      "thumbnail": "apps/portainer/assets/thumbnail.webp",
-      "compose_url": "apps/portainer/docker-compose.yml",
-      "meta_url": "apps/portainer/meta.json",
-      "content_hash": "8a4a787a"
+      "tagline": "轻量级 Docker 管理界面"
     },
     {
       "id": "postgresql",
-      "title": "PostgreSQL",
-      "tagline": "PostgreSQL 是一种先进的、企业级的、开源的关系型数据库系统。PostgreSQL 支持 SQL（关系型）和 JSON（非关系型）查询。",
-      "category": "Developer",
-      "version": "",
-      "author": "WisdomSky",
-      "developer": "PostgreSQL Global Dev't Group",
-      "architectures": [
-        "amd64",
-        "arm",
-        "arm64"
-      ],
-      "icon": "apps/postgresql/assets/icon.svg",
-      "thumbnail": "apps/postgresql/assets/icon.png",
-      "compose_url": "apps/postgresql/docker-compose.yml",
-      "meta_url": "apps/postgresql/meta.json",
-      "content_hash": "d3f6ed2b"
+      "tagline": "PostgreSQL 是一种先进的、企业级的、开源的关系型数据库系统。PostgreSQL 支持 SQL（关系型）和 JSON（非关系型）查询。"
     },
     {
       "id": "prowlarr",
-      "title": "Prowlarr",
-      "tagline": "各种PVR应用程序的集成",
-      "category": "Media",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "Prowlarr Team",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/prowlarr/assets/icon.svg",
-      "thumbnail": "apps/prowlarr/assets/thumbnail.webp",
-      "compose_url": "apps/prowlarr/docker-compose.yml",
-      "meta_url": "apps/prowlarr/meta.json",
-      "content_hash": "c4c10f19"
+      "tagline": "各种PVR应用程序的集成"
     },
     {
       "id": "pyload",
       "title": "PyLoad",
-      "tagline": "免费下载管理器。",
-      "category": "Media",
-      "version": "",
-      "author": "joaobosconff",
-      "developer": "linuxserver",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/pyload/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/pyload/docker-compose.yml",
-      "meta_url": "apps/pyload/meta.json",
-      "content_hash": "ded7d218"
+      "tagline": "免费下载管理器。"
     },
     {
       "id": "qbittorrent",
-      "title": "qBittorrent",
-      "tagline": "P2P BT 下载",
-      "category": "Media",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "qBittorrent",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/qbittorrent/assets/icon.svg",
-      "thumbnail": "apps/qbittorrent/assets/thumbnail.webp",
-      "compose_url": "apps/qbittorrent/docker-compose.yml",
-      "meta_url": "apps/qbittorrent/meta.json",
-      "content_hash": "09c84a74"
+      "tagline": "P2P BT 下载"
     },
     {
       "id": "radarr",
-      "title": "Radarr",
-      "tagline": "为Usenet和BitTorrent用户提供的电影集合管理器",
-      "category": "Media",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "Radarr",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/radarr/assets/icon.svg",
-      "thumbnail": "apps/radarr/assets/thumbnail.webp",
-      "compose_url": "apps/radarr/docker-compose.yml",
-      "meta_url": "apps/radarr/meta.json",
-      "content_hash": "fdbbc4b4"
+      "tagline": "为Usenet和BitTorrent用户提供的电影集合管理器"
     },
     {
       "id": "ragflow",
       "title": "RagFlow",
-      "tagline": "RagFlow是一个基于深度文档理解的开源RAG引擎。",
-      "category": "AI",
-      "version": "",
-      "author": "RagFlow",
-      "developer": "RagFlow",
-      "architectures": [
-        "amd64"
-      ],
-      "icon": "apps/ragflow/assets/icon.svg",
-      "thumbnail": "apps/ragflow/assets/thumbnail.webp",
-      "compose_url": "apps/ragflow/docker-compose.yml",
-      "meta_url": "apps/ragflow/meta.json",
-      "content_hash": "a34edff5"
-    },
-    {
-      "id": "rdtclient",
-      "title": "Real-Debrid Torrent Client",
-      "tagline": "",
-      "category": "Media",
-      "version": "",
-      "author": "calganaygun",
-      "developer": "",
-      "architectures": [
-        "amd64",
-        "arm",
-        "arm64"
-      ],
-      "icon": "apps/rdtclient/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/rdtclient/docker-compose.yml",
-      "meta_url": "apps/rdtclient/meta.json",
-      "content_hash": "4a6a449c"
+      "tagline": "RagFlow是一个基于深度文档理解的开源RAG引擎。"
     },
     {
       "id": "readarr",
-      "title": "Readarr",
-      "tagline": "用于Usenet和BitTorrent用户的电子书和有声书收藏管理器。",
-      "category": "Media",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "Readarr Team",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/readarr/assets/icon.svg",
-      "thumbnail": "apps/readarr/assets/thumbnail.webp",
-      "compose_url": "apps/readarr/docker-compose.yml",
-      "meta_url": "apps/readarr/meta.json",
-      "content_hash": "54c0b6f5"
+      "tagline": "用于Usenet和BitTorrent用户的电子书和有声书收藏管理器。"
     },
     {
       "id": "resilio-sync",
-      "title": "resilio-sync",
-      "tagline": "发挥无缝文件同步的力量。",
-      "category": "Productivity",
-      "version": "",
-      "author": "self",
-      "developer": "",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/resilio-sync/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/resilio-sync/docker-compose.yml",
-      "meta_url": "apps/resilio-sync/meta.json",
-      "content_hash": "5a4aab23"
+      "tagline": "发挥无缝文件同步的力量。"
     },
     {
       "id": "retroarch",
-      "title": "RetroArch",
-      "tagline": "在线复古游戏模拟器",
-      "category": "Media",
-      "version": "",
-      "author": "inglebard",
-      "developer": "inglebard",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/retroarch/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/retroarch/docker-compose.yml",
-      "meta_url": "apps/retroarch/meta.json",
-      "content_hash": "c28e07ab"
+      "tagline": "在线复古游戏模拟器"
     },
     {
       "id": "romm",
-      "title": "RomM",
-      "tagline": "RomM 是一个自托管的 ROM 管理器，用于管理游戏收藏并游玩游戏。",
-      "category": "Media",
-      "version": "",
-      "author": "rommapp",
-      "developer": "rommapp",
-      "architectures": [
-        "amd64",
-        "arm",
-        "arm64"
-      ],
-      "icon": "apps/romm/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/romm/docker-compose.yml",
-      "meta_url": "apps/romm/meta.json",
-      "content_hash": "af1e5610"
+      "tagline": "RomM 是一个自托管的 ROM 管理器，用于管理游戏收藏并游玩游戏。"
     },
     {
       "id": "sabnzbd",
-      "title": "Sabnzbd",
-      "tagline": "免费易用的二进制新闻阅读器",
-      "category": "Media",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "Sabnzbd Team",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/sabnzbd/assets/icon.svg",
-      "thumbnail": "apps/sabnzbd/assets/thumbnail.webp",
-      "compose_url": "apps/sabnzbd/docker-compose.yml",
-      "meta_url": "apps/sabnzbd/meta.json",
-      "content_hash": "dbd7dfe4"
+      "tagline": "免费易用的二进制新闻阅读器"
     },
     {
       "id": "sickchill",
-      "title": "Sickchill",
-      "tagline": "自动视频库管理器",
-      "category": "Media",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "Sickchill Team",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/sickchill/assets/icon.svg",
-      "thumbnail": "apps/sickchill/assets/thumbnail.webp",
-      "compose_url": "apps/sickchill/docker-compose.yml",
-      "meta_url": "apps/sickchill/meta.json",
-      "content_hash": "f2702459"
+      "tagline": "自动视频库管理器"
     },
     {
       "id": "siyuan-note",
       "title": "思源笔记",
-      "tagline": "隐私优先的个人知识管理",
-      "category": "Productivity",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "siyuan-note",
-      "architectures": [
-        "amd64",
-        "arm64",
-        "arm"
-      ],
-      "icon": "apps/siyuan-note/assets/icon.svg",
-      "thumbnail": "apps/siyuan-note/assets/thumbnail.webp",
-      "compose_url": "apps/siyuan-note/docker-compose.yml",
-      "meta_url": "apps/siyuan-note/meta.json",
-      "content_hash": "d1c781f0"
+      "tagline": "隐私优先的个人知识管理"
     },
     {
       "id": "smokeping",
-      "title": "Smokeping",
-      "tagline": "免费开源的网络性能监控工具",
-      "category": "Networking",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "Lazylibrarian Team",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/smokeping/assets/icon.svg",
-      "thumbnail": "apps/smokeping/assets/thumbnail.webp",
-      "compose_url": "apps/smokeping/docker-compose.yml",
-      "meta_url": "apps/smokeping/meta.json",
-      "content_hash": "8a51719e"
+      "tagline": "免费开源的网络性能监控工具"
     },
     {
       "id": "snapdrop",
-      "title": "snapdrop",
-      "tagline": "轻松实现跨平台文件共享。",
-      "category": "Productivity",
-      "version": "",
-      "author": "self",
-      "developer": "",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/snapdrop/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/snapdrop/docker-compose.yml",
-      "meta_url": "apps/snapdrop/meta.json",
-      "content_hash": "1abd2c15"
+      "tagline": "轻松实现跨平台文件共享。"
     },
     {
       "id": "sonarr",
-      "title": "Sonarr",
-      "tagline": "用于Usenet和BitTorrent用户的PVR",
-      "category": "Media",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "Sonarr",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/sonarr/assets/icon.svg",
-      "thumbnail": "apps/sonarr/assets/thumbnail.webp",
-      "compose_url": "apps/sonarr/docker-compose.yml",
-      "meta_url": "apps/sonarr/meta.json",
-      "content_hash": "123cf3ba"
+      "tagline": "用于Usenet和BitTorrent用户的PVR"
     },
     {
       "id": "stremio",
       "title": "Stremio",
-      "tagline": "现代的媒体中心，提供自由观看您喜欢的一切的体验。",
-      "category": "Media",
-      "version": "",
-      "author": "joaobosconff",
-      "developer": "Andreas Tsarida / Stremio",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/stremio/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/stremio/docker-compose.yml",
-      "meta_url": "apps/stremio/meta.json",
-      "content_hash": "868fa9dc"
+      "tagline": "现代的媒体中心，提供自由观看您喜欢的一切的体验。"
     },
     {
       "id": "sure",
       "title": "Sure",
-      "tagline": "个人理财管理应用",
-      "category": "Finance",
-      "version": "",
-      "author": "we-promise",
-      "developer": "we-promise",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/sure/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/sure/docker-compose.yml",
-      "meta_url": "apps/sure/meta.json",
-      "content_hash": "ac002964"
+      "tagline": "个人理财管理应用"
     },
     {
       "id": "swingmusic",
       "title": "Swing Music",
-      "tagline": "Swing Music 是一个设计精美的自我托管音乐流媒体服务器。像一个更酷的 Spotify……但请自带音乐。",
-      "category": "Media",
-      "version": "",
-      "author": "SwingMX",
-      "developer": "SwingMX",
-      "architectures": [
-        "amd64"
-      ],
-      "icon": "apps/swingmusic/assets/icon.svg",
-      "thumbnail": "apps/swingmusic/assets/thumbnail.webp",
-      "compose_url": "apps/swingmusic/docker-compose.yml",
-      "meta_url": "apps/swingmusic/meta.json",
-      "content_hash": "1087aad5"
+      "tagline": "Swing Music 是一个设计精美的自我托管音乐流媒体服务器。像一个更酷的 Spotify……但请自带音乐。"
     },
     {
       "id": "syncthing",
-      "title": "Syncthing",
-      "tagline": "开放的去中心化文件同步",
-      "category": "Productivity",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "Syncthing",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/syncthing/assets/icon.svg",
-      "thumbnail": "apps/syncthing/assets/thumbnail.webp",
-      "compose_url": "apps/syncthing/docker-compose.yml",
-      "meta_url": "apps/syncthing/meta.json",
-      "content_hash": "3acb3194"
+      "tagline": "开放的去中心化文件同步"
     },
     {
       "id": "tailscale",
-      "title": "Tailscale",
-      "tagline": "在您自己的安全虚拟专用网络中连接您的设备和用户。",
-      "category": "Networking",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "Tailscale Inc.",
-      "architectures": [
-        "amd64",
-        "arm",
-        "arm64",
-        "386"
-      ],
-      "icon": "apps/tailscale/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/tailscale/docker-compose.yml",
-      "meta_url": "apps/tailscale/meta.json",
-      "content_hash": "86284401"
+      "tagline": "在您自己的安全虚拟专用网络中连接您的设备和用户。"
     },
     {
       "id": "taskingai",
-      "title": "TaskingAI",
-      "tagline": "开发人员友好的云平台，用于构建和运行AI原生应用程序的LLM代理。",
-      "category": "AI",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "TaskingAI Team",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/taskingai/assets/icon.svg",
-      "thumbnail": "apps/taskingai/assets/thumbnail.webp",
-      "compose_url": "apps/taskingai/docker-compose.yml",
-      "meta_url": "apps/taskingai/meta.json",
-      "content_hash": "55f60007"
+      "tagline": "开发人员友好的云平台，用于构建和运行AI原生应用程序的LLM代理。"
     },
     {
       "id": "tautulli",
-      "title": "Tautulli",
-      "tagline": "监视您的Plex Media Server以及更多内容。",
-      "category": "Media",
-      "version": "",
-      "author": "Triskae",
-      "developer": "Tautulli Team",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/tautulli/assets/icon.svg",
-      "thumbnail": "apps/tautulli/assets/thumbnail.webp",
-      "compose_url": "apps/tautulli/docker-compose.yml",
-      "meta_url": "apps/tautulli/meta.json",
-      "content_hash": "6d0373d7"
+      "tagline": "监视您的Plex Media Server以及更多内容。"
     },
     {
       "id": "teable",
       "title": "Teable",
-      "tagline": "Teable采用简洁的电子表格式界面，却能创建功能强大的数据库应用程序",
-      "category": "Productivity",
-      "version": "",
-      "author": "teableio",
-      "developer": "teableio",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/teable/assets/icon.svg",
-      "thumbnail": "apps/teable/assets/thumbnail.webp",
-      "compose_url": "apps/teable/docker-compose.yml",
-      "meta_url": "apps/teable/meta.json",
-      "content_hash": "36945e02"
+      "tagline": "Teable采用简洁的电子表格式界面，却能创建功能强大的数据库应用程序"
     },
     {
       "id": "threadfin",
       "title": "Threadfin",
-      "tagline": "M3U代理服务器",
-      "category": "Media",
-      "version": "",
-      "author": "Fabio Tea",
-      "developer": "jdownloader",
-      "architectures": [
-        "amd64",
-        "arm64",
-        "arm"
-      ],
-      "icon": "apps/threadfin/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/threadfin/docker-compose.yml",
-      "meta_url": "apps/threadfin/meta.json",
-      "content_hash": "9345e5e1"
+      "tagline": "M3U代理服务器"
     },
     {
       "id": "transmission",
-      "title": "Transmission",
-      "tagline": "Transmission 是一个跨平台的 BitTorrent 客户端",
-      "category": "Media",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "Transmission",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/transmission/assets/icon.svg",
-      "thumbnail": "apps/transmission/assets/thumbnail.webp",
-      "compose_url": "apps/transmission/docker-compose.yml",
-      "meta_url": "apps/transmission/meta.json",
-      "content_hash": "95bf6feb"
+      "tagline": "Transmission 是一个跨平台的 BitTorrent 客户端"
     },
     {
       "id": "trilium",
       "title": "Trilium",
-      "tagline": "使用 TriliumNext Notes 构建您的个人知识库",
-      "category": "Productivity",
-      "version": "",
-      "author": "Jason McFeetors",
-      "developer": "zadam",
-      "architectures": [
-        "amd64",
-        "arm64",
-        "arm"
-      ],
-      "icon": "apps/trilium/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/trilium/docker-compose.yml",
-      "meta_url": "apps/trilium/meta.json",
-      "content_hash": "ddd82b5c"
+      "tagline": "使用 TriliumNext Notes 构建您的个人知识库"
     },
     {
       "id": "ttydbridge",
-      "title": "ttydBridge",
-      "tagline": "在浏览器中轻松访问宿主机终端",
-      "category": "Developer",
-      "version": "",
-      "author": "Cp0204",
-      "developer": "Cp0204",
-      "architectures": [
-        "amd64",
-        "arm",
-        "arm64"
-      ],
-      "icon": "apps/ttydbridge/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/ttydbridge/docker-compose.yml",
-      "meta_url": "apps/ttydbridge/meta.json",
-      "content_hash": "8fd9f33d"
-    },
-    {
-      "id": "twingate-connector",
-      "title": "Twingate",
-      "tagline": "Twingate Connector for CasaOS",
-      "category": "Networking",
-      "version": "",
-      "author": "Shubhankar Trivedi",
-      "developer": "Twingate",
-      "architectures": [
-        "amd64",
-        "arm64",
-        "arm"
-      ],
-      "icon": "apps/twingate-connector/assets/icon.svg",
-      "thumbnail": "apps/twingate-connector/assets/thumbnail.webp",
-      "compose_url": "apps/twingate-connector/docker-compose.yml",
-      "meta_url": "apps/twingate-connector/meta.json",
-      "content_hash": "11172c17"
+      "tagline": "在浏览器中轻松访问宿主机终端"
     },
     {
       "id": "unifi-controller",
       "title": "Unifi控制器 [legacy]",
-      "tagline": "Unifi控制器软件是一种功能强大的企业级无线软件引擎，适用于需要低延迟和高可用性性能的高密度客户端部署。",
-      "category": "Networking",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "LinuxServer.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/unifi-controller/assets/icon.svg",
-      "thumbnail": "apps/unifi-controller/assets/thumbnail.webp",
-      "compose_url": "apps/unifi-controller/docker-compose.yml",
-      "meta_url": "apps/unifi-controller/meta.json",
-      "content_hash": "bd46e928"
+      "tagline": "Unifi控制器软件是一种功能强大的企业级无线软件引擎，适用于需要低延迟和高可用性性能的高密度客户端部署。"
     },
     {
       "id": "unifi-network-application",
-      "title": "Unifi Network Application",
-      "tagline": "Unifi控制器软件是一种功能强大的企业级无线软件引擎，适用于需要低延迟和高可用性性能的高密度客户端部署。",
-      "category": "Networking",
-      "version": "",
-      "author": "Giuseppe Galilei",
-      "developer": "Ubiquiti and Linuxserver.io",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/unifi-network-application/assets/icon.svg",
-      "thumbnail": "apps/unifi-network-application/assets/thumbnail.png",
-      "compose_url": "apps/unifi-network-application/docker-compose.yml",
-      "meta_url": "apps/unifi-network-application/meta.json",
-      "content_hash": "6dcf7d8b"
+      "tagline": "Unifi控制器软件是一种功能强大的企业级无线软件引擎，适用于需要低延迟和高可用性性能的高密度客户端部署。"
     },
     {
       "id": "uptimekuma",
-      "title": "Uptime Kuma",
-      "tagline": "一个漂亮的监控工具",
-      "category": "Networking",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "Louis Lam",
-      "architectures": [
-        "amd64",
-        "arm64",
-        "arm"
-      ],
-      "icon": "apps/uptimekuma/assets/icon.svg",
-      "thumbnail": "apps/uptimekuma/assets/thumbnail.webp",
-      "compose_url": "apps/uptimekuma/docker-compose.yml",
-      "meta_url": "apps/uptimekuma/meta.json",
-      "content_hash": "216dc4bf"
+      "tagline": "一个漂亮的监控工具"
     },
     {
       "id": "v2raya",
-      "title": "V2rayA",
-      "tagline": "Project V 的 Web GUI 客户端，支持 VMess、VLESS、SS、SSR、Trojan、Tuic 和 Juicity 协议",
-      "category": "Networking",
-      "version": "",
-      "author": "v2rayA",
-      "developer": "v2rayA",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/v2raya/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/v2raya/docker-compose.yml",
-      "meta_url": "apps/v2raya/meta.json",
-      "content_hash": "80723bfd"
+      "tagline": "Project V 的 Web GUI 客户端，支持 VMess、VLESS、SS、SSR、Trojan、Tuic 和 Juicity 协议"
     },
     {
       "id": "vaultwarden",
-      "title": "Vaultwarden",
-      "tagline": "自托管的 Bitwarden 服务器",
-      "category": "Productivity",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "Daniel García",
-      "architectures": [
-        "amd64",
-        "arm",
-        "arm64"
-      ],
-      "icon": "apps/vaultwarden/assets/icon.svg",
-      "thumbnail": "apps/vaultwarden/assets/thumbnail.webp",
-      "compose_url": "apps/vaultwarden/docker-compose.yml",
-      "meta_url": "apps/vaultwarden/meta.json",
-      "content_hash": "e69b3c0c"
+      "tagline": "自托管的 Bitwarden 服务器"
     },
     {
       "id": "virtmanager",
-      "title": "Virtual Machine Manager",
-      "tagline": "Libvirt 和 virt-manager 的 GTK Broadway Web UI。",
-      "category": "Developer",
-      "version": "",
-      "author": "mber5",
-      "developer": "Red Hat",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/virtmanager/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/virtmanager/docker-compose.yml",
-      "meta_url": "apps/virtmanager/meta.json",
-      "content_hash": "dac29b29"
+      "tagline": "Libvirt 和 virt-manager 的 GTK Broadway Web UI。"
     },
     {
       "id": "vocechat",
-      "title": "VoceChat",
-      "tagline": "在您的网站上托管一个私人社交空间",
-      "category": "Social",
-      "version": "",
-      "author": "Privoce",
-      "developer": "Privoce",
-      "architectures": [
-        "amd64"
-      ],
-      "icon": "apps/vocechat/assets/icon.svg",
-      "thumbnail": "apps/vocechat/assets/thumbnail.webp",
-      "compose_url": "apps/vocechat/docker-compose.yml",
-      "meta_url": "apps/vocechat/meta.json",
-      "content_hash": "1e6ebaec"
+      "tagline": "在您的网站上托管一个私人社交空间"
     },
     {
       "id": "wallabag",
-      "title": "Wallabag",
-      "tagline": "保存并分类文章，稍后自由阅读。",
-      "category": "Productivity",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "wallabag",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/wallabag/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/wallabag/docker-compose.yml",
-      "meta_url": "apps/wallabag/meta.json",
-      "content_hash": "3d90c8c0"
+      "tagline": "保存并分类文章，稍后自由阅读。"
     },
     {
       "id": "webdav",
-      "title": "WebDAV",
-      "tagline": "基于 Web 的文件共享和管理协议",
-      "category": "Productivity",
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "CasaOS Team",
-      "architectures": [
-        "amd64",
-        "386",
-        "arm64",
-        "arm"
-      ],
-      "icon": "apps/webdav/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/webdav/docker-compose.yml",
-      "meta_url": "apps/webdav/meta.json",
-      "content_hash": "49e0c0ae"
+      "tagline": "基于 Web 的文件共享和管理协议"
     },
     {
       "id": "weknora",
       "title": "WeKnora",
-      "tagline": "WeKnora 是一个由大语言模型驱动的框架，专为深度文档理解和语义检索而设计，特别适用于处理复杂、异构的文档。",
-      "category": "AI",
-      "version": "",
-      "author": "tencent",
-      "developer": "Tencent",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/weknora/assets/icon.svg",
-      "thumbnail": "apps/weknora/assets/thumbnail.webp",
-      "compose_url": "apps/weknora/docker-compose.yml",
-      "meta_url": "apps/weknora/meta.json",
-      "content_hash": "fc7c2f49"
+      "tagline": "WeKnora 是一个由大语言模型驱动的框架，专为深度文档理解和语义检索而设计，特别适用于处理复杂、异构的文档。"
     },
     {
       "id": "wg-easy",
-      "title": "WireGuard Easy",
-      "tagline": "管理 WireGuard VPN 的 WEB UI。",
-      "category": "Networking",
-      "version": "",
-      "author": "Sawy",
-      "developer": "WeejeWel",
-      "architectures": [
-        "amd64",
-        "arm",
-        "arm64"
-      ],
-      "icon": "apps/wg-easy/assets/icon.svg",
-      "thumbnail": "apps/wg-easy/assets/icon.png",
-      "compose_url": "apps/wg-easy/docker-compose.yml",
-      "meta_url": "apps/wg-easy/meta.json",
-      "content_hash": "25ab23cd"
+      "tagline": "管理 WireGuard VPN 的 WEB UI。"
     },
     {
       "id": "ztnet",
-      "title": "ZTnet",
-      "tagline": "带有Web UI的自托管ZeroTier网络控制器，用于集中管理。",
-      "category": "Networking",
-      "version": "",
-      "author": "sinamics",
-      "developer": "sinamics",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "icon": "apps/ztnet/assets/icon.svg",
-      "thumbnail": "",
-      "compose_url": "apps/ztnet/docker-compose.yml",
-      "meta_url": "apps/ztnet/meta.json",
-      "content_hash": "af6505b2"
+      "tagline": "带有Web UI的自托管ZeroTier网络控制器，用于集中管理。"
     }
   ]
 }

@@ -1,21 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
-  "author": "CasaOS Team",
-  "category": "Networking",
+  "id": "smokeping",
   "description": "mantém um registro de sua latência de rede.",
-  "developer": "Lazylibrarian Team",
-  "screenshot_link": [
-    "apps/smokeping/assets/screenshot-1.webp",
-    "apps/smokeping/assets/screenshot-2.webp",
-    "apps/smokeping/assets/screenshot-3.webp",
-    "apps/smokeping/assets/screenshot-4.webp",
-    "apps/smokeping/assets/screenshot-5.webp"
-  ],
-  "tagline": "Ferramenta de monitoramento de desempenho de rede de código aberto gratuita",
-  "thumbnail": "apps/smokeping/assets/thumbnail.webp",
-  "tips": {},
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Ferramenta de monitoramento de desempenho de rede de código aberto gratuita"
 }

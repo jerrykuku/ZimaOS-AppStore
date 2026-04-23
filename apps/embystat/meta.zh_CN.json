@@ -1,19 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
-  "author": "CasaOS Team",
-  "category": "Media",
+  "id": "embystat",
   "description": "EmbyStat是一个个人Web服务器，可以从您的（本地）Emby或Jellyfin服务器计算各种统计数据。只需在服务器上安装此程序，让它计算各种有趣的东西。这个项目仍处于Alpha阶段，但是请随时拉入您的计算机并自己测试它。当时机成熟时，我将为常见平台和Wiki页面托管一个完整的信息网站/发布。",
-  "developer": "Embystart Team",
-  "screenshot_link": [
-    "apps/embystat/assets/screenshot-1.webp",
-    "apps/embystat/assets/screenshot-2.webp",
-    "apps/embystat/assets/screenshot-3.webp"
-  ],
-  "tagline": "从您的（本地）Emby或Jellyfin服务器计算各种统计数据",
-  "thumbnail": "",
-  "tips": {},
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "从您的（本地）Emby或Jellyfin服务器计算各种统计数据"
 }

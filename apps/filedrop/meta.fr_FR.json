@@ -1,15 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
+  "id": "filedrop",
   "description": "FileDrop est un service de partage de fichiers qui vous permet de partager facilement des fichiers avec votre famille, vos amis ou vos collègues. Il a été conçu pour être facile à utiliser et peu gourmand en ressources.\n",
-  "tagline": "FileDrop est un service de partage de fichiers, open source et gratuit",
-  "developer": "Noé Favier (noe.favier@outlook.com)",
-  "author": "Noé Favier",
-  "screenshot_link": [
-    "apps/filedrop/assets/screenshot-1.webp"
-  ],
-  "category": "Productivity",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "FileDrop est un service de partage de fichiers, open source et gratuit"
 }

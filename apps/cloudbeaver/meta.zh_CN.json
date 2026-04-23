@@ -1,17 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
-  "author": "joaobosconff",
-  "category": "Developer",
+  "id": "cloudbeaver",
   "description": "CloudBeaver是一个基于Web的数据库GUI工具，提供丰富的Web界面。您可以使用它来管理PostgreSQL、MySQL、MariaDB、SQL Server、Oracle、DB2、Firebird、H2和Trino。",
-  "developer": "dbeaver",
-  "screenshot_link": [
-    "apps/cloudbeaver/assets/screenshot-1.webp",
-    "apps/cloudbeaver/assets/screenshot-2.webp",
-    "apps/cloudbeaver/assets/screenshot-3.webp"
-  ],
-  "tagline": "云数据库管理器。",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "云数据库管理器。"
 }

@@ -1,15 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
-  "tagline": "Servidor de Integración Continua y Entrega de Jenkins.",
+  "id": "jenkins",
   "description": "Un servidor para crear canalizaciones para la integración y entrega continua de Jenkins.",
-  "developer": "bepp-boop",
-  "author": "bepp-boop",
-  "category": "Developer",
-  "tips": {
-    "before_install": ""
-  },
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Servidor de Integración Continua y Entrega de Jenkins."
 }

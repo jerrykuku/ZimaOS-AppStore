@@ -1,19 +1,4 @@
 {
-  "architectures": [
-    "arm64",
-    "amd64"
-  ],
-  "author": "IceWhaleTech",
-  "developer": "LangGenius",
-  "category": "AI",
-  "description": "Difyはオープンソースの大規模言語モデル（LLM）開発プラットフォームです。Backend as ServiceとLLMOpsの理念を融合し、開発者が迅速に生成AIアプリケーションを構築できるようにします。技術者でなくても、AIアプリケーションの定義やデータ運用に参加することができます。",
-  "screenshot_link": [
-    "apps/dify/assets/screenshot-1.webp",
-    "apps/dify/assets/screenshot-2.webp",
-    "apps/dify/assets/screenshot-3.webp",
-    "apps/dify/assets/screenshot-4.webp"
-  ],
-  "thumbnail": "apps/dify/assets/thumbnail.webp",
-  "tagline": "",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "id": "dify",
+  "description": "Difyはオープンソースの大規模言語モデル（LLM）開発プラットフォームです。Backend as ServiceとLLMOpsの理念を融合し、開発者が迅速に生成AIアプリケーションを構築できるようにします。技術者でなくても、AIアプリケーションの定義やデータ運用に参加することができます。"
 }

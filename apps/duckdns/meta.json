@@ -8,11 +8,11 @@
   "description": "duckdns is a DDNS (Dynamic DNS) application that dynamically binds IP addresses to domain names, supporting both IPv4 and IPv6.",
   "developer": "DuckDNS Team",
   "screenshot_link": [
-    "apps/duckdns/assets/screenshot-1.webp"
+    "/apps/duckdns/assets/screenshot-1.webp"
   ],
   "tagline": "Dynamic DNS for your domain, supporting both IPv4 and IPv6",
   "tips": {
     "before_install": "Attention Please\nWill update IPv6 address by default. You can modify it by settings.\n\nPlease register sub-domain on https://www.duckdns.org/ and gain your token.\n"
   },
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

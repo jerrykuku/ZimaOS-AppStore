@@ -1,18 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
+  "id": "overseerr",
   "description": "Overseerr 是一个免费开源的软件应用程序，用于管理媒体库的请求。它与您现有的服务集成，如 Sonarr、Radarr 和 Plex！",
-  "tagline": "Overseerr 是一个请求管理和媒体发现工具，专为与您现有的 Plex 生态系统配合使用而构建。",
-  "developer": "LinuxServer.io",
-  "author": "WisdomSky",
-  "screenshot_link": [
-    "apps/overseerr/assets/screenshot-1.webp",
-    "apps/overseerr/assets/screenshot-2.webp",
-    "apps/overseerr/assets/screenshot-3.webp"
-  ],
-  "thumbnail": "apps/overseerr/assets/icon.png",
-  "category": "Media",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Overseerr 是一个请求管理和媒体发现工具，专为与您现有的 Plex 生态系统配合使用而构建。"
 }

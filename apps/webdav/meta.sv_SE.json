@@ -1,20 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "386",
-    "arm64",
-    "arm"
-  ],
-  "author": "CasaOS Team",
-  "category": "Productivity",
+  "id": "webdav",
   "description": "WebDAV är ett webbaserat protokoll som låter dig dela och hantera filer över internet, vilket ger en samarbetsmiljö för filredigering och versionskontroll.",
-  "developer": "CasaOS Team",
-  "screenshot_link": [
-    "apps/webdav/assets/screenshot-1.webp"
-  ],
-  "tagline": "Ett webbaserat protokoll för fildelning och hantering",
-  "tips": {
-    "before_install": ""
-  },
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Ett webbaserat protokoll för fildelning och hantering"
 }

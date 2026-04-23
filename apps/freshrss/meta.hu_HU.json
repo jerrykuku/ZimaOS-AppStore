@@ -1,17 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64",
-    "arm"
-  ],
-  "author": "FreshRSS",
-  "category": "Productivity",
+  "id": "freshrss",
   "description": "A FreshRSS egy saját üzemeltetésű RSS és Atom feed aggregátor. Könnyű, könnyen kezelhető, nagy teljesítményű és testreszabható.",
-  "developer": "FreshRSS",
-  "screenshot_link": [
-    "apps/freshrss/assets/screenshot-1.webp"
-  ],
-  "tagline": "Ingyenes, önállóan hosztolható híraggregátor...",
-  "store_app_id": "freshrss",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Ingyenes, önállóan hosztolható híraggregátor..."
 }

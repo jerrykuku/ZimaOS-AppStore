@@ -1,18 +1,5 @@
 {
-  "tagline": "Teable adotta un'interfaccia foglio di calcolo concisa, ma crea potenti applicazioni di database",
+  "id": "teable",
   "description": "Teable è una piattaforma di database open source di nuova generazione. Offre un’esperienza intuitiva simile a un foglio di calcolo, ma è alimentata internamente da un database Postgres ad alte prestazioni, combinando facilità d’uso e potenti capacità di elaborazione dei dati.\n\n**Funzionalità principali:**\n- **Alte prestazioni**: Basata sul core Postgres, gestisce facilmente milioni di record con tempi di risposta estremamente rapidi.\n- **Interfaccia moderna**: Offre diverse viste come griglia, kanban, galleria e moduli, con un’interfaccia pulita e facile da usare.\n- **Collaborazione in tempo reale**: Supporta la collaborazione online multiutente con sincronizzazione dei dati in tempo reale.\n- **Automazione e API**: Fornisce potenti API RESTful per integrazioni e automazioni flessibili.\n\n**Scopri di più:**\n- [Sito ufficiale di Teable](https://teable.ai)\n- [Repository GitHub di Teable](https://github.com/teableio/teable)\n- [Documentazione di supporto](https://help.teable.ai)\n",
-  "category": "Productivity",
-  "author": "teableio",
-  "developer": "teableio",
-  "thumbnail": "apps/teable/assets/thumbnail.webp",
-  "screenshot_link": [
-    "apps/teable/assets/screenshot-1.webp",
-    "apps/teable/assets/screenshot-2.webp",
-    "apps/teable/assets/screenshot-3.webp"
-  ],
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Teable adotta un'interfaccia foglio di calcolo concisa, ma crea potenti applicazioni di database"
 }

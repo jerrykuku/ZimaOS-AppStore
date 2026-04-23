@@ -1,22 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
-  "author": "CasaOS Team",
-  "category": "Media",
+  "id": "deluge",
   "description": "A Deluge a BitTorrent kliensek általános jellemzőit tartalmazza, mint például a protokoll titkosítás, a DHT, a helyi partner felfedezés (LSD), a partner cseréje (PEX), az UPnP, a NAT-PMP, a proxy támogatás, a webmagok, a globális és a torrentenkénti sebességkorlátok. Mivel a Deluge erősen kihasználja a libtorrent könyvtárat, rendelkezik egy teljes listával a szolgáltatott funkciókról.",
-  "developer": "Deluge Team",
-  "screenshot_link": [
-    "apps/deluge/assets/screenshot-1.webp",
-    "apps/deluge/assets/screenshot-2.webp",
-    "apps/deluge/assets/screenshot-3.webp",
-    "apps/deluge/assets/screenshot-4.webp"
-  ],
-  "tagline": "Egy könnyűsúlyú és ingyenes BitTorrent kliens.",
-  "thumbnail": "apps/deluge/assets/thumbnail.webp",
-  "tips": {
-    "before_install": ""
-  },
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Egy könnyűsúlyú és ingyenes BitTorrent kliens."
 }

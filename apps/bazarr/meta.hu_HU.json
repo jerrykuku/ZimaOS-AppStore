@@ -1,21 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm",
-    "arm64"
-  ],
-  "author": "CasaOS Team",
-  "category": "Media",
+  "id": "bazarr",
   "description": "A Bazarr egy Sonarr és Radarr kiegészítő alkalmazás. Alapján a követelményeinek kezelheti és letöltheti a feliratokat. A TV sorozatok vagy filmek preferenciáit meghatározhatja, és a Bazarr mindenért felel.",
-  "developer": "Sabnzbd Team",
-  "screenshot_link": [
-    "apps/bazarr/assets/screenshot-1.webp",
-    "apps/bazarr/assets/screenshot-2.webp",
-    "apps/bazarr/assets/screenshot-3.webp",
-    "apps/bazarr/assets/screenshot-4.webp"
-  ],
-  "tagline": "Levélgenerátorok a Sonarr és Radarr számára",
-  "thumbnail": "apps/bazarr/assets/thumbnail.webp",
-  "tips": {},
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Levélgenerátorok a Sonarr és Radarr számára"
 }

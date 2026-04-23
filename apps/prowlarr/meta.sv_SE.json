@@ -1,18 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
-  "author": "CasaOS Team",
-  "category": "Media",
+  "id": "prowlarr",
   "description": "Prowlarr är en indexhanterare / proxy som byggs på den populära .net / reactjs-staplarna * arr för att integreras med dina olika PVR-appar. Prowlarr stöder hantering av Torrent Trackers och Usenet Indexers. Det integreras perfekt med Lidarr, Mylar3, Radarr, Readarr och Sonarr, vilket ger fullständig hantering av dina index utan indexinställning per app (vi gör allt).",
-  "developer": "Prowlarr Team",
-  "screenshot_link": [
-    "apps/prowlarr/assets/screenshot-1.webp",
-    "apps/prowlarr/assets/screenshot-2.webp"
-  ],
-  "tagline": "Integration av olika PVR-appar",
-  "thumbnail": "apps/prowlarr/assets/thumbnail.webp",
-  "tips": {},
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Integration av olika PVR-appar"
 }

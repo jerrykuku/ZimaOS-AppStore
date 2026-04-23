@@ -1,19 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
-  "author": "CasaOS Team",
-  "category": "Media",
+  "id": "jackett",
   "description": "O Jackett traduz as consultas de aplicativos (Sonarr, Radarr, SickRage, CouchPotato, Mylar3, Lidarr, DuckieTV, qBittorrent, Nefarious, etc.) em consultas HTTP específicas do site de rastreamento, analisa a resposta HTML ou JSON e, em seguida, envia os resultados de volta ao software solicitante. Isso permite obter uploads recentes (como RSS) e executar pesquisas. O Jackett é um único repositório de lógica de raspagem e tradução de indexadores mantidos - removendo a carga de outras aplicações.",
-  "developer": "Jackett",
-  "screenshot_link": [
-    "apps/jackett/assets/screenshot-1.webp",
-    "apps/jackett/assets/screenshot-2.webp",
-    "apps/jackett/assets/screenshot-3.webp"
-  ],
-  "tagline": "O Jackett funciona como um servidor proxy",
-  "thumbnail": "apps/jackett/assets/thumbnail.webp",
-  "tips": {},
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "O Jackett funciona como um servidor proxy"
 }

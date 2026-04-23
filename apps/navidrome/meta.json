@@ -9,9 +9,9 @@
   "description": "Navidrome is an open source web-based music collection server and streamer. It gives you freedom to listen to your music collection from any browser or mobile device. It's like your personal Spotify!",
   "tagline": "Music Collection and Streaming Server",
   "screenshot_link": [
-    "apps/navidrome/assets/screenshot-1.webp",
-    "apps/navidrome/assets/screenshot-2.webp"
+    "/apps/navidrome/assets/screenshot-1.webp",
+    "/apps/navidrome/assets/screenshot-2.webp"
   ],
   "store_app_id": "navidrome",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

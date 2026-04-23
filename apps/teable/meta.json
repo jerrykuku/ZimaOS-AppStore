@@ -4,15 +4,15 @@
   "category": "Productivity",
   "author": "teableio",
   "developer": "teableio",
-  "thumbnail": "apps/teable/assets/thumbnail.webp",
+  "thumbnail": "/apps/teable/assets/thumbnail.webp",
   "screenshot_link": [
-    "apps/teable/assets/screenshot-1.webp",
-    "apps/teable/assets/screenshot-2.webp",
-    "apps/teable/assets/screenshot-3.webp"
+    "/apps/teable/assets/screenshot-1.webp",
+    "/apps/teable/assets/screenshot-2.webp",
+    "/apps/teable/assets/screenshot-3.webp"
   ],
   "architectures": [
     "amd64",
     "arm64"
   ],
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

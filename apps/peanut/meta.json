@@ -7,15 +7,15 @@
   "category": "Home",
   "author": "brandawg93",
   "screenshot_link": [
-    "apps/peanut/assets/screenshot-1.webp",
-    "apps/peanut/assets/screenshot-2.webp",
-    "apps/peanut/assets/screenshot-3.webp"
+    "/apps/peanut/assets/screenshot-1.webp",
+    "/apps/peanut/assets/screenshot-2.webp",
+    "/apps/peanut/assets/screenshot-3.webp"
   ],
   "architectures": [
     "amd64",
     "arm64"
   ],
   "developer": "brandawg93",
-  "thumbnail": "apps/peanut/assets/thumbnail.webp",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "thumbnail": "/apps/peanut/assets/thumbnail.webp",
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

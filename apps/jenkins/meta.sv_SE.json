@@ -1,15 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
-  "tagline": "Jenkins server för kontinuerlig integration och leverans.",
+  "id": "jenkins",
   "description": "En server för att skapa pipelines för Jenkins kontinuerliga integration och leverans.",
-  "developer": "bepp-boop",
-  "author": "bepp-boop",
-  "category": "Developer",
-  "tips": {
-    "before_install": ""
-  },
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Jenkins server för kontinuerlig integration och leverans."
 }

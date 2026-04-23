@@ -1,18 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
-  "author": "CasaOS Team",
-  "category": "Media",
+  "id": "prowlarr",
   "description": "Prowlarr是一个索引器管理器/代理，建立在流行的*arr .net / reactjs基础堆栈上，用于与各种PVR应用程序集成。 Prowlarr支持管理Torrent Trackers和Usenet Indexers。它与Lidarr，Mylar3，Radarr，Readarr和Sonarr无缝集成，提供完整的索引器管理，无需每个应用程序索引器设置即可完成（我们全部都做到了）。",
-  "developer": "Prowlarr Team",
-  "screenshot_link": [
-    "apps/prowlarr/assets/screenshot-1.webp",
-    "apps/prowlarr/assets/screenshot-2.webp"
-  ],
-  "tagline": "各种PVR应用程序的集成",
-  "thumbnail": "apps/prowlarr/assets/thumbnail.webp",
-  "tips": {},
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "各种PVR应用程序的集成"
 }

@@ -1,16 +1,5 @@
 {
-  "architectures": [
-    "amd64"
-  ],
-  "author": "hiyouga",
-  "category": "AI",
+  "id": "llama-factory-nvidia",
   "description": "LLaMA Factory é uma estrutura abrangente para ajuste fino de Modelos de Linguagem Grandes (LLMs) com suporte para mais de 100 modelos. Fornece uma interface web amigável e métodos de treino poderosos, incluindo LoRA, QLoRA e treino de parâmetros completos.\n\n**Características Principais:**\n- Suporte para 100+ LLMs incluindo LLaMA, Mistral, Qwen e mais\n- Múltiplos métodos de ajuste fino (LoRA, QLoRA, Full, Freeze)\n- Interface Web intuitiva para fácil gestão de modelos\n- Servidor API integrado para inferência de modelos\n- Suporte para treino multi-GPU\n- Capacidades de quantização e exportação de modelos\n\n**Requisitos de Hardware:**\n- GPU: GPU NVIDIA com suporte CUDA necessária\n\n**Saiba Mais:**\n- [Repositório GitHub](https://github.com/hiyouga/LLaMA-Factory)\n- [Documentação](https://llamafactory.readthedocs.io/)\n",
-  "developer": "hiyouga",
-  "screenshot_link": [
-    "apps/llama-factory-nvidia/assets/screenshot-1.webp",
-    "apps/llama-factory-nvidia/assets/screenshot-2.webp",
-    "apps/llama-factory-nvidia/assets/screenshot-3.webp"
-  ],
-  "tagline": "Ajuste fino unificado de LLM com 100+ modelos",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Ajuste fino unificado de LLM com 100+ modelos"
 }

@@ -1,22 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
-  "author": "CasaOS Team",
-  "category": "Media",
+  "id": "sickchill",
   "description": "SickChill jest automatycznym menedżerem bibliotek wideo dla programów telewizyjnych. Obserwuje nowe odcinki ulubionych programów telewizyjnych, a gdy są opublikowane, robi swoją magię: automatyczne wyszukiwanie torrentów / nzbs, pobieranie i przetwarzanie w jakości, którą chcesz.\n",
-  "developer": "Sickchill Team",
-  "screenshot_link": [
-    "apps/sickchill/assets/screenshot-1.webp",
-    "apps/sickchill/assets/screenshot-2.webp",
-    "apps/sickchill/assets/screenshot-3.webp",
-    "apps/sickchill/assets/screenshot-4.webp",
-    "apps/sickchill/assets/screenshot-5.webp",
-    "apps/sickchill/assets/screenshot-6.webp"
-  ],
-  "tagline": "Automatyczny menedżer bibliotek wideo dla programów telewizyjnych",
-  "thumbnail": "apps/sickchill/assets/thumbnail.webp",
-  "tips": {},
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Automatyczny menedżer bibliotek wideo dla programów telewizyjnych"
 }

@@ -1,23 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
-  "author": "CasaOS Team",
-  "category": "Media",
+  "id": "sabnzbd",
   "description": "A SABnzbd egy nyílt forráskódú bináris hírlapíró, amelyet Python írt. Teljesen ingyenes, könnyen használható és majdnem bárhol használható. A SABnzbd automatizálja az összes olyan dolgot, amit tehetünk, hogy Usenetet lehetőleg egyszerű és hatékony legyen. Minden, amit tenned kell, az egy .nzb hozzáadása. A SABnzbd innentől kezdve átvette a kontrollt, ahol automatikusan letölti, ellenőrzi, javítja, kicsomagolja és archiválja, anélkül, hogy emberi beavatkozást igényelne. A SABnzbd könnyen beállítható varázslóval és önálló elemzési eszközökkel rendelkezik a beállítások ellenőrzéséhez.",
-  "developer": "Sabnzbd Team",
-  "screenshot_link": [
-    "apps/sabnzbd/assets/screenshot-1.webp",
-    "apps/sabnzbd/assets/screenshot-2.webp",
-    "apps/sabnzbd/assets/screenshot-3.webp",
-    "apps/sabnzbd/assets/screenshot-4.webp",
-    "apps/sabnzbd/assets/screenshot-5.webp",
-    "apps/sabnzbd/assets/screenshot-6.webp",
-    "apps/sabnzbd/assets/screenshot-7.webp"
-  ],
-  "tagline": "Ingyenes és egyszerű bináris hír olvasó",
-  "thumbnail": "apps/sabnzbd/assets/thumbnail.webp",
-  "tips": {},
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Ingyenes és egyszerű bináris hír olvasó"
 }

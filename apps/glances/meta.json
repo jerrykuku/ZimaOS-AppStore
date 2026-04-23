@@ -8,8 +8,8 @@
   "description": "Glances is an open-source system cross-platform monitoring tool. It allows real-time monitoring of various aspects of your system such as CPU, memory, disk, network usage etc.",
   "developer": "Nicolas Hennion",
   "screenshot_link": [
-    "apps/glances/assets/screenshot-1.webp"
+    "/apps/glances/assets/screenshot-1.webp"
   ],
   "tagline": "Cross-platform monitoring tool.",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

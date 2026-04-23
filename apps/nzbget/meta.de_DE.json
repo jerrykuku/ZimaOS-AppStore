@@ -1,23 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm",
-    "arm64"
-  ],
-  "author": "CasaOS Team",
-  "category": "Media",
+  "id": "nzbget",
   "description": "NZBGet kann auf fast jedem Gerät ausgeführt werden - klassischer PC, NAS, Mediaplayer, SAT-Receiver, WLAN-Router usw. Das Download-Bereich bietet vorkompilierte Binärdateien für Windows, macOS, Linux (kompatibel mit vielen CPUs und Plattformvarianten), FreeBSD und Android. Für andere Plattformen kann das Programm aus den Quellen kompiliert werden.",
-  "developer": "Nzbget Team",
-  "screenshot_link": [
-    "apps/nzbget/assets/screenshot-1.webp",
-    "apps/nzbget/assets/screenshot-2.webp",
-    "apps/nzbget/assets/screenshot-3.webp",
-    "apps/nzbget/assets/screenshot-4.webp"
-  ],
-  "tagline": "Effizienter Usenet-Downloader",
-  "thumbnail": "apps/nzbget/assets/thumbnail.webp",
-  "tips": {
-    "before_install": ""
-  },
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Effizienter Usenet-Downloader"
 }

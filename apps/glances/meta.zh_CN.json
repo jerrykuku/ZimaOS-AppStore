@@ -1,15 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
-  "author": "joaobosconff",
-  "category": "Productivity",
+  "id": "glances",
   "description": "Glances 是一个开源的跨平台系统监控工具。它允许实时监控系统的各个方面，如 CPU、内存、磁盘、网络使用情况等。",
-  "developer": "Nicolas Hennion",
-  "screenshot_link": [
-    "apps/glances/assets/screenshot-1.webp"
-  ],
-  "tagline": "跨平台监控工具",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "跨平台监控工具"
 }

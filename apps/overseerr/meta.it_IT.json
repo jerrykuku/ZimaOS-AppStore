@@ -1,18 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
+  "id": "overseerr",
   "description": "Overseerr è un'applicazione software gratuita e open source per la gestione delle richieste della tua libreria multimediale. Si integra con i tuoi servizi esistenti, come Sonarr, Radarr e Plex!",
-  "tagline": "Overseerr è uno strumento di gestione delle richieste e scoperta dei media creato per funzionare con il tuo ecosistema Plex esistente.",
-  "developer": "LinuxServer.io",
-  "author": "WisdomSky",
-  "screenshot_link": [
-    "apps/overseerr/assets/screenshot-1.webp",
-    "apps/overseerr/assets/screenshot-2.webp",
-    "apps/overseerr/assets/screenshot-3.webp"
-  ],
-  "thumbnail": "apps/overseerr/assets/icon.png",
-  "category": "Media",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Overseerr è uno strumento di gestione delle richieste e scoperta dei media creato per funzionare con il tuo ecosistema Plex esistente."
 }

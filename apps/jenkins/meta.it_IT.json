@@ -1,15 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
-  "tagline": "Server Jenkins per Integrazione Continua e Distribuzione.",
+  "id": "jenkins",
   "description": "Un server per creare pipeline per l'integrazione continua e la distribuzione di Jenkins.",
-  "developer": "bepp-boop",
-  "author": "bepp-boop",
-  "category": "Developer",
-  "tips": {
-    "before_install": ""
-  },
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Server Jenkins per Integrazione Continua e Distribuzione."
 }

@@ -24,5 +24,5 @@
   "developer": "Patrick Lorio",
   "tagline": "A free reverse proxy for tunneling services (not self-hosted).",
   "store_app_id": "playit-agent",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

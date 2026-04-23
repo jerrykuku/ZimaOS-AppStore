@@ -1,26 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm",
-    "arm64",
-    "386",
-    "mips64le",
-    "ppc64le",
-    "s390x"
-  ],
-  "author": "CasaOS Team",
-  "category": "Productivity",
+  "id": "nextcloud",
   "description": "Nextcloud ger dig kontroll över dina data. Lagra dina dokument, kalender, kontakter och foton på en server hemma, hos en av våra leverantörer eller i ett datacenter du litar på.",
-  "developer": "Nextcloud",
-  "screenshot_link": [
-    "apps/nextcloud/assets/screenshot-1.webp",
-    "apps/nextcloud/assets/screenshot-2.webp",
-    "apps/nextcloud/assets/screenshot-3.webp",
-    "apps/nextcloud/assets/screenshot-4.webp",
-    "apps/nextcloud/assets/screenshot-5.webp"
-  ],
-  "tagline": "Produktivitetsplattformen som håller dig i kontroll",
-  "thumbnail": "apps/nextcloud/assets/thumbnail.webp",
-  "tips": {},
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "Produktivitetsplattformen som håller dig i kontroll"
 }

@@ -1,18 +1,5 @@
 {
-  "architectures": [
-    "amd64",
-    "arm64"
-  ],
-  "author": "DuckDNS Team",
-  "category": "Networking",
+  "id": "duckdns",
   "description": "duckdns è un'applicazione DDNS (DNS dinamico) che lega dinamicamente gli indirizzi IP ai nomi di dominio, supportando sia IPv4 che IPv6.",
-  "developer": "DuckDNS Team",
-  "screenshot_link": [
-    "apps/duckdns/assets/screenshot-1.webp"
-  ],
-  "tagline": "DNS dinamico per il tuo dominio, supporta sia IPv4 che IPv6",
-  "tips": {
-    "before_install": ""
-  },
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/"
+  "tagline": "DNS dinamico per il tuo dominio, supporta sia IPv4 che IPv6"
 }

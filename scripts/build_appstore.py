@@ -120,17 +120,18 @@ def hash_directory_files(root_dir):
 
 
 def normalize_base_url(base):
-    """Ensure base URL ends with '/' for simple concatenation."""
+    """Normalize base URL without trailing '/'."""
     if not base:
         return ""
-    return base.rstrip("/") + "/"
+    return base.rstrip("/")
 
 
 def url_join(base, path):
-    """Join base URL and path, handling trailing slashes."""
+    """Join base URL and path where path should start with '/'."""
+    path = path if str(path).startswith("/") else f"/{path}"
     if not base:
         return path
-    return f"{base.rstrip('/')}/{path}"
+    return f"{base.rstrip('/')}{path}"
 
 
 def normalize_locale_key(key):
@@ -509,6 +510,26 @@ def build_meta_payload(meta, locale, assets_path, copied_images, image_mapping, 
     return meta_l
 
 
+def build_meta_i18n_overlay(app_id, meta, locale):
+    """Build locale overlay meta file with id + i18n-only fields."""
+    out = {"id": app_id}
+    for field in I18N_FIELDS:
+        value = meta.get(field)
+        if isinstance(value, dict) and locale in value:
+            out[field] = value[locale]
+    for field in I18N_NESTED_FIELDS:
+        value = meta.get(field)
+        if not isinstance(value, dict):
+            continue
+        nested = {}
+        for sub_key, sub_val in value.items():
+            if isinstance(sub_val, dict) and locale in sub_val:
+                nested[sub_key] = sub_val[locale]
+        if nested:
+            out[field] = nested
+    return out
+
+
 def build_index_entry(app_id, original_xcasaos, locale, assets_path, icon_filename,
                       thumbnail, compose_url, meta_url, content_hash_value, strict=False):
     """Build one index entry for a locale."""
@@ -528,6 +549,26 @@ def build_index_entry(app_id, original_xcasaos, locale, assets_path, icon_filena
         "meta_url": meta_url,
         "content_hash": content_hash_value,
     }
+
+
+def build_index_i18n_overlay_entry(app_id, original_xcasaos, locale):
+    """Build locale overlay index entry with id + i18n-only fields."""
+    out = {"id": app_id}
+    for field in INDEX_I18N_FIELDS:
+        value = original_xcasaos.get(field)
+        if isinstance(value, dict) and locale in value:
+            out[field] = value[locale]
+    return out
+
+
+def build_store_i18n_overlay(store_config, locale):
+    """Build locale overlay store file with store_id + i18n-only fields."""
+    out = {"store_id": store_config.get("store_id", "")}
+    for field in ("name", "description"):
+        value = store_config.get(field)
+        if isinstance(value, dict) and locale in value:
+            out[field] = value[locale]
+    return out
 
 
 def write_json(path, data):
@@ -589,7 +630,7 @@ def main():
         assets_output = app_output / "assets"
         copied_images, image_mapping, icon_filename = process_app_assets(app_dir, assets_output)
 
-        assets_path = f"apps/{app_id}/assets"
+        assets_path = f"/apps/{app_id}/assets"
 
         compose_l = copy.deepcopy(compose_data)
         compose_xc = compose_l.get("x-casaos", {})
@@ -626,15 +667,7 @@ def main():
             if loc in supported_locales and loc != DEFAULT_LOCALE
         }
         for locale in sorted(meta_locales):
-            meta_locale = build_meta_payload(
-                meta,
-                locale,
-                assets_path,
-                copied_images,
-                image_mapping,
-                base_url,
-                strict=True,
-            )
+            meta_locale = build_meta_i18n_overlay(app_id, meta, locale)
             write_json(app_output / f"meta.{locale}.json", meta_locale)
 
         chash = hash_directory_files(app_output)
@@ -686,14 +719,7 @@ def main():
         }
 
         for locale in sorted(store_locales):
-            store_locale = {
-                "version": store_config.get("version", 2),
-                "store_id": store_config.get("store_id", ""),
-                "name": resolve_i18n_strict(store_config.get("name", ""), locale),
-                "description": resolve_i18n_strict(store_config.get("description", ""), locale),
-                "maintainer": store_config.get("maintainer", ""),
-                "url": store_config.get("url", ""),
-            }
+            store_locale = build_store_i18n_overlay(store_config, locale)
             write_json(output / f"store.{locale}.json", store_locale)
             print(f"  store.{locale}.json")
 
@@ -708,8 +734,8 @@ def main():
                 assets_path=record["assets_path"],
                 icon_filename=record["icon_filename"],
                 thumbnail=record["thumbnail"],
-                compose_url=f"apps/{app_id}/docker-compose.yml",
-                meta_url=f"apps/{app_id}/meta.json",
+                compose_url=f"/apps/{app_id}/docker-compose.yml",
+                meta_url=f"/apps/{app_id}/meta.json",
                 content_hash_value=record["content_hash"],
                 strict=False,
             )
@@ -731,32 +757,22 @@ def main():
     for locale in sorted(candidate_index_locales):
         locale_entries = []
         for record in app_records:
+            if locale not in record["index_locales"]:
+                continue
             app_id = record["app_id"]
-            locale_entries.append(
-                build_index_entry(
-                    app_id=app_id,
-                    original_xcasaos=record["original_xcasaos"],
-                    locale=locale,
-                    assets_path=record["assets_path"],
-                    icon_filename=record["icon_filename"],
-                    thumbnail=record["thumbnail"],
-                    compose_url=f"apps/{app_id}/docker-compose.yml",
-                    meta_url=f"apps/{app_id}/meta.json",
-                    content_hash_value=record["content_hash"],
-                    strict=False,
-                )
+            entry = build_index_i18n_overlay_entry(
+                app_id=app_id,
+                original_xcasaos=record["original_xcasaos"],
+                locale=locale,
             )
+            # Keep sparse locale files: id + explicitly translated i18n fields only.
+            if len(entry) > 1:
+                locale_entries.append(entry)
 
         if not locale_entries:
             continue
 
-        index_locale = {
-            "version": 2,
-            "updated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-            "app_count": len(locale_entries),
-            "base_url": normalize_base_url(base_url),
-            "apps": locale_entries,
-        }
+        index_locale = {"apps": locale_entries}
         write_json(output / f"index.{locale}.json", index_locale)
         print(f"  index.{locale}.json ({len(locale_entries)} apps)")
 

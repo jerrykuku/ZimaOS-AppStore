@@ -15,5 +15,6 @@
   "tagline": "Store securely encrypted backups in the cloud!",
   "thumbnail": "/apps/duplicati/assets/thumbnail.webp",
   "tips": {},
+  "title": "Duplicati",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

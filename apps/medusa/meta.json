@@ -17,5 +17,6 @@
     "/apps/medusa/assets/screenshot-6.webp"
   ],
   "store_app_id": "medusa",
+  "title": "Medusa",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

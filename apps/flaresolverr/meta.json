@@ -10,5 +10,6 @@
     "/apps/flaresolverr/assets/screenshot-1.webp"
   ],
   "store_app_id": "flaresolverr",
+  "title": "FlareSolverr",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

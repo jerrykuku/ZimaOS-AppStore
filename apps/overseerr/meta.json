@@ -14,5 +14,6 @@
   ],
   "thumbnail": "/apps/overseerr/assets/icon.png",
   "category": "Media",
+  "title": "Overseerr",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

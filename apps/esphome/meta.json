@@ -13,5 +13,6 @@
     "/apps/esphome/assets/screenshot-2.webp"
   ],
   "store_app_id": "esphome",
+  "title": "ESPHome",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

@@ -15,5 +15,6 @@
   "tagline": "Jackett works as a proxy server",
   "thumbnail": "/apps/jackett/assets/thumbnail.webp",
   "tips": {},
+  "title": "Jackett",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

@@ -1,5 +1,5 @@
 {
   "id": "openhab",
-  "description": "Open Home Automation Bus (openHAB, uttalas ˈəʊpənˈhæb) är en öppen plattform för hemautomation och teknologiagnostisk som fungerar som centrum för ditt smarta hem. Sitt förmåga att integrera en mängd andra enheter och system. openHAB inkluderar andra hemautomationsystem, enheter (smart) och andra teknologier i en enda lösning. För att ge en enhetlig användargränssnitt och en gemensam tillvägagångssätt till automationsregler över hela systemet, oavsett antal tillverkare och underliggande system. Du ger dig själv den mest flexibla verktygen tillgängliga för att genomföra nästan alla dina önskemål om hemautomation; om du kan tänka dig det, är det troligt att du kan genomföra det med openHAB.",
-  "tagline": "Stärkning av smart hem"
+  "tagline": "Stärkning av smart hem",
+  "description": "Open Home Automation Bus (openHAB, uttalas ˈəʊpənˈhæb) är en öppen plattform för hemautomation och teknologiagnostisk som fungerar som centrum för ditt smarta hem. Sitt förmåga att integrera en mängd andra enheter och system. openHAB inkluderar andra hemautomationsystem, enheter (smart) och andra teknologier i en enda lösning. För att ge en enhetlig användargränssnitt och en gemensam tillvägagångssätt till automationsregler över hela systemet, oavsett antal tillverkare och underliggande system. Du ger dig själv den mest flexibla verktygen tillgängliga för att genomföra nästan alla dina önskemål om hemautomation; om du kan tänka dig det, är det troligt att du kan genomföra det med openHAB."
 }

@@ -15,5 +15,6 @@
   "tagline": "Lightweight Docker management UI",
   "thumbnail": "/apps/portainer/assets/thumbnail.webp",
   "tips": null,
+  "title": "Portainer",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

@@ -18,5 +18,6 @@
   "tips": {
     "before_install": "Default Account\n\n| Username | Password |\n| -------- | -------- |\n| `admin`    | `admin`    |\n"
   },
+  "title": "FileBrowser",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

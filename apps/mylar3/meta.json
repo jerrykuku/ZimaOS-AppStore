@@ -16,5 +16,6 @@
   "tagline": "Automatic comic book (cbr/cbz) downloader",
   "thumbnail": "/apps/mylar3/assets/thumbnail.webp",
   "tips": {},
+  "title": "Mylar3",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

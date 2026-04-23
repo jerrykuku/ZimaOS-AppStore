@@ -1,5 +1,5 @@
 {
   "id": "wg-easy",
-  "description": "Вы нашли самый простой способ установки и управления WireGuard на любом Linux-хосте!",
-  "tagline": "WEB-интерфейс для управления WireGuard VPN."
+  "tagline": "WEB-интерфейс для управления WireGuard VPN.",
+  "description": "Вы нашли самый простой способ установки и управления WireGuard на любом Linux-хосте!"
 }

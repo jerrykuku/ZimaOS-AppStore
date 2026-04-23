@@ -14,5 +14,6 @@
   "category": "Media",
   "hostname": "",
   "store_app_id": "handbrake",
+  "title": "handbrake",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

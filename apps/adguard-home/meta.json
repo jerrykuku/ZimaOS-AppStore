@@ -18,5 +18,6 @@
   "tagline": "Blocking ads & tracking Network-widly",
   "thumbnail": "/apps/adguard-home/assets/thumbnail.webp",
   "tips": {},
+  "title": "AdGuard Home",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

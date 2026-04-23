@@ -1,5 +1,5 @@
 {
   "id": "freshrss",
-  "description": "FreshRSS är en självhanterad RSS- och Atom-flödesaggregator. Det är lättviktigt, enkelt att arbeta med, kraftfullt och anpassningsbart.",
-  "tagline": "En gratis, självhanterlig nyhetsaggregator ..."
+  "tagline": "En gratis, självhanterlig nyhetsaggregator ...",
+  "description": "FreshRSS är en självhanterad RSS- och Atom-flödesaggregator. Det är lättviktigt, enkelt att arbeta med, kraftfullt och anpassningsbart."
 }

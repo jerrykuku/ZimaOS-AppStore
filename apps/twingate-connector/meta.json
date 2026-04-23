@@ -13,5 +13,6 @@
   "thumbnail": "/apps/twingate-connector/assets/thumbnail.webp",
   "tips": {},
   "hostname": "",
+  "title": "Twingate",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

@@ -12,5 +12,6 @@
     "/apps/ddns-go/assets/screenshot-1.webp"
   ],
   "tagline": "Simple and easy to use DDNS",
+  "title": "ddns-go",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

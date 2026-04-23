@@ -18,5 +18,6 @@
   "tagline": "A fancy monitoring tool",
   "thumbnail": "/apps/uptimekuma/assets/thumbnail.webp",
   "tips": {},
+  "title": "Uptime Kuma",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

@@ -15,5 +15,6 @@
   ],
   "thumbnail": "/apps/dify/assets/thumbnail.webp",
   "tagline": "LLM App Development Platform",
+  "title": "Dify",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

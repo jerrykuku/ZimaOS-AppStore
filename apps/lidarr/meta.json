@@ -15,5 +15,6 @@
   "tagline": "Music collection manager for Usenet and BitTorrent users",
   "thumbnail": "/apps/lidarr/assets/thumbnail.webp",
   "tips": {},
+  "title": "Lidarr",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

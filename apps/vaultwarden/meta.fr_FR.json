@@ -1,5 +1,5 @@
 {
   "id": "vaultwarden",
-  "description": "Implémentation alternative de l'API du serveur Bitwarden écrite en Rust et compatible avec les clients Bitwarden supérieurs *, parfaite pour le déploiement auto-hébergé où l'exécution du service officiel lourd en ressources peut ne pas être idéale.",
-  "tagline": "Un serveur Bitwarden auto-hébergé"
+  "tagline": "Un serveur Bitwarden auto-hébergé",
+  "description": "Implémentation alternative de l'API du serveur Bitwarden écrite en Rust et compatible avec les clients Bitwarden supérieurs *, parfaite pour le déploiement auto-hébergé où l'exécution du service officiel lourd en ressources peut ne pas être idéale."
 }

@@ -12,5 +12,6 @@
     "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/DDNS-Updater/screenshot-1.png"
   ],
   "tagline": "Simple and easy to use DDNS",
+  "title": "ddns-updater",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

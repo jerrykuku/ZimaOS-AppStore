@@ -1,5 +1,5 @@
 {
   "id": "gitea",
-  "description": "Gitea ist eine von der Community verwaltete, leichte Code-Hosting-Lösung, die in Go geschrieben ist.",
-  "tagline": "Git mit einem Tässchen Tee"
+  "tagline": "Git mit einem Tässchen Tee",
+  "description": "Gitea ist eine von der Community verwaltete, leichte Code-Hosting-Lösung, die in Go geschrieben ist."
 }

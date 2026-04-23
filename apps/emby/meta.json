@@ -15,5 +15,6 @@
   "tagline": "Emby brings together your personal videos, music, photos, and live television.",
   "thumbnail": "/apps/emby/assets/thumbnail.webp",
   "tips": {},
+  "title": "Emby",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

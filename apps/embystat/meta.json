@@ -15,5 +15,6 @@
   "tagline": "Calculate all kinds of statistics from your (local) Emby or Jellyfin server",
   "thumbnail": "",
   "tips": {},
+  "title": "Embystat",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

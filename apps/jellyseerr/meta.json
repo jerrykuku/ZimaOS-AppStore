@@ -15,5 +15,6 @@
   "tagline": "Jellyseerr is a free and open source software application for managing requests for your media library.",
   "thumbnail": "/apps/jellyseerr/assets/thumbnail.jpg",
   "tips": {},
+  "title": "Jellyseerr",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

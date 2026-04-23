@@ -17,5 +17,6 @@
     "before_install": "Default password for admin background `firefly`, you can modify it in environment variables.",
     "custom": ""
   },
+  "title": "Firefly",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

@@ -16,5 +16,6 @@
     "/apps/komga/assets/screenshot-4.webp"
   ],
   "thumbnail": "",
+  "title": "Komga",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

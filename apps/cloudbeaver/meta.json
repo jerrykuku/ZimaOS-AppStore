@@ -13,5 +13,6 @@
     "/apps/cloudbeaver/assets/screenshot-3.webp"
   ],
   "tagline": "Cloud Database Manager.",
+  "title": "CloudBeaver",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

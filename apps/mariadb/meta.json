@@ -12,5 +12,6 @@
     "before_install": "Default user: `casaos`\nDefault password: `casaos`\nDefault database: `casaos`\n\nDefault root password: `casaos`\n"
   },
   "category": "Developer",
+  "title": "MariaDB",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

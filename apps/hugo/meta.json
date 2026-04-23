@@ -17,5 +17,6 @@
   "tips": {
     "before_install": "We recommend reviewing the [Quick Start](https://gohugo.io/getting-started/quick-start/) documentation to learn how to use Hugo."
   },
+  "title": "Hugo",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

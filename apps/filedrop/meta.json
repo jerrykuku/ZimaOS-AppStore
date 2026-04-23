@@ -11,5 +11,6 @@
     "/apps/filedrop/assets/screenshot-1.webp"
   ],
   "category": "Productivity",
+  "title": "FileDrop",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

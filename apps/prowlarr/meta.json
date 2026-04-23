@@ -14,5 +14,6 @@
   "tagline": "Integration of various PVR applications",
   "thumbnail": "/apps/prowlarr/assets/thumbnail.webp",
   "tips": {},
+  "title": "Prowlarr",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

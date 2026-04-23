@@ -15,5 +15,6 @@
   ],
   "tagline": "Database management in a single PHP file",
   "thumbnail": "/apps/adminer/assets/thumbnail.webp",
+  "title": "Adminer",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

@@ -19,5 +19,6 @@
   ],
   "tagline": "A web app to listen Youtube audio source.",
   "thumbnail": "/apps/holoplay/assets/thumbnail.webp",
+  "title": "HoloPlay",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

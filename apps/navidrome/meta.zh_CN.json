@@ -1,5 +1,5 @@
 {
   "id": "navidrome",
-  "description": "Navidrome是一个开源的基于Web的音乐收藏服务器和流媒体服务器。它让您可以在任何浏览器或移动设备上自由收听音乐收藏。就像您个人的Spotify一样！",
-  "tagline": "音乐收藏和流媒体服务器"
+  "tagline": "音乐收藏和流媒体服务器",
+  "description": "Navidrome是一个开源的基于Web的音乐收藏服务器和流媒体服务器。它让您可以在任何浏览器或移动设备上自由收听音乐收藏。就像您个人的Spotify一样！"
 }

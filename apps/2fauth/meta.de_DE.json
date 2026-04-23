@@ -1,5 +1,5 @@
 {
   "id": "2fauth",
-  "description": "2FAuth ist eine webbasierte selbst gehostete Alternative zu One Time Passcode (OTP) Generatoren wie Google Authenticator, die für mobile und Desktop-Geräte entwickelt wurde.",
-  "tagline": "Eine Web-App zum Verwalten Ihrer Zwei-Faktor-Authentifizierung (2FA) Konten und zum Erstellen ihrer Sicherheitscodes"
+  "tagline": "Eine Web-App zum Verwalten Ihrer Zwei-Faktor-Authentifizierung (2FA) Konten und zum Erstellen ihrer Sicherheitscodes",
+  "description": "2FAuth ist eine webbasierte selbst gehostete Alternative zu One Time Passcode (OTP) Generatoren wie Google Authenticator, die für mobile und Desktop-Geräte entwickelt wurde."
 }

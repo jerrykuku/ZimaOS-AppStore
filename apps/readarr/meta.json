@@ -16,5 +16,6 @@
   "tagline": "Ebook and audiobook collection manager for Usenet and BitTorrent users.",
   "thumbnail": "/apps/readarr/assets/thumbnail.webp",
   "tips": {},
+  "title": "Readarr",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

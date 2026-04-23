@@ -17,5 +17,6 @@
   "tagline": "Letter generators for Sonarr and Radarr",
   "thumbnail": "/apps/bazarr/assets/thumbnail.webp",
   "tips": {},
+  "title": "Bazarr",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

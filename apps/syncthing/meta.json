@@ -14,5 +14,6 @@
     "/apps/syncthing/assets/screenshot-2.webp"
   ],
   "tips": {},
+  "title": "Syncthing",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

@@ -1,7 +1,7 @@
 {
   "id": "ttydbridge",
-  "description": "ttydBridge 如一座“桥”，连通了宿主机环境，让你在浏览器中轻松访问和使用宿主机终端。它基于 ttyd 构建，并以容器化的方式运行，提供了安全、便捷的远程终端体验。\n",
   "tagline": "在浏览器中轻松访问宿主机终端",
+  "description": "ttydBridge 如一座“桥”，连通了宿主机环境，让你在浏览器中轻松访问和使用宿主机终端。它基于 ttyd 构建，并以容器化的方式运行，提供了安全、便捷的远程终端体验。\n",
   "tips": {
     "before_install": "1. 默认使用 Linux 系统用户鉴权。\n\n2. 可以通过设置 `HTTP_USERNAME` `HTTP_PASSWORD` 变量，增加 HTTP 鉴权。\n\n[官方文档](https://hub.docker.com/r/cp0204/ttydbridge)\n"
   }

@@ -13,5 +13,6 @@
     "/apps/stremio/assets/screenshot-3.webp"
   ],
   "tagline": "Stremio is a modern media center that gives you the freedom to watch everything you want.",
+  "title": "Stremio",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

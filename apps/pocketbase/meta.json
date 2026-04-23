@@ -16,5 +16,6 @@
     "before_install": "Default Account\n| Email | Password |\n| ----- | -------- |\n| `casaos@admin.local` | `adminpocketbase` |\n"
   },
   "thumbnail": "/apps/pocketbase/assets/thumbnail.webp",
+  "title": "PocketBase",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

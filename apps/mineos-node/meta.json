@@ -10,5 +10,6 @@
   "tips": {
     "before_install": "Default Account\n\n| Username | Password |\n|----------|----------|\n| `mc`    | `root` |\n"
   },
+  "title": "MineOS",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

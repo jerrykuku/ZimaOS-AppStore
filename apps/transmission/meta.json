@@ -17,5 +17,6 @@
   "tips": {
     "before_install": "| username | password |\n| -------- | -------- |\n| `casaos` | `casaos` |\n"
   },
+  "title": "Transmission",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

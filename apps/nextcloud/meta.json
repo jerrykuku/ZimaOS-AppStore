@@ -22,5 +22,6 @@
   "tagline": "Content collaboration platform",
   "thumbnail": "/apps/nextcloud/assets/thumbnail.webp",
   "tips": {},
+  "title": "Nextcloud",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

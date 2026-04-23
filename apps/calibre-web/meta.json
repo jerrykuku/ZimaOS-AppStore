@@ -17,5 +17,6 @@
   "tips": {
     "before_install": "| Username | Password |\n| -------- | -------- |\n| `admin`    | `admin123` |\n"
   },
+  "title": "Calibre-web",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

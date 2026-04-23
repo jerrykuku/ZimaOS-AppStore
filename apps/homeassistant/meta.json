@@ -17,5 +17,6 @@
   "tagline": "Open source home automation that puts local control and privacy first.",
   "thumbnail": "/apps/homeassistant/assets/thumbnail.webp",
   "tips": {},
+  "title": "Home Assistant",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

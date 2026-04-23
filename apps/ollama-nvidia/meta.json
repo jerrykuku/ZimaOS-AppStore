@@ -14,5 +14,6 @@
     "/apps/ollama-nvidia/assets/screenshot-3.png"
   ],
   "thumbnail": "",
+  "title": "Ollama(Nvidia GPU)",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

@@ -1,5 +1,5 @@
 {
   "id": "vaultwarden",
-  "description": "Alternativ implementering av Bitwarden-serverns API skriven i Rust och kompatibel med översta Bitwarden-klienterna *, perfekt för självhärdad drift där körning av den officiella resurskrävande tjänsten kanske inte är idealisk.",
-  "tagline": "En självhärdad Bitwarden-server"
+  "tagline": "En självhärdad Bitwarden-server",
+  "description": "Alternativ implementering av Bitwarden-serverns API skriven i Rust och kompatibel med översta Bitwarden-klienterna *, perfekt för självhärdad drift där körning av den officiella resurskrävande tjänsten kanske inte är idealisk."
 }

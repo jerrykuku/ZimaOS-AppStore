@@ -1,5 +1,5 @@
 {
   "id": "calibre-web",
-  "description": "Calibre-web ist eine Web-App, die eine saubere Schnittstelle für das Durchsuchen, Lesen und Herunterladen von E-Books mit einer vorhandenen Calibre-Datenbank bietet. Es ist auch möglich, Google Drive zu integrieren und Metadaten und Ihre Calibre-Bibliothek über die App selbst zu bearbeiten.",
-  "tagline": "Web-App zum Durchsuchen, Lesen und Herunterladen von E-Books, die in einer Calibre-Datenbank gespeichert sind"
+  "tagline": "Web-App zum Durchsuchen, Lesen und Herunterladen von E-Books, die in einer Calibre-Datenbank gespeichert sind",
+  "description": "Calibre-web ist eine Web-App, die eine saubere Schnittstelle für das Durchsuchen, Lesen und Herunterladen von E-Books mit einer vorhandenen Calibre-Datenbank bietet. Es ist auch möglich, Google Drive zu integrieren und Metadaten und Ihre Calibre-Bibliothek über die App selbst zu bearbeiten."
 }

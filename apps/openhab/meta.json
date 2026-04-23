@@ -17,5 +17,6 @@
   "tagline": "Empowering the smart home",
   "thumbnail": "/apps/openhab/assets/thumbnail.webp",
   "tips": {},
+  "title": "OpenHAB",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

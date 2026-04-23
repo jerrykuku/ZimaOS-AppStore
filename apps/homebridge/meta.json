@@ -13,5 +13,6 @@
     "/apps/homebridge/assets/screenshot-2.webp"
   ],
   "tagline": "HomeKit support for the impatient.",
+  "title": "Homebridge",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

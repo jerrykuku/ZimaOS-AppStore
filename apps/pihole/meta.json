@@ -19,5 +19,6 @@
   "tips": {
     "before_install": "Default password: `casaos`\n"
   },
+  "title": "Pi-hole",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

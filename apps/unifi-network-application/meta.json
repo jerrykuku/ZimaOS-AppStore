@@ -17,5 +17,6 @@
   },
   "thumbnail": "/apps/unifi-network-application/assets/thumbnail.png",
   "store_app_id": "unifi-network-application",
+  "title": "Unifi Network Application",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

@@ -12,5 +12,6 @@
   "tips": {
     "before_install": "**Usage Tips**\nAnythingLLM supports but does not directly provide various LLMs backends, you need to configure the backends you need yourself.\nPlease refer to the [official documentation](https://docs.anythingllm.com) for more information.\n"
   },
+  "title": "AnythingLLM",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

@@ -14,5 +14,6 @@
     "/apps/gopeed/assets/screenshot-3.webp"
   ],
   "tagline": "Open source, lightweight, native, supports (HTTP, BitTorrent, Magnet, etc.) for downloading.",
+  "title": "Gopeed",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

@@ -15,5 +15,6 @@
   "tagline": "eBook Auto Downloader",
   "thumbnail": "/apps/lazylibrarian/assets/thumbnail.webp",
   "tips": {},
+  "title": "Lazylibrarian",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

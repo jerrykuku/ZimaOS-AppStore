@@ -17,5 +17,6 @@
   "tips": {
     "before_install": "| username | password |\n| -------- | -------- |\n| `admin`    | `admin`    |\n"
   },
+  "title": "Grafana",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

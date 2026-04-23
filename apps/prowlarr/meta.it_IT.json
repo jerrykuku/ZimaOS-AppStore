@@ -1,5 +1,5 @@
 {
   "id": "prowlarr",
-  "description": "Prowlarr è un gestore di indici / proxy costruito sulla popolare base di stack .net / reactjs * arr per integrarsi con le varie applicazioni PVR. Prowlarr supporta la gestione di Torrent Trackers e Usenet Indexers. Si integra perfettamente con Lidarr, Mylar3, Radarr, Readarr e Sonarr, offrendo un'intera gestione degli indexer senza configurazione di indexer per applicazione (lo facciamo tutto).",
-  "tagline": "Integrazione di varie applicazioni PVR"
+  "tagline": "Integrazione di varie applicazioni PVR",
+  "description": "Prowlarr è un gestore di indici / proxy costruito sulla popolare base di stack .net / reactjs * arr per integrarsi con le varie applicazioni PVR. Prowlarr supporta la gestione di Torrent Trackers e Usenet Indexers. Si integra perfettamente con Lidarr, Mylar3, Radarr, Readarr e Sonarr, offrendo un'intera gestione degli indexer senza configurazione di indexer per applicazione (lo facciamo tutto)."
 }

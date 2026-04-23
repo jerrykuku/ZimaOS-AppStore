@@ -18,5 +18,6 @@
   "tips": {
     "before_install": "🔧 Settings\n\nDefault password: `casaos`\n\n⚠️ Warning!\n\nYou need to change at least change the mandatory parameter `WG_HOST` for this app to work properly.\nIt's value has to be a domain (or an IP address) that points to this server (accesible from WAN).\n\nSame applies to the `WG_PORT` parameter. Change it to the port accessible from outside your LAN if it differs from the default 51820.\n"
   },
+  "title": "WireGuard Easy",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

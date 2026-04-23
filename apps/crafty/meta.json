@@ -21,5 +21,6 @@
   "tips": {
     "before_install": "Default Account\n| Username | Password |\n|----------|----------|\n| `admin`    | `app/config/default-creds.txt` |\n"
   },
+  "title": "Crafty",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

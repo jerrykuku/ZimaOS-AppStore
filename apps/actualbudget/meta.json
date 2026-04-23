@@ -19,5 +19,6 @@
   "tips": {
     "before_install": "After opening the web page for the first time, you will see an error popup. Click the `Advanced options` option to successfully enter the Actual Budget web page.\n"
   },
+  "title": "Actual Budget",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

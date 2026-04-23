@@ -1,5 +1,5 @@
 {
   "id": "emby-nvidia",
-  "description": "Rassembler toutes vos vidéos, musique et photos à un seul endroit n'a jamais été aussi facile. Votre serveur Emby personnel convertit et diffuse vos médias en temps réel pour les lire sur n'importe quel appareil.",
-  "tagline": "PRENEZ VOS MÉDIAS PARTOUT AVEC EMBY"
+  "tagline": "PRENEZ VOS MÉDIAS PARTOUT AVEC EMBY",
+  "description": "Rassembler toutes vos vidéos, musique et photos à un seul endroit n'a jamais été aussi facile. Votre serveur Emby personnel convertit et diffuse vos médias en temps réel pour les lire sur n'importe quel appareil."
 }

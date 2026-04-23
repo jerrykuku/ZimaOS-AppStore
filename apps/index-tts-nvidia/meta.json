@@ -13,5 +13,6 @@
     "/apps/index-tts-nvidia/assets/screenshot-3.webp"
   ],
   "thumbnail": "/apps/index-tts-nvidia/assets/thumbnail.webp",
+  "title": "Index-TTS(Nvidia GPU)",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

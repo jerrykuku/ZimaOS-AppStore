@@ -11,5 +11,6 @@
     "/apps/chatbot-ui/assets/screenshot-1.webp"
   ],
   "tagline": "Open source chat UI for AI models",
+  "title": "Chatbot UI",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

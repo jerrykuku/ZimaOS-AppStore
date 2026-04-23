@@ -18,5 +18,6 @@
     "before_install": "Default login account `666`, Default login password `666`,tips:`Before each update, remember to back up the configuration`."
   },
   "store_app_id": "lucky",
+  "title": "Lucky",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

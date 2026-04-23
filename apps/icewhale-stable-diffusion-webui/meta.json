@@ -12,5 +12,6 @@
   ],
   "tagline": "An AI model used to generate images conditioned on text descriptions.",
   "store_app_id": "icewhale-stable-diffusion-webui",
+  "title": "Stable Diffusion",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

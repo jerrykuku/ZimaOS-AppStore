@@ -16,5 +16,6 @@
   "tagline": "Monitor your Plex Media Server and much more.",
   "thumbnail": "/apps/tautulli/assets/thumbnail.webp",
   "tips": {},
+  "title": "Tautulli",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

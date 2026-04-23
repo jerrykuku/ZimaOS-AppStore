@@ -1,5 +1,5 @@
 {
   "id": "bazarr",
-  "description": "Bazarr är ett komplement till Sonarr och Radarr. Det kan hantera och ladda ner undertexter baserat på dina krav. Du definierar dina preferenser för TV-serie eller film och Bazarr tar hand om allt åt dig.",
-  "tagline": "Brevgenererare för Sonarr och Radarr"
+  "tagline": "Brevgenererare för Sonarr och Radarr",
+  "description": "Bazarr är ett komplement till Sonarr och Radarr. Det kan hantera och ladda ner undertexter baserat på dina krav. Du definierar dina preferenser för TV-serie eller film och Bazarr tar hand om allt åt dig."
 }

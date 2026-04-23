@@ -1,5 +1,5 @@
 {
   "id": "jellyfin-nvidia",
-  "description": "Jellyfin consente di raccogliere, gestire e trasmettere i tuoi media. Esegui il server Jellyfin sul tuo sistema e accedi al sistema di intrattenimento software libero leader, con suoni e decorazioni incluse.",
-  "tagline": "Mette in tuo controllo i tuoi media."
+  "tagline": "Mette in tuo controllo i tuoi media.",
+  "description": "Jellyfin consente di raccogliere, gestire e trasmettere i tuoi media. Esegui il server Jellyfin sul tuo sistema e accedi al sistema di intrattenimento software libero leader, con suoni e decorazioni incluse."
 }

@@ -13,5 +13,6 @@
   "tips": {
     "before_install": "This version of MongoDB requires a CPU with AVX support. This version of MongoDB will not work with ZimaBoard."
   },
+  "title": "MongoDB",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

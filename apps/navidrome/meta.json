@@ -13,5 +13,6 @@
     "/apps/navidrome/assets/screenshot-2.webp"
   ],
   "store_app_id": "navidrome",
+  "title": "Navidrome",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

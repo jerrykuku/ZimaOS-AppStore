@@ -15,5 +15,6 @@
   "tagline": "The personal Media System",
   "thumbnail": "/apps/jellyfin/assets/thumbnail.webp",
   "tips": {},
+  "title": "Jellyfin",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

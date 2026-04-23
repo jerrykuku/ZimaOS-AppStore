@@ -1,5 +1,5 @@
 {
   "id": "duplicati",
-  "description": "Duplicati är en gratis, öppen källkod, backup-klient som säkert lagrar krypterade, inkrementella, komprimerade säkerhetskopior på molntjänster och fjärrfiler.",
-  "tagline": "Lagra säkert krypterade säkerhetskopior i molnet!"
+  "tagline": "Lagra säkert krypterade säkerhetskopior i molnet!",
+  "description": "Duplicati är en gratis, öppen källkod, backup-klient som säkert lagrar krypterade, inkrementella, komprimerade säkerhetskopior på molntjänster och fjärrfiler."
 }

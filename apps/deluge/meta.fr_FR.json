@@ -1,5 +1,5 @@
 {
   "id": "deluge",
-  "description": "Deluge contient les fonctionnalités communes aux clients BitTorrent tels que le chiffrement de protocole, DHT, découverte de pairs locaux (LSD), échange de pairs (PEX), UPnP, NAT-PMP, prise en charge des proxy, les graines Web, les limites de vitesse globales et par torrent. Comme Deluge utilise intensivement la bibliothèque libtorrent, il dispose d'une liste complète des fonctionnalités fournies.",
-  "tagline": "Un client BitTorrent léger et gratuit."
+  "tagline": "Un client BitTorrent léger et gratuit.",
+  "description": "Deluge contient les fonctionnalités communes aux clients BitTorrent tels que le chiffrement de protocole, DHT, découverte de pairs locaux (LSD), échange de pairs (PEX), UPnP, NAT-PMP, prise en charge des proxy, les graines Web, les limites de vitesse globales et par torrent. Comme Deluge utilise intensivement la bibliothèque libtorrent, il dispose d'une liste complète des fonctionnalités fournies."
 }

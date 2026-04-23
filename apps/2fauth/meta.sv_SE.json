@@ -1,5 +1,5 @@
 {
   "id": "2fauth",
-  "description": "2FAuth är en självhärdad webbaserad alternativ till One Time Passcode (OTP) -genererare som Google Authenticator, utformad för både mobila och skrivbordsenheter.",
-  "tagline": "En webbapp för att hantera dina tvåfaktorsautentiserings (2FA) -konton och generera deras säkerhetskoder"
+  "tagline": "En webbapp för att hantera dina tvåfaktorsautentiserings (2FA) -konton och generera deras säkerhetskoder",
+  "description": "2FAuth är en självhärdad webbaserad alternativ till One Time Passcode (OTP) -genererare som Google Authenticator, utformad för både mobila och skrivbordsenheter."
 }

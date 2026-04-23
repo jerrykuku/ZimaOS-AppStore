@@ -16,5 +16,6 @@
   "tips": {
     "before_install": "The first run will download the model (~5-10GB), which may take some time."
   },
+  "title": "DeepSeek OCR(Nvidia GPU)",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

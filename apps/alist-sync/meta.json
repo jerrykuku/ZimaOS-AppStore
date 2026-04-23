@@ -45,5 +45,6 @@
   "tips": {
     "before_install": "The default login password is admin/admin."
   },
+  "title": "Alist-Sync",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

@@ -19,5 +19,6 @@
   "tagline": "HTML5 Network Speed Test Server.",
   "thumbnail": "/apps/openspeedtest/assets/thumbnail.webp",
   "tips": {},
+  "title": "OpenSpeedTest",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

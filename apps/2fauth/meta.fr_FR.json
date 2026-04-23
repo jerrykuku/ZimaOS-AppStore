@@ -1,5 +1,5 @@
 {
   "id": "2fauth",
-  "description": "2FAuth est une alternative auto-hébergée basée sur le web aux générateurs de codes à usage unique (OTP) tels que Google Authenticator, conçus pour les appareils mobiles et de bureau.",
-  "tagline": "Une application Web pour gérer vos comptes d'authentification à deux facteurs (2FA) et générer leurs codes de sécurité"
+  "tagline": "Une application Web pour gérer vos comptes d'authentification à deux facteurs (2FA) et générer leurs codes de sécurité",
+  "description": "2FAuth est une alternative auto-hébergée basée sur le web aux générateurs de codes à usage unique (OTP) tels que Google Authenticator, conçus pour les appareils mobiles et de bureau."
 }

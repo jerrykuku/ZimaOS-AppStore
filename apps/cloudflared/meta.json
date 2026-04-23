@@ -15,5 +15,6 @@
   "author": "WisdomSky",
   "thumbnail": "/apps/cloudflared/assets/thumbnail.webp",
   "category": "Networking",
+  "title": "Cloudflared",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

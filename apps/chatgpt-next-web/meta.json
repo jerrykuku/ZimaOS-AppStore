@@ -14,5 +14,6 @@
   "tagline": "A well-designed cross-platform ChatGPT UI.",
   "thumbnail": "/apps/chatgpt-next-web/assets/thumbnail.webp",
   "tips": {},
+  "title": "ChatGPT Next Web",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 }

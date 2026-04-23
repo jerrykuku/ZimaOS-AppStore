@@ -477,11 +477,14 @@ def resolve_asset_filename(url_or_name, image_mapping, copied_images):
     return fname
 
 
-def build_meta_payload(meta, locale, assets_path, copied_images, image_mapping, base_url, strict=False):
+def build_meta_payload(meta, locale, assets_path, copied_images, image_mapping, base_url,
+                       title_i18n=None, strict=False):
     """Build locale-resolved meta payload."""
     meta_l = copy.deepcopy(meta)
 
     resolver = resolve_i18n_strict if strict else resolve_i18n
+    if title_i18n is not None:
+        meta_l["title"] = resolver(title_i18n, locale)
     for field in I18N_FIELDS:
         if field in meta_l:
             meta_l[field] = resolver(meta_l[field], locale)
@@ -510,9 +513,11 @@ def build_meta_payload(meta, locale, assets_path, copied_images, image_mapping, 
     return meta_l
 
 
-def build_meta_i18n_overlay(app_id, meta, locale):
+def build_meta_i18n_overlay(app_id, meta, locale, title_i18n=None):
     """Build locale overlay meta file with id + i18n-only fields."""
     out = {"id": app_id}
+    if isinstance(title_i18n, dict) and locale in title_i18n:
+        out["title"] = title_i18n[locale]
     for field in I18N_FIELDS:
         value = meta.get(field)
         if isinstance(value, dict) and locale in value:
@@ -656,6 +661,7 @@ def main():
             copied_images,
             image_mapping,
             base_url,
+            title_i18n=original_xcasaos.get("title"),
             strict=False,
         )
         meta_default_content = json.dumps(to_json_safe(meta_default), ensure_ascii=False, indent=2)
@@ -667,7 +673,12 @@ def main():
             if loc in supported_locales and loc != DEFAULT_LOCALE
         }
         for locale in sorted(meta_locales):
-            meta_locale = build_meta_i18n_overlay(app_id, meta, locale)
+            meta_locale = build_meta_i18n_overlay(
+                app_id,
+                meta,
+                locale,
+                title_i18n=original_xcasaos.get("title"),
+            )
             write_json(app_output / f"meta.{locale}.json", meta_locale)
 
         chash = hash_directory_files(app_output)

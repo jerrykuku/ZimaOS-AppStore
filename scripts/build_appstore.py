@@ -378,6 +378,28 @@ def resolve_app_id(compose_data, xcasaos, dir_name):
     return dir_name.lower()
 
 
+def normalize_categories(category_value):
+    """Normalize category metadata to a lowercase category-id array."""
+    if not category_value:
+        return []
+    if isinstance(category_value, (list, tuple, set)):
+        values = category_value
+    else:
+        values = [category_value]
+
+    categories = []
+    seen = set()
+    for value in values:
+        if value is None:
+            continue
+        cat_id = str(value).strip().lower()
+        if not cat_id or cat_id in seen:
+            continue
+        seen.add(cat_id)
+        categories.append(cat_id)
+    return categories
+
+
 def load_store_config(source):
     """Load store-config.json and return store config dict."""
     config_path = source / STORE_CONFIG_FILE
@@ -481,6 +503,7 @@ def build_meta_payload(meta, locale, assets_path, copied_images, image_mapping, 
                        title_i18n=None, strict=False):
     """Build locale-resolved meta payload."""
     meta_l = copy.deepcopy(meta)
+    category = meta_l.get("category", "")
 
     resolver = resolve_i18n_strict if strict else resolve_i18n
     if title_i18n is not None:
@@ -510,6 +533,7 @@ def build_meta_payload(meta, locale, assets_path, copied_images, image_mapping, 
             meta_l["screenshot_link"] = []
 
     meta_l["base_url"] = normalize_base_url(base_url)
+    meta_l["categories"] = normalize_categories(category)
     return meta_l
 
 
@@ -539,11 +563,13 @@ def build_index_entry(app_id, original_xcasaos, locale, assets_path, icon_filena
                       thumbnail, compose_url, meta_url, content_hash_value, strict=False):
     """Build one index entry for a locale."""
     resolver = resolve_i18n_strict if strict else resolve_i18n
+    category = original_xcasaos.get("category", "")
     return {
         "id": app_id,
         "title": resolver(original_xcasaos.get("title", ""), locale),
         "tagline": resolver(original_xcasaos.get("tagline", ""), locale),
-        "category": original_xcasaos.get("category", ""),
+        "category": category,
+        "categories": normalize_categories(category),
         "version": original_xcasaos.get("version") or "",
         "author": original_xcasaos.get("author", ""),
         "developer": original_xcasaos.get("developer", ""),

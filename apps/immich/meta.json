@@ -19,5 +19,8 @@
     "before_install": "⚠️ The project is under very active development.\n⚠️ Expect bugs and breaking changes.\n⚠️ Do not use the app as the only way to store your photos and videos.\n⚠️ Always follow 3-2-1 backup plan for your precious photos and videos!\n\n## Authorized Media Files and Data\n1. Click on the settings icon in the upper right corner of the App.\n2. In the immich-server tab, map your album storage location in the Volumes section (default is `/DATA/Gallery/immich`).\n\nFor complete project documentation and installation instructions, please [refer to](https://immich.app).\n"
   },
   "title": "Immich",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
+  "categories": [
+    "media"
+  ]
 }

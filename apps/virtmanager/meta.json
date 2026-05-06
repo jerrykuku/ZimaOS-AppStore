@@ -17,5 +17,8 @@
   "tagline": "A GTK Broadway web UI for libvirt and virt-manager.",
   "store_app_id": "virtmanager",
   "title": "Virtual Machine Manager",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
+  "categories": [
+    "developer"
+  ]
 }

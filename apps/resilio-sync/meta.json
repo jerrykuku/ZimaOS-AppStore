@@ -13,5 +13,8 @@
   "hostname": "",
   "store_app_id": "resilio-sync",
   "title": "resilio-sync",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
+  "categories": [
+    "productivity"
+  ]
 }

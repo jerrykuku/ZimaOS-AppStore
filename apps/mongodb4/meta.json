@@ -11,5 +11,8 @@
   "thumbnail": "/apps/mongodb4/assets/icon.png",
   "category": "Developer",
   "title": "MongoDB 4",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
+  "categories": [
+    "developer"
+  ]
 }

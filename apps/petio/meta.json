@@ -16,5 +16,8 @@
   "thumbnail": "/apps/petio/assets/icon.png",
   "category": "Media",
   "title": "Petio",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
+  "categories": [
+    "media"
+  ]
 }

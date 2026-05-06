@@ -16,5 +16,8 @@
   "thumbnail": "/apps/unifi-controller/assets/thumbnail.webp",
   "tips": {},
   "title": "Unifi-controller [legacy]",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
+  "categories": [
+    "networking"
+  ]
 }

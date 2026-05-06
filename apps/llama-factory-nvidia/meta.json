@@ -13,5 +13,8 @@
   ],
   "tagline": "Unified LLM Fine-Tuning with 100+ Models",
   "title": "LLaMA Factory(Nvidia GPU)",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
+  "categories": [
+    "ai"
+  ]
 }

@@ -14,5 +14,8 @@
   "tagline": "RagFlow is an open-source RAG engine based on deep document understanding.",
   "thumbnail": "/apps/ragflow/assets/thumbnail.webp",
   "title": "RagFlow",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
+  "categories": [
+    "ai"
+  ]
 }

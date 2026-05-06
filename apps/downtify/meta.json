@@ -13,5 +13,8 @@
   ],
   "tagline": "Download Spotify music with album art and metadata",
   "title": "Downtify",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
+  "categories": [
+    "media"
+  ]
 }

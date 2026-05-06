@@ -20,5 +20,8 @@
     "before_install": "After installation, please check the token in the container log (Settings - TopRight - Terminal and Logs - Logs)."
   },
   "title": "Anaconda3",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
+  "categories": [
+    "ai"
+  ]
 }

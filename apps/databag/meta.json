@@ -13,5 +13,8 @@
   "author": "Pierre Balzack",
   "category": "Social",
   "title": "Databag",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
+  "categories": [
+    "social"
+  ]
 }

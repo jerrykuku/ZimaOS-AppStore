@@ -15,5 +15,8 @@
   ],
   "thumbnail": "",
   "title": "V2rayA",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
+  "categories": [
+    "networking"
+  ]
 }

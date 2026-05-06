@@ -21,5 +21,8 @@
     "before_install": "Prerequisites for using ZTnet:\n1. Allow ZTNET to manage your local ZeroTier instance, refer to [Step 2 of the documentation: Configure ZeroTier](https://ztnet.network/usage/migrate)\n2. (ZimaOS users do not need to perform this step) Modify the `ZT_ADDR` environment variable to your ZeroTier controller address\n"
   },
   "title": "ZTnet",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
+  "categories": [
+    "networking"
+  ]
 }

@@ -16,5 +16,8 @@
   "thumbnail": "/apps/portainer/assets/thumbnail.webp",
   "tips": null,
   "title": "Portainer",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
+  "categories": [
+    "developer"
+  ]
 }

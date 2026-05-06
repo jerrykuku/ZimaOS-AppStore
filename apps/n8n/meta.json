@@ -16,5 +16,8 @@
   "thumbnail": "/apps/n8n/assets/thumbnail.webp",
   "tips": {},
   "title": "n8n",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
+  "categories": [
+    "productivity"
+  ]
 }

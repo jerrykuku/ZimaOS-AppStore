@@ -16,5 +16,8 @@
   "thumbnail": "/apps/emby-nvidia/assets/thumbnail.png",
   "tips": {},
   "title": "Emby(Nvidia GPU)",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
+  "categories": [
+    "media"
+  ]
 }

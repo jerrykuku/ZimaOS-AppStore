@@ -18,5 +18,8 @@
   "developer": "brandawg93",
   "thumbnail": "/apps/peanut/assets/thumbnail.webp",
   "title": "PeaNUT",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
+  "categories": [
+    "home"
+  ]
 }

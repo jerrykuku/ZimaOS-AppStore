@@ -14,5 +14,8 @@
   "tagline": "A free, self-hostable news aggregator…",
   "store_app_id": "freshrss",
   "title": "FreshRSS",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
+  "categories": [
+    "productivity"
+  ]
 }

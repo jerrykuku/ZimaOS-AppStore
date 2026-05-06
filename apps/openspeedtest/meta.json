@@ -20,5 +20,8 @@
   "thumbnail": "/apps/openspeedtest/assets/thumbnail.webp",
   "tips": {},
   "title": "OpenSpeedTest",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
+  "categories": [
+    "networking"
+  ]
 }

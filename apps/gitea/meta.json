@@ -18,5 +18,8 @@
     "before_install": "When the App is installed, the first account registered will become the administrator account.\n"
   },
   "title": "Gitea",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
+  "categories": [
+    "developer"
+  ]
 }

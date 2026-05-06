@@ -12,5 +12,8 @@
     "before_install": ""
   },
   "title": "Jenkins CI/CD",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
+  "categories": [
+    "developer"
+  ]
 }

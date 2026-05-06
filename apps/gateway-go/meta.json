@@ -14,5 +14,8 @@
   ],
   "tagline": "A third-party client for casaos and zimaOS, remote access management interface, remote access to installed applications.",
   "title": "gateway-go",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
+  "categories": [
+    "networking"
+  ]
 }

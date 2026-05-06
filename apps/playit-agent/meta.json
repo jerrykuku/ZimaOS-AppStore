@@ -25,5 +25,8 @@
   "tagline": "A free reverse proxy for tunneling services (not self-hosted).",
   "store_app_id": "playit-agent",
   "title": "Playit Agent",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
+  "categories": [
+    "networking"
+  ]
 }

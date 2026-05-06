@@ -23,5 +23,8 @@
   "thumbnail": "/apps/nextcloud/assets/thumbnail.webp",
   "tips": {},
   "title": "Nextcloud",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
+  "categories": [
+    "productivity"
+  ]
 }

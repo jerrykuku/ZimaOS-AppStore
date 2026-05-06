@@ -18,5 +18,8 @@
   "thumbnail": "/apps/smokeping/assets/thumbnail.webp",
   "tips": {},
   "title": "Smokeping",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
+  "categories": [
+    "networking"
+  ]
 }

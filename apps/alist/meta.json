@@ -21,5 +21,8 @@
     "before_install": "After installation, please check the initial password in the container log (Settings - TopRight - Terminal and Logs - Logs)."
   },
   "title": "Alist",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
+  "categories": [
+    "productivity"
+  ]
 }

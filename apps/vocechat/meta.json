@@ -16,5 +16,8 @@
   "thumbnail": "/apps/vocechat/assets/thumbnail.webp",
   "tips": {},
   "title": "VoceChat",
-  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
+  "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
+  "categories": [
+    "social"
+  ]
 }

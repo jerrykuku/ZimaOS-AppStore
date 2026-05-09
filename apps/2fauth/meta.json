@@ -17,7 +17,6 @@
     "arm64",
     "arm"
   ],
-  "version": "1.0.0",
   "updateAt": "2024-06-01",
   "releaseNotes": "Initial release",
   "website": "http://www.2fauth.com/",

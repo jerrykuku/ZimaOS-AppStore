@@ -15,7 +15,7 @@ services:
     container_name: chatbot-ui
 x-casaos:
   main: chatbot-ui
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/chatbot-ui/assets/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/chatbot-ui/assets/icon.jpg
   title: Chatbot UI
   index: /
   port_map: '3080'

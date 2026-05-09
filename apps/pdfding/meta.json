@@ -13,7 +13,7 @@
     "/apps/pdfding/assets/screenshot-3.webp"
   ],
   "tagline": "Selfhosted PDF manager, viewer and editor",
-  "thumbnail": "/apps/pdfding/assets/thumbnail.png",
+  "thumbnail": "",
   "tips": {
     "before_install": "After installation, you can access PdfDing at http://your-server-ip:8000. Create your first admin account during the initial setup.\n\nNote: If you encounter access issues, you may need to manually edit the docker-compose.yml file and replace the HOST_NAME environment variable with your actual server IP address.\n"
   },

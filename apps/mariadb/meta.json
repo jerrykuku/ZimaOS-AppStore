@@ -7,7 +7,7 @@
   "tagline": "MariaDB Server is one of the most popular database servers in the world. It's made by the original developers of MySQL and guaranteed to stay open source.",
   "developer": "MariaDB Foundation",
   "author": "WisdomSky",
-  "thumbnail": "/apps/mariadb/assets/icon.png",
+  "thumbnail": "/apps/mariadb/assets/icon.svg",
   "tips": {
     "before_install": "Default user: `casaos`\nDefault password: `casaos`\nDefault database: `casaos`\n\nDefault root password: `casaos`\n"
   },

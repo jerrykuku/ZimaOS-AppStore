@@ -15,7 +15,7 @@
     "/apps/pihole/assets/screenshot-3.webp"
   ],
   "tagline": "Network-wide Ad Blocking",
-  "thumbnail": "/apps/pihole/assets/thumbnail.jpg",
+  "thumbnail": "/apps/pihole/assets/thumbnaill.webp",
   "tips": {
     "before_install": "Default password: `casaos`\n"
   },

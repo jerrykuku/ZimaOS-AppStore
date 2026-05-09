@@ -8,7 +8,7 @@
   "tagline": "PostgreSQL is an advanced, enterprise-class, and open-source relational database system. PostgreSQL supports both SQL (relational) and JSON (non-relational) querying.",
   "developer": "PostgreSQL Global Dev't Group",
   "author": "WisdomSky",
-  "thumbnail": "/apps/postgresql/assets/icon.png",
+  "thumbnail": "/apps/postgresql/assets/icon.svg",
   "tips": {
     "before_install": "Default user: `casaos`\nDefault password: `casaos`\nDefault database: `casaos`\n"
   },

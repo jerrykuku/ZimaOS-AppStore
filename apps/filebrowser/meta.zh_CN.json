@@ -1,7 +1,7 @@
 {
   "id": "filebrowser",
-  "tagline": "上传，删除，预览，重命名，编辑和共享您的文件。",
   "description": "File Browser - 包含分享功能等的Webbased文件浏览器",
+  "tagline": "上传，删除，预览，重命名，编辑和共享您的文件。",
   "tips": {
     "before_install": "默认账号\n\n| 用户名 | 密码 |\n| -------- | -------- |\n| `admin`    | `admin`    |\n"
   }

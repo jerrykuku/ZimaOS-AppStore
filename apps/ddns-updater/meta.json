@@ -9,7 +9,7 @@
   "description": "Program to keep DNS A and/or AAAA records updated for multiple DNS providers",
   "developer": "qmcgaw",
   "screenshot": [
-    "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/DDNS-Updater/screenshot-1.png"
+    "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/DDNS-Updater/screenshot-1.png"
   ],
   "tagline": "Simple and easy to use DDNS",
   "title": "ddns-updater",

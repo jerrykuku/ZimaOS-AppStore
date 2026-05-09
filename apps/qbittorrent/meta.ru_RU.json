@@ -1,5 +1,5 @@
 {
   "id": "qbittorrent",
-  "tagline": "Бесплатный загрузчик BitTorrent",
-  "description": "Проект qBittorrent стремится предоставить альтернативу с открытым исходным кодом для µTorrent."
+  "description": "Проект qBittorrent стремится предоставить альтернативу с открытым исходным кодом для µTorrent.",
+  "tagline": "Бесплатный загрузчик BitTorrent"
 }

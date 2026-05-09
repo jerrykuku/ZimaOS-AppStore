@@ -29,14 +29,14 @@ x-casaos:
   title:
     en_US: 2FAuth
   # 应用图标的 URL 地址 [WebUI 可编辑]
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/2FAuth/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/2FAuth/icon.svg
   # 应用缩略图的 URL 地址
-  thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/2FAuth/thumbnail.png
+  thumbnail: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/2FAuth/thumbnail.png
   # 应用截图的 URL 地址
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/2FAuth/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/2FAuth/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/2FAuth/screenshot-3.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/2FAuth/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/2FAuth/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/2FAuth/screenshot-3.png
   # 应用的简短标语或口号，对应前端商店列表显示的应用标语信息，支持多语言 （必填）
   tagline:
     en_US: A web app to manage your Two-Factor Authentication (2FA) accounts and generate their security codes

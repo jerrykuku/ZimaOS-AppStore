@@ -133,11 +133,11 @@ x-casaos:
     sv_SE: Gitea är ett communityhanterat lätthanterat kodhostningslösning skrivet i Go.
     uk_UA: Gitea - це легке рішення для розміщення коду, кероване спільнотою, написане на Go.
   developer: Gitea
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Gitea/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Gitea/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Gitea/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Gitea/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Gitea/screenshot-3.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Gitea/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Gitea/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Gitea/screenshot-3.png
   tagline:
     en_US: Self-hosted software development service
     zh_CN: 自托管软件开发服务
@@ -152,7 +152,7 @@ x-casaos:
     pt_BR: Git com uma xícara de chá
     sv_SE: Git med en kopp te
     uk_UA: Git з чашкою чаю
-  thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Gitea/thumbnail.png
+  thumbnail: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Gitea/thumbnail.png
   tips:
     before_install:
       en_US: |

@@ -74,13 +74,13 @@ x-casaos:
     sv_SE: Nextcloud ger dig kontroll över dina data. Lagra dina dokument, kalender, kontakter och foton på en server hemma, hos en av våra leverantörer eller i ett datacenter du litar på.
     uk_UA: Nextcloud розташовує ваші дані під вашим контролем. Зберігайте свої документи, календар, контакти та фотографії на сервері вдома, у одного з наших постачальників або у довіреному центрі даних.
   developer: Nextcloud
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Nextcloud/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Nextcloud/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Nextcloud/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Nextcloud/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Nextcloud/screenshot-3.png
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Nextcloud/screenshot-4.png
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Nextcloud/screenshot-5.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Nextcloud/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Nextcloud/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Nextcloud/screenshot-3.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Nextcloud/screenshot-4.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Nextcloud/screenshot-5.png
   tagline:
     en_US: Content collaboration platform
     zh_CN: 内容协作平台
@@ -95,7 +95,7 @@ x-casaos:
     pt_BR: A plataforma de produtividade que mantém você sob controle
     sv_SE: Produktivitetsplattformen som håller dig i kontroll
     uk_UA: Платформа продуктивності, яка дозволяє вам залишатися під контролем
-  thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Nextcloud/thumbnail.png
+  thumbnail: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Nextcloud/thumbnail.png
   tips: {}
   title:
     en_US: Nextcloud

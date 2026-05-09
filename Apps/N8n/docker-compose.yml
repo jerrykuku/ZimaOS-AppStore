@@ -242,11 +242,11 @@ x-casaos:
       Şablon kütüphanesi, pazarlama otomasyonu, veri analizi ve müşteri desteği gibi senaryolar için 900’den fazla kullanıma hazır iş akışı sunar. Örneğin, bir şablon Shopify’i Mailchimp’e bağlayabilir, yeni müşterileri otomatik olarak e-posta listelerine ekleyebilir ve hoş geldiniz e-postaları gönderebilir, böylece otomasyon teknik olmayan kullanıcılar için de erişilebilir hale gelir. LangChain ile müşteri sorgularını işleme gibi yapay zekâ odaklı iş akışları, n8n’in akıllı etkileşimlerdeki gücünü vurgular.
 
   developer: n8n
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/N8n/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/N8n/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/N8n/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/N8n/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/N8n/screenshot-3.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/N8n/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/N8n/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/N8n/screenshot-3.png
   tagline:
     en_US: Workflow automation tool
     en_GB: Workflow automation tool
@@ -263,7 +263,7 @@ x-casaos:
     pt_PT: Ferramenta de automação de fluxos de trabalho
     ru_RU: Инструмент автоматизации рабочих процессов
     tr_TR: İş akışı otomasyon aracı
-  thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/N8n/thumbnail.png
+  thumbnail: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/N8n/thumbnail.png
   tips: {}
   title:
     en_US: n8n

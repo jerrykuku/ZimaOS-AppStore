@@ -24,7 +24,7 @@ services:
         --notebook-dir=/opt/notebooks --ip='*' --port=8888 --no-browser
         --allow-root
     labels:
-      icon: https://cdn.jsdelivr.net/gh/LisonEvf/CasaOS-AppStore@main/Apps/Anaconda3/icon.png
+      icon: https://cdn.jsdelivr.net/gh/LisonEvf/CasaOS-AppStore@main/Apps/Anaconda3/icon.svg
     x-casaos:
       envs:
         - container: PATH
@@ -52,12 +52,12 @@ x-casaos:
   author: LisonEvf
   category: AI
   developer: LisonEvf
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Anaconda3/icon.png
-  thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Anaconda3/thumbnail.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Anaconda3/icon.svg
+  thumbnail: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Anaconda3/thumbnail.png
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Anaconda3/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Anaconda3/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Anaconda3/screenshot-3.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Anaconda3/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Anaconda3/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Anaconda3/screenshot-3.png
   scheme: http
   hostname: ""
   port_map: "8888"

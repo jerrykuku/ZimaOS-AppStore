@@ -8,7 +8,7 @@ services:
         reservations:
           memory: "32M"
     labels:
-      icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Gateway-go/icon.png
+      icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Gateway-go/icon.svg
     restart: unless-stopped
     volumes:
       - type: bind
@@ -47,10 +47,10 @@ x-casaos:
       
       使用云亿连客户端扫描本应用提供的二维码添加本网关，在客户端上添加主机，然后添加端口。 这样你在外面就可以通过云亿连App访问你的 CasaOS/Zima 设备了。使用文档：https://docs.iothub.cloud/typical/index.html#casaoszimaos
   developer: iotserv
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Gateway-go/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Gateway-go/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Gateway-go/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Gateway-go/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Gateway-go/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Gateway-go/screenshot-2.png
   main: gateway-go
   port_map: "34323"
   scheme: http

@@ -164,16 +164,16 @@ x-casaos:
     en_US: The developer-friendly cloud platform for building and running LLM agents for AI-native applications.
     zh_CN: 开发人员友好的云平台，用于构建和运行AI原生应用程序的LLM代理。
   developer: TaskingAI Team
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/TaskingAI/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/TaskingAI/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/TaskingAI/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/TaskingAI/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/TaskingAI/screenshot-3.png
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/TaskingAI/screenshot-4.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/TaskingAI/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/TaskingAI/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/TaskingAI/screenshot-3.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/TaskingAI/screenshot-4.png
   tagline:
     en_US: The developer-friendly cloud platform for building and running LLM agents for AI-native applications.
     zh_CN: 开发人员友好的云平台，用于构建和运行AI原生应用程序的LLM代理。
-  thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/TaskingAI/thumbnail.png
+  thumbnail: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/TaskingAI/thumbnail.png
   tips: 
     before_install:
       en_US: |

@@ -23,11 +23,16 @@ import argparse
 import copy
 import hashlib
 import json
+import re
 import shutil
 import subprocess
 import sys
+import tempfile
 from datetime import date, datetime, timezone
 from pathlib import Path
+from urllib.error import HTTPError
+from urllib.parse import parse_qs, urlparse
+from urllib.request import Request, urlopen
 
 import yaml
 
@@ -40,7 +45,7 @@ except ImportError:
 
 
 # Fields to keep in docker-compose.yml x-casaos block (runtime essentials)
-COMPOSE_KEEP_FIELDS = {"main", "index", "port_map", "scheme", "icon", "title"}
+COMPOSE_KEEP_FIELDS = {"main", "index", "port_map", "scheme", "icon", "title", "version"}
 
 # Image file extensions to copy
 IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".gif", ".svg", ".webp"}
@@ -65,6 +70,13 @@ I18N_NESTED_FIELDS = {"tips"}
 
 # Index-level i18n fields
 INDEX_I18N_FIELDS = {"title", "tagline"}
+
+DOCKER_MANIFEST_ACCEPT = ", ".join([
+    "application/vnd.oci.image.index.v1+json",
+    "application/vnd.docker.distribution.manifest.list.v2+json",
+    "application/vnd.oci.image.manifest.v1+json",
+    "application/vnd.docker.distribution.manifest.v2+json",
+])
 
 
 # ---------------------------------------------------------------------------
@@ -101,6 +113,104 @@ def content_hash(*parts):
             p = p.encode("utf-8")
         h.update(p)
     return h.hexdigest()[:8]
+
+
+def registry_request(url, headers=None):
+    """Perform an HTTP request with a standard user agent."""
+    request_headers = {
+        "User-Agent": "ZimaOS-AppStore-Build/1.0",
+        "Accept": "*/*",
+    }
+    if headers:
+        request_headers.update(headers)
+    request = Request(url, headers=request_headers)
+    return urlopen(request, timeout=30)
+
+
+def parse_www_authenticate(header_value):
+    """Parse a WWW-Authenticate Bearer challenge header."""
+    if not header_value or not header_value.startswith("Bearer "):
+        return None
+    params_str = header_value[len("Bearer "):]
+    matches = re.findall(r'(\w+)="([^"]+)"', params_str)
+    return {key: value for key, value in matches}
+
+
+def get_registry_bearer_token(auth_header):
+    """Get a bearer token from a registry auth challenge."""
+    params = parse_www_authenticate(auth_header)
+    if not params or "realm" not in params:
+        raise RuntimeError(f"Unsupported registry auth challenge: {auth_header}")
+
+    query = []
+    for key in ("service", "scope"):
+        if key in params:
+            query.append(f"{key}={params[key]}")
+    token_url = params["realm"]
+    if query:
+        separator = "&" if "?" in token_url else "?"
+        token_url = f"{token_url}{separator}{'&'.join(query)}"
+
+    with registry_request(token_url, headers={"Accept": "application/json"}) as response:
+        payload = json.loads(response.read().decode("utf-8"))
+    token = payload.get("token") or payload.get("access_token")
+    if not token:
+        raise RuntimeError(f"Registry token response missing token: {token_url}")
+    return token
+
+
+def fetch_latest_digest(image_ref):
+    """Resolve a :latest image reference to a content digest."""
+    parsed = parse_image_reference(image_ref)
+    if not parsed or parsed["tag"] != "latest":
+        return image_ref
+
+    manifest_url = (
+        f"https://{parsed['registry']}/v2/{parsed['repository']}/manifests/{parsed['tag']}"
+    )
+    headers = {"Accept": DOCKER_MANIFEST_ACCEPT}
+
+    try:
+        with registry_request(manifest_url, headers=headers) as response:
+            digest = response.headers.get("Docker-Content-Digest")
+    except HTTPError as exc:
+        if exc.code != 401:
+            raise RuntimeError(f"Failed to resolve latest image digest: {image_ref}") from exc
+        token = get_registry_bearer_token(exc.headers.get("WWW-Authenticate"))
+        auth_headers = dict(headers)
+        auth_headers["Authorization"] = f"Bearer {token}"
+        with registry_request(manifest_url, headers=auth_headers) as response:
+            digest = response.headers.get("Docker-Content-Digest")
+    except Exception as exc:
+        raise RuntimeError(f"Failed to resolve latest image digest: {image_ref}") from exc
+
+    if not digest:
+        raise RuntimeError(f"Registry did not return digest for latest image: {image_ref}")
+
+    return f"{parsed['name']}@{digest}"
+
+
+def pin_latest_service_images(compose_data, app_id):
+    """Replace service images tagged :latest with digest-pinned references."""
+    services = compose_data.get("services", {})
+    if not isinstance(services, dict):
+        return
+
+    for service_name, service_def in services.items():
+        if not isinstance(service_def, dict):
+            continue
+        image_ref = service_def.get("image")
+        if not isinstance(image_ref, str):
+            continue
+        parsed = parse_image_reference(image_ref)
+        if not parsed or parsed["tag"] != "latest":
+            continue
+        try:
+            service_def["image"] = fetch_latest_digest(image_ref)
+        except Exception as exc:
+            raise RuntimeError(
+                f"App '{app_id}' failed to pin latest image for service '{service_name}': {image_ref}"
+            ) from exc
 
 
 def hash_directory_files(root_dir):
@@ -147,6 +257,46 @@ def normalize_locale_dict(d):
     if not isinstance(d, dict):
         return d
     return {normalize_locale_key(k): v for k, v in d.items()}
+
+
+def parse_image_reference(image_ref):
+    """Parse a container image reference into registry/repository/tag parts."""
+    digest_sep = image_ref.split("@", 1)
+    if len(digest_sep) == 2:
+        return None
+
+    last_slash = image_ref.rfind("/")
+    last_colon = image_ref.rfind(":")
+    if last_colon > last_slash:
+        name = image_ref[:last_colon]
+        tag = image_ref[last_colon + 1:]
+    else:
+        name = image_ref
+        tag = None
+
+    if not tag:
+        return None
+
+    first_part, _, remainder = name.partition("/")
+    if "." in first_part or ":" in first_part or first_part == "localhost":
+        registry = first_part
+        repository = remainder
+    else:
+        registry = "registry-1.docker.io"
+        repository = name
+
+    if registry == "registry-1.docker.io" and "/" not in repository:
+        repository = f"library/{repository}"
+
+    if not repository:
+        return None
+
+    return {
+        "registry": registry,
+        "repository": repository,
+        "tag": tag,
+        "name": name,
+    }
 
 
 def normalize_i18n_in_dict(data):
@@ -316,51 +466,230 @@ def convert_svg_icon_to_png(src_svg, dst_png):
     return None
 
 
-def process_app_assets(app_dir, assets_output):
-    """Process images for a single app into apps/{app_id}/assets.
+def is_remote_asset_ref(value):
+    """Return True when the asset reference points to an HTTP(S) URL."""
+    if not value or not isinstance(value, str):
+        return False
+    parsed = urlparse(value)
+    return parsed.scheme in {"http", "https"}
 
-    Returns (copied_images, image_mapping, icon_filename).
-    """
+
+def candidate_local_asset_paths(source_root, app_dir, asset_ref, prefer_icon_svg=False):
+    """Build candidate local file paths for an asset reference."""
+    candidates = []
+    seen = set()
+
+    def add_candidate(path):
+        try:
+            resolved = path.resolve()
+        except FileNotFoundError:
+            resolved = path
+        key = str(resolved)
+        if key in seen:
+            return
+        seen.add(key)
+        candidates.append(path)
+
+    ref_str = str(asset_ref).strip()
+    if not ref_str:
+        return candidates
+
+    parsed = urlparse(ref_str)
+    raw_path = parsed.path if parsed.scheme else ref_str
+    raw_path = raw_path.strip()
+
+    if raw_path:
+        add_candidate(app_dir / raw_path)
+        if raw_path.startswith("/"):
+            add_candidate(source_root / raw_path.lstrip("/"))
+        raw_name = Path(raw_path).name
+        if raw_name:
+            add_candidate(app_dir / raw_name)
+            stem = Path(raw_name).stem
+            if stem:
+                for ext in sorted(IMAGE_EXTENSIONS):
+                    add_candidate(app_dir / f"{stem}{ext}")
+                    add_candidate(source_root / f"{stem}{ext}")
+
+        path_parts = Path(raw_path).parts
+        if "Apps" in path_parts:
+            apps_index = path_parts.index("Apps")
+            repo_relative = Path(*path_parts[apps_index:])
+            add_candidate(source_root / repo_relative)
+            repo_name = repo_relative.name
+            if repo_name:
+                add_candidate(source_root / "Apps" / repo_relative.parent.name / repo_name)
+
+    if prefer_icon_svg:
+        add_candidate(app_dir / "icon.svg")
+
+    return candidates
+
+
+def download_remote_asset(asset_ref, download_dir):
+    """Download a remote asset into a temporary local file."""
+    parsed = urlparse(asset_ref)
+    filename = Path(parsed.path).name or "downloaded-asset"
+    dst_path = download_dir / filename
+    try:
+        request = Request(
+            asset_ref,
+            headers={
+                "User-Agent": "ZimaOS-AppStore-Build/1.0",
+                "Accept": "*/*",
+            },
+        )
+        with urlopen(request, timeout=30) as response, open(dst_path, "wb") as out_file:
+            shutil.copyfileobj(response, out_file)
+    except Exception as exc:
+        raise RuntimeError(f"Failed to download asset: {asset_ref}") from exc
+    return dst_path
+
+
+def resolve_asset_source(source_root, app_dir, asset_ref, download_dir, prefer_icon_svg=False):
+    """Resolve an asset reference to a local file, downloading if needed."""
+    for candidate in candidate_local_asset_paths(
+        source_root,
+        app_dir,
+        asset_ref,
+        prefer_icon_svg=prefer_icon_svg,
+    ):
+        if candidate.is_file() and candidate.suffix.lower() in IMAGE_EXTENSIONS:
+            return candidate
+
+    if is_remote_asset_ref(asset_ref):
+        return download_remote_asset(asset_ref, download_dir)
+
+    raise FileNotFoundError(f"Referenced asset not found locally: {asset_ref}")
+
+
+def resolve_asset_source_with_context(
+    source_root,
+    app_dir,
+    asset_ref,
+    download_dir,
+    app_id,
+    asset_field,
+    prefer_icon_svg=False,
+):
+    """Resolve an asset and raise context-rich errors for CI logs."""
+    try:
+        return resolve_asset_source(
+            source_root,
+            app_dir,
+            asset_ref,
+            download_dir,
+            prefer_icon_svg=prefer_icon_svg,
+        )
+    except Exception as exc:
+        raise RuntimeError(
+            f"App '{app_id}' failed to resolve {asset_field}: {asset_ref}"
+        ) from exc
+
+
+def collect_asset_references(original_xcasaos, meta):
+    """Collect the image references actually used by the app metadata."""
+    refs = {
+        "icon": original_xcasaos.get("icon"),
+        "thumbnail": meta.get("thumbnail"),
+        "screenshots": [],
+    }
+    screenshot_refs = meta.get("screenshot_link")
+    if isinstance(screenshot_refs, list):
+        refs["screenshots"] = [ref for ref in screenshot_refs if ref]
+    return refs
+
+
+def process_icon_asset(src_path, assets_output):
+    """Process the referenced icon and return copied files plus preferred output name."""
+    copied_images = []
+    image_mapping = {}
+
+    if src_path.suffix.lower() == ".svg":
+        shutil.copy2(src_path, assets_output / "icon.svg")
+        copied_images.append("icon.svg")
+        image_mapping[src_path.name] = "icon.svg"
+        png_name = convert_svg_icon_to_png(src_path, assets_output / "icon.png")
+        if png_name:
+            copied_images.append(png_name)
+            image_mapping["icon.png"] = png_name
+        return copied_images, image_mapping, "icon.svg"
+
+    dst_name = f"icon{src_path.suffix.lower()}"
+    dst_path = assets_output / dst_name
+    shutil.copy2(src_path, dst_path)
+    copied_images.append(dst_name)
+    image_mapping[src_path.name] = dst_name
+    return copied_images, image_mapping, dst_name
+
+
+def process_general_asset(src_path, assets_output):
+    """Process a referenced non-icon image."""
+    dst_path = assets_output / src_path.name
+    output_name = optimize_and_convert_image(src_path, dst_path)
+    return output_name
+
+
+def process_app_assets(source_root, app_dir, assets_output, original_xcasaos, meta):
+    """Process only YAML-referenced images for a single app."""
     assets_output.mkdir(parents=True, exist_ok=True)
 
     copied_images = []
     image_mapping = {}
-    has_icon_svg = (app_dir / "icon.svg").exists()
-
-    for img_file in app_dir.iterdir():
-        if not img_file.is_file() or img_file.suffix.lower() not in IMAGE_EXTENSIONS:
-            continue
-
-        dst_path = assets_output / img_file.name
-
-        if img_file.stem.lower() == "icon":
-            if has_icon_svg:
-                if img_file.suffix.lower() == ".svg":
-                    shutil.copy2(img_file, assets_output / "icon.svg")
-                    copied_images.append("icon.svg")
-                    image_mapping["icon.svg"] = "icon.svg"
-                    png_name = convert_svg_icon_to_png(img_file, assets_output / "icon.png")
-                    if png_name:
-                        copied_images.append(png_name)
-                        image_mapping["icon.png"] = png_name
-                continue
-            shutil.copy2(img_file, dst_path)
-            copied_images.append(img_file.name)
-            image_mapping[img_file.name] = img_file.name
-        else:
-            output_name = optimize_and_convert_image(img_file, dst_path)
-            copied_images.append(output_name)
-            image_mapping[img_file.name] = output_name
-
+    refs = collect_asset_references(original_xcasaos, meta)
     icon_filename = "icon.png"
-    if "icon.svg" in copied_images:
-        icon_filename = "icon.svg"
-    elif "icon.png" in image_mapping:
-        icon_filename = image_mapping["icon.png"]
-    elif "icon.jpg" in image_mapping:
-        icon_filename = image_mapping["icon.jpg"]
-    elif "icon.webp" in copied_images:
-        icon_filename = "icon.webp"
+    app_id = app_dir.name
+
+    with tempfile.TemporaryDirectory(prefix="appstore-assets-") as temp_dir:
+        download_dir = Path(temp_dir)
+
+        icon_ref = refs.get("icon")
+        if icon_ref:
+            icon_src = resolve_asset_source_with_context(
+                source_root,
+                app_dir,
+                icon_ref,
+                download_dir,
+                app_id,
+                "icon",
+                prefer_icon_svg=True,
+            )
+            icon_copied, icon_mapping, icon_filename = process_icon_asset(icon_src, assets_output)
+            copied_images.extend(icon_copied)
+            image_mapping.update(icon_mapping)
+            image_mapping[str(icon_ref)] = icon_filename
+            image_mapping[Path(str(icon_ref).rsplit("/", 1)[-1]).name] = icon_filename
+
+        thumbnail_ref = refs.get("thumbnail")
+        if thumbnail_ref:
+            thumb_src = resolve_asset_source_with_context(
+                source_root,
+                app_dir,
+                thumbnail_ref,
+                download_dir,
+                app_id,
+                "thumbnail",
+            )
+            output_name = process_general_asset(thumb_src, assets_output)
+            copied_images.append(output_name)
+            image_mapping[thumb_src.name] = output_name
+            image_mapping[str(thumbnail_ref)] = output_name
+            image_mapping[Path(str(thumbnail_ref).rsplit("/", 1)[-1]).name] = output_name
+
+        for index, screenshot_ref in enumerate(refs.get("screenshots", []), start=1):
+            screenshot_src = resolve_asset_source_with_context(
+                source_root,
+                app_dir,
+                screenshot_ref,
+                download_dir,
+                app_id,
+                f"screenshot_link[{index}]",
+            )
+            output_name = process_general_asset(screenshot_src, assets_output)
+            copied_images.append(output_name)
+            image_mapping[screenshot_src.name] = output_name
+            image_mapping[str(screenshot_ref)] = output_name
+            image_mapping[Path(str(screenshot_ref).rsplit("/", 1)[-1]).name] = output_name
 
     return copied_images, image_mapping, icon_filename
 
@@ -659,11 +988,18 @@ def main():
 
         app_output = output / "apps" / app_id
         assets_output = app_output / "assets"
-        copied_images, image_mapping, icon_filename = process_app_assets(app_dir, assets_output)
+        copied_images, image_mapping, icon_filename = process_app_assets(
+            source,
+            app_dir,
+            assets_output,
+            original_xcasaos,
+            meta,
+        )
 
         assets_path = f"/apps/{app_id}/assets"
 
         compose_l = copy.deepcopy(compose_data)
+        pin_latest_service_images(compose_l, app_id)
         compose_xc = compose_l.get("x-casaos", {})
         if "title" in compose_xc:
             compose_xc["title"] = resolve_i18n(compose_xc["title"], DEFAULT_LOCALE)

@@ -76,12 +76,12 @@ x-casaos:
     sv_SE: Readarr är en e-bokssamling för användare av Usenet och BitTorrent. Den kan övervaka flera RSS-flöden för nya böcker från dina favoritförfattare och kommer att interagera med klienter och index för att hämta, sortera och döpa om dem.
     uk_UA: Readarr - це менеджер колекцій електронних книг для користувачів Usenet і BitTorrent. Він може відстежувати декілька RSS-каналів для отримання нових книг від ваших улюблених авторів і буде взаимодіяти з клієнтами і індексаторами для отримання, сортування і перейменування їх.
   developer: Readarr Team
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Readarr/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Readarr/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Readarr/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Readarr/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Readarr/screenshot-3.png
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Readarr/screenshot-4.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Readarr/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Readarr/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Readarr/screenshot-3.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Readarr/screenshot-4.png
   tagline:
     en_US: Ebook and audiobook collection manager for Usenet and BitTorrent users.
     zh_CN: 用于Usenet和BitTorrent用户的电子书和有声书收藏管理器。
@@ -96,7 +96,7 @@ x-casaos:
     pt_BR: Gerenciador de coleções de livros eletrônicos e audiolivros para usuários de Usenet e BitTorrent.
     sv_SE: E-bokssamling för användare av Usenet och BitTorrent.
     uk_UA: Менеджер колекцій електронних книг і аудіокниг для користувачів Usenet і BitTorrent.
-  thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Readarr/thumbnail.png
+  thumbnail: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Readarr/thumbnail.png
   tips: {}
   title:
     en_US: Readarr

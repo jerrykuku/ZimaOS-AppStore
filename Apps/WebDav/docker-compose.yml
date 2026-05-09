@@ -54,7 +54,7 @@ x-casaos:
   developer: CasaOS Team
   icon: https://icon.casaos.io/main/all/webdav.png
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/WebDAV/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/WebDAV/screenshot-1.png
   tagline:
     en_US: A web-based file sharing and management protocol
     zh_CN: 基于 Web 的文件共享和管理协议

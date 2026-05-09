@@ -117,8 +117,8 @@ x-casaos:
     uk_UA: "Сервер MariaDB є одним з найпопулярніших серверів баз даних у світі. Він створений оригінальними розробниками MySQL і гарантується його відкритість."
   developer: MariaDB Foundation
   author: WisdomSky
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/MariaDB/icon.png
-  thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/MariaDB/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/MariaDB/icon.svg
+  thumbnail: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/MariaDB/icon.svg
   tips:
     before_install:
       en_US: |

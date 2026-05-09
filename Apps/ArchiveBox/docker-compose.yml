@@ -844,12 +844,12 @@ x-casaos:
       - [ArchiveBox Resmi Web Sitesi](https://archivebox.io)
       - [ArchiveBox GitHub Deposu](https://github.com/ArchiveBox/ArchiveBox)
       - [ArchiveBox Belgelendirme](https://github.com/ArchiveBox/ArchiveBox/wiki)
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/ArchiveBox/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/ArchiveBox/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/ArchiveBox/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/ArchiveBox/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/ArchiveBox/screenshot-3.png
-  thumbnail: "https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/ArchiveBox/thumbnail.png"
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/ArchiveBox/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/ArchiveBox/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/ArchiveBox/screenshot-3.png
+  thumbnail: "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/ArchiveBox/thumbnail.png"
   scheme: http
   port_map: "18010"
   tips:

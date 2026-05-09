@@ -73,11 +73,11 @@ x-casaos:
     sv_SE: Jackett översätter applikationsförfrågningar (Sonarr, Radarr, SickRage, CouchPotato, Mylar3, Lidarr, DuckieTV, qBittorrent, Nefarious, etc.) till specifika HTTP-förfrågningar för spårningssidan, analyserar HTML- eller JSON-svaret och skickar sedan tillbaka resultatet till den begärande mjukvaran. Detta gör det möjligt att hämta senaste uppladdningar (till exempel RSS) och utföra sökningar. Jackett är ett enda repository för skrapnings- och översättningslogiken för indexer - borttagning av belastning från andra appar.
     uk_UA: Jackett перекладає запити з додатків (Sonarr, Radarr, SickRage, CouchPotato, Mylar3, Lidarr, DuckieTV, qBittorrent, Nefarious тощо.) В запити HTTP, специфічні для сайту трекера, аналізує відповідь HTML або JSON і потім повертає результати до запитуючого програмного забезпечення. Це дозволяє отримувати останні завантаження (наприклад, RSS) і виконувати пошук. Jackett - це один репозиторій з підтримуваною логікою скрапінгу і перекладу індексаторів - видалення навантаження на інші додатки.
   developer: Jackett
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Jackett/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Jackett/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Jackett/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Jackett/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Jackett/screenshot-3.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Jackett/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Jackett/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Jackett/screenshot-3.png
   tagline:
     en_US: Jackett works as a proxy server
     zh_CN: Jackett作为代理服务器工作
@@ -92,7 +92,7 @@ x-casaos:
     pt_BR: O Jackett funciona como um servidor proxy
     sv_SE: Jackett fungerar som en proxyserver
     uk_UA: Jackett працює як проксі-сервер
-  thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Jackett/thumbnail.png
+  thumbnail: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Jackett/thumbnail.png
   tips: {}
   title:
     en_US: Jackett

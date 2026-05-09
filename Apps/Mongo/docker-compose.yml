@@ -83,8 +83,8 @@ x-casaos:
   screenshot_link:
   developer: MongoDB Inc.
   author: WisdomSky
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Mongo/icon.png
-  thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Mongo/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Mongo/icon.svg
+  thumbnail: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Mongo/icon.svg
   category: Developer
   tips:
     before_install:

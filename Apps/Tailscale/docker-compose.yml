@@ -418,9 +418,9 @@ x-casaos:
       **Daha fazla bilgi edinin:**
       - [Tailscale Resmi Web Sitesi](https://tailscale.com)
       - [Tailscale GitHub Deposu](https://github.com/tailscale/tailscale)
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Tailscale/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Tailscale/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Tailscale/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Tailscale/screenshot-1.png
   thumbnail: ""
   scheme: ""
   port_map: "5252"

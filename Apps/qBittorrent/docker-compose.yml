@@ -90,11 +90,11 @@ x-casaos:
     sv_SE: qBittorrent-projektets mål är att erbjuda en öppen källkodsalternativ till µTorrent.
     uk_UA: Проект qBittorrent має на меті надати альтернативу з відкритим вихідним кодом для µTorrent.
   developer: qBittorrent
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/qBittorrent/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/qBittorrent/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/qBittorrent/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/qBittorrent/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/qBittorrent/screenshot-3.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/qBittorrent/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/qBittorrent/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/qBittorrent/screenshot-3.png
   tagline:
     en_US: P2P bittorrent download
     zh_CN: P2P BT 下载
@@ -109,7 +109,7 @@ x-casaos:
     pt_BR: Downloader BitTorrent gratuito
     sv_SE: Gratis BitTorrent-downladdare
     uk_UA: Безкоштовний завантажувач BitTorrent
-  thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/qBittorrent/thumbnail.png
+  thumbnail: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/qBittorrent/thumbnail.png
   tips:
     before_install:
       en_US: |

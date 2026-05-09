@@ -63,10 +63,10 @@ x-casaos:
     sv_SE: Prowlarr är en indexhanterare / proxy som byggs på den populära .net / reactjs-staplarna * arr för att integreras med dina olika PVR-appar. Prowlarr stöder hantering av Torrent Trackers och Usenet Indexers. Det integreras perfekt med Lidarr, Mylar3, Radarr, Readarr och Sonarr, vilket ger fullständig hantering av dina index utan indexinställning per app (vi gör allt).
     uk_UA: Prowlarr - це менеджер індексів / проксі, збудований на популярній базі стеку .net / reactjs * arr для інтеграції з різними додатками PVR. Prowlarr підтримує управління трекерами Torrent і Usenet Indexers. Він бездоганно інтегрується з Lidarr, Mylar3, Radarr, Readarr і Sonarr, пропонуючи повне управління індексами без необхідності налаштування індекса для кожного додатку (ми робимо все).
   developer: Prowlarr Team
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Prowlarr/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Prowlarr/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Prowlarr/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Prowlarr/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Prowlarr/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Prowlarr/screenshot-2.png
   tagline:
     en_US: Integration of various PVR applications
     zh_CN: 各种PVR应用程序的集成
@@ -81,7 +81,7 @@ x-casaos:
     pt_BR: Integração de várias aplicações PVR
     sv_SE: Integration av olika PVR-appar
     uk_UA: Інтеграція різних додатків PVR
-  thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Prowlarr/thumbnail.png
+  thumbnail: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Prowlarr/thumbnail.png
   tips: {}
   title:
     en_US: Prowlarr

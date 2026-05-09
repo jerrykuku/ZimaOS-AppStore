@@ -548,12 +548,12 @@ x-casaos:
       - [DeepSeek OCR 应用（GitHub）](https://github.com/rdumasia303/deepseek_ocr_app)
 
   developer: rdumasia303
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/DeepSeek-OCR_Nvidia/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/DeepSeek-OCR_Nvidia/icon.svg
   screenshot_link: 
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/DeepSeek-OCR_Nvidia/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/DeepSeek-OCR_Nvidia/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/DeepSeek-OCR_Nvidia/screenshot-3.png
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/DeepSeek-OCR_Nvidia/screenshot-4.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/DeepSeek-OCR_Nvidia/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/DeepSeek-OCR_Nvidia/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/DeepSeek-OCR_Nvidia/screenshot-3.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/DeepSeek-OCR_Nvidia/screenshot-4.png
   index: /
   main: deepseek-ocr-frontend
   port_map: "23000"

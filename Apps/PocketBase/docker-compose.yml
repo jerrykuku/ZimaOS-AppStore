@@ -27,11 +27,11 @@ x-casaos:
     en_US: PocketBase is an open-source backend solution that combines a real-time database, authentication, file storage, and an admin dashboard into a single, portable executable. 
     pt_BR: PocketBase é uma solução de backend de código aberto que combina um banco de dados em tempo real, autenticação, armazenamento de arquivos e um painel de administração em um único executável portátil.
   developer: Gani Georgiev
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/PocketBase/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/PocketBase/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/PocketBase/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/PocketBase/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/PocketBase/screenshot-3.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/PocketBase/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/PocketBase/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/PocketBase/screenshot-3.png
   tagline:
     en_US: "Open Source realtime backend in 1 file"
     pt_BR: "Backend open source em tempo real em um único arquivo"
@@ -47,7 +47,7 @@ x-casaos:
         | Email | Senha |
         | ----- | -------- |
         | `casaos@admin.local` | `adminpocketbase` |
-  thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/PocketBase/thumbnail.png
+  thumbnail: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/PocketBase/thumbnail.png
   title:
     en_US: PocketBase
   index: /_/

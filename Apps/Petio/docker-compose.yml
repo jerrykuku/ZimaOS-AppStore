@@ -127,13 +127,13 @@ x-casaos:
     pl_PL: Aplikacja towarzysząca od osoby trzeciej, dostępna dla właścicieli serwerów Plex, umożliwiająca użytkownikom żądanie, przeglądanie i odkrywanie treści.
     pt_BR: Um aplicativo complementar de terceiros disponível para proprietários de servidores Plex, permitindo que seus usuários solicitem, revisem e descubram conteúdo.
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Petio/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Petio/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Petio/screenshot-3.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Petio/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Petio/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Petio/screenshot-3.png
   developer: Petio Team
   author: WisdomSky
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Petio/icon.png
-  thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Petio/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Petio/icon.svg
+  thumbnail: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Petio/icon.svg
   title:
     en_US: Petio
   category: Media

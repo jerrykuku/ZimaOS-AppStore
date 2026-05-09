@@ -8,7 +8,7 @@ services:
           memory: 1024M
     image: deluan/navidrome:0.58.5
     labels:
-      icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Navidrome/icon.png
+      icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Navidrome/icon.svg
     restart: unless-stopped
     ports:
       - target: 4533
@@ -79,14 +79,14 @@ x-casaos:
   tagline:
     en_US: Music Collection and Streaming Server
     zh_CN: 音乐收藏和流媒体服务器
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Navidrome/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Navidrome/icon.svg
   index: /
   main: navidrome
   port_map: "4533"
   scheme: http
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Navidrome/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Navidrome/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Navidrome/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Navidrome/screenshot-2.png
   store_app_id: navidrome
   title:
     en_US: Navidrome

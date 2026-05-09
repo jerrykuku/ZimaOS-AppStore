@@ -474,11 +474,11 @@ x-casaos:
       - [Pi-hole Resmi Web Sitesi](https://pi-hole.net/)
       - [Pi-hole GitHub](https://github.com/pi-hole/pi-hole)
   developer: Pi-hole
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Pihole/icon.png
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Pihole/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Pihole/screenshot-1.jpg
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Pihole/screenshot-2.jpg
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Pihole/screenshot-3.jpg
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Pihole/screenshot-1.jpg
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Pihole/screenshot-2.jpg
+    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Pihole/screenshot-3.jpg
   tagline:
     en_US: Network-wide Ad Blocking
     en_GB: Network-wide Advert Blocking
@@ -495,7 +495,7 @@ x-casaos:
     pt_PT: Bloqueio de Anúncios ao Nível da Rede
     ru_RU: Блокировка Рекламы на Уровне Сети
     tr_TR: Ağ Çapında Reklam Engelleme
-  thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Pihole/thumbnail.jpg
+  thumbnail: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Pihole/thumbnaill.jpg
   tips:
     before_install:
       en_US: |

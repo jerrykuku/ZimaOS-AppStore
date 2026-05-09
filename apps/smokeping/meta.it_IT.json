@@ -1,5 +1,5 @@
 {
   "id": "smokeping",
-  "description": "tiene traccia della latenza della rete.",
-  "tagline": "Strumento di monitoraggio delle prestazioni di rete open source gratuito"
+  "tagline": "Strumento di monitoraggio delle prestazioni di rete open source gratuito",
+  "description": "tiene traccia della latenza della rete."
 }

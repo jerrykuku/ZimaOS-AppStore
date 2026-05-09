@@ -1,5 +1,5 @@
 {
   "id": "netdata",
-  "description": "Netdata是一个实时性能和健康监控解决方案，帮助您可视化并理解系统的行为。",
-  "tagline": "实时性能监控"
+  "tagline": "实时性能监控",
+  "description": "Netdata是一个实时性能和健康监控解决方案，帮助您可视化并理解系统的行为。"
 }

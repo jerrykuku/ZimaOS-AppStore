@@ -1,5 +1,5 @@
 {
   "id": "qbittorrent",
-  "description": "Il progetto qBittorrent mira a fornire un'alternativa open source a µTorrent.",
-  "tagline": "Downloader BitTorrent gratuito"
+  "tagline": "Downloader BitTorrent gratuito",
+  "description": "Il progetto qBittorrent mira a fornire un'alternativa open source a µTorrent."
 }

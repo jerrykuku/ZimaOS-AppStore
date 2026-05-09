@@ -1,8 +1,8 @@
 {
   "id": "anythingllm",
   "title": "AnythingLLM",
-  "description": "AnythingLLM は、コードやインフラストラクチャの問題を気にすることなく、RAG、AI エージェントなどを行う最も使いやすいオールインワン AI アプリケーションです。",
   "tagline": "オールインワン AI アプリケーション。",
+  "description": "AnythingLLM は、コードやインフラストラクチャの問題を気にすることなく、RAG、AI エージェントなどを行う最も使いやすいオールインワン AI アプリケーションです。",
   "tips": {
     "before_install": "**使用上のヒント**\nAnythingLLM は、さまざまな LLMs バックエンドをサポートしていますが、必要なバックエンドを自分で構成する必要があります。\n詳細については、[公式ドキュメント](https://docs.anythingllm.com)を参照してください。\n"
   }

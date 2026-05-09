@@ -1,5 +1,5 @@
 {
   "id": "cloudbeaver",
-  "description": "CloudBeaver是一个基于Web的数据库GUI工具，提供丰富的Web界面。您可以使用它来管理PostgreSQL、MySQL、MariaDB、SQL Server、Oracle、DB2、Firebird、H2和Trino。",
-  "tagline": "云数据库管理器。"
+  "tagline": "云数据库管理器。",
+  "description": "CloudBeaver是一个基于Web的数据库GUI工具，提供丰富的Web界面。您可以使用它来管理PostgreSQL、MySQL、MariaDB、SQL Server、Oracle、DB2、Firebird、H2和Trino。"
 }

@@ -1,5 +1,5 @@
 {
   "id": "sabnzbd",
-  "description": "SABnzbd ist ein Open Source Binary Newsreader, der in Python geschrieben ist. Es ist völlig kostenlos, einfach zu bedienen und praktisch überall einsetzbar. SABnzbd macht Usenet so einfach und effizient wie möglich, indem es alles automatisiert, was wir tun können. Alles, was Sie tun müssen, ist eine .nzb hinzuzufügen. SABnzbd übernimmt dann die Kontrolle, wo es automatisch heruntergeladen, überprüft, repariert, extrahiert und archiviert wird, ohne menschliches Eingreifen. SABnzbd bietet einen einfachen Einrichtungsassistenten und hat selbstanalysierende Tools, um Ihre Einrichtung zu überprüfen.",
-  "tagline": "Freier und einfacher Binär-Newsreader"
+  "tagline": "Freier und einfacher Binär-Newsreader",
+  "description": "SABnzbd ist ein Open Source Binary Newsreader, der in Python geschrieben ist. Es ist völlig kostenlos, einfach zu bedienen und praktisch überall einsetzbar. SABnzbd macht Usenet so einfach und effizient wie möglich, indem es alles automatisiert, was wir tun können. Alles, was Sie tun müssen, ist eine .nzb hinzuzufügen. SABnzbd übernimmt dann die Kontrolle, wo es automatisch heruntergeladen, überprüft, repariert, extrahiert und archiviert wird, ohne menschliches Eingreifen. SABnzbd bietet einen einfachen Einrichtungsassistenten und hat selbstanalysierende Tools, um Ihre Einrichtung zu überprüfen."
 }

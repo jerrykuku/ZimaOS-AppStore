@@ -1,5 +1,5 @@
 {
   "id": "bazarr",
-  "description": "Bazarr è un'applicazione complementare a Sonarr e Radarr. Può gestire e scaricare sottotitoli in base alle tue esigenze. Puoi definire le tue preferenze per serie TV o film e Bazarr si occupa di tutto per te.",
-  "tagline": "Generatori di lettere per Sonarr e Radarr"
+  "tagline": "Generatori di lettere per Sonarr e Radarr",
+  "description": "Bazarr è un'applicazione complementare a Sonarr e Radarr. Può gestire e scaricare sottotitoli in base alle tue esigenze. Puoi definire le tue preferenze per serie TV o film e Bazarr si occupa di tutto per te."
 }

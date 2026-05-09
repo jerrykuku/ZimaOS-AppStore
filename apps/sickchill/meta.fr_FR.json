@@ -1,5 +1,5 @@
 {
   "id": "sickchill",
-  "description": "SickChill est un gestionnaire de bibliothèque vidéo automatique pour les émissions de télévision. Il surveille les nouvelles épisodes de vos émissions préférées, et lorsque elles sont publiées, il fait sa magie: recherche automatique de torrents / nzbs, téléchargement et traitement dans les qualités que vous souhaitez.\n",
-  "tagline": "Gestionnaire de bibliothèque vidéo automatique pour les émissions de télévision"
+  "tagline": "Gestionnaire de bibliothèque vidéo automatique pour les émissions de télévision",
+  "description": "SickChill est un gestionnaire de bibliothèque vidéo automatique pour les émissions de télévision. Il surveille les nouvelles épisodes de vos émissions préférées, et lorsque elles sont publiées, il fait sa magie: recherche automatique de torrents / nzbs, téléchargement et traitement dans les qualités que vous souhaitez.\n"
 }

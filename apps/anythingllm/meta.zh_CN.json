@@ -1,8 +1,8 @@
 {
   "id": "anythingllm",
   "title": "AnythingLLM",
-  "description": "AnythingLLM 是最易于使用的一体化 AI 应用程序，可以使用 RAG、AI 代理等功能，无需代码或基础设施麻烦。",
   "tagline": "一体化 AI 应用程序。",
+  "description": "AnythingLLM 是最易于使用的一体化 AI 应用程序，可以使用 RAG、AI 代理等功能，无需代码或基础设施麻烦。",
   "tips": {
     "before_install": "**使用提示**\nAnythingLLM 支持但不直接提供各种LLMs后端，您需要自行配置需要的后端。\n请参考[官方文档](https://docs.anythingllm.com)以获取更多信息。\n"
   }

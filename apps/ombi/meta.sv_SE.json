@@ -1,5 +1,5 @@
 {
   "id": "ombi",
-  "description": "Ombi är en självvärd webbapplikation som automatiskt ger dina delade Plex- eller Emby-användare självbetjäningsmöjligheter för att begära innehåll! Ombi kan kopplas samman med flera TV-program och film-DVR-verktyg för en sömlös helhetsupplevelse för användarna.",
-  "tagline": "Vänlig mediaförfrågan, synkroniserar automatiskt med dina mediaservrar!"
+  "tagline": "Vänlig mediaförfrågan, synkroniserar automatiskt med dina mediaservrar!",
+  "description": "Ombi är en självvärd webbapplikation som automatiskt ger dina delade Plex- eller Emby-användare självbetjäningsmöjligheter för att begära innehåll! Ombi kan kopplas samman med flera TV-program och film-DVR-verktyg för en sömlös helhetsupplevelse för användarna."
 }

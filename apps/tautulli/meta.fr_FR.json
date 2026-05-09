@@ -1,5 +1,5 @@
 {
   "id": "tautulli",
-  "description": "Tautulli est une application tierce que vous pouvez exécuter en parallèle de votre serveur de médias Plex pour surveiller l'activité et suivre diverses statistiques.",
-  "tagline": "Surveillez votre serveur de médias Plex et bien plus encore."
+  "tagline": "Surveillez votre serveur de médias Plex et bien plus encore.",
+  "description": "Tautulli est une application tierce que vous pouvez exécuter en parallèle de votre serveur de médias Plex pour surveiller l'activité et suivre diverses statistiques."
 }

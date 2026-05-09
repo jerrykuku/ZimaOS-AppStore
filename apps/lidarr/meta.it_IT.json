@@ -1,5 +1,5 @@
 {
   "id": "lidarr",
-  "description": "Lidarr è un gestore di collezioni musicali per utenti di Usenet e BitTorrent. Può monitorare più feed RSS per nuovi album dei tuoi artisti preferiti e interfacciarsi con client e indexer per recuperarli, ordinarli e rinominarli. Può anche essere configurato per aggiornare automaticamente la qualità dei file esistenti nella libreria quando una qualità migliore è disponibile.",
-  "tagline": "Gestore di collezioni musicali per utenti di Usenet e BitTorrent"
+  "tagline": "Gestore di collezioni musicali per utenti di Usenet e BitTorrent",
+  "description": "Lidarr è un gestore di collezioni musicali per utenti di Usenet e BitTorrent. Può monitorare più feed RSS per nuovi album dei tuoi artisti preferiti e interfacciarsi con client e indexer per recuperarli, ordinarli e rinominarli. Può anche essere configurato per aggiornare automaticamente la qualità dei file esistenti nella libreria quando una qualità migliore è disponibile."
 }

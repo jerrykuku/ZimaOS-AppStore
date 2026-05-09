@@ -1,5 +1,5 @@
 {
   "id": "calibre-web",
-  "description": "Calibre-web är en webbapplikation som ger en ren gränssnitt för att bläddra, läsa och ladda ner e-böcker med hjälp av en befintlig Calibre-databas. Det är också möjligt att integrera Google Drive och redigera metadata och din Calibre-bibliotek via appen själv.",
-  "tagline": "Webbapplikation för att bläddra, läsa och ladda ner e-böcker som lagras i en Calibre-databas"
+  "tagline": "Webbapplikation för att bläddra, läsa och ladda ner e-böcker som lagras i en Calibre-databas",
+  "description": "Calibre-web är en webbapplikation som ger en ren gränssnitt för att bläddra, läsa och ladda ner e-böcker med hjälp av en befintlig Calibre-databas. Det är också möjligt att integrera Google Drive och redigera metadata och din Calibre-bibliotek via appen själv."
 }

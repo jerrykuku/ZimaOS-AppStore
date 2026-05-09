@@ -1,5 +1,5 @@
 {
   "id": "duplicati",
-  "description": "Duplicati est un client de sauvegarde gratuit et open source qui stocke de manière sécurisée des sauvegardes chiffrées, incrémentales et compressées sur des services de stockage dans le cloud et des serveurs de fichiers distants.",
-  "tagline": "Stockez des sauvegardes chiffrées de manière sécurisée dans le cloud !"
+  "tagline": "Stockez des sauvegardes chiffrées de manière sécurisée dans le cloud !",
+  "description": "Duplicati est un client de sauvegarde gratuit et open source qui stocke de manière sécurisée des sauvegardes chiffrées, incrémentales et compressées sur des services de stockage dans le cloud et des serveurs de fichiers distants."
 }

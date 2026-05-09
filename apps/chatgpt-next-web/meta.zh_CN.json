@@ -1,5 +1,5 @@
 {
   "id": "chatgpt-next-web",
-  "description": "一个基于 ChatGPT 的智能聊天应用，支持快速部署、Markdown 支持、精美 UI、流式响应、隐私安全等多个功能，并且能够自定义预制角色快速创建、分享和调试个性化对话。",
-  "tagline": "精心设计的跨平台 ChatGPT UI"
+  "tagline": "精心设计的跨平台 ChatGPT UI",
+  "description": "一个基于 ChatGPT 的智能聊天应用，支持快速部署、Markdown 支持、精美 UI、流式响应、隐私安全等多个功能，并且能够自定义预制角色快速创建、分享和调试个性化对话。"
 }

@@ -1,5 +1,5 @@
 {
   "id": "nginxproxymanager",
-  "description": "Nginx Proxy Manager är ett enkelt och kraftfullt verktyg som hjälper dig att hosta flera webbplatser på en server.",
-  "tagline": "Hantering av Nginx-proxyvärdar med ett enkelt och kraftfullt gränssnitt."
+  "tagline": "Hantering av Nginx-proxyvärdar med ett enkelt och kraftfullt gränssnitt.",
+  "description": "Nginx Proxy Manager är ett enkelt och kraftfullt verktyg som hjälper dig att hosta flera webbplatser på en server."
 }

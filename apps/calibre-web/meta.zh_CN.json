@@ -1,7 +1,7 @@
 {
   "id": "calibre-web",
-  "description": "Calibre-web是一个Web应用程序，提供了一个干净的界面，用于浏览，阅读和下载使用现有Calibre数据库的电子书。也可以通过应用程序本身集成谷歌驱动器并编辑元数据和您的calibre库。",
   "tagline": "用于浏览，阅读和下载存储在Calibre数据库中的电子书的Web应用程序",
+  "description": "Calibre-web是一个Web应用程序，提供了一个干净的界面，用于浏览，阅读和下载使用现有Calibre数据库的电子书。也可以通过应用程序本身集成谷歌驱动器并编辑元数据和您的calibre库。",
   "tips": {
     "before_install": "| 用户名 | 密码 |\n| -------- | -------- |\n| `admin`    | `admin123` |\n"
   }

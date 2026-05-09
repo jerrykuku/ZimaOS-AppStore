@@ -1,5 +1,5 @@
 {
   "id": "photoprism",
-  "description": "PhotoPrism® är en AI-drivet app för att bläddra, organisera och dela din fotokollektion. Den använder de senaste teknologierna för att märka och hitta bilder automatiskt utan att störa dig. Du kan köra det hemma, på en privat server eller i molnet.",
-  "tagline": "Bläddra, organisera och dela din fotokollektion"
+  "tagline": "Bläddra, organisera och dela din fotokollektion",
+  "description": "PhotoPrism® är en AI-drivet app för att bläddra, organisera och dela din fotokollektion. Den använder de senaste teknologierna för att märka och hitta bilder automatiskt utan att störa dig. Du kan köra det hemma, på en privat server eller i molnet."
 }

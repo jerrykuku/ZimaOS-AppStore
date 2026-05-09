@@ -1,5 +1,5 @@
 {
   "id": "gitea",
-  "description": "Gitea är ett communityhanterat lätthanterat kodhostningslösning skrivet i Go.",
-  "tagline": "Git med en kopp te"
+  "tagline": "Git med en kopp te",
+  "description": "Gitea är ett communityhanterat lätthanterat kodhostningslösning skrivet i Go."
 }

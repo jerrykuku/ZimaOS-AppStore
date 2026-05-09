@@ -1,6 +1,6 @@
 {
   "id": "glances",
   "title": "Glances",
-  "description": "Glances 是一个开源的跨平台系统监控工具。它允许实时监控系统的各个方面，如 CPU、内存、磁盘、网络使用情况等。",
-  "tagline": "跨平台监控工具"
+  "tagline": "跨平台监控工具",
+  "description": "Glances 是一个开源的跨平台系统监控工具。它允许实时监控系统的各个方面，如 CPU、内存、磁盘、网络使用情况等。"
 }

@@ -1,5 +1,5 @@
 {
   "id": "wg-easy",
-  "description": "Vous avez trouvé le moyen le plus simple d'installer et de gérer WireGuard sur n'importe quel hôte Linux !",
-  "tagline": "WEB UI pour gérer WireGuard VPN."
+  "tagline": "WEB UI pour gérer WireGuard VPN.",
+  "description": "Vous avez trouvé le moyen le plus simple d'installer et de gérer WireGuard sur n'importe quel hôte Linux !"
 }

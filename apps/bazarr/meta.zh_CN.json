@@ -1,5 +1,5 @@
 {
   "id": "bazarr",
-  "description": "Bazarr是Sonarr和Radarr的伴侣应用程序。它可以根据您的要求管理和下载字幕。您可以根据电视节目或电影来定义您的偏好，并且Bazarr会为您处理所有事情。",
-  "tagline": "Sonarr和Radarr的信件生成器"
+  "tagline": "Sonarr和Radarr的信件生成器",
+  "description": "Bazarr是Sonarr和Radarr的伴侣应用程序。它可以根据您的要求管理和下载字幕。您可以根据电视节目或电影来定义您的偏好，并且Bazarr会为您处理所有事情。"
 }

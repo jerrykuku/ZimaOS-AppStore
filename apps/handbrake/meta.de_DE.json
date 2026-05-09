@@ -1,5 +1,5 @@
 {
   "id": "handbrake",
-  "description": "Handbrake ist eine auf Docker basierende Anwendung für Video-Transkodierung und -Kompression, die leistungsstarke und flexible Multimedia-Verarbeitung für verschiedene Plattformen bietet.",
-  "tagline": "Befreie deine Videos und entfessle unbegrenzte Möglichkeiten."
+  "tagline": "Befreie deine Videos und entfessle unbegrenzte Möglichkeiten.",
+  "description": "Handbrake ist eine auf Docker basierende Anwendung für Video-Transkodierung und -Kompression, die leistungsstarke und flexible Multimedia-Verarbeitung für verschiedene Plattformen bietet."
 }

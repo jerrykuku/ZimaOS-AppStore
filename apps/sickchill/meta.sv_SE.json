@@ -1,5 +1,5 @@
 {
   "id": "sickchill",
-  "description": "SickChill är en automatisk videobibliotekshanterare för TV-program. Den övervakar nya avsnitt av dina favoritprogram och när de publiceras gör den sin magi: automatisk torrent / nzb-sökning, nedladdning och bearbetning i de kvaliteter du vill ha.\n",
-  "tagline": "Automatisk videobibliotekshanterare för TV-program"
+  "tagline": "Automatisk videobibliotekshanterare för TV-program",
+  "description": "SickChill är en automatisk videobibliotekshanterare för TV-program. Den övervakar nya avsnitt av dina favoritprogram och när de publiceras gör den sin magi: automatisk torrent / nzb-sökning, nedladdning och bearbetning i de kvaliteter du vill ha.\n"
 }

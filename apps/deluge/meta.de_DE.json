@@ -1,5 +1,5 @@
 {
   "id": "deluge",
-  "description": "Deluge enthält die gängigen Funktionen von BitTorrent-Clients wie Protokollverschlüsselung, DHT, lokales Peersuche (LSD), Peeraustausch (PEX), UPnP, NAT-PMP, Proxy-Unterstützung, Web Seeds, globale und pro Torrent-Geschwindigkeitsbegrenzungen. Da Deluge die libtorrent-Bibliothek stark nutzt, verfügt es über eine umfassende Liste der bereitgestellten Funktionen.",
-  "tagline": "Ein leichtgewichtiger und kostenloser BitTorrent-Client."
+  "tagline": "Ein leichtgewichtiger und kostenloser BitTorrent-Client.",
+  "description": "Deluge enthält die gängigen Funktionen von BitTorrent-Clients wie Protokollverschlüsselung, DHT, lokales Peersuche (LSD), Peeraustausch (PEX), UPnP, NAT-PMP, Proxy-Unterstützung, Web Seeds, globale und pro Torrent-Geschwindigkeitsbegrenzungen. Da Deluge die libtorrent-Bibliothek stark nutzt, verfügt es über eine umfassende Liste der bereitgestellten Funktionen."
 }

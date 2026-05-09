@@ -575,10 +575,6 @@
       "tagline": "使用 TriliumNext Notes 构建您的个人知识库"
     },
     {
-      "id": "ttydbridge",
-      "tagline": "在浏览器中轻松访问宿主机终端"
-    },
-    {
       "id": "unifi-controller",
       "title": "Unifi控制器 [legacy]",
       "tagline": "Unifi控制器软件是一种功能强大的企业级无线软件引擎，适用于需要低延迟和高可用性性能的高密度客户端部署。"

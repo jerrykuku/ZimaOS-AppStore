@@ -1,5 +1,5 @@
 {
   "id": "qbittorrent",
-  "description": "qBittorrent-projektets mål är att erbjuda en öppen källkodsalternativ till µTorrent.",
-  "tagline": "Gratis BitTorrent-downladdare"
+  "tagline": "Gratis BitTorrent-downladdare",
+  "description": "qBittorrent-projektets mål är att erbjuda en öppen källkodsalternativ till µTorrent."
 }

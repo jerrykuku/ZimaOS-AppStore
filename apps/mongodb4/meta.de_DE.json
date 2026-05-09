@@ -1,5 +1,5 @@
 {
   "id": "mongodb4",
-  "description": "MongoDB ist ein kostenloses und Open-Source, plattformübergreifendes, dokumentenorientiertes Datenbankprogramm. MongoDB wird als NoSQL-Datenbankprogramm eingestuft und verwendet JSON-ähnliche Dokumente mit Schemata. MongoDB wird von MongoDB Inc. entwickelt und unter der Kombination der Server Side Public License und der Apache License veröffentlicht.",
-  "tagline": "Ein kostenloses und Open-Source, plattformübergreifendes, dokumentenorientiertes Datenbankprogramm. MongoDB wird als NoSQL-Datenbankprogramm eingestuft und verwendet JSON-ähnliche Dokumente mit Schemata."
+  "tagline": "Ein kostenloses und Open-Source, plattformübergreifendes, dokumentenorientiertes Datenbankprogramm. MongoDB wird als NoSQL-Datenbankprogramm eingestuft und verwendet JSON-ähnliche Dokumente mit Schemata.",
+  "description": "MongoDB ist ein kostenloses und Open-Source, plattformübergreifendes, dokumentenorientiertes Datenbankprogramm. MongoDB wird als NoSQL-Datenbankprogramm eingestuft und verwendet JSON-ähnliche Dokumente mit Schemata. MongoDB wird von MongoDB Inc. entwickelt und unter der Kombination der Server Side Public License und der Apache License veröffentlicht."
 }

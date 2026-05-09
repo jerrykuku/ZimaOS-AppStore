@@ -1,5 +1,5 @@
 {
   "id": "duplicati",
-  "description": "Duplicati è un client di backup gratuito e open source che memorizza in modo sicuro backup crittografati, incrementali e compressi su servizi di archiviazione in cloud e server file remoti.",
-  "tagline": "Memorizza in modo sicuro i backup crittografati nella cloud!"
+  "tagline": "Memorizza in modo sicuro i backup crittografati nella cloud!",
+  "description": "Duplicati è un client di backup gratuito e open source che memorizza in modo sicuro backup crittografati, incrementali e compressi su servizi di archiviazione in cloud e server file remoti."
 }

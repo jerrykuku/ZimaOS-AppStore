@@ -1,5 +1,5 @@
 {
   "id": "tautulli",
-  "description": "Tautulli是您可以在Plex Media Server旁边运行的第三方应用程序，用于监视活动并跟踪各种统计信息。",
-  "tagline": "监视您的Plex Media Server以及更多内容。"
+  "tagline": "监视您的Plex Media Server以及更多内容。",
+  "description": "Tautulli是您可以在Plex Media Server旁边运行的第三方应用程序，用于监视活动并跟踪各种统计信息。"
 }

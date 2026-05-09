@@ -1,5 +1,5 @@
 {
   "id": "sonarr",
-  "description": "Sonarr ist ein PVR für Usenet- und BitTorrent-Nutzer. Es kann mehrere RSS-Feeds überwachen, um neue Episoden Ihrer Lieblingssendungen zu finden und sie zu fangen, zu sortieren und umzubenennen. Es kann auch so konfiguriert werden, dass es die Qualität von bereits heruntergeladenen Dateien automatisch aktualisiert, wenn eine bessere Qualität verfügbar ist.",
-  "tagline": "Der PVR für Usenet und BitTorrent Nutzer"
+  "tagline": "Der PVR für Usenet und BitTorrent Nutzer",
+  "description": "Sonarr ist ein PVR für Usenet- und BitTorrent-Nutzer. Es kann mehrere RSS-Feeds überwachen, um neue Episoden Ihrer Lieblingssendungen zu finden und sie zu fangen, zu sortieren und umzubenennen. Es kann auch so konfiguriert werden, dass es die Qualität von bereits heruntergeladenen Dateien automatisch aktualisiert, wenn eine bessere Qualität verfügbar ist."
 }

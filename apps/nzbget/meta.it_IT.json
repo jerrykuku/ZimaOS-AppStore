@@ -1,5 +1,5 @@
 {
   "id": "nzbget",
-  "description": "NZBGet può essere eseguito su quasi qualsiasi dispositivo - PC classico, NAS, lettore multimediale, ricevitore SAT, router WLAN, ecc. La zona download fornisce binari precompilati per Windows, macOS, Linux (compatibile con molte CPU e varianti di piattaforma), FreeBSD e Android. Per altre piattaforme, il programma può essere compilato dalle fonti.",
-  "tagline": "Downloader Usenet efficiente"
+  "tagline": "Downloader Usenet efficiente",
+  "description": "NZBGet può essere eseguito su quasi qualsiasi dispositivo - PC classico, NAS, lettore multimediale, ricevitore SAT, router WLAN, ecc. La zona download fornisce binari precompilati per Windows, macOS, Linux (compatibile con molte CPU e varianti di piattaforma), FreeBSD e Android. Per altre piattaforme, il programma può essere compilato dalle fonti."
 }

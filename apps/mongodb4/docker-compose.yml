@@ -23,3 +23,4 @@ x-casaos:
   main: mongodb4
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/mongodb4/assets/icon.svg
   title: MongoDB 4
+  version: 4.4.22

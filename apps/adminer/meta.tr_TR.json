@@ -1,0 +1,4 @@
+{
+  "id": "adminer",
+  "releaseNotes": "- v5.4.1, NULL birincil anahtarlarının SQL komutuyla bağlantısının kaldırılmasını düzeltir.\n- CSV dışa aktarma artık sıfır değerleri alıntılamıyor ve içe aktarmalar, upload_max_filesize aşıldığında uyarı veriyor.\n- Kaydedilen SQL komut sorguları URL'ye kadar uzatılabilir ve MySQL rutin tanım ekranı düzeltildi."
+}

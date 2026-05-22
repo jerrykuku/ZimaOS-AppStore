@@ -10,8 +10,8 @@
     },
     {
       "id": "archivebox",
-      "title": "ArchiveBox",
-      "tagline": "Solução de Arquivamento de Internet Auto-hospedada"
+      "tagline": "Solução de Arquivamento de Internet Auto-hospedada",
+      "title": "ArchiveBox"
     },
     {
       "id": "audiobookshelf",
@@ -22,6 +22,10 @@
       "tagline": "Uma ferramenta de rastreamento de hábitos auto-hospedada e sem objetivos."
     },
     {
+      "id": "blinko",
+      "tagline": "O Blinko é um projeto de notas em cartões alimentado por IA. Foi concebido para indivíduos que desejam capturar e organizar rapidamente os seus pensamentos fugazes. O Blinko permite aos utilizadores anotar ideias sem esforço no momento em que surgem, garantindo que nenhuma centelha de criatividade se perde."
+    },
+    {
       "id": "cloudflared",
       "tagline": "Um daemon de tunneling da Cloudflare que expõe com segurança os seus servidores web à internet."
     },
@@ -30,9 +34,14 @@
       "tagline": "Uma ferramenta de conversão de arquivos versátil que suporta múltiplos formatos."
     },
     {
+      "id": "copyparty",
+      "tagline": "Um servidor de ficheiros simples e privado.",
+      "title": "CopyParty"
+    },
+    {
       "id": "deepseek-ocr-nvidia",
-      "title": "DeepSeek OCR(Nvidia GPU)",
-      "tagline": "OCR poderoso alimentado por DeepSeek AI"
+      "tagline": "OCR poderoso alimentado por DeepSeek AI",
+      "title": "DeepSeek OCR(Nvidia GPU)"
     },
     {
       "id": "docmost",
@@ -41,6 +50,10 @@
     {
       "id": "emby",
       "tagline": "O Emby reúne os seus vídeos pessoais, música, fotografias e televisão ao vivo."
+    },
+    {
+      "id": "etherpad",
+      "tagline": "Editor colaborativo de documentos em tempo real"
     },
     {
       "id": "excalidraw",
@@ -68,13 +81,13 @@
     },
     {
       "id": "index-tts",
-      "title": "Index-TTS",
-      "tagline": "Um sistema de texto para fala zero-shot controlável e eficiente de nível industrial"
+      "tagline": "Um sistema de texto para fala zero-shot controlável e eficiente de nível industrial",
+      "title": "Index-TTS"
     },
     {
       "id": "index-tts-nvidia",
-      "title": "Index-TTS(Nvidia GPU)",
-      "tagline": "Um sistema de texto para fala zero-shot controlável e eficiente de nível industrial"
+      "tagline": "Um sistema de texto para fala zero-shot controlável e eficiente de nível industrial",
+      "title": "Index-TTS(Nvidia GPU)"
     },
     {
       "id": "jellyfin",
@@ -94,18 +107,23 @@
     },
     {
       "id": "langflow",
-      "title": "Langflow",
-      "tagline": "Interface de código aberto para criar e depurar aplicações multi-agente e RAG"
+      "tagline": "Interface de código aberto para criar e depurar aplicações multi-agente e RAG",
+      "title": "Langflow"
     },
     {
       "id": "librechat",
-      "title": "LibreChat",
-      "tagline": "Uma interface de chat AI completa e open-source"
+      "tagline": "Uma interface de chat AI completa e open-source",
+      "title": "LibreChat"
+    },
+    {
+      "id": "linkwarden",
+      "tagline": "Gestor colaborativo de marcadores autoalojado para recolher, ler, anotar e preservar totalmente o que importa, tudo num só lugar.",
+      "title": "Linkwarden"
     },
     {
       "id": "llama-factory-nvidia",
-      "title": "LLaMA Factory(Nvidia GPU)",
-      "tagline": "Ajuste fino unificado de LLM com 100+ modelos"
+      "tagline": "Ajuste fino unificado de LLM com 100+ modelos",
+      "title": "LLaMA Factory(Nvidia GPU)"
     },
     {
       "id": "lyrionmusicserver",
@@ -113,8 +131,8 @@
     },
     {
       "id": "maybe",
-      "title": "Maybe",
-      "tagline": "Aplicação de gestão financeira pessoal"
+      "tagline": "Aplicação de gestão financeira pessoal",
+      "title": "Maybe"
     },
     {
       "id": "memos",
@@ -149,14 +167,23 @@
       "tagline": "WebUI amigável para LLMs (anteriormente Ollama WebUI)"
     },
     {
+      "id": "openclaw",
+      "tagline": "OpenClaw é um assistente de IA pessoal que executa nos seus próprios dispositivos.",
+      "title": "OpenClaw"
+    },
+    {
       "id": "openhands",
-      "title": "OpenHands",
-      "tagline": "Assistente de Codificação de Código Aberto Alimentado por IA"
+      "tagline": "Assistente de Codificação de Código Aberto Alimentado por IA",
+      "title": "OpenHands"
+    },
+    {
+      "id": "openlist",
+      "tagline": "Monte o seu disco na nuvem no seu NAS doméstico"
     },
     {
       "id": "opodsync",
-      "title": "oPodSync",
-      "tagline": "Serviço de sincronização de podcasts"
+      "tagline": "Serviço de sincronização de podcasts",
+      "title": "oPodSync"
     },
     {
       "id": "pdfding",
@@ -164,8 +191,8 @@
     },
     {
       "id": "peanut",
-      "title": "PeaNUT",
-      "tagline": "Sistema de monitorização UPS e notificação de interrupção de energia"
+      "tagline": "Sistema de monitorização UPS e notificação de interrupção de energia",
+      "title": "PeaNUT"
     },
     {
       "id": "pihole",
@@ -177,17 +204,22 @@
     },
     {
       "id": "pingvin-share",
-      "title": "Pingvin-Share",
-      "tagline": "Partilha de ficheiros auto-hospedada com uma interface web moderna"
+      "tagline": "Partilha de ficheiros auto-hospedada com uma interface web moderna",
+      "title": "Pingvin-Share"
     },
     {
       "id": "portainer",
       "tagline": "Interface leve de gestão Docker"
     },
     {
+      "id": "psitransfer",
+      "tagline": "Um host de partilha de ficheiros simples e de código aberto.",
+      "title": "PsiTransfer"
+    },
+    {
       "id": "ragflow",
-      "title": "RagFlow",
-      "tagline": "RagFlow é um motor RAG de código aberto baseado na compreensão profunda de documentos."
+      "tagline": "RagFlow é um motor RAG de código aberto baseado na compreensão profunda de documentos.",
+      "title": "RagFlow"
     },
     {
       "id": "retroarch",
@@ -199,8 +231,8 @@
     },
     {
       "id": "sure",
-      "title": "Sure",
-      "tagline": "Aplicação de gestão financeira pessoal"
+      "tagline": "Aplicação de gestão financeira pessoal",
+      "title": "Sure"
     },
     {
       "id": "swingmusic",
@@ -216,8 +248,8 @@
     },
     {
       "id": "teable",
-      "title": "Teable",
-      "tagline": "O Teable adota uma interface de planilha concisa, mas cria aplicativos de banco de dados poderosos"
+      "tagline": "O Teable adota uma interface de planilha concisa, mas cria aplicativos de banco de dados poderosos",
+      "title": "Teable"
     },
     {
       "id": "transmission",
@@ -226,6 +258,11 @@
     {
       "id": "trilium",
       "tagline": "Construa a sua base de conhecimento pessoal com TriliumNext Notes"
+    },
+    {
+      "id": "turbodiffusion_nvidia",
+      "tagline": "Um framework de aceleração para geração por difusão de ponta a ponta mantendo a qualidade de vídeo",
+      "title": "TurboDiffusion(Nvidia GPU)"
     },
     {
       "id": "uptimekuma",
@@ -245,8 +282,8 @@
     },
     {
       "id": "weknora",
-      "title": "WeKnora",
-      "tagline": "O WeKnora é uma framework baseada em LLM projetado para compreensão profunda de documentos e recuperação semântica, especialmente para lidar com documentos complexos e heterogéneos."
+      "tagline": "O WeKnora é uma framework baseada em LLM projetado para compreensão profunda de documentos e recuperação semântica, especialmente para lidar com documentos complexos e heterogéneos.",
+      "title": "WeKnora"
     },
     {
       "id": "ztnet",

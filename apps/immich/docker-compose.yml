@@ -97,3 +97,4 @@ x-casaos:
   port_map: '2283'
   scheme: http
   index: /
+  version: v2.7.2

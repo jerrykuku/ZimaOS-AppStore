@@ -12,6 +12,12 @@
     "/apps/llama-factory-nvidia/assets/screenshot-3.webp"
   ],
   "tagline": "Unified LLM Fine-Tuning with 100+ Models",
+  "updateAt": "2025-12-31",
+  "releaseNotes": "- v0.9.4 updates the project name from LLaMA-Factory to LlamaFactory.\n- Older Python runtimes are deprecated; the supported Python runtime range was raised.\n- Installation moved from pip to uv, and new training support includes OFT, Semantic Initialization, Megatron-LM, KTransformers, MPO, FP8, and TRL 0.24.",
+  "website": "https://llamafactory.readthedocs.io/",
+  "repo": "https://github.com/hiyouga/LLaMA-Factory",
+  "support": "https://github.com/hiyouga/LLaMA-Factory/issues",
+  "docs": "https://llamafactory.readthedocs.io/",
   "title": "LLaMA Factory(Nvidia GPU)",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

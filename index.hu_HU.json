@@ -45,10 +45,6 @@
       "tagline": "Számítsa ki az összesféle statisztikát a (helyi) Emby vagy Jellyfin szerveréből"
     },
     {
-      "id": "filebrowser",
-      "tagline": "Töltsön fel, törölje, előnézze, átnevezze, szerkessze és ossza meg fájljait."
-    },
-    {
       "id": "filedrop",
       "tagline": "A FileDrop egy ingyenes, nyílt forráskódú fájlmegosztó szolgáltatás."
     },

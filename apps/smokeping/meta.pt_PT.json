@@ -1,0 +1,4 @@
+{
+  "id": "smokeping",
+  "releaseNotes": "- 2.8.2 é uma versão rollup com testes de compilação automatizados e suporte para InfluxDB.\n- Manipulação de sonda, comportamento de FPing command-line, manipulação de SSH, modo de zoom URLs, entrada de recorte relative-time, recargas de configuração para escravos, modelos, cores de perda e títulos de gráficos foram melhorados.\n- As correções incluem restaurar FindBin, adicionar o README em falta e corrigir a ortografia em FTPtransfer.pm."
+}

@@ -42,3 +42,4 @@ x-casaos:
   title: Transmission
   index: /
   port_map: '9091'
+  version: 4.0.4

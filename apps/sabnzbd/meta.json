@@ -19,6 +19,12 @@
   "tagline": "Free and easy binary newsreader",
   "thumbnail": "/apps/sabnzbd/assets/thumbnail.webp",
   "tips": {},
+  "updateAt": "2023-09-26",
+  "releaseNotes": "- 4.1.0 adds dark mode for Config, Login, and Wizard pages, plus multi-select in History.\n- Proxy validation, log purging, server IP selection, IPv6 server settings, and archive unpacking behavior were updated.\n- Fixes include duplicate detection, filename sorting, paused queue priority handling, API-key log sanitization, disk writes, folder sanitization, article decoding, and QuickCheck renaming.",
+  "website": "https://sabnzbd.org",
+  "repo": "https://github.com/sabnzbd/sabnzbd",
+  "support": "https://forums.sabnzbd.org",
+  "docs": "https://sabnzbd.org/wiki/",
   "title": "Sabnzbd",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

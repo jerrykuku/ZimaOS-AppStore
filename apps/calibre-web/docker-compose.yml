@@ -31,3 +31,4 @@ x-casaos:
   title: Calibre-web
   index: /
   port_map: '8083'
+  version: 0.6.24

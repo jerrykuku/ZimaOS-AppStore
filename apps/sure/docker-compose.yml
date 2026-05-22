@@ -125,3 +125,4 @@ x-casaos:
   port_map: '23000'
   index: /
   title: Sure
+  version: 0.6.5-hotfix.1

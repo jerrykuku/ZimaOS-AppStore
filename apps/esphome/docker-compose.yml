@@ -28,3 +28,4 @@ x-casaos:
   port_map: '6052'
   scheme: http
   title: ESPHome
+  version: 2025.11.0

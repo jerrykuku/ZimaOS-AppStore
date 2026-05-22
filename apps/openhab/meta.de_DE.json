@@ -1,5 +1,6 @@
 {
   "id": "openhab",
   "tagline": "Stärkung des Smart Home",
+  "releaseNotes": "- 4.3.3 ist ein Patch-Release mit Add-on-Fehlerkorrekturen und Verbesserungen.\n- Korrekturen betreffen basicprofiles delta handling, bluetooth.bluez NullPointerException, easee API limit configuration, ecobee vacation holds, Free@home missing IDs, hdpowerview bridge labels, Hue dynamics support und huesync API token handling.\n- Energidataservice tariff filters und mehrere weitere Add-ons wurden aktualisiert.",
   "description": "Der offene Heimautomatisierungsbus (openHAB, ausgesprochen ˈəʊpənˈhæb) ist eine quelloffene, technologieunabhängige Heimautomatisierungsplattform, die als Mittelpunkt Ihres Smart Homes läuft! Seine Fähigkeit, eine Vielzahl anderer Geräte und Systeme zu integrieren. openHAB integriert andere Heimautomatisierungssysteme, (intelligente) Geräte und andere Technologien in eine einzige Lösung. Um eine einheitliche Benutzeroberfläche und einen gemeinsamen Ansatz für Automatisierungsregeln über das gesamte System hinweg zu bieten, unabhängig von der Anzahl der Hersteller und Teilsysteme. Geben Sie Ihnen das flexibelste Werkzeug, um fast jeden Wunsch zur Heimautomatisierung wahr werden zu lassen; Wenn Sie es denken können, ist es wahrscheinlich, dass Sie es mit openHAB umsetzen können."
 }

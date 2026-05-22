@@ -350,3 +350,4 @@ x-casaos:
   port_map: '30080'
   scheme: http
   title: RagFlow
+  version: v0.21.1

@@ -19,6 +19,12 @@
   "tips": {
     "before_install": "Default Account\n\n| Username | Password |\n| -------- | -------- |\n| nzbget   | tegbzn6789 |\n"
   },
+  "updateAt": "2025-12-29",
+  "releaseNotes": "- NZBGet 25.4 adds TLS 1.3 cipher suite support through the ServerX.Cipher option.\n- The web UI search bar is enabled on small screens.\n- Fixes include Scan script API handling, RSS feed category application from filter rules, JSON value parsing, and the testserver API method.",
+  "website": "https://nzbget.com",
+  "repo": "https://github.com/nzbgetcom/nzbget",
+  "support": "https://github.com/nzbgetcom/nzbget/discussions",
+  "docs": "https://nzbget.com/documentation",
   "title": "Nzbget",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

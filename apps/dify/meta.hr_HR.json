@@ -1,0 +1,4 @@
+{
+  "id": "dify",
+  "releaseNotes": "- 0.12.1 popravlja prilagođeni prikaz ikona u web aplikaciji i rukovanje datotekama u početnim obrascima.\n- Ispravljene su pogreške obrade memorije LLM, brisanja razgovora, stvaranja aplikacije i uvoza predložaka.\n- Izdanje uključuje smjernice za nadogradnju za Docker Compose implementacije."
+}

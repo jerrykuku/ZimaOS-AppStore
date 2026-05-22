@@ -19,3 +19,4 @@ x-casaos:
   port_map: '17638'
   index: /
   title: Excalidraw
+  version: latest

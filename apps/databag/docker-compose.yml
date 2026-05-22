@@ -17,3 +17,4 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/databag/assets/icon.svg
   title: Databag
   port_map: '7000'
+  version: 0.1.18

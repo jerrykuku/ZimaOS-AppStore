@@ -15,6 +15,12 @@
   "tagline": "eBook Auto Downloader",
   "thumbnail": "/apps/lazylibrarian/assets/thumbnail.webp",
   "tips": {},
+  "updateAt": "2025-12-03",
+  "releaseNotes": "",
+  "website": "https://lazylibrarian.gitlab.io/",
+  "repo": "https://github.com/lazylibrarian/LazyLibrarian",
+  "support": "https://github.com/LazyLibrarian/LazyLibrarian/issues",
+  "docs": "https://lazylibrarian.gitlab.io/",
   "title": "Lazylibrarian",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

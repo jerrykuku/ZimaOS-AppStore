@@ -50,3 +50,4 @@ x-casaos:
   port_map: '9000'
   index: /
   title: LyrionMusicServer
+  version: 9.1.0

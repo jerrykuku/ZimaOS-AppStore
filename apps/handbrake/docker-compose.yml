@@ -29,3 +29,4 @@ x-casaos:
   port_map: '5800'
   scheme: http
   title: handbrake
+  version: v25.10.1

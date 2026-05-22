@@ -1,0 +1,4 @@
+{
+  "id": "pocketbase",
+  "releaseNotes": "- v0.25.9 popravlja svojstvo objekta/niza DynamicModel koje odražava predmemoriju tipa."
+}

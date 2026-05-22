@@ -19,3 +19,4 @@ x-casaos:
   port_map: '8183'
   index: /
   title: RetroArch
+  version: latest

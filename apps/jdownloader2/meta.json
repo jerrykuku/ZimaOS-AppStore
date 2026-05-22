@@ -13,6 +13,12 @@
   "author": "Fabio Tea",
   "category": "Media",
   "store_app_id": "jdownloader2",
+  "updateAt": "2024-01-25",
+  "releaseNotes": "",
+  "website": "",
+  "repo": "",
+  "support": "https://support.jdownloader.org/",
+  "docs": "https://support.jdownloader.org/",
   "title": "JDownloader2",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

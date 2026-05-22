@@ -1,0 +1,4 @@
+{
+  "id": "adminer",
+  "releaseNotes": "- v5.4.1은 SQL command에서 NULL primary key 연결을 해제하는 문제를 수정합니다.\n- CSV 내보내기는 더 이상 0 값을 따옴표로 감싸지 않으며, 가져오기에서는 upload_max_filesize 초과 시 경고합니다.\n- 저장된 SQL command 쿼리를 URL로 확장할 수 있고 MySQL routine definition 표시가 수정되었습니다."
+}

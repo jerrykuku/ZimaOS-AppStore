@@ -49,3 +49,4 @@ x-casaos:
   title: Emby(Nvidia GPU)
   index: /
   port_map: '8096'
+  version: 4.9.1

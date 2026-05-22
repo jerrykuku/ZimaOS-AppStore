@@ -14,6 +14,12 @@
   ],
   "thumbnail": "/apps/overseerr/assets/icon.svg",
   "category": "Media",
+  "updateAt": "2023-07-28",
+  "releaseNotes": "- v1.33.2 fixes an issue where incorrect media could change to unknown.",
+  "website": "https://overseerr.dev",
+  "repo": "https://github.com/sct/overseerr",
+  "support": "https://github.com/sct/overseerr/issues",
+  "docs": "https://docs.overseerr.dev",
   "title": "Overseerr",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

@@ -1,0 +1,4 @@
+{
+  "id": "lucky",
+  "releaseNotes": "- v2.20.2 adds certificate sync support for Alibaba Cloud ESA and a Tencent Cloud option that is not yet open.\n- Volcengine now sets the minimum TTL automatically based on the domain package.\n- Generic OIDC third-party login support was added, ACME certificate application speed was optimized, and Filebrowser was updated to v2.45.0."
+}

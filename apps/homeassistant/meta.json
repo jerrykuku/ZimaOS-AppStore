@@ -17,6 +17,12 @@
   "tagline": "Open source home automation that puts local control and privacy first.",
   "thumbnail": "/apps/homeassistant/assets/thumbnail.webp",
   "tips": {},
+  "updateAt": "2025-11-05",
+  "releaseNotes": "- 2025.11.0 includes the Home Assistant 2025.11 core changes.\n- The upstream changelog includes Squeezebox HassKey support, condition option-field changes, statistics metadata collation checks, and Hyperion 2.1.1 support fixes.\n- Integration and dependency updates include pyMill, pyvesync, ZHA, pySmartThings, bsblan, reolink-aio, python-open-router, Foscam RTSP URL encoding, and the 2025.11.0 base image.",
+  "website": "https://www.home-assistant.io",
+  "repo": "https://github.com/home-assistant/core",
+  "support": "https://community.home-assistant.io",
+  "docs": "https://www.home-assistant.io/docs",
   "title": "Home Assistant",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

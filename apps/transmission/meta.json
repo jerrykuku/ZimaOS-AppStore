@@ -17,6 +17,12 @@
   "tips": {
     "before_install": "| username | password |\n| -------- | -------- |\n| `casaos` | `casaos` |\n"
   },
+  "updateAt": "2023-08-28",
+  "releaseNotes": "- 4.0.4 is a bugfix-only release for the 4.0.x series.\n- Fixes include torrent metadata sent to peers, filename collision handling, locale-based statistic rounding, tracker announce keys, LPD announce ports, tracker URL editing, and listening-interface announces.\n- Qt, GTK, Web, CLI, and remote clients received UI, display, crash, and command fixes.",
+  "website": "https://transmissionbt.com/",
+  "repo": "https://github.com/transmission/transmission",
+  "support": "https://github.com/transmission/transmission/issues",
+  "docs": "https://github.com/transmission/transmission/blob/main/docs/README.md",
   "title": "Transmission",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

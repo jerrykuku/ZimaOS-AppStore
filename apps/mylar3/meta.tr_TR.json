@@ -1,0 +1,4 @@
+{
+  "id": "mylar3",
+  "releaseNotes": "- v0.8.3, selected-issue etiketlemeyi, Aranan sorunların alt kümeleri için zorunlu sıraya koymayı, CRC denetimlerini ve bir CBL reading-list içe aktarma ekranını ekler.\n- Arama zamanlaması, arama aralığı adlandırma, tablo shift-select ve GetComics günlük kaydı iyileştirildi.\n- out-of-order release-date post-processing, SAB/NZBGET indirme işlemlerini, RSS feed URL yapısını ve bildirim sorunlarını kapsayan düzeltmeler."
+}

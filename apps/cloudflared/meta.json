@@ -15,6 +15,12 @@
   "author": "WisdomSky",
   "thumbnail": "/apps/cloudflared/assets/thumbnail.webp",
   "category": "Networking",
+  "updateAt": "2025-05-30",
+  "releaseNotes": "",
+  "website": "https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/",
+  "repo": "https://github.com/WisdomSky/Cloudflared-web",
+  "support": "https://github.com/WisdomSky/Cloudflared-web/issues",
+  "docs": "https://github.com/WisdomSky/Cloudflared-web#readme",
   "title": "Cloudflared",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

@@ -27,3 +27,4 @@ x-casaos:
   title: SiYuan Note
   index: null
   port_map: '6806'
+  version: v3.0.1

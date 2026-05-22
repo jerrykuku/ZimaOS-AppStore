@@ -29,3 +29,4 @@ x-casaos:
   title: Gopeed
   index: /
   port_map: '9999'
+  version: v1.8.3

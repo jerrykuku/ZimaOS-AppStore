@@ -1,0 +1,4 @@
+{
+  "id": "jackett",
+  "releaseNotes": "- v0.24.1841 は torrenttip、torrentsome、btstate、ADC、u2p、magnetcat、torrent9、czteam の indexer handling を更新します。\n- 複数の tracker domains と selector/category configurations が更新されました。\n- Docker ユーザーは既存コンテナ内のアプリ内 updater ではなく、コンテナイメージを更新してください。"
+}

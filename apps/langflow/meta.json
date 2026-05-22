@@ -13,6 +13,12 @@
     "/apps/langflow/assets/screenshot-3.webp"
   ],
   "thumbnail": "",
+  "updateAt": "2025-07-08",
+  "releaseNotes": "- 1.5.0 adds RSS, web search, news search, API request, SQL, and DataStax component updates.\n- Flow UI changes include a new Edit Details popover, Flow Status overlay, deploy export option, and output UX improvements.\n- MCP connection persistence, MCP settings, Composio integrations, and progressive web app manifest support were added.",
+  "website": "https://www.langflow.org",
+  "repo": "https://github.com/langflow-ai/langflow",
+  "support": "https://github.com/langflow-ai/langflow/issues",
+  "docs": "https://docs.langflow.org",
   "title": "Langflow",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

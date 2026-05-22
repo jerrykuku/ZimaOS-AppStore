@@ -1,0 +1,4 @@
+{
+  "id": "downtify",
+  "releaseNotes": "- 2.6.0 fuegt die Option hinzu, Musik in Artist-Foldern zu speichern.\n- Eine Einstellung zum Deaktivieren von lyric downloads wurde hinzugefuegt.\n- Download-history-Loeschung und settings persistence wurden korrigiert."
+}

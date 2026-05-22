@@ -39,3 +39,4 @@ x-casaos:
   title: Syncthing
   index: /
   port_map: '8384'
+  version: 1.29.7

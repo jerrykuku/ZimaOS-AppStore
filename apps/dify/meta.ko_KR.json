@@ -1,0 +1,4 @@
+{
+  "id": "dify",
+  "releaseNotes": "- 0.12.1은 webapp의 custom icon 표시와 Start forms의 파일 처리를 수정합니다.\n- LLM memory processing, conversation deletion, app creation, template import 오류가 수정되었습니다.\n- 이 릴리스에는 Docker Compose 배포를 위한 업그레이드 안내가 포함됩니다."
+}

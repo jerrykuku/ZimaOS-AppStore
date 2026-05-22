@@ -1,0 +1,4 @@
+{
+  "id": "sabnzbd",
+  "releaseNotes": "- 4.1.0 adds dark mode for Config, Login, and Wizard pages, plus multi-select in History.\n- Proxy validation, log purging, server IP selection, IPv6 server settings, and archive unpacking behavior were updated.\n- Fixes include duplicate detection, filename sorting, paused queue priority handling, API-key log sanitization, disk writes, folder sanitization, article decoding, and QuickCheck renaming."
+}

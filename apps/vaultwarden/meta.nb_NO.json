@@ -1,0 +1,4 @@
+{
+  "id": "vaultwarden",
+  "releaseNotes": "- 1.32.7 inkluderer en sikkerhetsfiks for installasjoner med ORG_GROUPS_ENABLED aktivert.\n- SMTP bildekildeverdier er maskert i støttestrengen.\n- Refaktorering, optimaliseringer, connect-src-inngangsstøtte og oppdatert bregnebruk er inkludert."
+}

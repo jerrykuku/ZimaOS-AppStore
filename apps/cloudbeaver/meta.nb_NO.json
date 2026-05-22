@@ -1,0 +1,4 @@
+{
+  "id": "cloudbeaver",
+  "releaseNotes": "- Den konfigurerte 25.2.5 bildekoden har ikke noe samsvarende GitHub utgivelsesobjekt i dbeaver/cloudbeaver.\n- Hold denne oppføringen knyttet til CloudBeaver 25.2 bildelinjen til oppstrøms publiserer per-tag versjonsnotater."
+}

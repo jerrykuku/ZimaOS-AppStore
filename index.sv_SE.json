@@ -22,8 +22,8 @@
     },
     {
       "id": "archivebox",
-      "title": "ArchiveBox",
-      "tagline": "Självhostad internetarkiveringslösning"
+      "tagline": "Självhostad internetarkiveringslösning",
+      "title": "ArchiveBox"
     },
     {
       "id": "audiobookshelf",
@@ -36,6 +36,10 @@
     {
       "id": "beaverhabittracker",
       "tagline": "Ett självhostat, målfritt verktyg för att spåra vanor."
+    },
+    {
+      "id": "blinko",
+      "tagline": "Blinko är ett AI-drivet projekt för anteckningar på kort. Det är designat för individer som vill snabbt fånga och organisera sina tillfälliga tankar. Blinko möjliggör för användarna att smidigt skriva ner idéer i det ögonblick de dyker upp, vilket säkerställer att ingen kreativ gnista går förlorad."
     },
     {
       "id": "calibre-web",
@@ -54,9 +58,14 @@
       "tagline": "Ett mångsidigt filkonverteringsverktyg som stöder flera format."
     },
     {
+      "id": "copyparty",
+      "tagline": "En enkel, privat filserver.",
+      "title": "CopyParty"
+    },
+    {
       "id": "deepseek-ocr-nvidia",
-      "title": "DeepSeek OCR(Nvidia GPU)",
-      "tagline": "Kraftfull OCR drivet av DeepSeek AI"
+      "tagline": "Kraftfull OCR drivet av DeepSeek AI",
+      "title": "DeepSeek OCR(Nvidia GPU)"
     },
     {
       "id": "deluge",
@@ -87,12 +96,12 @@
       "tagline": "Beräkna alla typer av statistik från din (lokala) Emby- eller Jellyfin-server"
     },
     {
-      "id": "excalidraw",
-      "tagline": "Virtuell whiteboard för att skissa handritade diagram"
+      "id": "etherpad",
+      "tagline": "Samarbetseditor för dokument i realtid"
     },
     {
-      "id": "filebrowser",
-      "tagline": "Ladda upp, ta bort, förhandsgranska, byt namn, redigera och dela dina filer."
+      "id": "excalidraw",
+      "tagline": "Virtuell whiteboard för att skissa handritade diagram"
     },
     {
       "id": "filedrop",
@@ -140,13 +149,13 @@
     },
     {
       "id": "index-tts",
-      "title": "Index-TTS",
-      "tagline": "Ett kontrollerbart och effektivt zero-shot text-till-tal-system på industrinivå"
+      "tagline": "Ett kontrollerbart och effektivt zero-shot text-till-tal-system på industrinivå",
+      "title": "Index-TTS"
     },
     {
       "id": "index-tts-nvidia",
-      "title": "Index-TTS(Nvidia GPU)",
-      "tagline": "Ett kontrollerbart och effektivt zero-shot text-till-tal-system på industrinivå"
+      "tagline": "Ett kontrollerbart och effektivt zero-shot text-till-tal-system på industrinivå",
+      "title": "Index-TTS(Nvidia GPU)"
     },
     {
       "id": "jackett",
@@ -178,8 +187,8 @@
     },
     {
       "id": "langflow",
-      "title": "Langflow",
-      "tagline": "Open source-gränssnitt för att bygga och felsöka multi-agent och RAG-applikationer"
+      "tagline": "Open source-gränssnitt för att bygga och felsöka multi-agent och RAG-applikationer",
+      "title": "Langflow"
     },
     {
       "id": "lazylibrarian",
@@ -187,17 +196,22 @@
     },
     {
       "id": "librechat",
-      "title": "LibreChat",
-      "tagline": "Ett fullfjädrat, öppen källkod AI-chattgränssnitt"
+      "tagline": "Ett fullfjädrat, öppen källkod AI-chattgränssnitt",
+      "title": "LibreChat"
     },
     {
       "id": "lidarr",
       "tagline": "Musiksamling för användare av Usenet och BitTorrent"
     },
     {
+      "id": "linkwarden",
+      "tagline": "Självhostad samarbetsbaserad bokmärkeshanterare för att samla, läsa, annotera och bevara det som är viktigt på ett och samma ställe.",
+      "title": "Linkwarden"
+    },
+    {
       "id": "llama-factory-nvidia",
-      "title": "LLaMA Factory(Nvidia GPU)",
-      "tagline": "Enhetlig LLM-finjustering med 100+ modeller"
+      "tagline": "Enhetlig LLM-finjustering med 100+ modeller",
+      "title": "LLaMA Factory(Nvidia GPU)"
     },
     {
       "id": "lyrionmusicserver",
@@ -209,8 +223,8 @@
     },
     {
       "id": "maybe",
-      "title": "Maybe",
-      "tagline": "Applikation för personlig finanshantering"
+      "tagline": "Applikation för personlig finanshantering",
+      "title": "Maybe"
     },
     {
       "id": "memos",
@@ -269,13 +283,22 @@
       "tagline": "Användarvänlig WebUI för LLMer (tidigare Ollama WebUI)"
     },
     {
+      "id": "openclaw",
+      "tagline": "OpenClaw är en personlig AI-assistent som du kör på dina egna enheter.",
+      "title": "OpenClaw"
+    },
+    {
       "id": "openhab",
       "tagline": "Stärkning av smart hem"
     },
     {
       "id": "openhands",
-      "title": "OpenHands",
-      "tagline": "Open source AI-driven kodningsassistent"
+      "tagline": "Open source AI-driven kodningsassistent",
+      "title": "OpenHands"
+    },
+    {
+      "id": "openlist",
+      "tagline": "Montera din molndisk på ditt hemmabaserade NAS"
     },
     {
       "id": "openspeedtest",
@@ -283,8 +306,8 @@
     },
     {
       "id": "opodsync",
-      "title": "oPodSync",
-      "tagline": "Podcast-synkroniseringstjänst"
+      "tagline": "Podcast-synkroniseringstjänst",
+      "title": "oPodSync"
     },
     {
       "id": "overseerr",
@@ -296,8 +319,8 @@
     },
     {
       "id": "peanut",
-      "title": "PeaNUT",
-      "tagline": "UPS övervakning och strömavbrott notifikationssystem"
+      "tagline": "UPS övervakning och strömavbrott notifikationssystem",
+      "title": "PeaNUT"
     },
     {
       "id": "photoprism",
@@ -313,8 +336,8 @@
     },
     {
       "id": "pingvin-share",
-      "title": "Pingvin-Share",
-      "tagline": "Självhostad fildelning med ett modernt webbgränssnitt"
+      "tagline": "Självhostad fildelning med ett modernt webbgränssnitt",
+      "title": "Pingvin-Share"
     },
     {
       "id": "playit-agent",
@@ -333,6 +356,11 @@
       "tagline": "Integration av olika PVR-appar"
     },
     {
+      "id": "psitransfer",
+      "tagline": "En enkel, öppen källkods-fildelningsvärd.",
+      "title": "PsiTransfer"
+    },
+    {
       "id": "qbittorrent",
       "tagline": "Gratis BitTorrent-downladdare"
     },
@@ -342,8 +370,8 @@
     },
     {
       "id": "ragflow",
-      "title": "RagFlow",
-      "tagline": "RagFlow är en öppen källkods RAG-motor baserad på djup dokumentförståelse."
+      "tagline": "RagFlow är en öppen källkods RAG-motor baserad på djup dokumentförståelse.",
+      "title": "RagFlow"
     },
     {
       "id": "readarr",
@@ -383,8 +411,8 @@
     },
     {
       "id": "sure",
-      "title": "Sure",
-      "tagline": "Applikation för personlig finanshantering"
+      "tagline": "Applikation för personlig finanshantering",
+      "title": "Sure"
     },
     {
       "id": "swingmusic",
@@ -404,8 +432,8 @@
     },
     {
       "id": "teable",
-      "title": "Teable",
-      "tagline": "Teable använder ett koncisst kalkylbladgränssnitt, men skapar kraftfulla databasapplikationer"
+      "tagline": "Teable använder ett koncisst kalkylbladgränssnitt, men skapar kraftfulla databasapplikationer",
+      "title": "Teable"
     },
     {
       "id": "transmission",
@@ -414,6 +442,11 @@
     {
       "id": "trilium",
       "tagline": "Bygg din personliga kunskapsbas med TriliumNext Notes"
+    },
+    {
+      "id": "turbodiffusion_nvidia",
+      "tagline": "Ett accelerationsramverk för end-to-end-diffusionsgenerering med bibehållen videokvalitet",
+      "title": "TurboDiffusion(Nvidia GPU)"
     },
     {
       "id": "unifi-controller",
@@ -449,8 +482,8 @@
     },
     {
       "id": "weknora",
-      "title": "WeKnora",
-      "tagline": "WeKnora är ett LLM-baserat ramverk designat för djup dokumentförståelse och semantisk hämtning, särskilt för hantering av komplexa och heterogena dokument."
+      "tagline": "WeKnora är ett LLM-baserat ramverk designat för djup dokumentförståelse och semantisk hämtning, särskilt för hantering av komplexa och heterogena dokument.",
+      "title": "WeKnora"
     },
     {
       "id": "wg-easy",

@@ -26,3 +26,4 @@ x-casaos:
   title: Downtify
   index: /
   port_map: '8582'
+  version: 2.6.0

@@ -1,0 +1,4 @@
+{
+  "id": "jackett",
+  "releaseNotes": "- v0.24.1841 torrenttip, torrentsome, btstate, ADC, u2p, magnetcat, torrent9 ve czteam indeksleyici işlemlerini günceller.\n- Çeşitli izleyici alanları ve seçici/kategori yapılandırmaları yenilendi.\n- Docker kullanıcıları, in-app güncelleyicisini mevcut bir kapsayıcı içinde çalıştırmak yerine kapsayıcı görüntüsünü güncellemelidir."
+}

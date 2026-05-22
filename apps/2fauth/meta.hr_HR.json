@@ -1,0 +1,4 @@
+{
+  "id": "2fauth",
+  "releaseNotes": "- v5.4.3 popravlja izbrisane ikone koje se ponovno pojavljuju nakon spremanja iz naprednog obrasca the.\n- Ispravljeno je učitavanje stranice za prijavu, slanje obrasca izbornika podnožja, obrezani QR kodovi, zamrzavanje načina upravljanja i nedostajuće ikone računa no-icon.\n- Pogled /up više ne učitava CSS stilove iz tailwindcss.com."
+}

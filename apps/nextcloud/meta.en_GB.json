@@ -1,0 +1,4 @@
+{
+  "id": "nextcloud",
+  "releaseNotes": "- v32.0.0 points to the corresponding Nextcloud server release package.\n- This app tracks the Nextcloud 32.0.0 server release referenced by the upstream GitHub release."
+}

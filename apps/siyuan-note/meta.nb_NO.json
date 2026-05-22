@@ -1,0 +1,4 @@
+{
+  "id": "siyuan-note",
+  "releaseNotes": "- v3.0.1 legger til gjennomgangsmodus for flashkortsett.\n- Forbedringer inkluderer Mermaid-feillogger, F13-F32-snarveier, database-relation-field-atferd, mobilmenyforbedringer og kolonner for databasetabellvisning.\n- Rettelser dekker Azure OpenAI-oppsett, innebygd markdown-redigering, databasedatoeksport, plain-text-lim og user-guide-fanelukking."
+}

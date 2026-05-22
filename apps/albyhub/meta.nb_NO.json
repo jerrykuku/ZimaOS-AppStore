@@ -1,0 +1,4 @@
+{
+  "id": "albyhub",
+  "releaseNotes": "- v1.20.0 legger til en tilkoblingsveiviser for apper fra the app store.\n- Alby Hub-transaksjoner kan nå eksporteres til CSV fra the hovedtransaksjonsliste og individuelle tilkoblinger/subwallets.\n- Kanaler kan kjøpes med den foretrukne betalingsmetoden, og en søkedialog/hurtigtast ble lagt til for rask navigering."
+}

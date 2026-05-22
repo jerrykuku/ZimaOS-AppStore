@@ -25,3 +25,4 @@ x-casaos:
   title: CloudBeaver
   index: /
   port_map: '8978'
+  version: 25.2.5

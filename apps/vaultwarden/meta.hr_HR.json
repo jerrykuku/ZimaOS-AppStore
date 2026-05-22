@@ -1,0 +1,4 @@
+{
+  "id": "vaultwarden",
+  "releaseNotes": "- 1.32.7 uključuje sigurnosni popravak za instalacije s omogućenim ORG_GROUPS_ENABLED.\n- SMTP izvorne vrijednosti slike su maskirane u nizu podrške.\n- Uključeno je refaktoriranje, optimizacije, podrška za unos connect-src i ažurirana upotreba ferna."
+}

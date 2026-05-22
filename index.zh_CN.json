@@ -34,13 +34,13 @@
     },
     {
       "id": "anythingllm",
-      "title": "AnythingLLM",
-      "tagline": "一体化 AI 应用程序。"
+      "tagline": "一体化 AI 应用程序。",
+      "title": "AnythingLLM"
     },
     {
       "id": "archivebox",
-      "title": "ArchiveBox",
-      "tagline": "自托管互联网存档解决方案"
+      "tagline": "自托管互联网存档解决方案",
+      "title": "ArchiveBox"
     },
     {
       "id": "audiobookshelf",
@@ -57,6 +57,10 @@
     {
       "id": "beaverhabittracker",
       "tagline": "一款自托管的无目标习惯跟踪工具。"
+    },
+    {
+      "id": "blinko",
+      "tagline": "Blinko 是一个由人工智能驱动的卡片笔记项目。专为希望快速捕捉和整理转瞬即逝想法的个人设计。Blinko 允许用户无缝地记录下灵光乍现的瞬间，确保每一个创意的火花都不会流失。"
     },
     {
       "id": "calibre-web",
@@ -83,6 +87,11 @@
       "tagline": "一款支持多种格式的多功能文件转换工具。"
     },
     {
+      "id": "copyparty",
+      "tagline": "一个简单、私密的文件服务器。",
+      "title": "CopyParty"
+    },
+    {
       "id": "crafty",
       "tagline": "掌控你的Minecraft服务器。"
     },
@@ -100,8 +109,8 @@
     },
     {
       "id": "deepseek-ocr-nvidia",
-      "title": "DeepSeek OCR(Nvidia GPU)",
-      "tagline": "DeepSeek AI 驱动的强大 OCR"
+      "tagline": "DeepSeek AI 驱动的强大 OCR",
+      "title": "DeepSeek OCR(Nvidia GPU)"
     },
     {
       "id": "deluge",
@@ -136,12 +145,12 @@
       "tagline": "家庭自动化系统"
     },
     {
-      "id": "excalidraw",
-      "tagline": "用于绘制手绘风格图表的虚拟白板"
+      "id": "etherpad",
+      "tagline": "实时协作文档编辑器"
     },
     {
-      "id": "filebrowser",
-      "tagline": "上传，删除，预览，重命名，编辑和共享您的文件。"
+      "id": "excalidraw",
+      "tagline": "用于绘制手绘风格图表的虚拟白板"
     },
     {
       "id": "filedrop",
@@ -153,8 +162,8 @@
     },
     {
       "id": "firefly",
-      "title": "萤火虫",
-      "tagline": "最简单易用的WireGuard服务器。可广泛应用于内网穿透、异地组网、远程办公等场景。"
+      "tagline": "最简单易用的WireGuard服务器。可广泛应用于内网穿透、异地组网、远程办公等场景。",
+      "title": "萤火虫"
     },
     {
       "id": "flowise",
@@ -174,8 +183,8 @@
     },
     {
       "id": "glances",
-      "title": "Glances",
-      "tagline": "跨平台监控工具"
+      "tagline": "跨平台监控工具",
+      "title": "Glances"
     },
     {
       "id": "gopeed",
@@ -215,13 +224,13 @@
     },
     {
       "id": "index-tts",
-      "title": "Index-TTS",
-      "tagline": "工业级可控高效的零样本文本转语音系统"
+      "tagline": "工业级可控高效的零样本文本转语音系统",
+      "title": "Index-TTS"
     },
     {
       "id": "index-tts-nvidia",
-      "title": "Index-TTS(Nvidia GPU)",
-      "tagline": "工业级可控高效的零样本文本转语音系统"
+      "tagline": "工业级可控高效的零样本文本转语音系统",
+      "title": "Index-TTS(Nvidia GPU)"
     },
     {
       "id": "jackett",
@@ -261,8 +270,8 @@
     },
     {
       "id": "langflow",
-      "title": "Langflow",
-      "tagline": "用于构建和调试多智能体和RAG应用的开源UI"
+      "tagline": "用于构建和调试多智能体和RAG应用的开源UI",
+      "title": "Langflow"
     },
     {
       "id": "lazylibrarian",
@@ -270,17 +279,22 @@
     },
     {
       "id": "librechat",
-      "title": "LibreChat",
-      "tagline": "功能完整的开源AI聊天界面"
+      "tagline": "功能完整的开源AI聊天界面",
+      "title": "LibreChat"
     },
     {
       "id": "lidarr",
       "tagline": "用于Usenet和BitTorrent用户的音乐收藏管理器"
     },
     {
+      "id": "linkwarden",
+      "tagline": "自托管协作式书签管理器，可在一个地方收集、阅读、批注并完整保存重要内容。",
+      "title": "Linkwarden"
+    },
+    {
       "id": "llama-factory-nvidia",
-      "title": "LLaMA Factory(Nvidia GPU)",
-      "tagline": "统一的LLM微调,支持100+模型"
+      "tagline": "统一的LLM微调,支持100+模型",
+      "title": "LLaMA Factory(Nvidia GPU)"
     },
     {
       "id": "logseq",
@@ -300,8 +314,8 @@
     },
     {
       "id": "maybe",
-      "title": "Maybe",
-      "tagline": "个人理财管理应用"
+      "tagline": "个人理财管理应用",
+      "title": "Maybe"
     },
     {
       "id": "memos",
@@ -357,8 +371,8 @@
     },
     {
       "id": "nginxproxymanager",
-      "title": "Nginx 代理管理器",
-      "tagline": "通过简单、强大的界面管理 Nginx 代理主机。"
+      "tagline": "通过简单、强大的界面管理 Nginx 代理主机。",
+      "title": "Nginx 代理管理器"
     },
     {
       "id": "node-red",
@@ -386,8 +400,13 @@
     },
     {
       "id": "open-webui-ollama",
-      "title": "Open WebUI",
-      "tagline": "用户友好的 LLMs WebUI（前身为 Ollama WebUI）"
+      "tagline": "用户友好的 LLMs WebUI（前身为 Ollama WebUI）",
+      "title": "Open WebUI"
+    },
+    {
+      "id": "openclaw",
+      "tagline": "OpenClaw 是一个您在自己的设备上运行的个人 AI 助手。",
+      "title": "OpenClaw"
     },
     {
       "id": "openhab",
@@ -395,8 +414,12 @@
     },
     {
       "id": "openhands",
-      "title": "OpenHands",
-      "tagline": "开源AI驱动的编程助手"
+      "tagline": "开源AI驱动的编程助手",
+      "title": "OpenHands"
+    },
+    {
+      "id": "openlist",
+      "tagline": "将你的云盘挂载到家用 NAS 上"
     },
     {
       "id": "openspeedtest",
@@ -404,8 +427,8 @@
     },
     {
       "id": "opodsync",
-      "title": "oPodSync",
-      "tagline": "播客同步服务"
+      "tagline": "播客同步服务",
+      "title": "oPodSync"
     },
     {
       "id": "overseerr",
@@ -417,8 +440,8 @@
     },
     {
       "id": "peanut",
-      "title": "PeaNUT",
-      "tagline": "UPS监控和停电通知系统"
+      "tagline": "UPS监控和停电通知系统",
+      "title": "PeaNUT"
     },
     {
       "id": "petio",
@@ -438,8 +461,8 @@
     },
     {
       "id": "pingvin-share",
-      "title": "Pingvin-Share",
-      "tagline": "具有现代Web界面的自托管文件共享"
+      "tagline": "具有现代Web界面的自托管文件共享",
+      "title": "Pingvin-Share"
     },
     {
       "id": "playit-agent",
@@ -466,9 +489,14 @@
       "tagline": "各种PVR应用程序的集成"
     },
     {
+      "id": "psitransfer",
+      "tagline": "一个简单、开源的文件分享托管服务。",
+      "title": "PsiTransfer"
+    },
+    {
       "id": "pyload",
-      "title": "PyLoad",
-      "tagline": "免费下载管理器。"
+      "tagline": "免费下载管理器。",
+      "title": "PyLoad"
     },
     {
       "id": "qbittorrent",
@@ -480,8 +508,8 @@
     },
     {
       "id": "ragflow",
-      "title": "RagFlow",
-      "tagline": "RagFlow是一个基于深度文档理解的开源RAG引擎。"
+      "tagline": "RagFlow是一个基于深度文档理解的开源RAG引擎。",
+      "title": "RagFlow"
     },
     {
       "id": "readarr",
@@ -509,8 +537,8 @@
     },
     {
       "id": "siyuan-note",
-      "title": "思源笔记",
-      "tagline": "隐私优先的个人知识管理"
+      "tagline": "隐私优先的个人知识管理",
+      "title": "思源笔记"
     },
     {
       "id": "smokeping",
@@ -526,18 +554,18 @@
     },
     {
       "id": "stremio",
-      "title": "Stremio",
-      "tagline": "现代的媒体中心，提供自由观看您喜欢的一切的体验。"
+      "tagline": "现代的媒体中心，提供自由观看您喜欢的一切的体验。",
+      "title": "Stremio"
     },
     {
       "id": "sure",
-      "title": "Sure",
-      "tagline": "个人理财管理应用"
+      "tagline": "个人理财管理应用",
+      "title": "Sure"
     },
     {
       "id": "swingmusic",
-      "title": "Swing Music",
-      "tagline": "Swing Music 是一个设计精美的自我托管音乐流媒体服务器。像一个更酷的 Spotify……但请自带音乐。"
+      "tagline": "Swing Music 是一个设计精美的自我托管音乐流媒体服务器。像一个更酷的 Spotify……但请自带音乐。",
+      "title": "Swing Music"
     },
     {
       "id": "syncthing",
@@ -557,13 +585,13 @@
     },
     {
       "id": "teable",
-      "title": "Teable",
-      "tagline": "Teable采用简洁的电子表格式界面，却能创建功能强大的数据库应用程序"
+      "tagline": "Teable采用简洁的电子表格式界面，却能创建功能强大的数据库应用程序",
+      "title": "Teable"
     },
     {
       "id": "threadfin",
-      "title": "Threadfin",
-      "tagline": "M3U代理服务器"
+      "tagline": "M3U代理服务器",
+      "title": "Threadfin"
     },
     {
       "id": "transmission",
@@ -571,13 +599,18 @@
     },
     {
       "id": "trilium",
-      "title": "Trilium",
-      "tagline": "使用 TriliumNext Notes 构建您的个人知识库"
+      "tagline": "使用 TriliumNext Notes 构建您的个人知识库",
+      "title": "Trilium"
+    },
+    {
+      "id": "turbodiffusion_nvidia",
+      "tagline": "一种能够加速端到端扩散生成并保持视频质量的视频生成加速框架",
+      "title": "TurboDiffusion(Nvidia GPU)"
     },
     {
       "id": "unifi-controller",
-      "title": "Unifi控制器 [legacy]",
-      "tagline": "Unifi控制器软件是一种功能强大的企业级无线软件引擎，适用于需要低延迟和高可用性性能的高密度客户端部署。"
+      "tagline": "Unifi控制器软件是一种功能强大的企业级无线软件引擎，适用于需要低延迟和高可用性性能的高密度客户端部署。",
+      "title": "Unifi控制器 [legacy]"
     },
     {
       "id": "unifi-network-application",
@@ -613,8 +646,8 @@
     },
     {
       "id": "weknora",
-      "title": "WeKnora",
-      "tagline": "WeKnora 是一个由大语言模型驱动的框架，专为深度文档理解和语义检索而设计，特别适用于处理复杂、异构的文档。"
+      "tagline": "WeKnora 是一个由大语言模型驱动的框架，专为深度文档理解和语义检索而设计，特别适用于处理复杂、异构的文档。",
+      "title": "WeKnora"
     },
     {
       "id": "wg-easy",

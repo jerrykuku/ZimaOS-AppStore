@@ -1,0 +1,4 @@
+{
+  "id": "adguard-home",
+  "releaseNotes": "- v0.107.61 は cache poisoning 脆弱性を修正します。\n- 同時に発生した重複リクエストは、単一の upstream リクエストにまとめられるようになりました。\n- 新しい pending_requests 設定はデフォルトで有効になり、信頼できないクライアントに推奨されます。"
+}

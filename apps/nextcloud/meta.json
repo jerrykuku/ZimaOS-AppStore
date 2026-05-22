@@ -22,6 +22,12 @@
   "tagline": "Content collaboration platform",
   "thumbnail": "/apps/nextcloud/assets/thumbnail.webp",
   "tips": {},
+  "updateAt": "2025-09-27",
+  "releaseNotes": "- v32.0.0 points to the corresponding Nextcloud server release package.\n- This app tracks the Nextcloud 32.0.0 server release referenced by the upstream GitHub release.",
+  "website": "https://nextcloud.com",
+  "repo": "https://github.com/nextcloud/server",
+  "support": "https://help.nextcloud.com",
+  "docs": "https://docs.nextcloud.com/server/latest/admin_manual/",
   "title": "Nextcloud",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

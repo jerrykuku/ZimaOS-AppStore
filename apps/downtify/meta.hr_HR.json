@@ -1,0 +1,4 @@
+{
+  "id": "downtify",
+  "releaseNotes": "- 2.6.0 dodaje opciju spremanja glazbe u mape izvođača.\n- Dodaje postavku za onemogućavanje preuzimanja pjesama.\n- Popravlja brisanje povijesti preuzimanja i postojanost postavki."
+}

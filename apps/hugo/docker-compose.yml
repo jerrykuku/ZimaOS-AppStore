@@ -30,3 +30,4 @@ x-casaos:
   port_map: '1313'
   index: /
   title: Hugo
+  version: v0.152.2

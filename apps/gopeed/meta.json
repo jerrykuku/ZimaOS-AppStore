@@ -14,6 +14,12 @@
     "/apps/gopeed/assets/screenshot-3.webp"
   ],
   "tagline": "Open source, lightweight, native, supports (HTTP, BitTorrent, Magnet, etc.) for downloading.",
+  "updateAt": "2025-11-30",
+  "releaseNotes": "- v1.8.3 publishes refreshed desktop builds for Windows, macOS, and Linux.\n- Linux packaging includes Flathub, Snap, DEB, RPM, AppImage, and Pacman variants.\n- Android, iOS, and browser extension downloads are listed for the same release.",
+  "website": "https://gopeed.com",
+  "repo": "https://github.com/gopeedlab/gopeed",
+  "support": "https://github.com/GopeedLab/gopeed/issues",
+  "docs": "https://gopeed.com/docs",
   "title": "Gopeed",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

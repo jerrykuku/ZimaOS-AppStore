@@ -16,6 +16,12 @@
   "tagline": "Monitor your Plex Media Server and much more.",
   "thumbnail": "/apps/tautulli/assets/thumbnail.webp",
   "tips": {},
+  "updateAt": "2023-10-26",
+  "releaseNotes": "- v2.13.2 adds quarter-value icons for history watch status.\n- A concurrent streams per day graph and metadata directory exporter field were added.\n- Notification and newsletter agent lists now show the last triggered time, and X-Plex-Language can be overridden in config.",
+  "website": "https://tautulli.com",
+  "repo": "https://github.com/Tautulli/Tautulli",
+  "support": "https://github.com/Tautulli/Tautulli/issues",
+  "docs": "https://github.com/Tautulli/Tautulli-Wiki/wiki",
   "title": "Tautulli",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

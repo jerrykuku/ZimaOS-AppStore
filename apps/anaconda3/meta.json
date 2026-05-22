@@ -19,6 +19,12 @@
     "zh_CN": "私有炼丹炉",
     "before_install": "After installation, please check the token in the container log (Settings - TopRight - Terminal and Logs - Logs)."
   },
+  "updateAt": "2024-10-31",
+  "releaseNotes": "- anaconda3-2024.10-1 publishes updated Debian images for Anaconda Distribution 2024.10-1.",
+  "website": "https://www.anaconda.com",
+  "repo": "https://github.com/anaconda/docker-images",
+  "support": "https://github.com/anaconda/docker-images/issues",
+  "docs": "https://docs.anaconda.com/anaconda/",
   "title": "Anaconda3",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

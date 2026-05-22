@@ -1,0 +1,4 @@
+{
+  "id": "handbrake",
+  "releaseNotes": "- v25.10.1은 Automatic Video Converter에서 안정성을 확인하기 전에 video files를 잠급니다.\n- 컨테이너 종료 중 Automatic Video Converter cleanup이 향상되었습니다."
+}

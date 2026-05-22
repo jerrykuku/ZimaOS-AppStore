@@ -1,0 +1,4 @@
+{
+  "id": "gateway-go",
+  "releaseNotes": "- v2.0.11 inclut des changements liés à OpenWrt.\n- La récupération après panic et la gestion de l'enregistrement de service ont été mises à jour.\n- La documentation README a été actualisée."
+}

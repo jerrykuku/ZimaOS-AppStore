@@ -1,0 +1,4 @@
+{
+  "id": "adguard-home",
+  "releaseNotes": "- v0.107.61 fikser et cache-forgiftningssårbarhet.\n- Dupliserte samtidige forespørsler er nå slått sammen til en enkelt oppstrømsforespørsel.\n- Den nye pending_requests-konfigurasjonen er aktivert av default og anbefales for ikke-klarerte klienter."
+}

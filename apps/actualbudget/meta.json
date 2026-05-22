@@ -19,6 +19,12 @@
   "tips": {
     "before_install": "After opening the web page for the first time, you will see an error popup. Click the `Advanced options` option to successfully enter the Actual Budget web page.\n"
   },
+  "updateAt": "2025-07-03",
+  "releaseNotes": "- This release contains the following improvements:\n- Fix the amount input in the rules and schedules page not allowing decimals\n- Docker tag: v25.7.1\nBugfix:\n- #5270 Fix adding decimals to desktop amount inputs — thanks youngcw",
+  "website": "https://actualbudget.org",
+  "repo": "https://github.com/actualbudget/actual",
+  "support": "https://github.com/actualbudget/actual/issues",
+  "docs": "https://actualbudget.org/docs",
   "title": "Actual Budget",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

@@ -1,0 +1,4 @@
+{
+  "id": "albyhub",
+  "releaseNotes": "- v1.20.0은 app store의 앱을 위한 연결 마법사를 추가합니다.\n- 이제 기본 거래 목록과 개별 연결/subwallet에서 Alby Hub 거래를 CSV로 내보낼 수 있습니다.\n- 선호하는 결제 수단으로 channels를 구매할 수 있으며 빠른 탐색을 위한 검색 대화상자/단축키가 추가되었습니다."
+}

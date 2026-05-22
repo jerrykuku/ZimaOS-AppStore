@@ -1,0 +1,4 @@
+{
+  "id": "gitea",
+  "releaseNotes": "- v1.25.0 はリポジトリアーカイブのストリーミング、設定可能な Git remote 名、workflow 成功/失敗メールを追加します。\n- OpenID Connect、リポジトリ contents API、SSH commit signing、3D/CAD プレビューが改善されました。\n- セキュリティ更新には public-key upgrade と、1.25.0-rc0 以降のすべての 1.24.x セキュリティ修正が含まれます。"
+}

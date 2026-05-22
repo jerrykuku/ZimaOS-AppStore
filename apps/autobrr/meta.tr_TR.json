@@ -1,0 +1,4 @@
+{
+  "id": "autobrr",
+  "releaseNotes": "- v1.69.0 yapılandırılabilir CORS ayarları, kapatıldığında HTTP kaynak sürümü, Bekleyen sürüm filtreleme, failed-list yenileme uyarıları, BJ-Share desteği ve DarkPeers Öne Çıkan Promosyon desteği ekler.\n- Dizin oluşturucu güncellemeleri, SASL kimlik doğrulamasını ve ReelFlix etki alanı değişikliklerini içerir.\n- Düzeltmeler arasında eksik veritabanı rows.Close çağrıları, SQLite-to-PostgreSQL dönüştürme sorunları, HHD regex, proxy kimlik bilgisi testi, Windows exec arg ayrıştırması ve web açılır listesi çökmesi yer alıyor."
+}

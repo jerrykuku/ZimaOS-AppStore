@@ -1,0 +1,4 @@
+{
+  "id": "nextcloud",
+  "releaseNotes": "- v32.0.0 pokazuje na odgovarajući paket izdanja poslužitelja Nextcloud.\n- Ova aplikacija prati izdanje poslužitelja Nextcloud 32.0.0 na koje upućuje the uzvodno izdanje GitHub."
+}

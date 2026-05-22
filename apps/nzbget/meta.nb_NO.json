@@ -1,0 +1,4 @@
+{
+  "id": "nzbget",
+  "releaseNotes": "- NZBGet 25.4 legger til TLS 1.3 chifferpakkestøtte gjennom alternativet ServerX.Cipher.\n- Nettsøkefeltet UI er aktivert på små skjermer.\n- Rettelser inkluderer skanneskript API-håndtering, RSS-feedkategoriapplikasjon fra filter-regler, JSON-verdiparsing og testserver API-metoden."
+}

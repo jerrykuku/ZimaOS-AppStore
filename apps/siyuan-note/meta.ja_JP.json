@@ -1,0 +1,4 @@
+{
+  "id": "siyuan-note",
+  "releaseNotes": "- v3.0.1 は flashcard set review mode を追加します。\n- Mermaid error logs、F13-F32 shortcuts、database relation-field behavior、mobile menu 改善、database table view template columns が強化されました。\n- Azure OpenAI setup、inline markdown editing、database date export、plain-text paste、user-guide tab closing が修正されました。"
+}

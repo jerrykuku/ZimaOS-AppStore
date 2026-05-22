@@ -12,6 +12,12 @@
     "before_install": "Default user: `casaos`\nDefault password: `casaos`\nDefault database: `casaos`\n\nDefault root password: `casaos`\n"
   },
   "category": "Developer",
+  "updateAt": "2025-08-06",
+  "releaseNotes": "- The GitHub release points to the matching MariaDB community server release notes.\n- Detailed changes are delegated to the corresponding MariaDB release-notes page.",
+  "website": "https://mariadb.org/",
+  "repo": "https://github.com/MariaDB/server",
+  "support": "https://mariadb.com/docs/general-resources/community/community/faq/getting-help-with-mariadb",
+  "docs": "https://mariadb.com/kb/en/documentation/",
   "title": "MariaDB",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

@@ -1,0 +1,4 @@
+{
+  "id": "cloudbeaver",
+  "releaseNotes": "- Il tag immagine 25.2.5 configurato non ha un oggetto di rilascio GitHub corrispondente in dbeaver/cloudbeaver.\n- Mantieni questa voce legata alla riga dell'immagine CloudBeaver 25.2 finché l'upstream non pubblica le note di rilascio per-tag."
+}

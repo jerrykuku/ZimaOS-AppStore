@@ -12,6 +12,12 @@
   "category": "Productivity",
   "hostname": "",
   "store_app_id": "resilio-sync",
+  "updateAt": "2024-06-14",
+  "releaseNotes": "",
+  "website": "https://www.resilio.com/sync/",
+  "repo": "https://github.com/linuxserver/docker-resilio-sync",
+  "support": "https://github.com/linuxserver/docker-resilio-sync/issues",
+  "docs": "https://docs.linuxserver.io/images/docker-resilio-sync/",
   "title": "resilio-sync",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

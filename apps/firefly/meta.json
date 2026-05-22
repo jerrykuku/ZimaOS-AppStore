@@ -17,6 +17,12 @@
     "before_install": "Default password for admin background `firefly`, you can modify it in environment variables.",
     "custom": ""
   },
+  "updateAt": "2024-06-11",
+  "releaseNotes": "",
+  "website": "https://qq.uusec.com/",
+  "repo": "https://github.com/Safe3/firefly",
+  "support": "https://github.com/Safe3/firefly/issues",
+  "docs": "https://github.com/Safe3/firefly#readme",
   "title": "Firefly",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

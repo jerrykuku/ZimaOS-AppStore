@@ -16,6 +16,12 @@
     "before_install": "Default Account\n| Email | Password |\n| ----- | -------- |\n| `casaos@admin.local` | `adminpocketbase` |\n"
   },
   "thumbnail": "/apps/pocketbase/assets/thumbnail.webp",
+  "updateAt": "2025-03-05",
+  "releaseNotes": "- v0.25.9 fixes DynamicModel object/array property reflect type caching.",
+  "website": "https://pocketbase.io",
+  "repo": "https://github.com/pocketbase/pocketbase",
+  "support": "https://github.com/pocketbase/pocketbase/discussions",
+  "docs": "https://pocketbase.io/docs/",
   "title": "PocketBase",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

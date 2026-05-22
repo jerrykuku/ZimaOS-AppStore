@@ -17,6 +17,12 @@
   "tips": {
     "before_install": "We recommend reviewing the [Quick Start](https://gohugo.io/getting-started/quick-start/) documentation to learn how to use Hugo."
   },
+  "updateAt": "2025-10-24",
+  "releaseNotes": "- v0.152.2 restores support for valid module/theme mounts that reference node_modules.\n- Hugo now treats node_modules as a special mount source fallback relative to the project root.\n- The release also updates minify and fixes a GitHub stale PR message typo.",
+  "website": "https://gohugo.io/",
+  "repo": "https://github.com/gohugoio/hugo",
+  "support": "https://github.com/gohugoio/hugo/issues",
+  "docs": "https://gohugo.io/documentation/",
   "title": "Hugo",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

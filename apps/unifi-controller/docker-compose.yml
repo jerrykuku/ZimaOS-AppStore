@@ -52,3 +52,4 @@ x-casaos:
   title: Unifi-controller [legacy]
   index: /
   port_map: '8383'
+  version: 8.0.7

@@ -1,0 +1,4 @@
+{
+  "id": "gitea",
+  "releaseNotes": "- v1.25.0 adiciona streaming de ficheiros de repositório, nomes remotos Git configuráveis ​​e e-mails de sucesso/falha de fluxo de trabalho.\n- OpenID Connect, conteúdo do repositório APIs, assinatura de commit de SSH e visualizações de 3D/CAD foram melhoradas.\n- As atualizações de segurança incluem uma atualização public-key e todas as correções de segurança 1.24.x posteriores a 1.25.0-rc0."
+}

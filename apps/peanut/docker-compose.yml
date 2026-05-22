@@ -25,3 +25,4 @@ x-casaos:
   port_map: '8084'
   index: /
   scheme: http
+  version: 5.19.1

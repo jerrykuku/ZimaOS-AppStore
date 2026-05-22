@@ -13,6 +13,12 @@
     "/apps/index-tts-nvidia/assets/screenshot-3.webp"
   ],
   "thumbnail": "/apps/index-tts-nvidia/assets/thumbnail.webp",
+  "updateAt": "2026-01-08",
+  "releaseNotes": "- IndexTTS 2.0 tracks the upstream IndexTTS2 release.\n- IndexTTS2 adds controllable and uncontrollable precise speech duration generation for autoregressive TTS.\n- It adds expressive emotion control through multiple input modalities while keeping zero-shot timbre reproduction.",
+  "website": "",
+  "repo": "https://github.com/index-tts/index-tts",
+  "support": "https://github.com/index-tts/index-tts/issues",
+  "docs": "https://github.com/index-tts/index-tts#readme",
   "title": "Index-TTS(Nvidia GPU)",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

@@ -56,3 +56,4 @@ x-casaos:
   port_map: '18930'
   index: /
   title: Monica
+  version: 4.1.2

@@ -1,0 +1,4 @@
+{
+  "id": "cloudbeaver",
+  "releaseNotes": "- A etiqueta de imagem 25.2.5 configurada não tem nenhum objeto Release GitHub correspondente em dbeaver/cloudbeaver.\n- Mantenha esta entrada ligada à linha de imagem CloudBeaver 25.2 até que o upstream publique as notas de versão per-tag."
+}

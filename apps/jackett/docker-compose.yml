@@ -31,3 +31,4 @@ x-casaos:
   title: Jackett
   index: /
   port_map: '9117'
+  version: 0.24.1841

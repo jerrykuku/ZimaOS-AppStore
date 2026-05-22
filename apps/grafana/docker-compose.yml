@@ -23,3 +23,4 @@ x-casaos:
   title: Grafana
   index: /
   port_map: '3003'
+  version: 12.1.4

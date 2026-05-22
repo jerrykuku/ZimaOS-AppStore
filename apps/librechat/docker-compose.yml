@@ -7,7 +7,7 @@ services:
     depends_on:
     - librechat-mongodb
     - librechat-rag-api
-    image: ghcr.io/danny-avila/librechat-dev@sha256:55f9aaf10fec59adf8d95eb91c446678f108c2401542a75ccfff642517c56d0d
+    image: ghcr.io/danny-avila/librechat-dev@sha256:33c35da8c4e41a8bfa34cc89251df1e6c5dfa2d67f763dcfea9fcc3d8fe173c5
     restart: unless-stopped
     extra_hosts:
     - host.docker.internal:host-gateway
@@ -160,3 +160,4 @@ x-casaos:
   port_map: '3080'
   scheme: http
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/librechat/assets/icon.svg
+  version: latest

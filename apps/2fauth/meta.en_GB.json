@@ -1,0 +1,4 @@
+{
+  "id": "2fauth",
+  "releaseNotes": "- v5.4.3 fixes deleted icons reappearing after saving from the advanced form.\n- Login page loading, footer menu form submission, cropped QR codes, Manage mode freezes, and missing no-icon account icons were fixed.\n- The /up view no longer loads CSS styles from tailwindcss.com."
+}

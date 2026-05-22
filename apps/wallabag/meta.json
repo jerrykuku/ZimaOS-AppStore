@@ -17,6 +17,12 @@
   "tips": {
     "before_install": "You need to set the environment variable `SYMFONY__ENV__DOMAIN_NAME` to your domain name or IP address, which can be modified through the Wallabag settings page.\n\n**Default Account**\n\n| Username | Password |\n|----------|----------|\n| `wallabag`    | `wallabag` |\n"
   },
+  "updateAt": "2025-06-04",
+  "releaseNotes": "- 2.6.13 prevents non-validated OTP from being enabled.\n- Pocket and Shaarli imports were backported, and Pocket CSV import support was added.\n- Readability and site-configuration dependencies were updated.",
+  "website": "https://wallabag.org",
+  "repo": "https://github.com/wallabag/wallabag",
+  "support": "https://github.com/wallabag/wallabag/issues",
+  "docs": "https://doc.wallabag.org",
   "title": "Wallabag",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

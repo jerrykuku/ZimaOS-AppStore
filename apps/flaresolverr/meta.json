@@ -10,6 +10,12 @@
     "/apps/flaresolverr/assets/screenshot-1.webp"
   ],
   "store_app_id": "flaresolverr",
+  "updateAt": "2025-11-11",
+  "releaseNotes": "- v3.4.5 reverts the runtime to Python v3.13 and bumps FlareSolverr to 3.4.5.\n- Dockerfile casing and changelog generation were fixed.",
+  "website": "",
+  "repo": "https://github.com/FlareSolverr/FlareSolverr",
+  "support": "https://github.com/FlareSolverr/FlareSolverr/issues",
+  "docs": "https://github.com/FlareSolverr/FlareSolverr#readme",
   "title": "FlareSolverr",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

@@ -1,0 +1,4 @@
+{
+  "id": "cloudbeaver",
+  "releaseNotes": "- Den konfigurerade 25.2.5-bildtaggen har inget matchande GitHub Release-objekt i dbeaver/cloudbeaver.\n- Håll denna post kopplad till CloudBeaver 25.2 bildraden tills uppströms publicerar per-tag release notes."
+}

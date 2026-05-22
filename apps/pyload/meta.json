@@ -17,6 +17,12 @@
   "tips": {
     "before_install": "Default Account\n\n| Username | Password |\n|----------|----------|\n| `pyload`    | `pyload` |\n\nDefault Accessible Path in Pyload\n\n| Name | Value |\n| ---- | ----- |\n| Downloads Path | `/DATA/Downloads` |\n"
   },
+  "updateAt": "2024-01-25",
+  "releaseNotes": "",
+  "website": "https://pyload.net",
+  "repo": "https://github.com/pyload/pyload",
+  "support": "https://github.com/pyload/pyload/issues",
+  "docs": "https://github.com/pyload/pyload/wiki",
   "title": "PyLoad",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

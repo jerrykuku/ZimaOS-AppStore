@@ -35,3 +35,4 @@ x-casaos:
   port_map: '5800'
   scheme: http
   title: JDownloader2
+  version: latest

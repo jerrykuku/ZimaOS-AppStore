@@ -13,6 +13,12 @@
   ],
   "tagline": "File processing made easy!",
   "description": "Save storage space with efficient file processing.\n\nFileFlows lets you monitor and process any file type with custom flows. Videos, audio, images, archives, comics, eBooks—you name it!\n",
+  "updateAt": "2024-12-18",
+  "releaseNotes": "",
+  "website": "https://fileflows.com/",
+  "repo": "",
+  "support": "https://fileflows.com/docs",
+  "docs": "https://fileflows.com/docs",
   "title": "FileFlows",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

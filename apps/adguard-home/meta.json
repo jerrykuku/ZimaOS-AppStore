@@ -18,6 +18,12 @@
   "tagline": "Blocking ads & tracking Network-widly",
   "thumbnail": "/apps/adguard-home/assets/thumbnail.webp",
   "tips": {},
+  "updateAt": "2025-04-22",
+  "releaseNotes": "- v0.107.61 fixes a cache poisoning vulnerability.\n- Duplicate simultaneous requests are now coalesced into a single upstream request.\n- The new pending_requests configuration is enabled by default and is recommended for untrusted clients.",
+  "website": "https://adguard.com/en/adguard-home/overview.html",
+  "repo": "https://github.com/AdguardTeam/AdGuardHome",
+  "support": "https://github.com/AdguardTeam/AdGuardHome/issues",
+  "docs": "https://github.com/AdguardTeam/AdGuardHome/wiki",
   "title": "AdGuard Home",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

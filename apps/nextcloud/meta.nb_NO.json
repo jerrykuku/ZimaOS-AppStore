@@ -1,0 +1,4 @@
+{
+  "id": "nextcloud",
+  "releaseNotes": "- v32.0.0 peker på den tilsvarende Nextcloud-serverutgivelsespakken.\n- Denne appen sporer Nextcloud 32.0.0-serverutgivelsen referert av the oppstrøms GitHub-utgivelsen."
+}

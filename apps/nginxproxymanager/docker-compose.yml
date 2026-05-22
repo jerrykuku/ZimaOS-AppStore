@@ -32,3 +32,4 @@ x-casaos:
   title: Nginx Proxy Manager
   index: /
   port_map: '81'
+  version: 2.13.5

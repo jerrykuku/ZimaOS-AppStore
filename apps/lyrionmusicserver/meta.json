@@ -15,6 +15,12 @@
     "/apps/lyrionmusicserver/assets/screenshot-3.webp"
   ],
   "thumbnail": "",
+  "updateAt": "2026-02-19",
+  "releaseNotes": "- This release was checked from the upstream GitHub tag compare.\n- Advanced Search gained subtitle support, including track subtitle and album/set subtitle distinctions.\n- Updates include individual album rescan mode, additional browse modes with CLI support, radio artwork lookup improvements, WEBP image proxy resizing, CJK search handling, and embedded cuesheet FLAC transcoding.",
+  "website": "https://www.lyrion.org",
+  "repo": "https://github.com/lms-community/slimserver",
+  "support": "",
+  "docs": "https://lyrion.org/getting-started/",
   "title": "LyrionMusicServer",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

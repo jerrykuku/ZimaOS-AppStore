@@ -1,0 +1,4 @@
+{
+  "id": "sabnzbd",
+  "releaseNotes": "- 4.1.0은 Config, Login, Wizard 페이지에 dark mode를 추가하고 History에 multi-select를 추가합니다.\n- proxy validation, log purging, server IP selection, IPv6 server settings, archive unpacking behavior가 업데이트되었습니다.\n- duplicate detection, filename sorting, paused queue priority handling, API-key log sanitization, disk writes, folder sanitization, article decoding, QuickCheck renaming이 수정되었습니다."
+}

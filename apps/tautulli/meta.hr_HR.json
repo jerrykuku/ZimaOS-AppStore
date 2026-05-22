@@ -1,0 +1,4 @@
+{
+  "id": "tautulli",
+  "releaseNotes": "- v2.13.2 dodaje quarter-value ikone za status praćenja povijesti.\n- Dodani su grafikon istodobnih tokova po danu i polje za izvoz direktorija metapodataka.\n- Popisi agenata za obavijesti i biltene sada prikazuju zadnje aktivirano vrijeme, a X-Plex-Language se može nadjačati u konfiguraciji."
+}

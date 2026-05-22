@@ -1,0 +1,4 @@
+{
+  "id": "adguard-home",
+  "releaseNotes": "- v0.107.61 popravlja ranjivost trovanja predmemorije.\n- Dvostruki istodobni zahtjevi sada su spojeni u jedan uzvodni zahtjev.\n- Novu konfiguraciju pending_requests omogućio je default i preporučuje se nepouzdanim klijentima."
+}

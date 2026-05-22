@@ -1,0 +1,4 @@
+{
+  "id": "grafana",
+  "releaseNotes": "- v12.1.4, zaman aralıklarını içerecek şekilde uyarı durumu sıralamasını kaldırmayı düzeltir.\n- Kurumsal kontrol paneli toplama ölçümleri, last-period özetleri ve toplam sıfırlamalar için düzeltildi.\n- CVE-2025-41115 için Kurumsal SCIM güvenlik düzeltmesi dahildir."
+}

@@ -14,6 +14,12 @@
     "/apps/obsidian/assets/screenshot-3.webp"
   ],
   "thumbnail": "",
+  "updateAt": "2025-04-22",
+  "releaseNotes": "- v1.8.10 points to the official Obsidian desktop changelog for this release.\n- Linux arm64 builds were re-uploaded with a different Electron version to fix a critical crash.",
+  "website": "https://obsidian.md",
+  "repo": "https://github.com/obsidianmd/obsidian-releases",
+  "support": "https://help.obsidian.md/Help+and+support",
+  "docs": "https://help.obsidian.md",
   "title": "Obsidian",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

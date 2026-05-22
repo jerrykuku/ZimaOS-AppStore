@@ -1,4 +1,5 @@
 {
   "id": "dify",
+  "releaseNotes": "- 0.12.1 修复了 webapp 中 custom icon 显示和 Start forms 中的文件处理。\n- 修正了 LLM memory processing、conversation deletion、app creation 和 template import 错误。\n- 此版本包含 Docker Compose 部署的升级指导。",
   "description": "Dify 是一款开源的大语言模型(LLM) 应用开发平台。它融合了后端即服务（Backend as Service）和 LLMOps 的理念，使开发者可以快速搭建生产级的生成式 AI 应用。即使你是非技术人员，也能参与到 AI 应用的定义和数据运营过程中。"
 }

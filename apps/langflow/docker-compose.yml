@@ -40,3 +40,4 @@ x-casaos:
   port_map: '17860'
   index: /
   title: Langflow
+  version: 1.5.0

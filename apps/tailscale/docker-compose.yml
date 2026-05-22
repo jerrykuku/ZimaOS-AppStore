@@ -30,3 +30,4 @@ x-casaos:
   port_map: '5252'
   index: /
   title: Tailscale
+  version: v1.90.8

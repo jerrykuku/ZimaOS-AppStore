@@ -14,6 +14,12 @@
   "tagline": "Integration of various PVR applications",
   "thumbnail": "/apps/prowlarr/assets/thumbnail.webp",
   "tips": {},
+  "updateAt": "2026-04-04",
+  "releaseNotes": "- Prowlarr 2.3.5.5327 updates the browserlist database and improves HTTP file mappers.\n- Fixes backup downloads when paths contain trailing slashes and PWA manifest behavior with URL bases.\n- Docker users should update the container image rather than running the in-app updater inside an existing container.",
+  "website": "https://prowlarr.com",
+  "repo": "https://github.com/Prowlarr/Prowlarr",
+  "support": "https://wiki.servarr.com/prowlarr/troubleshooting",
+  "docs": "https://wiki.servarr.com/prowlarr",
   "title": "Prowlarr",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

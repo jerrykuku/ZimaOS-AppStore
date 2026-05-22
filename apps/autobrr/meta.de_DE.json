@@ -1,0 +1,4 @@
+{
+  "id": "autobrr",
+  "releaseNotes": "- v1.69.0 ergaenzt konfigurierbares CORS, HTTP-Resource-Freigabe beim Schliessen, Pending-release-Filter, Warnungen beim Aktualisieren der Failed-Liste, BJ-Share-Support und DarkPeers Featured Promo-Support.\n- Indexer-Updates umfassen Aither SASL authentication und ReelFlix-Domain-Aenderungen.\n- Korrekturen betreffen fehlende database rows.Close-Aufrufe, SQLite-zu-PostgreSQL-Konvertierung, HHD regex, Proxy-Credential-Tests, Windows exec arg Parsing und einen Web-Dropdown-Absturz."
+}

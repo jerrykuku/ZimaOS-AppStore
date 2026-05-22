@@ -17,6 +17,12 @@
   ],
   "developer": "brandawg93",
   "thumbnail": "/apps/peanut/assets/thumbnail.webp",
+  "updateAt": "2025-12-05",
+  "releaseNotes": "- v5.19.1 updates Next.js for a CVE fix.\n- The official changelog points to the full v5.19.0...v5.19.1 comparison.",
+  "website": "",
+  "repo": "https://github.com/brandawg93/peanut",
+  "support": "https://github.com/brandawg93/PeaNUT/issues",
+  "docs": "https://github.com/brandawg93/PeaNUT#readme",
   "title": "PeaNUT",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

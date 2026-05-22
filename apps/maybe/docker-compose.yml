@@ -121,3 +121,4 @@ x-casaos:
   port_map: '23000'
   index: /
   title: Maybe
+  version: latest

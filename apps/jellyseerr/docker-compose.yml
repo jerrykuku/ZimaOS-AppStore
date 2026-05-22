@@ -32,3 +32,4 @@ x-casaos:
   main: jellyseerr
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jellyseerr/assets/icon.svg
   port_map: '5055'
+  version: 2.7.3

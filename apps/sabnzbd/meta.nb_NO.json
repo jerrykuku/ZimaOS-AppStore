@@ -1,0 +1,4 @@
+{
+  "id": "sabnzbd",
+  "releaseNotes": "- 4.1.0 legger til mørk modus for konfigurasjons-, påloggings- og veivisersider, pluss multi-select i historikk.\n- Proxy-validering, loggrensing, server IP valg, IPv6 serverinnstillinger og arkivutpakkingsadferd ble oppdatert.\n- Rettelser inkluderer duplikatdeteksjon, sortering av filnavn, håndtering av køprioritet på pause, API-key loggrensing, diskskriving, mapperensing, artikkeldekoding og QuickCheck omdøping."
+}

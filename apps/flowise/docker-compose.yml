@@ -29,3 +29,4 @@ x-casaos:
   port_map: '3025'
   scheme: http
   index: /
+  version: 3.0.11

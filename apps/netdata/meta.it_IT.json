@@ -1,0 +1,4 @@
+{
+  "id": "netdata",
+  "releaseNotes": "- v2.8.1 risolve i problemi relativi ai vnode dynamic-configuration che scompaiono dopo il riavvio dell'agente.\n- Il campionamento della memoria PSS in apps.plugin è stato disabilitato da default per ridurre il sovraccarico di CPU.\n- Sono stati migliorati la visualizzazione dell'unità di origine degli avvisi, la registrazione della sincronizzazione dei file di dati di Windows, la compilazione dbengine-disabled e la risoluzione dei nomi dei contenitori Podman."
+}

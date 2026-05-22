@@ -1,0 +1,4 @@
+{
+  "id": "vaultwarden",
+  "releaseNotes": "- 1.32.7 は ORG_GROUPS_ENABLED が有効なインストール向けのセキュリティ修正を含みます。\n- support string 内の SMTP image source values はマスクされます。\n- リファクタリング、最適化、connect-src entry サポート、更新された fern の使用も含まれます。"
+}

@@ -1,0 +1,4 @@
+{
+  "id": "openhab",
+  "releaseNotes": "- 4.3.3, add-on hata düzeltmeleri ve geliştirmeleri içeren bir yama sürümüdür.\n- Düzeltmeler, temel profil delta işlemeyi, bluetooth.bluez NullPointerException, easye API limit yapılandırmasını, ecobee tatil bekletmelerini, Free@home eksik IDs, hdpowerview köprü etiketlerini, Hue dinamikleri desteğini ve huesync API belirteç işlemeyi içerir.\n- Energidataservice tarife filtreleri ve diğer bazı add-ons güncellendi."
+}

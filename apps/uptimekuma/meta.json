@@ -18,6 +18,12 @@
   "tagline": "A fancy monitoring tool",
   "thumbnail": "/apps/uptimekuma/assets/thumbnail.webp",
   "tips": {},
+  "updateAt": "2025-07-08",
+  "releaseNotes": "- Uptime Kuma 1.23.16 updates dependencies for security.\n- It fixes CVE-2024-56331, a local file inclusion issue in the Real-Browser monitor's URL handling.",
+  "website": "https://uptimekuma.org",
+  "repo": "https://github.com/louislam/uptime-kuma",
+  "support": "https://github.com/louislam/uptime-kuma/issues",
+  "docs": "https://github.com/louislam/uptime-kuma/wiki",
   "title": "Uptime Kuma",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

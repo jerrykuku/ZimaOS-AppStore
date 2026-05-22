@@ -21,3 +21,4 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/overseerr/assets/icon.svg
   title: Overseerr
   port_map: '5055'
+  version: 1.33.2

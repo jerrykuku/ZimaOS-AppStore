@@ -32,3 +32,4 @@ x-casaos:
   title: Home Assistant
   index: /
   port_map: '8123'
+  version: '2025.11'

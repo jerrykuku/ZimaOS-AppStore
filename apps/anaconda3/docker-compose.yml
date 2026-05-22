@@ -29,3 +29,4 @@ x-casaos:
   port_map: '8888'
   index: /
   title: Anaconda3
+  version: 2024.10-1

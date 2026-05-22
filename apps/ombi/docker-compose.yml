@@ -27,3 +27,4 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/ombi/assets/icon.svg
   title: Ombi
   port_map: '3579'
+  version: 4.47.1

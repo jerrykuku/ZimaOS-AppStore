@@ -19,3 +19,4 @@ x-casaos:
   title: Swing Music
   index: /
   port_map: '1970'
+  version: v1.4.8

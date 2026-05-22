@@ -16,6 +16,12 @@
   "tagline": "Memos is a lightweight, self-hosted memo hub. Open Source and Free forever.",
   "thumbnail": "/apps/memos/assets/thumbnail.webp",
   "tips": {},
+  "updateAt": "2025-07-16",
+  "releaseNotes": "- v0.25.0 includes database and API changes, so upstream recommends backing up data before upgrading.\n- User sessions now support a sliding window, and webhook data storage moved to user settings.\n- Themes, variant colors, highlighted pinned memos, and several RSS/search/avatar fixes were added.",
+  "website": "https://usememos.com/",
+  "repo": "https://github.com/usememos/memos",
+  "support": "https://github.com/usememos/memos/issues",
+  "docs": "https://www.usememos.com/docs",
   "title": "Memos",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

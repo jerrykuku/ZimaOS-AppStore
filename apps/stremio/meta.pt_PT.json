@@ -1,0 +1,4 @@
+{
+  "id": "stremio",
+  "releaseNotes": "- v1.2.5 utiliza a versão web do Stremio v5.0.0-beta.27.\n- O servidor URL aponta para o script do servidor de ambiente de trabalho v4.20.12."
+}

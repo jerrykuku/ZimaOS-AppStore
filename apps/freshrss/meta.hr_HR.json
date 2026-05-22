@@ -1,0 +1,4 @@
+{
+  "id": "freshrss",
+  "releaseNotes": "- 1.27.1 je sigurnosno i bug-fix izdanje za seriju 1.27.x.\n- Čuva kriterije sortiranja/redoslijeda nakon označavanja članaka kao pročitanih i dodaje podršku za provjeru stanja Docker.\n- Sigurnosni popravci uključuju regeneraciju sesije prijave, strože rukovanje jezikom, ograničenja cURL-a i popravke CSRF."
+}

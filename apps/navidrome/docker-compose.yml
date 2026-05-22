@@ -34,3 +34,4 @@ x-casaos:
   port_map: '4533'
   scheme: http
   title: Navidrome
+  version: 0.58.5

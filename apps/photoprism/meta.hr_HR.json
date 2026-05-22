@@ -1,0 +1,4 @@
+{
+  "id": "photoprism",
+  "releaseNotes": "- PhotoPrism build 250228 dodaje veličinu minijature Retina 5K i poboljšanja upotrebljivosti/performansi.\n- Ažuriranja preglednika smanjuju nestrpljivo prethodno učitavanje, radnje prijenosa WebDAV sada ovise o omogućenom dijeljenju, a datoteke M4V tretiraju se kao MP4-compatible."
+}

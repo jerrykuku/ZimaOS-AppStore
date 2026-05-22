@@ -1,0 +1,4 @@
+{
+  "id": "gateway-go",
+  "releaseNotes": "- v2.0.11 uključuje OpenWrt-related promjene.\n- Ažurirani su oporavak od panike i rukovanje registracijom usluge.\n- Osvježena je dokumentacija README."
+}

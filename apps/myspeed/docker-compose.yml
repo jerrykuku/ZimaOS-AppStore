@@ -24,3 +24,4 @@ x-casaos:
   title: MySpeed
   index: /
   port_map: '5216'
+  version: 1.0.9

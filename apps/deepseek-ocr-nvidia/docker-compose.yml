@@ -56,3 +56,4 @@ x-casaos:
   port_map: '23000'
   scheme: http
   title: DeepSeek OCR(Nvidia GPU)
+  version: v2.2.0

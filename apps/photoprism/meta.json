@@ -17,6 +17,12 @@
   "tips": {
     "before_install": "## PhotoPrism\n\nDefault Account\n\n| Username | Password |\n| -------- | -------- |\n| `admin`    | `casaos`   |\n"
   },
+  "updateAt": "2025-03-18",
+  "releaseNotes": "- PhotoPrism build 250228 adds a Retina 5K thumbnail size and usability/performance improvements.\n- Viewer updates reduce eager preloading, WebDAV upload actions now depend on sharing being enabled, and M4V files are treated as MP4-compatible.",
+  "website": "https://www.photoprism.app",
+  "repo": "https://github.com/photoprism/photoprism",
+  "support": "https://www.photoprism.app/contact",
+  "docs": "https://docs.photoprism.app",
   "title": "PhotoPrism",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

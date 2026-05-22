@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "updated_at": "2026-05-09T09:58:42Z",
-  "app_count": 157,
+  "updated_at": "2026-05-22T10:48:40Z",
+  "app_count": 164,
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "apps": [
     {
@@ -12,7 +12,7 @@
       "categories": [
         "productivity"
       ],
-      "version": "1.0.0",
+      "version": "5.4.3",
       "author": "CasaOS Team",
       "developer": "Bubka",
       "architectures": [
@@ -25,7 +25,7 @@
       "thumbnail": "/apps/2fauth/assets/thumbnail.webp",
       "compose_url": "/apps/2fauth/docker-compose.yml",
       "meta_url": "/apps/2fauth/meta.json",
-      "content_hash": "8c60d9ef"
+      "content_hash": "667ea738"
     },
     {
       "id": "actualbudget",
@@ -35,7 +35,7 @@
       "categories": [
         "finance"
       ],
-      "version": "",
+      "version": "25.7.1",
       "author": "CasaOS Team",
       "developer": "ActualBudget",
       "architectures": [
@@ -46,7 +46,7 @@
       "thumbnail": "",
       "compose_url": "/apps/actualbudget/docker-compose.yml",
       "meta_url": "/apps/actualbudget/meta.json",
-      "content_hash": "231f049f"
+      "content_hash": "83188ce9"
     },
     {
       "id": "adguard-home",
@@ -56,7 +56,7 @@
       "categories": [
         "networking"
       ],
-      "version": "",
+      "version": "v0.107.61",
       "author": "CasaOS Team",
       "developer": "AdguardTeam",
       "architectures": [
@@ -70,7 +70,7 @@
       "thumbnail": "/apps/adguard-home/assets/thumbnail.webp",
       "compose_url": "/apps/adguard-home/docker-compose.yml",
       "meta_url": "/apps/adguard-home/meta.json",
-      "content_hash": "99b3c3f7"
+      "content_hash": "2d00faee"
     },
     {
       "id": "adminer",
@@ -80,7 +80,7 @@
       "categories": [
         "developer"
       ],
-      "version": "",
+      "version": "5.4.1",
       "author": "Tim Düsterhus",
       "developer": "Jakub Vrána",
       "architectures": [
@@ -92,7 +92,7 @@
       "thumbnail": "/apps/adminer/assets/thumbnail.webp",
       "compose_url": "/apps/adminer/docker-compose.yml",
       "meta_url": "/apps/adminer/meta.json",
-      "content_hash": "ab3fe39a"
+      "content_hash": "f4db838f"
     },
     {
       "id": "albyhub",
@@ -102,7 +102,7 @@
       "categories": [
         "finance"
       ],
-      "version": "",
+      "version": "v1.20.0",
       "author": "calganaygun",
       "developer": "",
       "architectures": [
@@ -113,7 +113,7 @@
       "thumbnail": "",
       "compose_url": "/apps/albyhub/docker-compose.yml",
       "meta_url": "/apps/albyhub/meta.json",
-      "content_hash": "285cdf58"
+      "content_hash": "2fce8855"
     },
     {
       "id": "alist",
@@ -123,7 +123,7 @@
       "categories": [
         "productivity"
       ],
-      "version": "",
+      "version": "v3.40.0",
       "author": "Xhofe",
       "developer": "Xhofe",
       "architectures": [
@@ -135,7 +135,7 @@
       "thumbnail": "/apps/alist/assets/thumbnail.webp",
       "compose_url": "/apps/alist/docker-compose.yml",
       "meta_url": "/apps/alist/meta.json",
-      "content_hash": "0b87e3ee"
+      "content_hash": "1f5ed0a2"
     },
     {
       "id": "alist-sync",
@@ -145,7 +145,7 @@
       "categories": [
         "productivity"
       ],
-      "version": "",
+      "version": "1.1.5",
       "author": "xjxjin",
       "developer": "xjxjin",
       "architectures": [
@@ -157,7 +157,7 @@
       "thumbnail": "/apps/alist-sync/assets/thumbnail.webp",
       "compose_url": "/apps/alist-sync/docker-compose.yml",
       "meta_url": "/apps/alist-sync/meta.json",
-      "content_hash": "afe925d6"
+      "content_hash": "725b1012"
     },
     {
       "id": "anaconda3",
@@ -167,7 +167,7 @@
       "categories": [
         "ai"
       ],
-      "version": "",
+      "version": "2024.10-1",
       "author": "LisonEvf",
       "developer": "LisonEvf",
       "architectures": [
@@ -177,7 +177,7 @@
       "thumbnail": "/apps/anaconda3/assets/thumbnail.webp",
       "compose_url": "/apps/anaconda3/docker-compose.yml",
       "meta_url": "/apps/anaconda3/meta.json",
-      "content_hash": "24c2b9bd"
+      "content_hash": "d3f4c394"
     },
     {
       "id": "anythingllm",
@@ -187,7 +187,7 @@
       "categories": [
         "ai"
       ],
-      "version": "",
+      "version": "latest",
       "author": "",
       "developer": "Mintplex Labs",
       "architectures": [
@@ -197,7 +197,7 @@
       "thumbnail": "",
       "compose_url": "/apps/anythingllm/docker-compose.yml",
       "meta_url": "/apps/anythingllm/meta.json",
-      "content_hash": "e562df22"
+      "content_hash": "edf83db6"
     },
     {
       "id": "archivebox",
@@ -207,7 +207,7 @@
       "categories": [
         "productivity"
       ],
-      "version": "",
+      "version": "0.7.3",
       "author": "ArchiveBox",
       "developer": "ArchiveBox",
       "architectures": [
@@ -217,7 +217,7 @@
       "thumbnail": "/apps/archivebox/assets/thumbnail.webp",
       "compose_url": "/apps/archivebox/docker-compose.yml",
       "meta_url": "/apps/archivebox/meta.json",
-      "content_hash": "fdef5e8f"
+      "content_hash": "b0f0e5c5"
     },
     {
       "id": "audiobookshelf",
@@ -227,7 +227,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "2.30.0",
       "author": "advplyr",
       "developer": "advplyr",
       "architectures": [
@@ -238,7 +238,7 @@
       "thumbnail": "",
       "compose_url": "/apps/audiobookshelf/docker-compose.yml",
       "meta_url": "/apps/audiobookshelf/meta.json",
-      "content_hash": "ad9f3638"
+      "content_hash": "1a5974e5"
     },
     {
       "id": "autobrr",
@@ -248,7 +248,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "v1.69.0",
       "author": "Autobrr Team",
       "developer": "Autobrr Team",
       "architectures": [
@@ -260,7 +260,7 @@
       "thumbnail": "/apps/autobrr/assets/thumbnail.webp",
       "compose_url": "/apps/autobrr/docker-compose.yml",
       "meta_url": "/apps/autobrr/meta.json",
-      "content_hash": "a5ade0c7"
+      "content_hash": "e585808d"
     },
     {
       "id": "bazarr",
@@ -270,7 +270,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "1.5.6",
       "author": "CasaOS Team",
       "developer": "Sabnzbd Team",
       "architectures": [
@@ -282,7 +282,7 @@
       "thumbnail": "/apps/bazarr/assets/thumbnail.webp",
       "compose_url": "/apps/bazarr/docker-compose.yml",
       "meta_url": "/apps/bazarr/meta.json",
-      "content_hash": "b8872e45"
+      "content_hash": "30fa3963"
     },
     {
       "id": "beaverhabittracker",
@@ -292,7 +292,7 @@
       "categories": [
         "productivity"
       ],
-      "version": "",
+      "version": "0.7.3",
       "author": "daya0576",
       "developer": "daya0576",
       "architectures": [
@@ -303,7 +303,28 @@
       "thumbnail": "",
       "compose_url": "/apps/beaverhabittracker/docker-compose.yml",
       "meta_url": "/apps/beaverhabittracker/meta.json",
-      "content_hash": "9c9894f8"
+      "content_hash": "afc00389"
+    },
+    {
+      "id": "blinko",
+      "title": "Blinko",
+      "tagline": "Blinko is an AI-powered card note-taking project. Designed for individuals who want to quickly capture and organize their fleeting thoughts. Blinko allows users to seamlessly jot down ideas the moment they strike, ensuring that no spark of creativity is lost.",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "version": "1.8.7",
+      "author": "blinkospace",
+      "developer": "blinkospace",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/blinko/assets/icon.svg",
+      "thumbnail": "/apps/blinko/assets/thumbnail.webp",
+      "compose_url": "/apps/blinko/docker-compose.yml",
+      "meta_url": "/apps/blinko/meta.json",
+      "content_hash": "782d0a8e"
     },
     {
       "id": "calibre-web",
@@ -313,7 +334,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "0.6.24",
       "author": "CasaOS Team",
       "developer": "linuxserver",
       "architectures": [
@@ -324,7 +345,7 @@
       "thumbnail": "/apps/calibre-web/assets/thumbnail.webp",
       "compose_url": "/apps/calibre-web/docker-compose.yml",
       "meta_url": "/apps/calibre-web/meta.json",
-      "content_hash": "afcb67a1"
+      "content_hash": "13cf5a77"
     },
     {
       "id": "chatbot-ui",
@@ -334,7 +355,7 @@
       "categories": [
         "ai"
       ],
-      "version": "",
+      "version": "main",
       "author": "CasaOS Team",
       "developer": "Mckay Wrigley",
       "architectures": [
@@ -345,7 +366,7 @@
       "thumbnail": "",
       "compose_url": "/apps/chatbot-ui/docker-compose.yml",
       "meta_url": "/apps/chatbot-ui/meta.json",
-      "content_hash": "a8cc160d"
+      "content_hash": "9deb3cb9"
     },
     {
       "id": "chatgpt-next-web",
@@ -355,7 +376,7 @@
       "categories": [
         "ai"
       ],
-      "version": "",
+      "version": "v2.16.1",
       "author": "CorrectRoadH,Cp0204",
       "developer": "Yidadaa",
       "architectures": [
@@ -366,7 +387,7 @@
       "thumbnail": "/apps/chatgpt-next-web/assets/thumbnail.webp",
       "compose_url": "/apps/chatgpt-next-web/docker-compose.yml",
       "meta_url": "/apps/chatgpt-next-web/meta.json",
-      "content_hash": "65743c28"
+      "content_hash": "01f84a8d"
     },
     {
       "id": "cloudbeaver",
@@ -376,7 +397,7 @@
       "categories": [
         "developer"
       ],
-      "version": "",
+      "version": "25.2.5",
       "author": "joaobosconff",
       "developer": "dbeaver",
       "architectures": [
@@ -387,7 +408,7 @@
       "thumbnail": "",
       "compose_url": "/apps/cloudbeaver/docker-compose.yml",
       "meta_url": "/apps/cloudbeaver/meta.json",
-      "content_hash": "6e5be467"
+      "content_hash": "fcb9467f"
     },
     {
       "id": "cloudflared",
@@ -397,7 +418,7 @@
       "categories": [
         "networking"
       ],
-      "version": "",
+      "version": "2025.2.1",
       "author": "WisdomSky",
       "developer": "Cloudflare Inc.",
       "architectures": [
@@ -409,7 +430,7 @@
       "thumbnail": "/apps/cloudflared/assets/thumbnail.webp",
       "compose_url": "/apps/cloudflared/docker-compose.yml",
       "meta_url": "/apps/cloudflared/meta.json",
-      "content_hash": "542f323a"
+      "content_hash": "477f61c4"
     },
     {
       "id": "convertx",
@@ -419,7 +440,7 @@
       "categories": [
         "productivity"
       ],
-      "version": "",
+      "version": "v0.14.1",
       "author": "c4illin",
       "developer": "c4illin",
       "architectures": [
@@ -430,7 +451,27 @@
       "thumbnail": "",
       "compose_url": "/apps/convertx/docker-compose.yml",
       "meta_url": "/apps/convertx/meta.json",
-      "content_hash": "ae76d696"
+      "content_hash": "269ec04e"
+    },
+    {
+      "id": "copyparty",
+      "title": "CopyParty",
+      "tagline": "A simple, private file server.",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "version": "1.20.13",
+      "author": "CopyParty",
+      "developer": "CopyParty",
+      "architectures": [
+        "amd64"
+      ],
+      "icon": "/apps/copyparty/assets/icon.svg",
+      "thumbnail": "",
+      "compose_url": "/apps/copyparty/docker-compose.yml",
+      "meta_url": "/apps/copyparty/meta.json",
+      "content_hash": "9a8aa88d"
     },
     {
       "id": "crafty",
@@ -440,7 +481,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "4.4.11",
       "author": "Chàra Rose",
       "developer": "Crafty Team",
       "architectures": [
@@ -452,7 +493,7 @@
       "thumbnail": "",
       "compose_url": "/apps/crafty/docker-compose.yml",
       "meta_url": "/apps/crafty/meta.json",
-      "content_hash": "60c133e4"
+      "content_hash": "c2759d24"
     },
     {
       "id": "databag",
@@ -462,7 +503,7 @@
       "categories": [
         "social"
       ],
-      "version": "",
+      "version": "0.1.18",
       "author": "Pierre Balzack",
       "developer": "balzack",
       "architectures": [
@@ -473,7 +514,7 @@
       "thumbnail": "",
       "compose_url": "/apps/databag/docker-compose.yml",
       "meta_url": "/apps/databag/meta.json",
-      "content_hash": "6f2575ce"
+      "content_hash": "f62dfd54"
     },
     {
       "id": "ddns-go",
@@ -483,7 +524,7 @@
       "categories": [
         "networking"
       ],
-      "version": "",
+      "version": "v6.17.0",
       "author": "zxxhz,Cp0204",
       "developer": "jeessy2",
       "architectures": [
@@ -495,7 +536,7 @@
       "thumbnail": "",
       "compose_url": "/apps/ddns-go/docker-compose.yml",
       "meta_url": "/apps/ddns-go/meta.json",
-      "content_hash": "165e8b04"
+      "content_hash": "d9b9a5a3"
     },
     {
       "id": "ddns-updater",
@@ -505,7 +546,7 @@
       "categories": [
         "networking"
       ],
-      "version": "",
+      "version": "v2.9.0",
       "author": "rstuhlmuller",
       "developer": "qmcgaw",
       "architectures": [
@@ -517,7 +558,7 @@
       "thumbnail": "",
       "compose_url": "/apps/ddns-updater/docker-compose.yml",
       "meta_url": "/apps/ddns-updater/meta.json",
-      "content_hash": "9aa06d5c"
+      "content_hash": "16ec10c6"
     },
     {
       "id": "deepseek-ocr-nvidia",
@@ -527,7 +568,7 @@
       "categories": [
         "ai"
       ],
-      "version": "",
+      "version": "v2.2.0",
       "author": "CasaOS Team",
       "developer": "rdumasia303",
       "architectures": [
@@ -537,7 +578,7 @@
       "thumbnail": "",
       "compose_url": "/apps/deepseek-ocr-nvidia/docker-compose.yml",
       "meta_url": "/apps/deepseek-ocr-nvidia/meta.json",
-      "content_hash": "05015058"
+      "content_hash": "2ac47843"
     },
     {
       "id": "deluge",
@@ -547,7 +588,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "2.2.0",
       "author": "CasaOS Team",
       "developer": "Deluge Team",
       "architectures": [
@@ -558,7 +599,7 @@
       "thumbnail": "/apps/deluge/assets/thumbnail.webp",
       "compose_url": "/apps/deluge/docker-compose.yml",
       "meta_url": "/apps/deluge/meta.json",
-      "content_hash": "d22723a2"
+      "content_hash": "0113d089"
     },
     {
       "id": "dify",
@@ -568,7 +609,7 @@
       "categories": [
         "ai"
       ],
-      "version": "",
+      "version": "0.12.1",
       "author": "IceWhaleTech",
       "developer": "LangGenius",
       "architectures": [
@@ -579,7 +620,7 @@
       "thumbnail": "/apps/dify/assets/thumbnail.webp",
       "compose_url": "/apps/dify/docker-compose.yml",
       "meta_url": "/apps/dify/meta.json",
-      "content_hash": "733379d4"
+      "content_hash": "8f1c0aed"
     },
     {
       "id": "docmost",
@@ -589,7 +630,7 @@
       "categories": [
         "productivity"
       ],
-      "version": "",
+      "version": "0.21.0",
       "author": "docmost",
       "developer": "docmost",
       "architectures": [
@@ -600,7 +641,7 @@
       "thumbnail": "",
       "compose_url": "/apps/docmost/docker-compose.yml",
       "meta_url": "/apps/docmost/meta.json",
-      "content_hash": "cee6ee3d"
+      "content_hash": "b865f5a8"
     },
     {
       "id": "downtify",
@@ -610,7 +651,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "2.6.0",
       "author": "Henrique Sebastião",
       "developer": "Henrique Sebastião",
       "architectures": [
@@ -621,7 +662,7 @@
       "thumbnail": "",
       "compose_url": "/apps/downtify/docker-compose.yml",
       "meta_url": "/apps/downtify/meta.json",
-      "content_hash": "b7d31cf9"
+      "content_hash": "a57d1b22"
     },
     {
       "id": "duckdns",
@@ -631,7 +672,7 @@
       "categories": [
         "networking"
       ],
-      "version": "",
+      "version": "latest",
       "author": "DuckDNS Team",
       "developer": "DuckDNS Team",
       "architectures": [
@@ -642,7 +683,7 @@
       "thumbnail": "",
       "compose_url": "/apps/duckdns/docker-compose.yml",
       "meta_url": "/apps/duckdns/meta.json",
-      "content_hash": "e50f655f"
+      "content_hash": "c906b460"
     },
     {
       "id": "duplicati",
@@ -652,7 +693,7 @@
       "categories": [
         "productivity"
       ],
-      "version": "",
+      "version": "2.1.0",
       "author": "CasaOS Team",
       "developer": "duplicati",
       "architectures": [
@@ -663,7 +704,7 @@
       "thumbnail": "/apps/duplicati/assets/thumbnail.webp",
       "compose_url": "/apps/duplicati/docker-compose.yml",
       "meta_url": "/apps/duplicati/meta.json",
-      "content_hash": "ed286cae"
+      "content_hash": "fdbb9f93"
     },
     {
       "id": "emby",
@@ -673,7 +714,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "4.9.1",
       "author": "CasaOS Team",
       "developer": "linuxserver",
       "architectures": [
@@ -684,7 +725,7 @@
       "thumbnail": "/apps/emby/assets/thumbnail.webp",
       "compose_url": "/apps/emby/docker-compose.yml",
       "meta_url": "/apps/emby/meta.json",
-      "content_hash": "fe8a13be"
+      "content_hash": "05c8d2ce"
     },
     {
       "id": "emby-nvidia",
@@ -694,7 +735,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "4.9.1",
       "author": "CasaOS Team",
       "developer": "linuxserver",
       "architectures": [
@@ -705,7 +746,7 @@
       "thumbnail": "/apps/emby-nvidia/assets/thumbnail.webp",
       "compose_url": "/apps/emby-nvidia/docker-compose.yml",
       "meta_url": "/apps/emby-nvidia/meta.json",
-      "content_hash": "eb655900"
+      "content_hash": "66f74d2c"
     },
     {
       "id": "embystat",
@@ -715,7 +756,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "0.2.0",
       "author": "CasaOS Team",
       "developer": "Embystart Team",
       "architectures": [
@@ -726,7 +767,7 @@
       "thumbnail": "",
       "compose_url": "/apps/embystat/docker-compose.yml",
       "meta_url": "/apps/embystat/meta.json",
-      "content_hash": "38e705f4"
+      "content_hash": "cc3f297c"
     },
     {
       "id": "emulatorjs",
@@ -736,7 +777,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "1.9.2",
       "author": "self",
       "developer": "",
       "architectures": [
@@ -747,7 +788,7 @@
       "thumbnail": "",
       "compose_url": "/apps/emulatorjs/docker-compose.yml",
       "meta_url": "/apps/emulatorjs/meta.json",
-      "content_hash": "dcec9319"
+      "content_hash": "56b64179"
     },
     {
       "id": "esphome",
@@ -757,7 +798,7 @@
       "categories": [
         "home"
       ],
-      "version": "",
+      "version": "2025.11.0",
       "author": "kd9lsv",
       "developer": "",
       "architectures": [
@@ -769,7 +810,28 @@
       "thumbnail": "",
       "compose_url": "/apps/esphome/docker-compose.yml",
       "meta_url": "/apps/esphome/meta.json",
-      "content_hash": "8e01be98"
+      "content_hash": "42245db6"
+    },
+    {
+      "id": "etherpad",
+      "title": "Etherpad",
+      "tagline": "Real-time collaborative document editor",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "version": "3.1.0",
+      "author": "CasaOS Community",
+      "developer": "Etherpad Foundation",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/etherpad/assets/icon.svg",
+      "thumbnail": "",
+      "compose_url": "/apps/etherpad/docker-compose.yml",
+      "meta_url": "/apps/etherpad/meta.json",
+      "content_hash": "c13b5b98"
     },
     {
       "id": "excalidraw",
@@ -779,7 +841,7 @@
       "categories": [
         "productivity"
       ],
-      "version": "",
+      "version": "latest",
       "author": "excalidraw",
       "developer": "excalidraw",
       "architectures": [
@@ -789,29 +851,7 @@
       "thumbnail": "",
       "compose_url": "/apps/excalidraw/docker-compose.yml",
       "meta_url": "/apps/excalidraw/meta.json",
-      "content_hash": "c42fb4fd"
-    },
-    {
-      "id": "filebrowser",
-      "title": "FileBrowser",
-      "tagline": "Upload, delete, preview, rename, edit and share your files.",
-      "category": "Productivity",
-      "categories": [
-        "productivity"
-      ],
-      "version": "",
-      "author": "CasaOS Team",
-      "developer": "File Browser",
-      "architectures": [
-        "amd64",
-        "arm64",
-        "arm"
-      ],
-      "icon": "/apps/filebrowser/assets/icon.svg",
-      "thumbnail": "/apps/filebrowser/assets/thumbnail.webp",
-      "compose_url": "/apps/filebrowser/docker-compose.yml",
-      "meta_url": "/apps/filebrowser/meta.json",
-      "content_hash": "54b7a44a"
+      "content_hash": "b5a6b661"
     },
     {
       "id": "filedrop",
@@ -821,7 +861,7 @@
       "categories": [
         "productivity"
       ],
-      "version": "",
+      "version": "1.0.1",
       "author": "Noé Favier",
       "developer": "Noé Favier (noe.favier@outlook.com)",
       "architectures": [
@@ -832,7 +872,7 @@
       "thumbnail": "",
       "compose_url": "/apps/filedrop/docker-compose.yml",
       "meta_url": "/apps/filedrop/meta.json",
-      "content_hash": "28462244"
+      "content_hash": "b0ddd414"
     },
     {
       "id": "fileflows",
@@ -842,7 +882,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "stable",
       "author": "FileFlows",
       "developer": "FileFlows",
       "architectures": [
@@ -853,7 +893,7 @@
       "thumbnail": "",
       "compose_url": "/apps/fileflows/docker-compose.yml",
       "meta_url": "/apps/fileflows/meta.json",
-      "content_hash": "a8ab7098"
+      "content_hash": "c0931704"
     },
     {
       "id": "firefly",
@@ -863,7 +903,7 @@
       "categories": [
         "networking"
       ],
-      "version": "",
+      "version": "latest",
       "author": "Cp0204",
       "developer": "Safe3",
       "architectures": [
@@ -875,7 +915,7 @@
       "thumbnail": "",
       "compose_url": "/apps/firefly/docker-compose.yml",
       "meta_url": "/apps/firefly/meta.json",
-      "content_hash": "df84fb80"
+      "content_hash": "b8299333"
     },
     {
       "id": "flaresolverr",
@@ -885,7 +925,7 @@
       "categories": [
         "networking"
       ],
-      "version": "",
+      "version": "v3.4.5",
       "author": "calganaygun",
       "developer": "",
       "architectures": [
@@ -897,7 +937,7 @@
       "thumbnail": "",
       "compose_url": "/apps/flaresolverr/docker-compose.yml",
       "meta_url": "/apps/flaresolverr/meta.json",
-      "content_hash": "7a60323b"
+      "content_hash": "7a777af2"
     },
     {
       "id": "flowise",
@@ -907,7 +947,7 @@
       "categories": [
         "ai"
       ],
-      "version": "",
+      "version": "3.0.11",
       "author": "Flowise",
       "developer": "Flowise",
       "architectures": [
@@ -917,7 +957,7 @@
       "thumbnail": "",
       "compose_url": "/apps/flowise/docker-compose.yml",
       "meta_url": "/apps/flowise/meta.json",
-      "content_hash": "45ca4c86"
+      "content_hash": "b405b50d"
     },
     {
       "id": "freshrss",
@@ -927,7 +967,7 @@
       "categories": [
         "productivity"
       ],
-      "version": "",
+      "version": "1.27.1",
       "author": "FreshRSS",
       "developer": "FreshRSS",
       "architectures": [
@@ -939,7 +979,7 @@
       "thumbnail": "",
       "compose_url": "/apps/freshrss/docker-compose.yml",
       "meta_url": "/apps/freshrss/meta.json",
-      "content_hash": "39514f90"
+      "content_hash": "fddbfd1d"
     },
     {
       "id": "gateway-go",
@@ -949,7 +989,7 @@
       "categories": [
         "networking"
       ],
-      "version": "",
+      "version": "v2.0.11",
       "author": "iotserv",
       "developer": "iotserv",
       "architectures": [
@@ -961,7 +1001,7 @@
       "thumbnail": "",
       "compose_url": "/apps/gateway-go/docker-compose.yml",
       "meta_url": "/apps/gateway-go/meta.json",
-      "content_hash": "c4150ba7"
+      "content_hash": "ed232529"
     },
     {
       "id": "gitea",
@@ -971,7 +1011,7 @@
       "categories": [
         "developer"
       ],
-      "version": "",
+      "version": "1.25",
       "author": "CasaOS Team",
       "developer": "Gitea",
       "architectures": [
@@ -982,7 +1022,7 @@
       "thumbnail": "/apps/gitea/assets/thumbnail.webp",
       "compose_url": "/apps/gitea/docker-compose.yml",
       "meta_url": "/apps/gitea/meta.json",
-      "content_hash": "710f06c4"
+      "content_hash": "a1a4fb48"
     },
     {
       "id": "glances",
@@ -992,7 +1032,7 @@
       "categories": [
         "productivity"
       ],
-      "version": "",
+      "version": "4.4.1",
       "author": "joaobosconff",
       "developer": "Nicolas Hennion",
       "architectures": [
@@ -1003,7 +1043,7 @@
       "thumbnail": "",
       "compose_url": "/apps/glances/docker-compose.yml",
       "meta_url": "/apps/glances/meta.json",
-      "content_hash": "e9866dfa"
+      "content_hash": "3f770e8c"
     },
     {
       "id": "gopeed",
@@ -1013,7 +1053,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "v1.8.3",
       "author": "joaobosconff",
       "developer": "GopeedLab",
       "architectures": [
@@ -1025,7 +1065,7 @@
       "thumbnail": "",
       "compose_url": "/apps/gopeed/docker-compose.yml",
       "meta_url": "/apps/gopeed/meta.json",
-      "content_hash": "b41c04f6"
+      "content_hash": "3efa16ee"
     },
     {
       "id": "grafana",
@@ -1035,7 +1075,7 @@
       "categories": [
         "developer"
       ],
-      "version": "",
+      "version": "12.1.4",
       "author": "CasaOS Team",
       "developer": "grafana",
       "architectures": [
@@ -1046,7 +1086,7 @@
       "thumbnail": "/apps/grafana/assets/thumbnail.webp",
       "compose_url": "/apps/grafana/docker-compose.yml",
       "meta_url": "/apps/grafana/meta.json",
-      "content_hash": "659482db"
+      "content_hash": "93520d99"
     },
     {
       "id": "handbrake",
@@ -1056,7 +1096,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "v25.10.1",
       "author": "self",
       "developer": "",
       "architectures": [
@@ -1066,7 +1106,7 @@
       "thumbnail": "",
       "compose_url": "/apps/handbrake/docker-compose.yml",
       "meta_url": "/apps/handbrake/meta.json",
-      "content_hash": "4d36556e"
+      "content_hash": "504f5ab9"
     },
     {
       "id": "holoplay",
@@ -1076,7 +1116,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "1.12.3",
       "author": "",
       "developer": "Stéphane Richin",
       "architectures": [
@@ -1089,7 +1129,7 @@
       "thumbnail": "/apps/holoplay/assets/thumbnail.webp",
       "compose_url": "/apps/holoplay/docker-compose.yml",
       "meta_url": "/apps/holoplay/meta.json",
-      "content_hash": "569196ef"
+      "content_hash": "27bf791a"
     },
     {
       "id": "homeassistant",
@@ -1099,7 +1139,7 @@
       "categories": [
         "home"
       ],
-      "version": "",
+      "version": "2025.11",
       "author": "CasaOS Team",
       "developer": "Home Assistant",
       "architectures": [
@@ -1111,17 +1151,17 @@
       "thumbnail": "/apps/homeassistant/assets/thumbnail.webp",
       "compose_url": "/apps/homeassistant/docker-compose.yml",
       "meta_url": "/apps/homeassistant/meta.json",
-      "content_hash": "80707f71"
+      "content_hash": "8e0f76de"
     },
     {
       "id": "homebridge",
       "title": "Homebridge",
       "tagline": "HomeKit support for the impatient.",
-      "category": "Home",
+      "category": "Home Automation",
       "categories": [
-        "home"
+        "home automation"
       ],
-      "version": "",
+      "version": "latest",
       "author": "UnderCurve",
       "developer": "Homebridge",
       "architectures": [
@@ -1133,7 +1173,7 @@
       "thumbnail": "",
       "compose_url": "/apps/homebridge/docker-compose.yml",
       "meta_url": "/apps/homebridge/meta.json",
-      "content_hash": "eb4db056"
+      "content_hash": "ae8fc75c"
     },
     {
       "id": "hugo",
@@ -1143,7 +1183,7 @@
       "categories": [
         "developer"
       ],
-      "version": "",
+      "version": "v0.152.2",
       "author": "CasaOS Team",
       "developer": "gohugoio",
       "architectures": [
@@ -1154,7 +1194,7 @@
       "thumbnail": "",
       "compose_url": "/apps/hugo/docker-compose.yml",
       "meta_url": "/apps/hugo/meta.json",
-      "content_hash": "fc62dbb6"
+      "content_hash": "a6193b8d"
     },
     {
       "id": "icewhale-stable-diffusion-webui",
@@ -1164,7 +1204,7 @@
       "categories": [
         "ai"
       ],
-      "version": "",
+      "version": "latest",
       "author": "",
       "developer": "stability.ai",
       "architectures": [
@@ -1174,7 +1214,7 @@
       "thumbnail": "",
       "compose_url": "/apps/icewhale-stable-diffusion-webui/docker-compose.yml",
       "meta_url": "/apps/icewhale-stable-diffusion-webui/meta.json",
-      "content_hash": "f03dbd11"
+      "content_hash": "ffac894d"
     },
     {
       "id": "immich",
@@ -1184,7 +1224,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "v2.7.2",
       "author": "Cp0204",
       "developer": "alextran1502",
       "architectures": [
@@ -1195,7 +1235,7 @@
       "thumbnail": "/apps/immich/assets/thumbnail.webp",
       "compose_url": "/apps/immich/docker-compose.yml",
       "meta_url": "/apps/immich/meta.json",
-      "content_hash": "9ea60369"
+      "content_hash": "a7e2db21"
     },
     {
       "id": "index-tts",
@@ -1205,7 +1245,7 @@
       "categories": [
         "ai"
       ],
-      "version": "",
+      "version": "2.0",
       "author": "index-tts",
       "developer": "icewhaletech",
       "architectures": [
@@ -1215,7 +1255,7 @@
       "thumbnail": "/apps/index-tts/assets/thumbnail.webp",
       "compose_url": "/apps/index-tts/docker-compose.yml",
       "meta_url": "/apps/index-tts/meta.json",
-      "content_hash": "dc1fe907"
+      "content_hash": "0c1b8400"
     },
     {
       "id": "index-tts-nvidia",
@@ -1225,7 +1265,7 @@
       "categories": [
         "ai"
       ],
-      "version": "",
+      "version": "2.0",
       "author": "index-tts",
       "developer": "icewhaletech",
       "architectures": [
@@ -1235,7 +1275,7 @@
       "thumbnail": "/apps/index-tts-nvidia/assets/thumbnail.webp",
       "compose_url": "/apps/index-tts-nvidia/docker-compose.yml",
       "meta_url": "/apps/index-tts-nvidia/meta.json",
-      "content_hash": "3721a057"
+      "content_hash": "83dc2945"
     },
     {
       "id": "jackett",
@@ -1245,7 +1285,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "0.24.1841",
       "author": "CasaOS Team",
       "developer": "Jackett",
       "architectures": [
@@ -1256,7 +1296,7 @@
       "thumbnail": "/apps/jackett/assets/thumbnail.webp",
       "compose_url": "/apps/jackett/docker-compose.yml",
       "meta_url": "/apps/jackett/meta.json",
-      "content_hash": "2f687040"
+      "content_hash": "fda90dd9"
     },
     {
       "id": "jdownloader2",
@@ -1266,7 +1306,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "latest",
       "author": "Fabio Tea",
       "developer": "jdownloader",
       "architectures": [
@@ -1277,7 +1317,7 @@
       "thumbnail": "",
       "compose_url": "/apps/jdownloader2/docker-compose.yml",
       "meta_url": "/apps/jdownloader2/meta.json",
-      "content_hash": "1b3c5928"
+      "content_hash": "4035279a"
     },
     {
       "id": "jellyfin",
@@ -1287,7 +1327,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "10.10.7",
       "author": "CasaOS Team",
       "developer": "Jellyfin",
       "architectures": [
@@ -1298,7 +1338,7 @@
       "thumbnail": "/apps/jellyfin/assets/thumbnail.webp",
       "compose_url": "/apps/jellyfin/docker-compose.yml",
       "meta_url": "/apps/jellyfin/meta.json",
-      "content_hash": "538e55f5"
+      "content_hash": "4109f827"
     },
     {
       "id": "jellyfin-nvidia",
@@ -1308,7 +1348,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "10.10.6",
       "author": "CasaOS Team",
       "developer": "Jellyfin",
       "architectures": [
@@ -1319,7 +1359,7 @@
       "thumbnail": "/apps/jellyfin-nvidia/assets/thumbnail.webp",
       "compose_url": "/apps/jellyfin-nvidia/docker-compose.yml",
       "meta_url": "/apps/jellyfin-nvidia/meta.json",
-      "content_hash": "2007a80d"
+      "content_hash": "781f0107"
     },
     {
       "id": "jellyseerr",
@@ -1329,7 +1369,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "2.7.3",
       "author": "Fallenbagel",
       "developer": "Fallenbagel",
       "architectures": [
@@ -1340,7 +1380,7 @@
       "thumbnail": "",
       "compose_url": "/apps/jellyseerr/docker-compose.yml",
       "meta_url": "/apps/jellyseerr/meta.json",
-      "content_hash": "52e5c48e"
+      "content_hash": "1d78b067"
     },
     {
       "id": "jenkins",
@@ -1350,7 +1390,7 @@
       "categories": [
         "developer"
       ],
-      "version": "",
+      "version": "lts-jdk17",
       "author": "bepp-boop",
       "developer": "bepp-boop",
       "architectures": [
@@ -1361,7 +1401,7 @@
       "thumbnail": "",
       "compose_url": "/apps/jenkins/docker-compose.yml",
       "meta_url": "/apps/jenkins/meta.json",
-      "content_hash": "d1f9fbaa"
+      "content_hash": "c4a5ecab"
     },
     {
       "id": "kavita",
@@ -1371,7 +1411,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "0.8.8",
       "author": "jvmilazz0",
       "developer": "jvmilazz0",
       "architectures": [
@@ -1383,7 +1423,7 @@
       "thumbnail": "",
       "compose_url": "/apps/kavita/docker-compose.yml",
       "meta_url": "/apps/kavita/meta.json",
-      "content_hash": "2de05877"
+      "content_hash": "a07b9215"
     },
     {
       "id": "komga",
@@ -1393,7 +1433,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "1.23.6",
       "author": "gotson",
       "developer": "gotson",
       "architectures": [
@@ -1405,7 +1445,7 @@
       "thumbnail": "",
       "compose_url": "/apps/komga/docker-compose.yml",
       "meta_url": "/apps/komga/meta.json",
-      "content_hash": "2aa0a1cf"
+      "content_hash": "8b2d29b5"
     },
     {
       "id": "label-studio",
@@ -1415,7 +1455,7 @@
       "categories": [
         "ai"
       ],
-      "version": "",
+      "version": "1.9.2",
       "author": "CorrectRoadH",
       "developer": "Yidadaa",
       "architectures": [
@@ -1426,7 +1466,7 @@
       "thumbnail": "/apps/label-studio/assets/thumbnail.webp",
       "compose_url": "/apps/label-studio/docker-compose.yml",
       "meta_url": "/apps/label-studio/meta.json",
-      "content_hash": "2ba55b2c"
+      "content_hash": "83370e92"
     },
     {
       "id": "langflow",
@@ -1436,7 +1476,7 @@
       "categories": [
         "ai"
       ],
-      "version": "",
+      "version": "1.5.0",
       "author": "langflowai",
       "developer": "langflowai",
       "architectures": [
@@ -1446,7 +1486,7 @@
       "thumbnail": "",
       "compose_url": "/apps/langflow/docker-compose.yml",
       "meta_url": "/apps/langflow/meta.json",
-      "content_hash": "6ee25d5f"
+      "content_hash": "f387444e"
     },
     {
       "id": "lazylibrarian",
@@ -1456,7 +1496,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "version-169e669f",
       "author": "CasaOS Team",
       "developer": "Lazylibrarian Team",
       "architectures": [
@@ -1467,7 +1507,7 @@
       "thumbnail": "/apps/lazylibrarian/assets/thumbnail.webp",
       "compose_url": "/apps/lazylibrarian/docker-compose.yml",
       "meta_url": "/apps/lazylibrarian/meta.json",
-      "content_hash": "3b6604a0"
+      "content_hash": "72f3ab28"
     },
     {
       "id": "librechat",
@@ -1477,7 +1517,7 @@
       "categories": [
         "ai"
       ],
-      "version": "",
+      "version": "latest",
       "author": "LibreChat",
       "developer": "LibreChat",
       "architectures": [
@@ -1487,7 +1527,7 @@
       "thumbnail": "",
       "compose_url": "/apps/librechat/docker-compose.yml",
       "meta_url": "/apps/librechat/meta.json",
-      "content_hash": "f913178b"
+      "content_hash": "611410b5"
     },
     {
       "id": "lidarr",
@@ -1497,7 +1537,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "3.1.0",
       "author": "CasaOS Team",
       "developer": "lidarr Team",
       "architectures": [
@@ -1508,7 +1548,28 @@
       "thumbnail": "/apps/lidarr/assets/thumbnail.webp",
       "compose_url": "/apps/lidarr/docker-compose.yml",
       "meta_url": "/apps/lidarr/meta.json",
-      "content_hash": "f9da2276"
+      "content_hash": "d7fb71cc"
+    },
+    {
+      "id": "linkwarden",
+      "title": "Linkwarden",
+      "tagline": "Self-hosted collaborative bookmark manager to collect, read, annotate, and fully preserve what matters, all in one place.",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "version": "v2.14.1",
+      "author": "linkwarden",
+      "developer": "linkwarden",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/linkwarden/assets/icon.svg",
+      "thumbnail": "/apps/linkwarden/assets/thumbnail.webp",
+      "compose_url": "/apps/linkwarden/docker-compose.yml",
+      "meta_url": "/apps/linkwarden/meta.json",
+      "content_hash": "e5cf9eab"
     },
     {
       "id": "llama-factory-nvidia",
@@ -1518,7 +1579,7 @@
       "categories": [
         "ai"
       ],
-      "version": "",
+      "version": "0.9.4",
       "author": "hiyouga",
       "developer": "hiyouga",
       "architectures": [
@@ -1528,7 +1589,7 @@
       "thumbnail": "",
       "compose_url": "/apps/llama-factory-nvidia/docker-compose.yml",
       "meta_url": "/apps/llama-factory-nvidia/meta.json",
-      "content_hash": "6755178e"
+      "content_hash": "0c72a9a3"
     },
     {
       "id": "logseq",
@@ -1538,7 +1599,7 @@
       "categories": [
         "productivity"
       ],
-      "version": "",
+      "version": "v0.10.10",
       "author": "CasaOS Team",
       "developer": "Logseq  Team",
       "architectures": [
@@ -1549,7 +1610,7 @@
       "thumbnail": "/apps/logseq/assets/thumbnail.webp",
       "compose_url": "/apps/logseq/docker-compose.yml",
       "meta_url": "/apps/logseq/meta.json",
-      "content_hash": "226a7066"
+      "content_hash": "1b6971a5"
     },
     {
       "id": "lucky",
@@ -1559,7 +1620,7 @@
       "categories": [
         "networking"
       ],
-      "version": "",
+      "version": "2.20.2",
       "author": "IceWhaleTech",
       "developer": "gdy666",
       "architectures": [
@@ -1571,7 +1632,7 @@
       "thumbnail": "",
       "compose_url": "/apps/lucky/docker-compose.yml",
       "meta_url": "/apps/lucky/meta.json",
-      "content_hash": "2ed2a00d"
+      "content_hash": "ecc615cd"
     },
     {
       "id": "lyrionmusicserver",
@@ -1581,7 +1642,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "9.1.0",
       "author": "lmscommunity",
       "developer": "LMS-Community",
       "architectures": [
@@ -1593,7 +1654,7 @@
       "thumbnail": "",
       "compose_url": "/apps/lyrionmusicserver/docker-compose.yml",
       "meta_url": "/apps/lyrionmusicserver/meta.json",
-      "content_hash": "88328277"
+      "content_hash": "55a69fd3"
     },
     {
       "id": "mariadb",
@@ -1603,7 +1664,7 @@
       "categories": [
         "developer"
       ],
-      "version": "",
+      "version": "11.4.8",
       "author": "WisdomSky",
       "developer": "MariaDB Foundation",
       "architectures": [
@@ -1614,7 +1675,7 @@
       "thumbnail": "/apps/mariadb/assets/icon.svg",
       "compose_url": "/apps/mariadb/docker-compose.yml",
       "meta_url": "/apps/mariadb/meta.json",
-      "content_hash": "5c5a1932"
+      "content_hash": "7ed33441"
     },
     {
       "id": "maybe",
@@ -1624,7 +1685,7 @@
       "categories": [
         "finance"
       ],
-      "version": "",
+      "version": "latest",
       "author": "maybe-finance",
       "developer": "maybe-finance",
       "architectures": [
@@ -1635,7 +1696,7 @@
       "thumbnail": "",
       "compose_url": "/apps/maybe/docker-compose.yml",
       "meta_url": "/apps/maybe/meta.json",
-      "content_hash": "db692591"
+      "content_hash": "06fbd2bb"
     },
     {
       "id": "medusa",
@@ -1645,7 +1706,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "master",
       "author": "Jason McFeetors",
       "developer": "pyMedusa (https://github.com/pymedusa)",
       "architectures": [
@@ -1657,7 +1718,7 @@
       "thumbnail": "",
       "compose_url": "/apps/medusa/docker-compose.yml",
       "meta_url": "/apps/medusa/meta.json",
-      "content_hash": "bf5dc6f0"
+      "content_hash": "39e8c79c"
     },
     {
       "id": "memos",
@@ -1667,7 +1728,7 @@
       "categories": [
         "productivity"
       ],
-      "version": "",
+      "version": "0.25",
       "author": "usememos Team",
       "developer": "usememos Team",
       "architectures": [
@@ -1679,7 +1740,7 @@
       "thumbnail": "/apps/memos/assets/thumbnail.webp",
       "compose_url": "/apps/memos/docker-compose.yml",
       "meta_url": "/apps/memos/meta.json",
-      "content_hash": "0539fd14"
+      "content_hash": "20245cd7"
     },
     {
       "id": "mineos-node",
@@ -1709,7 +1770,7 @@
       "categories": [
         "developer"
       ],
-      "version": "",
+      "version": "8.2.2",
       "author": "WisdomSky",
       "developer": "MongoDB Inc.",
       "architectures": [
@@ -1720,7 +1781,7 @@
       "thumbnail": "/apps/mongodb/assets/icon.svg",
       "compose_url": "/apps/mongodb/docker-compose.yml",
       "meta_url": "/apps/mongodb/meta.json",
-      "content_hash": "dfc452d3"
+      "content_hash": "6cc7926a"
     },
     {
       "id": "mongodb4",
@@ -1730,7 +1791,7 @@
       "categories": [
         "developer"
       ],
-      "version": "",
+      "version": "4.4.22",
       "author": "WisdomSky",
       "developer": "MongoDB Inc.",
       "architectures": [
@@ -1741,7 +1802,7 @@
       "thumbnail": "/apps/mongodb4/assets/icon.svg",
       "compose_url": "/apps/mongodb4/docker-compose.yml",
       "meta_url": "/apps/mongodb4/meta.json",
-      "content_hash": "3942dae4"
+      "content_hash": "84008915"
     },
     {
       "id": "monica",
@@ -1751,7 +1812,7 @@
       "categories": [
         "social"
       ],
-      "version": "",
+      "version": "4.1.2",
       "author": "monica",
       "developer": "monica",
       "architectures": [
@@ -1762,7 +1823,7 @@
       "thumbnail": "",
       "compose_url": "/apps/monica/docker-compose.yml",
       "meta_url": "/apps/monica/meta.json",
-      "content_hash": "266f6847"
+      "content_hash": "0899b291"
     },
     {
       "id": "motioneye",
@@ -1772,7 +1833,7 @@
       "categories": [
         "home"
       ],
-      "version": "",
+      "version": "master-amd64",
       "author": "f4bio",
       "developer": "Motioneye",
       "architectures": [
@@ -1782,7 +1843,7 @@
       "thumbnail": "",
       "compose_url": "/apps/motioneye/docker-compose.yml",
       "meta_url": "/apps/motioneye/meta.json",
-      "content_hash": "fd6fd847"
+      "content_hash": "a63973ed"
     },
     {
       "id": "mylar3",
@@ -1792,7 +1853,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "0.8.3",
       "author": "CasaOS Team",
       "developer": "Mylar3 Team",
       "architectures": [
@@ -1803,7 +1864,7 @@
       "thumbnail": "/apps/mylar3/assets/thumbnail.webp",
       "compose_url": "/apps/mylar3/docker-compose.yml",
       "meta_url": "/apps/mylar3/meta.json",
-      "content_hash": "44926e85"
+      "content_hash": "fe3d3707"
     },
     {
       "id": "myspeed",
@@ -1813,7 +1874,7 @@
       "categories": [
         "networking"
       ],
-      "version": "",
+      "version": "1.0.9",
       "author": "joaobosconff",
       "developer": "Mathias Wagner",
       "architectures": [
@@ -1825,7 +1886,7 @@
       "thumbnail": "",
       "compose_url": "/apps/myspeed/docker-compose.yml",
       "meta_url": "/apps/myspeed/meta.json",
-      "content_hash": "93fbd7ae"
+      "content_hash": "ffc4ed19"
     },
     {
       "id": "n8n",
@@ -1835,7 +1896,7 @@
       "categories": [
         "productivity"
       ],
-      "version": "",
+      "version": "1.123.0",
       "author": "YoussofKhawaja",
       "developer": "n8n",
       "architectures": [
@@ -1846,7 +1907,7 @@
       "thumbnail": "/apps/n8n/assets/thumbnail.webp",
       "compose_url": "/apps/n8n/docker-compose.yml",
       "meta_url": "/apps/n8n/meta.json",
-      "content_hash": "81e605af"
+      "content_hash": "8238ee9e"
     },
     {
       "id": "navidrome",
@@ -1856,7 +1917,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "0.58.5",
       "author": "The Navidrome Authors",
       "developer": "",
       "architectures": [
@@ -1868,7 +1929,7 @@
       "thumbnail": "",
       "compose_url": "/apps/navidrome/docker-compose.yml",
       "meta_url": "/apps/navidrome/meta.json",
-      "content_hash": "0751f074"
+      "content_hash": "ed4dad58"
     },
     {
       "id": "netbird",
@@ -1878,7 +1939,7 @@
       "categories": [
         "networking"
       ],
-      "version": "",
+      "version": "0.62.3",
       "author": "NetBird Team",
       "developer": "NetBird GmbH",
       "architectures": [
@@ -1889,7 +1950,7 @@
       "thumbnail": "/apps/netbird/assets/thumbnail.webp",
       "compose_url": "/apps/netbird/docker-compose.yml",
       "meta_url": "/apps/netbird/meta.json",
-      "content_hash": "2cf015bd"
+      "content_hash": "99842045"
     },
     {
       "id": "netdata",
@@ -1899,7 +1960,7 @@
       "categories": [
         "productivity"
       ],
-      "version": "",
+      "version": "v2.8.1",
       "author": "f4bio",
       "developer": "",
       "architectures": [
@@ -1911,7 +1972,7 @@
       "thumbnail": "",
       "compose_url": "/apps/netdata/docker-compose.yml",
       "meta_url": "/apps/netdata/meta.json",
-      "content_hash": "49d0b639"
+      "content_hash": "fab72fc3"
     },
     {
       "id": "nextcloud",
@@ -1921,7 +1982,7 @@
       "categories": [
         "productivity"
       ],
-      "version": "",
+      "version": "32.0",
       "author": "CasaOS Team",
       "developer": "Nextcloud",
       "architectures": [
@@ -1937,7 +1998,7 @@
       "thumbnail": "/apps/nextcloud/assets/thumbnail.webp",
       "compose_url": "/apps/nextcloud/docker-compose.yml",
       "meta_url": "/apps/nextcloud/meta.json",
-      "content_hash": "65f742fe"
+      "content_hash": "49916e64"
     },
     {
       "id": "nginxproxymanager",
@@ -1947,7 +2008,7 @@
       "categories": [
         "networking"
       ],
-      "version": "",
+      "version": "2.13.5",
       "author": "CasaOS Team",
       "developer": "Nginx Proxy Manager",
       "architectures": [
@@ -1959,7 +2020,7 @@
       "thumbnail": "/apps/nginxproxymanager/assets/thumbnail.webp",
       "compose_url": "/apps/nginxproxymanager/docker-compose.yml",
       "meta_url": "/apps/nginxproxymanager/meta.json",
-      "content_hash": "d0113a82"
+      "content_hash": "9ec06a76"
     },
     {
       "id": "node-red",
@@ -1969,7 +2030,7 @@
       "categories": [
         "developer"
       ],
-      "version": "",
+      "version": "4.1.2",
       "author": "CasaOS Team",
       "developer": "Node-RED",
       "architectures": [
@@ -1982,7 +2043,7 @@
       "thumbnail": "/apps/node-red/assets/thimbnail.webp",
       "compose_url": "/apps/node-red/docker-compose.yml",
       "meta_url": "/apps/node-red/meta.json",
-      "content_hash": "d110c421"
+      "content_hash": "0eea9f21"
     },
     {
       "id": "nzbget",
@@ -1992,7 +2053,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "25.4.20251205",
       "author": "CasaOS Team",
       "developer": "Nzbget Team",
       "architectures": [
@@ -2004,7 +2065,7 @@
       "thumbnail": "/apps/nzbget/assets/thumbnail.webp",
       "compose_url": "/apps/nzbget/docker-compose.yml",
       "meta_url": "/apps/nzbget/meta.json",
-      "content_hash": "6fde8291"
+      "content_hash": "86e246c0"
     },
     {
       "id": "obsidian",
@@ -2014,7 +2075,7 @@
       "categories": [
         "productivity"
       ],
-      "version": "",
+      "version": "1.8.10",
       "author": "CasaOS Team",
       "developer": "linuxserver",
       "architectures": [
@@ -2025,7 +2086,7 @@
       "thumbnail": "",
       "compose_url": "/apps/obsidian/docker-compose.yml",
       "meta_url": "/apps/obsidian/meta.json",
-      "content_hash": "aeae7fb0"
+      "content_hash": "d762d1db"
     },
     {
       "id": "ollama",
@@ -2035,7 +2096,7 @@
       "categories": [
         "ai"
       ],
-      "version": "",
+      "version": "0.9.5",
       "author": "ollama",
       "developer": "ollama",
       "architectures": [
@@ -2046,7 +2107,7 @@
       "thumbnail": "",
       "compose_url": "/apps/ollama/docker-compose.yml",
       "meta_url": "/apps/ollama/meta.json",
-      "content_hash": "198804c5"
+      "content_hash": "ff3919e4"
     },
     {
       "id": "ollama-nvidia",
@@ -2056,7 +2117,7 @@
       "categories": [
         "ai"
       ],
-      "version": "",
+      "version": "0.9.5",
       "author": "ollama",
       "developer": "ollama",
       "architectures": [
@@ -2067,7 +2128,7 @@
       "thumbnail": "",
       "compose_url": "/apps/ollama-nvidia/docker-compose.yml",
       "meta_url": "/apps/ollama-nvidia/meta.json",
-      "content_hash": "1296fb98"
+      "content_hash": "c0d21c0d"
     },
     {
       "id": "ombi",
@@ -2077,7 +2138,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "4.47.1",
       "author": "CasaOS Team",
       "developer": "Sabnzbd Team",
       "architectures": [
@@ -2088,7 +2149,7 @@
       "thumbnail": "/apps/ombi/assets/thumbnail.webp",
       "compose_url": "/apps/ombi/docker-compose.yml",
       "meta_url": "/apps/ombi/meta.json",
-      "content_hash": "c32bd1a1"
+      "content_hash": "ce11fc09"
     },
     {
       "id": "open-webui-ollama",
@@ -2098,7 +2159,7 @@
       "categories": [
         "ai"
       ],
-      "version": "",
+      "version": "ollama",
       "author": "",
       "developer": "Tim J. Baek",
       "architectures": [
@@ -2108,7 +2169,28 @@
       "thumbnail": "/apps/open-webui-ollama/assets/thumbnail.webp",
       "compose_url": "/apps/open-webui-ollama/docker-compose.yml",
       "meta_url": "/apps/open-webui-ollama/meta.json",
-      "content_hash": "787f96d2"
+      "content_hash": "4d9ef7eb"
+    },
+    {
+      "id": "openclaw",
+      "title": "OpenClaw",
+      "tagline": "OpenClaw is a personal AI assistant you run on your own devices",
+      "category": "AI",
+      "categories": [
+        "ai"
+      ],
+      "version": "2026.5.7",
+      "author": "openclaw",
+      "developer": "openclaw",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/openclaw/assets/icon.svg",
+      "thumbnail": "/apps/openclaw/assets/thumbnail.webp",
+      "compose_url": "/apps/openclaw/docker-compose.yml",
+      "meta_url": "/apps/openclaw/meta.json",
+      "content_hash": "0564daf0"
     },
     {
       "id": "openhab",
@@ -2118,7 +2200,7 @@
       "categories": [
         "home"
       ],
-      "version": "",
+      "version": "4.3.3",
       "author": "CasaOS Team",
       "developer": "openHAB",
       "architectures": [
@@ -2130,7 +2212,7 @@
       "thumbnail": "/apps/openhab/assets/thumbnail.webp",
       "compose_url": "/apps/openhab/docker-compose.yml",
       "meta_url": "/apps/openhab/meta.json",
-      "content_hash": "8e4d7db7"
+      "content_hash": "bb1b9844"
     },
     {
       "id": "openhands",
@@ -2140,7 +2222,7 @@
       "categories": [
         "ai"
       ],
-      "version": "",
+      "version": "0.59",
       "author": "All-Hands-AI",
       "developer": "All-Hands-AI",
       "architectures": [
@@ -2150,7 +2232,29 @@
       "thumbnail": "",
       "compose_url": "/apps/openhands/docker-compose.yml",
       "meta_url": "/apps/openhands/meta.json",
-      "content_hash": "983246e9"
+      "content_hash": "5aa0e421"
+    },
+    {
+      "id": "openlist",
+      "title": "OpenList",
+      "tagline": "Mount your cloud drive on your home NAS",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "version": "4.2.1",
+      "author": "OpenList Team",
+      "developer": "OpenListTeam",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "icon": "/apps/openlist/assets/icon.svg",
+      "thumbnail": "",
+      "compose_url": "/apps/openlist/docker-compose.yml",
+      "meta_url": "/apps/openlist/meta.json",
+      "content_hash": "e70d2a26"
     },
     {
       "id": "openspeedtest",
@@ -2160,7 +2264,7 @@
       "categories": [
         "networking"
       ],
-      "version": "",
+      "version": "v2.0.6",
       "author": "OpenSpeedTest",
       "developer": "OpenSpeedTest",
       "architectures": [
@@ -2175,7 +2279,7 @@
       "thumbnail": "/apps/openspeedtest/assets/thumbnail.webp",
       "compose_url": "/apps/openspeedtest/docker-compose.yml",
       "meta_url": "/apps/openspeedtest/meta.json",
-      "content_hash": "ecb5b4e1"
+      "content_hash": "3606f4c8"
     },
     {
       "id": "opodsync",
@@ -2185,7 +2289,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "latest",
       "author": "ganeshlab",
       "developer": "ganeshlab",
       "architectures": [
@@ -2196,7 +2300,7 @@
       "thumbnail": "",
       "compose_url": "/apps/opodsync/docker-compose.yml",
       "meta_url": "/apps/opodsync/meta.json",
-      "content_hash": "323ae1a1"
+      "content_hash": "7a5e5da4"
     },
     {
       "id": "overseerr",
@@ -2206,7 +2310,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "1.33.2",
       "author": "WisdomSky",
       "developer": "LinuxServer.io",
       "architectures": [
@@ -2217,7 +2321,7 @@
       "thumbnail": "/apps/overseerr/assets/icon.svg",
       "compose_url": "/apps/overseerr/docker-compose.yml",
       "meta_url": "/apps/overseerr/meta.json",
-      "content_hash": "1da08884"
+      "content_hash": "c9ca4778"
     },
     {
       "id": "pdfding",
@@ -2227,7 +2331,7 @@
       "categories": [
         "productivity"
       ],
-      "version": "",
+      "version": "v1.3.1",
       "author": "mrmn2",
       "developer": "mrmn2",
       "architectures": [
@@ -2238,7 +2342,7 @@
       "thumbnail": "",
       "compose_url": "/apps/pdfding/docker-compose.yml",
       "meta_url": "/apps/pdfding/meta.json",
-      "content_hash": "fb1414f8"
+      "content_hash": "e6a095a2"
     },
     {
       "id": "peanut",
@@ -2248,7 +2352,7 @@
       "categories": [
         "home"
       ],
-      "version": "",
+      "version": "5.19.1",
       "author": "brandawg93",
       "developer": "brandawg93",
       "architectures": [
@@ -2259,7 +2363,7 @@
       "thumbnail": "/apps/peanut/assets/thumbnail.webp",
       "compose_url": "/apps/peanut/docker-compose.yml",
       "meta_url": "/apps/peanut/meta.json",
-      "content_hash": "025a43d7"
+      "content_hash": "5b7a34c7"
     },
     {
       "id": "petio",
@@ -2269,7 +2373,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "sha256:1c5a9276a844f4284601cbe332905864950545ebdeaad74bacb9097ea4f4b333",
       "author": "WisdomSky",
       "developer": "Petio Team",
       "architectures": [
@@ -2281,7 +2385,7 @@
       "thumbnail": "/apps/petio/assets/icon.svg",
       "compose_url": "/apps/petio/docker-compose.yml",
       "meta_url": "/apps/petio/meta.json",
-      "content_hash": "a65d26ed"
+      "content_hash": "19f2db96"
     },
     {
       "id": "photoprism",
@@ -2291,7 +2395,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "250228",
       "author": "CasaOS Team",
       "developer": "PhotoPrism",
       "architectures": [
@@ -2302,7 +2406,7 @@
       "thumbnail": "/apps/photoprism/assets/thumbnail.webp",
       "compose_url": "/apps/photoprism/docker-compose.yml",
       "meta_url": "/apps/photoprism/meta.json",
-      "content_hash": "531ad012"
+      "content_hash": "ea2fcf9a"
     },
     {
       "id": "pihole",
@@ -2312,7 +2416,7 @@
       "categories": [
         "networking"
       ],
-      "version": "",
+      "version": "2025.11.1",
       "author": "CasaOS Team",
       "developer": "Pi-hole",
       "architectures": [
@@ -2325,7 +2429,7 @@
       "thumbnail": "/apps/pihole/assets/thumbnaill.webp",
       "compose_url": "/apps/pihole/docker-compose.yml",
       "meta_url": "/apps/pihole/meta.json",
-      "content_hash": "4a6539f3"
+      "content_hash": "3c8120a9"
     },
     {
       "id": "pinchflat",
@@ -2335,7 +2439,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "latest",
       "author": "kieraneglin",
       "developer": "kieraneglin",
       "architectures": [
@@ -2346,7 +2450,7 @@
       "thumbnail": "",
       "compose_url": "/apps/pinchflat/docker-compose.yml",
       "meta_url": "/apps/pinchflat/meta.json",
-      "content_hash": "3ccf8e56"
+      "content_hash": "f30356a0"
     },
     {
       "id": "pingvin-share",
@@ -2356,7 +2460,7 @@
       "categories": [
         "productivity"
       ],
-      "version": "",
+      "version": "latest",
       "author": "stonith404",
       "developer": "stonith404",
       "architectures": [
@@ -2367,7 +2471,7 @@
       "thumbnail": "",
       "compose_url": "/apps/pingvin-share/docker-compose.yml",
       "meta_url": "/apps/pingvin-share/meta.json",
-      "content_hash": "b015c98d"
+      "content_hash": "1de962d6"
     },
     {
       "id": "playit-agent",
@@ -2377,7 +2481,7 @@
       "categories": [
         "networking"
       ],
-      "version": "",
+      "version": "latest",
       "author": "mafen",
       "developer": "Patrick Lorio",
       "architectures": [
@@ -2388,7 +2492,7 @@
       "thumbnail": "",
       "compose_url": "/apps/playit-agent/docker-compose.yml",
       "meta_url": "/apps/playit-agent/meta.json",
-      "content_hash": "71f30a7d"
+      "content_hash": "e2997768"
     },
     {
       "id": "plex",
@@ -2398,7 +2502,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "1.41.3",
       "author": "CasaOS Team",
       "developer": "Plex",
       "architectures": [
@@ -2409,7 +2513,7 @@
       "thumbnail": "/apps/plex/assets/thumbnail.webp",
       "compose_url": "/apps/plex/docker-compose.yml",
       "meta_url": "/apps/plex/meta.json",
-      "content_hash": "8a4bf72c"
+      "content_hash": "b1309282"
     },
     {
       "id": "plex-nvidia",
@@ -2419,7 +2523,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "1.41.3",
       "author": "CasaOS Team",
       "developer": "Plex",
       "architectures": [
@@ -2430,7 +2534,7 @@
       "thumbnail": "/apps/plex-nvidia/assets/thumbnail.webp",
       "compose_url": "/apps/plex-nvidia/docker-compose.yml",
       "meta_url": "/apps/plex-nvidia/meta.json",
-      "content_hash": "51d973b6"
+      "content_hash": "9693f0fa"
     },
     {
       "id": "pocketbase",
@@ -2440,7 +2544,7 @@
       "categories": [
         "developer"
       ],
-      "version": "",
+      "version": "0.25.9",
       "author": "CasaOS Team",
       "developer": "Gani Georgiev",
       "architectures": [
@@ -2450,7 +2554,7 @@
       "thumbnail": "/apps/pocketbase/assets/thumbnail.webp",
       "compose_url": "/apps/pocketbase/docker-compose.yml",
       "meta_url": "/apps/pocketbase/meta.json",
-      "content_hash": "65aeea5a"
+      "content_hash": "749a9d23"
     },
     {
       "id": "portainer",
@@ -2460,7 +2564,7 @@
       "categories": [
         "developer"
       ],
-      "version": "",
+      "version": "2.31.3",
       "author": "Cp0204",
       "developer": "Portainer",
       "architectures": [
@@ -2472,7 +2576,7 @@
       "thumbnail": "/apps/portainer/assets/thumbnail.webp",
       "compose_url": "/apps/portainer/docker-compose.yml",
       "meta_url": "/apps/portainer/meta.json",
-      "content_hash": "9d40d12f"
+      "content_hash": "5f5e1c0d"
     },
     {
       "id": "postgresql",
@@ -2482,7 +2586,7 @@
       "categories": [
         "developer"
       ],
-      "version": "",
+      "version": "17.4",
       "author": "WisdomSky",
       "developer": "PostgreSQL Global Dev't Group",
       "architectures": [
@@ -2494,7 +2598,7 @@
       "thumbnail": "/apps/postgresql/assets/icon.svg",
       "compose_url": "/apps/postgresql/docker-compose.yml",
       "meta_url": "/apps/postgresql/meta.json",
-      "content_hash": "995f2860"
+      "content_hash": "da18bf44"
     },
     {
       "id": "prowlarr",
@@ -2504,7 +2608,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "2.3.5",
       "author": "CasaOS Team",
       "developer": "Prowlarr Team",
       "architectures": [
@@ -2515,7 +2619,28 @@
       "thumbnail": "/apps/prowlarr/assets/thumbnail.webp",
       "compose_url": "/apps/prowlarr/docker-compose.yml",
       "meta_url": "/apps/prowlarr/meta.json",
-      "content_hash": "0dc0e97e"
+      "content_hash": "d4caccb9"
+    },
+    {
+      "id": "psitransfer",
+      "title": "PsiTransfer",
+      "tagline": "A simple, open-source file sharing host.",
+      "category": "Productivity",
+      "categories": [
+        "productivity"
+      ],
+      "version": "v2.4.1",
+      "author": "psitrax",
+      "developer": "psitrax",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "/apps/psitransfer/assets/icon.png",
+      "thumbnail": "",
+      "compose_url": "/apps/psitransfer/docker-compose.yml",
+      "meta_url": "/apps/psitransfer/meta.json",
+      "content_hash": "031f83d4"
     },
     {
       "id": "pyload",
@@ -2525,7 +2650,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "0.5.0",
       "author": "joaobosconff",
       "developer": "linuxserver",
       "architectures": [
@@ -2536,7 +2661,7 @@
       "thumbnail": "",
       "compose_url": "/apps/pyload/docker-compose.yml",
       "meta_url": "/apps/pyload/meta.json",
-      "content_hash": "32d78909"
+      "content_hash": "99f0efb4"
     },
     {
       "id": "qbittorrent",
@@ -2546,7 +2671,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "release-5.0.4",
       "author": "CasaOS Team",
       "developer": "qBittorrent",
       "architectures": [
@@ -2557,7 +2682,7 @@
       "thumbnail": "/apps/qbittorrent/assets/thumbnail.webp",
       "compose_url": "/apps/qbittorrent/docker-compose.yml",
       "meta_url": "/apps/qbittorrent/meta.json",
-      "content_hash": "550612be"
+      "content_hash": "cb5e848a"
     },
     {
       "id": "radarr",
@@ -2567,7 +2692,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "6.1.1",
       "author": "CasaOS Team",
       "developer": "Radarr",
       "architectures": [
@@ -2578,7 +2703,7 @@
       "thumbnail": "/apps/radarr/assets/thumbnail.webp",
       "compose_url": "/apps/radarr/docker-compose.yml",
       "meta_url": "/apps/radarr/meta.json",
-      "content_hash": "f465341c"
+      "content_hash": "33a52637"
     },
     {
       "id": "ragflow",
@@ -2588,7 +2713,7 @@
       "categories": [
         "ai"
       ],
-      "version": "",
+      "version": "v0.21.1",
       "author": "RagFlow",
       "developer": "RagFlow",
       "architectures": [
@@ -2598,7 +2723,7 @@
       "thumbnail": "/apps/ragflow/assets/thumbnail.webp",
       "compose_url": "/apps/ragflow/docker-compose.yml",
       "meta_url": "/apps/ragflow/meta.json",
-      "content_hash": "f30f6980"
+      "content_hash": "4895f148"
     },
     {
       "id": "rdtclient",
@@ -2608,7 +2733,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "2",
       "author": "calganaygun",
       "developer": "",
       "architectures": [
@@ -2620,7 +2745,7 @@
       "thumbnail": "",
       "compose_url": "/apps/rdtclient/docker-compose.yml",
       "meta_url": "/apps/rdtclient/meta.json",
-      "content_hash": "13b3c85d"
+      "content_hash": "44909ae9"
     },
     {
       "id": "readarr",
@@ -2630,7 +2755,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "0.3.10-develop",
       "author": "CasaOS Team",
       "developer": "Readarr Team",
       "architectures": [
@@ -2641,7 +2766,7 @@
       "thumbnail": "/apps/readarr/assets/thumbnail.webp",
       "compose_url": "/apps/readarr/docker-compose.yml",
       "meta_url": "/apps/readarr/meta.json",
-      "content_hash": "21496406"
+      "content_hash": "47a8e8ce"
     },
     {
       "id": "resilio-sync",
@@ -2651,7 +2776,7 @@
       "categories": [
         "productivity"
       ],
-      "version": "",
+      "version": "2.7.3",
       "author": "self",
       "developer": "",
       "architectures": [
@@ -2662,7 +2787,7 @@
       "thumbnail": "",
       "compose_url": "/apps/resilio-sync/docker-compose.yml",
       "meta_url": "/apps/resilio-sync/meta.json",
-      "content_hash": "f61c468a"
+      "content_hash": "f057cea4"
     },
     {
       "id": "retroarch",
@@ -2672,7 +2797,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "latest",
       "author": "inglebard",
       "developer": "inglebard",
       "architectures": [
@@ -2683,7 +2808,7 @@
       "thumbnail": "",
       "compose_url": "/apps/retroarch/docker-compose.yml",
       "meta_url": "/apps/retroarch/meta.json",
-      "content_hash": "456b561f"
+      "content_hash": "d52c226c"
     },
     {
       "id": "romm",
@@ -2693,7 +2818,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "4.0.1",
       "author": "rommapp",
       "developer": "rommapp",
       "architectures": [
@@ -2705,7 +2830,7 @@
       "thumbnail": "",
       "compose_url": "/apps/romm/docker-compose.yml",
       "meta_url": "/apps/romm/meta.json",
-      "content_hash": "d5bcf3fe"
+      "content_hash": "6c0f3755"
     },
     {
       "id": "sabnzbd",
@@ -2715,7 +2840,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "4.1.0",
       "author": "CasaOS Team",
       "developer": "Sabnzbd Team",
       "architectures": [
@@ -2726,7 +2851,7 @@
       "thumbnail": "/apps/sabnzbd/assets/thumbnail.webp",
       "compose_url": "/apps/sabnzbd/docker-compose.yml",
       "meta_url": "/apps/sabnzbd/meta.json",
-      "content_hash": "da0400fc"
+      "content_hash": "90d9dcf4"
     },
     {
       "id": "sickchill",
@@ -2736,7 +2861,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "2023.6.27",
       "author": "CasaOS Team",
       "developer": "Sickchill Team",
       "architectures": [
@@ -2747,7 +2872,7 @@
       "thumbnail": "/apps/sickchill/assets/thumbnail.webp",
       "compose_url": "/apps/sickchill/docker-compose.yml",
       "meta_url": "/apps/sickchill/meta.json",
-      "content_hash": "9d2971c5"
+      "content_hash": "60069318"
     },
     {
       "id": "siyuan-note",
@@ -2757,7 +2882,7 @@
       "categories": [
         "productivity"
       ],
-      "version": "",
+      "version": "v3.0.1",
       "author": "CasaOS Team",
       "developer": "siyuan-note",
       "architectures": [
@@ -2769,7 +2894,7 @@
       "thumbnail": "/apps/siyuan-note/assets/thumbnail.webp",
       "compose_url": "/apps/siyuan-note/docker-compose.yml",
       "meta_url": "/apps/siyuan-note/meta.json",
-      "content_hash": "c915ed20"
+      "content_hash": "3362ca78"
     },
     {
       "id": "smokeping",
@@ -2779,7 +2904,7 @@
       "categories": [
         "networking"
       ],
-      "version": "",
+      "version": "2.8.2",
       "author": "CasaOS Team",
       "developer": "Lazylibrarian Team",
       "architectures": [
@@ -2790,7 +2915,7 @@
       "thumbnail": "/apps/smokeping/assets/thumbnail.webp",
       "compose_url": "/apps/smokeping/docker-compose.yml",
       "meta_url": "/apps/smokeping/meta.json",
-      "content_hash": "bb7236bc"
+      "content_hash": "6c858849"
     },
     {
       "id": "snapdrop",
@@ -2800,7 +2925,7 @@
       "categories": [
         "productivity"
       ],
-      "version": "",
+      "version": "version-eac78009",
       "author": "self",
       "developer": "",
       "architectures": [
@@ -2811,7 +2936,7 @@
       "thumbnail": "",
       "compose_url": "/apps/snapdrop/docker-compose.yml",
       "meta_url": "/apps/snapdrop/meta.json",
-      "content_hash": "5e5bc17c"
+      "content_hash": "3d9b2fd0"
     },
     {
       "id": "sonarr",
@@ -2821,7 +2946,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "4.0.17",
       "author": "CasaOS Team",
       "developer": "Sonarr",
       "architectures": [
@@ -2832,7 +2957,7 @@
       "thumbnail": "/apps/sonarr/assets/thumbnail.webp",
       "compose_url": "/apps/sonarr/docker-compose.yml",
       "meta_url": "/apps/sonarr/meta.json",
-      "content_hash": "ee815fa5"
+      "content_hash": "d737e12d"
     },
     {
       "id": "stremio",
@@ -2842,7 +2967,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "v1.2.5",
       "author": "joaobosconff",
       "developer": "Andreas Tsarida / Stremio",
       "architectures": [
@@ -2853,7 +2978,7 @@
       "thumbnail": "",
       "compose_url": "/apps/stremio/docker-compose.yml",
       "meta_url": "/apps/stremio/meta.json",
-      "content_hash": "4d884ff8"
+      "content_hash": "84c13c0c"
     },
     {
       "id": "sure",
@@ -2863,7 +2988,7 @@
       "categories": [
         "finance"
       ],
-      "version": "",
+      "version": "0.6.5-hotfix.1",
       "author": "we-promise",
       "developer": "we-promise",
       "architectures": [
@@ -2874,7 +2999,7 @@
       "thumbnail": "",
       "compose_url": "/apps/sure/docker-compose.yml",
       "meta_url": "/apps/sure/meta.json",
-      "content_hash": "64490edb"
+      "content_hash": "5c47048f"
     },
     {
       "id": "swingmusic",
@@ -2884,7 +3009,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "v1.4.8",
       "author": "SwingMX",
       "developer": "SwingMX",
       "architectures": [
@@ -2894,7 +3019,7 @@
       "thumbnail": "/apps/swingmusic/assets/thumbnail.webp",
       "compose_url": "/apps/swingmusic/docker-compose.yml",
       "meta_url": "/apps/swingmusic/meta.json",
-      "content_hash": "6a671db3"
+      "content_hash": "a4e138b3"
     },
     {
       "id": "syncthing",
@@ -2904,7 +3029,7 @@
       "categories": [
         "productivity"
       ],
-      "version": "",
+      "version": "1.29.7",
       "author": "CasaOS Team",
       "developer": "Syncthing",
       "architectures": [
@@ -2915,7 +3040,7 @@
       "thumbnail": "/apps/syncthing/assets/thumbnail.webp",
       "compose_url": "/apps/syncthing/docker-compose.yml",
       "meta_url": "/apps/syncthing/meta.json",
-      "content_hash": "19a62160"
+      "content_hash": "18856572"
     },
     {
       "id": "tailscale",
@@ -2925,7 +3050,7 @@
       "categories": [
         "networking"
       ],
-      "version": "",
+      "version": "v1.90.8",
       "author": "CasaOS Team",
       "developer": "Tailscale Inc.",
       "architectures": [
@@ -2938,7 +3063,7 @@
       "thumbnail": "",
       "compose_url": "/apps/tailscale/docker-compose.yml",
       "meta_url": "/apps/tailscale/meta.json",
-      "content_hash": "bcd30c14"
+      "content_hash": "00692759"
     },
     {
       "id": "taskingai",
@@ -2959,7 +3084,7 @@
       "thumbnail": "/apps/taskingai/assets/thumbnail.webp",
       "compose_url": "/apps/taskingai/docker-compose.yml",
       "meta_url": "/apps/taskingai/meta.json",
-      "content_hash": "315fc391"
+      "content_hash": "2bee4f64"
     },
     {
       "id": "tautulli",
@@ -2969,7 +3094,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "2.13.2",
       "author": "Triskae",
       "developer": "Tautulli Team",
       "architectures": [
@@ -2980,7 +3105,7 @@
       "thumbnail": "/apps/tautulli/assets/thumbnail.webp",
       "compose_url": "/apps/tautulli/docker-compose.yml",
       "meta_url": "/apps/tautulli/meta.json",
-      "content_hash": "b21707ac"
+      "content_hash": "422d98d8"
     },
     {
       "id": "teable",
@@ -2990,7 +3115,7 @@
       "categories": [
         "productivity"
       ],
-      "version": "",
+      "version": "latest",
       "author": "teableio",
       "developer": "teableio",
       "architectures": [
@@ -3001,7 +3126,7 @@
       "thumbnail": "/apps/teable/assets/thumbnail.webp",
       "compose_url": "/apps/teable/docker-compose.yml",
       "meta_url": "/apps/teable/meta.json",
-      "content_hash": "facb616d"
+      "content_hash": "9fd49053"
     },
     {
       "id": "threadfin",
@@ -3011,7 +3136,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "latest",
       "author": "Fabio Tea",
       "developer": "jdownloader",
       "architectures": [
@@ -3023,7 +3148,7 @@
       "thumbnail": "",
       "compose_url": "/apps/threadfin/docker-compose.yml",
       "meta_url": "/apps/threadfin/meta.json",
-      "content_hash": "fa599215"
+      "content_hash": "6bbf00af"
     },
     {
       "id": "transmission",
@@ -3033,7 +3158,7 @@
       "categories": [
         "media"
       ],
-      "version": "",
+      "version": "4.0.4",
       "author": "CasaOS Team",
       "developer": "Transmission",
       "architectures": [
@@ -3044,7 +3169,7 @@
       "thumbnail": "/apps/transmission/assets/thumbnail.webp",
       "compose_url": "/apps/transmission/docker-compose.yml",
       "meta_url": "/apps/transmission/meta.json",
-      "content_hash": "f111b57a"
+      "content_hash": "be7741b3"
     },
     {
       "id": "trilium",
@@ -3054,7 +3179,7 @@
       "categories": [
         "productivity"
       ],
-      "version": "",
+      "version": "v0.99.3",
       "author": "Jason McFeetors",
       "developer": "zadam",
       "architectures": [
@@ -3066,7 +3191,27 @@
       "thumbnail": "",
       "compose_url": "/apps/trilium/docker-compose.yml",
       "meta_url": "/apps/trilium/meta.json",
-      "content_hash": "d2040049"
+      "content_hash": "b132a59c"
+    },
+    {
+      "id": "turbodiffusion_nvidia",
+      "title": "TurboDiffusion(Nvidia GPU)",
+      "tagline": "An accelerated video generation framework that speeds up end-to-end diffusion while preserving video quality",
+      "category": "AI",
+      "categories": [
+        "ai"
+      ],
+      "version": "20260312",
+      "author": "thu-ml",
+      "developer": "thu-ml",
+      "architectures": [
+        "amd64"
+      ],
+      "icon": "/apps/turbodiffusion_nvidia/assets/icon.png",
+      "thumbnail": "",
+      "compose_url": "/apps/turbodiffusion_nvidia/docker-compose.yml",
+      "meta_url": "/apps/turbodiffusion_nvidia/meta.json",
+      "content_hash": "11bd6051"
     },
     {
       "id": "twingate-connector",
@@ -3076,7 +3221,7 @@
       "categories": [
         "networking"
       ],
-      "version": "",
+      "version": "1",
       "author": "Shubhankar Trivedi",
       "developer": "Twingate",
       "architectures": [
@@ -3088,7 +3233,7 @@
       "thumbnail": "/apps/twingate-connector/assets/thumbnail.webp",
       "compose_url": "/apps/twingate-connector/docker-compose.yml",
       "meta_url": "/apps/twingate-connector/meta.json",
-      "content_hash": "240333ef"
+      "content_hash": "fb4ade40"
     },
     {
       "id": "unifi-controller",
@@ -3098,7 +3243,7 @@
       "categories": [
         "networking"
       ],
-      "version": "",
+      "version": "8.0.7",
       "author": "CasaOS Team",
       "developer": "LinuxServer.io",
       "architectures": [
@@ -3109,7 +3254,7 @@
       "thumbnail": "/apps/unifi-controller/assets/thumbnail.webp",
       "compose_url": "/apps/unifi-controller/docker-compose.yml",
       "meta_url": "/apps/unifi-controller/meta.json",
-      "content_hash": "6f230509"
+      "content_hash": "529c389f"
     },
     {
       "id": "unifi-network-application",
@@ -3119,7 +3264,7 @@
       "categories": [
         "networking"
       ],
-      "version": "",
+      "version": "latest",
       "author": "Giuseppe Galilei",
       "developer": "Ubiquiti and Linuxserver.io",
       "architectures": [
@@ -3130,7 +3275,7 @@
       "thumbnail": "",
       "compose_url": "/apps/unifi-network-application/docker-compose.yml",
       "meta_url": "/apps/unifi-network-application/meta.json",
-      "content_hash": "e0be441a"
+      "content_hash": "b19f920f"
     },
     {
       "id": "uptimekuma",
@@ -3140,7 +3285,7 @@
       "categories": [
         "networking"
       ],
-      "version": "",
+      "version": "1.23.16-alpine",
       "author": "CasaOS Team",
       "developer": "Louis Lam",
       "architectures": [
@@ -3152,7 +3297,7 @@
       "thumbnail": "/apps/uptimekuma/assets/thumbnail.webp",
       "compose_url": "/apps/uptimekuma/docker-compose.yml",
       "meta_url": "/apps/uptimekuma/meta.json",
-      "content_hash": "ac784b5f"
+      "content_hash": "46e4c49c"
     },
     {
       "id": "v2raya",
@@ -3162,7 +3307,7 @@
       "categories": [
         "networking"
       ],
-      "version": "",
+      "version": "v2.2.6.7",
       "author": "v2rayA",
       "developer": "v2rayA",
       "architectures": [
@@ -3173,7 +3318,7 @@
       "thumbnail": "",
       "compose_url": "/apps/v2raya/docker-compose.yml",
       "meta_url": "/apps/v2raya/meta.json",
-      "content_hash": "f547cecd"
+      "content_hash": "77b48922"
     },
     {
       "id": "vaultwarden",
@@ -3183,7 +3328,7 @@
       "categories": [
         "productivity"
       ],
-      "version": "",
+      "version": "1.32.7",
       "author": "CasaOS Team",
       "developer": "Daniel García",
       "architectures": [
@@ -3195,7 +3340,7 @@
       "thumbnail": "/apps/vaultwarden/assets/thumbnail.webp",
       "compose_url": "/apps/vaultwarden/docker-compose.yml",
       "meta_url": "/apps/vaultwarden/meta.json",
-      "content_hash": "07df64e5"
+      "content_hash": "86082d2b"
     },
     {
       "id": "virtmanager",
@@ -3205,7 +3350,7 @@
       "categories": [
         "developer"
       ],
-      "version": "",
+      "version": "latest",
       "author": "mber5",
       "developer": "Red Hat",
       "architectures": [
@@ -3216,7 +3361,7 @@
       "thumbnail": "",
       "compose_url": "/apps/virtmanager/docker-compose.yml",
       "meta_url": "/apps/virtmanager/meta.json",
-      "content_hash": "4eb9ed9f"
+      "content_hash": "e853876a"
     },
     {
       "id": "vocechat",
@@ -3226,7 +3371,7 @@
       "categories": [
         "social"
       ],
-      "version": "",
+      "version": "v0.3.33",
       "author": "Privoce",
       "developer": "Privoce",
       "architectures": [
@@ -3236,7 +3381,7 @@
       "thumbnail": "/apps/vocechat/assets/thumbnail.webp",
       "compose_url": "/apps/vocechat/docker-compose.yml",
       "meta_url": "/apps/vocechat/meta.json",
-      "content_hash": "39946c5a"
+      "content_hash": "5af24f7c"
     },
     {
       "id": "wallabag",
@@ -3246,7 +3391,7 @@
       "categories": [
         "productivity"
       ],
-      "version": "",
+      "version": "2.6.13",
       "author": "CasaOS Team",
       "developer": "wallabag",
       "architectures": [
@@ -3257,7 +3402,7 @@
       "thumbnail": "",
       "compose_url": "/apps/wallabag/docker-compose.yml",
       "meta_url": "/apps/wallabag/meta.json",
-      "content_hash": "4d3d2670"
+      "content_hash": "dc93fd1c"
     },
     {
       "id": "webdav",
@@ -3267,7 +3412,7 @@
       "categories": [
         "productivity"
       ],
-      "version": "",
+      "version": "amd64",
       "author": "CasaOS Team",
       "developer": "CasaOS Team",
       "architectures": [
@@ -3280,7 +3425,7 @@
       "thumbnail": "",
       "compose_url": "/apps/webdav/docker-compose.yml",
       "meta_url": "/apps/webdav/meta.json",
-      "content_hash": "2169d11f"
+      "content_hash": "afa6ccca"
     },
     {
       "id": "weknora",
@@ -3290,7 +3435,7 @@
       "categories": [
         "ai"
       ],
-      "version": "",
+      "version": "v0.2.14",
       "author": "tencent",
       "developer": "Tencent",
       "architectures": [
@@ -3301,7 +3446,7 @@
       "thumbnail": "/apps/weknora/assets/thumbnail.webp",
       "compose_url": "/apps/weknora/docker-compose.yml",
       "meta_url": "/apps/weknora/meta.json",
-      "content_hash": "7fc509c7"
+      "content_hash": "d7d1c632"
     },
     {
       "id": "wg-easy",
@@ -3311,7 +3456,7 @@
       "categories": [
         "networking"
       ],
-      "version": "",
+      "version": "13",
       "author": "Sawy",
       "developer": "WeejeWel",
       "architectures": [
@@ -3323,7 +3468,7 @@
       "thumbnail": "/apps/wg-easy/assets/icon.svg",
       "compose_url": "/apps/wg-easy/docker-compose.yml",
       "meta_url": "/apps/wg-easy/meta.json",
-      "content_hash": "4814fe1f"
+      "content_hash": "dc5e3bd7"
     },
     {
       "id": "ztnet",
@@ -3333,7 +3478,7 @@
       "categories": [
         "networking"
       ],
-      "version": "",
+      "version": "0.7.5",
       "author": "sinamics",
       "developer": "sinamics",
       "architectures": [
@@ -3344,7 +3489,7 @@
       "thumbnail": "",
       "compose_url": "/apps/ztnet/docker-compose.yml",
       "meta_url": "/apps/ztnet/meta.json",
-      "content_hash": "67e481a2"
+      "content_hash": "19f24636"
     }
   ]
 }

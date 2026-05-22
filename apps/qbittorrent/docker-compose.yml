@@ -31,3 +31,4 @@ x-casaos:
   title: qBittorrent
   index: /
   port_map: '8181'
+  version: release-5.0.4

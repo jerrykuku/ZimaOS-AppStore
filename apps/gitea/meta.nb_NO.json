@@ -1,0 +1,4 @@
+{
+  "id": "gitea",
+  "releaseNotes": "- v1.25.0 legger til strømming av arkivarkiv, konfigurerbare Git-fjernnavn og e-poster om suksess/feil i arbeidsflyten.\n- OpenID Connect, depotinnhold APIs, SSH commit signering og 3D/CAD forhåndsvisninger ble forbedret.\n- Sikkerhetsoppdateringer inkluderer en public-key-oppgradering og alle 1.24.x-sikkerhetsreparasjoner etter 1.25.0-rc0."
+}

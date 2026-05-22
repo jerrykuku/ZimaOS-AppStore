@@ -33,3 +33,4 @@ x-casaos:
   title: Sonarr
   index: /
   port_map: '8989'
+  version: 4.0.17

@@ -1,0 +1,4 @@
+{
+  "id": "gitea",
+  "releaseNotes": "- v1.25.0 dodaje strujanje arhive spremišta, konfigurabilna Git udaljena imena i e-poruke o uspjehu/neuspjehu tijeka rada.\n- OpenID Connect, poboljšani su pregledi sadržaja repozitorija APIs, SSH commit signing i 3D/CAD.\n- Sigurnosna ažuriranja uključuju nadogradnju public-key i sve sigurnosne popravke 1.24.x nakon 1.25.0-rc0."
+}

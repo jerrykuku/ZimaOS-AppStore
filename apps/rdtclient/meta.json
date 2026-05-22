@@ -10,6 +10,12 @@
     "/apps/rdtclient/assets/screenshot-1.webp"
   ],
   "store_app_id": "rdtclient",
+  "updateAt": "2024-06-11",
+  "releaseNotes": "",
+  "website": "",
+  "repo": "https://github.com/rogerfar/rdt-client",
+  "support": "https://github.com/rogerfar/rdt-client/issues",
+  "docs": "https://github.com/rogerfar/rdt-client/wiki",
   "title": "Real-Debrid Torrent Client",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

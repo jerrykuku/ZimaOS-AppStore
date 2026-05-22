@@ -32,3 +32,4 @@ x-casaos:
   port_map: '15324'
   index: /
   title: Obsidian
+  version: 1.8.10

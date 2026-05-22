@@ -12,6 +12,12 @@
     "/apps/downtify/assets/screenshot-2.webp"
   ],
   "tagline": "Download Spotify music with album art and metadata",
+  "updateAt": "2026-05-03",
+  "releaseNotes": "- 2.6.0 adds the option to save music into artist folders.\n- It adds a setting to disable lyric downloads.\n- It fixes download history clearing and settings persistence.",
+  "website": "https://downtify.henriquesebastiao.com",
+  "repo": "https://github.com/henriquesebastiao/downtify",
+  "support": "https://github.com/henriquesebastiao/downtify/issues",
+  "docs": "https://github.com/henriquesebastiao/downtify#readme",
   "title": "Downtify",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

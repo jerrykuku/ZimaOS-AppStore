@@ -24,3 +24,4 @@ x-casaos:
   port_map: '8765'
   scheme: http
   title: Motioneye
+  version: master-amd64

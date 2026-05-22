@@ -31,3 +31,4 @@ x-casaos:
   port_map: '15580'
   index: /
   title: BeaverHabitTracker
+  version: 0.7.3

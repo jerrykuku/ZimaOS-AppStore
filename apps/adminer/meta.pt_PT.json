@@ -1,0 +1,4 @@
+{
+  "id": "adminer",
+  "releaseNotes": "- v5.4.1 corrige a desvinculação das chaves primárias NULL do comando SQL.\n- CSV export já não cita valores zero e as importações avisam quando upload_max_filesize é excedido.\n- As consultas de comando SQL guardadas podem ser prolongadas para o URL, e a apresentação da definição de rotina MySQL foi corrigida."
+}

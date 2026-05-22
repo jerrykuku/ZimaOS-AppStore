@@ -32,3 +32,4 @@ x-casaos:
   title: Stremio
   index: /
   port_map: '8100'
+  version: v1.2.5

@@ -14,6 +14,12 @@
     "amd64",
     "arm64"
   ],
+  "updateAt": "2026-01-14",
+  "releaseNotes": "- Latest upstream release release.2026-05-12T16-05-24Z.1665 adds real-time voice input for AI text boxes.\n- Chat now supports reasoning effort, tagged references in the queue, and easier editing of queued messages.\n- Fixes and improvements include AI response regeneration with the selected model/reasoning effort, collaborator notification fixes, Markdown collaborative editing improvements, and AI input stability improvements.",
+  "website": "https://teable.ai",
+  "repo": "https://github.com/teableio/teable",
+  "support": "https://help.teable.ai/en/basic/ai/overview",
+  "docs": "https://help.teable.ai/en/basic/ai/overview",
   "title": "Teable",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

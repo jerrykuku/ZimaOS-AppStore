@@ -11,6 +11,12 @@
     "/apps/filedrop/assets/screenshot-1.webp"
   ],
   "category": "Productivity",
+  "updateAt": "2024-01-25",
+  "releaseNotes": "",
+  "website": "",
+  "repo": "",
+  "support": "",
+  "docs": "",
   "title": "FileDrop",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

@@ -25,3 +25,4 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/chatgpt-next-web/assets/icon.svg
   title: ChatGPT Next Web
   port_map: '3000'
+  version: v2.16.1

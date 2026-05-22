@@ -19,3 +19,4 @@ x-casaos:
   title: OpenSpeedTest
   index: /
   port_map: '3004'
+  version: v2.0.6

@@ -27,3 +27,4 @@ x-casaos:
   main: postgresql
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/postgresql/assets/icon.svg
   title: PostgreSQL
+  version: '17.4'

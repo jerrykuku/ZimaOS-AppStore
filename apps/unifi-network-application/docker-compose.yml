@@ -15,7 +15,7 @@ services:
     - PGID=$PGID
     - PUID=$PUID
     - TZ=$TZ
-    image: lscr.io/linuxserver/unifi-network-application@sha256:274311cdf64294f217f74004571d214f605ca85ea01002a84bde9eaf5130e43a
+    image: lscr.io/linuxserver/unifi-network-application@sha256:71d3c32763e6a00d2e1924a7c42fa13e0b9e199ca4d2f7d660bdd514aeff5ef7
     ports:
     - target: 8443
       published: '8443'
@@ -75,3 +75,4 @@ x-casaos:
   port_map: '8443'
   scheme: https
   title: Unifi Network Application
+  version: latest

@@ -26,3 +26,4 @@ x-casaos:
   title: Twingate
   index: /
   port_map: ''
+  version: '1'

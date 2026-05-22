@@ -29,3 +29,4 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/smokeping/assets/icon.svg
   title: Smokeping
   port_map: '10280'
+  version: 2.8.2

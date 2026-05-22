@@ -10,8 +10,8 @@
     },
     {
       "id": "archivebox",
-      "title": "ArchiveBox",
-      "tagline": "셀프 호스팅 인터넷 아카이빙 솔루션"
+      "tagline": "셀프 호스팅 인터넷 아카이빙 솔루션",
+      "title": "ArchiveBox"
     },
     {
       "id": "audiobookshelf",
@@ -22,6 +22,10 @@
       "tagline": "자체 호스팅되는 목표 없는 습관 추적 도구입니다."
     },
     {
+      "id": "blinko",
+      "tagline": "Blinko 는 AI 기반 카드 노트 작성 프로젝트입니다. 순간적인 생각을 빠르게 기록하고 정리하고 싶은 개인들을 위해 설계되었습니다. Blinko 를 사용하면 아이디어가 떠오르는 순간에 즉시 적을 수 있어 창의성의 불꽃이 사라지지 않습니다."
+    },
+    {
       "id": "cloudflared",
       "tagline": "Cloudflare의 터널링 데몬으로 웹 서버를 안전하게 인터넷에 노출시킵니다."
     },
@@ -30,9 +34,14 @@
       "tagline": "다양한 형식을 지원하는 다용도 파일 변환 도구입니다."
     },
     {
+      "id": "copyparty",
+      "tagline": "간단하고 사적인 파일 서버.",
+      "title": "CopyParty"
+    },
+    {
       "id": "deepseek-ocr-nvidia",
-      "title": "DeepSeek OCR(Nvidia GPU)",
-      "tagline": "DeepSeek AI 기반 강력한 OCR"
+      "tagline": "DeepSeek AI 기반 강력한 OCR",
+      "title": "DeepSeek OCR(Nvidia GPU)"
     },
     {
       "id": "docmost",
@@ -41,6 +50,10 @@
     {
       "id": "emby",
       "tagline": "Emby는 개인 비디오, 음악, 사진, 라이브 TV를 하나로 모읍니다."
+    },
+    {
+      "id": "etherpad",
+      "tagline": "실시간 협업 문서 편집기"
     },
     {
       "id": "excalidraw",
@@ -72,13 +85,13 @@
     },
     {
       "id": "index-tts",
-      "title": "Index-TTS",
-      "tagline": "산업 수준의 제어 가능하고 효율적인 제로샷 텍스트 음성 변환 시스템"
+      "tagline": "산업 수준의 제어 가능하고 효율적인 제로샷 텍스트 음성 변환 시스템",
+      "title": "Index-TTS"
     },
     {
       "id": "index-tts-nvidia",
-      "title": "Index-TTS(Nvidia GPU)",
-      "tagline": "산업 수준의 제어 가능하고 효율적인 제로샷 텍스트 음성 변환 시스템"
+      "tagline": "산업 수준의 제어 가능하고 효율적인 제로샷 텍스트 음성 변환 시스템",
+      "title": "Index-TTS(Nvidia GPU)"
     },
     {
       "id": "jellyfin",
@@ -98,18 +111,23 @@
     },
     {
       "id": "langflow",
-      "title": "Langflow",
-      "tagline": "다중 에이전트 및 RAG 애플리케이션을 구축하고 디버깅하기 위한 오픈 소스 UI"
+      "tagline": "다중 에이전트 및 RAG 애플리케이션을 구축하고 디버깅하기 위한 오픈 소스 UI",
+      "title": "Langflow"
     },
     {
       "id": "librechat",
-      "title": "LibreChat",
-      "tagline": "완전한 기능을 갖춘 오픈 소스 AI 채팅 인터페이스"
+      "tagline": "완전한 기능을 갖춘 오픈 소스 AI 채팅 인터페이스",
+      "title": "LibreChat"
+    },
+    {
+      "id": "linkwarden",
+      "tagline": "중요한 콘텐츠를 한곳에서 수집하고, 읽고, 주석을 달고, 완전하게 보존할 수 있는 셀프호스팅 협업 북마크 관리자입니다.",
+      "title": "Linkwarden"
     },
     {
       "id": "llama-factory-nvidia",
-      "title": "LLaMA Factory(Nvidia GPU)",
-      "tagline": "100개 이상의 모델로 통합된 LLM 파인튜닝"
+      "tagline": "100개 이상의 모델로 통합된 LLM 파인튜닝",
+      "title": "LLaMA Factory(Nvidia GPU)"
     },
     {
       "id": "lyrionmusicserver",
@@ -117,8 +135,8 @@
     },
     {
       "id": "maybe",
-      "title": "Maybe",
-      "tagline": "개인 재무 관리 애플리케이션"
+      "tagline": "개인 재무 관리 애플리케이션",
+      "title": "Maybe"
     },
     {
       "id": "memos",
@@ -153,14 +171,23 @@
       "tagline": "사용자 친화적인 LLM WebUI (이전 Ollama WebUI)"
     },
     {
+      "id": "openclaw",
+      "tagline": "OpenClaw은 사용자의 기기에서 실행되는 개인 AI 비서입니다.",
+      "title": "OpenClaw"
+    },
+    {
       "id": "openhands",
-      "title": "OpenHands",
-      "tagline": "오픈소스 AI 기반 코딩 어시스턴트"
+      "tagline": "오픈소스 AI 기반 코딩 어시스턴트",
+      "title": "OpenHands"
+    },
+    {
+      "id": "openlist",
+      "tagline": "클라우드 드라이브를 홈 NAS에 마운트"
     },
     {
       "id": "opodsync",
-      "title": "oPodSync",
-      "tagline": "팟캐스트 동기화 서비스"
+      "tagline": "팟캐스트 동기화 서비스",
+      "title": "oPodSync"
     },
     {
       "id": "pdfding",
@@ -168,8 +195,8 @@
     },
     {
       "id": "peanut",
-      "title": "PeaNUT",
-      "tagline": "UPS 모니터링 및 정전 알림 시스템"
+      "tagline": "UPS 모니터링 및 정전 알림 시스템",
+      "title": "PeaNUT"
     },
     {
       "id": "pihole",
@@ -181,17 +208,22 @@
     },
     {
       "id": "pingvin-share",
-      "title": "Pingvin-Share",
-      "tagline": "현대적인 웹 인터페이스를 갖춘 자체 호스팅 파일 공유"
+      "tagline": "현대적인 웹 인터페이스를 갖춘 자체 호스팅 파일 공유",
+      "title": "Pingvin-Share"
     },
     {
       "id": "portainer",
       "tagline": "경량 Docker 관리 UI"
     },
     {
+      "id": "psitransfer",
+      "tagline": "간단한 오픈 소스 파일 공유 호스트.",
+      "title": "PsiTransfer"
+    },
+    {
       "id": "ragflow",
-      "title": "RagFlow",
-      "tagline": "RagFlow는 심층 문서 이해를 기반으로 하는 오픈소스 RAG 엔진입니다."
+      "tagline": "RagFlow는 심층 문서 이해를 기반으로 하는 오픈소스 RAG 엔진입니다.",
+      "title": "RagFlow"
     },
     {
       "id": "retroarch",
@@ -203,8 +235,8 @@
     },
     {
       "id": "sure",
-      "title": "Sure",
-      "tagline": "개인 재무 관리 애플리케이션"
+      "tagline": "개인 재무 관리 애플리케이션",
+      "title": "Sure"
     },
     {
       "id": "swingmusic",
@@ -220,8 +252,8 @@
     },
     {
       "id": "teable",
-      "title": "Teable",
-      "tagline": "Teable은 간결한 스프레드시트 스타일 인터페이스를 채택하지만 강력한 데이터베이스 애플리케이션을 만들 수 있습니다"
+      "tagline": "Teable은 간결한 스프레드시트 스타일 인터페이스를 채택하지만 강력한 데이터베이스 애플리케이션을 만들 수 있습니다",
+      "title": "Teable"
     },
     {
       "id": "transmission",
@@ -230,6 +262,11 @@
     {
       "id": "trilium",
       "tagline": "TriliumNext Notes로 개인 지식 기반 구축"
+    },
+    {
+      "id": "turbodiffusion_nvidia",
+      "tagline": "비디오 품질을 유지하면서 엔드투엔드 확산 생성을 가속하는 비디오 생성 프레임워크",
+      "title": "TurboDiffusion(Nvidia GPU)"
     },
     {
       "id": "uptimekuma",
@@ -249,8 +286,8 @@
     },
     {
       "id": "weknora",
-      "title": "WeKnora",
-      "tagline": "WeKnora는 심층 문서 이해 및 의미 체계 검색을 위해 설계된 LLM 기반 프레임워크로, 특히 복잡하고 이기종 문서를 처리하는 데 적합합니다."
+      "tagline": "WeKnora는 심층 문서 이해 및 의미 체계 검색을 위해 설계된 LLM 기반 프레임워크로, 특히 복잡하고 이기종 문서를 처리하는 데 적합합니다.",
+      "title": "WeKnora"
     },
     {
       "id": "ztnet",

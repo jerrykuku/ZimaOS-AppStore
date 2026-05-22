@@ -16,6 +16,12 @@
     "before_install": "**IMPORTANT NOTE ON USER ROLES AND PRIVACY:**\n- **Admin Creation**: The first account created on Open WebUI gains Administrator privileges, controlling user management and system settings.\n- **User Registrations**: Subsequent sign-ups start with Pending status, requiring Administrator approval for access.\n- **Privacy and Data Security**: All your data, including login details, is locally stored on your device. Open WebUI ensures strict confidentiality and no external requests for enhanced privacy and security.\n\n| Please refer to the [official documentation](https://docs.openwebui.com) for more information.\n\n**RESOURCES USAGE NOTICE:**\nPlease be mindful of your device resources (CPU/GPU/RAM) usage to avoid overloading that may lead to device performance degradation.\n"
   },
   "store_app_id": "open-webui-ollama",
+  "updateAt": "2025-07-11",
+  "releaseNotes": "",
+  "website": "https://openwebui.com",
+  "repo": "https://github.com/open-webui/open-webui",
+  "support": "https://github.com/open-webui/open-webui/discussions",
+  "docs": "https://docs.openwebui.com",
   "title": "Open WebUI",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

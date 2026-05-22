@@ -14,6 +14,12 @@
   "category": "Media",
   "hostname": "",
   "store_app_id": "handbrake",
+  "updateAt": "2025-10-14",
+  "releaseNotes": "- v25.10.1 locks video files before checking stability in Automatic Video Converter.\n- Automatic Video Converter cleanup during container shutdown was enhanced.",
+  "website": "https://handbrake.fr",
+  "repo": "https://github.com/jlesage/docker-handbrake",
+  "support": "https://github.com/jlesage/docker-handbrake/issues",
+  "docs": "https://github.com/jlesage/docker-handbrake#readme",
   "title": "handbrake",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

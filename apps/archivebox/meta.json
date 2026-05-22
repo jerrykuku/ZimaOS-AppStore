@@ -16,6 +16,12 @@
   "tips": {
     "before_install": "**Default Account**\n\n| Username | Password |\n|----------|----------|\n| `casaos`    | `casaos` |\n"
   },
+  "updateAt": "2024-12-15",
+  "releaseNotes": "- v0.7.3 updates Docker container internal dependencies without Python code changes.\n- Chrome, yt-dlp, single-file, sonic, curl, wget, readability, ripgrep, git, Python, and Node dependencies were refreshed.\n- single-file v1.1.54 should help fix many archiving issues reported in v0.7.2.",
+  "website": "https://archivebox.io",
+  "repo": "https://github.com/ArchiveBox/ArchiveBox",
+  "support": "https://github.com/ArchiveBox/ArchiveBox/issues",
+  "docs": "https://github.com/ArchiveBox/ArchiveBox/wiki",
   "title": "ArchiveBox",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

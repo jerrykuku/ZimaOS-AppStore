@@ -1,0 +1,4 @@
+{
+  "id": "siyuan-note",
+  "releaseNotes": "- v3.0.1 adiciona o modo de revisão do conjunto de flashcards.\n- As melhorias incluem registos de erros do Mermaid, atalhos F13-F32, comportamento da base de dados relation-field, melhorias no menu móvel e colunas do modelo de visualização da tabela da base de dados.\n- As correções abrangem a configuração do Azure OpenAI, a edição de redução em linha, a exportação de data da base de dados, a colagem de plain-text e o fecho de separador user-guide."
+}

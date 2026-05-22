@@ -29,3 +29,4 @@ x-casaos:
   title: Gitea
   index: /
   port_map: '3002'
+  version: '1.25'

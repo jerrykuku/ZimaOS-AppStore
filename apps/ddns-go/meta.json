@@ -12,6 +12,12 @@
     "/apps/ddns-go/assets/screenshot-1.webp"
   ],
   "tagline": "Simple and easy to use DDNS",
+  "updateAt": "2026-05-01",
+  "releaseNotes": "- v6.17.0 adds ClouDNS support.\n- It fixes callback handling so protocol enablement is respected and the correct HTTP client is used.",
+  "website": "",
+  "repo": "https://github.com/jeessy2/ddns-go",
+  "support": "https://github.com/jeessy2/ddns-go/issues",
+  "docs": "https://github.com/jeessy2/ddns-go#readme",
   "title": "ddns-go",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

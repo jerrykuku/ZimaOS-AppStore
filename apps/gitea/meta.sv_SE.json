@@ -1,5 +1,6 @@
 {
   "id": "gitea",
   "tagline": "Git med en kopp te",
+  "releaseNotes": "- v1.25.0 lägger till strömning av arkivarkiv, konfigurerbara Git-fjärrnamn och e-postmeddelanden om framgång/misslyckande i arbetsflödet.\n- OpenID Connect, förvarsinnehåll APIs, SSH commit signering och 3D/CAD förhandsvisningar förbättrades.\n- Säkerhetsuppdateringar inkluderar en public-key uppgradering och alla 1.24.x säkerhetsfixar efter 1.25.0-rc0.",
   "description": "Gitea är ett communityhanterat lätthanterat kodhostningslösning skrivet i Go."
 }

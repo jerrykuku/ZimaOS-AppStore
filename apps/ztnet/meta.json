@@ -20,6 +20,12 @@
   "tips": {
     "before_install": "Prerequisites for using ZTnet:\n1. Allow ZTNET to manage your local ZeroTier instance, refer to [Step 2 of the documentation: Configure ZeroTier](https://ztnet.network/usage/migrate)\n2. (ZimaOS users do not need to perform this step) Modify the `ZT_ADDR` environment variable to your ZeroTier controller address\n"
   },
+  "updateAt": "2025-06-05",
+  "releaseNotes": "- v0.7.5 adds backup and restore support.\n- Users are reminded to restart the ZeroTier container after restoring a backup.\n- Next, formidable, nanoid, axios, Babel runtime, Go crypto, and documentation dependencies were updated.",
+  "website": "https://ztnet.network/",
+  "repo": "https://github.com/sinamics/ztnet",
+  "support": "https://github.com/sinamics/ztnet/issues",
+  "docs": "https://ztnet.network/installation/docker-compose",
   "title": "ZTnet",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

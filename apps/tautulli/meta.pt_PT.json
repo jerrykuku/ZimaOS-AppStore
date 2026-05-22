@@ -1,0 +1,4 @@
+{
+  "id": "tautulli",
+  "releaseNotes": "- v2.13.2 adiciona ícones quarter-value para o estado de observação do histórico.\n- Foi adicionado um gráfico de fluxos simultâneos por dia e um campo exportador de diretório de metadados.\n- As listas de agentes de notificação e de newsletter mostram agora o último horário acionado e X-Plex-Language pode ser substituído na configuração."
+}

@@ -1,0 +1,4 @@
+{
+  "id": "dify",
+  "releaseNotes": "- 0.12.1 fixar anpassad ikonvisning i webbappen och filhantering i Start-formulär.\n- LLM minnesbearbetning, konversationsradering, appskapande och mallimportfel korrigerades.\n- Utgåvan innehåller uppgraderingsvägledning för Docker Compose-distributioner."
+}

@@ -33,3 +33,4 @@ x-casaos:
   title: Open WebUI
   index: /
   port_map: '3050'
+  version: ollama

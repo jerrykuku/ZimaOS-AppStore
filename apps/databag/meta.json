@@ -12,6 +12,12 @@
   ],
   "author": "Pierre Balzack",
   "category": "Social",
+  "updateAt": "2025-11-28",
+  "releaseNotes": "",
+  "website": "",
+  "repo": "https://github.com/balzack/databag",
+  "support": "https://github.com/balzack/databag/discussions",
+  "docs": "https://github.com/balzack/databag/tree/main/doc",
   "title": "Databag",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

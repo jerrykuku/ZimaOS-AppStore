@@ -1,4 +1,5 @@
 {
   "id": "albyhub",
-  "tagline": "Un nœud Bitcoin Lightning simple avec un portefeuille, des sous-comptes et des connexions NWC."
+  "tagline": "Un nœud Bitcoin Lightning simple avec un portefeuille, des sous-comptes et des connexions NWC.",
+  "releaseNotes": "- v1.20.0 ajoute un assistant de connexion pour les apps de l'app store.\n- Les transactions Alby Hub peuvent maintenant etre exportees en CSV depuis la liste principale et les connexions/subwallets individuelles.\n- Les channels peuvent etre achetes avec le moyen de paiement prefere, et une boite de dialogue/raccourci de recherche a ete ajoutee pour une navigation rapide."
 }

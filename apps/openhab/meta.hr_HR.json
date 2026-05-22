@@ -1,0 +1,4 @@
+{
+  "id": "openhab",
+  "releaseNotes": "- 4.3.3 je izdanje zakrpe s ispravcima grešaka i poboljšanjima add-on.\n- Popravci uključuju upravljanje osnovnim profilima delta, bluetooth.bluez NullPointerException, easee API konfiguraciju ograničenja, ecobee vacation holds, Free@home nedostaje IDs, hdpowerview oznake mosta, Hue dinamičku podršku i huesync API rukovanje tokenom.\n- Ažurirani su tarifni filteri Energidataservice i nekoliko drugih add-ons."
+}

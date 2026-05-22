@@ -1,5 +1,6 @@
 {
   "id": "autobrr",
   "tagline": "现代、易于使用的Torrents和Usenet下载自动化工具。",
+  "releaseNotes": "- v1.69.0 增加了可配置 CORS、关闭时释放 HTTP resource、Pending release 过滤、failed-list 刷新警告、BJ-Share 支持和 DarkPeers Featured Promo 支持。\n- Indexer 更新包括 Aither SASL authentication 和 ReelFlix 域名变更。\n- 修复内容包括缺失的 database rows.Close 调用、SQLite 到 PostgreSQL 转换问题、HHD regex、proxy credential 测试、Windows exec arg 解析和 web 下拉崩溃。",
   "description": "Autobrr是用于torrents和Usenet的现代下载自动化工具。受到trackarr、autodl-irssi和flexget等工具的启发和理念，我们构建了一个可以完成所有这些任务的工具，甚至更多。"
 }

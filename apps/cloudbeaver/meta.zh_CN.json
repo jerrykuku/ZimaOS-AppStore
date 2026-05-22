@@ -1,5 +1,6 @@
 {
   "id": "cloudbeaver",
   "tagline": "云数据库管理器。",
+  "releaseNotes": "- 当前配置的 25.2.5 镜像标签在 dbeaver/cloudbeaver 中没有匹配的 GitHub Release 对象。\n- 在上游发布按标签对应的 release notes 之前，保持该条目跟随 CloudBeaver 25.2 镜像线。",
   "description": "CloudBeaver是一个基于Web的数据库GUI工具，提供丰富的Web界面。您可以使用它来管理PostgreSQL、MySQL、MariaDB、SQL Server、Oracle、DB2、Firebird、H2和Trino。"
 }

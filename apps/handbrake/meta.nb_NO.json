@@ -1,0 +1,4 @@
+{
+  "id": "handbrake",
+  "releaseNotes": "- v25.10.1 låser videofiler før du sjekker stabiliteten i Automatic Video Converter.\n- Automatisk Video Converter-opprydding under avstenging av container ble forbedret."
+}

@@ -20,6 +20,12 @@
   "tips": {
     "before_install": "After installation, please check the initial password in the container log (Settings - TopRight - Terminal and Logs - Logs)."
   },
+  "updateAt": "2024-11-22",
+  "releaseNotes": "- v3.40.0 adds cryptographic random string generation for security and OAuth state generation/verification for SSO.\n- Fixes include Baidu Netdisk timestamps, local file owner preservation, closing closed channels, PikPak captcha_sign errors, and OIDC compatibility mode.",
+  "website": "https://alistgo.com/",
+  "repo": "https://github.com/AlistGo/alist",
+  "support": "https://github.com/AlistGo/alist/issues",
+  "docs": "https://alistgo.com/guide/",
   "title": "Alist",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

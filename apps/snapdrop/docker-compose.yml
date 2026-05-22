@@ -27,3 +27,4 @@ x-casaos:
   port_map: '89'
   scheme: http
   title: snapdrop
+  version: version-eac78009

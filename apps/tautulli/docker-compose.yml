@@ -26,3 +26,4 @@ x-casaos:
   title: Tautulli
   index: /
   port_map: '8181'
+  version: 2.13.2

@@ -1,0 +1,4 @@
+{
+  "id": "albyhub",
+  "releaseNotes": "- v1.20.0, the uygulama mağazasındaki uygulamalar için bir bağlantı sihirbazı ekler.\n- Alby Hub işlemleri artık the ana işlem listesinden ve bireysel bağlantılardan/alt cüzdanlardan CSV'ye aktarılabilir.\n- Kanallar tercih edilen ödeme yöntemi kullanılarak satın alınabilir ve hızlı gezinme için bir arama iletişim kutusu/kısayol tuşu eklenmiştir."
+}

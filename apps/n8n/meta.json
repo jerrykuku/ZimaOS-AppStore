@@ -15,6 +15,12 @@
   "tagline": "Workflow automation tool",
   "thumbnail": "/apps/n8n/assets/thumbnail.webp",
   "tips": {},
+  "updateAt": "2025-12-01",
+  "releaseNotes": "- Fixed AI Agent memory handling for streaming and non-streaming execution.\n- Added database mode for binary data storage.\n- Added Gemini Node support for the Nano Banana Pro model.",
+  "website": "https://n8n.io",
+  "repo": "https://github.com/n8n-io/n8n",
+  "support": "https://community.n8n.io/",
+  "docs": "https://docs.n8n.io",
   "title": "n8n",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

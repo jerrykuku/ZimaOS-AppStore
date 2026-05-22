@@ -56,3 +56,4 @@ x-casaos:
   title: Jellyfin(Nvidia GPU)
   index: /
   port_map: '8097'
+  version: 10.10.6

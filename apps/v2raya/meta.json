@@ -14,6 +14,12 @@
     "/apps/v2raya/assets/screenshot-3.webp"
   ],
   "thumbnail": "",
+  "updateAt": "2025-03-27",
+  "releaseNotes": "- v2.2.6.7 fixes English text in latency test notifications.\n- Core startup timeout handling on old devices was fixed.",
+  "website": "https://v2raya.org/",
+  "repo": "https://github.com/v2rayA/v2rayA",
+  "support": "https://github.com/v2rayA/v2rayA/issues",
+  "docs": "https://v2raya.org/en/docs/prologue/introduction/",
   "title": "V2rayA",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

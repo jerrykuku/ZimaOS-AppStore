@@ -67,3 +67,4 @@ x-casaos:
   port_map: '8285'
   index: /
   title: RomM
+  version: 4.0.1

@@ -16,6 +16,12 @@
     "/apps/trilium/assets/screenshot-4.webp"
   ],
   "store_app_id": "trilium",
+  "updateAt": "",
+  "releaseNotes": "",
+  "website": "",
+  "repo": "",
+  "support": "",
+  "docs": "",
   "title": "Trilium",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

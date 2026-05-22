@@ -32,3 +32,4 @@ x-casaos:
   title: WebDAV
   index: /
   port_map: '5005'
+  version: amd64

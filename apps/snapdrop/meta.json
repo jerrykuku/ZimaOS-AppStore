@@ -12,6 +12,12 @@
   "category": "Productivity",
   "hostname": "",
   "store_app_id": "snapdrop",
+  "updateAt": "2023-11-27",
+  "releaseNotes": "",
+  "website": "https://snapdrop.net",
+  "repo": "https://github.com/RobinLinus/snapdrop",
+  "support": "https://github.com/RobinLinus/snapdrop/issues",
+  "docs": "https://github.com/RobinLinus/snapdrop#readme",
   "title": "snapdrop",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

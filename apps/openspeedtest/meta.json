@@ -19,6 +19,12 @@
   "tagline": "HTML5 Network Speed Test Server.",
   "thumbnail": "/apps/openspeedtest/assets/thumbnail.webp",
   "tips": {},
+  "updateAt": "2025-03-18",
+  "releaseNotes": "",
+  "website": "",
+  "repo": "https://github.com/openspeedtest/Speed-Test",
+  "support": "https://github.com/openspeedtest/Speed-Test/issues",
+  "docs": "https://github.com/openspeedtest/Speed-Test#readme",
   "title": "OpenSpeedTest",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

@@ -1,0 +1,4 @@
+{
+  "id": "freshrss",
+  "releaseNotes": "- 1.27.1 er en sikkerhets- og bug-fix-utgivelse for 1.27.x-serien.\n- Den beholder sorterings-/rekkefølgekriterier etter å ha merket artikler som lest og legger til Docker helsesjekkstøtte.\n- Sikkerhetsrettinger inkluderer regenerering av påloggingsøkt, strengere språkhåndtering, cURL-begrensninger og CSRF-rettinger."
+}

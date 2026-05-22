@@ -1,0 +1,4 @@
+{
+  "id": "pocketbase",
+  "releaseNotes": "- v0.25.9 修复了 DynamicModel object/array property reflect type caching。"
+}

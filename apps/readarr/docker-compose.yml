@@ -32,3 +32,4 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/readarr/assets/icon.svg
   title: Readarr
   port_map: '8787'
+  version: 0.3.10-develop

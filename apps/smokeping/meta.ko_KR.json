@@ -1,0 +1,4 @@
+{
+  "id": "smokeping",
+  "releaseNotes": "- 2.8.2는 automated build testing과 InfluxDB support를 포함한 rollup release입니다.\n- probe handling, FPing command-line behavior, SSH handling, zoom mode URLs, cropper relative-time entry, slaves/templates의 config reloads, loss colors, graph titles가 개선되었습니다.\n- FindBin 복원, 누락된 README 추가, FTPtransfer.pm의 철자 수정이 포함됩니다."
+}

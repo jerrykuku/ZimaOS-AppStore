@@ -2,7 +2,7 @@ name: homebridge
 version: '2'
 services:
   homebridge:
-    image: homebridge/homebridge@sha256:e99118910aa5da96f66fb7cd4142c00e7ea524d5700bb3597fe5b90b270dd5d7
+    image: homebridge/homebridge@sha256:36d43ed9711e37fba7a2ab82165c8f3b199398fd6d491c9eeaf289d43850e927
     restart: always
     network_mode: host
     volumes:
@@ -18,3 +18,4 @@ x-casaos:
   title: Homebridge
   index: /
   port_map: '8581'
+  version: latest

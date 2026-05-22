@@ -1,0 +1,4 @@
+{
+  "id": "adminer",
+  "releaseNotes": "- v5.4.1 behebt das Aufheben der Verknuepfung von NULL-Primary-Keys aus SQL command.\n- CSV-Exporte setzen Nullwerte nicht mehr in Anfuehrungszeichen, und Importe warnen, wenn upload_max_filesize ueberschritten wird.\n- Gespeicherte SQL command-Abfragen koennen in die URL verlaengert werden, und die Anzeige von MySQL routine definition wurde korrigiert."
+}

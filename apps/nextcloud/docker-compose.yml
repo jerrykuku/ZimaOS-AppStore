@@ -26,3 +26,4 @@ x-casaos:
   title: Nextcloud
   index: /
   port_map: '10081'
+  version: '32.0'

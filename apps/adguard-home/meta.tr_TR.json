@@ -1,0 +1,4 @@
+{
+  "id": "adguard-home",
+  "releaseNotes": "- v0.107.61 önbellek zehirlenmesi güvenlik açığını giderir.\n- Yinelenen eşzamanlı istekler artık tek bir yukarı akış isteğinde birleştirildi.\n- Yeni pending_requests yapılandırması default tarafından etkinleştirilir ve güvenilmeyen istemciler için önerilir."
+}

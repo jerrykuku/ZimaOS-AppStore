@@ -15,6 +15,12 @@
   ],
   "thumbnail": "/apps/dify/assets/thumbnail.webp",
   "tagline": "LLM App Development Platform",
+  "updateAt": "2024-11-26",
+  "releaseNotes": "- 0.12.1 fixes custom icon display in the webapp and file handling in Start forms.\n- LLM memory processing, conversation deletion, app creation, and template import errors were corrected.\n- The release includes upgrade guidance for Docker Compose deployments.",
+  "website": "https://dify.ai",
+  "repo": "https://github.com/langgenius/dify",
+  "support": "https://github.com/langgenius/dify/discussions",
+  "docs": "https://docs.dify.ai/en/use-dify/getting-started/introduction",
   "title": "Dify",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

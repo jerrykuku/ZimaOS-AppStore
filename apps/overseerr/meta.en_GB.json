@@ -1,0 +1,4 @@
+{
+  "id": "overseerr",
+  "releaseNotes": "- v1.33.2 fixes an issue where incorrect media could change to unknown."
+}

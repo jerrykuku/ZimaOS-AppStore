@@ -9,3 +9,4 @@ x-casaos:
   main: playit-agent
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/playit-agent/assets/icon.svg
   title: Playit Agent
+  version: latest

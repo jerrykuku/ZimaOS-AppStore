@@ -179,7 +179,7 @@ configs:
       \ proxy_http_version 1.1;\n      proxy_set_header Connection '';\n      proxy_buffering\
       \ off;\n      proxy_cache off;\n      proxy_read_timeout 24h;\n  }\n\n  location\
       \ /imgs/ {\n      proxy_pass http://backend-web:8000;\n  }\n\n  location / {\n\
-      \      proxy_pass http://frontend:80;\n  }\n}"
+      \      proxy_pass http://frontend:80;\n  }\n}\n"
 x-casaos:
   main: frontend
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/taskingai/assets/icon.svg

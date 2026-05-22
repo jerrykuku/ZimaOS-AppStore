@@ -22,3 +22,4 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/opodsync/assets/icon.svg
   index: /
   scheme: http
+  version: latest

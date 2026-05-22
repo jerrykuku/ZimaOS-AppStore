@@ -33,3 +33,4 @@ x-casaos:
   port_map: '25600'
   index: /
   title: Komga
+  version: 1.23.6

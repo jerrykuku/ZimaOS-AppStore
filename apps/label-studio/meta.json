@@ -13,6 +13,12 @@
   "tagline": "Label Studio is an open source data labeling tool. It lets you label data types like audio, text, images, videos, and time series with a simple and straightforward UI and export to various model formats. It can be used to prepare raw data or improve existing training data to get more accurate ML models.",
   "thumbnail": "/apps/label-studio/assets/thumbnail.webp",
   "tips": {},
+  "updateAt": "2023-11-07",
+  "releaseNotes": "- 1.9.2 adds a legacy Taxonomy parameter and support for AWS Signature Version 4 query parameters.\n- VERIFY_SSL_CERTS now defaults to true for deployment-wide HTTPS certificate verification.\n- Security fixes address XSS issues and an SSRF DNS rebinding issue.",
+  "website": "https://labelstud.io/",
+  "repo": "https://github.com/HumanSignal/label-studio",
+  "support": "https://github.com/HumanSignal/label-studio/issues",
+  "docs": "https://labelstud.io/guide/",
   "title": "Label Studio",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

@@ -1,0 +1,4 @@
+{
+  "id": "2fauth",
+  "releaseNotes": "- v5.4.3 corrige os ícones eliminados que reaparecem após guardar no formulário avançado the.\n- O carregamento da página de início de sessão, o envio do formulário do menu de rodapé, os códigos QR cortados, o modo de gestão congela e os ícones de conta no-icon em falta foram corrigidos.\n- A vista /up já não carrega estilos CSS de tailwindcss.com."
+}

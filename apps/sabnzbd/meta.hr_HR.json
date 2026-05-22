@@ -1,0 +1,4 @@
+{
+  "id": "sabnzbd",
+  "releaseNotes": "- 4.1.0 dodaje mračni način rada za stranice konfiguracije, prijave i čarobnjaka, plus multi-select u povijesti.\n- Proxy provjera valjanosti, čišćenje zapisnika, odabir poslužitelja IP, postavke poslužitelja IPv6 i ponašanje pri raspakiranju arhive su ažurirani.\n- Popravci uključuju otkrivanje duplikata, razvrstavanje naziva datoteke, pauzirano rukovanje prioritetom čekanja, čišćenje API-key dnevnika, pisanje na disk, čišćenje mape, dekodiranje članaka i preimenovanje QuickCheck."
+}

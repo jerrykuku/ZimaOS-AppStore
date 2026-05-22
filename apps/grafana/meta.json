@@ -17,6 +17,12 @@
   "tips": {
     "before_install": "| username | password |\n| -------- | -------- |\n| `admin`    | `admin`    |\n"
   },
+  "updateAt": "2025-11-19",
+  "releaseNotes": "- v12.1.4 fixes alerting status unmarshalling to include time intervals.\n- Enterprise dashboard rollup metrics were fixed for last-period summaries and total resets.\n- An Enterprise SCIM security fix for CVE-2025-41115 is included.",
+  "website": "https://grafana.com/",
+  "repo": "https://github.com/grafana/grafana",
+  "support": "https://github.com/grafana/grafana/issues",
+  "docs": "https://grafana.com/docs/grafana/latest/",
   "title": "Grafana",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

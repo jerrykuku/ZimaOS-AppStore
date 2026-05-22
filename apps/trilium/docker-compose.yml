@@ -25,3 +25,4 @@ x-casaos:
   port_map: '8088'
   scheme: http
   title: Trilium
+  version: v0.99.3

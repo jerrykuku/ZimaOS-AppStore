@@ -1,0 +1,4 @@
+{
+  "id": "crafty",
+  "releaseNotes": "- Crafty 4.4.11 は、上流 GitLab プロジェクトから設定されているイメージリリースです。\n- Crafty は GitLab でリリースを公開しているため、このアプリには GitHub changelog はありません。"
+}

@@ -1,0 +1,4 @@
+{
+  "id": "mylar3",
+  "releaseNotes": "- v0.8.3 legger til selected-issue-merking, tvungen kø for undersett av ønskede problemer, CRC-sjekker og en CBL reading-list-importskjerm.\n- Søketiming, navn på søkeintervaller, tabell shift-select og GetComics logging ble forbedret.\n- Rettinger dekker out-of-order release-date post-processing, SAB/NZBGET nedlastingshåndtering, RSS feed URL konstruksjon og varslingsproblemer."
+}

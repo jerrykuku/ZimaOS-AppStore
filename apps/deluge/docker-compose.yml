@@ -37,3 +37,4 @@ x-casaos:
   title: Deluge
   index: /
   port_map: '8112'
+  version: 2.2.0

@@ -10,6 +10,12 @@
   "author": "Fabio Tea",
   "category": "Media",
   "store_app_id": "threadfin",
+  "updateAt": "2024-01-25",
+  "releaseNotes": "",
+  "website": "",
+  "repo": "https://github.com/Threadfin/Threadfin",
+  "support": "https://github.com/Threadfin/Threadfin/issues",
+  "docs": "https://github.com/Threadfin/Threadfin#readme",
   "title": "Threadfin",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

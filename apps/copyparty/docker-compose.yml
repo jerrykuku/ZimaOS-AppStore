@@ -1,0 +1,32 @@
+name: copyparty
+services:
+  copyparty:
+    image: icewhaletech/copyparty:1.20.13
+    container_name: copyparty
+    ports:
+    - target: 3923
+      published: '29708'
+      protocol: tcp
+    network_mode: bridge
+    volumes:
+    - type: bind
+      source: /DATA/AppData/$AppID/w
+      target: /w
+    - type: bind
+      source: /DATA/AppData/$AppID/confg
+      target: /cfg
+    deploy:
+      resources:
+        reservations:
+          memory: 512m
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
+x-casaos:
+  title: CopyParty
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/copyparty/assets/icon.svg
+  index: /
+  main: copyparty
+  port_map: '29708'
+  scheme: http
+  version: 1.20.13

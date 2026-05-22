@@ -1,7 +1,7 @@
 name: teable
 services:
   teable:
-    image: teableio/teable@sha256:8de042d9eca53574083f205453a17bc4c88428c25f6d88b9ff15bd28059e84d9
+    image: teableio/teable@sha256:1546b0a0efe4f8e4240b2842c41b285149be8ac76f09220979f9f582cc8397fd
     container_name: teable
     restart: unless-stopped
     deploy:
@@ -96,3 +96,4 @@ x-casaos:
   port_map: '3200'
   index: /
   scheme: http
+  version: latest

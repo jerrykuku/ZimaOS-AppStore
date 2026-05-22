@@ -21,6 +21,12 @@
   "tips": {
     "before_install": "Default Account\n| Username | Password |\n|----------|----------|\n| `admin`    | `app/config/default-creds.txt` |\n"
   },
+  "updateAt": "2025-06-27",
+  "releaseNotes": "- Crafty 4.4.11 is the configured image release from the upstream GitLab project.\n- No GitHub changelog is available for this app because Crafty publishes releases from GitLab.",
+  "website": "https://craftycontrol.com",
+  "repo": "https://gitlab.com/crafty-controller/crafty-4",
+  "support": "",
+  "docs": "https://docs.craftycontrol.com",
   "title": "Crafty",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

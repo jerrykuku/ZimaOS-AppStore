@@ -1,0 +1,4 @@
+{
+  "id": "handbrake",
+  "releaseNotes": "- v25.10.1 locks video files before checking stability in Automatic Video Converter.\n- Automatic Video Converter cleanup during container shutdown was enhanced."
+}

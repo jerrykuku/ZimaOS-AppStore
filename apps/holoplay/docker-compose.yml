@@ -15,3 +15,4 @@ x-casaos:
   title: HoloPlay
   index: /
   port_map: '3000'
+  version: 1.12.3

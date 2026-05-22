@@ -15,6 +15,12 @@
   ],
   "tagline": "Database management in a single PHP file",
   "thumbnail": "/apps/adminer/assets/thumbnail.webp",
+  "updateAt": "2025-09-26",
+  "releaseNotes": "- v5.4.1 fixes unlinking NULL primary keys from SQL command.\n- CSV export no longer quotes zero values, and imports warn when upload_max_filesize is exceeded.\n- Saved SQL command queries can be prolonged to the URL, and MySQL routine definition display was fixed.",
+  "website": "https://www.adminer.org",
+  "repo": "https://github.com/vrana/adminer",
+  "support": "https://github.com/vrana/adminer/issues",
+  "docs": "https://www.adminer.org/en/",
   "title": "Adminer",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

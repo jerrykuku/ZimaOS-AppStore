@@ -1,0 +1,4 @@
+{
+  "id": "plex",
+  "releaseNotes": "- Den konfigurerade bildtaggen är linuxserver/plex:1.41.3.\n- LinuxServer publicerar också en version-1.41.3.9314-a0bfb8370-tagg för denna Plex-bildlinje.\n- Den här CasaOS-posten spårar containertaggen LinuxServer snarare än en separat Plex uppströms ändringslogg."
+}

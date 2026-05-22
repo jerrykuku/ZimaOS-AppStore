@@ -15,6 +15,12 @@
   "tagline": "Friendly media request tool, automatically syncs with your media servers!",
   "thumbnail": "/apps/ombi/assets/thumbnail.webp",
   "tips": {},
+  "updateAt": "2025-01-05",
+  "releaseNotes": "- Ombi v4.47.1 is the upstream release used by this image and publishes Linux, macOS, and Windows artifacts on GitHub.\n- The GitHub Release body for v4.47.1 is empty, so no feature or fix notes are available for this exact tag.",
+  "website": "https://ombi.io",
+  "repo": "https://github.com/Ombi-app/Ombi",
+  "support": "https://github.com/Ombi-app/Ombi/issues",
+  "docs": "https://docs.ombi.app",
   "title": "Ombi",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

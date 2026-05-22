@@ -16,6 +16,12 @@
   "tagline": "A self-hosted Bitwarden server",
   "thumbnail": "/apps/vaultwarden/assets/thumbnail.webp",
   "tips": {},
+  "updateAt": "2024-12-20",
+  "releaseNotes": "- 1.32.7 includes a security fix for installations with ORG_GROUPS_ENABLED enabled.\n- SMTP image source values are masked in the support string.\n- Refactoring, optimizations, connect-src entry support, and updated fern usage are included.",
+  "website": "https://vaultwarden.net",
+  "repo": "https://github.com/dani-garcia/vaultwarden",
+  "support": "https://github.com/dani-garcia/vaultwarden/discussions",
+  "docs": "https://github.com/dani-garcia/vaultwarden/wiki",
   "title": "Vaultwarden",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

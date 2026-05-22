@@ -32,3 +32,4 @@ x-casaos:
   port_map: '8000'
   scheme: http
   title: PdfDing
+  version: v1.3.1

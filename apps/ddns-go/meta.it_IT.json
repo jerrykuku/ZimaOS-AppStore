@@ -1,0 +1,4 @@
+{
+  "id": "ddns-go",
+  "releaseNotes": "- v6.17.0 aggiunge il supporto ClouDNS.\n- Corregge la gestione del callback in modo che venga rispettata l'abilitazione del protocollo e venga utilizzato il client HTTP corretto."
+}

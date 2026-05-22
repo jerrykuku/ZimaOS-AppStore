@@ -30,3 +30,4 @@ x-casaos:
   port_map: '8185'
   scheme: http
   title: Virtual Machine Manager
+  version: latest

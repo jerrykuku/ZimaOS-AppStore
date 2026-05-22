@@ -1,0 +1,4 @@
+{
+  "id": "ddns-updater",
+  "releaseNotes": "- v2.9.0 lägger till leverantörsstöd för domene.shop, loopia.se, vultr.com, myaddr.tools och namesilo.com.\n- Hälsoserverkonfiguration kan köras utanför Docker eller inaktiveras i behållare.\n- Fixningar inkluderar multi-address offentlig IP hantering, IPv6 värdnamnsupplösning, Porkbun, Gandi, DonDominio, Netcup, GCP, filbehörigheter, NoIP svarsanalys, riktig IP loggning och svar trimning."
+}

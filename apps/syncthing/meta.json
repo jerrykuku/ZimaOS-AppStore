@@ -14,6 +14,12 @@
     "/apps/syncthing/assets/screenshot-2.webp"
   ],
   "tips": {},
+  "updateAt": "2025-06-02",
+  "releaseNotes": "Syncthing 1.29.7 is an upstream release; see official release notes for detailed fixes and changes.",
+  "website": "https://syncthing.net",
+  "repo": "https://github.com/syncthing/syncthing",
+  "support": "https://forum.syncthing.net",
+  "docs": "https://docs.syncthing.net/",
   "title": "Syncthing",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

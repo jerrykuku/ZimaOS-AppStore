@@ -30,3 +30,4 @@ x-casaos:
   port_map: ''
   index: /
   title: NetBird
+  version: 0.62.3

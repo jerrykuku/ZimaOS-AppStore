@@ -1,0 +1,4 @@
+{
+  "id": "adminer",
+  "releaseNotes": "- v5.4.1 corrige le detachement de primary keys NULL depuis SQL command.\n- L'export CSV ne met plus les valeurs zero entre guillemets, et les imports avertissent lorsque upload_max_filesize est depasse.\n- Les requetes SQL command enregistrees peuvent etre prolongees dans l'URL, et l'affichage des MySQL routine definitions a ete corrige."
+}

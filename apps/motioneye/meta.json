@@ -13,6 +13,12 @@
   ],
   "store_app_id": "motioneye",
   "tagline": "A web frontend for the motion daemon.",
+  "updateAt": "2024-01-25",
+  "releaseNotes": "",
+  "website": "",
+  "repo": "https://github.com/motioneye-project/motioneye",
+  "support": "https://github.com/motioneye-project/motioneye/issues",
+  "docs": "https://github.com/motioneye-project/motioneye/wiki",
   "title": "Motioneye",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

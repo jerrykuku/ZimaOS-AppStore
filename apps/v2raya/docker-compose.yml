@@ -28,3 +28,4 @@ x-casaos:
   port_map: '2017'
   index: /
   title: V2rayA
+  version: v2.2.6.7

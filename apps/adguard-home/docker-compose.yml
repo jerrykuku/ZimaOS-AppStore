@@ -38,3 +38,4 @@ x-casaos:
   title: AdGuard Home
   index: /
   port_map: '3001'
+  version: v0.107.61

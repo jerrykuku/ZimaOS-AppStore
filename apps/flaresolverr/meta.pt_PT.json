@@ -1,0 +1,4 @@
+{
+  "id": "flaresolverr",
+  "releaseNotes": "- v3.4.5 reverte o tempo de execução para Python v3.13 e eleva FlareSolverr para 3.4.5.\n- O case do Dockerfile e a geração do changelog foram corrigidos."
+}

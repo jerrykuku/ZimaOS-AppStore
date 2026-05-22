@@ -55,3 +55,4 @@ x-casaos:
   port_map: '19999'
   scheme: http
   title: Netdata
+  version: v2.8.1

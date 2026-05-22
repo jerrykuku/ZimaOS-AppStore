@@ -25,3 +25,4 @@ x-casaos:
   port_map: '11434'
   index: /
   title: Ollama
+  version: 0.9.5

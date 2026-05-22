@@ -25,3 +25,4 @@ x-casaos:
   port_map: '8749'
   scheme: http
   title: FreshRSS
+  version: 1.27.1

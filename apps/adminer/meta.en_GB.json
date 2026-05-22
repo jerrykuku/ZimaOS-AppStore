@@ -1,0 +1,4 @@
+{
+  "id": "adminer",
+  "releaseNotes": "- v5.4.1 fixes unlinking NULL primary keys from SQL command.\n- CSV export no longer quotes zero values, and imports warn when upload_max_filesize is exceeded.\n- Saved SQL command queries can be prolonged to the URL, and MySQL routine definition display was fixed."
+}

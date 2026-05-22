@@ -16,6 +16,12 @@
   "tips": {
     "before_install": "Default Account\n\n| Username | Password |\n|----------|----------|\n| `casaos`    | `casaos` |\n"
   },
+  "updateAt": "2025-03-05",
+  "releaseNotes": "",
+  "website": "",
+  "repo": "https://github.com/ugeek/docker-webdav",
+  "support": "https://github.com/ugeek/docker-webdav/issues",
+  "docs": "https://github.com/ugeek/docker-webdav#readme",
   "title": "WebDAV",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

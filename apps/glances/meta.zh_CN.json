@@ -2,5 +2,6 @@
   "id": "glances",
   "title": "Glances",
   "tagline": "跨平台监控工具",
+  "releaseNotes": "- v4.4.1 指向官方从 v4.4.0 到 v4.4.1 的完整变更日志。",
   "description": "Glances 是一个开源的跨平台系统监控工具。它允许实时监控系统的各个方面，如 CPU、内存、磁盘、网络使用情况等。"
 }

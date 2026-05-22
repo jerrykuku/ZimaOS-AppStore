@@ -1,0 +1,4 @@
+{
+  "id": "dify",
+  "releaseNotes": "- 0.12.1 corrige a apresentação de ícones personalizados na webapp e o manuseamento de ficheiros nos formulários iniciais.\n- Foram corrigidos erros de processamento de memória LLM, eliminação de conversas, criação de aplicações e importação de modelos.\n- A versão inclui orientações de atualização para as implementações do Docker Compose."
+}

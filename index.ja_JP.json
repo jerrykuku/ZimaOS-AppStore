@@ -10,13 +10,13 @@
     },
     {
       "id": "anythingllm",
-      "title": "AnythingLLM",
-      "tagline": "オールインワン AI アプリケーション。"
+      "tagline": "オールインワン AI アプリケーション。",
+      "title": "AnythingLLM"
     },
     {
       "id": "archivebox",
-      "title": "ArchiveBox",
-      "tagline": "セルフホスト型インターネットアーカイブソリューション"
+      "tagline": "セルフホスト型インターネットアーカイブソリューション",
+      "title": "ArchiveBox"
     },
     {
       "id": "audiobookshelf",
@@ -27,6 +27,10 @@
       "tagline": "セルフホスト型のゴールフリー習慣追跡ツール。"
     },
     {
+      "id": "blinko",
+      "tagline": "Blinko は、AI 搭載のカード形式ノートアプリです。瞬念的な思考を素早くキャプチャし、整理したい個人向けに設計されています。アイデアが閃いた瞬間にシームレスにメモを取ることができ、創造性の火花を失くすことはありません。"
+    },
+    {
       "id": "cloudflared",
       "tagline": "Cloudflareが提供するトンネリングデーモンで、Webサーバーを安全にインターネットに公開します。"
     },
@@ -35,9 +39,14 @@
       "tagline": "複数のフォーマットをサポートする多目的ファイル変換ツール。"
     },
     {
+      "id": "copyparty",
+      "tagline": "シンプルでプライベートなファイルサーバー。",
+      "title": "CopyParty"
+    },
+    {
       "id": "deepseek-ocr-nvidia",
-      "title": "DeepSeek OCR(Nvidia GPU)",
-      "tagline": "DeepSeek AI搭載の強力なOCR"
+      "tagline": "DeepSeek AI搭載の強力なOCR",
+      "title": "DeepSeek OCR(Nvidia GPU)"
     },
     {
       "id": "docmost",
@@ -46,6 +55,10 @@
     {
       "id": "emby",
       "tagline": "Embyは個人ビデオ、音楽、写真、ライブテレビをまとめます。"
+    },
+    {
+      "id": "etherpad",
+      "tagline": "リアルタイム共同文書エディタ"
     },
     {
       "id": "excalidraw",
@@ -73,13 +86,13 @@
     },
     {
       "id": "index-tts",
-      "title": "Index-TTS",
-      "tagline": "工業レベルの制御可能で効率的なゼロショットテキスト読み上げシステム"
+      "tagline": "工業レベルの制御可能で効率的なゼロショットテキスト読み上げシステム",
+      "title": "Index-TTS"
     },
     {
       "id": "index-tts-nvidia",
-      "title": "Index-TTS(Nvidia GPU)",
-      "tagline": "工業レベルの制御可能で効率的なゼロショットテキスト読み上げシステム"
+      "tagline": "工業レベルの制御可能で効率的なゼロショットテキスト読み上げシステム",
+      "title": "Index-TTS(Nvidia GPU)"
     },
     {
       "id": "jellyfin",
@@ -99,18 +112,23 @@
     },
     {
       "id": "langflow",
-      "title": "Langflow",
-      "tagline": "マルチエージェントおよびRAGアプリケーションの構築とデバッグのためのオープンソースUI"
+      "tagline": "マルチエージェントおよびRAGアプリケーションの構築とデバッグのためのオープンソースUI",
+      "title": "Langflow"
     },
     {
       "id": "librechat",
-      "title": "LibreChat",
-      "tagline": "フル機能のオープンソースAIチャットインターフェース"
+      "tagline": "フル機能のオープンソースAIチャットインターフェース",
+      "title": "LibreChat"
+    },
+    {
+      "id": "linkwarden",
+      "tagline": "収集・閲覧・注釈・完全保存を1か所で行える、セルフホスト型の共同ブックマーク管理ツール。",
+      "title": "Linkwarden"
     },
     {
       "id": "llama-factory-nvidia",
-      "title": "LLaMA Factory(Nvidia GPU)",
-      "tagline": "100以上のモデルで統一されたLLMファインチューニング"
+      "tagline": "100以上のモデルで統一されたLLMファインチューニング",
+      "title": "LLaMA Factory(Nvidia GPU)"
     },
     {
       "id": "lyrionmusicserver",
@@ -118,8 +136,8 @@
     },
     {
       "id": "maybe",
-      "title": "Maybe",
-      "tagline": "個人ファイナンス管理アプリケーション"
+      "tagline": "個人ファイナンス管理アプリケーション",
+      "title": "Maybe"
     },
     {
       "id": "memos",
@@ -155,18 +173,27 @@
     },
     {
       "id": "open-webui-ollama",
-      "title": "Open WebUI",
-      "tagline": "ユーザーフレンドリーな LLMs WebUI（旧 Ollama WebUI）"
+      "tagline": "ユーザーフレンドリーな LLMs WebUI（旧 Ollama WebUI）",
+      "title": "Open WebUI"
+    },
+    {
+      "id": "openclaw",
+      "tagline": "OpenClawは、ご自身のデバイスで実行するパーソナルAIアシスタントです。",
+      "title": "OpenClaw"
     },
     {
       "id": "openhands",
-      "title": "OpenHands",
-      "tagline": "オープンソースAI駆動型コーディングアシスタント"
+      "tagline": "オープンソースAI駆動型コーディングアシスタント",
+      "title": "OpenHands"
+    },
+    {
+      "id": "openlist",
+      "tagline": "クラウドドライブをホーム NAS にマウント"
     },
     {
       "id": "opodsync",
-      "title": "oPodSync",
-      "tagline": "ポッドキャスト同期サービス"
+      "tagline": "ポッドキャスト同期サービス",
+      "title": "oPodSync"
     },
     {
       "id": "pdfding",
@@ -174,8 +201,8 @@
     },
     {
       "id": "peanut",
-      "title": "PeaNUT",
-      "tagline": "UPS監視および停電通知システム"
+      "tagline": "UPS監視および停電通知システム",
+      "title": "PeaNUT"
     },
     {
       "id": "pihole",
@@ -187,17 +214,22 @@
     },
     {
       "id": "pingvin-share",
-      "title": "Pingvin-Share",
-      "tagline": "モダンなWebインターフェースを備えたセルフホスト型ファイル共有"
+      "tagline": "モダンなWebインターフェースを備えたセルフホスト型ファイル共有",
+      "title": "Pingvin-Share"
     },
     {
       "id": "portainer",
       "tagline": "軽量 Docker 管理UI"
     },
     {
+      "id": "psitransfer",
+      "tagline": "シンプルなオープンソースのファイル共有ホスト。",
+      "title": "PsiTransfer"
+    },
+    {
       "id": "ragflow",
-      "title": "RagFlow",
-      "tagline": "RagFlowは、深い文書理解に基づいたオープンソースのRAGエンジンです。"
+      "tagline": "RagFlowは、深い文書理解に基づいたオープンソースのRAGエンジンです。",
+      "title": "RagFlow"
     },
     {
       "id": "retroarch",
@@ -209,8 +241,8 @@
     },
     {
       "id": "sure",
-      "title": "Sure",
-      "tagline": "個人ファイナンス管理アプリケーション"
+      "tagline": "個人ファイナンス管理アプリケーション",
+      "title": "Sure"
     },
     {
       "id": "swingmusic",
@@ -226,8 +258,8 @@
     },
     {
       "id": "teable",
-      "title": "Teable",
-      "tagline": "Teableはシンプルなスプレッドシート形式のインターフェースを採用しながら、強力なデータベースアプリケーションを作成できます"
+      "tagline": "Teableはシンプルなスプレッドシート形式のインターフェースを採用しながら、強力なデータベースアプリケーションを作成できます",
+      "title": "Teable"
     },
     {
       "id": "transmission",
@@ -236,6 +268,11 @@
     {
       "id": "trilium",
       "tagline": "TriliumNext Notes でパーソナル知識ベースを構築"
+    },
+    {
+      "id": "turbodiffusion_nvidia",
+      "tagline": "動画品質を維持しながらエンドツーエンドの拡散生成を高速化する動画生成フレームワーク",
+      "title": "TurboDiffusion(Nvidia GPU)"
     },
     {
       "id": "uptimekuma",
@@ -255,8 +292,8 @@
     },
     {
       "id": "weknora",
-      "title": "WeKnora",
-      "tagline": "WeKnoraは、大規模言語モデル（LLM）を活用したフレームワークで、深層的なドキュメント理解とセマンティック検索を目的として設計されており、特に複雑で異種のドキュメントを扱うのに適しています。"
+      "tagline": "WeKnoraは、大規模言語モデル（LLM）を活用したフレームワークで、深層的なドキュメント理解とセマンティック検索を目的として設計されており、特に複雑で異種のドキュメントを扱うのに適しています。",
+      "title": "WeKnora"
     },
     {
       "id": "ztnet",

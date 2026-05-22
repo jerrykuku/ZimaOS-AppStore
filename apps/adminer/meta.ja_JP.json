@@ -1,0 +1,4 @@
+{
+  "id": "adminer",
+  "releaseNotes": "- v5.4.1 は SQL command から NULL primary key を解除する問題を修正します。\n- CSV エクスポートではゼロ値を引用符で囲まなくなり、インポート時に upload_max_filesize 超過の警告が表示されます。\n- 保存済み SQL command クエリを URL に延長できるようになり、MySQL routine definition の表示も修正されました。"
+}

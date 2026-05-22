@@ -1,0 +1,4 @@
+{
+  "id": "smokeping",
+  "releaseNotes": "- 2.8.2 je zbirno izdanje s automatiziranim testiranjem izrade i podrškom za InfluxDB.\n- Poboljšano je rukovanje sondom, ponašanje FPing command-line, rukovanje SSH, način zumiranja URLs, unos cropper relative-time, ponovno učitavanje konfiguracije za slave, predlošci, boje gubitka i naslovi grafikona.\n- Popravci uključuju vraćanje FindBin, dodavanje nedostajućeg README i ispravljanje pravopisa u FTPtransfer.pm."
+}

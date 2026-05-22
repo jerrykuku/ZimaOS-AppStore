@@ -49,10 +49,6 @@
       "tagline": "Calcule todas las estadísticas de su servidor Emby o Jellyfin (local)"
     },
     {
-      "id": "filebrowser",
-      "tagline": "Subir, eliminar, previsualizar, renombrar, editar y compartir sus archivos."
-    },
-    {
       "id": "filedrop",
       "tagline": "FileDrop es un servicio gratuito de código abierto para compartir archivos."
     },

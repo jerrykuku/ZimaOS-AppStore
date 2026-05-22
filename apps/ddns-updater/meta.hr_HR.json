@@ -1,0 +1,4 @@
+{
+  "id": "ddns-updater",
+  "releaseNotes": "- v2.9.0 dodaje podršku pružatelja usluga za domene.shop, loopia.se, vultr.com, myaddr.tools i namesilo.com.\n- Konfiguracija zdravstvenog poslužitelja može se izvoditi izvan Docker ili biti onemogućena u spremnicima.\n- Popravci uključuju multi-address javno rukovanje IP, IPv6 rezoluciju naziva hosta, Porkbun, Gandi, DonDominio, Netcup, GCP, dopuštenja datoteka, raščlanjivanje NoIP odgovora, stvarno IP bilježenje i skraćivanje odgovora."
+}

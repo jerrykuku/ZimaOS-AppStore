@@ -33,3 +33,4 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/lazylibrarian/assets/icon.svg
   title: Lazylibrarian
   port_map: '5299'
+  version: version-169e669f

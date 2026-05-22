@@ -308,3 +308,4 @@ x-casaos:
   port_map: '1080'
   index: /
   scheme: http
+  version: v0.2.14

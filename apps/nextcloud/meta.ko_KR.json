@@ -1,0 +1,4 @@
+{
+  "id": "nextcloud",
+  "releaseNotes": "- v32.0.0은 해당 Nextcloud server release package를 가리킵니다.\n- 이 앱은 업스트림 GitHub release에서 참조된 Nextcloud 32.0.0 server release를 따릅니다."
+}

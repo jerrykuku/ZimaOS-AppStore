@@ -86,7 +86,7 @@ services:
       source: /DATA/AppData/$AppID/data/sonic
       target: /var/lib/sonic/store
   archivebox_novnc:
-    image: theasp/novnc@sha256:02d970fff919f0ef0333063a6187f20204cac046e47efffb180b984920607a94
+    image: theasp/novnc@sha256:94cc704e515b4a1512d2220b34fdb90e108a5c3b493914668bb25a3ff45c61a6
     container_name: archivebox_novnc
     deploy:
       resources:
@@ -113,3 +113,4 @@ x-casaos:
   port_map: '18010'
   index: /
   title: ArchiveBox
+  version: 0.7.3

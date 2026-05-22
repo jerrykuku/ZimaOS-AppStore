@@ -15,6 +15,12 @@
   "tagline": "Jackett works as a proxy server",
   "thumbnail": "/apps/jackett/assets/thumbnail.webp",
   "tips": {},
+  "updateAt": "2026-05-11",
+  "releaseNotes": "- v0.24.1841 updates torrenttip, torrentsome, btstate, ADC, u2p, magnetcat, torrent9, and czteam indexer handling.\n- Several tracker domains and selector/category configurations were refreshed.\n- Docker users should update the container image rather than running the in-app updater inside an existing container.",
+  "website": "",
+  "repo": "https://github.com/Jackett/Jackett",
+  "support": "https://github.com/Jackett/Jackett/issues",
+  "docs": "https://github.com/Jackett/Jackett#readme",
   "title": "Jackett",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

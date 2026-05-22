@@ -1,0 +1,4 @@
+{
+  "id": "handbrake",
+  "releaseNotes": "- v25.10.1, Otomatik Video Dönüştürücüdeki kararlılığı kontrol etmeden önce video dosyalarını kilitler.\n- Konteynerin kapatılması sırasında Otomatik Video Dönüştürücü temizliği geliştirildi."
+}

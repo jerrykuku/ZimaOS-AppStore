@@ -13,6 +13,12 @@
     "/apps/gateway-go/assets/screenshot-2.webp"
   ],
   "tagline": "A third-party client for casaos and zimaOS, remote access management interface, remote access to installed applications.",
+  "updateAt": "2025-07-30",
+  "releaseNotes": "- v2.0.11 includes OpenWrt-related changes.\n- Panic recovery and service registration handling were updated.\n- README documentation was refreshed.",
+  "website": "",
+  "repo": "https://github.com/OpenIoTHub/gateway-go",
+  "support": "https://github.com/OpenIoTHub/gateway-go/issues",
+  "docs": "https://docs.iothub.cloud/typical/index.html#casaoszimaos",
   "title": "gateway-go",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

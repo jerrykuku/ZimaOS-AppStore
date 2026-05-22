@@ -15,6 +15,12 @@
     "/apps/netdata/assets/screenshot-3.webp"
   ],
   "store_app_id": "netdata",
+  "updateAt": "2025-11-21",
+  "releaseNotes": "- v2.8.1 fixes dynamic-configuration vnodes disappearing after agent restart.\n- PSS memory sampling in apps.plugin was disabled by default to reduce CPU overhead.\n- Alert source unit display, Windows datafile sync logging, dbengine-disabled compilation, and Podman container name resolution were improved.",
+  "website": "https://www.netdata.cloud",
+  "repo": "https://github.com/netdata/netdata",
+  "support": "https://github.com/netdata/netdata/issues",
+  "docs": "https://learn.netdata.cloud/docs",
   "title": "Netdata",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

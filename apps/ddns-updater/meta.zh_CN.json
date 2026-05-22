@@ -1,4 +1,5 @@
 {
   "id": "ddns-updater",
-  "tagline": "简单好用的DDNS"
+  "tagline": "简单好用的DDNS",
+  "releaseNotes": "- v2.9.0 增加了 domene.shop、loopia.se、vultr.com、myaddr.tools 和 namesilo.com provider 支持。\n- Health server 配置可以在 Docker 外运行，也可以在容器中禁用。\n- 修复内容包括多地址 public IP、IPv6 hostname resolution、Porkbun、Gandi、DonDominio、Netcup、GCP、文件权限、NoIP response parsing、real IP logging 和 response trimming。"
 }

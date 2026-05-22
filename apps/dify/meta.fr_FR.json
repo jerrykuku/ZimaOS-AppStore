@@ -1,0 +1,4 @@
+{
+  "id": "dify",
+  "releaseNotes": "- 0.12.1 corrige l'affichage des custom icons dans la webapp et la gestion des fichiers dans Start forms.\n- LLM memory processing, conversation deletion, app creation et les erreurs template import ont ete corriges.\n- Cette version inclut des consignes de mise a niveau pour les deploiements Docker Compose."
+}

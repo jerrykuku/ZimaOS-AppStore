@@ -1,0 +1,4 @@
+{
+  "id": "label-studio",
+  "releaseNotes": "- 1.9.2 dodaje naslijeđeni parametar taksonomije i podršku za parametre upita AWS Signature Version 4.\n- VERIFY_SSL_CERTS sada je zadana vrijednost istinita za deployment-wide HTTPS provjeru certifikata.\n- Sigurnosni popravci rješavaju probleme XSS i problem ponovnog povezivanja SSRF DNS."
+}

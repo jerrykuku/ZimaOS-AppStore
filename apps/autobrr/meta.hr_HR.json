@@ -1,0 +1,4 @@
+{
+  "id": "autobrr",
+  "releaseNotes": "- v1.69.0 dodaje konfigurabilne CORS postavke, HTTP izdavanje resursa pri zatvaranju, filtriranje izdanja na čekanju, failed-list upozorenja o osvježavanju, BJ-Share podršku i DarkPeers Istaknutu promotivnu podršku.\n- Ažuriranja indeksatora uključuju bilo SASL provjeru autentičnosti i ReelFlix promjene domene.\n- Popravci uključuju nedostajuće pozive baze podataka rows.Close, probleme s konverzijom SQLite-to-PostgreSQL, HHD regex, testiranje proxy vjerodajnica, Windows exec arg parsiranje i pad padajućeg izbornika na webu."
+}

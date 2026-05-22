@@ -22,8 +22,8 @@
     },
     {
       "id": "archivebox",
-      "title": "ArchiveBox",
-      "tagline": "Solution d'archivage Internet auto-hébergée"
+      "tagline": "Solution d'archivage Internet auto-hébergée",
+      "title": "ArchiveBox"
     },
     {
       "id": "audiobookshelf",
@@ -36,6 +36,10 @@
     {
       "id": "beaverhabittracker",
       "tagline": "Un outil de suivi d'habitudes auto-hébergé et sans objectifs."
+    },
+    {
+      "id": "blinko",
+      "tagline": "Blinko est un projet de prise de notes par carte alimenté par l'IA. Conçu pour les personnes qui souhaitent capturer et organiser rapidement leurs pensées fugaces. Blinko permet aux utilisateurs de noter facilement leurs idées dès qu'elles surgissent, garantissant qu'aucune étincelle de créativité ne soit perdue."
     },
     {
       "id": "calibre-web",
@@ -54,9 +58,14 @@
       "tagline": "Un outil de conversion de fichiers polyvalent prenant en charge plusieurs formats."
     },
     {
+      "id": "copyparty",
+      "tagline": "Un serveur de fichiers simple et privé.",
+      "title": "CopyParty"
+    },
+    {
       "id": "deepseek-ocr-nvidia",
-      "title": "DeepSeek OCR(Nvidia GPU)",
-      "tagline": "OCR puissant propulsé par DeepSeek AI"
+      "tagline": "OCR puissant propulsé par DeepSeek AI",
+      "title": "DeepSeek OCR(Nvidia GPU)"
     },
     {
       "id": "deluge",
@@ -87,12 +96,12 @@
       "tagline": "Calculez toutes sortes de statistiques à partir de votre serveur Emby ou Jellyfin (local)"
     },
     {
-      "id": "excalidraw",
-      "tagline": "Tableau blanc virtuel pour dessiner des diagrammes style main levée"
+      "id": "etherpad",
+      "tagline": "Éditeur de documents collaboratif en temps réel"
     },
     {
-      "id": "filebrowser",
-      "tagline": "Télécharger, supprimer, prévisualiser, renommer, modifier et partager vos fichiers."
+      "id": "excalidraw",
+      "tagline": "Tableau blanc virtuel pour dessiner des diagrammes style main levée"
     },
     {
       "id": "filedrop",
@@ -144,13 +153,13 @@
     },
     {
       "id": "index-tts",
-      "title": "Index-TTS",
-      "tagline": "Un système de synthèse vocale zéro-shot contrôlable et efficace de niveau industriel"
+      "tagline": "Un système de synthèse vocale zéro-shot contrôlable et efficace de niveau industriel",
+      "title": "Index-TTS"
     },
     {
       "id": "index-tts-nvidia",
-      "title": "Index-TTS(Nvidia GPU)",
-      "tagline": "Un système de synthèse vocale zéro-shot contrôlable et efficace de niveau industriel"
+      "tagline": "Un système de synthèse vocale zéro-shot contrôlable et efficace de niveau industriel",
+      "title": "Index-TTS(Nvidia GPU)"
     },
     {
       "id": "jackett",
@@ -182,8 +191,8 @@
     },
     {
       "id": "langflow",
-      "title": "Langflow",
-      "tagline": "Interface open-source pour la création et le débogage d'applications multi-agents et RAG"
+      "tagline": "Interface open-source pour la création et le débogage d'applications multi-agents et RAG",
+      "title": "Langflow"
     },
     {
       "id": "lazylibrarian",
@@ -191,17 +200,22 @@
     },
     {
       "id": "librechat",
-      "title": "LibreChat",
-      "tagline": "Une interface de chat IA complète et open-source"
+      "tagline": "Une interface de chat IA complète et open-source",
+      "title": "LibreChat"
     },
     {
       "id": "lidarr",
       "tagline": "Gestionnaire de collection de musique pour les utilisateurs de Usenet et de BitTorrent"
     },
     {
+      "id": "linkwarden",
+      "tagline": "Gestionnaire collaboratif de favoris auto-hébergé pour collecter, lire, annoter et préserver intégralement l’essentiel en un seul endroit.",
+      "title": "Linkwarden"
+    },
+    {
       "id": "llama-factory-nvidia",
-      "title": "LLaMA Factory(Nvidia GPU)",
-      "tagline": "Ajustement unifié des LLM avec 100+ modèles"
+      "tagline": "Ajustement unifié des LLM avec 100+ modèles",
+      "title": "LLaMA Factory(Nvidia GPU)"
     },
     {
       "id": "lyrionmusicserver",
@@ -213,8 +227,8 @@
     },
     {
       "id": "maybe",
-      "title": "Maybe",
-      "tagline": "Application de gestion financière personnelle"
+      "tagline": "Application de gestion financière personnelle",
+      "title": "Maybe"
     },
     {
       "id": "memos",
@@ -281,13 +295,22 @@
       "tagline": "WebUI conviviale pour les LLMs (anciennement Ollama WebUI)"
     },
     {
+      "id": "openclaw",
+      "tagline": "OpenClaw est un assistant IA personnel que vous exécutez sur vos propres appareils.",
+      "title": "OpenClaw"
+    },
+    {
       "id": "openhab",
       "tagline": "Renforcer la maison intelligente"
     },
     {
       "id": "openhands",
-      "title": "OpenHands",
-      "tagline": "Assistant de codage open source alimenté par l'IA"
+      "tagline": "Assistant de codage open source alimenté par l'IA",
+      "title": "OpenHands"
+    },
+    {
+      "id": "openlist",
+      "tagline": "Montez votre disque cloud sur votre NAS domestique"
     },
     {
       "id": "openspeedtest",
@@ -295,8 +318,8 @@
     },
     {
       "id": "opodsync",
-      "title": "oPodSync",
-      "tagline": "Service de synchronisation de podcasts"
+      "tagline": "Service de synchronisation de podcasts",
+      "title": "oPodSync"
     },
     {
       "id": "overseerr",
@@ -308,8 +331,8 @@
     },
     {
       "id": "peanut",
-      "title": "PeaNUT",
-      "tagline": "Système de surveillance UPS et de notification de coupure de courant"
+      "tagline": "Système de surveillance UPS et de notification de coupure de courant",
+      "title": "PeaNUT"
     },
     {
       "id": "petio",
@@ -329,8 +352,8 @@
     },
     {
       "id": "pingvin-share",
-      "title": "Pingvin-Share",
-      "tagline": "Partage de fichiers auto-hébergé avec une interface web moderne"
+      "tagline": "Partage de fichiers auto-hébergé avec une interface web moderne",
+      "title": "Pingvin-Share"
     },
     {
       "id": "playit-agent",
@@ -349,6 +372,11 @@
       "tagline": "Intégration de diverses applications PVR"
     },
     {
+      "id": "psitransfer",
+      "tagline": "Un hôte simple et open source pour le partage de fichiers.",
+      "title": "PsiTransfer"
+    },
+    {
       "id": "qbittorrent",
       "tagline": "Téléchargeur BitTorrent gratuit"
     },
@@ -358,8 +386,8 @@
     },
     {
       "id": "ragflow",
-      "title": "RagFlow",
-      "tagline": "RagFlow est un moteur RAG open source basé sur la compréhension approfondie de documents."
+      "tagline": "RagFlow est un moteur RAG open source basé sur la compréhension approfondie de documents.",
+      "title": "RagFlow"
     },
     {
       "id": "readarr",
@@ -399,8 +427,8 @@
     },
     {
       "id": "sure",
-      "title": "Sure",
-      "tagline": "Application de gestion financière personnelle"
+      "tagline": "Application de gestion financière personnelle",
+      "title": "Sure"
     },
     {
       "id": "swingmusic",
@@ -420,8 +448,8 @@
     },
     {
       "id": "teable",
-      "title": "Teable",
-      "tagline": "Teable adopte une interface de tableur concise, mais crée des applications de base de données puissantes"
+      "tagline": "Teable adopte une interface de tableur concise, mais crée des applications de base de données puissantes",
+      "title": "Teable"
     },
     {
       "id": "transmission",
@@ -430,6 +458,11 @@
     {
       "id": "trilium",
       "tagline": "Construisez votre base de connaissances personnelle avec TriliumNext Notes"
+    },
+    {
+      "id": "turbodiffusion_nvidia",
+      "tagline": "Un framework d’accélération pour la génération par diffusion de bout en bout tout en préservant la qualité vidéo",
+      "title": "TurboDiffusion(Nvidia GPU)"
     },
     {
       "id": "unifi-controller",
@@ -465,8 +498,8 @@
     },
     {
       "id": "weknora",
-      "title": "WeKnora",
-      "tagline": "WeKnora est un framework basé sur les LLM conçu pour une compréhension approfondie des documents et la récupération sémantique, particulièrement adapté aux documents complexes et hétérogènes."
+      "tagline": "WeKnora est un framework basé sur les LLM conçu pour une compréhension approfondie des documents et la récupération sémantique, particulièrement adapté aux documents complexes et hétérogènes.",
+      "title": "WeKnora"
     },
     {
       "id": "wg-easy",

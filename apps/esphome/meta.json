@@ -13,6 +13,12 @@
     "/apps/esphome/assets/screenshot-2.webp"
   ],
   "store_app_id": "esphome",
+  "updateAt": "2025-11-19",
+  "releaseNotes": "- 2025.11.0 points to the official ESPHome changelog for this release.\n- This app tracks the upstream ESPHome 2025.11.0 release.",
+  "website": "https://esphome.io",
+  "repo": "https://github.com/esphome/esphome",
+  "support": "https://github.com/esphome/issues/issues",
+  "docs": "https://esphome.io",
   "title": "ESPHome",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

@@ -1,0 +1,4 @@
+{
+  "id": "ddns-updater",
+  "releaseNotes": "- v2.9.0 aggiunge il supporto del provider per domene.shop, loopia.se, vultr.com, myaddr.tools e namesilo.com.\n- La configurazione del server di integrità può essere eseguita all'esterno di Docker o essere disabilitata nei contenitori.\n- Le correzioni includono la gestione di multi-address pubblico IP, risoluzione del nome host IPv6, Porkbun, Gandi, DonDominio, Netcup, GCP, autorizzazioni file, analisi delle risposte NoIP, registrazione reale IP e rifinitura delle risposte."
+}

@@ -1,0 +1,4 @@
+{
+  "id": "vaultwarden",
+  "releaseNotes": "- 1.32.7은 ORG_GROUPS_ENABLED가 활성화된 설치에 대한 보안 수정을 포함합니다.\n- support string의 SMTP image source values가 마스킹됩니다.\n- 리팩터링, 최적화, connect-src entry 지원, 업데이트된 fern 사용도 포함됩니다."
+}

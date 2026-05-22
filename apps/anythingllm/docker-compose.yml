@@ -24,3 +24,4 @@ x-casaos:
   title: AnythingLLM
   index: /
   port_map: '3051'
+  version: latest

@@ -16,6 +16,12 @@
     "/apps/kavita/assets/screenshot-4.webp"
   ],
   "thumbnail": "",
+  "updateAt": "2025-10-20",
+  "releaseNotes": "- v0.8.8 refreshes the EPUB reader and adds custom font support for EPUB books.\n- OpenID Connect authentication support was added, including automatic account creation and role syncing.\n- The new annotation system supports highlights, rich-text comments, shared reviews, and JSON export.",
+  "website": "https://www.kavitareader.com",
+  "repo": "https://github.com/Kareadita/Kavita",
+  "support": "https://github.com/Kareadita/Kavita/issues",
+  "docs": "https://wiki.kavitareader.com/",
   "title": "Kavita",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

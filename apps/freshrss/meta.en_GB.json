@@ -1,0 +1,4 @@
+{
+  "id": "freshrss",
+  "releaseNotes": "- 1.27.1 is a security and bug-fix release for the 1.27.x series.\n- It keeps sort/order criteria after marking articles as read and adds Docker healthcheck support.\n- Security fixes include login session regeneration, stricter language handling, cURL restrictions, and CSRF fixes."
+}

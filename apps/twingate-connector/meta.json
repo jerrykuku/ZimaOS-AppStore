@@ -13,6 +13,12 @@
   "thumbnail": "/apps/twingate-connector/assets/thumbnail.webp",
   "tips": {},
   "hostname": "",
+  "updateAt": "2024-01-26",
+  "releaseNotes": "",
+  "website": "https://www.twingate.com",
+  "repo": "",
+  "support": "https://www.twingate.com/support",
+  "docs": "https://www.twingate.com/docs/connectors",
   "title": "Twingate",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

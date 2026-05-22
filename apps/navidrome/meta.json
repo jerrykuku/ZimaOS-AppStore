@@ -13,6 +13,12 @@
     "/apps/navidrome/assets/screenshot-2.webp"
   ],
   "store_app_id": "navidrome",
+  "updateAt": "2025-11-09",
+  "releaseNotes": "- v0.58.5 focuses on stability improvements and bug fixes.\n- Includes fixes for UI themes, translations, database operations, and scanner behavior.",
+  "website": "https://www.navidrome.org",
+  "repo": "https://github.com/navidrome/navidrome",
+  "support": "https://github.com/navidrome/navidrome/issues",
+  "docs": "https://www.navidrome.org/docs/",
   "title": "Navidrome",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

@@ -17,6 +17,12 @@
   "tagline": "Free open source network performance monitoring tool",
   "thumbnail": "/apps/smokeping/assets/thumbnail.webp",
   "tips": {},
+  "updateAt": "2021-08-10",
+  "releaseNotes": "- 2.8.2 is a rollup release with automated build testing and InfluxDB support.\n- Probe handling, FPing command-line behavior, SSH handling, zoom mode URLs, cropper relative-time entry, config reloads for slaves, templates, loss colors, and graph titles were improved.\n- Fixes include restoring FindBin, adding the missing README, and correcting spelling in FTPtransfer.pm.",
+  "website": "https://oss.oetiker.ch/smokeping/",
+  "repo": "https://github.com/oetiker/SmokePing",
+  "support": "https://github.com/oetiker/SmokePing/issues",
+  "docs": "https://oss.oetiker.ch/smokeping/doc/",
   "title": "Smokeping",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

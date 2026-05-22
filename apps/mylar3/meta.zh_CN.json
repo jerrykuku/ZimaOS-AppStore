@@ -1,5 +1,6 @@
 {
   "id": "mylar3",
   "tagline": "自动漫画（cbr/cbz）下载程序",
+  "releaseNotes": "- v0.8.3 增加了 selected-issue tagging、Wanted issues 子集强制排队、CRC checks 和 CBL reading-list import screen。\n- 改进了 search timing、search interval naming、table shift-select 和 GetComics logging。\n- 修复包括乱序 release-date post-processing、SAB/NZBGET download handling、RSS feed URL construction 和 notification issues。",
   "description": "Mylar是一个自动化的漫画（cbr/cbz）下载程序，可与NZB和torrents一起使用。 Mylar允许您创建监视列表，用于监视各种事物（新问题，更新信息等）。 它将抓取，排序和重命名下载的问题。 它还允许您监视周拉列表，以下载属于所述监视列表系列的项目，以及能够监视和维护故事弧线。"
 }

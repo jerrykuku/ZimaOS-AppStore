@@ -34,3 +34,4 @@ x-casaos:
   title: PyLoad
   index: /
   port_map: '8000'
+  version: 0.5.0

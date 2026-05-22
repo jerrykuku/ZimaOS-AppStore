@@ -1,0 +1,4 @@
+{
+  "id": "grafana",
+  "releaseNotes": "- v12.1.4 は time intervals を含めるよう alerting status unmarshalling を修正します。\n- Enterprise dashboard rollup metrics の last-period summaries と total resets が修正されました。\n- CVE-2025-41115 向けの Enterprise SCIM security fix が含まれます。"
+}

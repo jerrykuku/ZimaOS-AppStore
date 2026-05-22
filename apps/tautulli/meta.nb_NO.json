@@ -1,0 +1,4 @@
+{
+  "id": "tautulli",
+  "releaseNotes": "- v2.13.2 legger til quarter-value-ikoner for historikkstatus.\n- En samtidig graf for strømmer per dag og metadatakatalogeksportørfelt ble lagt til.\n- Lister over varslings- og nyhetsbrevagenter viser nå det siste utløste tidspunktet, og X-Plex-Language kan overstyres i konfig."
+}

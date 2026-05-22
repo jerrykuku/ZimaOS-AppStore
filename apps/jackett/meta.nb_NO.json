@@ -1,0 +1,4 @@
+{
+  "id": "jackett",
+  "releaseNotes": "- v0.24.1841 oppdaterer torrenttip, torrentsome, btstate, ADC, u2p, magnetcat, torrent9 og czteam indexer håndtering.\n- Flere sporingsdomener og velger/kategorikonfigurasjoner ble oppdatert.\n- Docker-brukere bør oppdatere beholderbildet i stedet for å kjøre in-app-oppdateringen inne i en eksisterende beholder."
+}

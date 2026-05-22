@@ -45,10 +45,6 @@
       "tagline": "Oblicz wszystkie rodzaje statystyk z Twojego (lokalnego) serwera Emby lub Jellyfin"
     },
     {
-      "id": "filebrowser",
-      "tagline": "Prześlij, usuń, podgląd, zmień nazwę, edytuj i udostępnij swoje pliki."
-    },
-    {
       "id": "filedrop",
       "tagline": "FileDrop to darmowa usługa udostępniania plików typu open source."
     },

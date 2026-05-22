@@ -16,6 +16,12 @@
     "/apps/sure/assets/screenshot-5.webp"
   ],
   "thumbnail": "",
+  "updateAt": "2025-12-03",
+  "releaseNotes": "- v0.6.5-hotfix.1 fixes mobile drag and re-order behavior.\n- Simplefin liabilities recording was fixed.",
+  "website": "https://sure.am",
+  "repo": "https://github.com/we-promise/sure",
+  "support": "https://github.com/we-promise/sure/issues",
+  "docs": "https://github.com/we-promise/sure/wiki",
   "title": "Sure",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

@@ -33,3 +33,4 @@ x-casaos:
   title: Duplicati
   index: /
   port_map: '8200'
+  version: 2.1.0

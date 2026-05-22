@@ -31,3 +31,4 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/nzbget/assets/icon.svg
   title: Nzbget
   port_map: '6789'
+  version: 25.4.20251205

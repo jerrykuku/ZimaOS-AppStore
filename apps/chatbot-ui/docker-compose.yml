@@ -19,3 +19,4 @@ x-casaos:
   title: Chatbot UI
   index: /
   port_map: '3080'
+  version: main

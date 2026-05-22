@@ -1,0 +1,4 @@
+{
+  "id": "2fauth",
+  "releaseNotes": "- v5.4.3, the gelişmiş formundan kaydettikten sonra silinen simgelerin yeniden görünmesini düzeltir.\n- Giriş sayfası yükleme, alt bilgi menüsü form gönderimi, kırpılmış QR kodları, Yönetim modunda donmalar ve eksik no-icon hesap simgeleri düzeltildi.\n- /up görünümü artık tailwindcss.com'den CSS stillerini yüklemiyor."
+}

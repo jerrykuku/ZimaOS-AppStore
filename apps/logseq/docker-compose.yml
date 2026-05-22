@@ -32,3 +32,4 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/logseq/assets/icon.svg
   title: Logseq
   port_map: '3325'
+  version: v0.10.10

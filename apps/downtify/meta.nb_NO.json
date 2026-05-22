@@ -1,0 +1,4 @@
+{
+  "id": "downtify",
+  "releaseNotes": "- 2.6.0 legger til muligheten for å lagre musikk i artistmapper.\n- Den legger til en innstilling for å deaktivere tekstnedlastinger.\n- Det fikser nedlastingshistorikk og utholdenhet av innstillinger."
+}

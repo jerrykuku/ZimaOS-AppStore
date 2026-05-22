@@ -208,9 +208,12 @@ def pin_latest_service_images(compose_data, app_id):
         try:
             service_def["image"] = fetch_latest_digest(image_ref)
         except Exception as exc:
-            raise RuntimeError(
-                f"App '{app_id}' failed to pin latest image for service '{service_name}': {image_ref}"
-            ) from exc
+            # Some registries intermittently fail auth or TLS handshakes for manifest
+            # requests. Keep the original :latest reference so the build can proceed.
+            print(
+                f"  WARN  App '{app_id}' could not pin latest image for "
+                f"service '{service_name}': {image_ref} ({exc})"
+            )
 
 
 def hash_directory_files(root_dir):

@@ -614,3 +614,16 @@ x-casaos:
   title:
     en_US: Trilium
     zh_CN: Trilium
+  version: "v0.99.3"
+  # 应用更新日期，对应前端显示的更新日期信息 （可选)
+  updateAt: ""
+  # 应用版本更新日志，对应前端显示的版本更新日志信息，支持多语言 （可选）
+  releaseNotes: {}
+  # 应用的官方网站地址，对应前端显示的开发者的连接地址 （可选)
+  website: ""
+  # 应用的源代码仓库地址，对应前端显示的源代码地址信息 （可选)
+  repo: ""
+  # 应用的支持地址，对应前端显示的 get support 按钮 的连接地址 （可选)
+  support: ""
+  # 应用的文档地址，对应前端显示的 how we use 的连接地址 （可选)
+  docs: ""

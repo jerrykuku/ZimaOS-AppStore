@@ -1,6 +1,6 @@
 {
   "id": "2fauth",
-  "tagline": "Une application Web pour gérer vos comptes d'authentification à deux facteurs (2FA) et générer leurs codes de sécurité",
   "releaseNotes": "- v5.4.3 corrige la reapparition des icones supprimees apres l'enregistrement depuis le formulaire avance.\n- Le chargement de la page de connexion, l'envoi du formulaire du menu de pied de page, les QR codes rognes, les blocages du mode Manage et les icones de compte manquantes sans icone ont ete corriges.\n- La vue /up ne charge plus les styles CSS depuis tailwindcss.com.",
+  "tagline": "Une application Web pour gérer vos comptes d'authentification à deux facteurs (2FA) et générer leurs codes de sécurité",
   "description": "2FAuth est une alternative auto-hébergée basée sur le web aux générateurs de codes à usage unique (OTP) tels que Google Authenticator, conçus pour les appareils mobiles et de bureau."
 }

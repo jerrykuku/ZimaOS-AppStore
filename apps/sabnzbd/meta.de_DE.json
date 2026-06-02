@@ -1,6 +1,6 @@
 {
   "id": "sabnzbd",
-  "tagline": "Freier und einfacher Binär-Newsreader",
   "releaseNotes": "- 4.1.0 fuegt dark mode fuer Config-, Login- und Wizard-Seiten sowie multi-select in History hinzu.\n- Proxy validation, log purging, server IP selection, IPv6 server settings und archive unpacking behavior wurden aktualisiert.\n- Korrekturen betreffen duplicate detection, filename sorting, paused queue priority handling, API-key log sanitization, disk writes, folder sanitization, article decoding und QuickCheck renaming.",
+  "tagline": "Freier und einfacher Binär-Newsreader",
   "description": "SABnzbd ist ein Open Source Binary Newsreader, der in Python geschrieben ist. Es ist völlig kostenlos, einfach zu bedienen und praktisch überall einsetzbar. SABnzbd macht Usenet so einfach und effizient wie möglich, indem es alles automatisiert, was wir tun können. Alles, was Sie tun müssen, ist eine .nzb hinzuzufügen. SABnzbd übernimmt dann die Kontrolle, wo es automatisch heruntergeladen, überprüft, repariert, extrahiert und archiviert wird, ohne menschliches Eingreifen. SABnzbd bietet einen einfachen Einrichtungsassistenten und hat selbstanalysierende Tools, um Ihre Einrichtung zu überprüfen."
 }

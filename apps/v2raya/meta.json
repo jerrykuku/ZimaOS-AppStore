@@ -24,5 +24,6 @@
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [
     "networking"
-  ]
+  ],
+  "min_memory": 134217728
 }

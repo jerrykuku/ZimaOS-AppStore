@@ -1,5 +1,5 @@
 {
   "id": "albyhub",
-  "tagline": "Un semplice nodo Bitcoin Lightning con un portafoglio, sottoconti e connessioni NWC.",
-  "releaseNotes": "- v1.20.0 aggiunge una procedura guidata di connessione per le app dell'app store the.\n- Le transazioni Alby Hub ora possono essere esportate in CSV dall'elenco delle transazioni principali di the e dalle singole connessioni/sottoportafogli.\n- I canali possono essere acquistati utilizzando il metodo di pagamento preferito ed è stata aggiunta una finestra di dialogo/tasto di scelta rapida per la navigazione rapida."
+  "releaseNotes": "- v1.20.0 aggiunge una procedura guidata di connessione per le app dell'app store the.\n- Le transazioni Alby Hub ora possono essere esportate in CSV dall'elenco delle transazioni principali di the e dalle singole connessioni/sottoportafogli.\n- I canali possono essere acquistati utilizzando il metodo di pagamento preferito ed è stata aggiunta una finestra di dialogo/tasto di scelta rapida per la navigazione rapida.",
+  "tagline": "Un semplice nodo Bitcoin Lightning con un portafoglio, sottoconti e connessioni NWC."
 }

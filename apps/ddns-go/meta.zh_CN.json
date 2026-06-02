@@ -1,6 +1,6 @@
 {
   "id": "ddns-go",
-  "tagline": "简单好用的DDNS",
   "releaseNotes": "- v6.17.0 增加了 ClouDNS 支持。\n- 修复了回调处理，使其遵循协议启用状态并使用正确的 HTTP 客户端。",
+  "tagline": "简单好用的DDNS",
   "description": "简单好用的 DDNS 工具。自动更新域名解析到公网IP(支持阿里云、腾讯云、Dnspod、Cloudflare、Callback、华为云、百度云、Porkbun、GoDaddy、Google Domain)。\n\n在 Zima 上部署 DDNS-go， 你可以把你的 Zima 设备对应的公网IP绑定到你的域名上。 这样你在外面就可以通过域名访问你的 Zima 设备了。\n"
 }

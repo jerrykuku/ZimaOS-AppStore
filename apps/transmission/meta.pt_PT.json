@@ -1,7 +1,7 @@
 {
   "id": "transmission",
-  "tagline": "Transmission é um cliente BitTorrent multiplataforma",
   "releaseNotes": "- 4.0.4 é uma versão bugfix-only da série 4.0.x.\n- As correções incluem metadados de torrent enviados para peers, tratamento de colisões de nomes de ficheiros, arredondamento de estatísticas locale-based, chaves de anúncio do rastreador, portas de anúncio LPD, edição do rastreador URL e anúncios listening-interface.\n- Qt, GTK, Web, CLI e clientes remotos receberam UI, correções de visualização, falhas e comandos.",
+  "tagline": "Transmission é um cliente BitTorrent multiplataforma",
   "description": "Transmission é um cliente BitTorrent projetado para simplicidade e desempenho poderoso, proporcionando uma experiência de download eficiente e amigável. Ele vem equipado com todas as funcionalidades essenciais que você espera, incluindo encriptação, uma interface web, troca de peers, links magnéticos, DHT, µTP, encaminhamento de portas UPnP e NAT-PMP, suporte a webseed, diretórios de vigilância, edição de trackers, limites de velocidade globais e por torrent, e muito mais.\n\nCom sua interface intuitiva, Transmission atende tanto a iniciantes quanto a utilizadores avançados. Seja gerindo um único download ou lidando com filas complexas de torrents, Transmission garante uma experiência fluida com uso otimizado de recursos e desempenho confiável. Para utilizadores casuais e entusiastas da tecnologia, Transmission é a solução BitTorrent ideal。\n",
   "tips": {
     "before_install": "| nome de utilizador | palavra-passe |\n| ----------------- | ------------- |\n| `casaos` | `casaos` |\n"

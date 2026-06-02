@@ -1,6 +1,6 @@
 {
   "id": "jackett",
-  "tagline": "Jackett arbeitet als Proxy-Server",
   "releaseNotes": "- v0.24.1841 aktualisiert die Indexer-Behandlung für torrenttip, torrentsome, btstate, ADC, u2p, magnetcat, torrent9 und czteam.\n- Mehrere Tracker-Domains sowie Selector-/Category-Konfigurationen wurden aktualisiert.\n- Docker-Nutzer sollten das Container-Image aktualisieren, statt den In-App-Updater im bestehenden Container auszuführen.",
+  "tagline": "Jackett arbeitet als Proxy-Server",
   "description": "Jackett übersetzt Abfragen von Apps (Sonarr, Radarr, SickRage, CouchPotato, Mylar3, Lidarr, DuckieTV, qBittorrent, Nefarious usw.) in tracker-site-spezifische HTTP-Abfragen, analysiert die HTML- oder JSON-Antwort und sendet dann Ergebnisse an die anfordernde Software zurück. Dies ermöglicht das Abrufen von aktuellen Uploads (wie RSS) und das Ausführen von Suchen. Jackett ist ein einzelnes Repository für wartungsfreie Indexer-Scraping- und Übersetzungslogik - das Entfernen des Lastdrucks von anderen Apps."
 }

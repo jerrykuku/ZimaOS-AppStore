@@ -23,5 +23,6 @@
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [
     "home"
-  ]
+  ],
+  "min_memory": 0
 }

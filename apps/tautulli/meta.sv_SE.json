@@ -1,6 +1,6 @@
 {
   "id": "tautulli",
-  "tagline": "Övervaka din Plex Media Server och mycket mer.",
   "releaseNotes": "- v2.13.2 lägger till quarter-value-ikoner för historikbevakningsstatus.\n- En samtidig graf för strömmar per dag och fält för export av metadatakataloger lades till.\n- Aviserings- och nyhetsbrevsagentlistor visar nu den senaste utlösta tiden, och X-Plex-Language kan åsidosättas i konfigurationen.",
+  "tagline": "Övervaka din Plex Media Server och mycket mer.",
   "description": "Tautulli är en tredjepartsapplikation som du kan köra bredvid din Plex Media Server för att övervaka aktiviteten och spåra olika statistik."
 }

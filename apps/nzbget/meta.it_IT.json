@@ -1,6 +1,6 @@
 {
   "id": "nzbget",
-  "tagline": "Downloader Usenet efficiente",
   "releaseNotes": "- NZBGet 25.4 aggiunge il supporto della suite di crittografia TLS 1.3 tramite l'opzione ServerX.Cipher.\n- La barra di ricerca web UI è abilitata su schermi piccoli.\n- Le correzioni includono la gestione dello script di scansione API, l'applicazione della categoria di feed RSS dalle regole filter, l'analisi dei valori JSON e il metodo testserver API.",
+  "tagline": "Downloader Usenet efficiente",
   "description": "NZBGet può essere eseguito su quasi qualsiasi dispositivo - PC classico, NAS, lettore multimediale, ricevitore SAT, router WLAN, ecc. La zona download fornisce binari precompilati per Windows, macOS, Linux (compatibile con molte CPU e varianti di piattaforma), FreeBSD e Android. Per altre piattaforme, il programma può essere compilato dalle fonti."
 }

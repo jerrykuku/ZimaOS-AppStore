@@ -1,6 +1,6 @@
 {
   "id": "nzbget",
-  "tagline": "Effektiv Usenet-downladdare",
   "releaseNotes": "- NZBGet 25.4 lägger till TLS 1.3 krypteringssvitstöd genom alternativet ServerX.Cipher.\n- Sökfältet UI på webben är aktiverat på små skärmar.\n- Korrigeringar inkluderar hantering av skanningsskript API, RSS flödeskategoriapplikation från filter-regler, JSON värdeanalys och testserverns API-metoden.",
+  "tagline": "Effektiv Usenet-downladdare",
   "description": "NZBGet kan köras på nästan vilket enhet - klassisk PC, NAS, mediaspelare, SAT-mottagare, WLAN-router, etc. Nedladdningsområdet tillhandahåller förinstallerade binära filer för Windows, macOS, Linux (kompatibel med många CPU och plattformsversioner), FreeBSD och Android. För andra plattformar kan programmet kompileras från källkod."
 }

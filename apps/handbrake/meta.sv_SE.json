@@ -1,6 +1,6 @@
 {
   "id": "handbrake",
-  "tagline": "Frigör dina videor och låt fantasin flöda fritt.",
   "releaseNotes": "- v25.10.1 låser videofiler innan du kontrollerar stabiliteten i Automatic Video Converter.\n- Automatisk videoomvandlarrensning under avstängning av behållare förbättrades.",
+  "tagline": "Frigör dina videor och låt fantasin flöda fritt.",
   "description": "Handbrake är en Docker-baserad applikation för videoomkodning och komprimering, som erbjuder kraftfull och flexibel multimediebehandling över flera plattformar."
 }

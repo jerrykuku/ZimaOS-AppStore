@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-05-22T10:48:40Z",
+  "updated_at": "2026-06-02T03:09:16Z",
   "app_count": 164,
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "apps": [
@@ -25,7 +25,7 @@
       "thumbnail": "/apps/2fauth/assets/thumbnail.webp",
       "compose_url": "/apps/2fauth/docker-compose.yml",
       "meta_url": "/apps/2fauth/meta.json",
-      "content_hash": "667ea738"
+      "content_hash": "89e39993"
     },
     {
       "id": "actualbudget",
@@ -46,7 +46,7 @@
       "thumbnail": "",
       "compose_url": "/apps/actualbudget/docker-compose.yml",
       "meta_url": "/apps/actualbudget/meta.json",
-      "content_hash": "83188ce9"
+      "content_hash": "1d547c86"
     },
     {
       "id": "adguard-home",
@@ -70,7 +70,7 @@
       "thumbnail": "/apps/adguard-home/assets/thumbnail.webp",
       "compose_url": "/apps/adguard-home/docker-compose.yml",
       "meta_url": "/apps/adguard-home/meta.json",
-      "content_hash": "2d00faee"
+      "content_hash": "e910c913"
     },
     {
       "id": "adminer",
@@ -92,7 +92,7 @@
       "thumbnail": "/apps/adminer/assets/thumbnail.webp",
       "compose_url": "/apps/adminer/docker-compose.yml",
       "meta_url": "/apps/adminer/meta.json",
-      "content_hash": "f4db838f"
+      "content_hash": "a7c99f4c"
     },
     {
       "id": "albyhub",
@@ -113,7 +113,7 @@
       "thumbnail": "",
       "compose_url": "/apps/albyhub/docker-compose.yml",
       "meta_url": "/apps/albyhub/meta.json",
-      "content_hash": "2fce8855"
+      "content_hash": "ac9797d4"
     },
     {
       "id": "alist",
@@ -135,7 +135,7 @@
       "thumbnail": "/apps/alist/assets/thumbnail.webp",
       "compose_url": "/apps/alist/docker-compose.yml",
       "meta_url": "/apps/alist/meta.json",
-      "content_hash": "1f5ed0a2"
+      "content_hash": "8608d889"
     },
     {
       "id": "alist-sync",
@@ -157,7 +157,7 @@
       "thumbnail": "/apps/alist-sync/assets/thumbnail.webp",
       "compose_url": "/apps/alist-sync/docker-compose.yml",
       "meta_url": "/apps/alist-sync/meta.json",
-      "content_hash": "725b1012"
+      "content_hash": "7a3bcb7e"
     },
     {
       "id": "anaconda3",
@@ -177,7 +177,7 @@
       "thumbnail": "/apps/anaconda3/assets/thumbnail.webp",
       "compose_url": "/apps/anaconda3/docker-compose.yml",
       "meta_url": "/apps/anaconda3/meta.json",
-      "content_hash": "d3f4c394"
+      "content_hash": "fcb60819"
     },
     {
       "id": "anythingllm",
@@ -197,7 +197,7 @@
       "thumbnail": "",
       "compose_url": "/apps/anythingllm/docker-compose.yml",
       "meta_url": "/apps/anythingllm/meta.json",
-      "content_hash": "edf83db6"
+      "content_hash": "e0f3aa38"
     },
     {
       "id": "archivebox",
@@ -217,7 +217,7 @@
       "thumbnail": "/apps/archivebox/assets/thumbnail.webp",
       "compose_url": "/apps/archivebox/docker-compose.yml",
       "meta_url": "/apps/archivebox/meta.json",
-      "content_hash": "b0f0e5c5"
+      "content_hash": "c28f4bd6"
     },
     {
       "id": "audiobookshelf",
@@ -238,7 +238,7 @@
       "thumbnail": "",
       "compose_url": "/apps/audiobookshelf/docker-compose.yml",
       "meta_url": "/apps/audiobookshelf/meta.json",
-      "content_hash": "1a5974e5"
+      "content_hash": "302b9288"
     },
     {
       "id": "autobrr",
@@ -260,7 +260,7 @@
       "thumbnail": "/apps/autobrr/assets/thumbnail.webp",
       "compose_url": "/apps/autobrr/docker-compose.yml",
       "meta_url": "/apps/autobrr/meta.json",
-      "content_hash": "e585808d"
+      "content_hash": "49732d1d"
     },
     {
       "id": "bazarr",
@@ -282,7 +282,7 @@
       "thumbnail": "/apps/bazarr/assets/thumbnail.webp",
       "compose_url": "/apps/bazarr/docker-compose.yml",
       "meta_url": "/apps/bazarr/meta.json",
-      "content_hash": "30fa3963"
+      "content_hash": "15ff01e0"
     },
     {
       "id": "beaverhabittracker",
@@ -303,7 +303,7 @@
       "thumbnail": "",
       "compose_url": "/apps/beaverhabittracker/docker-compose.yml",
       "meta_url": "/apps/beaverhabittracker/meta.json",
-      "content_hash": "afc00389"
+      "content_hash": "91fec18f"
     },
     {
       "id": "blinko",
@@ -324,7 +324,7 @@
       "thumbnail": "/apps/blinko/assets/thumbnail.webp",
       "compose_url": "/apps/blinko/docker-compose.yml",
       "meta_url": "/apps/blinko/meta.json",
-      "content_hash": "782d0a8e"
+      "content_hash": "a9499b19"
     },
     {
       "id": "calibre-web",
@@ -345,7 +345,7 @@
       "thumbnail": "/apps/calibre-web/assets/thumbnail.webp",
       "compose_url": "/apps/calibre-web/docker-compose.yml",
       "meta_url": "/apps/calibre-web/meta.json",
-      "content_hash": "13cf5a77"
+      "content_hash": "2a063e09"
     },
     {
       "id": "chatbot-ui",
@@ -366,7 +366,7 @@
       "thumbnail": "",
       "compose_url": "/apps/chatbot-ui/docker-compose.yml",
       "meta_url": "/apps/chatbot-ui/meta.json",
-      "content_hash": "9deb3cb9"
+      "content_hash": "348dff53"
     },
     {
       "id": "chatgpt-next-web",
@@ -387,7 +387,7 @@
       "thumbnail": "/apps/chatgpt-next-web/assets/thumbnail.webp",
       "compose_url": "/apps/chatgpt-next-web/docker-compose.yml",
       "meta_url": "/apps/chatgpt-next-web/meta.json",
-      "content_hash": "01f84a8d"
+      "content_hash": "23b70a0f"
     },
     {
       "id": "cloudbeaver",
@@ -408,7 +408,7 @@
       "thumbnail": "",
       "compose_url": "/apps/cloudbeaver/docker-compose.yml",
       "meta_url": "/apps/cloudbeaver/meta.json",
-      "content_hash": "fcb9467f"
+      "content_hash": "4afaa2a2"
     },
     {
       "id": "cloudflared",
@@ -430,7 +430,7 @@
       "thumbnail": "/apps/cloudflared/assets/thumbnail.webp",
       "compose_url": "/apps/cloudflared/docker-compose.yml",
       "meta_url": "/apps/cloudflared/meta.json",
-      "content_hash": "477f61c4"
+      "content_hash": "e1493df7"
     },
     {
       "id": "convertx",
@@ -451,7 +451,7 @@
       "thumbnail": "",
       "compose_url": "/apps/convertx/docker-compose.yml",
       "meta_url": "/apps/convertx/meta.json",
-      "content_hash": "269ec04e"
+      "content_hash": "2012c176"
     },
     {
       "id": "copyparty",
@@ -471,7 +471,7 @@
       "thumbnail": "",
       "compose_url": "/apps/copyparty/docker-compose.yml",
       "meta_url": "/apps/copyparty/meta.json",
-      "content_hash": "9a8aa88d"
+      "content_hash": "d425c026"
     },
     {
       "id": "crafty",
@@ -493,7 +493,7 @@
       "thumbnail": "",
       "compose_url": "/apps/crafty/docker-compose.yml",
       "meta_url": "/apps/crafty/meta.json",
-      "content_hash": "c2759d24"
+      "content_hash": "bcbf25ec"
     },
     {
       "id": "databag",
@@ -514,7 +514,7 @@
       "thumbnail": "",
       "compose_url": "/apps/databag/docker-compose.yml",
       "meta_url": "/apps/databag/meta.json",
-      "content_hash": "f62dfd54"
+      "content_hash": "97bf2fc3"
     },
     {
       "id": "ddns-go",
@@ -536,7 +536,7 @@
       "thumbnail": "",
       "compose_url": "/apps/ddns-go/docker-compose.yml",
       "meta_url": "/apps/ddns-go/meta.json",
-      "content_hash": "d9b9a5a3"
+      "content_hash": "ef55751d"
     },
     {
       "id": "ddns-updater",
@@ -558,7 +558,7 @@
       "thumbnail": "",
       "compose_url": "/apps/ddns-updater/docker-compose.yml",
       "meta_url": "/apps/ddns-updater/meta.json",
-      "content_hash": "16ec10c6"
+      "content_hash": "a631498c"
     },
     {
       "id": "deepseek-ocr-nvidia",
@@ -578,7 +578,7 @@
       "thumbnail": "",
       "compose_url": "/apps/deepseek-ocr-nvidia/docker-compose.yml",
       "meta_url": "/apps/deepseek-ocr-nvidia/meta.json",
-      "content_hash": "2ac47843"
+      "content_hash": "ccdc7c7f"
     },
     {
       "id": "deluge",
@@ -599,7 +599,7 @@
       "thumbnail": "/apps/deluge/assets/thumbnail.webp",
       "compose_url": "/apps/deluge/docker-compose.yml",
       "meta_url": "/apps/deluge/meta.json",
-      "content_hash": "0113d089"
+      "content_hash": "36232936"
     },
     {
       "id": "dify",
@@ -620,7 +620,7 @@
       "thumbnail": "/apps/dify/assets/thumbnail.webp",
       "compose_url": "/apps/dify/docker-compose.yml",
       "meta_url": "/apps/dify/meta.json",
-      "content_hash": "8f1c0aed"
+      "content_hash": "209f9377"
     },
     {
       "id": "docmost",
@@ -641,7 +641,7 @@
       "thumbnail": "",
       "compose_url": "/apps/docmost/docker-compose.yml",
       "meta_url": "/apps/docmost/meta.json",
-      "content_hash": "b865f5a8"
+      "content_hash": "e0bf4fe0"
     },
     {
       "id": "downtify",
@@ -662,7 +662,7 @@
       "thumbnail": "",
       "compose_url": "/apps/downtify/docker-compose.yml",
       "meta_url": "/apps/downtify/meta.json",
-      "content_hash": "a57d1b22"
+      "content_hash": "ff923a8e"
     },
     {
       "id": "duckdns",
@@ -683,7 +683,7 @@
       "thumbnail": "",
       "compose_url": "/apps/duckdns/docker-compose.yml",
       "meta_url": "/apps/duckdns/meta.json",
-      "content_hash": "c906b460"
+      "content_hash": "28a770cd"
     },
     {
       "id": "duplicati",
@@ -704,7 +704,7 @@
       "thumbnail": "/apps/duplicati/assets/thumbnail.webp",
       "compose_url": "/apps/duplicati/docker-compose.yml",
       "meta_url": "/apps/duplicati/meta.json",
-      "content_hash": "fdbb9f93"
+      "content_hash": "491e4b51"
     },
     {
       "id": "emby",
@@ -725,7 +725,7 @@
       "thumbnail": "/apps/emby/assets/thumbnail.webp",
       "compose_url": "/apps/emby/docker-compose.yml",
       "meta_url": "/apps/emby/meta.json",
-      "content_hash": "05c8d2ce"
+      "content_hash": "41a9686e"
     },
     {
       "id": "emby-nvidia",
@@ -746,7 +746,7 @@
       "thumbnail": "/apps/emby-nvidia/assets/thumbnail.webp",
       "compose_url": "/apps/emby-nvidia/docker-compose.yml",
       "meta_url": "/apps/emby-nvidia/meta.json",
-      "content_hash": "66f74d2c"
+      "content_hash": "bba257bf"
     },
     {
       "id": "embystat",
@@ -767,7 +767,7 @@
       "thumbnail": "",
       "compose_url": "/apps/embystat/docker-compose.yml",
       "meta_url": "/apps/embystat/meta.json",
-      "content_hash": "cc3f297c"
+      "content_hash": "9640fc27"
     },
     {
       "id": "emulatorjs",
@@ -788,7 +788,7 @@
       "thumbnail": "",
       "compose_url": "/apps/emulatorjs/docker-compose.yml",
       "meta_url": "/apps/emulatorjs/meta.json",
-      "content_hash": "56b64179"
+      "content_hash": "d7e835df"
     },
     {
       "id": "esphome",
@@ -810,7 +810,7 @@
       "thumbnail": "",
       "compose_url": "/apps/esphome/docker-compose.yml",
       "meta_url": "/apps/esphome/meta.json",
-      "content_hash": "42245db6"
+      "content_hash": "726a9d18"
     },
     {
       "id": "etherpad",
@@ -831,7 +831,7 @@
       "thumbnail": "",
       "compose_url": "/apps/etherpad/docker-compose.yml",
       "meta_url": "/apps/etherpad/meta.json",
-      "content_hash": "c13b5b98"
+      "content_hash": "21b4a6f0"
     },
     {
       "id": "excalidraw",
@@ -851,7 +851,7 @@
       "thumbnail": "",
       "compose_url": "/apps/excalidraw/docker-compose.yml",
       "meta_url": "/apps/excalidraw/meta.json",
-      "content_hash": "b5a6b661"
+      "content_hash": "bc3aa421"
     },
     {
       "id": "filedrop",
@@ -872,7 +872,7 @@
       "thumbnail": "",
       "compose_url": "/apps/filedrop/docker-compose.yml",
       "meta_url": "/apps/filedrop/meta.json",
-      "content_hash": "b0ddd414"
+      "content_hash": "ae463e9d"
     },
     {
       "id": "fileflows",
@@ -893,7 +893,7 @@
       "thumbnail": "",
       "compose_url": "/apps/fileflows/docker-compose.yml",
       "meta_url": "/apps/fileflows/meta.json",
-      "content_hash": "c0931704"
+      "content_hash": "a07dd0e7"
     },
     {
       "id": "firefly",
@@ -915,7 +915,7 @@
       "thumbnail": "",
       "compose_url": "/apps/firefly/docker-compose.yml",
       "meta_url": "/apps/firefly/meta.json",
-      "content_hash": "b8299333"
+      "content_hash": "c16077ce"
     },
     {
       "id": "flaresolverr",
@@ -937,7 +937,7 @@
       "thumbnail": "",
       "compose_url": "/apps/flaresolverr/docker-compose.yml",
       "meta_url": "/apps/flaresolverr/meta.json",
-      "content_hash": "7a777af2"
+      "content_hash": "b66c8c84"
     },
     {
       "id": "flowise",
@@ -957,7 +957,7 @@
       "thumbnail": "",
       "compose_url": "/apps/flowise/docker-compose.yml",
       "meta_url": "/apps/flowise/meta.json",
-      "content_hash": "b405b50d"
+      "content_hash": "83cb2d72"
     },
     {
       "id": "freshrss",
@@ -979,7 +979,7 @@
       "thumbnail": "",
       "compose_url": "/apps/freshrss/docker-compose.yml",
       "meta_url": "/apps/freshrss/meta.json",
-      "content_hash": "fddbfd1d"
+      "content_hash": "270fabf0"
     },
     {
       "id": "gateway-go",
@@ -1001,7 +1001,7 @@
       "thumbnail": "",
       "compose_url": "/apps/gateway-go/docker-compose.yml",
       "meta_url": "/apps/gateway-go/meta.json",
-      "content_hash": "ed232529"
+      "content_hash": "b876dad2"
     },
     {
       "id": "gitea",
@@ -1022,7 +1022,7 @@
       "thumbnail": "/apps/gitea/assets/thumbnail.webp",
       "compose_url": "/apps/gitea/docker-compose.yml",
       "meta_url": "/apps/gitea/meta.json",
-      "content_hash": "a1a4fb48"
+      "content_hash": "ea1ed607"
     },
     {
       "id": "glances",
@@ -1043,7 +1043,7 @@
       "thumbnail": "",
       "compose_url": "/apps/glances/docker-compose.yml",
       "meta_url": "/apps/glances/meta.json",
-      "content_hash": "3f770e8c"
+      "content_hash": "d4ac102d"
     },
     {
       "id": "gopeed",
@@ -1065,7 +1065,7 @@
       "thumbnail": "",
       "compose_url": "/apps/gopeed/docker-compose.yml",
       "meta_url": "/apps/gopeed/meta.json",
-      "content_hash": "3efa16ee"
+      "content_hash": "89d477a5"
     },
     {
       "id": "grafana",
@@ -1086,7 +1086,7 @@
       "thumbnail": "/apps/grafana/assets/thumbnail.webp",
       "compose_url": "/apps/grafana/docker-compose.yml",
       "meta_url": "/apps/grafana/meta.json",
-      "content_hash": "93520d99"
+      "content_hash": "b51c978a"
     },
     {
       "id": "handbrake",
@@ -1106,7 +1106,7 @@
       "thumbnail": "",
       "compose_url": "/apps/handbrake/docker-compose.yml",
       "meta_url": "/apps/handbrake/meta.json",
-      "content_hash": "504f5ab9"
+      "content_hash": "7ebd4bff"
     },
     {
       "id": "holoplay",
@@ -1129,7 +1129,7 @@
       "thumbnail": "/apps/holoplay/assets/thumbnail.webp",
       "compose_url": "/apps/holoplay/docker-compose.yml",
       "meta_url": "/apps/holoplay/meta.json",
-      "content_hash": "27bf791a"
+      "content_hash": "8ce1fea4"
     },
     {
       "id": "homeassistant",
@@ -1151,7 +1151,7 @@
       "thumbnail": "/apps/homeassistant/assets/thumbnail.webp",
       "compose_url": "/apps/homeassistant/docker-compose.yml",
       "meta_url": "/apps/homeassistant/meta.json",
-      "content_hash": "8e0f76de"
+      "content_hash": "d3d8049f"
     },
     {
       "id": "homebridge",
@@ -1173,7 +1173,7 @@
       "thumbnail": "",
       "compose_url": "/apps/homebridge/docker-compose.yml",
       "meta_url": "/apps/homebridge/meta.json",
-      "content_hash": "ae8fc75c"
+      "content_hash": "8e60a34e"
     },
     {
       "id": "hugo",
@@ -1194,7 +1194,7 @@
       "thumbnail": "",
       "compose_url": "/apps/hugo/docker-compose.yml",
       "meta_url": "/apps/hugo/meta.json",
-      "content_hash": "a6193b8d"
+      "content_hash": "55d08ffb"
     },
     {
       "id": "icewhale-stable-diffusion-webui",
@@ -1214,7 +1214,7 @@
       "thumbnail": "",
       "compose_url": "/apps/icewhale-stable-diffusion-webui/docker-compose.yml",
       "meta_url": "/apps/icewhale-stable-diffusion-webui/meta.json",
-      "content_hash": "ffac894d"
+      "content_hash": "90d1cbb6"
     },
     {
       "id": "immich",
@@ -1235,7 +1235,7 @@
       "thumbnail": "/apps/immich/assets/thumbnail.webp",
       "compose_url": "/apps/immich/docker-compose.yml",
       "meta_url": "/apps/immich/meta.json",
-      "content_hash": "a7e2db21"
+      "content_hash": "75ff1a17"
     },
     {
       "id": "index-tts",
@@ -1255,7 +1255,7 @@
       "thumbnail": "/apps/index-tts/assets/thumbnail.webp",
       "compose_url": "/apps/index-tts/docker-compose.yml",
       "meta_url": "/apps/index-tts/meta.json",
-      "content_hash": "0c1b8400"
+      "content_hash": "8cc732c8"
     },
     {
       "id": "index-tts-nvidia",
@@ -1275,7 +1275,7 @@
       "thumbnail": "/apps/index-tts-nvidia/assets/thumbnail.webp",
       "compose_url": "/apps/index-tts-nvidia/docker-compose.yml",
       "meta_url": "/apps/index-tts-nvidia/meta.json",
-      "content_hash": "83dc2945"
+      "content_hash": "29db05bb"
     },
     {
       "id": "jackett",
@@ -1296,7 +1296,7 @@
       "thumbnail": "/apps/jackett/assets/thumbnail.webp",
       "compose_url": "/apps/jackett/docker-compose.yml",
       "meta_url": "/apps/jackett/meta.json",
-      "content_hash": "fda90dd9"
+      "content_hash": "aa078995"
     },
     {
       "id": "jdownloader2",
@@ -1317,7 +1317,7 @@
       "thumbnail": "",
       "compose_url": "/apps/jdownloader2/docker-compose.yml",
       "meta_url": "/apps/jdownloader2/meta.json",
-      "content_hash": "4035279a"
+      "content_hash": "125aae16"
     },
     {
       "id": "jellyfin",
@@ -1338,7 +1338,7 @@
       "thumbnail": "/apps/jellyfin/assets/thumbnail.webp",
       "compose_url": "/apps/jellyfin/docker-compose.yml",
       "meta_url": "/apps/jellyfin/meta.json",
-      "content_hash": "4109f827"
+      "content_hash": "9f2ce5f7"
     },
     {
       "id": "jellyfin-nvidia",
@@ -1359,7 +1359,7 @@
       "thumbnail": "/apps/jellyfin-nvidia/assets/thumbnail.webp",
       "compose_url": "/apps/jellyfin-nvidia/docker-compose.yml",
       "meta_url": "/apps/jellyfin-nvidia/meta.json",
-      "content_hash": "781f0107"
+      "content_hash": "4326273b"
     },
     {
       "id": "jellyseerr",
@@ -1380,7 +1380,7 @@
       "thumbnail": "",
       "compose_url": "/apps/jellyseerr/docker-compose.yml",
       "meta_url": "/apps/jellyseerr/meta.json",
-      "content_hash": "1d78b067"
+      "content_hash": "81db7486"
     },
     {
       "id": "jenkins",
@@ -1401,7 +1401,7 @@
       "thumbnail": "",
       "compose_url": "/apps/jenkins/docker-compose.yml",
       "meta_url": "/apps/jenkins/meta.json",
-      "content_hash": "c4a5ecab"
+      "content_hash": "a04396f8"
     },
     {
       "id": "kavita",
@@ -1423,7 +1423,7 @@
       "thumbnail": "",
       "compose_url": "/apps/kavita/docker-compose.yml",
       "meta_url": "/apps/kavita/meta.json",
-      "content_hash": "a07b9215"
+      "content_hash": "3dddb0e8"
     },
     {
       "id": "komga",
@@ -1445,7 +1445,7 @@
       "thumbnail": "",
       "compose_url": "/apps/komga/docker-compose.yml",
       "meta_url": "/apps/komga/meta.json",
-      "content_hash": "8b2d29b5"
+      "content_hash": "c72343df"
     },
     {
       "id": "label-studio",
@@ -1466,7 +1466,7 @@
       "thumbnail": "/apps/label-studio/assets/thumbnail.webp",
       "compose_url": "/apps/label-studio/docker-compose.yml",
       "meta_url": "/apps/label-studio/meta.json",
-      "content_hash": "83370e92"
+      "content_hash": "b7c1a6a2"
     },
     {
       "id": "langflow",
@@ -1486,7 +1486,7 @@
       "thumbnail": "",
       "compose_url": "/apps/langflow/docker-compose.yml",
       "meta_url": "/apps/langflow/meta.json",
-      "content_hash": "f387444e"
+      "content_hash": "834b5037"
     },
     {
       "id": "lazylibrarian",
@@ -1507,7 +1507,7 @@
       "thumbnail": "/apps/lazylibrarian/assets/thumbnail.webp",
       "compose_url": "/apps/lazylibrarian/docker-compose.yml",
       "meta_url": "/apps/lazylibrarian/meta.json",
-      "content_hash": "72f3ab28"
+      "content_hash": "b2fe6f35"
     },
     {
       "id": "librechat",
@@ -1527,7 +1527,7 @@
       "thumbnail": "",
       "compose_url": "/apps/librechat/docker-compose.yml",
       "meta_url": "/apps/librechat/meta.json",
-      "content_hash": "611410b5"
+      "content_hash": "dd71fd40"
     },
     {
       "id": "lidarr",
@@ -1548,7 +1548,7 @@
       "thumbnail": "/apps/lidarr/assets/thumbnail.webp",
       "compose_url": "/apps/lidarr/docker-compose.yml",
       "meta_url": "/apps/lidarr/meta.json",
-      "content_hash": "d7fb71cc"
+      "content_hash": "01ab00d6"
     },
     {
       "id": "linkwarden",
@@ -1569,7 +1569,7 @@
       "thumbnail": "/apps/linkwarden/assets/thumbnail.webp",
       "compose_url": "/apps/linkwarden/docker-compose.yml",
       "meta_url": "/apps/linkwarden/meta.json",
-      "content_hash": "e5cf9eab"
+      "content_hash": "7c934004"
     },
     {
       "id": "llama-factory-nvidia",
@@ -1589,7 +1589,7 @@
       "thumbnail": "",
       "compose_url": "/apps/llama-factory-nvidia/docker-compose.yml",
       "meta_url": "/apps/llama-factory-nvidia/meta.json",
-      "content_hash": "0c72a9a3"
+      "content_hash": "31675b19"
     },
     {
       "id": "logseq",
@@ -1610,7 +1610,7 @@
       "thumbnail": "/apps/logseq/assets/thumbnail.webp",
       "compose_url": "/apps/logseq/docker-compose.yml",
       "meta_url": "/apps/logseq/meta.json",
-      "content_hash": "1b6971a5"
+      "content_hash": "415a22b0"
     },
     {
       "id": "lucky",
@@ -1632,7 +1632,7 @@
       "thumbnail": "",
       "compose_url": "/apps/lucky/docker-compose.yml",
       "meta_url": "/apps/lucky/meta.json",
-      "content_hash": "ecc615cd"
+      "content_hash": "ce2da923"
     },
     {
       "id": "lyrionmusicserver",
@@ -1654,7 +1654,7 @@
       "thumbnail": "",
       "compose_url": "/apps/lyrionmusicserver/docker-compose.yml",
       "meta_url": "/apps/lyrionmusicserver/meta.json",
-      "content_hash": "55a69fd3"
+      "content_hash": "61a2535e"
     },
     {
       "id": "mariadb",
@@ -1675,7 +1675,7 @@
       "thumbnail": "/apps/mariadb/assets/icon.svg",
       "compose_url": "/apps/mariadb/docker-compose.yml",
       "meta_url": "/apps/mariadb/meta.json",
-      "content_hash": "7ed33441"
+      "content_hash": "47fe10b3"
     },
     {
       "id": "maybe",
@@ -1696,7 +1696,7 @@
       "thumbnail": "",
       "compose_url": "/apps/maybe/docker-compose.yml",
       "meta_url": "/apps/maybe/meta.json",
-      "content_hash": "06fbd2bb"
+      "content_hash": "40f96d75"
     },
     {
       "id": "medusa",
@@ -1718,7 +1718,7 @@
       "thumbnail": "",
       "compose_url": "/apps/medusa/docker-compose.yml",
       "meta_url": "/apps/medusa/meta.json",
-      "content_hash": "39e8c79c"
+      "content_hash": "b7128fd1"
     },
     {
       "id": "memos",
@@ -1740,7 +1740,7 @@
       "thumbnail": "/apps/memos/assets/thumbnail.webp",
       "compose_url": "/apps/memos/docker-compose.yml",
       "meta_url": "/apps/memos/meta.json",
-      "content_hash": "20245cd7"
+      "content_hash": "651d35b4"
     },
     {
       "id": "mineos-node",
@@ -1760,7 +1760,7 @@
       "thumbnail": "",
       "compose_url": "/apps/mineos-node/docker-compose.yml",
       "meta_url": "/apps/mineos-node/meta.json",
-      "content_hash": "2bb12ba1"
+      "content_hash": "95f658ad"
     },
     {
       "id": "mongodb",
@@ -1781,7 +1781,7 @@
       "thumbnail": "/apps/mongodb/assets/icon.svg",
       "compose_url": "/apps/mongodb/docker-compose.yml",
       "meta_url": "/apps/mongodb/meta.json",
-      "content_hash": "6cc7926a"
+      "content_hash": "2c79a90b"
     },
     {
       "id": "mongodb4",
@@ -1802,7 +1802,7 @@
       "thumbnail": "/apps/mongodb4/assets/icon.svg",
       "compose_url": "/apps/mongodb4/docker-compose.yml",
       "meta_url": "/apps/mongodb4/meta.json",
-      "content_hash": "84008915"
+      "content_hash": "9524d082"
     },
     {
       "id": "monica",
@@ -1823,7 +1823,7 @@
       "thumbnail": "",
       "compose_url": "/apps/monica/docker-compose.yml",
       "meta_url": "/apps/monica/meta.json",
-      "content_hash": "0899b291"
+      "content_hash": "590d012f"
     },
     {
       "id": "motioneye",
@@ -1843,7 +1843,7 @@
       "thumbnail": "",
       "compose_url": "/apps/motioneye/docker-compose.yml",
       "meta_url": "/apps/motioneye/meta.json",
-      "content_hash": "a63973ed"
+      "content_hash": "aceecacd"
     },
     {
       "id": "mylar3",
@@ -1864,7 +1864,7 @@
       "thumbnail": "/apps/mylar3/assets/thumbnail.webp",
       "compose_url": "/apps/mylar3/docker-compose.yml",
       "meta_url": "/apps/mylar3/meta.json",
-      "content_hash": "fe3d3707"
+      "content_hash": "77994c99"
     },
     {
       "id": "myspeed",
@@ -1886,7 +1886,7 @@
       "thumbnail": "",
       "compose_url": "/apps/myspeed/docker-compose.yml",
       "meta_url": "/apps/myspeed/meta.json",
-      "content_hash": "ffc4ed19"
+      "content_hash": "3247208d"
     },
     {
       "id": "n8n",
@@ -1907,7 +1907,7 @@
       "thumbnail": "/apps/n8n/assets/thumbnail.webp",
       "compose_url": "/apps/n8n/docker-compose.yml",
       "meta_url": "/apps/n8n/meta.json",
-      "content_hash": "8238ee9e"
+      "content_hash": "53bcb5ef"
     },
     {
       "id": "navidrome",
@@ -1929,7 +1929,7 @@
       "thumbnail": "",
       "compose_url": "/apps/navidrome/docker-compose.yml",
       "meta_url": "/apps/navidrome/meta.json",
-      "content_hash": "ed4dad58"
+      "content_hash": "6d08e705"
     },
     {
       "id": "netbird",
@@ -1950,7 +1950,7 @@
       "thumbnail": "/apps/netbird/assets/thumbnail.webp",
       "compose_url": "/apps/netbird/docker-compose.yml",
       "meta_url": "/apps/netbird/meta.json",
-      "content_hash": "99842045"
+      "content_hash": "0092d8ff"
     },
     {
       "id": "netdata",
@@ -1972,7 +1972,7 @@
       "thumbnail": "",
       "compose_url": "/apps/netdata/docker-compose.yml",
       "meta_url": "/apps/netdata/meta.json",
-      "content_hash": "fab72fc3"
+      "content_hash": "f85cc41b"
     },
     {
       "id": "nextcloud",
@@ -1998,7 +1998,7 @@
       "thumbnail": "/apps/nextcloud/assets/thumbnail.webp",
       "compose_url": "/apps/nextcloud/docker-compose.yml",
       "meta_url": "/apps/nextcloud/meta.json",
-      "content_hash": "49916e64"
+      "content_hash": "768af963"
     },
     {
       "id": "nginxproxymanager",
@@ -2020,7 +2020,7 @@
       "thumbnail": "/apps/nginxproxymanager/assets/thumbnail.webp",
       "compose_url": "/apps/nginxproxymanager/docker-compose.yml",
       "meta_url": "/apps/nginxproxymanager/meta.json",
-      "content_hash": "9ec06a76"
+      "content_hash": "c97ce3fa"
     },
     {
       "id": "node-red",
@@ -2043,7 +2043,7 @@
       "thumbnail": "/apps/node-red/assets/thimbnail.webp",
       "compose_url": "/apps/node-red/docker-compose.yml",
       "meta_url": "/apps/node-red/meta.json",
-      "content_hash": "0eea9f21"
+      "content_hash": "e12e5854"
     },
     {
       "id": "nzbget",
@@ -2065,7 +2065,7 @@
       "thumbnail": "/apps/nzbget/assets/thumbnail.webp",
       "compose_url": "/apps/nzbget/docker-compose.yml",
       "meta_url": "/apps/nzbget/meta.json",
-      "content_hash": "86e246c0"
+      "content_hash": "d9fd0d57"
     },
     {
       "id": "obsidian",
@@ -2086,7 +2086,7 @@
       "thumbnail": "",
       "compose_url": "/apps/obsidian/docker-compose.yml",
       "meta_url": "/apps/obsidian/meta.json",
-      "content_hash": "d762d1db"
+      "content_hash": "9b529c14"
     },
     {
       "id": "ollama",
@@ -2107,7 +2107,7 @@
       "thumbnail": "",
       "compose_url": "/apps/ollama/docker-compose.yml",
       "meta_url": "/apps/ollama/meta.json",
-      "content_hash": "ff3919e4"
+      "content_hash": "2031fbdf"
     },
     {
       "id": "ollama-nvidia",
@@ -2128,7 +2128,7 @@
       "thumbnail": "",
       "compose_url": "/apps/ollama-nvidia/docker-compose.yml",
       "meta_url": "/apps/ollama-nvidia/meta.json",
-      "content_hash": "c0d21c0d"
+      "content_hash": "d8053b39"
     },
     {
       "id": "ombi",
@@ -2149,7 +2149,7 @@
       "thumbnail": "/apps/ombi/assets/thumbnail.webp",
       "compose_url": "/apps/ombi/docker-compose.yml",
       "meta_url": "/apps/ombi/meta.json",
-      "content_hash": "ce11fc09"
+      "content_hash": "2fdfb2e2"
     },
     {
       "id": "open-webui-ollama",
@@ -2169,7 +2169,7 @@
       "thumbnail": "/apps/open-webui-ollama/assets/thumbnail.webp",
       "compose_url": "/apps/open-webui-ollama/docker-compose.yml",
       "meta_url": "/apps/open-webui-ollama/meta.json",
-      "content_hash": "4d9ef7eb"
+      "content_hash": "f7acc7f6"
     },
     {
       "id": "openclaw",
@@ -2190,7 +2190,7 @@
       "thumbnail": "/apps/openclaw/assets/thumbnail.webp",
       "compose_url": "/apps/openclaw/docker-compose.yml",
       "meta_url": "/apps/openclaw/meta.json",
-      "content_hash": "0564daf0"
+      "content_hash": "d7848c00"
     },
     {
       "id": "openhab",
@@ -2212,7 +2212,7 @@
       "thumbnail": "/apps/openhab/assets/thumbnail.webp",
       "compose_url": "/apps/openhab/docker-compose.yml",
       "meta_url": "/apps/openhab/meta.json",
-      "content_hash": "bb1b9844"
+      "content_hash": "9622f8a2"
     },
     {
       "id": "openhands",
@@ -2232,7 +2232,7 @@
       "thumbnail": "",
       "compose_url": "/apps/openhands/docker-compose.yml",
       "meta_url": "/apps/openhands/meta.json",
-      "content_hash": "5aa0e421"
+      "content_hash": "237012b1"
     },
     {
       "id": "openlist",
@@ -2254,7 +2254,7 @@
       "thumbnail": "",
       "compose_url": "/apps/openlist/docker-compose.yml",
       "meta_url": "/apps/openlist/meta.json",
-      "content_hash": "e70d2a26"
+      "content_hash": "e78023c9"
     },
     {
       "id": "openspeedtest",
@@ -2279,7 +2279,7 @@
       "thumbnail": "/apps/openspeedtest/assets/thumbnail.webp",
       "compose_url": "/apps/openspeedtest/docker-compose.yml",
       "meta_url": "/apps/openspeedtest/meta.json",
-      "content_hash": "3606f4c8"
+      "content_hash": "c90bc4d8"
     },
     {
       "id": "opodsync",
@@ -2300,7 +2300,7 @@
       "thumbnail": "",
       "compose_url": "/apps/opodsync/docker-compose.yml",
       "meta_url": "/apps/opodsync/meta.json",
-      "content_hash": "7a5e5da4"
+      "content_hash": "a4d4e16c"
     },
     {
       "id": "overseerr",
@@ -2321,7 +2321,7 @@
       "thumbnail": "/apps/overseerr/assets/icon.svg",
       "compose_url": "/apps/overseerr/docker-compose.yml",
       "meta_url": "/apps/overseerr/meta.json",
-      "content_hash": "c9ca4778"
+      "content_hash": "79ac8e54"
     },
     {
       "id": "pdfding",
@@ -2342,7 +2342,7 @@
       "thumbnail": "",
       "compose_url": "/apps/pdfding/docker-compose.yml",
       "meta_url": "/apps/pdfding/meta.json",
-      "content_hash": "e6a095a2"
+      "content_hash": "0799b1c4"
     },
     {
       "id": "peanut",
@@ -2363,7 +2363,7 @@
       "thumbnail": "/apps/peanut/assets/thumbnail.webp",
       "compose_url": "/apps/peanut/docker-compose.yml",
       "meta_url": "/apps/peanut/meta.json",
-      "content_hash": "5b7a34c7"
+      "content_hash": "0e5d686d"
     },
     {
       "id": "petio",
@@ -2385,7 +2385,7 @@
       "thumbnail": "/apps/petio/assets/icon.svg",
       "compose_url": "/apps/petio/docker-compose.yml",
       "meta_url": "/apps/petio/meta.json",
-      "content_hash": "19f2db96"
+      "content_hash": "5e9844be"
     },
     {
       "id": "photoprism",
@@ -2406,7 +2406,7 @@
       "thumbnail": "/apps/photoprism/assets/thumbnail.webp",
       "compose_url": "/apps/photoprism/docker-compose.yml",
       "meta_url": "/apps/photoprism/meta.json",
-      "content_hash": "ea2fcf9a"
+      "content_hash": "347054b6"
     },
     {
       "id": "pihole",
@@ -2429,7 +2429,7 @@
       "thumbnail": "/apps/pihole/assets/thumbnaill.webp",
       "compose_url": "/apps/pihole/docker-compose.yml",
       "meta_url": "/apps/pihole/meta.json",
-      "content_hash": "3c8120a9"
+      "content_hash": "fb2ccb80"
     },
     {
       "id": "pinchflat",
@@ -2450,7 +2450,7 @@
       "thumbnail": "",
       "compose_url": "/apps/pinchflat/docker-compose.yml",
       "meta_url": "/apps/pinchflat/meta.json",
-      "content_hash": "f30356a0"
+      "content_hash": "afd55227"
     },
     {
       "id": "pingvin-share",
@@ -2471,7 +2471,7 @@
       "thumbnail": "",
       "compose_url": "/apps/pingvin-share/docker-compose.yml",
       "meta_url": "/apps/pingvin-share/meta.json",
-      "content_hash": "1de962d6"
+      "content_hash": "6f11509a"
     },
     {
       "id": "playit-agent",
@@ -2492,7 +2492,7 @@
       "thumbnail": "",
       "compose_url": "/apps/playit-agent/docker-compose.yml",
       "meta_url": "/apps/playit-agent/meta.json",
-      "content_hash": "e2997768"
+      "content_hash": "2e48516f"
     },
     {
       "id": "plex",
@@ -2513,7 +2513,7 @@
       "thumbnail": "/apps/plex/assets/thumbnail.webp",
       "compose_url": "/apps/plex/docker-compose.yml",
       "meta_url": "/apps/plex/meta.json",
-      "content_hash": "b1309282"
+      "content_hash": "3d2b174a"
     },
     {
       "id": "plex-nvidia",
@@ -2534,7 +2534,7 @@
       "thumbnail": "/apps/plex-nvidia/assets/thumbnail.webp",
       "compose_url": "/apps/plex-nvidia/docker-compose.yml",
       "meta_url": "/apps/plex-nvidia/meta.json",
-      "content_hash": "9693f0fa"
+      "content_hash": "cf75eeea"
     },
     {
       "id": "pocketbase",
@@ -2554,7 +2554,7 @@
       "thumbnail": "/apps/pocketbase/assets/thumbnail.webp",
       "compose_url": "/apps/pocketbase/docker-compose.yml",
       "meta_url": "/apps/pocketbase/meta.json",
-      "content_hash": "749a9d23"
+      "content_hash": "9702d359"
     },
     {
       "id": "portainer",
@@ -2576,7 +2576,7 @@
       "thumbnail": "/apps/portainer/assets/thumbnail.webp",
       "compose_url": "/apps/portainer/docker-compose.yml",
       "meta_url": "/apps/portainer/meta.json",
-      "content_hash": "5f5e1c0d"
+      "content_hash": "7517176f"
     },
     {
       "id": "postgresql",
@@ -2598,7 +2598,7 @@
       "thumbnail": "/apps/postgresql/assets/icon.svg",
       "compose_url": "/apps/postgresql/docker-compose.yml",
       "meta_url": "/apps/postgresql/meta.json",
-      "content_hash": "da18bf44"
+      "content_hash": "83d731da"
     },
     {
       "id": "prowlarr",
@@ -2619,7 +2619,7 @@
       "thumbnail": "/apps/prowlarr/assets/thumbnail.webp",
       "compose_url": "/apps/prowlarr/docker-compose.yml",
       "meta_url": "/apps/prowlarr/meta.json",
-      "content_hash": "d4caccb9"
+      "content_hash": "7767f307"
     },
     {
       "id": "psitransfer",
@@ -2640,7 +2640,7 @@
       "thumbnail": "",
       "compose_url": "/apps/psitransfer/docker-compose.yml",
       "meta_url": "/apps/psitransfer/meta.json",
-      "content_hash": "031f83d4"
+      "content_hash": "ae75f0df"
     },
     {
       "id": "pyload",
@@ -2661,7 +2661,7 @@
       "thumbnail": "",
       "compose_url": "/apps/pyload/docker-compose.yml",
       "meta_url": "/apps/pyload/meta.json",
-      "content_hash": "99f0efb4"
+      "content_hash": "86ae2818"
     },
     {
       "id": "qbittorrent",
@@ -2682,7 +2682,7 @@
       "thumbnail": "/apps/qbittorrent/assets/thumbnail.webp",
       "compose_url": "/apps/qbittorrent/docker-compose.yml",
       "meta_url": "/apps/qbittorrent/meta.json",
-      "content_hash": "cb5e848a"
+      "content_hash": "52c5624c"
     },
     {
       "id": "radarr",
@@ -2703,7 +2703,7 @@
       "thumbnail": "/apps/radarr/assets/thumbnail.webp",
       "compose_url": "/apps/radarr/docker-compose.yml",
       "meta_url": "/apps/radarr/meta.json",
-      "content_hash": "33a52637"
+      "content_hash": "56999e71"
     },
     {
       "id": "ragflow",
@@ -2723,7 +2723,7 @@
       "thumbnail": "/apps/ragflow/assets/thumbnail.webp",
       "compose_url": "/apps/ragflow/docker-compose.yml",
       "meta_url": "/apps/ragflow/meta.json",
-      "content_hash": "4895f148"
+      "content_hash": "0985346a"
     },
     {
       "id": "rdtclient",
@@ -2745,7 +2745,7 @@
       "thumbnail": "",
       "compose_url": "/apps/rdtclient/docker-compose.yml",
       "meta_url": "/apps/rdtclient/meta.json",
-      "content_hash": "44909ae9"
+      "content_hash": "793aeb4e"
     },
     {
       "id": "readarr",
@@ -2766,7 +2766,7 @@
       "thumbnail": "/apps/readarr/assets/thumbnail.webp",
       "compose_url": "/apps/readarr/docker-compose.yml",
       "meta_url": "/apps/readarr/meta.json",
-      "content_hash": "47a8e8ce"
+      "content_hash": "4de44b0c"
     },
     {
       "id": "resilio-sync",
@@ -2787,7 +2787,7 @@
       "thumbnail": "",
       "compose_url": "/apps/resilio-sync/docker-compose.yml",
       "meta_url": "/apps/resilio-sync/meta.json",
-      "content_hash": "f057cea4"
+      "content_hash": "6e4d7984"
     },
     {
       "id": "retroarch",
@@ -2808,7 +2808,7 @@
       "thumbnail": "",
       "compose_url": "/apps/retroarch/docker-compose.yml",
       "meta_url": "/apps/retroarch/meta.json",
-      "content_hash": "d52c226c"
+      "content_hash": "39e8384c"
     },
     {
       "id": "romm",
@@ -2830,7 +2830,7 @@
       "thumbnail": "",
       "compose_url": "/apps/romm/docker-compose.yml",
       "meta_url": "/apps/romm/meta.json",
-      "content_hash": "6c0f3755"
+      "content_hash": "ad1fb019"
     },
     {
       "id": "sabnzbd",
@@ -2851,7 +2851,7 @@
       "thumbnail": "/apps/sabnzbd/assets/thumbnail.webp",
       "compose_url": "/apps/sabnzbd/docker-compose.yml",
       "meta_url": "/apps/sabnzbd/meta.json",
-      "content_hash": "90d9dcf4"
+      "content_hash": "be496ca4"
     },
     {
       "id": "sickchill",
@@ -2872,7 +2872,7 @@
       "thumbnail": "/apps/sickchill/assets/thumbnail.webp",
       "compose_url": "/apps/sickchill/docker-compose.yml",
       "meta_url": "/apps/sickchill/meta.json",
-      "content_hash": "60069318"
+      "content_hash": "f887cb0f"
     },
     {
       "id": "siyuan-note",
@@ -2894,7 +2894,7 @@
       "thumbnail": "/apps/siyuan-note/assets/thumbnail.webp",
       "compose_url": "/apps/siyuan-note/docker-compose.yml",
       "meta_url": "/apps/siyuan-note/meta.json",
-      "content_hash": "3362ca78"
+      "content_hash": "aeb55e91"
     },
     {
       "id": "smokeping",
@@ -2915,7 +2915,7 @@
       "thumbnail": "/apps/smokeping/assets/thumbnail.webp",
       "compose_url": "/apps/smokeping/docker-compose.yml",
       "meta_url": "/apps/smokeping/meta.json",
-      "content_hash": "6c858849"
+      "content_hash": "c1aa008b"
     },
     {
       "id": "snapdrop",
@@ -2936,7 +2936,7 @@
       "thumbnail": "",
       "compose_url": "/apps/snapdrop/docker-compose.yml",
       "meta_url": "/apps/snapdrop/meta.json",
-      "content_hash": "3d9b2fd0"
+      "content_hash": "451816ff"
     },
     {
       "id": "sonarr",
@@ -2957,7 +2957,7 @@
       "thumbnail": "/apps/sonarr/assets/thumbnail.webp",
       "compose_url": "/apps/sonarr/docker-compose.yml",
       "meta_url": "/apps/sonarr/meta.json",
-      "content_hash": "d737e12d"
+      "content_hash": "359bf42d"
     },
     {
       "id": "stremio",
@@ -2978,7 +2978,7 @@
       "thumbnail": "",
       "compose_url": "/apps/stremio/docker-compose.yml",
       "meta_url": "/apps/stremio/meta.json",
-      "content_hash": "84c13c0c"
+      "content_hash": "e8239356"
     },
     {
       "id": "sure",
@@ -2999,7 +2999,7 @@
       "thumbnail": "",
       "compose_url": "/apps/sure/docker-compose.yml",
       "meta_url": "/apps/sure/meta.json",
-      "content_hash": "5c47048f"
+      "content_hash": "ba98c841"
     },
     {
       "id": "swingmusic",
@@ -3019,7 +3019,7 @@
       "thumbnail": "/apps/swingmusic/assets/thumbnail.webp",
       "compose_url": "/apps/swingmusic/docker-compose.yml",
       "meta_url": "/apps/swingmusic/meta.json",
-      "content_hash": "a4e138b3"
+      "content_hash": "f9114d98"
     },
     {
       "id": "syncthing",
@@ -3040,7 +3040,7 @@
       "thumbnail": "/apps/syncthing/assets/thumbnail.webp",
       "compose_url": "/apps/syncthing/docker-compose.yml",
       "meta_url": "/apps/syncthing/meta.json",
-      "content_hash": "18856572"
+      "content_hash": "583fe7d1"
     },
     {
       "id": "tailscale",
@@ -3063,7 +3063,7 @@
       "thumbnail": "",
       "compose_url": "/apps/tailscale/docker-compose.yml",
       "meta_url": "/apps/tailscale/meta.json",
-      "content_hash": "00692759"
+      "content_hash": "ba07adb2"
     },
     {
       "id": "taskingai",
@@ -3084,7 +3084,7 @@
       "thumbnail": "/apps/taskingai/assets/thumbnail.webp",
       "compose_url": "/apps/taskingai/docker-compose.yml",
       "meta_url": "/apps/taskingai/meta.json",
-      "content_hash": "2bee4f64"
+      "content_hash": "d3475da6"
     },
     {
       "id": "tautulli",
@@ -3105,7 +3105,7 @@
       "thumbnail": "/apps/tautulli/assets/thumbnail.webp",
       "compose_url": "/apps/tautulli/docker-compose.yml",
       "meta_url": "/apps/tautulli/meta.json",
-      "content_hash": "422d98d8"
+      "content_hash": "033902a1"
     },
     {
       "id": "teable",
@@ -3126,7 +3126,7 @@
       "thumbnail": "/apps/teable/assets/thumbnail.webp",
       "compose_url": "/apps/teable/docker-compose.yml",
       "meta_url": "/apps/teable/meta.json",
-      "content_hash": "9fd49053"
+      "content_hash": "33d448e7"
     },
     {
       "id": "threadfin",
@@ -3148,7 +3148,7 @@
       "thumbnail": "",
       "compose_url": "/apps/threadfin/docker-compose.yml",
       "meta_url": "/apps/threadfin/meta.json",
-      "content_hash": "6bbf00af"
+      "content_hash": "fe4caf91"
     },
     {
       "id": "transmission",
@@ -3169,7 +3169,7 @@
       "thumbnail": "/apps/transmission/assets/thumbnail.webp",
       "compose_url": "/apps/transmission/docker-compose.yml",
       "meta_url": "/apps/transmission/meta.json",
-      "content_hash": "be7741b3"
+      "content_hash": "5b403e95"
     },
     {
       "id": "trilium",
@@ -3191,7 +3191,7 @@
       "thumbnail": "",
       "compose_url": "/apps/trilium/docker-compose.yml",
       "meta_url": "/apps/trilium/meta.json",
-      "content_hash": "b132a59c"
+      "content_hash": "d7df9320"
     },
     {
       "id": "turbodiffusion_nvidia",
@@ -3211,7 +3211,7 @@
       "thumbnail": "",
       "compose_url": "/apps/turbodiffusion_nvidia/docker-compose.yml",
       "meta_url": "/apps/turbodiffusion_nvidia/meta.json",
-      "content_hash": "11bd6051"
+      "content_hash": "e36bcce3"
     },
     {
       "id": "twingate-connector",
@@ -3233,7 +3233,7 @@
       "thumbnail": "/apps/twingate-connector/assets/thumbnail.webp",
       "compose_url": "/apps/twingate-connector/docker-compose.yml",
       "meta_url": "/apps/twingate-connector/meta.json",
-      "content_hash": "fb4ade40"
+      "content_hash": "2fb7e4b6"
     },
     {
       "id": "unifi-controller",
@@ -3254,7 +3254,7 @@
       "thumbnail": "/apps/unifi-controller/assets/thumbnail.webp",
       "compose_url": "/apps/unifi-controller/docker-compose.yml",
       "meta_url": "/apps/unifi-controller/meta.json",
-      "content_hash": "529c389f"
+      "content_hash": "70bd8905"
     },
     {
       "id": "unifi-network-application",
@@ -3275,7 +3275,7 @@
       "thumbnail": "",
       "compose_url": "/apps/unifi-network-application/docker-compose.yml",
       "meta_url": "/apps/unifi-network-application/meta.json",
-      "content_hash": "b19f920f"
+      "content_hash": "2ebdf251"
     },
     {
       "id": "uptimekuma",
@@ -3297,7 +3297,7 @@
       "thumbnail": "/apps/uptimekuma/assets/thumbnail.webp",
       "compose_url": "/apps/uptimekuma/docker-compose.yml",
       "meta_url": "/apps/uptimekuma/meta.json",
-      "content_hash": "46e4c49c"
+      "content_hash": "21dd1bb9"
     },
     {
       "id": "v2raya",
@@ -3318,7 +3318,7 @@
       "thumbnail": "",
       "compose_url": "/apps/v2raya/docker-compose.yml",
       "meta_url": "/apps/v2raya/meta.json",
-      "content_hash": "77b48922"
+      "content_hash": "ba4e030a"
     },
     {
       "id": "vaultwarden",
@@ -3340,7 +3340,7 @@
       "thumbnail": "/apps/vaultwarden/assets/thumbnail.webp",
       "compose_url": "/apps/vaultwarden/docker-compose.yml",
       "meta_url": "/apps/vaultwarden/meta.json",
-      "content_hash": "86082d2b"
+      "content_hash": "1945bf61"
     },
     {
       "id": "virtmanager",
@@ -3361,7 +3361,7 @@
       "thumbnail": "",
       "compose_url": "/apps/virtmanager/docker-compose.yml",
       "meta_url": "/apps/virtmanager/meta.json",
-      "content_hash": "e853876a"
+      "content_hash": "fb49fad1"
     },
     {
       "id": "vocechat",
@@ -3381,7 +3381,7 @@
       "thumbnail": "/apps/vocechat/assets/thumbnail.webp",
       "compose_url": "/apps/vocechat/docker-compose.yml",
       "meta_url": "/apps/vocechat/meta.json",
-      "content_hash": "5af24f7c"
+      "content_hash": "9bbd9708"
     },
     {
       "id": "wallabag",
@@ -3402,7 +3402,7 @@
       "thumbnail": "",
       "compose_url": "/apps/wallabag/docker-compose.yml",
       "meta_url": "/apps/wallabag/meta.json",
-      "content_hash": "dc93fd1c"
+      "content_hash": "88616585"
     },
     {
       "id": "webdav",
@@ -3425,7 +3425,7 @@
       "thumbnail": "",
       "compose_url": "/apps/webdav/docker-compose.yml",
       "meta_url": "/apps/webdav/meta.json",
-      "content_hash": "afa6ccca"
+      "content_hash": "01702eb0"
     },
     {
       "id": "weknora",
@@ -3446,7 +3446,7 @@
       "thumbnail": "/apps/weknora/assets/thumbnail.webp",
       "compose_url": "/apps/weknora/docker-compose.yml",
       "meta_url": "/apps/weknora/meta.json",
-      "content_hash": "d7d1c632"
+      "content_hash": "1bd1bb5a"
     },
     {
       "id": "wg-easy",
@@ -3468,7 +3468,7 @@
       "thumbnail": "/apps/wg-easy/assets/icon.svg",
       "compose_url": "/apps/wg-easy/docker-compose.yml",
       "meta_url": "/apps/wg-easy/meta.json",
-      "content_hash": "dc5e3bd7"
+      "content_hash": "90b620d3"
     },
     {
       "id": "ztnet",
@@ -3489,7 +3489,7 @@
       "thumbnail": "",
       "compose_url": "/apps/ztnet/docker-compose.yml",
       "meta_url": "/apps/ztnet/meta.json",
-      "content_hash": "19f24636"
+      "content_hash": "94d7ba59"
     }
   ]
 }

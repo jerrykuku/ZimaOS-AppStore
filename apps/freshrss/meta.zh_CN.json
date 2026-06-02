@@ -1,6 +1,6 @@
 {
   "id": "freshrss",
-  "tagline": "一个免费的、可自行托管的新闻聚合器...",
   "releaseNotes": "- 1.27.1 是 1.27.x 系列的安全和错误修复版本。\n- 标记文章为已读后会保留排序/顺序条件，并增加了 Docker healthcheck 支持。\n- 安全修复包括登录会话重新生成、更严格的语言处理、cURL 限制和 CSRF 修复。",
+  "tagline": "一个免费的、可自行托管的新闻聚合器...",
   "description": "FreshRSS 是一款自托管 RSS 和 Atom 新闻聚合器。它重量轻、易于使用、功能强大且可定制。"
 }

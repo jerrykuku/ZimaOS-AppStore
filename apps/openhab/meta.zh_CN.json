@@ -1,6 +1,6 @@
 {
   "id": "openhab",
-  "tagline": "助力智能家居",
   "releaseNotes": "- 4.3.3 是一个包含 add-on bug fixes 和 enhancements 的 patch release。\n- 修复包括 basicprofiles delta handling、bluetooth.bluez NullPointerException、easee API limit configuration、ecobee vacation holds、Free@home missing IDs、hdpowerview bridge labels、Hue dynamics support 和 huesync API token handling。\n- 更新了 Energidataservice tariff filters 以及其他多个 add-ons。",
+  "tagline": "助力智能家居",
   "description": "开放式家庭自动化总线（openHAB，发音为ˈəʊpənˈhæb）是一个开源的，技术不可知的家庭自动化平台，它作为智能家居的中心运行！ 它能够将多种其他设备和系统集成到一个单一的解决方案中。 为了在整个系统中提供统一的用户界面和通用的自动化规则方法，无论涉及的制造商和子系统的数量如何。 为您提供最灵活的工具，使几乎任何家庭自动化愿望成真; 如果您能想到，那么您可以用openHAB实现它。"
 }

@@ -1,6 +1,6 @@
 {
   "id": "sabnzbd",
-  "tagline": "Lettore di notizie binarie gratuito e facile da usare",
   "releaseNotes": "- 4.1.0 aggiunge la modalità oscura per le pagine di configurazione, accesso e procedura guidata, oltre a multi-select nella cronologia.\n- Sono stati aggiornati la convalida proxy, l'eliminazione dei registri, la selezione del server IP, le impostazioni del server IPv6 e il comportamento di decompressione dell'archivio.\n- Le correzioni includono rilevamento duplicati, ordinamento dei nomi file, gestione della priorità delle code in pausa, sanificazione dei registri API-key, scritture su disco, sanificazione delle cartelle, decodifica degli articoli e ridenominazione QuickCheck.",
+  "tagline": "Lettore di notizie binarie gratuito e facile da usare",
   "description": "SABnzbd è un lettore di notizie binarie open source scritto in Python. È completamente gratuito, facile da usare e funziona praticamente ovunque. SABnzbd rende Usenet il più semplice e efficiente possibile automatizzando tutto ciò che possiamo fare. Tutto ciò che devi fare è aggiungere un .nzb. SABnzbd prende il controllo da lì, dove verrà scaricato automaticamente, verificato, riparato, estratto e archiviato senza intervento umano. SABnzbd offre un assistente di configurazione facile e dispone di strumenti di analisi autonome per verificare la tua configurazione."
 }

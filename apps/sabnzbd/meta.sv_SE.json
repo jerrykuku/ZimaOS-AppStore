@@ -1,6 +1,6 @@
 {
   "id": "sabnzbd",
-  "tagline": "Gratis och enkel binär nyhetsläsare",
   "releaseNotes": "- 4.1.0 lägger till mörkt läge för konfigurations-, inloggnings- och guidesidor, plus multi-select i historik.\n- Proxyvalidering, loggrensning, val av server IP, IPv6-serverinställningar och arkivuppackningsbeteende uppdaterades.\n- Fixningar inkluderar dubblettdetektering, filnamnssortering, pausad köprioritetshantering, API-key loggsanering, diskskrivning, mappsanering, artikelavkodning och QuickCheck byte av namn.",
+  "tagline": "Gratis och enkel binär nyhetsläsare",
   "description": "SABnzbd är en öppen källkod binär nyhetsläsare skriven i Python. Det är helt gratis, lätt att använda och fungerar praktiskt taget överallt. SABnzbd gör Usenet så enkelt och effektivt som möjligt genom att automatisera allt vi kan göra. Allt du behöver göra är att lägga till en .nzb. SABnzbd tar över kontrollen därifrån, där det automatiskt laddas ner, verifieras, repareras, packas upp och arkiveras utan mänsklig inblandning. SABnzbd erbjuder en enkel konfigurationsguide och har självständiga analysverktyg för att kontrollera din konfiguration."
 }

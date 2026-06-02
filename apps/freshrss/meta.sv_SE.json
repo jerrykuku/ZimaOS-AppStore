@@ -1,6 +1,6 @@
 {
   "id": "freshrss",
-  "tagline": "En gratis, självhanterlig nyhetsaggregator ...",
   "releaseNotes": "- 1.27.1 är en säkerhets- och bug-fix-version för 1.27.x-serien.\n- Den behåller sorterings-/ordningskriterier efter att ha markerat artiklar som lästa och lägger till Docker hälsokontrollstöd.\n- Säkerhetskorrigeringar inkluderar regenerering av inloggningssessioner, strängare språkhantering, cURL-begränsningar och CSRF-fixar.",
+  "tagline": "En gratis, självhanterlig nyhetsaggregator ...",
   "description": "FreshRSS är en självhanterad RSS- och Atom-flödesaggregator. Det är lättviktigt, enkelt att arbeta med, kraftfullt och anpassningsbart."
 }

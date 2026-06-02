@@ -239,6 +239,59 @@ def normalize_base_url(base):
     return base.rstrip("/")
 
 
+def parse_memory_to_bytes(value):
+    """Convert docker-style memory strings like 64M / 1G to bytes."""
+    if value is None:
+        return 0
+    if isinstance(value, (int, float)):
+        return int(value)
+
+    text = str(value).strip()
+    match = re.fullmatch(r"(?i)(\d+(?:\.\d+)?)\s*([kmgtp]?i?b?|b)?", text)
+    if not match:
+        return 0
+
+    number = float(match.group(1))
+    unit = (match.group(2) or "b").lower()
+    factors = {
+        "b": 1,
+        "k": 1024,
+        "kb": 1024,
+        "kib": 1024,
+        "m": 1024 ** 2,
+        "mb": 1024 ** 2,
+        "mib": 1024 ** 2,
+        "g": 1024 ** 3,
+        "gb": 1024 ** 3,
+        "gib": 1024 ** 3,
+        "t": 1024 ** 4,
+        "tb": 1024 ** 4,
+        "tib": 1024 ** 4,
+        "p": 1024 ** 5,
+        "pb": 1024 ** 5,
+        "pib": 1024 ** 5,
+    }
+    return int(number * factors.get(unit, 1))
+
+
+def calculate_min_memory(compose_data):
+    """Sum deploy.resources.reservations.memory across all services."""
+    total = 0
+    services = compose_data.get("services", {})
+    if not isinstance(services, dict):
+        return total
+
+    for service_def in services.values():
+        if not isinstance(service_def, dict):
+            continue
+        deploy = service_def.get("deploy", {})
+        resources = deploy.get("resources", {}) if isinstance(deploy, dict) else {}
+        reservations = resources.get("reservations", {}) if isinstance(resources, dict) else {}
+        memory = reservations.get("memory") if isinstance(reservations, dict) else None
+        total += parse_memory_to_bytes(memory)
+    return total
+
+
 def url_join(base, path):
     """Join base URL and path where path should start with '/'."""
     path = path if str(path).startswith("/") else f"/{path}"
@@ -832,7 +885,7 @@ def resolve_asset_filename(url_or_name, image_mapping, copied_images):
 
 
 def build_meta_payload(meta, locale, assets_path, copied_images, image_mapping, base_url,
-                       title_i18n=None, strict=False):
+                       title_i18n=None, strict=False, min_memory=0):
     """Build locale-resolved meta payload."""
     meta_l = copy.deepcopy(meta)
     category = meta_l.get("category", "")
@@ -866,6 +919,7 @@ def build_meta_payload(meta, locale, assets_path, copied_images, image_mapping, 
 
     meta_l["base_url"] = normalize_base_url(base_url)
     meta_l["categories"] = normalize_categories(category)
+    meta_l["min_memory"] = int(min_memory)
     return meta_l
 
 
@@ -1003,6 +1057,7 @@ def main():
 
         compose_l = copy.deepcopy(compose_data)
         pin_latest_service_images(compose_l, app_id)
+        min_memory = calculate_min_memory(compose_data)
         compose_xc = compose_l.get("x-casaos", {})
         if "title" in compose_xc:
             compose_xc["title"] = resolve_i18n(compose_xc["title"], DEFAULT_LOCALE)
@@ -1028,6 +1083,7 @@ def main():
             base_url,
             title_i18n=original_xcasaos.get("title"),
             strict=False,
+            min_memory=min_memory,
         )
         meta_default_content = json.dumps(to_json_safe(meta_default), ensure_ascii=False, indent=2)
         (app_output / "meta.json").write_text(meta_default_content, encoding="utf-8")

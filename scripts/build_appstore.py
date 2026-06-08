@@ -23,6 +23,7 @@ import argparse
 import copy
 import hashlib
 import json
+from json import JSONDecodeError
 import re
 import shutil
 import socket
@@ -82,6 +83,9 @@ DOCKER_MANIFEST_ACCEPT = ", ".join([
 
 PREFERRED_PLATFORM = ("linux", "amd64")
 IMAGE_SIZE_CACHE = {}
+REGISTRY_TOKEN_CACHE = {}
+RATE_LIMITED_REGISTRIES = {}
+RATE_LIMIT_WARNED_REGISTRIES = set()
 NETWORK_RETRY_ATTEMPTS = 4
 NETWORK_RETRYABLE_HTTP_CODES = {408, 425, 429, 500, 502, 503, 504}
 
@@ -187,16 +191,59 @@ def get_registry_bearer_token(auth_header):
         separator = "&" if "?" in token_url else "?"
         token_url = f"{token_url}{separator}{'&'.join(query)}"
 
-    with registry_request(token_url, headers={"Accept": "application/json"}) as response:
-        payload = json.loads(response.read().decode("utf-8"))
+    if token_url in REGISTRY_TOKEN_CACHE:
+        return REGISTRY_TOKEN_CACHE[token_url]
+
+    request = Request(
+        token_url,
+        headers={
+            "User-Agent": "ZimaOS-AppStore-Build/1.0",
+            "Accept": "application/json",
+        },
+    )
+    with open_url_with_retries(request, timeout=30) as response:
+        body = response.read().decode("utf-8")
+    try:
+        payload = json.loads(body)
+    except JSONDecodeError as exc:
+        raise RuntimeError(f"Invalid registry token response: {token_url}") from exc
     token = payload.get("token") or payload.get("access_token")
     if not token:
         raise RuntimeError(f"Registry token response missing token: {token_url}")
+    REGISTRY_TOKEN_CACHE[token_url] = token
     return token
 
 
-def registry_json_request(url, headers=None, auth_header=None):
+def mark_registry_rate_limited(registry, exc):
+    """Remember that a registry is rate-limited for the remainder of this run."""
+    if registry and registry not in RATE_LIMITED_REGISTRIES:
+        RATE_LIMITED_REGISTRIES[registry] = str(exc)
+
+
+def is_registry_rate_limited_error(exc):
+    """Return True when an exception means the registry is currently rate-limited."""
+    return "Registry rate limited:" in str(exc)
+
+
+def warn_registry_rate_limited_once(app_id, registry, image_ref, operation):
+    """Emit a single warning per registry when it becomes rate-limited."""
+    if not registry or registry in RATE_LIMIT_WARNED_REGISTRIES:
+        return
+    RATE_LIMIT_WARNED_REGISTRIES.add(registry)
+    print(
+        f"  WARN  App '{app_id}' {operation} for image '{image_ref}' because "
+        f"registry '{registry}' is rate-limited; remaining images from this "
+        f"registry will be skipped for this build run."
+    )
+
+
+def registry_json_request(url, headers=None, registry=None):
     """Perform a registry JSON request, retrying with bearer auth if required."""
+    if registry and registry in RATE_LIMITED_REGISTRIES:
+        raise RuntimeError(
+            f"Registry rate limited: {registry} ({RATE_LIMITED_REGISTRIES[registry]})"
+        )
+
     try:
         request_headers = {
             "User-Agent": "ZimaOS-AppStore-Build/1.0",
@@ -208,6 +255,9 @@ def registry_json_request(url, headers=None, auth_header=None):
         with open_url_with_retries(request, timeout=30) as response:
             return response.read().decode("utf-8"), response.headers
     except HTTPError as exc:
+        if exc.code == 429:
+            mark_registry_rate_limited(registry, exc)
+            raise RuntimeError(f"Registry rate limited: {registry}") from exc
         if exc.code != 401:
             raise
         token = get_registry_bearer_token(exc.headers.get("WWW-Authenticate"))
@@ -219,8 +269,14 @@ def registry_json_request(url, headers=None, auth_header=None):
         }
         request_headers.update(auth_headers)
         request = Request(url, headers=request_headers)
-        with open_url_with_retries(request, timeout=30) as response:
-            return response.read().decode("utf-8"), response.headers
+        try:
+            with open_url_with_retries(request, timeout=30) as response:
+                return response.read().decode("utf-8"), response.headers
+        except HTTPError as auth_exc:
+            if auth_exc.code == 429:
+                mark_registry_rate_limited(registry, auth_exc)
+                raise RuntimeError(f"Registry rate limited: {registry}") from auth_exc
+            raise
 
 
 def fetch_latest_digest(image_ref):
@@ -235,16 +291,12 @@ def fetch_latest_digest(image_ref):
     headers = {"Accept": DOCKER_MANIFEST_ACCEPT}
 
     try:
-        with registry_request(manifest_url, headers=headers) as response:
-            digest = response.headers.get("Docker-Content-Digest")
-    except HTTPError as exc:
-        if exc.code != 401:
-            raise RuntimeError(f"Failed to resolve latest image digest: {image_ref}") from exc
-        token = get_registry_bearer_token(exc.headers.get("WWW-Authenticate"))
-        auth_headers = dict(headers)
-        auth_headers["Authorization"] = f"Bearer {token}"
-        with registry_request(manifest_url, headers=auth_headers) as response:
-            digest = response.headers.get("Docker-Content-Digest")
+        _payload, response_headers = registry_json_request(
+            manifest_url,
+            headers=headers,
+            registry=parsed["registry"],
+        )
+        digest = response_headers.get("Docker-Content-Digest")
     except Exception as exc:
         raise RuntimeError(f"Failed to resolve latest image digest: {image_ref}") from exc
 
@@ -272,6 +324,15 @@ def pin_latest_service_images(compose_data, app_id):
         try:
             service_def["image"] = fetch_latest_digest(image_ref)
         except Exception as exc:
+            registry = parsed.get("registry") if isinstance(parsed, dict) else None
+            if is_registry_rate_limited_error(exc):
+                warn_registry_rate_limited_once(
+                    app_id,
+                    registry,
+                    image_ref,
+                    "skipped digest pinning",
+                )
+                continue
             # Some registries intermittently fail auth or TLS handshakes for manifest
             # requests. Keep the original :latest reference so the build can proceed.
             print(
@@ -371,7 +432,7 @@ def parse_image_reference_with_digest(image_ref):
             name = image_ref[:last_colon]
             reference = image_ref[last_colon + 1:]
         else:
-            return None
+            reference = "latest"
 
     first_part, _, remainder = name.partition("/")
     if "." in first_part or ":" in first_part or first_part == "localhost":
@@ -380,6 +441,9 @@ def parse_image_reference_with_digest(image_ref):
     else:
         registry = "registry-1.docker.io"
         repository = name
+
+    if registry == "docker.io":
+        registry = "registry-1.docker.io"
 
     if registry == "registry-1.docker.io" and "/" not in repository:
         repository = f"library/{repository}"
@@ -407,6 +471,7 @@ def fetch_registry_manifest(image_ref):
     payload, headers = registry_json_request(
         manifest_url,
         headers={"Accept": DOCKER_MANIFEST_ACCEPT},
+        registry=parsed["registry"],
     )
     return json.loads(payload), headers, parsed
 
@@ -440,6 +505,7 @@ def fetch_child_manifest(parsed, digest):
     payload, _headers = registry_json_request(
         manifest_url,
         headers={"Accept": DOCKER_MANIFEST_ACCEPT},
+        registry=parsed["registry"],
     )
     return json.loads(payload)
 
@@ -481,6 +547,8 @@ def calculate_min_image_size(compose_data, app_id):
         image_ref = service_def.get("image")
         if not isinstance(image_ref, str) or not image_ref.strip():
             continue
+        parsed = parse_image_reference_with_digest(image_ref)
+        registry = parsed.get("registry") if isinstance(parsed, dict) else None
         try:
             descriptors = IMAGE_SIZE_CACHE.get(image_ref)
             if descriptors is None:
@@ -492,6 +560,14 @@ def calculate_min_image_size(compose_data, app_id):
                 seen.add(digest)
                 total += size
         except Exception as exc:
+            if is_registry_rate_limited_error(exc):
+                warn_registry_rate_limited_once(
+                    app_id,
+                    registry,
+                    image_ref,
+                    "skipped image-size estimation",
+                )
+                continue
             print(
                 f"  WARN  App '{app_id}' could not estimate image size for "
                 f"service '{service_name}': {image_ref} ({exc})"
@@ -547,6 +623,9 @@ def parse_image_reference(image_ref):
     else:
         registry = "registry-1.docker.io"
         repository = name
+
+    if registry == "docker.io":
+        registry = "registry-1.docker.io"
 
     if registry == "registry-1.docker.io" and "/" not in repository:
         repository = f"library/{repository}"

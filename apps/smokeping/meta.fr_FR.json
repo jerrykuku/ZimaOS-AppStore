@@ -1,6 +1,6 @@
 {
   "id": "smokeping",
-  "release_notes": "- 2.8.2 est une rollup release avec automated build testing et InfluxDB support.\n- Probe handling, FPing command-line behavior, SSH handling, zoom mode URLs, cropper relative-time entry, config reloads pour slaves/templates, loss colors et graph titles ont ete ameliores.\n- Les correctifs incluent la restauration de FindBin, l'ajout du README manquant et la correction orthographique dans FTPtransfer.pm.",
   "description": "garde une trace de votre latence réseau.",
-  "tagline": "Outil de surveillance de la performance réseau open source gratuit"
+  "tagline": "Outil de surveillance de la performance réseau open source gratuit",
+  "release_notes": "- 2.8.2 est une rollup release avec automated build testing et InfluxDB support.\n- Probe handling, FPing command-line behavior, SSH handling, zoom mode URLs, cropper relative-time entry, config reloads pour slaves/templates, loss colors et graph titles ont ete ameliores.\n- Les correctifs incluent la restauration de FindBin, l'ajout du README manquant et la correction orthographique dans FTPtransfer.pm."
 }

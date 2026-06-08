@@ -1,6 +1,6 @@
 {
   "id": "vaultwarden",
-  "release_notes": "- 1.32.7 innehåller en säkerhetskorrigering för installationer med ORG_GROUPS_ENABLED aktiverat.\n- SMTP bildkällans värden är maskerade i stödsträngen.\n- Refaktorering, optimeringar, connect-src ingångsstöd och uppdaterad ormbunksanvändning ingår.",
   "description": "Alternativ implementering av Bitwarden-serverns API skriven i Rust och kompatibel med översta Bitwarden-klienterna *, perfekt för självhärdad drift där körning av den officiella resurskrävande tjänsten kanske inte är idealisk.",
-  "tagline": "En självhärdad Bitwarden-server"
+  "tagline": "En självhärdad Bitwarden-server",
+  "release_notes": "- 1.32.7 innehåller en säkerhetskorrigering för installationer med ORG_GROUPS_ENABLED aktiverat.\n- SMTP bildkällans värden är maskerade i stödsträngen.\n- Refaktorering, optimeringar, connect-src ingångsstöd och uppdaterad ormbunksanvändning ingår."
 }

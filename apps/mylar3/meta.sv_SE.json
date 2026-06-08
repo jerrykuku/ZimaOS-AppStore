@@ -1,6 +1,6 @@
 {
   "id": "mylar3",
-  "release_notes": "- v0.8.3 lägger till selected-issue-taggning, påtvingad kö för delmängder av önskade problem, CRC-kontroller och en CBL reading-list-importskärm.\n- Söktid, namngivning av sökintervall, tabell shift-select och GetComics-loggning förbättrades.\n- Fixar täcker out-of-order release-date post-processing, SAB/NZBGET nedladdningshantering, RSS feed URL konstruktion och meddelandeproblem.",
   "description": "Mylar är ett automatiskt program för att ladda ner serier (cbr / cbz) för användning med NZB och torrenter. Mylar låter dig skapa en lista över serier som övervakar olika saker (nya utgåvor, uppdaterade uppgifter, etc.). Det kommer att samla in, sortera och döpa om de nedladdade utgåvorna. Det kommer också att låta dig övervaka veckovisa extraktionslistor för att ladda ner objekt som tillhör serier i övervakningslistan, samt övervaka och underhålla arkiv med historier.",
-  "tagline": "Automatisk serie (cbr/cbz) nedladdare"
+  "tagline": "Automatisk serie (cbr/cbz) nedladdare",
+  "release_notes": "- v0.8.3 lägger till selected-issue-taggning, påtvingad kö för delmängder av önskade problem, CRC-kontroller och en CBL reading-list-importskärm.\n- Söktid, namngivning av sökintervall, tabell shift-select och GetComics-loggning förbättrades.\n- Fixar täcker out-of-order release-date post-processing, SAB/NZBGET nedladdningshantering, RSS feed URL konstruktion och meddelandeproblem."
 }

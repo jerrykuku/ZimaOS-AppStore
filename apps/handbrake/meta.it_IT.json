@@ -1,6 +1,6 @@
 {
   "id": "handbrake",
-  "release_notes": "- v25.10.1 blocca i file video prima di verificarne la stabilità in Automatic Video Converter.\n- La pulizia automatica del convertitore video durante l'arresto del contenitore è stata migliorata.",
   "description": "Handbrake è un'applicazione basata su Docker per la transcodifica e la compressione video, offrendo potenti e flessibili funzionalità di elaborazione multimediale su più piattaforme.",
-  "tagline": "Libera i tuoi video e scopri possibilità infinite."
+  "tagline": "Libera i tuoi video e scopri possibilità infinite.",
+  "release_notes": "- v25.10.1 blocca i file video prima di verificarne la stabilità in Automatic Video Converter.\n- La pulizia automatica del convertitore video durante l'arresto del contenitore è stata migliorata."
 }

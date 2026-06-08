@@ -1,6 +1,6 @@
 {
   "id": "overseerr",
-  "release_notes": "- v1.33.2 behebt ein Problem, bei dem incorrect media zu unknown wechseln konnte.",
   "description": "Overseerr ist eine kostenlose und Open-Source-Softwareanwendung zur Verwaltung von Anfragen für Ihre Medienbibliothek. Es integriert sich in Ihre vorhandenen Dienste wie Sonarr, Radarr und Plex!",
-  "tagline": "Overseerr ist ein Anforderungsverwaltungs- und Medienentdeckungstool, das mit Ihrem bestehenden Plex-Ökosystem funktioniert."
+  "tagline": "Overseerr ist ein Anforderungsverwaltungs- und Medienentdeckungstool, das mit Ihrem bestehenden Plex-Ökosystem funktioniert.",
+  "release_notes": "- v1.33.2 behebt ein Problem, bei dem incorrect media zu unknown wechseln konnte."
 }

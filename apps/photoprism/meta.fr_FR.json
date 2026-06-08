@@ -1,6 +1,6 @@
 {
   "id": "photoprism",
-  "release_notes": "- PhotoPrism build 250228 ajoute une taille de miniature Retina 5K ainsi que des ameliorations d'ergonomie et de performances.\n- Les mises a jour du viewer reduisent le prechargement anticipe, les actions d'upload WebDAV dependent desormais du partage active, et les fichiers M4V sont traites comme compatibles MP4.",
   "description": "PhotoPrism® est une application alimentée par l'IA pour parcourir, organiser et partager votre collection de photos. Il utilise les dernières technologies pour étiqueter et trouver des photos automatiquement sans vous déranger. Vous pouvez l'exécuter à la maison, sur un serveur privé ou dans le cloud.",
-  "tagline": "Parcourir, organiser et partager votre collection de photos"
+  "tagline": "Parcourir, organiser et partager votre collection de photos",
+  "release_notes": "- PhotoPrism build 250228 ajoute une taille de miniature Retina 5K ainsi que des ameliorations d'ergonomie et de performances.\n- Les mises a jour du viewer reduisent le prechargement anticipe, les actions d'upload WebDAV dependent desormais du partage active, et les fichiers M4V sont traites comme compatibles MP4."
 }

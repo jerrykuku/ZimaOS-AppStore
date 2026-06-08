@@ -1,6 +1,6 @@
 {
   "id": "gitea",
-  "release_notes": "- v1.25.0 ajoute le streaming des archives de dépôt, des noms de remote Git configurables et des e-mails de succès/échec de workflow.\n- OpenID Connect, les API de contenu de dépôt, la signature de commit SSH et les aperçus 3D/CAD ont été améliorés.\n- Les mises à jour de sécurité incluent une mise à niveau de public-key et tous les correctifs de sécurité 1.24.x après 1.25.0-rc0.",
   "description": "Gitea est une solution d'hébergement de code légère gérée par la communauté écrite en Go.",
-  "tagline": "Git avec une tasse de thé"
+  "tagline": "Git avec une tasse de thé",
+  "release_notes": "- v1.25.0 ajoute le streaming des archives de dépôt, des noms de remote Git configurables et des e-mails de succès/échec de workflow.\n- OpenID Connect, les API de contenu de dépôt, la signature de commit SSH et les aperçus 3D/CAD ont été améliorés.\n- Les mises à jour de sécurité incluent une mise à niveau de public-key et tous les correctifs de sécurité 1.24.x après 1.25.0-rc0."
 }

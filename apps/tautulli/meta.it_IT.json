@@ -1,6 +1,6 @@
 {
   "id": "tautulli",
-  "release_notes": "- v2.13.2 aggiunge le icone quarter-value per lo stato di visualizzazione della cronologia.\n- Sono stati aggiunti un grafico dei flussi simultanei giornalieri e un campo di esportazione della directory dei metadati.\n- Gli elenchi degli agenti di notifica e newsletter ora mostrano l'ultima ora di attivazione e X-Plex-Language può essere sovrascritto nella configurazione.",
   "description": "Tautulli è un'applicazione di terze parti che puoi eseguire insieme al tuo server multimediale Plex per monitorare l'attività e tenere traccia di varie statistiche.",
-  "tagline": "Monitora il tuo server multimediale Plex e molto altro ancora."
+  "tagline": "Monitora il tuo server multimediale Plex e molto altro ancora.",
+  "release_notes": "- v2.13.2 aggiunge le icone quarter-value per lo stato di visualizzazione della cronologia.\n- Sono stati aggiunti un grafico dei flussi simultanei giornalieri e un campo di esportazione della directory dei metadati.\n- Gli elenchi degli agenti di notifica e newsletter ora mostrano l'ultima ora di attivazione e X-Plex-Language può essere sovrascritto nella configurazione."
 }

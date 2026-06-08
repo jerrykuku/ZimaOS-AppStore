@@ -1,6 +1,6 @@
 {
   "id": "esphome",
-  "release_notes": "- 2025.11.0 对应此版本的 ESPHome 官方 changelog。\n- 该应用跟踪上游 ESPHome 2025.11.0 版本。",
   "description": "ESPHome 是一个通过简单而强大的配置文件控制微控制器并通过家庭自动化系统远程控制它们的系统。",
-  "tagline": "家庭自动化系统"
+  "tagline": "家庭自动化系统",
+  "release_notes": "- 2025.11.0 对应此版本的 ESPHome 官方 changelog。\n- 该应用跟踪上游 ESPHome 2025.11.0 版本。"
 }

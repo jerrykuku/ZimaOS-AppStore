@@ -22,8 +22,8 @@
     },
     {
       "id": "archivebox",
-      "tagline": "Självhostad internetarkiveringslösning",
-      "title": "ArchiveBox"
+      "title": "ArchiveBox",
+      "tagline": "Självhostad internetarkiveringslösning"
     },
     {
       "id": "audiobookshelf",
@@ -59,13 +59,13 @@
     },
     {
       "id": "copyparty",
-      "tagline": "En enkel, privat filserver.",
-      "title": "CopyParty"
+      "title": "CopyParty",
+      "tagline": "En enkel, privat filserver."
     },
     {
       "id": "deepseek-ocr-nvidia",
-      "tagline": "Kraftfull OCR drivet av DeepSeek AI",
-      "title": "DeepSeek OCR(Nvidia GPU)"
+      "title": "DeepSeek OCR(Nvidia GPU)",
+      "tagline": "Kraftfull OCR drivet av DeepSeek AI"
     },
     {
       "id": "deluge",
@@ -149,13 +149,13 @@
     },
     {
       "id": "index-tts",
-      "tagline": "Ett kontrollerbart och effektivt zero-shot text-till-tal-system på industrinivå",
-      "title": "Index-TTS"
+      "title": "Index-TTS",
+      "tagline": "Ett kontrollerbart och effektivt zero-shot text-till-tal-system på industrinivå"
     },
     {
       "id": "index-tts-nvidia",
-      "tagline": "Ett kontrollerbart och effektivt zero-shot text-till-tal-system på industrinivå",
-      "title": "Index-TTS(Nvidia GPU)"
+      "title": "Index-TTS(Nvidia GPU)",
+      "tagline": "Ett kontrollerbart och effektivt zero-shot text-till-tal-system på industrinivå"
     },
     {
       "id": "jackett",
@@ -187,8 +187,8 @@
     },
     {
       "id": "langflow",
-      "tagline": "Open source-gränssnitt för att bygga och felsöka multi-agent och RAG-applikationer",
-      "title": "Langflow"
+      "title": "Langflow",
+      "tagline": "Open source-gränssnitt för att bygga och felsöka multi-agent och RAG-applikationer"
     },
     {
       "id": "lazylibrarian",
@@ -196,8 +196,8 @@
     },
     {
       "id": "librechat",
-      "tagline": "Ett fullfjädrat, öppen källkod AI-chattgränssnitt",
-      "title": "LibreChat"
+      "title": "LibreChat",
+      "tagline": "Ett fullfjädrat, öppen källkod AI-chattgränssnitt"
     },
     {
       "id": "lidarr",
@@ -205,13 +205,13 @@
     },
     {
       "id": "linkwarden",
-      "tagline": "Självhostad samarbetsbaserad bokmärkeshanterare för att samla, läsa, annotera och bevara det som är viktigt på ett och samma ställe.",
-      "title": "Linkwarden"
+      "title": "Linkwarden",
+      "tagline": "Självhostad samarbetsbaserad bokmärkeshanterare för att samla, läsa, annotera och bevara det som är viktigt på ett och samma ställe."
     },
     {
       "id": "llama-factory-nvidia",
-      "tagline": "Enhetlig LLM-finjustering med 100+ modeller",
-      "title": "LLaMA Factory(Nvidia GPU)"
+      "title": "LLaMA Factory(Nvidia GPU)",
+      "tagline": "Enhetlig LLM-finjustering med 100+ modeller"
     },
     {
       "id": "lyrionmusicserver",
@@ -223,8 +223,8 @@
     },
     {
       "id": "maybe",
-      "tagline": "Applikation för personlig finanshantering",
-      "title": "Maybe"
+      "title": "Maybe",
+      "tagline": "Applikation för personlig finanshantering"
     },
     {
       "id": "memos",
@@ -284,8 +284,8 @@
     },
     {
       "id": "openclaw",
-      "tagline": "OpenClaw är en personlig AI-assistent som du kör på dina egna enheter.",
-      "title": "OpenClaw"
+      "title": "OpenClaw",
+      "tagline": "OpenClaw är en personlig AI-assistent som du kör på dina egna enheter."
     },
     {
       "id": "openhab",
@@ -293,8 +293,8 @@
     },
     {
       "id": "openhands",
-      "tagline": "Open source AI-driven kodningsassistent",
-      "title": "OpenHands"
+      "title": "OpenHands",
+      "tagline": "Open source AI-driven kodningsassistent"
     },
     {
       "id": "openlist",
@@ -306,8 +306,8 @@
     },
     {
       "id": "opodsync",
-      "tagline": "Podcast-synkroniseringstjänst",
-      "title": "oPodSync"
+      "title": "oPodSync",
+      "tagline": "Podcast-synkroniseringstjänst"
     },
     {
       "id": "overseerr",
@@ -319,8 +319,8 @@
     },
     {
       "id": "peanut",
-      "tagline": "UPS övervakning och strömavbrott notifikationssystem",
-      "title": "PeaNUT"
+      "title": "PeaNUT",
+      "tagline": "UPS övervakning och strömavbrott notifikationssystem"
     },
     {
       "id": "photoprism",
@@ -336,8 +336,8 @@
     },
     {
       "id": "pingvin-share",
-      "tagline": "Självhostad fildelning med ett modernt webbgränssnitt",
-      "title": "Pingvin-Share"
+      "title": "Pingvin-Share",
+      "tagline": "Självhostad fildelning med ett modernt webbgränssnitt"
     },
     {
       "id": "playit-agent",
@@ -357,8 +357,8 @@
     },
     {
       "id": "psitransfer",
-      "tagline": "En enkel, öppen källkods-fildelningsvärd.",
-      "title": "PsiTransfer"
+      "title": "PsiTransfer",
+      "tagline": "En enkel, öppen källkods-fildelningsvärd."
     },
     {
       "id": "qbittorrent",
@@ -370,8 +370,8 @@
     },
     {
       "id": "ragflow",
-      "tagline": "RagFlow är en öppen källkods RAG-motor baserad på djup dokumentförståelse.",
-      "title": "RagFlow"
+      "title": "RagFlow",
+      "tagline": "RagFlow är en öppen källkods RAG-motor baserad på djup dokumentförståelse."
     },
     {
       "id": "readarr",
@@ -411,8 +411,8 @@
     },
     {
       "id": "sure",
-      "tagline": "Applikation för personlig finanshantering",
-      "title": "Sure"
+      "title": "Sure",
+      "tagline": "Applikation för personlig finanshantering"
     },
     {
       "id": "swingmusic",
@@ -432,8 +432,8 @@
     },
     {
       "id": "teable",
-      "tagline": "Teable använder ett koncisst kalkylbladgränssnitt, men skapar kraftfulla databasapplikationer",
-      "title": "Teable"
+      "title": "Teable",
+      "tagline": "Teable använder ett koncisst kalkylbladgränssnitt, men skapar kraftfulla databasapplikationer"
     },
     {
       "id": "transmission",
@@ -445,8 +445,8 @@
     },
     {
       "id": "turbodiffusion_nvidia",
-      "tagline": "Ett accelerationsramverk för end-to-end-diffusionsgenerering med bibehållen videokvalitet",
-      "title": "TurboDiffusion(Nvidia GPU)"
+      "title": "TurboDiffusion(Nvidia GPU)",
+      "tagline": "Ett accelerationsramverk för end-to-end-diffusionsgenerering med bibehållen videokvalitet"
     },
     {
       "id": "unifi-controller",
@@ -482,8 +482,8 @@
     },
     {
       "id": "weknora",
-      "tagline": "WeKnora är ett LLM-baserat ramverk designat för djup dokumentförståelse och semantisk hämtning, särskilt för hantering av komplexa och heterogena dokument.",
-      "title": "WeKnora"
+      "title": "WeKnora",
+      "tagline": "WeKnora är ett LLM-baserat ramverk designat för djup dokumentförståelse och semantisk hämtning, särskilt för hantering av komplexa och heterogena dokument."
     },
     {
       "id": "wg-easy",

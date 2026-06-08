@@ -1,6 +1,6 @@
 {
   "id": "adguard-home",
-  "release_notes": "- v0.107.61 risolve una vulnerabilità di avvelenamento della cache.\n- Le richieste simultanee duplicate vengono ora riunite in un'unica richiesta upstream.\n- La nuova configurazione Pending_requests è abilitata da default ed è consigliata per client non attendibili.",
   "description": "AdGuard Home è un software a livello di rete per bloccare annunci e tracciamento. Dopo averlo configurato, coprirà tutti i tuoi dispositivi domestici e non avrai bisogno di alcun software client per questo. Ulteriori informazioni sul nostro repository ufficiale Github.",
-  "tagline": "Server DNS di blocco annunci e tracciatori a livello di rete"
+  "tagline": "Server DNS di blocco annunci e tracciatori a livello di rete",
+  "release_notes": "- v0.107.61 risolve una vulnerabilità di avvelenamento della cache.\n- Le richieste simultanee duplicate vengono ora riunite in un'unica richiesta upstream.\n- La nuova configurazione Pending_requests è abilitata da default ed è consigliata per client non attendibili."
 }

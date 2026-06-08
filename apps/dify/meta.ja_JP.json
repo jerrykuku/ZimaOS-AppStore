@@ -1,5 +1,5 @@
 {
   "id": "dify",
-  "release_notes": "- 0.12.1 は webapp の custom icon 表示と Start forms のファイル処理を修正します。\n- LLM memory processing、conversation deletion、app creation、template import エラーが修正されました。\n- このリリースには Docker Compose デプロイ向けのアップグレード手順が含まれます。",
-  "description": "Difyはオープンソースの大規模言語モデル（LLM）開発プラットフォームです。Backend as ServiceとLLMOpsの理念を融合し、開発者が迅速に生成AIアプリケーションを構築できるようにします。技術者でなくても、AIアプリケーションの定義やデータ運用に参加することができます。"
+  "description": "Difyはオープンソースの大規模言語モデル（LLM）開発プラットフォームです。Backend as ServiceとLLMOpsの理念を融合し、開発者が迅速に生成AIアプリケーションを構築できるようにします。技術者でなくても、AIアプリケーションの定義やデータ運用に参加することができます。",
+  "release_notes": "- 0.12.1 は webapp の custom icon 表示と Start forms のファイル処理を修正します。\n- LLM memory processing、conversation deletion、app creation、template import エラーが修正されました。\n- このリリースには Docker Compose デプロイ向けのアップグレード手順が含まれます。"
 }

@@ -1,6 +1,6 @@
 {
   "id": "vaultwarden",
-  "release_notes": "- 1.32.7 包含针对启用 ORG_GROUPS_ENABLED 安装的安全修复。\n- support string 中的 SMTP image source values 会被隐藏。\n- 该版本还包含重构、优化、connect-src entry 支持，以及更新后的 fern 使用方式。",
   "description": "用 Rust 编写的 Bitwarden 服务器 API 的替代实现，与上游 Bitwarden 客户端兼容，适合自托管部署，其中运行官方资源密集型服务可能不是理想的选择。",
-  "tagline": "自托管的 Bitwarden 服务器"
+  "tagline": "自托管的 Bitwarden 服务器",
+  "release_notes": "- 1.32.7 包含针对启用 ORG_GROUPS_ENABLED 安装的安全修复。\n- support string 中的 SMTP image source values 会被隐藏。\n- 该版本还包含重构、优化、connect-src entry 支持，以及更新后的 fern 使用方式。"
 }

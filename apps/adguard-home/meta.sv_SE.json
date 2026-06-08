@@ -1,6 +1,6 @@
 {
   "id": "adguard-home",
-  "release_notes": "- v0.107.61 fixar en sårbarhet för cacheförgiftning.\n- Duplicerade samtidiga förfrågningar sammansmälts nu till en enda uppströmsförfrågan.\n- Den nya pending_requests-konfigurationen är aktiverad av default och rekommenderas för opålitliga klienter.",
   "description": "AdGuard Home är ett nätverksprogram för att blockera annonser och spårning. Efter att du har konfigurerat det kommer det att täcka alla dina hemmamaskiner och du behöver inte någon klientprogramvara för det. Läs mer på vår officiella Github-repository.",
-  "tagline": "Nätverksnivå DNS-server för att blockera annonser och spårare"
+  "tagline": "Nätverksnivå DNS-server för att blockera annonser och spårare",
+  "release_notes": "- v0.107.61 fixar en sårbarhet för cacheförgiftning.\n- Duplicerade samtidiga förfrågningar sammansmälts nu till en enda uppströmsförfrågan.\n- Den nya pending_requests-konfigurationen är aktiverad av default och rekommenderas för opålitliga klienter."
 }

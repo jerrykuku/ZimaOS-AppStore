@@ -1,6 +1,6 @@
 {
   "id": "vocechat",
-  "release_notes": "- Den konfigurerte VoceChat bildekoden er v0.3.33.\n- Privoce/vocechat-server-rust GitHub-depotet eksponerer for øyeblikket bare tagger gjennom v0.3.20, så denne bildekoden kan ikke tilordnes en samsvarende GitHub endringslogg.",
   "description": "VoceChat er en sikker chat-programvare designet for uavhengig distribusjon, og tilbyr en fleksibel løsning for sømløs kommunikasjon. Den kombinerer direktemeldinger med kanalbaserte gruppechatter, slik at du kan delta i en-til-en-samtaler eller opprette tematiske kanaler for gruppediskusjoner.\n\nVoceChat støtter en rekke meldingsformater, inkludert tekst, bilder, filer, emoji og rik tekst (Markdown), noe som gjør kommunikasjonen din levende og uttrykksfull. Når den er distribuert, kan den brukes via en WebAPP eller mobil APP, noe som sikrer en konsistent opplevelse på tvers av plattformer.\n\nMed robuste administrasjonsfunksjoner gjør VoceChat det enkelt å administrere medlemmer og kanaler, noe som gir deg full kontroll over kommunikasjonsmiljøet til teamet eller gruppen din. Enten for individuelle brukere eller bedriftslag, leverer VoceChat en sikker, allsidig og effektiv chat-løsning.\n",
-  "tagline": "Ha et Privat Sosialt Rom Hostet på Ditt Nettsted"
+  "tagline": "Ha et Privat Sosialt Rom Hostet på Ditt Nettsted",
+  "release_notes": "- Den konfigurerte VoceChat bildekoden er v0.3.33.\n- Privoce/vocechat-server-rust GitHub-depotet eksponerer for øyeblikket bare tagger gjennom v0.3.20, så denne bildekoden kan ikke tilordnes en samsvarende GitHub endringslogg."
 }

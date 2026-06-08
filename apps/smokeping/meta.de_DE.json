@@ -1,6 +1,6 @@
 {
   "id": "smokeping",
-  "release_notes": "- 2.8.2 ist ein Rollup-Release mit automated build testing und InfluxDB support.\n- Verbessert wurden probe handling, FPing command-line behavior, SSH handling, zoom mode URLs, cropper relative-time entry, config reloads fuer slaves/templates, loss colors und graph titles.\n- Korrekturen umfassen das Wiederherstellen von FindBin, das Hinzufuegen der fehlenden README und Rechtschreibkorrekturen in FTPtransfer.pm.",
   "description": "hält die Verfolgung Ihrer Netzwerklatenz.",
-  "tagline": "Kostenlose Open-Source-Netzwerkleistungsüberwachungswerkzeug"
+  "tagline": "Kostenlose Open-Source-Netzwerkleistungsüberwachungswerkzeug",
+  "release_notes": "- 2.8.2 ist ein Rollup-Release mit automated build testing und InfluxDB support.\n- Verbessert wurden probe handling, FPing command-line behavior, SSH handling, zoom mode URLs, cropper relative-time entry, config reloads fuer slaves/templates, loss colors und graph titles.\n- Korrekturen umfassen das Wiederherstellen von FindBin, das Hinzufuegen der fehlenden README und Rechtschreibkorrekturen in FTPtransfer.pm."
 }

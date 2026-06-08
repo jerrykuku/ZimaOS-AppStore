@@ -569,8 +569,8 @@ x-casaos:
     ru_RU: Sure
     tr_TR: Sure
   version: "0.6.5-hotfix.1"
-  updateAt: "2025-12-03"
-  releaseNotes:
+  update_at: "2025-12-03"
+  release_notes:
     en_US: |-
       - v0.6.5-hotfix.1 fixes mobile drag and re-order behavior.
       - Simplefin liabilities recording was fixed.

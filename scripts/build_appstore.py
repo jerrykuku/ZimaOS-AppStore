@@ -25,12 +25,14 @@ import hashlib
 import json
 import re
 import shutil
+import socket
 import subprocess
 import sys
 import tempfile
+import time
 from datetime import date, datetime, timezone
 from pathlib import Path
-from urllib.error import HTTPError
+from urllib.error import HTTPError, URLError
 from urllib.parse import parse_qs, urlparse
 from urllib.request import Request, urlopen
 
@@ -64,7 +66,7 @@ SUPPORTED_LANGUAGES_FILE = "supported-languages.json"
 DEFAULT_LOCALE = "en_US"
 
 # Fields in x-casaos that contain i18n locale dicts
-I18N_FIELDS = {"title", "tagline", "description", "releaseNotes"}
+I18N_FIELDS = {"title", "tagline", "description", "release_notes"}
 # Fields that contain nested i18n dicts (e.g. tips.before_install)
 I18N_NESTED_FIELDS = {"tips"}
 
@@ -77,6 +79,11 @@ DOCKER_MANIFEST_ACCEPT = ", ".join([
     "application/vnd.oci.image.manifest.v1+json",
     "application/vnd.docker.distribution.manifest.v2+json",
 ])
+
+PREFERRED_PLATFORM = ("linux", "amd64")
+IMAGE_SIZE_CACHE = {}
+NETWORK_RETRY_ATTEMPTS = 4
+NETWORK_RETRYABLE_HTTP_CODES = {408, 425, 429, 500, 502, 503, 504}
 
 
 # ---------------------------------------------------------------------------
@@ -127,6 +134,35 @@ def registry_request(url, headers=None):
     return urlopen(request, timeout=30)
 
 
+def is_retryable_network_error(exc):
+    """Return True for transient network / registry errors worth retrying."""
+    if isinstance(exc, HTTPError):
+        return exc.code in NETWORK_RETRYABLE_HTTP_CODES
+    if isinstance(exc, URLError):
+        return True
+    if isinstance(exc, TimeoutError):
+        return True
+    if isinstance(exc, socket.timeout):
+        return True
+    if isinstance(exc, ConnectionResetError):
+        return True
+    return False
+
+
+def open_url_with_retries(request, timeout=30, attempts=NETWORK_RETRY_ATTEMPTS):
+    """Open a URL with simple retry/backoff for transient network failures."""
+    last_exc = None
+    for attempt in range(1, attempts + 1):
+        try:
+            return urlopen(request, timeout=timeout)
+        except Exception as exc:
+            last_exc = exc
+            if not is_retryable_network_error(exc) or attempt == attempts:
+                raise
+            time.sleep(min(8, 2 ** (attempt - 1)))
+    raise last_exc
+
+
 def parse_www_authenticate(header_value):
     """Parse a WWW-Authenticate Bearer challenge header."""
     if not header_value or not header_value.startswith("Bearer "):
@@ -157,6 +193,34 @@ def get_registry_bearer_token(auth_header):
     if not token:
         raise RuntimeError(f"Registry token response missing token: {token_url}")
     return token
+
+
+def registry_json_request(url, headers=None, auth_header=None):
+    """Perform a registry JSON request, retrying with bearer auth if required."""
+    try:
+        request_headers = {
+            "User-Agent": "ZimaOS-AppStore-Build/1.0",
+            "Accept": "*/*",
+        }
+        if headers:
+            request_headers.update(headers)
+        request = Request(url, headers=request_headers)
+        with open_url_with_retries(request, timeout=30) as response:
+            return response.read().decode("utf-8"), response.headers
+    except HTTPError as exc:
+        if exc.code != 401:
+            raise
+        token = get_registry_bearer_token(exc.headers.get("WWW-Authenticate"))
+        auth_headers = dict(headers or {})
+        auth_headers["Authorization"] = f"Bearer {token}"
+        request_headers = {
+            "User-Agent": "ZimaOS-AppStore-Build/1.0",
+            "Accept": "*/*",
+        }
+        request_headers.update(auth_headers)
+        request = Request(url, headers=request_headers)
+        with open_url_with_retries(request, timeout=30) as response:
+            return response.read().decode("utf-8"), response.headers
 
 
 def fetch_latest_digest(image_ref):
@@ -289,6 +353,149 @@ def calculate_min_memory(compose_data):
         reservations = resources.get("reservations", {}) if isinstance(resources, dict) else {}
         memory = reservations.get("memory") if isinstance(reservations, dict) else None
         total += parse_memory_to_bytes(memory)
+    return total
+
+
+def parse_image_reference_with_digest(image_ref):
+    """Parse an image reference, supporting both tag and digest references."""
+    digest = None
+    reference = None
+    name = image_ref
+    if "@" in image_ref:
+        name, digest = image_ref.split("@", 1)
+        reference = digest
+    else:
+        last_slash = image_ref.rfind("/")
+        last_colon = image_ref.rfind(":")
+        if last_colon > last_slash:
+            name = image_ref[:last_colon]
+            reference = image_ref[last_colon + 1:]
+        else:
+            return None
+
+    first_part, _, remainder = name.partition("/")
+    if "." in first_part or ":" in first_part or first_part == "localhost":
+        registry = first_part
+        repository = remainder
+    else:
+        registry = "registry-1.docker.io"
+        repository = name
+
+    if registry == "registry-1.docker.io" and "/" not in repository:
+        repository = f"library/{repository}"
+
+    if not repository or not reference:
+        return None
+
+    return {
+        "registry": registry,
+        "repository": repository,
+        "reference": reference,
+        "name": name,
+    }
+
+
+def fetch_registry_manifest(image_ref):
+    """Fetch the registry manifest or manifest list payload for an image reference."""
+    parsed = parse_image_reference_with_digest(image_ref)
+    if not parsed:
+        raise RuntimeError(f"Unsupported image reference: {image_ref}")
+
+    manifest_url = (
+        f"https://{parsed['registry']}/v2/{parsed['repository']}/manifests/{parsed['reference']}"
+    )
+    payload, headers = registry_json_request(
+        manifest_url,
+        headers={"Accept": DOCKER_MANIFEST_ACCEPT},
+    )
+    return json.loads(payload), headers, parsed
+
+
+def pick_platform_manifest(index_payload):
+    """Choose the preferred platform manifest from a manifest list/index."""
+    manifests = index_payload.get("manifests", [])
+    if not isinstance(manifests, list) or not manifests:
+        raise RuntimeError("Manifest list/index did not contain manifests")
+
+    for item in manifests:
+        platform = item.get("platform", {})
+        if (
+            isinstance(platform, dict)
+            and platform.get("os") == PREFERRED_PLATFORM[0]
+            and platform.get("architecture") == PREFERRED_PLATFORM[1]
+        ):
+            return item
+
+    for item in manifests:
+        platform = item.get("platform", {})
+        if isinstance(platform, dict) and platform.get("os") == PREFERRED_PLATFORM[0]:
+            return item
+
+    return manifests[0]
+
+
+def fetch_child_manifest(parsed, digest):
+    """Fetch a platform-specific child manifest by digest."""
+    manifest_url = f"https://{parsed['registry']}/v2/{parsed['repository']}/manifests/{digest}"
+    payload, _headers = registry_json_request(
+        manifest_url,
+        headers={"Accept": DOCKER_MANIFEST_ACCEPT},
+    )
+    return json.loads(payload)
+
+
+def estimate_image_blob_descriptors(image_ref):
+    """Return unique blob descriptors that make up an image's storage footprint."""
+    manifest_payload, _headers, parsed = fetch_registry_manifest(image_ref)
+    media_type = manifest_payload.get("mediaType", "")
+
+    if media_type in (
+        "application/vnd.docker.distribution.manifest.list.v2+json",
+        "application/vnd.oci.image.index.v1+json",
+    ):
+        chosen = pick_platform_manifest(manifest_payload)
+        manifest_payload = fetch_child_manifest(parsed, chosen.get("digest"))
+
+    descriptors = []
+    config = manifest_payload.get("config")
+    if isinstance(config, dict) and config.get("digest") and config.get("size") is not None:
+        descriptors.append((config["digest"], int(config["size"])))
+
+    for layer in manifest_payload.get("layers", []) or []:
+        if isinstance(layer, dict) and layer.get("digest") and layer.get("size") is not None:
+            descriptors.append((layer["digest"], int(layer["size"])))
+    return descriptors
+
+
+def calculate_min_image_size(compose_data, app_id):
+    """Estimate image storage size by summing unique blobs across all service images."""
+    services = compose_data.get("services", {})
+    if not isinstance(services, dict):
+        return 0
+
+    seen = set()
+    total = 0
+    for service_name, service_def in services.items():
+        if not isinstance(service_def, dict):
+            continue
+        image_ref = service_def.get("image")
+        if not isinstance(image_ref, str) or not image_ref.strip():
+            continue
+        try:
+            descriptors = IMAGE_SIZE_CACHE.get(image_ref)
+            if descriptors is None:
+                descriptors = estimate_image_blob_descriptors(image_ref)
+                IMAGE_SIZE_CACHE[image_ref] = descriptors
+            for digest, size in descriptors:
+                if digest in seen:
+                    continue
+                seen.add(digest)
+                total += size
+        except Exception as exc:
+            print(
+                f"  WARN  App '{app_id}' could not estimate image size for "
+                f"service '{service_name}': {image_ref} ({exc})"
+            )
     return total
 
 
@@ -595,7 +802,7 @@ def download_remote_asset(asset_ref, download_dir):
                 "Accept": "*/*",
             },
         )
-        with urlopen(request, timeout=30) as response, open(dst_path, "wb") as out_file:
+        with open_url_with_retries(request, timeout=30) as response, open(dst_path, "wb") as out_file:
             shutil.copyfileobj(response, out_file)
     except Exception as exc:
         raise RuntimeError(f"Failed to download asset: {asset_ref}") from exc
@@ -885,7 +1092,7 @@ def resolve_asset_filename(url_or_name, image_mapping, copied_images):
 
 
 def build_meta_payload(meta, locale, assets_path, copied_images, image_mapping, base_url,
-                       title_i18n=None, strict=False, min_memory=0):
+                       title_i18n=None, strict=False, min_memory=0, min_image_size=0):
     """Build locale-resolved meta payload."""
     meta_l = copy.deepcopy(meta)
     category = meta_l.get("category", "")
@@ -920,6 +1127,7 @@ def build_meta_payload(meta, locale, assets_path, copied_images, image_mapping, 
     meta_l["base_url"] = normalize_base_url(base_url)
     meta_l["categories"] = normalize_categories(category)
     meta_l["min_memory"] = int(min_memory)
+    meta_l["min_image_size"] = int(min_image_size)
     return meta_l
 
 
@@ -1058,6 +1266,7 @@ def main():
         compose_l = copy.deepcopy(compose_data)
         pin_latest_service_images(compose_l, app_id)
         min_memory = calculate_min_memory(compose_data)
+        min_image_size = calculate_min_image_size(compose_data, app_id)
         compose_xc = compose_l.get("x-casaos", {})
         if "title" in compose_xc:
             compose_xc["title"] = resolve_i18n(compose_xc["title"], DEFAULT_LOCALE)
@@ -1084,6 +1293,7 @@ def main():
             title_i18n=original_xcasaos.get("title"),
             strict=False,
             min_memory=min_memory,
+            min_image_size=min_image_size,
         )
         meta_default_content = json.dumps(to_json_safe(meta_default), ensure_ascii=False, indent=2)
         (app_output / "meta.json").write_text(meta_default_content, encoding="utf-8")

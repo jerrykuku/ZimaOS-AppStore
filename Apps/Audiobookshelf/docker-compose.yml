@@ -455,8 +455,8 @@ x-casaos:
   title:
     en_US: Audiobookshelf
   version: "2.30.0"
-  updateAt: "2025-10-08"
-  releaseNotes:
+  update_at: "2025-10-08"
+  release_notes:
     en_US: |-
       - v2.30.0 adds a Best option for book cover search across Audible, Google, and FantLab.
       - Cover search is now async and streams results over websockets, with shorter metadata-provider timeouts.

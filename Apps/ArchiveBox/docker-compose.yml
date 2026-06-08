@@ -962,8 +962,8 @@ x-casaos:
     ru_RU: ArchiveBox
     tr_TR: ArchiveBox
   version: "0.7.3"
-  updateAt: "2024-12-15"
-  releaseNotes:
+  update_at: "2024-12-15"
+  release_notes:
     en_US: |-
       - v0.7.3 updates Docker container internal dependencies without Python code changes.
       - Chrome, yt-dlp, single-file, sonic, curl, wget, readability, ripgrep, git, Python, and Node dependencies were refreshed.

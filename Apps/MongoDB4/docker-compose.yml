@@ -89,8 +89,8 @@ x-casaos:
   title:
     en_US: MongoDB 4
   version: "4.4.22"
-  updateAt: "2024-01-25"
-  releaseNotes:
+  update_at: "2024-01-25"
+  release_notes:
     en_US: |-
       - MongoDB 4.4.22 is a production release with fixes since 4.4.21 and is recommended for MongoDB 4.4 users.
       - Fixes include incremental backup handling where modified blocks could be omitted.

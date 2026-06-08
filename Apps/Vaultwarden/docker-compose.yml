@@ -78,8 +78,8 @@ x-casaos:
   index: /
   port_map: "10380"
   version: "1.32.7"
-  updateAt: "2024-12-20"
-  releaseNotes:
+  update_at: "2024-12-20"
+  release_notes:
     en_US: |-
       - 1.32.7 includes a security fix for installations with ORG_GROUPS_ENABLED enabled.
       - SMTP image source values are masked in the support string.

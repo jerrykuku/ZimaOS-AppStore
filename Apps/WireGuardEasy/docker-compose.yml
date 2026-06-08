@@ -108,8 +108,8 @@ x-casaos:
     en_US: WireGuard Easy
   port_map: '51821'
   version: "13"
-  updateAt: "2024-05-20"
-  releaseNotes:
+  update_at: "2024-05-20"
+  release_notes:
     en_US: |-
       - v13.0.0 introduces the new h3 framework.
       - It adds UI_CHART_TYPE and includes bug fixes.

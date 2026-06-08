@@ -96,8 +96,8 @@ x-casaos:
   category: Productivity
   port_map: "8000"
   version: "1.0.1"
-  updateAt: "2024-01-25"
-  releaseNotes: ""
+  update_at: "2024-01-25"
+  release_notes: ""
   website: ""
   repo: ""
   support: ""

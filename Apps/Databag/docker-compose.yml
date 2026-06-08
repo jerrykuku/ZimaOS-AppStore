@@ -45,8 +45,8 @@ x-casaos:
     en_US: Databag
   port_map: "7000"
   version: "0.1.18"
-  updateAt: "2025-11-28"
-  releaseNotes: ""
+  update_at: "2025-11-28"
+  release_notes: ""
   website: ""
   repo: "https://github.com/balzack/databag"
   support: "https://github.com/balzack/databag/discussions"

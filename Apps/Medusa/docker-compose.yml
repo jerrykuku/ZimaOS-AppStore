@@ -52,8 +52,8 @@ x-casaos:
   title:
     en_US: Medusa
   version: "master"
-  updateAt: "2024-03-26"
-  releaseNotes: ""
+  update_at: "2024-03-26"
+  release_notes: ""
   website: ""
   repo: "https://github.com/pymedusa/Medusa"
   support: "https://github.com/pymedusa/Medusa/issues"

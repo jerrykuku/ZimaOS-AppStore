@@ -506,8 +506,8 @@ x-casaos:
   title:
     en_US: LyrionMusicServer
   version: "9.1.0"
-  updateAt: "2026-02-19"
-  releaseNotes:
+  update_at: "2026-02-19"
+  release_notes:
     en_US: |-
       - This release was checked from the upstream GitHub tag compare.
       - Advanced Search gained subtitle support, including track subtitle and album/set subtitle distinctions.

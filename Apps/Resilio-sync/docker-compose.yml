@@ -72,8 +72,8 @@ x-casaos:
   title:
     en_US: resilio-sync
   version: "2.7.3"
-  updateAt: "2024-06-14"
-  releaseNotes: ""
+  update_at: "2024-06-14"
+  release_notes: ""
   website: "https://www.resilio.com/sync/"
   repo: "https://github.com/linuxserver/docker-resilio-sync"
   support: "https://github.com/linuxserver/docker-resilio-sync/issues"

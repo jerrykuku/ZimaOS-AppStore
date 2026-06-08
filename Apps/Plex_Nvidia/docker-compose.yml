@@ -115,8 +115,8 @@ x-casaos:
   index: /web/index.html
   port_map: "32400"
   version: "1.41.3"
-  updateAt: "2024-12-17"
-  releaseNotes:
+  update_at: "2024-12-17"
+  release_notes:
     en_US: |-
       - The configured image tag is linuxserver/plex:1.41.3.
       - LinuxServer also publishes a version-1.41.3.9314-a0bfb8370 tag for this Plex image line.

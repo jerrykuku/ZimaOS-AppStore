@@ -265,8 +265,8 @@ volumes:
 networks:
   mineos:
   version: "latest"
-  updateAt: "2023-11-27"
-  releaseNotes: ""
+  update_at: "2023-11-27"
+  release_notes: ""
   website: "https://www.mineos.net/"
   repo: "https://github.com/hexparrot/mineos-node"
   support: "https://github.com/hexparrot/mineos-node/issues"

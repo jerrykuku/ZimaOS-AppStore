@@ -584,8 +584,8 @@ x-casaos:
   title:
     en_US: Wallabag
   version: "2.6.13"
-  updateAt: "2025-06-04"
-  releaseNotes:
+  update_at: "2025-06-04"
+  release_notes:
     en_US: |-
       - 2.6.13 prevents non-validated OTP from being enabled.
       - Pocket and Shaarli imports were backported, and Pocket CSV import support was added.

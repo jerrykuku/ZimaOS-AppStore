@@ -415,8 +415,8 @@ x-casaos:
     ru_RU: OpenHands
     tr_TR: OpenHands
   version: "0.59"
-  updateAt: "2025-10-10"
-  releaseNotes:
+  update_at: "2025-10-10"
+  release_notes:
     en_US: |-
       - 0.59.0 adds support for the Lemonade Provider.
       - Repository search, mounted-volume file ownership, prompt box resizing, and multiple UI issues were fixed.

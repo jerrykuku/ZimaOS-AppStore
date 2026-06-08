@@ -200,8 +200,8 @@ x-casaos:
   scheme: https
   port_map: "8111"
   version: "4.4.11"
-  updateAt: "2025-06-27"
-  releaseNotes:
+  update_at: "2025-06-27"
+  release_notes:
     en_US: |-
       - Crafty 4.4.11 is the configured image release from the upstream GitLab project.
       - No GitHub changelog is available for this app because Crafty publishes releases from GitLab.

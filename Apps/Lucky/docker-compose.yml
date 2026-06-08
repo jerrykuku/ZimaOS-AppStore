@@ -46,8 +46,8 @@ x-casaos:
   scheme: http
   store_app_id: lucky
   version: "2.20.2"
-  updateAt: "2025-11-20"
-  releaseNotes:
+  update_at: "2025-11-20"
+  release_notes:
     en_US: |-
       - v2.20.2 adds certificate sync support for Alibaba Cloud ESA and a Tencent Cloud option that is not yet open.
       - Volcengine now sets the minimum TTL automatically based on the domain package.

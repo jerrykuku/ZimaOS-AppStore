@@ -228,8 +228,8 @@ configs:
         }
       }
   version: "v0.3.0"
-  updateAt: "2024-06-03"
-  releaseNotes:
+  update_at: "2024-06-03"
+  release_notes:
     en_US: |-
       - v0.3.0 adds Markdown rendering and image uploads in Playground.
       - An OpenAI-compatible chat completions API was introduced for LLM tasks and agent invocations.

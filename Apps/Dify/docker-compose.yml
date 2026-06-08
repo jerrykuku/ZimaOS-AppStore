@@ -264,8 +264,8 @@ x-casaos:
   index: /
   port_map: "3701"
   version: "0.12.1"
-  updateAt: "2024-11-26"
-  releaseNotes:
+  update_at: "2024-11-26"
+  release_notes:
     en_US: |-
       - 0.12.1 fixes custom icon display in the webapp and file handling in Start forms.
       - LLM memory processing, conversation deletion, app creation, and template import errors were corrected.

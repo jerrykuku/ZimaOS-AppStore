@@ -453,8 +453,8 @@ x-casaos:
   title:
     en_US: Obsidian
   version: "1.8.10"
-  updateAt: "2025-04-22"
-  releaseNotes:
+  update_at: "2025-04-22"
+  release_notes:
     en_US: |-
       - v1.8.10 points to the official Obsidian desktop changelog for this release.
       - Linux arm64 builds were re-uploaded with a different Electron version to fix a critical crash.

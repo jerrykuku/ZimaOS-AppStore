@@ -598,8 +598,8 @@ x-casaos:
   title:
     en_US: Docmost
   version: "0.21.0"
-  updateAt: "2025-06-18"
-  releaseNotes:
+  update_at: "2025-06-18"
+  release_notes:
     en_US: |-
       - v0.21.0 adds ZIP imports, Notion imports, Confluence imports for Enterprise Edition, and generic iframe embeds.
       - Read/edit mode preferences, creating pages from @ mentions, table header row/column toggles, and persistent Excalidraw libraries were added.

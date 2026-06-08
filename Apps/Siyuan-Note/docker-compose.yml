@@ -95,8 +95,8 @@ x-casaos:
   index:
   port_map: "6806"
   version: "v3.0.1"
-  updateAt: "2024-02-27"
-  releaseNotes:
+  update_at: "2024-02-27"
+  release_notes:
     en_US: |-
       - v3.0.1 adds flashcard set review mode.
       - Enhancements include Mermaid error logs, F13-F32 shortcuts, database relation-field behavior, mobile menu improvements, and database table view template columns.

@@ -262,8 +262,8 @@ x-casaos:
   index: /
   port_map: "1970"
   version: "v1.4.8"
-  updateAt: "2024-02-26"
-  releaseNotes:
+  update_at: "2024-02-26"
+  release_notes:
     en_US: |-
       - v1.4.8 adds an opt-in no-sidebar layout, top-bar search, centered default content, and homepage browse changes.
       - The backend moved to the Waitress WSGI server with proper ARM64 and other platform support.

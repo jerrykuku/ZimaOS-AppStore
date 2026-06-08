@@ -78,8 +78,8 @@ x-casaos:
   title:
     en_US: Netdata
   version: "v2.8.1"
-  updateAt: "2025-11-21"
-  releaseNotes:
+  update_at: "2025-11-21"
+  release_notes:
     en_US: |-
       - v2.8.1 fixes dynamic-configuration vnodes disappearing after agent restart.
       - PSS memory sampling in apps.plugin was disabled by default to reduce CPU overhead.

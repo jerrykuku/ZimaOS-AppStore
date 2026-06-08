@@ -166,8 +166,8 @@ x-casaos:
   index: /
   port_map: "8181"
   version: "release-5.0.4"
-  updateAt: "2025-02-18"
-  releaseNotes:
+  update_at: "2025-02-18"
+  release_notes:
     en_US: |-
       - release-5.0.4 fixes removing trackers via WebAPI and torrent content checkbox state handling.
       - Peer-list zero/infinity values are hidden only when that setting is Always.

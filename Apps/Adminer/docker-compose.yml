@@ -41,8 +41,8 @@ x-casaos:
     en_US: Adminer
   port_map: '8080'
   version: "5.4.1"
-  updateAt: "2025-09-26"
-  releaseNotes:
+  update_at: "2025-09-26"
+  release_notes:
     en_US: |-
       - v5.4.1 fixes unlinking NULL primary keys from SQL command.
       - CSV export no longer quotes zero values, and imports warn when upload_max_filesize is exceeded.

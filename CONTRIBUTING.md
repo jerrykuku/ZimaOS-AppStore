@@ -37,7 +37,7 @@ Top-level `x-casaos` should follow this field grouping order:
 1. Access entry: `main`, `index`, `port_map`, `scheme`
 2. Display: `title`, `icon`, `thumbnail`, `screenshot_link`, `tagline`, `description`, `tips`
 3. Metadata: `author`, `developer`, `category`, `architectures`
-4. Version: `version`, `updateAt`, `releaseNotes`
+4. Version: `version`, `update_at`, `release_notes`
 5. Links: `website`, `repo`, `support`, `docs`
 
 Field semantics:

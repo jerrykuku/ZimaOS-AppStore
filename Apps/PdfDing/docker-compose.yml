@@ -269,8 +269,8 @@ x-casaos:
   title:
     en_US: PdfDing
   version: "v1.3.1"
-  updateAt: "2025-04-04"
-  releaseNotes:
+  update_at: "2025-04-04"
+  release_notes:
     en_US: |-
       - v1.3.1 adds support for setting admin rights via OIDC claims.
       - UI improvements were made, including better truncation for long titles.

@@ -526,8 +526,8 @@ x-casaos:
   title:
     en_US: Komga
   version: "1.23.6"
-  updateAt: "2025-11-28"
-  releaseNotes:
+  update_at: "2025-11-28"
+  release_notes:
     en_US: |-
       - 1.23.6 fixes Kobo proxy initialization, double URL encoding, and Content-Type proxying.
       - EPUB cover generation now properly decodes cover href values.

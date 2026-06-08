@@ -701,8 +701,8 @@ x-casaos:
   title:
     en_US: ZTnet
   version: "0.7.5"
-  updateAt: "2025-06-05"
-  releaseNotes:
+  update_at: "2025-06-05"
+  release_notes:
     en_US: |-
       - v0.7.5 adds backup and restore support.
       - Users are reminded to restart the ZeroTier container after restoring a backup.

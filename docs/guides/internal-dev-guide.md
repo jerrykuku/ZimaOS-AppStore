@@ -256,8 +256,8 @@ x-casaos:
 | `architectures` | `string[]` | 支持的 CPU 架构 |
 | `store_app_id` | `string` | 商店 App ID（可选，覆盖 compose name） |
 | `version` | `string` | **[新增，可选]** 应用版本号，可增强商店展示 |
-| `updateAt` | `string` | **[新增，可选]** 应用更新日期（建议 ISO 8601 / `YYYY-MM-DD`），可增强商店展示 |
-| `releaseNotes` | `string` | **[新增，可选]** 版本更新日志（构建后解析为目标语言字符串），可增强商店展示 |
+| `update_at` | `string` | **[新增，可选]** 应用更新日期（建议 ISO 8601 / `YYYY-MM-DD`），可增强商店展示 |
+| `release_notes` | `string` | **[新增，可选]** 版本更新日志（构建后解析为目标语言字符串），可增强商店展示 |
 | `website` | `string` | **[新增，可选]** 官方网站地址，可增强商店展示 |
 | `repo` | `string` | **[新增，可选]** 源码仓库地址，可增强商店展示 |
 | `support` | `string` | **[新增，可选]** 支持地址，可增强商店展示 |
@@ -284,8 +284,8 @@ x-casaos:
   "category": "Productivity",
   "architectures": ["amd64", "386", "arm64", "arm"],
   "version": "1.0.0",
-  "updateAt": "2024-06-01",
-  "releaseNotes": "Initial release",
+  "update_at": "2024-06-01",
+  "release_notes": "Initial release",
   "website": "http://www.2fauth.com/",
   "repo": "http://www.2fauth.com/",
   "support": "http://www.2fauth.com/",

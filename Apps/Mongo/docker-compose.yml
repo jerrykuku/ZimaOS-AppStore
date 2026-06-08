@@ -104,8 +104,8 @@ x-casaos:
   title:
     en_US: MongoDB
   version: "8.2.2"
-  updateAt: "2025-12-05"
-  releaseNotes:
+  update_at: "2025-12-05"
+  release_notes:
     en_US: |-
       - MongoDB 8.2.2 is the database image version used by this app entry.
       - MongoDB publishes database release notes outside GitHub Releases, so this Docker tag is kept as image metadata.

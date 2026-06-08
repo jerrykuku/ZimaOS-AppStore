@@ -381,8 +381,8 @@ x-casaos:
   title:
     en_US: V2rayA
   version: "v2.2.6.7"
-  updateAt: "2025-03-27"
-  releaseNotes:
+  update_at: "2025-03-27"
+  release_notes:
     en_US: |-
       - v2.2.6.7 fixes English text in latency test notifications.
       - Core startup timeout handling on old devices was fixed.

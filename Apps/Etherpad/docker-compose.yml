@@ -405,8 +405,8 @@ x-casaos:
   title:
     en_US: Etherpad
   version: "3.1.0"
-  updateAt: "2026-05-17"
-  releaseNotes:
+  update_at: "2026-05-17"
+  release_notes:
     en_US: |-
       - Etherpad v3.1.0 adds Tier 4 autonomous self-updates with maintenance windows, preflight checks, and email notifications for failures and rollbacks.
       - It also introduces real SMTP delivery for updater mail and includes API, export, and HTTP security hardening plus localisation updates.

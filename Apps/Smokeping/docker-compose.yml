@@ -96,8 +96,8 @@ x-casaos:
     en_US: Smokeping
   port_map: "10280"
   version: "2.8.2"
-  updateAt: "2021-08-10"
-  releaseNotes:
+  update_at: "2021-08-10"
+  release_notes:
     en_US: |-
       - 2.8.2 is a rollup release with automated build testing and InfluxDB support.
       - Probe handling, FPing command-line behavior, SSH handling, zoom mode URLs, cropper relative-time entry, config reloads for slaves, templates, loss colors, and graph titles were improved.

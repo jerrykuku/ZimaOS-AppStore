@@ -105,8 +105,8 @@ x-casaos:
   title:
     en_US: JDownloader2
   version: "latest"
-  updateAt: "2024-01-25"
-  releaseNotes: ""
+  update_at: "2024-01-25"
+  release_notes: ""
   website: ""
   repo: ""
   support: "https://support.jdownloader.org/"

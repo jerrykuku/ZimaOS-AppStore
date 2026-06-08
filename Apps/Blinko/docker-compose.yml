@@ -583,8 +583,8 @@ x-casaos:
   index: /
   scheme: http
   version: "1.8.7"
-  updateAt: "2026-04-12"
-  releaseNotes:
+  update_at: "2026-04-12"
+  release_notes:
     en_US: |-
       - Blinko 1.8.7 adds MiniMax as a first-class LLM provider.
       - It fixes upload filename sanitization, tag filter reset behavior, and Turkish translations.

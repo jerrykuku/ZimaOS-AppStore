@@ -714,8 +714,8 @@ x-casaos:
   title:
     en_US: Hugo
   version: "v0.152.2"
-  updateAt: "2025-10-24"
-  releaseNotes:
+  update_at: "2025-10-24"
+  release_notes:
     en_US: |-
       - v0.152.2 restores support for valid module/theme mounts that reference node_modules.
       - Hugo now treats node_modules as a special mount source fallback relative to the project root.

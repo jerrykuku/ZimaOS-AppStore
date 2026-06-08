@@ -54,8 +54,8 @@ x-casaos:
     en_US: Label Studio   
   port_map: "3080"
   version: "1.9.2"
-  updateAt: "2023-11-07"
-  releaseNotes:
+  update_at: "2023-11-07"
+  release_notes:
     en_US: |-
       - 1.9.2 adds a legacy Taxonomy parameter and support for AWS Signature Version 4 query parameters.
       - VERIFY_SSL_CERTS now defaults to true for deployment-wide HTTPS certificate verification.

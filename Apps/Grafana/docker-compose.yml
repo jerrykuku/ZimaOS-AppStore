@@ -111,8 +111,8 @@ x-casaos:
   index: /
   port_map: "3003"
   version: "12.1.4"
-  updateAt: "2025-11-19"
-  releaseNotes:
+  update_at: "2025-11-19"
+  release_notes:
     en_US: |-
       - v12.1.4 fixes alerting status unmarshalling to include time intervals.
       - Enterprise dashboard rollup metrics were fixed for last-period summaries and total resets.

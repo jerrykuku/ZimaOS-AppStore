@@ -399,8 +399,8 @@ x-casaos:
   title:
     en_US: Excalidraw
   version: "latest"
-  updateAt: "2025-08-06"
-  releaseNotes: ""
+  update_at: "2025-08-06"
+  release_notes: ""
   website: "https://excalidraw.com/"
   repo: "https://github.com/excalidraw/excalidraw"
   support: "https://github.com/excalidraw/excalidraw/issues"

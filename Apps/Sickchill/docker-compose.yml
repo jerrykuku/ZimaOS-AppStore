@@ -116,8 +116,8 @@ x-casaos:
     en_US: Sickchill
   port_map: "8081"
   version: "2023.6.27"
-  updateAt: "2023-06-28"
-  releaseNotes:
+  update_at: "2023-06-28"
+  release_notes:
     en_US: |-
       - 2023.6.27 has an empty GitHub release body, so changes were checked against the upstream tag compare.
       - The compare includes dependency updates for Poetry/Yarn, urllib3, workbox-webpack-plugin, Snyk, and types-setuptools.

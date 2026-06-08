@@ -6,7 +6,7 @@
 - 面向构建/部署外部第三方商店的维护者。
 - 如果你是在本仓库提交 PR，请参考 [CONTRIBUTING.md](../../CONTRIBUTING.md)。
 
-> **📢 新增内容：** 我们在 `meta.json` 中新增了 7 个可选字段，可增强商店展示效果：`version`、`updateAt`、`releaseNotes`、`website`、`repo`、`support` 和 `docs`。这些字段在 [meta.json（构建后）](#metajson构建后)中标注为 **[新增，可选]**。现有商店无需修改即可继续工作，但我们建议添加这些字段以改善应用列表的展示效果。
+> **📢 新增内容：** 我们在 `meta.json` 中新增了 7 个可选字段，可增强商店展示效果：`version`、`update_at`、`release_notes`、`website`、`repo`、`support` 和 `docs`。这些字段在 [meta.json（构建后）](#metajson构建后)中标注为 **[新增，可选]**。现有商店无需修改即可继续工作，但我们建议添加这些字段以改善应用列表的展示效果。
 
 ## 概览
 
@@ -152,8 +152,8 @@ x-casaos:
   thumbnail: thumbnail.png
   tips: {}
   version: "1.0.0"
-  updateAt: "2026-03-01"
-  releaseNotes:
+  update_at: "2026-03-01"
+  release_notes:
     en_US: First release
 ```
 
@@ -463,7 +463,7 @@ v2 要求使用标准化分类。将每个应用 `x-casaos` 块中的 `category`
 
 ### 可选改进
 
-- 添加 7 个新增元数据字段（`version`、`updateAt`、`releaseNotes`、`website`、`repo`、`support`、`docs`）以增强商店展示——参见 [meta.json](#metajson构建后)
+- 添加 7 个新增元数据字段（`version`、`update_at`、`release_notes`、`website`、`repo`、`support`、`docs`）以增强商店展示——参见 [meta.json](#metajson构建后)
 - 添加 `supported-languages.json` 以支持多语言输出
 - 将 PNG 图标替换为 SVG 以获得更好的质量
 
@@ -553,8 +553,8 @@ v2 要求使用标准化分类。将每个应用 `x-casaos` 块中的 `category`
 | `category` | `string` | 应用分类 |
 | `architectures` | `string[]` | 支持的 CPU 架构 |
 | `version` | `string` | **[新增，可选]** 应用版本号，可增强商店展示 |
-| `updateAt` | `string` | **[新增，可选]** 应用更新日期（建议 `YYYY-MM-DD`，如 `"2026-03-01"`），可增强商店展示 |
-| `releaseNotes` | `string` | **[新增，可选]** 版本更新日志（解析为纯字符串），可增强商店展示 |
+| `update_at` | `string` | **[新增，可选]** 应用更新日期（建议 `YYYY-MM-DD`，如 `"2026-03-01"`），可增强商店展示 |
+| `release_notes` | `string` | **[新增，可选]** 版本更新日志（解析为纯字符串），可增强商店展示 |
 | `website` | `string` | **[新增，可选]** 官方网站地址，可增强商店展示 |
 | `repo` | `string` | **[新增，可选]** 源码仓库地址，可增强商店展示 |
 | `support` | `string` | **[新增，可选]** 支持地址，可增强商店展示 |
@@ -635,7 +635,7 @@ volumes:
 
 构建脚本会自动归一化以下字段的语言键：
 - `store-config.json`：`name`、`description`
-- `x-casaos`：`title`、`tagline`、`description`、`releaseNotes`、`tips` 下的每个嵌套 locale 对象
+- `x-casaos`：`title`、`tagline`、`description`、`release_notes`、`tips` 下的每个嵌套 locale 对象
 
 至少为所有 i18n 字段提供 `en_US`。locale 专属输出文件只会为显式定义过的 locale 生成。
 

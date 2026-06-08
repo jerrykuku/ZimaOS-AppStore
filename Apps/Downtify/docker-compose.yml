@@ -60,8 +60,8 @@ x-casaos:
   index: /
   port_map: "8582"
   version: "2.6.0"
-  updateAt: "2026-05-03"
-  releaseNotes:
+  update_at: "2026-05-03"
+  release_notes:
     en_US: |-
       - 2.6.0 adds the option to save music into artist folders.
       - It adds a setting to disable lyric downloads.

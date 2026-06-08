@@ -56,8 +56,8 @@ x-casaos:
   scheme: http
   index: /
   version: "latest"
-  updateAt: "2024-06-11"
-  releaseNotes: ""
+  update_at: "2024-06-11"
+  release_notes: ""
   website: "https://qq.uusec.com/"
   repo: "https://github.com/Safe3/firefly"
   support: "https://github.com/Safe3/firefly/issues"

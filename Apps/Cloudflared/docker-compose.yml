@@ -265,8 +265,8 @@ x-casaos:
     en_US: Cloudflared
   port_map: '14333'
   version: "2025.2.1"
-  updateAt: "2025-05-30"
-  releaseNotes: ""
+  update_at: "2025-05-30"
+  release_notes: ""
   website: "https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/"
   repo: "https://github.com/WisdomSky/Cloudflared-web"
   support: "https://github.com/WisdomSky/Cloudflared-web/issues"

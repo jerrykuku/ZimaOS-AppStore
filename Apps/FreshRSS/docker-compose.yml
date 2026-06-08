@@ -83,8 +83,8 @@ x-casaos:
   title:
     en_US: FreshRSS
   version: "1.27.1"
-  updateAt: "2025-09-27"
-  releaseNotes:
+  update_at: "2025-09-27"
+  release_notes:
     en_US: |-
       - 1.27.1 is a security and bug-fix release for the 1.27.x series.
       - It keeps sort/order criteria after marking articles as read and adds Docker healthcheck support.

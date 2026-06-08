@@ -367,8 +367,8 @@ x-casaos:
   scheme: http
   index: /
   version: "3.0.11"
-  updateAt: "2025-11-16"
-  releaseNotes:
+  update_at: "2025-11-16"
+  release_notes:
     en_US: |-
       - flowise@3.0.11 permanently removes the Read/Write File Tools functionality.
       - File path validation was enhanced and Docker images were updated to run as a non-root user.

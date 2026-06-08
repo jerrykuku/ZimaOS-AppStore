@@ -69,8 +69,8 @@ x-casaos:
   title:
     en_US: ddns-updater
   version: "v2.9.0"
-  updateAt: "2024-12-24"
-  releaseNotes:
+  update_at: "2024-12-24"
+  release_notes:
     en_US: |-
       - v2.9.0 adds provider support for domene.shop, loopia.se, vultr.com, myaddr.tools, and namesilo.com.
       - Health server configuration can run outside Docker or be disabled in containers.

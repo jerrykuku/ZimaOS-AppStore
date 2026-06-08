@@ -118,8 +118,8 @@ x-casaos:
   index: /
   port_map: "3001"
   version: "v0.107.61"
-  updateAt: "2025-04-22"
-  releaseNotes:
+  update_at: "2025-04-22"
+  release_notes:
     en_US: |-
       - v0.107.61 fixes a cache poisoning vulnerability.
       - Duplicate simultaneous requests are now coalesced into a single upstream request.

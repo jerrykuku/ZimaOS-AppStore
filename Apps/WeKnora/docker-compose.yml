@@ -1608,8 +1608,8 @@ x-casaos:
   index: /
   scheme: http
   version: "v0.2.14"
-  updateAt: "2026-01-30"
-  releaseNotes:
+  update_at: "2026-01-30"
+  release_notes:
     en_US: |-
       - v0.2.14 prioritizes environment variables over Git tags for version detection.
       - Completion URL host extraction now handles both v1 and non-v1 endpoints.

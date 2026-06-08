@@ -132,8 +132,8 @@ x-casaos:
   index: /
   port_map: "2342"
   version: "250228"
-  updateAt: "2025-03-18"
-  releaseNotes:
+  update_at: "2025-03-18"
+  release_notes:
     en_US: |-
       - PhotoPrism build 250228 adds a Retina 5K thumbnail size and usability/performance improvements.
       - Viewer updates reduce eager preloading, WebDAV upload actions now depend on sharing being enabled, and M4V files are treated as MP4-compatible.

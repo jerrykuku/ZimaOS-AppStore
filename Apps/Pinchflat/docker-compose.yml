@@ -520,8 +520,8 @@ x-casaos:
   title:
     en_US: Pinchflat
   version: "latest"
-  updateAt: "2025-06-19"
-  releaseNotes:
+  update_at: "2025-06-19"
+  release_notes:
     en_US: |-
       - Latest upstream release v2025.9.26 includes an important note referencing upstream issue #800.
       - Dockerfiles now include Deno.

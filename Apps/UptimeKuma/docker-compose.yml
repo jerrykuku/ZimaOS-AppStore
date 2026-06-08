@@ -395,8 +395,8 @@ x-casaos:
   index: /
   port_map: "3001"
   version: "1.23.16-alpine"
-  updateAt: "2025-07-08"
-  releaseNotes:
+  update_at: "2025-07-08"
+  release_notes:
     en_US: |-
       - Uptime Kuma 1.23.16 updates dependencies for security.
       - It fixes CVE-2024-56331, a local file inclusion issue in the Real-Browser monitor's URL handling.

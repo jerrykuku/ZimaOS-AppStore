@@ -89,8 +89,8 @@ x-casaos:
   index: /
   port_map: "5005"
   version: "amd64"
-  updateAt: "2025-03-05"
-  releaseNotes: ""
+  update_at: "2025-03-05"
+  release_notes: ""
   website: ""
   repo: "https://github.com/ugeek/docker-webdav"
   support: "https://github.com/ugeek/docker-webdav/issues"

@@ -104,8 +104,8 @@ x-casaos:
     en_US: Sabnzbd
   port_map: "8282"
   version: "4.1.0"
-  updateAt: "2023-09-26"
-  releaseNotes:
+  update_at: "2023-09-26"
+  release_notes:
     en_US: |-
       - 4.1.0 adds dark mode for Config, Login, and Wizard pages, plus multi-select in History.
       - Proxy validation, log purging, server IP selection, IPv6 server settings, and archive unpacking behavior were updated.

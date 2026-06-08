@@ -312,8 +312,8 @@ x-casaos:
   index: /
   scheme: http
   version: "latest"
-  updateAt: "2025-12-19"
-  releaseNotes: ""
+  update_at: "2025-12-19"
+  release_notes: ""
   website: "https://fossil.kd2.org/opodsync/"
   repo: "https://github.com/kd2org/oPodSync"
   support: "https://github.com/kd2org/oPodSync/issues"

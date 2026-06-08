@@ -400,8 +400,8 @@ x-casaos:
   title:
     en_US: OpenList
   version: "4.2.1"
-  updateAt: "2026-04-09"
-  releaseNotes:
+  update_at: "2026-04-09"
+  release_notes:
     en_US: |-
       - v4.2.1 locks musl outputs to fully static linking in the build script and CI workflows.
       - It also fixes path cache invalidation after meta path updates.

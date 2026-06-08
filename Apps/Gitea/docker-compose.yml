@@ -164,8 +164,8 @@ x-casaos:
   index: /
   port_map: "3002"
   version: "1.25"
-  updateAt: "2025-10-29"
-  releaseNotes:
+  update_at: "2025-10-29"
+  release_notes:
     en_US: |-
       - v1.25.0 adds repository archive streaming, configurable Git remote names, and workflow success/failure emails.
       - OpenID Connect, repository contents APIs, SSH commit signing, and 3D/CAD previews were improved.

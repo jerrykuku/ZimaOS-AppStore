@@ -580,8 +580,8 @@ x-casaos:
   title:
     en_US: Monica
   version: "4.1.2"
-  updateAt: "2024-05-04"
-  releaseNotes:
+  update_at: "2024-05-04"
+  release_notes:
     en_US: |-
       - v4.1.2 fixes contact listing updates that changed the updated_at date for all contacts.
     en_GB: |-

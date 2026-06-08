@@ -99,8 +99,8 @@ x-casaos:
   index: /
   port_map: "9117"
   version: "0.24.1841"
-  updateAt: "2026-05-11"
-  releaseNotes:
+  update_at: "2026-05-11"
+  release_notes:
     en_US: |-
       - v0.24.1841 updates torrenttip, torrentsome, btstate, ADC, u2p, magnetcat, torrent9, and czteam indexer handling.
       - Several tracker domains and selector/category configurations were refreshed.

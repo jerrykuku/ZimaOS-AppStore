@@ -481,8 +481,8 @@ x-casaos:
   index: /
   port_map: "8123"
   version: "2025.11"
-  updateAt: "2025-11-05"
-  releaseNotes:
+  update_at: "2025-11-05"
+  release_notes:
     en_US: |-
       - 2025.11.0 includes the Home Assistant 2025.11 core changes.
       - The upstream changelog includes Squeezebox HassKey support, condition option-field changes, statistics metadata collation checks, and Hyperion 2.1.1 support fixes.

@@ -790,8 +790,8 @@ x-casaos:
   title:
     en_US: RomM
   version: "4.0.1"
-  updateAt: "2025-07-26"
-  releaseNotes:
+  update_at: "2025-07-26"
+  release_notes:
     en_US: |-
       - 4.0.1 adds a clean resources task and revamps the task system.
       - Last scan selected sources are now stored, and custom YouTube proxy base URLs are supported.

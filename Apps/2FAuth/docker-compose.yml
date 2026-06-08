@@ -82,8 +82,8 @@ x-casaos:
     - arm64
     - arm
   version: "5.4.3"
-  updateAt: "2024-11-27"
-  releaseNotes:
+  update_at: "2024-11-27"
+  release_notes:
     en_US: |-
       - v5.4.3 fixes deleted icons reappearing after saving from the advanced form.
       - Login page loading, footer menu form submission, cropped QR codes, Manage mode freezes, and missing no-icon account icons were fixed.

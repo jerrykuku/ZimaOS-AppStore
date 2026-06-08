@@ -146,8 +146,8 @@ x-casaos:
   title:
     en_US: Unifi Network Application
   version: "latest"
-  updateAt: "2024-01-29"
-  releaseNotes: ""
+  update_at: "2024-01-29"
+  release_notes: ""
   website: "https://ui.com"
   repo: "https://github.com/linuxserver/docker-unifi-network-application"
   support: "https://github.com/linuxserver/docker-unifi-network-application/issues"

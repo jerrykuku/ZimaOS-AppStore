@@ -87,8 +87,8 @@ x-casaos:
     en_US: Prowlarr
   port_map: "9696"
   version: "2.3.5"
-  updateAt: "2026-04-04"
-  releaseNotes:
+  update_at: "2026-04-04"
+  release_notes:
     en_US: |-
       - Prowlarr 2.3.5.5327 updates the browserlist database and improves HTTP file mappers.
       - Fixes backup downloads when paths contain trailing slashes and PWA manifest behavior with URL bases.

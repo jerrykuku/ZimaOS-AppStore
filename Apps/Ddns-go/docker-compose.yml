@@ -57,8 +57,8 @@ x-casaos:
   title:
     en_US: ddns-go
   version: "v6.17.0"
-  updateAt: "2026-05-01"
-  releaseNotes:
+  update_at: "2026-05-01"
+  release_notes:
     en_US: |-
       - v6.17.0 adds ClouDNS support.
       - It fixes callback handling so protocol enablement is respected and the correct HTTP client is used.

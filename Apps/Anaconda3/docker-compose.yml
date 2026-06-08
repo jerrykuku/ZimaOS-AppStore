@@ -77,8 +77,8 @@ x-casaos:
   title:
     en_US: Anaconda3
   version: "2024.10-1"
-  updateAt: "2024-10-31"
-  releaseNotes:
+  update_at: "2024-10-31"
+  release_notes:
     en_US: |-
       - anaconda3-2024.10-1 publishes updated Debian images for Anaconda Distribution 2024.10-1.
     en_GB: |-

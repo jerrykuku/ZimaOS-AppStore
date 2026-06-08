@@ -119,8 +119,8 @@ x-casaos:
   index: /
   port_map: "8080"
   version: "4.3.3"
-  updateAt: "2025-02-20"
-  releaseNotes:
+  update_at: "2025-02-20"
+  release_notes:
     en_US: |-
       - 4.3.3 is a patch release with add-on bug fixes and enhancements.
       - Fixes include basicprofiles delta handling, bluetooth.bluez NullPointerException, easee API limit configuration, ecobee vacation holds, Free@home missing IDs, hdpowerview bridge labels, Hue dynamics support, and huesync API token handling.

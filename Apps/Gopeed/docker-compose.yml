@@ -371,8 +371,8 @@ x-casaos:
   index: /
   port_map: "9999"
   version: "v1.8.3"
-  updateAt: "2025-11-30"
-  releaseNotes:
+  update_at: "2025-11-30"
+  release_notes:
     en_US: |-
       - v1.8.3 publishes refreshed desktop builds for Windows, macOS, and Linux.
       - Linux packaging includes Flathub, Snap, DEB, RPM, AppImage, and Pacman variants.

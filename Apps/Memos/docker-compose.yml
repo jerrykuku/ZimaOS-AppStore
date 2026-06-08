@@ -175,8 +175,8 @@ x-casaos:
     en_US: Memos
   port_map: "5230"
   version: "0.25"
-  updateAt: "2025-07-16"
-  releaseNotes:
+  update_at: "2025-07-16"
+  release_notes:
     en_US: |-
       - v0.25.0 includes database and API changes, so upstream recommends backing up data before upgrading.
       - User sessions now support a sliding window, and webhook data storage moved to user settings.

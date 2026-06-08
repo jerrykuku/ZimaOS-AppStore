@@ -102,8 +102,8 @@ x-casaos:
   index: /
   port_map: "10081"
   version: "32.0"
-  updateAt: "2025-09-27"
-  releaseNotes:
+  update_at: "2025-09-27"
+  release_notes:
     en_US: |-
       - v32.0.0 points to the corresponding Nextcloud server release package.
       - This app tracks the Nextcloud 32.0.0 server release referenced by the upstream GitHub release.

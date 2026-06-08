@@ -60,8 +60,8 @@ x-casaos:
   title:
     en_US: gateway-go
   version: "v2.0.11"
-  updateAt: "2025-07-30"
-  releaseNotes:
+  update_at: "2025-07-30"
+  release_notes:
     en_US: |-
       - v2.0.11 includes OpenWrt-related changes.
       - Panic recovery and service registration handling were updated.

@@ -6,7 +6,7 @@ Scope of this document:
 - For operators building/deploying an external third-party store.
 - For this repository's PR contribution process and repo-specific rules, use [CONTRIBUTING.md](../../CONTRIBUTING.md).
 
-> **📢 What's New:** We've added 7 new optional fields to `meta.json` that enhance store display: `version`, `updateAt`, `releaseNotes`, `website`, `repo`, `support`, and `docs`. These fields are marked with **[New]** in the [meta.json section](#metajson-after-build). Existing stores continue to work without changes, but we recommend adding these fields to improve your app listings.
+> **📢 What's New:** We've added 7 new optional fields to `meta.json` that enhance store display: `version`, `update_at`, `release_notes`, `website`, `repo`, `support`, and `docs`. These fields are marked with **[New]** in the [meta.json section](#metajson-after-build). Existing stores continue to work without changes, but we recommend adding these fields to improve your app listings.
 
 ## Overview
 
@@ -152,8 +152,8 @@ x-casaos:
   thumbnail: thumbnail.png
   tips: {}
   version: "1.0.0"
-  updateAt: "2026-03-01"
-  releaseNotes:
+  update_at: "2026-03-01"
+  release_notes:
     en_US: First release
 ```
 
@@ -461,7 +461,7 @@ Why this matters:
 
 ### Optional improvements
 
-- Add the 7 new metadata fields (`version`, `updateAt`, `releaseNotes`, `website`, `repo`, `support`, `docs`) to enhance store display — see [meta.json](#metajson-after-build)
+- Add the 7 new metadata fields (`version`, `update_at`, `release_notes`, `website`, `repo`, `support`, `docs`) to enhance store display — see [meta.json](#metajson-after-build)
 - Add `supported-languages.json` for multi-language output
 - Replace PNG icons with SVG for better quality
 
@@ -551,8 +551,8 @@ Everything else is moved to `meta.json`.
 | `category` | `string` | App category |
 | `architectures` | `string[]` | Supported CPU architectures |
 | `version` | `string` | **[New, optional]** App version, enhances store display |
-| `updateAt` | `string` | **[New, optional]** Update date (recommended `YYYY-MM-DD`, e.g. `"2026-03-01"`), enhances store display |
-| `releaseNotes` | `string` | **[New, optional]** Release notes (resolved to plain string), enhances store display |
+| `update_at` | `string` | **[New, optional]** Update date (recommended `YYYY-MM-DD`, e.g. `"2026-03-01"`), enhances store display |
+| `release_notes` | `string` | **[New, optional]** Release notes (resolved to plain string), enhances store display |
 | `website` | `string` | **[New, optional]** Official website, enhances store display |
 | `repo` | `string` | **[New, optional]** Source repository, enhances store display |
 | `support` | `string` | **[New, optional]** Support URL, enhances store display |
@@ -633,7 +633,7 @@ All locale keys must use `ll_CC` format (language lowercase + country uppercase)
 
 The build script normalizes locale keys automatically for:
 - `store-config.json`: `name`, `description`
-- `x-casaos`: `title`, `tagline`, `description`, `releaseNotes`, and each nested locale object under `tips`
+- `x-casaos`: `title`, `tagline`, `description`, `release_notes`, and each nested locale object under `tips`
 
 At minimum, provide `en_US` for all i18n fields. For generated locale-specific files, only explicitly defined locales are emitted.
 

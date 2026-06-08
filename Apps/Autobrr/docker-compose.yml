@@ -54,8 +54,8 @@ x-casaos:
     en_US: Modern, easy to use download automation for torrents and usenet.
     zh_CN: 现代、易于使用的Torrents和Usenet下载自动化工具。
   version: "v1.69.0"
-  updateAt: "2025-11-10"
-  releaseNotes:
+  update_at: "2025-11-10"
+  release_notes:
     en_US: |-
       - v1.69.0 adds configurable CORS settings, HTTP resource release on close, Pending release filtering, failed-list refresh warnings, BJ-Share support, and DarkPeers Featured Promo support.
       - Indexer updates include Aither SASL authentication and ReelFlix domain changes.

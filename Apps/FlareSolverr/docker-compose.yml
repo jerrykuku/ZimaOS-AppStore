@@ -43,8 +43,8 @@ x-casaos:
   title:
     en_US: FlareSolverr
   version: "v3.4.5"
-  updateAt: "2025-11-11"
-  releaseNotes:
+  update_at: "2025-11-11"
+  release_notes:
     en_US: |-
       - v3.4.5 reverts the runtime to Python v3.13 and bumps FlareSolverr to 3.4.5.
       - Dockerfile casing and changelog generation were fixed.

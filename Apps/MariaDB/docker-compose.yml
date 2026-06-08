@@ -131,8 +131,8 @@ x-casaos:
     en_US: MariaDB
   category: Developer
   version: "11.4.8"
-  updateAt: "2025-08-06"
-  releaseNotes:
+  update_at: "2025-08-06"
+  release_notes:
     en_US: |-
       - The GitHub release points to the matching MariaDB community server release notes.
       - Detailed changes are delegated to the corresponding MariaDB release-notes page.

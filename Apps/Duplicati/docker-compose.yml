@@ -101,8 +101,8 @@ x-casaos:
   index: /
   port_map: "8200"
   version: "2.1.0"
-  updateAt: "2025-03-06"
-  releaseNotes:
+  update_at: "2025-03-06"
+  release_notes:
     en_US: |-
       - Duplicati 2.1.0 is the configured image line for this CasaOS entry.
       - The upstream 2.1.0.x release notes include critical fixes for failed upload handling, source URL path handling, zip fallback support, and macOS dark/light mode icons.

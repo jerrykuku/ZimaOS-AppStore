@@ -496,8 +496,8 @@ x-casaos:
     ru_RU: Langflow
     tr_TR: Langflow
   version: "1.5.0"
-  updateAt: "2025-07-08"
-  releaseNotes:
+  update_at: "2025-07-08"
+  release_notes:
     en_US: |-
       - 1.5.0 adds RSS, web search, news search, API request, SQL, and DataStax component updates.
       - Flow UI changes include a new Edit Details popover, Flow Status overlay, deploy export option, and output UX improvements.

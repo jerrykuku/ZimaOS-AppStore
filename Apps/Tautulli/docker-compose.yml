@@ -90,8 +90,8 @@ x-casaos:
   index: /
   port_map: "8181"
   version: "2.13.2"
-  updateAt: "2023-10-26"
-  releaseNotes:
+  update_at: "2023-10-26"
+  release_notes:
     en_US: |-
       - v2.13.2 adds quarter-value icons for history watch status.
       - A concurrent streams per day graph and metadata directory exporter field were added.

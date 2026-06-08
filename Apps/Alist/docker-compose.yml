@@ -174,8 +174,8 @@ x-casaos:
   title:
     en_US: Alist
   version: "v3.40.0"
-  updateAt: "2024-11-22"
-  releaseNotes:
+  update_at: "2024-11-22"
+  release_notes:
     en_US: |-
       - v3.40.0 adds cryptographic random string generation for security and OAuth state generation/verification for SSO.
       - Fixes include Baidu Netdisk timestamps, local file owner preservation, closing closed channels, PikPak captcha_sign errors, and OIDC compatibility mode.

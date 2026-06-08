@@ -15,8 +15,8 @@
   "tagline": "eBook Auto Downloader",
   "thumbnail": "/apps/lazylibrarian/assets/thumbnail.webp",
   "tips": {},
-  "updateAt": "2025-12-03",
-  "releaseNotes": "",
+  "update_at": "2025-12-03",
+  "release_notes": "",
   "website": "https://lazylibrarian.gitlab.io/",
   "repo": "https://github.com/lazylibrarian/LazyLibrarian",
   "support": "https://github.com/LazyLibrarian/LazyLibrarian/issues",
@@ -26,5 +26,6 @@
   "categories": [
     "media"
   ],
-  "min_memory": 67108864
+  "min_memory": 67108864,
+  "min_image_size": 138657488
 }

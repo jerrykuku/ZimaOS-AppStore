@@ -1,4 +1,4 @@
 {
   "id": "ddns-updater",
-  "releaseNotes": "- v2.9.0은 domene.shop, loopia.se, vultr.com, myaddr.tools, namesilo.com provider 지원을 추가합니다.\n- Health server 구성은 Docker 밖에서 실행하거나 컨테이너에서 비활성화할 수 있습니다.\n- multi-address public IP, IPv6 hostname resolution, Porkbun, Gandi, DonDominio, Netcup, GCP, 파일 권한, NoIP response parsing, real IP logging, response trimming이 수정되었습니다."
+  "release_notes": "- v2.9.0은 domene.shop, loopia.se, vultr.com, myaddr.tools, namesilo.com provider 지원을 추가합니다.\n- Health server 구성은 Docker 밖에서 실행하거나 컨테이너에서 비활성화할 수 있습니다.\n- multi-address public IP, IPv6 hostname resolution, Porkbun, Gandi, DonDominio, Netcup, GCP, 파일 권한, NoIP response parsing, real IP logging, response trimming이 수정되었습니다."
 }

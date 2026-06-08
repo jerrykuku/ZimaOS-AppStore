@@ -1,4 +1,4 @@
 {
   "id": "tautulli",
-  "releaseNotes": "- v2.13.2 geçmiş izleme durumu için quarter-value simgeleri ekler.\n- Günlük eş zamanlı akış grafiği ve meta veri dizini dışa aktarıcı alanı eklendi.\n- Bildirim ve haber bülteni aracısı listeleri artık en son tetiklenen zamanı gösteriyor ve X-Plex-Language, yapılandırmada geçersiz kılınabilir."
+  "release_notes": "- v2.13.2 geçmiş izleme durumu için quarter-value simgeleri ekler.\n- Günlük eş zamanlı akış grafiği ve meta veri dizini dışa aktarıcı alanı eklendi.\n- Bildirim ve haber bülteni aracısı listeleri artık en son tetiklenen zamanı gösteriyor ve X-Plex-Language, yapılandırmada geçersiz kılınabilir."
 }

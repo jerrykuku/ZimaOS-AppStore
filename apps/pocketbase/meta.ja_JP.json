@@ -1,4 +1,4 @@
 {
   "id": "pocketbase",
-  "releaseNotes": "- v0.25.9 は DynamicModel object/array property reflect type caching を修正します。"
+  "release_notes": "- v0.25.9 は DynamicModel object/array property reflect type caching を修正します。"
 }

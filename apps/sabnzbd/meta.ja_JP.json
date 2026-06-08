@@ -1,4 +1,4 @@
 {
   "id": "sabnzbd",
-  "releaseNotes": "- 4.1.0 は Config、Login、Wizard ページに dark mode を追加し、History に multi-select を追加します。\n- proxy validation、log purging、server IP selection、IPv6 server settings、archive unpacking behavior が更新されました。\n- duplicate detection、filename sorting、paused queue priority handling、API-key log sanitization、disk writes、folder sanitization、article decoding、QuickCheck renaming が修正されました。"
+  "release_notes": "- 4.1.0 は Config、Login、Wizard ページに dark mode を追加し、History に multi-select を追加します。\n- proxy validation、log purging、server IP selection、IPv6 server settings、archive unpacking behavior が更新されました。\n- duplicate detection、filename sorting、paused queue priority handling、API-key log sanitization、disk writes、folder sanitization、article decoding、QuickCheck renaming が修正されました。"
 }

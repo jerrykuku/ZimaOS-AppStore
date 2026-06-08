@@ -1,5 +1,5 @@
 {
   "id": "albyhub",
-  "releaseNotes": "- v1.20.0 lägger till en anslutningsguide för appar från appbutiken the.\n- Alby Hub-transaktioner kan nu exporteras till CSV från the huvudtransaktionslista och enskilda anslutningar/subplånböcker.\n- Kanaler kan köpas med den föredragna betalningsmetoden, och en sökdialog/snabbknapp lades till för snabb navigering.",
+  "release_notes": "- v1.20.0 lägger till en anslutningsguide för appar från appbutiken the.\n- Alby Hub-transaktioner kan nu exporteras till CSV från the huvudtransaktionslista och enskilda anslutningar/subplånböcker.\n- Kanaler kan köpas med den föredragna betalningsmetoden, och en sökdialog/snabbknapp lades till för snabb navigering.",
   "tagline": "En enkel Bitcoin Lightning-nod med en plånbok, underkonton och NWC-anslutningar."
 }

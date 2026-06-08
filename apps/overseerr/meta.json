@@ -14,8 +14,8 @@
   ],
   "thumbnail": "/apps/overseerr/assets/icon.svg",
   "category": "Media",
-  "updateAt": "2023-07-28",
-  "releaseNotes": "- v1.33.2 fixes an issue where incorrect media could change to unknown.",
+  "update_at": "2023-07-28",
+  "release_notes": "- v1.33.2 fixes an issue where incorrect media could change to unknown.",
   "website": "https://overseerr.dev",
   "repo": "https://github.com/sct/overseerr",
   "support": "https://github.com/sct/overseerr/issues",
@@ -25,5 +25,6 @@
   "categories": [
     "media"
   ],
-  "min_memory": 0
+  "min_memory": 0,
+  "min_image_size": 179058660
 }

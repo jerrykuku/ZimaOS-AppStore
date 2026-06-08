@@ -17,8 +17,8 @@
     "arm64",
     "arm"
   ],
-  "updateAt": "2024-11-27",
-  "releaseNotes": "- v5.4.3 fixes deleted icons reappearing after saving from the advanced form.\n- Login page loading, footer menu form submission, cropped QR codes, Manage mode freezes, and missing no-icon account icons were fixed.\n- The /up view no longer loads CSS styles from tailwindcss.com.",
+  "update_at": "2024-11-27",
+  "release_notes": "- v5.4.3 fixes deleted icons reappearing after saving from the advanced form.\n- Login page loading, footer menu form submission, cropped QR codes, Manage mode freezes, and missing no-icon account icons were fixed.\n- The /up view no longer loads CSS styles from tailwindcss.com.",
   "website": "https://2fauth.app",
   "repo": "https://github.com/Bubka/2FAuth",
   "support": "https://github.com/Bubka/2FAuth/issues",
@@ -28,5 +28,6 @@
   "categories": [
     "productivity"
   ],
-  "min_memory": 67108864
+  "min_memory": 67108864,
+  "min_image_size": 36324404
 }

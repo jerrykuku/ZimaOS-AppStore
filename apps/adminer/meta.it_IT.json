@@ -1,4 +1,4 @@
 {
   "id": "adminer",
-  "releaseNotes": "- v5.4.1 corregge lo scollegamento delle chiavi primarie NULL dal comando SQL.\n- L'esportazione CSV non cita più valori zero e le importazioni avvisano quando viene superato upload_max_filesize.\n- Le query di comando salvate SQL possono essere estese a URL e la visualizzazione della definizione di routine MySQL è stata corretta."
+  "release_notes": "- v5.4.1 corregge lo scollegamento delle chiavi primarie NULL dal comando SQL.\n- L'esportazione CSV non cita più valori zero e le importazioni avvisano quando viene superato upload_max_filesize.\n- Le query di comando salvate SQL possono essere estese a URL e la visualizzazione della definizione di routine MySQL è stata corretta."
 }

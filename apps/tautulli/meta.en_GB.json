@@ -1,4 +1,4 @@
 {
   "id": "tautulli",
-  "releaseNotes": "- v2.13.2 adds quarter-value icons for history watch status.\n- A concurrent streams per day graph and metadata directory exporter field were added.\n- Notification and newsletter agent lists now show the last triggered time, and X-Plex-Language can be overridden in config."
+  "release_notes": "- v2.13.2 adds quarter-value icons for history watch status.\n- A concurrent streams per day graph and metadata directory exporter field were added.\n- Notification and newsletter agent lists now show the last triggered time, and X-Plex-Language can be overridden in config."
 }

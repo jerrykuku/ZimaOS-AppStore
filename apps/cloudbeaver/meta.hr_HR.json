@@ -1,4 +1,4 @@
 {
   "id": "cloudbeaver",
-  "releaseNotes": "- Konfigurirana 25.2.5 oznaka slike nema odgovarajući objekt GitHub Release u dbeaver/cloudbeaver.\n- Neka ovaj unos bude vezan za CloudBeaver 25.2 redak slike dok uzvodno ne objavi per-tag napomene o izdanju."
+  "release_notes": "- Konfigurirana 25.2.5 oznaka slike nema odgovarajući objekt GitHub Release u dbeaver/cloudbeaver.\n- Neka ovaj unos bude vezan za CloudBeaver 25.2 redak slike dok uzvodno ne objavi per-tag napomene o izdanju."
 }

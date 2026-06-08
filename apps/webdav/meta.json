@@ -16,8 +16,8 @@
   "tips": {
     "before_install": "Default Account\n\n| Username | Password |\n|----------|----------|\n| `casaos`    | `casaos` |\n"
   },
-  "updateAt": "2025-03-05",
-  "releaseNotes": "",
+  "update_at": "2025-03-05",
+  "release_notes": "",
   "website": "",
   "repo": "https://github.com/ugeek/docker-webdav",
   "support": "https://github.com/ugeek/docker-webdav/issues",
@@ -27,5 +27,6 @@
   "categories": [
     "productivity"
   ],
-  "min_memory": 0
+  "min_memory": 0,
+  "min_image_size": 66338471
 }

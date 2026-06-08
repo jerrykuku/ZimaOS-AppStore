@@ -11,8 +11,8 @@
   "tips": {
     "before_install": ""
   },
-  "updateAt": "2024-10-24",
-  "releaseNotes": "",
+  "update_at": "2024-10-24",
+  "release_notes": "",
   "website": "https://www.jenkins.io/",
   "repo": "https://github.com/jenkinsci/jenkins",
   "support": "https://www.jenkins.io/participate/",
@@ -22,5 +22,6 @@
   "categories": [
     "developer"
   ],
-  "min_memory": 0
+  "min_memory": 0,
+  "min_image_size": 279862047
 }

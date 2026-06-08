@@ -17,8 +17,8 @@
   "tips": {
     "before_install": "| username | password |\n| -------- | -------- |\n| `admin`    | `admin`    |\n"
   },
-  "updateAt": "2025-11-19",
-  "releaseNotes": "- v12.1.4 fixes alerting status unmarshalling to include time intervals.\n- Enterprise dashboard rollup metrics were fixed for last-period summaries and total resets.\n- An Enterprise SCIM security fix for CVE-2025-41115 is included.",
+  "update_at": "2025-11-19",
+  "release_notes": "- v12.1.4 fixes alerting status unmarshalling to include time intervals.\n- Enterprise dashboard rollup metrics were fixed for last-period summaries and total resets.\n- An Enterprise SCIM security fix for CVE-2025-41115 is included.",
   "website": "https://grafana.com/",
   "repo": "https://github.com/grafana/grafana",
   "support": "https://github.com/grafana/grafana/issues",
@@ -28,5 +28,6 @@
   "categories": [
     "developer"
   ],
-  "min_memory": 67108864
+  "min_memory": 67108864,
+  "min_image_size": 201238704
 }

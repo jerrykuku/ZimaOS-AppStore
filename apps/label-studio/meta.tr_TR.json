@@ -1,4 +1,4 @@
 {
   "id": "label-studio",
-  "releaseNotes": "- 1.9.2 eski bir Taksonomi parametresi ekler ve AWS İmza Sürümü 4 sorgu parametrelerini destekler.\n- VERIFY_SSL_CERTS artık deployment-wide HTTPS sertifika doğrulaması için varsayılan olarak true değerini alıyor.\n- Güvenlik, adres XSS sorunlarını ve SSRF DNS yeniden bağlama sorununu düzeltir."
+  "release_notes": "- 1.9.2 eski bir Taksonomi parametresi ekler ve AWS İmza Sürümü 4 sorgu parametrelerini destekler.\n- VERIFY_SSL_CERTS artık deployment-wide HTTPS sertifika doğrulaması için varsayılan olarak true değerini alıyor.\n- Güvenlik, adres XSS sorunlarını ve SSRF DNS yeniden bağlama sorununu düzeltir."
 }

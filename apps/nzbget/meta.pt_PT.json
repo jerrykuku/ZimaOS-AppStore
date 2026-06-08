@@ -1,4 +1,4 @@
 {
   "id": "nzbget",
-  "releaseNotes": "- NZBGet 25.4 adiciona suporte ao conjunto de encriptação TLS 1.3 através da opção ServerX.Cipher.\n- A barra de pesquisa web UI está ativada em ecrãs pequenos.\n- As correções incluem a manipulação do script de scan API, a aplicação da categoria de feed RSS das regras filter, a análise do valor JSON e o método testserver API."
+  "release_notes": "- NZBGet 25.4 adiciona suporte ao conjunto de encriptação TLS 1.3 através da opção ServerX.Cipher.\n- A barra de pesquisa web UI está ativada em ecrãs pequenos.\n- As correções incluem a manipulação do script de scan API, a aplicação da categoria de feed RSS das regras filter, a análise do valor JSON e o método testserver API."
 }

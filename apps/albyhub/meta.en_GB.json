@@ -1,4 +1,4 @@
 {
   "id": "albyhub",
-  "releaseNotes": "- v1.20.0 adds a connection wizard for apps from the app store.\n- Alby Hub transactions can now be exported to CSV from the main transaction list and individual connections/subwallets.\n- Channels can be purchased using the preferred payment method, and a search dialog/hotkey was added for quick navigation."
+  "release_notes": "- v1.20.0 adds a connection wizard for apps from the app store.\n- Alby Hub transactions can now be exported to CSV from the main transaction list and individual connections/subwallets.\n- Channels can be purchased using the preferred payment method, and a search dialog/hotkey was added for quick navigation."
 }

@@ -1,4 +1,4 @@
 {
   "id": "flaresolverr",
-  "releaseNotes": "- v3.4.5 vraća vrijeme izvođenja na Python v3.13 i mijenja FlareSolverr u 3.4.5.\n- Popravljeno je kućište Dockerfilea i generiranje dnevnika promjena."
+  "release_notes": "- v3.4.5 vraća vrijeme izvođenja na Python v3.13 i mijenja FlareSolverr u 3.4.5.\n- Popravljeno je kućište Dockerfilea i generiranje dnevnika promjena."
 }

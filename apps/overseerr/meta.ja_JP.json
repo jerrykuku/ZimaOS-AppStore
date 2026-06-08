@@ -1,4 +1,4 @@
 {
   "id": "overseerr",
-  "releaseNotes": "- v1.33.2 は incorrect media が unknown に変わる可能性がある問題を修正します。"
+  "release_notes": "- v1.33.2 は incorrect media が unknown に変わる可能性がある問題を修正します。"
 }

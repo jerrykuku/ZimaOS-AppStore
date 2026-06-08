@@ -1,4 +1,4 @@
 {
   "id": "cloudbeaver",
-  "releaseNotes": "- Le tag d'image configuré 25.2.5 n'a pas d'objet GitHub Release correspondant dans dbeaver/cloudbeaver.\n- Cette entrée reste liée à la ligne d'image CloudBeaver 25.2 jusqu'à ce que l'amont publie des notes de version par tag."
+  "release_notes": "- Le tag d'image configuré 25.2.5 n'a pas d'objet GitHub Release correspondant dans dbeaver/cloudbeaver.\n- Cette entrée reste liée à la ligne d'image CloudBeaver 25.2 jusqu'à ce que l'amont publie des notes de version par tag."
 }

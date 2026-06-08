@@ -1,6 +1,6 @@
 {
   "id": "tautulli",
-  "releaseNotes": "- v2.13.2 fuegt quarter-value icons fuer history watch status hinzu.\n- Ein concurrent streams per day graph und metadata directory exporter field wurden hinzugefuegt.\n- Notification- und newsletter agent-Listen zeigen nun last triggered time, und X-Plex-Language kann in der Konfiguration ueberschrieben werden.",
-  "tagline": "Überwachen Sie Ihren Plex Media Server und vieles mehr.",
-  "description": "Tautulli ist eine Drittanwendung, die Sie neben Ihrem Plex Media Server ausführen können, um Aktivitäten zu überwachen und verschiedene Statistiken zu verfolgen."
+  "release_notes": "- v2.13.2 fuegt quarter-value icons fuer history watch status hinzu.\n- Ein concurrent streams per day graph und metadata directory exporter field wurden hinzugefuegt.\n- Notification- und newsletter agent-Listen zeigen nun last triggered time, und X-Plex-Language kann in der Konfiguration ueberschrieben werden.",
+  "description": "Tautulli ist eine Drittanwendung, die Sie neben Ihrem Plex Media Server ausführen können, um Aktivitäten zu überwachen und verschiedene Statistiken zu verfolgen.",
+  "tagline": "Überwachen Sie Ihren Plex Media Server und vieles mehr."
 }

@@ -1,4 +1,4 @@
 {
   "id": "myspeed",
-  "releaseNotes": "- Storage management wurde hinzugefuegt.\n- LibreSpeed- und Cloudflare Speed-Support wurden hinzugefuegt.\n- Prometheus endpoint und notification-bezogene Verbesserungen wurden hinzugefuegt."
+  "release_notes": "- Storage management wurde hinzugefuegt.\n- LibreSpeed- und Cloudflare Speed-Support wurden hinzugefuegt.\n- Prometheus endpoint und notification-bezogene Verbesserungen wurden hinzugefuegt."
 }

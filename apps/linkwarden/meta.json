@@ -14,8 +14,8 @@
     "amd64",
     "arm64"
   ],
-  "updateAt": "2026-04-22",
-  "releaseNotes": "- Linkwarden 2.14.1 adds support for serving preserved HTML archives from a separate public hostname to isolate untrusted content from the main app.\n- It improves the tag selection experience.\n- The release also includes stability fixes and bug fixes.",
+  "update_at": "2026-04-22",
+  "release_notes": "- Linkwarden 2.14.1 adds support for serving preserved HTML archives from a separate public hostname to isolate untrusted content from the main app.\n- It improves the tag selection experience.\n- The release also includes stability fixes and bug fixes.",
   "website": "https://linkwarden.app/",
   "repo": "https://github.com/linkwarden/linkwarden",
   "support": "",
@@ -25,5 +25,6 @@
   "categories": [
     "productivity"
   ],
-  "min_memory": 1073741824
+  "min_memory": 1073741824,
+  "min_image_size": 1128628189
 }

@@ -1,4 +1,4 @@
 {
   "id": "pocketbase",
-  "releaseNotes": "- v0.25.9 fikser DynamicModel objekt/array-egenskap reflekterer typebufring."
+  "release_notes": "- v0.25.9 fikser DynamicModel objekt/array-egenskap reflekterer typebufring."
 }

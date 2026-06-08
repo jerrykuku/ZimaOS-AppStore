@@ -1,4 +1,4 @@
 {
   "id": "pocketbase",
-  "releaseNotes": "- v0.25.9 fixar DynamicModel objekt/array-egenskapen återspeglar typcachelagring."
+  "release_notes": "- v0.25.9 fixar DynamicModel objekt/array-egenskapen återspeglar typcachelagring."
 }

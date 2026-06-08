@@ -1,4 +1,4 @@
 {
   "id": "flaresolverr",
-  "releaseNotes": "- v3.4.5 revient à l'environnement d'exécution Python v3.13 et met FlareSolverr à 3.4.5.\n- La casse du Dockerfile et la génération du changelog ont été corrigées."
+  "release_notes": "- v3.4.5 revient à l'environnement d'exécution Python v3.13 et met FlareSolverr à 3.4.5.\n- La casse du Dockerfile et la génération du changelog ont été corrigées."
 }

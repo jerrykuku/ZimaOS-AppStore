@@ -1,4 +1,4 @@
 {
   "id": "siyuan-note",
-  "releaseNotes": "- v3.0.1 lägger till granskningsläge för flashkortuppsättning.\n- Förbättringar inkluderar Mermaid-felloggar, F13-F32-genvägar, databas relation-field-beteende, förbättringar av mobilmeny och kolumner för databastabellvymallar.\n- Korrigeringar täcker Azure OpenAI konfiguration, inline markdown redigering, databas export datum, plain-text klistra in och user-guide flikstängning."
+  "release_notes": "- v3.0.1 lägger till granskningsläge för flashkortuppsättning.\n- Förbättringar inkluderar Mermaid-felloggar, F13-F32-genvägar, databas relation-field-beteende, förbättringar av mobilmeny och kolumner för databastabellvymallar.\n- Korrigeringar täcker Azure OpenAI konfiguration, inline markdown redigering, databas export datum, plain-text klistra in och user-guide flikstängning."
 }

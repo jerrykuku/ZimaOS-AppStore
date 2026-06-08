@@ -1,4 +1,4 @@
 {
   "id": "siyuan-note",
-  "releaseNotes": "- v3.0.1 bilgi kartı seti inceleme modunu ekler.\n- Geliştirmeler arasında Denizkızı hata günlükleri, F13-F32 kısayolları, veritabanı relation-field davranışı, mobil menü iyileştirmeleri ve veritabanı tablo görünümü şablon sütunları yer alır.\n- Düzeltmeler, Azure OpenAI kurulumunu, satır içi işaretleme düzenlemeyi, veritabanı tarihini dışa aktarmayı, plain-text yapıştırmayı ve user-guide sekmesini kapatmayı kapsar."
+  "release_notes": "- v3.0.1 bilgi kartı seti inceleme modunu ekler.\n- Geliştirmeler arasında Denizkızı hata günlükleri, F13-F32 kısayolları, veritabanı relation-field davranışı, mobil menü iyileştirmeleri ve veritabanı tablo görünümü şablon sütunları yer alır.\n- Düzeltmeler, Azure OpenAI kurulumunu, satır içi işaretleme düzenlemeyi, veritabanı tarihini dışa aktarmayı, plain-text yapıştırmayı ve user-guide sekmesini kapatmayı kapsar."
 }

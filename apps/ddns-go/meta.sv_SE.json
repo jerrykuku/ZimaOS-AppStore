@@ -1,4 +1,4 @@
 {
   "id": "ddns-go",
-  "releaseNotes": "- v6.17.0 lägger till ClouDNS-stöd.\n- Den fixar återuppringningshantering så att protokollaktivering respekteras och rätt HTTP-klient används."
+  "release_notes": "- v6.17.0 lägger till ClouDNS-stöd.\n- Den fixar återuppringningshantering så att protokollaktivering respekteras och rätt HTTP-klient används."
 }

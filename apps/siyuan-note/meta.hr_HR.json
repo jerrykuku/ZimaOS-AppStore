@@ -1,4 +1,4 @@
 {
   "id": "siyuan-note",
-  "releaseNotes": "- v3.0.1 dodaje način pregleda skupa kartica.\n- Poboljšanja uključuju zapisnike grešaka Mermaid, prečace F13-F32, ponašanje baze podataka relation-field, poboljšanja mobilnog izbornika i stupce predloška prikaza tablice baze podataka.\n- Popravci pokrivaju postavljanje Azure OpenAI, ugrađeno uređivanje oznaka, izvoz datuma baze podataka, lijepljenje plain-text i zatvaranje kartice user-guide."
+  "release_notes": "- v3.0.1 dodaje način pregleda skupa kartica.\n- Poboljšanja uključuju zapisnike grešaka Mermaid, prečace F13-F32, ponašanje baze podataka relation-field, poboljšanja mobilnog izbornika i stupce predloška prikaza tablice baze podataka.\n- Popravci pokrivaju postavljanje Azure OpenAI, ugrađeno uređivanje oznaka, izvoz datuma baze podataka, lijepljenje plain-text i zatvaranje kartice user-guide."
 }

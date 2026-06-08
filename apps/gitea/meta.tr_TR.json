@@ -1,4 +1,4 @@
 {
   "id": "gitea",
-  "releaseNotes": "- v1.25.0, depo arşiv akışını, yapılandırılabilir Git uzak adlarını ve iş akışı başarı/başarısızlık e-postalarını ekler.\n- OpenID Bağlan, depo içerikleri APIs, SSH onaylama imzalama ve 3D/CAD önizlemeleri iyileştirildi.\n- Güvenlik güncellemeleri, public-key yükseltmesini ve 1.25.0-rc0'den sonraki tüm 1.24.x güvenlik düzeltmelerini içerir."
+  "release_notes": "- v1.25.0, depo arşiv akışını, yapılandırılabilir Git uzak adlarını ve iş akışı başarı/başarısızlık e-postalarını ekler.\n- OpenID Bağlan, depo içerikleri APIs, SSH onaylama imzalama ve 3D/CAD önizlemeleri iyileştirildi.\n- Güvenlik güncellemeleri, public-key yükseltmesini ve 1.25.0-rc0'den sonraki tüm 1.24.x güvenlik düzeltmelerini içerir."
 }

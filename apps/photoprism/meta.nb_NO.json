@@ -1,4 +1,4 @@
 {
   "id": "photoprism",
-  "releaseNotes": "- PhotoPrism build 250228 legger til en Retina 5K miniatyrstørrelse og forbedringer av brukervennlighet/ytelse.\n- Seeroppdateringer reduserer ivrig forhåndsinnlasting, WebDAV opplastingshandlinger er nå avhengig av at deling er aktivert, og M4V filer behandles som MP4-compatible."
+  "release_notes": "- PhotoPrism build 250228 legger til en Retina 5K miniatyrstørrelse og forbedringer av brukervennlighet/ytelse.\n- Seeroppdateringer reduserer ivrig forhåndsinnlasting, WebDAV opplastingshandlinger er nå avhengig av at deling er aktivert, og M4V filer behandles som MP4-compatible."
 }

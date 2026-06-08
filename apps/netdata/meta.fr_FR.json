@@ -1,4 +1,4 @@
 {
   "id": "netdata",
-  "releaseNotes": "- v2.8.1 corrige la disparition des dynamic-configuration vnodes apres agent restart.\n- PSS memory sampling dans apps.plugin est desactive par defaut pour reduire la charge CPU.\n- Alert source unit display, Windows datafile sync logging, dbengine-disabled compilation et Podman container name resolution ont ete ameliores."
+  "release_notes": "- v2.8.1 corrige la disparition des dynamic-configuration vnodes apres agent restart.\n- PSS memory sampling dans apps.plugin est desactive par defaut pour reduire la charge CPU.\n- Alert source unit display, Windows datafile sync logging, dbengine-disabled compilation et Podman container name resolution ont ete ameliores."
 }

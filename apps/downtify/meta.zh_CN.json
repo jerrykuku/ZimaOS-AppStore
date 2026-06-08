@@ -1,4 +1,4 @@
 {
   "id": "downtify",
-  "releaseNotes": "- 2.6.0 增加了将音乐保存到 artist folders 的选项。\n- 增加了禁用 lyric downloads 的设置。\n- 修复了 download history 清理和 settings persistence。"
+  "release_notes": "- 2.6.0 增加了将音乐保存到 artist folders 的选项。\n- 增加了禁用 lyric downloads 的设置。\n- 修复了 download history 清理和 settings persistence。"
 }

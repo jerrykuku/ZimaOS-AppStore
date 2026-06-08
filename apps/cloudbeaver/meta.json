@@ -13,8 +13,8 @@
     "/apps/cloudbeaver/assets/screenshot-3.webp"
   ],
   "tagline": "Cloud Database Manager.",
-  "updateAt": "2025-11-12",
-  "releaseNotes": "- The configured 25.2.5 image tag has no matching GitHub Release object in dbeaver/cloudbeaver.\n- Keep this entry tied to the CloudBeaver 25.2 image line until upstream publishes per-tag release notes.",
+  "update_at": "2025-11-12",
+  "release_notes": "- The configured 25.2.5 image tag has no matching GitHub Release object in dbeaver/cloudbeaver.\n- Keep this entry tied to the CloudBeaver 25.2 image line until upstream publishes per-tag release notes.",
   "website": "https://dbeaver.com/download/cloudbeaver/",
   "repo": "https://github.com/dbeaver/cloudbeaver",
   "support": "https://github.com/dbeaver/cloudbeaver/issues",
@@ -24,5 +24,6 @@
   "categories": [
     "developer"
   ],
-  "min_memory": 268435456
+  "min_memory": 268435456,
+  "min_image_size": 457189627
 }

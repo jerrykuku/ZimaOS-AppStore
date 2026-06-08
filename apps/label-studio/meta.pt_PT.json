@@ -1,4 +1,4 @@
 {
   "id": "label-studio",
-  "releaseNotes": "- 1.9.2 adiciona um parâmetro de taxonomia herdado e suporte para parâmetros de consulta AWS Signature versão 4.\n- VERIFY_SSL_CERTS tem agora como padrão verdadeiro para a verificação do certificado deployment-wide HTTPS.\n- As correções de segurança abordam problemas de XSS e um problema de religação de SSRF DNS."
+  "release_notes": "- 1.9.2 adiciona um parâmetro de taxonomia herdado e suporte para parâmetros de consulta AWS Signature versão 4.\n- VERIFY_SSL_CERTS tem agora como padrão verdadeiro para a verificação do certificado deployment-wide HTTPS.\n- As correções de segurança abordam problemas de XSS e um problema de religação de SSRF DNS."
 }

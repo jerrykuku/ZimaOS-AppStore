@@ -19,8 +19,8 @@
   ],
   "tagline": "A web app to listen Youtube audio source.",
   "thumbnail": "/apps/holoplay/assets/thumbnail.webp",
-  "updateAt": "2025-03-18",
-  "releaseNotes": "",
+  "update_at": "2025-03-18",
+  "release_notes": "",
   "website": "",
   "repo": "https://github.com/stephane-r/HoloPlay",
   "support": "https://github.com/stephane-r/HoloPlay/issues",
@@ -30,5 +30,6 @@
   "categories": [
     "media"
   ],
-  "min_memory": 0
+  "min_memory": 0,
+  "min_image_size": 23196904
 }

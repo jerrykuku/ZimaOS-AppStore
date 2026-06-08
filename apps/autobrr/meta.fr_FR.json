@@ -1,4 +1,4 @@
 {
   "id": "autobrr",
-  "releaseNotes": "- v1.69.0 ajoute CORS configurable, la liberation des ressources HTTP a la fermeture, le filtrage Pending release, des avertissements de rafraichissement failed-list, la prise en charge BJ-Share et DarkPeers Featured Promo.\n- Les mises a jour d'indexer incluent Aither SASL authentication et les changements de domaine ReelFlix.\n- Les correctifs couvrent les appels database rows.Close manquants, la conversion SQLite vers PostgreSQL, HHD regex, les tests de proxy credential, l'analyse Windows exec arg et un crash de menu deroulant web."
+  "release_notes": "- v1.69.0 ajoute CORS configurable, la liberation des ressources HTTP a la fermeture, le filtrage Pending release, des avertissements de rafraichissement failed-list, la prise en charge BJ-Share et DarkPeers Featured Promo.\n- Les mises a jour d'indexer incluent Aither SASL authentication et les changements de domaine ReelFlix.\n- Les correctifs couvrent les appels database rows.Close manquants, la conversion SQLite vers PostgreSQL, HHD regex, les tests de proxy credential, l'analyse Windows exec arg et un crash de menu deroulant web."
 }

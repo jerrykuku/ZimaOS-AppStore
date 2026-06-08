@@ -15,8 +15,8 @@
   "tagline": "Emby brings together your personal videos, music, photos, and live television.",
   "thumbnail": "/apps/emby/assets/thumbnail.webp",
   "tips": {},
-  "updateAt": "2025-09-30",
-  "releaseNotes": "- Emby Server 4.9.1 improves library scanning, live TV guide refresh, and database performance.\n- The release updates to .NET 8 and sqlite 3.49.2, and adds maintenance mode and network request protocol options.\n- Fixes include collection content restrictions, video rotation while transcoding, recording folder years, trailer metadata refresh, and related 4.9.1 server issues.",
+  "update_at": "2025-09-30",
+  "release_notes": "- Emby Server 4.9.1 improves library scanning, live TV guide refresh, and database performance.\n- The release updates to .NET 8 and sqlite 3.49.2, and adds maintenance mode and network request protocol options.\n- Fixes include collection content restrictions, video rotation while transcoding, recording folder years, trailer metadata refresh, and related 4.9.1 server issues.",
   "website": "https://emby.media/",
   "repo": "https://github.com/linuxserver/docker-emby",
   "support": "https://emby.media/community/",
@@ -26,5 +26,6 @@
   "categories": [
     "media"
   ],
-  "min_memory": 67108864
+  "min_memory": 67108864,
+  "min_image_size": 331971667
 }

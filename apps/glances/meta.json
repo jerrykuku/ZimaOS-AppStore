@@ -11,8 +11,8 @@
     "/apps/glances/assets/screenshot-1.webp"
   ],
   "tagline": "Cross-platform monitoring tool.",
-  "updateAt": "2025-11-05",
-  "releaseNotes": "- v4.4.1 points to the official full changelog from v4.4.0 to v4.4.1.",
+  "update_at": "2025-11-05",
+  "release_notes": "- v4.4.1 points to the official full changelog from v4.4.0 to v4.4.1.",
   "website": "https://nicolargo.github.io/glances/",
   "repo": "https://github.com/nicolargo/glances",
   "support": "https://github.com/nicolargo/glances/issues",
@@ -22,5 +22,6 @@
   "categories": [
     "productivity"
   ],
-  "min_memory": 268435456
+  "min_memory": 268435456,
+  "min_image_size": 33819941
 }

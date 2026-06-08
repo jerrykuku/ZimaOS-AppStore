@@ -1,4 +1,4 @@
 {
   "id": "downtify",
-  "releaseNotes": "- 2.6.0 ajoute l'option d'enregistrer la musique dans des artist folders.\n- Un parametre permettant de desactiver lyric downloads a ete ajoute.\n- Le nettoyage de download history et settings persistence ont ete corriges."
+  "release_notes": "- 2.6.0 ajoute l'option d'enregistrer la musique dans des artist folders.\n- Un parametre permettant de desactiver lyric downloads a ete ajoute.\n- Le nettoyage de download history et settings persistence ont ete corriges."
 }

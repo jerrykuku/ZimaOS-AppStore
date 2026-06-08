@@ -1,4 +1,4 @@
 {
   "id": "nextcloud",
-  "releaseNotes": "- v32.0.0 ilgili Nextcloud sunucu sürüm paketine işaret eder.\n- Bu uygulama, the yukarı akış GitHub sürümü tarafından başvurulan Nextcloud 32.0.0 sunucu sürümünü izler."
+  "release_notes": "- v32.0.0 ilgili Nextcloud sunucu sürüm paketine işaret eder.\n- Bu uygulama, the yukarı akış GitHub sürümü tarafından başvurulan Nextcloud 32.0.0 sunucu sürümünü izler."
 }

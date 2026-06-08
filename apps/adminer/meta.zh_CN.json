@@ -1,6 +1,6 @@
 {
   "id": "adminer",
-  "releaseNotes": "- v5.4.1 修复了从 SQL command 取消关联 NULL primary key 的问题。\n- CSV 导出不再给零值加引号，导入时会在超过 upload_max_filesize 时提示警告。\n- 已保存的 SQL command 查询可以延长到 URL，MySQL routine definition 显示也已修复。",
-  "tagline": "单PHP文件的数据库管理工具",
-  "description": "Adminer（前身为phpMinAdmin）是一个用PHP编写的功能齐全的数据库管理工具。区别于phpMyAdmin，它仅为单个部署到目标服务器的文件（轻量）。Adminer可用于MySQL、PostgreSQL、SQLite、MS SQL、Oracle、Firebird、SimpleDB、Elasticsearch和MongoDB。"
+  "release_notes": "- v5.4.1 修复了从 SQL command 取消关联 NULL primary key 的问题。\n- CSV 导出不再给零值加引号，导入时会在超过 upload_max_filesize 时提示警告。\n- 已保存的 SQL command 查询可以延长到 URL，MySQL routine definition 显示也已修复。",
+  "description": "Adminer（前身为phpMinAdmin）是一个用PHP编写的功能齐全的数据库管理工具。区别于phpMyAdmin，它仅为单个部署到目标服务器的文件（轻量）。Adminer可用于MySQL、PostgreSQL、SQLite、MS SQL、Oracle、Firebird、SimpleDB、Elasticsearch和MongoDB。",
+  "tagline": "单PHP文件的数据库管理工具"
 }

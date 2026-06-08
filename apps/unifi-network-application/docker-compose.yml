@@ -15,7 +15,7 @@ services:
     - PGID=$PGID
     - PUID=$PUID
     - TZ=$TZ
-    image: lscr.io/linuxserver/unifi-network-application@sha256:71d3c32763e6a00d2e1924a7c42fa13e0b9e199ca4d2f7d660bdd514aeff5ef7
+    image: lscr.io/linuxserver/unifi-network-application@sha256:b4e5b6d5190750e329c9d0e447b7cfea076d8d96dbc9500403c60176ce88d40e
     ports:
     - target: 8443
       published: '8443'

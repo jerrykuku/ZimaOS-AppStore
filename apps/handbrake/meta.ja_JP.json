@@ -1,4 +1,4 @@
 {
   "id": "handbrake",
-  "releaseNotes": "- v25.10.1 は Automatic Video Converter で安定性を確認する前に video files をロックします。\n- コンテナ停止中の Automatic Video Converter cleanup が強化されました。"
+  "release_notes": "- v25.10.1 は Automatic Video Converter で安定性を確認する前に video files をロックします。\n- コンテナ停止中の Automatic Video Converter cleanup が強化されました。"
 }

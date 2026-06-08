@@ -14,8 +14,8 @@
     "/apps/retroarch/assets/screenshot-3.webp"
   ],
   "thumbnail": "",
-  "updateAt": "2025-08-06",
-  "releaseNotes": "",
+  "update_at": "2025-08-06",
+  "release_notes": "",
   "website": "https://www.retroarch.com",
   "repo": "https://github.com/libretro/RetroArch",
   "support": "https://github.com/libretro/RetroArch/issues",
@@ -25,5 +25,6 @@
   "categories": [
     "media"
   ],
-  "min_memory": 67108864
+  "min_memory": 67108864,
+  "min_image_size": 1129378774
 }

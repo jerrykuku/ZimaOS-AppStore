@@ -13,8 +13,8 @@
   ],
   "tagline": "File processing made easy!",
   "description": "Save storage space with efficient file processing.\n\nFileFlows lets you monitor and process any file type with custom flows. Videos, audio, images, archives, comics, eBooks—you name it!\n",
-  "updateAt": "2024-12-18",
-  "releaseNotes": "",
+  "update_at": "2024-12-18",
+  "release_notes": "",
   "website": "https://fileflows.com/",
   "repo": "",
   "support": "https://fileflows.com/docs",
@@ -24,5 +24,6 @@
   "categories": [
     "media"
   ],
-  "min_memory": 0
+  "min_memory": 0,
+  "min_image_size": 1335693233
 }

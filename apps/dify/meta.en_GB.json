@@ -1,4 +1,4 @@
 {
   "id": "dify",
-  "releaseNotes": "- 0.12.1 fixes custom icon display in the webapp and file handling in Start forms.\n- LLM memory processing, conversation deletion, app creation, and template import errors were corrected.\n- The release includes upgrade guidance for Docker Compose deployments."
+  "release_notes": "- 0.12.1 fixes custom icon display in the webapp and file handling in Start forms.\n- LLM memory processing, conversation deletion, app creation, and template import errors were corrected.\n- The release includes upgrade guidance for Docker Compose deployments."
 }

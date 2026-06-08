@@ -1,4 +1,4 @@
 {
   "id": "freshrss",
-  "releaseNotes": "- 1.27.1 é uma versão de segurança e bug-fix para a série 1.27.x.\n- Mantém os critérios de classificação/ordem após marcar os artigos como lidos e adiciona suporte à verificação de saúde Docker.\n- As correções de segurança incluem a regeneração da sessão de login, tratamento de linguagem mais rigoroso, restrições cURL e correções CSRF."
+  "release_notes": "- 1.27.1 é uma versão de segurança e bug-fix para a série 1.27.x.\n- Mantém os critérios de classificação/ordem após marcar os artigos como lidos e adiciona suporte à verificação de saúde Docker.\n- As correções de segurança incluem a regeneração da sessão de login, tratamento de linguagem mais rigoroso, restrições cURL e correções CSRF."
 }

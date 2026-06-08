@@ -1,4 +1,4 @@
 {
   "id": "myspeed",
-  "releaseNotes": "- Добавлено управление хранилищем.\n- Добавлена ​​поддержка LibreSpeed и Cloudflare Speed.\n- Добавлена ​​конечная точка Prometheus и улучшения notification-related."
+  "release_notes": "- Добавлено управление хранилищем.\n- Добавлена ​​поддержка LibreSpeed и Cloudflare Speed.\n- Добавлена ​​конечная точка Prometheus и улучшения notification-related."
 }

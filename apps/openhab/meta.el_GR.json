@@ -1,4 +1,4 @@
 {
   "id": "openhab",
-  "releaseNotes": "- Το 4.3.3 είναι μια έκδοση ενημέρωσης κώδικα με add-on διορθώσεις σφαλμάτων και βελτιώσεις.\n- Οι διορθώσεις περιλαμβάνουν χειρισμό δέλτα βασικών προφίλ, bluetooth.bluez NullPointerException, ρύθμιση παραμέτρων ορίου easee API, κράτηση ecobee vacation, Free@home που λείπει IDs, ετικέτες γέφυρας hdpowerview, υποστήριξη Hue dynamics __R handling7_nc και huesN.\n- Τα φίλτρα χρέωσης Energidataservice και πολλά άλλα add-ons ενημερώθηκαν."
+  "release_notes": "- Το 4.3.3 είναι μια έκδοση ενημέρωσης κώδικα με add-on διορθώσεις σφαλμάτων και βελτιώσεις.\n- Οι διορθώσεις περιλαμβάνουν χειρισμό δέλτα βασικών προφίλ, bluetooth.bluez NullPointerException, ρύθμιση παραμέτρων ορίου easee API, κράτηση ecobee vacation, Free@home που λείπει IDs, ετικέτες γέφυρας hdpowerview, υποστήριξη Hue dynamics __R handling7_nc και huesN.\n- Τα φίλτρα χρέωσης Energidataservice και πολλά άλλα add-ons ενημερώθηκαν."
 }

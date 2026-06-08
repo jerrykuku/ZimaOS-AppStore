@@ -12,8 +12,8 @@
     "before_install": "Default user: `casaos`\nDefault password: `casaos`\nDefault database: `casaos`\n\nDefault root password: `casaos`\n"
   },
   "category": "Developer",
-  "updateAt": "2025-08-06",
-  "releaseNotes": "- The GitHub release points to the matching MariaDB community server release notes.\n- Detailed changes are delegated to the corresponding MariaDB release-notes page.",
+  "update_at": "2025-08-06",
+  "release_notes": "- The GitHub release points to the matching MariaDB community server release notes.\n- Detailed changes are delegated to the corresponding MariaDB release-notes page.",
   "website": "https://mariadb.org/",
   "repo": "https://github.com/MariaDB/server",
   "support": "https://mariadb.com/docs/general-resources/community/community/faq/getting-help-with-mariadb",
@@ -23,5 +23,6 @@
   "categories": [
     "developer"
   ],
-  "min_memory": 0
+  "min_memory": 0,
+  "min_image_size": 106462809
 }

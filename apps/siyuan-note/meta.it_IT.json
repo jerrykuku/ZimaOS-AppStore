@@ -1,4 +1,4 @@
 {
   "id": "siyuan-note",
-  "releaseNotes": "- v3.0.1 aggiunge la modalità di revisione del set di flashcard.\n- I miglioramenti includono registri degli errori della sirena, scorciatoie F13-F32, comportamento del database relation-field, miglioramenti del menu mobile e colonne del modello di visualizzazione della tabella del database.\n- Le correzioni riguardano l'installazione di OpenAI di Azure, la modifica del markdown in linea, l'esportazione della data del database, l'incollamento di plain-text e la chiusura della scheda user-guide."
+  "release_notes": "- v3.0.1 aggiunge la modalità di revisione del set di flashcard.\n- I miglioramenti includono registri degli errori della sirena, scorciatoie F13-F32, comportamento del database relation-field, miglioramenti del menu mobile e colonne del modello di visualizzazione della tabella del database.\n- Le correzioni riguardano l'installazione di OpenAI di Azure, la modifica del markdown in linea, l'esportazione della data del database, l'incollamento di plain-text e la chiusura della scheda user-guide."
 }

@@ -1,4 +1,4 @@
 {
   "id": "dify",
-  "releaseNotes": "- 0.12.1 risolve la visualizzazione personalizzata delle icone nella webapp e la gestione dei file nei moduli Start.\n- Sono stati corretti gli errori di elaborazione della memoria LLM, eliminazione delle conversazioni, creazione di app e importazione di modelli.\n- La versione include indicazioni sull'aggiornamento per le distribuzioni Docker Compose."
+  "release_notes": "- 0.12.1 risolve la visualizzazione personalizzata delle icone nella webapp e la gestione dei file nei moduli Start.\n- Sono stati corretti gli errori di elaborazione della memoria LLM, eliminazione delle conversazioni, creazione di app e importazione di modelli.\n- La versione include indicazioni sull'aggiornamento per le distribuzioni Docker Compose."
 }

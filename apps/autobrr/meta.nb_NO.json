@@ -1,4 +1,4 @@
 {
   "id": "autobrr",
-  "releaseNotes": "- v1.69.0 legger til konfigurerbare CORS-innstillinger, HTTP ressursutgivelse ved lukking, Ventende utgivelsesfiltrering, failed-list oppdateringsvarsler, BJ-Share-støtte og DarkPeers Utvalgt promo-støtte.\n- Indekseringsoppdateringer inkluderer Aither SASL-autentisering og ReelFlix-domeneendringer.\n- Rettelser inkluderer manglende database-rows.Close-anrop, SQLite-to-PostgreSQL-konverteringsproblemer, HHD regex, proxy-legitimasjonstesting, Windows exec-arg-parsing og en nett-rullegardinkrasj."
+  "release_notes": "- v1.69.0 legger til konfigurerbare CORS-innstillinger, HTTP ressursutgivelse ved lukking, Ventende utgivelsesfiltrering, failed-list oppdateringsvarsler, BJ-Share-støtte og DarkPeers Utvalgt promo-støtte.\n- Indekseringsoppdateringer inkluderer Aither SASL-autentisering og ReelFlix-domeneendringer.\n- Rettelser inkluderer manglende database-rows.Close-anrop, SQLite-to-PostgreSQL-konverteringsproblemer, HHD regex, proxy-legitimasjonstesting, Windows exec-arg-parsing og en nett-rullegardinkrasj."
 }

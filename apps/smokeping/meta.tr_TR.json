@@ -1,4 +1,4 @@
 {
   "id": "smokeping",
-  "releaseNotes": "- 2.8.2, otomatik derleme testi ve InfluxDB desteği içeren bir toplama sürümüdür.\n- Prob işleme, FPing command-line davranışı, SSH işleme, yakınlaştırma modu URLs, kırpıcı relative-time girişi, yardımcı öğeler için yapılandırma yeniden yüklemeleri, şablonlar, kayıp renkler ve grafik başlıkları iyileştirildi.\n- Düzeltmeler arasında FindBin'nin geri yüklenmesi, eksik README'nin eklenmesi ve FTPtransfer.pm'daki yazımın düzeltilmesi yer alıyor."
+  "release_notes": "- 2.8.2, otomatik derleme testi ve InfluxDB desteği içeren bir toplama sürümüdür.\n- Prob işleme, FPing command-line davranışı, SSH işleme, yakınlaştırma modu URLs, kırpıcı relative-time girişi, yardımcı öğeler için yapılandırma yeniden yüklemeleri, şablonlar, kayıp renkler ve grafik başlıkları iyileştirildi.\n- Düzeltmeler arasında FindBin'nin geri yüklenmesi, eksik README'nin eklenmesi ve FTPtransfer.pm'daki yazımın düzeltilmesi yer alıyor."
 }

@@ -1,4 +1,4 @@
 {
   "id": "label-studio",
-  "releaseNotes": "- 1.9.2 adds a legacy Taxonomy parameter and support for AWS Signature Version 4 query parameters.\n- VERIFY_SSL_CERTS now defaults to true for deployment-wide HTTPS certificate verification.\n- Security fixes address XSS issues and an SSRF DNS rebinding issue."
+  "release_notes": "- 1.9.2 adds a legacy Taxonomy parameter and support for AWS Signature Version 4 query parameters.\n- VERIFY_SSL_CERTS now defaults to true for deployment-wide HTTPS certificate verification.\n- Security fixes address XSS issues and an SSRF DNS rebinding issue."
 }

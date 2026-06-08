@@ -1,4 +1,4 @@
 {
   "id": "cloudbeaver",
-  "releaseNotes": "- 設定されている 25.2.5 イメージタグには、dbeaver/cloudbeaver 内で対応する GitHub Release オブジェクトがありません。\n- 上流がタグ単位の release notes を公開するまで、このエントリは CloudBeaver 25.2 イメージ系統に紐づけます。"
+  "release_notes": "- 設定されている 25.2.5 イメージタグには、dbeaver/cloudbeaver 内で対応する GitHub Release オブジェクトがありません。\n- 上流がタグ単位の release notes を公開するまで、このエントリは CloudBeaver 25.2 イメージ系統に紐づけます。"
 }

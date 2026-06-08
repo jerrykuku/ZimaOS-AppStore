@@ -13,8 +13,8 @@
     "/apps/homebridge/assets/screenshot-2.webp"
   ],
   "tagline": "HomeKit support for the impatient.",
-  "updateAt": "2026-03-29",
-  "releaseNotes": "- Latest upstream release v1.9.0 adds updateDisplayName().\n- It fixes handleUpdatePlatformAccessories() and allows Characteristic.SerialNumber to be set through config.json.\n- The release includes minor dependency updates and uses hap-nodejs v0.12.3.",
+  "update_at": "2026-03-29",
+  "release_notes": "- Latest upstream release v1.9.0 adds updateDisplayName().\n- It fixes handleUpdatePlatformAccessories() and allows Characteristic.SerialNumber to be set through config.json.\n- The release includes minor dependency updates and uses hap-nodejs v0.12.3.",
   "website": "https://homebridge.io/",
   "repo": "https://github.com/homebridge/homebridge",
   "support": "https://github.com/homebridge/homebridge/issues",
@@ -24,5 +24,6 @@
   "categories": [
     "home automation"
   ],
-  "min_memory": 0
+  "min_memory": 0,
+  "min_image_size": 434171024
 }

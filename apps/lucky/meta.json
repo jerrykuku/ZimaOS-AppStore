@@ -18,8 +18,8 @@
     "before_install": "Default login account `666`, Default login password `666`,tips:`Before each update, remember to back up the configuration`."
   },
   "store_app_id": "lucky",
-  "updateAt": "2025-11-20",
-  "releaseNotes": "- v2.20.2 adds certificate sync support for Alibaba Cloud ESA and a Tencent Cloud option that is not yet open.\n- Volcengine now sets the minimum TTL automatically based on the domain package.\n- Generic OIDC third-party login support was added, ACME certificate application speed was optimized, and Filebrowser was updated to v2.45.0.",
+  "update_at": "2025-11-20",
+  "release_notes": "- v2.20.2 adds certificate sync support for Alibaba Cloud ESA and a Tencent Cloud option that is not yet open.\n- Volcengine now sets the minimum TTL automatically based on the domain package.\n- Generic OIDC third-party login support was added, ACME certificate application speed was optimized, and Filebrowser was updated to v2.45.0.",
   "website": "https://lucky666.cn/",
   "repo": "https://github.com/gdy666/lucky",
   "support": "https://github.com/gdy666/lucky/issues",
@@ -29,5 +29,6 @@
   "categories": [
     "networking"
   ],
-  "min_memory": 67108864
+  "min_memory": 67108864,
+  "min_image_size": 27178927
 }

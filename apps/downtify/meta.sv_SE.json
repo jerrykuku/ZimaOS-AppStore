@@ -1,4 +1,4 @@
 {
   "id": "downtify",
-  "releaseNotes": "- 2.6.0 lägger till alternativet att spara musik i artistmappar.\n- Det lägger till en inställning för att inaktivera nedladdning av låttexter.\n- Det fixar nedladdningshistoriken och inställningarnas beständighet."
+  "release_notes": "- 2.6.0 lägger till alternativet att spara musik i artistmappar.\n- Det lägger till en inställning för att inaktivera nedladdning av låttexter.\n- Det fixar nedladdningshistoriken och inställningarnas beständighet."
 }

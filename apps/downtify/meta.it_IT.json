@@ -1,4 +1,4 @@
 {
   "id": "downtify",
-  "releaseNotes": "- 2.6.0 aggiunge l'opzione per salvare la musica nelle cartelle degli artisti.\n- Aggiunge un'impostazione per disabilitare i download dei testi.\n- Corregge la cancellazione della cronologia dei download e la persistenza delle impostazioni."
+  "release_notes": "- 2.6.0 aggiunge l'opzione per salvare la musica nelle cartelle degli artisti.\n- Aggiunge un'impostazione per disabilitare i download dei testi.\n- Corregge la cancellazione della cronologia dei download e la persistenza delle impostazioni."
 }

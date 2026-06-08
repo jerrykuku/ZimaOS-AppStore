@@ -1,4 +1,4 @@
 {
   "id": "flaresolverr",
-  "releaseNotes": "- v3.4.5 ripristina il runtime su Python v3.13 e sposta FlareSolverr su 3.4.5.\n- Il case del Dockerfile e la generazione del log delle modifiche sono stati risolti."
+  "release_notes": "- v3.4.5 ripristina il runtime su Python v3.13 e sposta FlareSolverr su 3.4.5.\n- Il case del Dockerfile e la generazione del log delle modifiche sono stati risolti."
 }

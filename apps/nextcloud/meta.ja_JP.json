@@ -1,4 +1,4 @@
 {
   "id": "nextcloud",
-  "releaseNotes": "- v32.0.0 は対応する Nextcloud server release package を指します。\n- このアプリは上流 GitHub release で参照されている Nextcloud 32.0.0 server release を追跡します。"
+  "release_notes": "- v32.0.0 は対応する Nextcloud server release package を指します。\n- このアプリは上流 GitHub release で参照されている Nextcloud 32.0.0 server release を追跡します。"
 }

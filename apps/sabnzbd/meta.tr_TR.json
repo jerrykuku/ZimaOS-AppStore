@@ -1,4 +1,4 @@
 {
   "id": "sabnzbd",
-  "releaseNotes": "- 4.1.0, Yapılandırma, Oturum Açma ve Sihirbaz sayfaları için karanlık modun yanı sıra Geçmiş'e multi-select ekler.\n- Proxy doğrulama, günlük temizleme, sunucu IP seçimi, IPv6 sunucu ayarları ve arşiv açma davranışı güncellendi.\n- Düzeltmeler arasında yinelenen kopya algılama, dosya adı sıralama, duraklatılmış kuyruk önceliği yönetimi, API-key günlük temizleme, disk yazma, klasör temizleme, makale kod çözme ve QuickCheck yeniden adlandırma yer alıyor."
+  "release_notes": "- 4.1.0, Yapılandırma, Oturum Açma ve Sihirbaz sayfaları için karanlık modun yanı sıra Geçmiş'e multi-select ekler.\n- Proxy doğrulama, günlük temizleme, sunucu IP seçimi, IPv6 sunucu ayarları ve arşiv açma davranışı güncellendi.\n- Düzeltmeler arasında yinelenen kopya algılama, dosya adı sıralama, duraklatılmış kuyruk önceliği yönetimi, API-key günlük temizleme, disk yazma, klasör temizleme, makale kod çözme ve QuickCheck yeniden adlandırma yer alıyor."
 }

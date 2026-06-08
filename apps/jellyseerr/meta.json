@@ -15,8 +15,8 @@
   "tagline": "Jellyseerr is a free and open source software application for managing requests for your media library.",
   "thumbnail": "",
   "tips": {},
-  "updateAt": "",
-  "releaseNotes": "",
+  "update_at": "",
+  "release_notes": "",
   "website": "",
   "repo": "",
   "support": "",
@@ -26,5 +26,6 @@
   "categories": [
     "media"
   ],
-  "min_memory": 268435456
+  "min_memory": 268435456,
+  "min_image_size": 428781775
 }

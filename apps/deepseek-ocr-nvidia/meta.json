@@ -16,8 +16,8 @@
   "tips": {
     "before_install": "The first run will download the model (~5-10GB), which may take some time."
   },
-  "updateAt": "2026-03-27",
-  "releaseNotes": "",
+  "update_at": "2026-03-27",
+  "release_notes": "",
   "website": "",
   "repo": "https://github.com/rdumasia303/deepseek_ocr_app",
   "support": "https://github.com/rdumasia303/deepseek_ocr_app/issues",
@@ -27,5 +27,6 @@
   "categories": [
     "ai"
   ],
-  "min_memory": 9126805504
+  "min_memory": 9126805504,
+  "min_image_size": 8671509981
 }

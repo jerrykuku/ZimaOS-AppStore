@@ -13,8 +13,8 @@
     "/apps/convertx/assets/screenshot-2.webp",
     "/apps/convertx/assets/screenshot-3.webp"
   ],
-  "updateAt": "2025-06-04",
-  "releaseNotes": "- 0.14.1 changes to a baseline build.\n- It adds support for KEPUB conversion.",
+  "update_at": "2025-06-04",
+  "release_notes": "- 0.14.1 changes to a baseline build.\n- It adds support for KEPUB conversion.",
   "website": "",
   "repo": "https://github.com/c4illin/convertx",
   "support": "https://github.com/c4illin/convertx/issues",
@@ -24,5 +24,6 @@
   "categories": [
     "productivity"
   ],
-  "min_memory": 524288000
+  "min_memory": 524288000,
+  "min_image_size": 951980911
 }

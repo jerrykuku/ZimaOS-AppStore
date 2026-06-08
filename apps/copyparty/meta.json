@@ -12,8 +12,8 @@
     "/apps/copyparty/assets/screenshot-2.webp",
     "/apps/copyparty/assets/screenshot-3.webp"
   ],
-  "updateAt": "2026-03-23",
-  "releaseNotes": "- v1.20.13 adds .hidden support for cosmetic directory-listing filtering.\n- Thumbnail pregeneration and dotfile visibility in shares were added.\n- Fixes include thumbnails on older OSes without JXL support, new-version alert permissions, mkdir blocking, nohtml/noscript behavior on the web root, and share dotfile handling.",
+  "update_at": "2026-03-23",
+  "release_notes": "- v1.20.13 adds .hidden support for cosmetic directory-listing filtering.\n- Thumbnail pregeneration and dotfile visibility in shares were added.\n- Fixes include thumbnails on older OSes without JXL support, new-version alert permissions, mkdir blocking, nohtml/noscript behavior on the web root, and share dotfile handling.",
   "website": "https://copyparty.eu/",
   "repo": "https://github.com/9001/copyparty",
   "support": "https://github.com/9001/copyparty/issues",
@@ -26,5 +26,6 @@
   "categories": [
     "productivity"
   ],
-  "min_memory": 536870912
+  "min_memory": 536870912,
+  "min_image_size": 41154775
 }

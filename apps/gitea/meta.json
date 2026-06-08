@@ -17,8 +17,8 @@
   "tips": {
     "before_install": "When the App is installed, the first account registered will become the administrator account.\n"
   },
-  "updateAt": "2025-10-29",
-  "releaseNotes": "- v1.25.0 adds repository archive streaming, configurable Git remote names, and workflow success/failure emails.\n- OpenID Connect, repository contents APIs, SSH commit signing, and 3D/CAD previews were improved.\n- Security updates include a public-key upgrade and all 1.24.x security fixes after 1.25.0-rc0.",
+  "update_at": "2025-10-29",
+  "release_notes": "- v1.25.0 adds repository archive streaming, configurable Git remote names, and workflow success/failure emails.\n- OpenID Connect, repository contents APIs, SSH commit signing, and 3D/CAD previews were improved.\n- Security updates include a public-key upgrade and all 1.24.x security fixes after 1.25.0-rc0.",
   "website": "https://about.gitea.com/",
   "repo": "https://github.com/go-gitea/gitea",
   "support": "https://github.com/go-gitea/gitea/issues",
@@ -28,5 +28,6 @@
   "categories": [
     "developer"
   ],
-  "min_memory": 268435456
+  "min_memory": 268435456,
+  "min_image_size": 75546535
 }

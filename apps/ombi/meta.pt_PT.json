@@ -1,4 +1,4 @@
 {
   "id": "ombi",
-  "releaseNotes": "- Ombi v4.47.1 é a versão upstream utilizada pela imagem this e publica artefactos Linux, macOS e Windows em GitHub.\n- O corpo da versão GitHub para v4.47.1 está vazio, pelo que não estão disponíveis quaisquer características ou notas de correção para esta etiqueta exata."
+  "release_notes": "- Ombi v4.47.1 é a versão upstream utilizada pela imagem this e publica artefactos Linux, macOS e Windows em GitHub.\n- O corpo da versão GitHub para v4.47.1 está vazio, pelo que não estão disponíveis quaisquer características ou notas de correção para esta etiqueta exata."
 }

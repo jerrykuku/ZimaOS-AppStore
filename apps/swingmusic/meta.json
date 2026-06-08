@@ -17,8 +17,8 @@
   "tips": {
     "before_install": "When you first start Swing Music, it will ask you to pick music directory: Where do you want to look for music?\nselect \"Specific directories\" Option, and select \"/music\" and rescan.\n\nDefault Account\n| Name | Password |\n| -------- | -------- |\n| `admin` | `admin` |\n"
   },
-  "updateAt": "2024-02-26",
-  "releaseNotes": "- v1.4.8 adds an opt-in no-sidebar layout, top-bar search, centered default content, and homepage browse changes.\n- The backend moved to the Waitress WSGI server with proper ARM64 and other platform support.\n- Fixes include lyrics plugin autostart, queue removal, playlist list layout, save-queue-as-playlist, keyboard shortcuts, and recently added item display.",
+  "update_at": "2024-02-26",
+  "release_notes": "- v1.4.8 adds an opt-in no-sidebar layout, top-bar search, centered default content, and homepage browse changes.\n- The backend moved to the Waitress WSGI server with proper ARM64 and other platform support.\n- Fixes include lyrics plugin autostart, queue removal, playlist list layout, save-queue-as-playlist, keyboard shortcuts, and recently added item display.",
   "website": "https://swingmx.com",
   "repo": "https://github.com/swing-opensource/swingmusic",
   "support": "https://github.com/swing-opensource/swingmusic/issues",
@@ -28,5 +28,6 @@
   "categories": [
     "media"
   ],
-  "min_memory": 0
+  "min_memory": 0,
+  "min_image_size": 719643326
 }

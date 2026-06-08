@@ -13,8 +13,8 @@
   "author": "Fabio Tea",
   "category": "Media",
   "store_app_id": "jdownloader2",
-  "updateAt": "2024-01-25",
-  "releaseNotes": "",
+  "update_at": "2024-01-25",
+  "release_notes": "",
   "website": "",
   "repo": "",
   "support": "https://support.jdownloader.org/",
@@ -24,5 +24,6 @@
   "categories": [
     "media"
   ],
-  "min_memory": 0
+  "min_memory": 0,
+  "min_image_size": 197063566
 }

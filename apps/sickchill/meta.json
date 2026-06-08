@@ -18,8 +18,8 @@
   "tagline": "Automatic video library manager for TV Shows",
   "thumbnail": "/apps/sickchill/assets/thumbnail.webp",
   "tips": {},
-  "updateAt": "2023-06-28",
-  "releaseNotes": "- 2023.6.27 has an empty GitHub release body, so changes were checked against the upstream tag compare.\n- The compare includes dependency updates for Poetry/Yarn, urllib3, workbox-webpack-plugin, Snyk, and types-setuptools.\n- Fixes and updates include site-message dismissal, minimum leech time, TL category cleanup, generic.py, torrentleech.py, and bencode logging handling.",
+  "update_at": "2023-06-28",
+  "release_notes": "- 2023.6.27 has an empty GitHub release body, so changes were checked against the upstream tag compare.\n- The compare includes dependency updates for Poetry/Yarn, urllib3, workbox-webpack-plugin, Snyk, and types-setuptools.\n- Fixes and updates include site-message dismissal, minimum leech time, TL category cleanup, generic.py, torrentleech.py, and bencode logging handling.",
   "website": "https://sickchill.github.io",
   "repo": "https://github.com/SickChill/SickChill",
   "support": "https://github.com/SickChill/SickChill/issues",
@@ -29,5 +29,6 @@
   "categories": [
     "media"
   ],
-  "min_memory": 67108864
+  "min_memory": 67108864,
+  "min_image_size": 89752729
 }

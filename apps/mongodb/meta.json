@@ -13,8 +13,8 @@
   "tips": {
     "before_install": "This version of MongoDB requires a CPU with AVX support. This version of MongoDB will not work with ZimaBoard."
   },
-  "updateAt": "2025-12-05",
-  "releaseNotes": "- MongoDB 8.2.2 is the database image version used by this app entry.\n- MongoDB publishes database release notes outside GitHub Releases, so this Docker tag is kept as image metadata.",
+  "update_at": "2025-12-05",
+  "release_notes": "- MongoDB 8.2.2 is the database image version used by this app entry.\n- MongoDB publishes database release notes outside GitHub Releases, so this Docker tag is kept as image metadata.",
   "website": "https://www.mongodb.com/",
   "repo": "https://github.com/mongodb/mongo",
   "support": "https://www.mongodb.com/community/forums/",
@@ -24,5 +24,6 @@
   "categories": [
     "developer"
   ],
-  "min_memory": 0
+  "min_memory": 0,
+  "min_image_size": 323622958
 }

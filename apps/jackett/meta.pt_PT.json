@@ -1,4 +1,4 @@
 {
   "id": "jackett",
-  "releaseNotes": "- v0.24.1841 actualiza torrenttip, torrentsome, btstate, ADC, u2p, magnetcat, torrent9 e manipulação do indexador czteam.\n- Foram atualizados vários domínios rastreadores e configurações de seletores/categorias.\n- Os utilizadores de Docker devem atualizar a imagem do contentor em vez de executar o atualizador in-app dentro de um contentor existente."
+  "release_notes": "- v0.24.1841 actualiza torrenttip, torrentsome, btstate, ADC, u2p, magnetcat, torrent9 e manipulação do indexador czteam.\n- Foram atualizados vários domínios rastreadores e configurações de seletores/categorias.\n- Os utilizadores de Docker devem atualizar a imagem do contentor em vez de executar o atualizador in-app dentro de um contentor existente."
 }

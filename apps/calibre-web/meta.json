@@ -17,8 +17,8 @@
   "tips": {
     "before_install": "| Username | Password |\n| -------- | -------- |\n| `admin`    | `admin123` |\n"
   },
-  "updateAt": "2024-11-16",
-  "releaseNotes": "- 0.6.24 adds audio-file metadata extraction during upload and a refreshed PDF viewer.\n- Multiple book formats can be uploaded with progress and metadata merge support, including drag and drop.\n- Fixes include Kobo downloads and cover sizing, metadata search results, thumbnail generation on Google Drive, split-library database saving, Amazon UK links, Safari bookmarks, LDAP import, and Calibre convert parameters with spaces.",
+  "update_at": "2024-11-16",
+  "release_notes": "- 0.6.24 adds audio-file metadata extraction during upload and a refreshed PDF viewer.\n- Multiple book formats can be uploaded with progress and metadata merge support, including drag and drop.\n- Fixes include Kobo downloads and cover sizing, metadata search results, thumbnail generation on Google Drive, split-library database saving, Amazon UK links, Safari bookmarks, LDAP import, and Calibre convert parameters with spaces.",
   "website": "",
   "repo": "https://github.com/janeczku/calibre-web",
   "support": "https://github.com/janeczku/calibre-web/issues",
@@ -28,5 +28,6 @@
   "categories": [
     "media"
   ],
-  "min_memory": 67108864
+  "min_memory": 67108864,
+  "min_image_size": 260993869
 }

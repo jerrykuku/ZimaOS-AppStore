@@ -13,8 +13,8 @@
   ],
   "tagline": "Self-custodial Bitcoin Lightning wallet with integrated node and app connections.",
   "store_app_id": "albyhub",
-  "updateAt": "2025-09-25",
-  "releaseNotes": "- v1.20.0 adds a connection wizard for apps from the app store.\n- Alby Hub transactions can now be exported to CSV from the main transaction list and individual connections/subwallets.\n- Channels can be purchased using the preferred payment method, and a search dialog/hotkey was added for quick navigation.",
+  "update_at": "2025-09-25",
+  "release_notes": "- v1.20.0 adds a connection wizard for apps from the app store.\n- Alby Hub transactions can now be exported to CSV from the main transaction list and individual connections/subwallets.\n- Channels can be purchased using the preferred payment method, and a search dialog/hotkey was added for quick navigation.",
   "website": "https://albyhub.com/",
   "repo": "https://github.com/getAlby/hub",
   "support": "https://support.getalby.com/",
@@ -24,5 +24,6 @@
   "categories": [
     "finance"
   ],
-  "min_memory": 1073741824
+  "min_memory": 1073741824,
+  "min_image_size": 86624117
 }

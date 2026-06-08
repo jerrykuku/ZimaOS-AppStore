@@ -1,4 +1,4 @@
 {
   "id": "albyhub",
-  "releaseNotes": "- v1.20.0 dodaje čarobnjaka za povezivanje za aplikacije iz trgovine aplikacija the.\n- Alby Hub transakcije sada se mogu izvesti u CSV iz glavnog popisa transakcija the i pojedinačnih veza/podnovčanika.\n- Kanali se mogu kupiti koristeći željeni način plaćanja, a dodan je dijaloški okvir za pretraživanje/prečac za brzu navigaciju."
+  "release_notes": "- v1.20.0 dodaje čarobnjaka za povezivanje za aplikacije iz trgovine aplikacija the.\n- Alby Hub transakcije sada se mogu izvesti u CSV iz glavnog popisa transakcija the i pojedinačnih veza/podnovčanika.\n- Kanali se mogu kupiti koristeći željeni način plaćanja, a dodan je dijaloški okvir za pretraživanje/prečac za brzu navigaciju."
 }

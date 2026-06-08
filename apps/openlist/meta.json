@@ -17,8 +17,8 @@
   "tips": {
     "before_install": "Default username: `admin`\nDefault password: `casaos`\nIf you want to change the password, please modify it in the OpenList WebUI.\n"
   },
-  "updateAt": "2026-04-09",
-  "releaseNotes": "- v4.2.1 locks musl outputs to fully static linking in the build script and CI workflows.\n- It also fixes path cache invalidation after meta path updates.",
+  "update_at": "2026-04-09",
+  "release_notes": "- v4.2.1 locks musl outputs to fully static linking in the build script and CI workflows.\n- It also fixes path cache invalidation after meta path updates.",
   "store_app_id": "openlist",
   "website": "https://oplist.org/",
   "repo": "https://github.com/OpenListTeam/OpenList",
@@ -29,5 +29,6 @@
   "categories": [
     "productivity"
   ],
-  "min_memory": 268435456
+  "min_memory": 268435456,
+  "min_image_size": 64468138
 }

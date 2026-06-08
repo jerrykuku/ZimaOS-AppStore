@@ -1,4 +1,4 @@
 {
   "id": "grafana",
-  "releaseNotes": "- v12.1.4 corrige a desorganização do estado de alerta para incluir intervalos de tempo.\n- As métricas de rollup do painel empresarial foram corrigidas para resumos last-period e redefinições totais.\n- Está incluída uma correção de segurança Enterprise SCIM para CVE-2025-41115."
+  "release_notes": "- v12.1.4 corrige a desorganização do estado de alerta para incluir intervalos de tempo.\n- As métricas de rollup do painel empresarial foram corrigidas para resumos last-period e redefinições totais.\n- Está incluída uma correção de segurança Enterprise SCIM para CVE-2025-41115."
 }

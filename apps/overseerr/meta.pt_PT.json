@@ -1,4 +1,4 @@
 {
   "id": "overseerr",
-  "releaseNotes": "- v1.33.2 corrige um problema em que os suportes incorretos podiam mudar para desconhecidos."
+  "release_notes": "- v1.33.2 corrige um problema em que os suportes incorretos podiam mudar para desconhecidos."
 }

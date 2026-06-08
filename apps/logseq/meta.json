@@ -16,8 +16,8 @@
   "tagline": "A privacy-first, open-source platform for knowledge management and collaboration.",
   "thumbnail": "/apps/logseq/assets/thumbnail.webp",
   "tips": {},
-  "updateAt": "",
-  "releaseNotes": "",
+  "update_at": "",
+  "release_notes": "",
   "website": "",
   "repo": "",
   "support": "",
@@ -27,5 +27,6 @@
   "categories": [
     "productivity"
   ],
-  "min_memory": 67108864
+  "min_memory": 67108864,
+  "min_image_size": 1694388733
 }

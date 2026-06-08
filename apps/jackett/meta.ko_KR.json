@@ -1,4 +1,4 @@
 {
   "id": "jackett",
-  "releaseNotes": "- v0.24.1841은 torrenttip, torrentsome, btstate, ADC, u2p, magnetcat, torrent9, czteam indexer handling을 업데이트합니다.\n- 여러 tracker domains 및 selector/category configurations가 갱신되었습니다.\n- Docker 사용자는 기존 컨테이너 안에서 인앱 updater를 실행하지 말고 컨테이너 이미지를 업데이트해야 합니다."
+  "release_notes": "- v0.24.1841은 torrenttip, torrentsome, btstate, ADC, u2p, magnetcat, torrent9, czteam indexer handling을 업데이트합니다.\n- 여러 tracker domains 및 selector/category configurations가 갱신되었습니다.\n- Docker 사용자는 기존 컨테이너 안에서 인앱 updater를 실행하지 말고 컨테이너 이미지를 업데이트해야 합니다."
 }

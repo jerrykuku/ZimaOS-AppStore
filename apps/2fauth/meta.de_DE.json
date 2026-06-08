@@ -1,6 +1,6 @@
 {
   "id": "2fauth",
-  "releaseNotes": "- v5.4.3 behebt, dass geloeschte Icons nach dem Speichern aus dem erweiterten Formular wieder erscheinen.\n- Behoben wurden das Laden der Login-Seite, Formularuebermittlung im Footer-Menue, zugeschnittene QR-Codes, Einfrieren im Manage-Modus und fehlende Account-Icons ohne Icon.\n- Die Ansicht /up laedt keine CSS-Stile mehr von tailwindcss.com.",
-  "tagline": "Eine Web-App zum Verwalten Ihrer Zwei-Faktor-Authentifizierung (2FA) Konten und zum Erstellen ihrer Sicherheitscodes",
-  "description": "2FAuth ist eine webbasierte selbst gehostete Alternative zu One Time Passcode (OTP) Generatoren wie Google Authenticator, die für mobile und Desktop-Geräte entwickelt wurde."
+  "release_notes": "- v5.4.3 behebt, dass geloeschte Icons nach dem Speichern aus dem erweiterten Formular wieder erscheinen.\n- Behoben wurden das Laden der Login-Seite, Formularuebermittlung im Footer-Menue, zugeschnittene QR-Codes, Einfrieren im Manage-Modus und fehlende Account-Icons ohne Icon.\n- Die Ansicht /up laedt keine CSS-Stile mehr von tailwindcss.com.",
+  "description": "2FAuth ist eine webbasierte selbst gehostete Alternative zu One Time Passcode (OTP) Generatoren wie Google Authenticator, die für mobile und Desktop-Geräte entwickelt wurde.",
+  "tagline": "Eine Web-App zum Verwalten Ihrer Zwei-Faktor-Authentifizierung (2FA) Konten und zum Erstellen ihrer Sicherheitscodes"
 }

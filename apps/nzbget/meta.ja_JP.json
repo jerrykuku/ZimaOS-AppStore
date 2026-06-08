@@ -1,4 +1,4 @@
 {
   "id": "nzbget",
-  "releaseNotes": "- NZBGet 25.4 は ServerX.Cipher オプションを通じて TLS 1.3 暗号スイートのサポートを追加します。\n- Web UI の検索バーが小さい画面で有効になります。\n- 修正には、Scan スクリプト API、フィルタールールからの RSS フィードカテゴリの読み取りと適用、JSON 値解析、testserver API メソッドが含まれます。"
+  "release_notes": "- NZBGet 25.4 は ServerX.Cipher オプションを通じて TLS 1.3 暗号スイートのサポートを追加します。\n- Web UI の検索バーが小さい画面で有効になります。\n- 修正には、Scan スクリプト API、フィルタールールからの RSS フィードカテゴリの読み取りと適用、JSON 値解析、testserver API メソッドが含まれます。"
 }

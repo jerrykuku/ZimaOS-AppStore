@@ -18,8 +18,8 @@
   "tips": {
     "before_install": "🔧 Settings\n\nDefault password: `casaos`\n\n⚠️ Warning!\n\nYou need to change at least change the mandatory parameter `WG_HOST` for this app to work properly.\nIt's value has to be a domain (or an IP address) that points to this server (accesible from WAN).\n\nSame applies to the `WG_PORT` parameter. Change it to the port accessible from outside your LAN if it differs from the default 51820.\n"
   },
-  "updateAt": "2024-05-20",
-  "releaseNotes": "- v13.0.0 introduces the new h3 framework.\n- It adds UI_CHART_TYPE and includes bug fixes.",
+  "update_at": "2024-05-20",
+  "release_notes": "- v13.0.0 introduces the new h3 framework.\n- It adds UI_CHART_TYPE and includes bug fixes.",
   "website": "",
   "repo": "https://github.com/wg-easy/wg-easy",
   "support": "https://github.com/wg-easy/wg-easy/issues",
@@ -29,5 +29,6 @@
   "categories": [
     "networking"
   ],
-  "min_memory": 0
+  "min_memory": 0,
+  "min_image_size": 52044297
 }

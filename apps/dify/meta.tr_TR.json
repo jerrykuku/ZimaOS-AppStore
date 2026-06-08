@@ -1,4 +1,4 @@
 {
   "id": "dify",
-  "releaseNotes": "- 0.12.1 web uygulamasındaki özel simge görünümünü ve Başlangıç ​​formlarındaki dosya işlemeyi düzeltir.\n- LLM bellek işleme, konuşma silme, uygulama oluşturma ve şablon içe aktarma hataları düzeltildi.\n- Sürüm, Docker Compose dağıtımları için yükseltme kılavuzunu içerir."
+  "release_notes": "- 0.12.1 web uygulamasındaki özel simge görünümünü ve Başlangıç ​​formlarındaki dosya işlemeyi düzeltir.\n- LLM bellek işleme, konuşma silme, uygulama oluşturma ve şablon içe aktarma hataları düzeltildi.\n- Sürüm, Docker Compose dağıtımları için yükseltme kılavuzunu içerir."
 }

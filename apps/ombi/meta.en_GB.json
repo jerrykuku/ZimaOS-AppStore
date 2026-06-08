@@ -1,4 +1,4 @@
 {
   "id": "ombi",
-  "releaseNotes": "- Ombi v4.47.1 is the upstream release used by this image and publishes Linux, macOS, and Windows artifacts on GitHub.\n- The GitHub Release body for v4.47.1 is empty, so no feature or fix notes are available for this exact tag."
+  "release_notes": "- Ombi v4.47.1 is the upstream release used by this image and publishes Linux, macOS, and Windows artifacts on GitHub.\n- The GitHub Release body for v4.47.1 is empty, so no feature or fix notes are available for this exact tag."
 }

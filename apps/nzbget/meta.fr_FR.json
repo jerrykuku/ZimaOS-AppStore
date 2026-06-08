@@ -1,6 +1,6 @@
 {
   "id": "nzbget",
-  "releaseNotes": "- NZBGet 25.4 ajoute la prise en charge des suites de chiffrement TLS 1.3 via l'option ServerX.Cipher.\n- La barre de recherche de l'interface Web est activée sur les petits écrans.\n- Les correctifs couvrent l'API du script Scan, la lecture et l'application des catégories de flux RSS depuis les règles de filtrage, l'analyse des valeurs JSON et la méthode d'API testserver.",
-  "tagline": "Téléchargeur Usenet efficace",
-  "description": "NZBGet peut fonctionner sur presque n'importe quel appareil - PC classique, NAS, lecteur multimédia, récepteur SAT, routeur WLAN, etc. La zone de téléchargement fournit des binaires précompilés pour Windows, macOS, Linux (compatible avec de nombreuses CPUs et variantes de plate-forme), FreeBSD et Android. Pour d'autres plates-formes, le programme peut être compilé à partir de sources."
+  "release_notes": "- NZBGet 25.4 ajoute la prise en charge des suites de chiffrement TLS 1.3 via l'option ServerX.Cipher.\n- La barre de recherche de l'interface Web est activée sur les petits écrans.\n- Les correctifs couvrent l'API du script Scan, la lecture et l'application des catégories de flux RSS depuis les règles de filtrage, l'analyse des valeurs JSON et la méthode d'API testserver.",
+  "description": "NZBGet peut fonctionner sur presque n'importe quel appareil - PC classique, NAS, lecteur multimédia, récepteur SAT, routeur WLAN, etc. La zone de téléchargement fournit des binaires précompilés pour Windows, macOS, Linux (compatible avec de nombreuses CPUs et variantes de plate-forme), FreeBSD et Android. Pour d'autres plates-formes, le programme peut être compilé à partir de sources.",
+  "tagline": "Téléchargeur Usenet efficace"
 }

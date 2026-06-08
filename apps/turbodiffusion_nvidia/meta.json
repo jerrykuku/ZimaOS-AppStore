@@ -15,8 +15,8 @@
   "architectures": [
     "amd64"
   ],
-  "updateAt": "2026-04-04",
-  "releaseNotes": "",
+  "update_at": "2026-04-04",
+  "release_notes": "",
   "website": "",
   "repo": "https://github.com/thu-ml/TurboDiffusion",
   "support": "https://github.com/thu-ml/TurboDiffusion/issues",
@@ -26,5 +26,6 @@
   "categories": [
     "ai"
   ],
-  "min_memory": 42949672960
+  "min_memory": 42949672960,
+  "min_image_size": 0
 }

@@ -17,8 +17,8 @@
     "before_install": "Default password for admin background `firefly`, you can modify it in environment variables.",
     "custom": ""
   },
-  "updateAt": "2024-06-11",
-  "releaseNotes": "",
+  "update_at": "2024-06-11",
+  "release_notes": "",
   "website": "https://qq.uusec.com/",
   "repo": "https://github.com/Safe3/firefly",
   "support": "https://github.com/Safe3/firefly/issues",
@@ -28,5 +28,6 @@
   "categories": [
     "networking"
   ],
-  "min_memory": 33554432
+  "min_memory": 33554432,
+  "min_image_size": 9605592
 }

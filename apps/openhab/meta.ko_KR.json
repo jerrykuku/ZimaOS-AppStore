@@ -1,4 +1,4 @@
 {
   "id": "openhab",
-  "releaseNotes": "- 4.3.3은 add-on 버그 수정과 개선 사항을 포함한 patch release입니다.\n- 수정 사항에는 basicprofiles delta handling, bluetooth.bluez NullPointerException, easee API limit configuration, ecobee vacation holds, Free@home missing IDs, hdpowerview bridge labels, Hue dynamics support, huesync API token handling이 포함됩니다.\n- Energidataservice tariff filters 및 여러 add-ons가 업데이트되었습니다."
+  "release_notes": "- 4.3.3은 add-on 버그 수정과 개선 사항을 포함한 patch release입니다.\n- 수정 사항에는 basicprofiles delta handling, bluetooth.bluez NullPointerException, easee API limit configuration, ecobee vacation holds, Free@home missing IDs, hdpowerview bridge labels, Hue dynamics support, huesync API token handling이 포함됩니다.\n- Energidataservice tariff filters 및 여러 add-ons가 업데이트되었습니다."
 }

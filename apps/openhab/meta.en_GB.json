@@ -1,4 +1,4 @@
 {
   "id": "openhab",
-  "releaseNotes": "- 4.3.3 is a patch release with add-on bug fixes and enhancements.\n- Fixes include basicprofiles delta handling, bluetooth.bluez NullPointerException, easee API limit configuration, ecobee vacation holds, Free@home missing IDs, hdpowerview bridge labels, Hue dynamics support, and huesync API token handling.\n- Energidataservice tariff filters and several other add-ons were updated."
+  "release_notes": "- 4.3.3 is a patch release with add-on bug fixes and enhancements.\n- Fixes include basicprofiles delta handling, bluetooth.bluez NullPointerException, easee API limit configuration, ecobee vacation holds, Free@home missing IDs, hdpowerview bridge labels, Hue dynamics support, and huesync API token handling.\n- Energidataservice tariff filters and several other add-ons were updated."
 }

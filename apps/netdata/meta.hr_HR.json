@@ -1,4 +1,4 @@
 {
   "id": "netdata",
-  "releaseNotes": "- v2.8.1 popravlja dynamic-configuration vnodes koji nestaju nakon ponovnog pokretanja agenta.\n- PSS uzorkovanje memorije u apps.plugin je onemogućeno od strane default kako bi se smanjilo opterećenje CPU.\n- Poboljšani su prikaz izvorne jedinice upozorenja, bilježenje sinkronizacije Windows podatkovne datoteke, kompilacija dbengine-disabled i razlučivost imena spremnika Podman."
+  "release_notes": "- v2.8.1 popravlja dynamic-configuration vnodes koji nestaju nakon ponovnog pokretanja agenta.\n- PSS uzorkovanje memorije u apps.plugin je onemogućeno od strane default kako bi se smanjilo opterećenje CPU.\n- Poboljšani su prikaz izvorne jedinice upozorenja, bilježenje sinkronizacije Windows podatkovne datoteke, kompilacija dbengine-disabled i razlučivost imena spremnika Podman."
 }

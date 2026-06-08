@@ -1,4 +1,4 @@
 {
   "id": "ddns-go",
-  "releaseNotes": "- v6.17.0, ClouDNS desteğini ekler.\n- Protokol etkinleştirmesine uyulmasını ve doğru HTTP istemcisinin kullanılmasını sağlayacak şekilde geri arama işlemini düzeltir."
+  "release_notes": "- v6.17.0, ClouDNS desteğini ekler.\n- Protokol etkinleştirmesine uyulmasını ve doğru HTTP istemcisinin kullanılmasını sağlayacak şekilde geri arama işlemini düzeltir."
 }

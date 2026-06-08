@@ -10,8 +10,8 @@
   "author": "WisdomSky",
   "thumbnail": "/apps/mongodb4/assets/icon.svg",
   "category": "Developer",
-  "updateAt": "2024-01-25",
-  "releaseNotes": "- MongoDB 4.4.22 is a production release with fixes since 4.4.21 and is recommended for MongoDB 4.4 users.\n- Fixes include incremental backup handling where modified blocks could be omitted.",
+  "update_at": "2024-01-25",
+  "release_notes": "- MongoDB 4.4.22 is a production release with fixes since 4.4.21 and is recommended for MongoDB 4.4 users.\n- Fixes include incremental backup handling where modified blocks could be omitted.",
   "website": "https://www.mongodb.com/",
   "repo": "https://github.com/mongodb/mongo",
   "support": "https://www.mongodb.com/community/forums/",
@@ -21,5 +21,6 @@
   "categories": [
     "developer"
   ],
-  "min_memory": 0
+  "min_memory": 0,
+  "min_image_size": 176021904
 }

@@ -1,4 +1,4 @@
 {
   "id": "downtify",
-  "releaseNotes": "- 2.6.0 は音楽を artist folders に保存するオプションを追加します。\n- lyric downloads を無効化する設定が追加されました。\n- download history のクリアと settings persistence が修正されました。"
+  "release_notes": "- 2.6.0 は音楽を artist folders に保存するオプションを追加します。\n- lyric downloads を無効化する設定が追加されました。\n- download history のクリアと settings persistence が修正されました。"
 }

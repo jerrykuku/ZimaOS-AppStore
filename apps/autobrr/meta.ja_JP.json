@@ -1,4 +1,4 @@
 {
   "id": "autobrr",
-  "releaseNotes": "- v1.69.0 は設定可能な CORS、クローズ時の HTTP resource 解放、Pending release フィルタ、failed-list 更新警告、BJ-Share 対応、DarkPeers Featured Promo 対応を追加します。\n- Indexer 更新には Aither SASL authentication と ReelFlix ドメイン変更が含まれます。\n- database rows.Close 呼び出し漏れ、SQLite から PostgreSQL への変換、HHD regex、proxy credential テスト、Windows exec arg 解析、web ドロップダウンのクラッシュが修正されました。"
+  "release_notes": "- v1.69.0 は設定可能な CORS、クローズ時の HTTP resource 解放、Pending release フィルタ、failed-list 更新警告、BJ-Share 対応、DarkPeers Featured Promo 対応を追加します。\n- Indexer 更新には Aither SASL authentication と ReelFlix ドメイン変更が含まれます。\n- database rows.Close 呼び出し漏れ、SQLite から PostgreSQL への変換、HHD regex、proxy credential テスト、Windows exec arg 解析、web ドロップダウンのクラッシュが修正されました。"
 }

@@ -1,4 +1,4 @@
 {
   "id": "handbrake",
-  "releaseNotes": "- v25.10.1 bloqueia os ficheiros de vídeo antes de verificar a estabilidade no Automatic Video Converter.\n- A limpeza automática do Video Converter durante o encerramento do contentor foi melhorada."
+  "release_notes": "- v25.10.1 bloqueia os ficheiros de vídeo antes de verificar a estabilidade no Automatic Video Converter.\n- A limpeza automática do Video Converter durante o encerramento do contentor foi melhorada."
 }

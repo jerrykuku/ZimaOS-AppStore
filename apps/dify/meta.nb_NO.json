@@ -1,4 +1,4 @@
 {
   "id": "dify",
-  "releaseNotes": "- 0.12.1 fikser tilpasset ikonvisning i webappen og filhåndtering i Start-skjemaer.\n- LLM minnebehandling, samtalesletting, appoppretting og malimportfeil ble rettet.\n- Utgivelsen inkluderer oppgraderingsveiledning for Docker Compose-distribusjoner."
+  "release_notes": "- 0.12.1 fikser tilpasset ikonvisning i webappen og filhåndtering i Start-skjemaer.\n- LLM minnebehandling, samtalesletting, appoppretting og malimportfeil ble rettet.\n- Utgivelsen inkluderer oppgraderingsveiledning for Docker Compose-distribusjoner."
 }

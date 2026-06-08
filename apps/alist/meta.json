@@ -20,8 +20,8 @@
   "tips": {
     "before_install": "After installation, please check the initial password in the container log (Settings - TopRight - Terminal and Logs - Logs)."
   },
-  "updateAt": "2024-11-22",
-  "releaseNotes": "- v3.40.0 adds cryptographic random string generation for security and OAuth state generation/verification for SSO.\n- Fixes include Baidu Netdisk timestamps, local file owner preservation, closing closed channels, PikPak captcha_sign errors, and OIDC compatibility mode.",
+  "update_at": "2024-11-22",
+  "release_notes": "- v3.40.0 adds cryptographic random string generation for security and OAuth state generation/verification for SSO.\n- Fixes include Baidu Netdisk timestamps, local file owner preservation, closing closed channels, PikPak captcha_sign errors, and OIDC compatibility mode.",
   "website": "https://alistgo.com/",
   "repo": "https://github.com/AlistGo/alist",
   "support": "https://github.com/AlistGo/alist/issues",
@@ -31,5 +31,6 @@
   "categories": [
     "productivity"
   ],
-  "min_memory": 67108864
+  "min_memory": 67108864,
+  "min_image_size": 37728905
 }

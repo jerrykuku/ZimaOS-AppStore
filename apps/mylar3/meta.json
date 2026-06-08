@@ -16,8 +16,8 @@
   "tagline": "Automatic comic book (cbr/cbz) downloader",
   "thumbnail": "/apps/mylar3/assets/thumbnail.webp",
   "tips": {},
-  "updateAt": "2025-08-17",
-  "releaseNotes": "- v0.8.3 adds selected-issue tagging, forced queueing for subsets of Wanted issues, CRC checks, and a CBL reading-list import screen.\n- Search timing, search interval naming, table shift-select, and GetComics logging were improved.\n- Fixes cover out-of-order release-date post-processing, SAB/NZBGET download handling, RSS feed URL construction, and notification issues.",
+  "update_at": "2025-08-17",
+  "release_notes": "- v0.8.3 adds selected-issue tagging, forced queueing for subsets of Wanted issues, CRC checks, and a CBL reading-list import screen.\n- Search timing, search interval naming, table shift-select, and GetComics logging were improved.\n- Fixes cover out-of-order release-date post-processing, SAB/NZBGET download handling, RSS feed URL construction, and notification issues.",
   "website": "",
   "repo": "https://github.com/mylar3/mylar3",
   "support": "https://github.com/mylar3/mylar3/issues",
@@ -27,5 +27,6 @@
   "categories": [
     "media"
   ],
-  "min_memory": 67108864
+  "min_memory": 67108864,
+  "min_image_size": 191392762
 }

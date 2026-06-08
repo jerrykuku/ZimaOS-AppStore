@@ -1,4 +1,4 @@
 {
   "id": "navidrome",
-  "releaseNotes": "- v0.58.5는 안정성 개선과 bug 수정에 중점을 둡니다.\n- UI themes, translations, database operations, scanner behavior 수정이 포함됩니다."
+  "release_notes": "- v0.58.5는 안정성 개선과 bug 수정에 중점을 둡니다.\n- UI themes, translations, database operations, scanner behavior 수정이 포함됩니다."
 }

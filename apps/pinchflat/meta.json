@@ -16,8 +16,8 @@
   "tips": {
     "before_install": "Pinchflat will automatically create the necessary directories and start downloading content based on your configured sources.\n\nMake sure you have enough storage space for your downloads. The app uses /downloads as the default download directory.\n\nAfter installation, access the web interface to configure your YouTube channels and playlists for automatic downloading.\n"
   },
-  "updateAt": "2025-06-19",
-  "releaseNotes": "- Latest upstream release v2025.9.26 includes an important note referencing upstream issue #800.\n- Dockerfiles now include Deno.",
+  "update_at": "2025-06-19",
+  "release_notes": "- Latest upstream release v2025.9.26 includes an important note referencing upstream issue #800.\n- Dockerfiles now include Deno.",
   "website": "",
   "repo": "https://github.com/kieraneglin/pinchflat",
   "support": "https://github.com/kieraneglin/pinchflat/issues",
@@ -27,5 +27,6 @@
   "categories": [
     "media"
   ],
-  "min_memory": 268435456
+  "min_memory": 268435456,
+  "min_image_size": 387559721
 }

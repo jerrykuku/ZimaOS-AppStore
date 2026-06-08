@@ -1,4 +1,4 @@
 {
   "id": "plex",
-  "releaseNotes": "- Le tag d'image configuré est linuxserver/plex:1.41.3.\n- LinuxServer publie aussi un tag version-1.41.3.9314-a0bfb8370 pour cette ligne d'image Plex.\n- Cette entrée CasaOS suit le tag du conteneur LinuxServer plutôt qu'un changelog amont Plex séparé."
+  "release_notes": "- Le tag d'image configuré est linuxserver/plex:1.41.3.\n- LinuxServer publie aussi un tag version-1.41.3.9314-a0bfb8370 pour cette ligne d'image Plex.\n- Cette entrée CasaOS suit le tag du conteneur LinuxServer plutôt qu'un changelog amont Plex séparé."
 }

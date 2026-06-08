@@ -1,4 +1,4 @@
 {
   "id": "flaresolverr",
-  "releaseNotes": "- v3.4.5 возвращает среду выполнения к Python v3.13 и меняет FlareSolverr на 3.4.5.\n- Исправлено оформление Dockerfile и создание журнала изменений."
+  "release_notes": "- v3.4.5 возвращает среду выполнения к Python v3.13 и меняет FlareSolverr на 3.4.5.\n- Исправлено оформление Dockerfile и создание журнала изменений."
 }

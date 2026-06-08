@@ -13,8 +13,8 @@
   "thumbnail": "/apps/twingate-connector/assets/thumbnail.webp",
   "tips": {},
   "hostname": "",
-  "updateAt": "2024-01-26",
-  "releaseNotes": "",
+  "update_at": "2024-01-26",
+  "release_notes": "",
   "website": "https://www.twingate.com",
   "repo": "",
   "support": "https://www.twingate.com/support",
@@ -24,5 +24,6 @@
   "categories": [
     "networking"
   ],
-  "min_memory": 524288000
+  "min_memory": 524288000,
+  "min_image_size": 0
 }

@@ -14,8 +14,8 @@
     "/apps/ollama-nvidia/assets/screenshot-3.webp"
   ],
   "thumbnail": "",
-  "updateAt": "2025-07-02",
-  "releaseNotes": "- v0.9.5 updates the macOS and Windows applications.\n- Ollama can now be exposed on the network, and the model storage directory can be changed.\n- The macOS app is now native with a smaller footprint and faster startup, and fixes include CLI installation and notarization issues.",
+  "update_at": "2025-07-02",
+  "release_notes": "- v0.9.5 updates the macOS and Windows applications.\n- Ollama can now be exposed on the network, and the model storage directory can be changed.\n- The macOS app is now native with a smaller footprint and faster startup, and fixes include CLI installation and notarization issues.",
   "website": "https://ollama.com/",
   "repo": "https://github.com/ollama/ollama",
   "support": "https://github.com/ollama/ollama/issues",
@@ -25,5 +25,6 @@
   "categories": [
     "ai"
   ],
-  "min_memory": 2147483648
+  "min_memory": 2147483648,
+  "min_image_size": 1168433570
 }

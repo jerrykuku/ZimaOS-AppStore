@@ -12,8 +12,8 @@
     "/apps/psitransfer/assets/screenshot-1.webp",
     "/apps/psitransfer/assets/screenshot-2.webp"
   ],
-  "updateAt": "2026-02-14",
-  "releaseNotes": "- v2.4.1 includes security fixes and should be updated.\n- UTF-8 support was added for content disposition in file downloads.\n- Dependencies and changelog generation were updated.",
+  "update_at": "2026-02-14",
+  "release_notes": "- v2.4.1 includes security fixes and should be updated.\n- UTF-8 support was added for content disposition in file downloads.\n- Dependencies and changelog generation were updated.",
   "website": "",
   "repo": "https://github.com/psi-4ward/psitransfer",
   "support": "https://github.com/psi-4ward/psitransfer/issues",
@@ -23,5 +23,6 @@
   "categories": [
     "productivity"
   ],
-  "min_memory": 268435456
+  "min_memory": 268435456,
+  "min_image_size": 95686027
 }

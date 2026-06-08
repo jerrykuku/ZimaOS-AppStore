@@ -15,8 +15,8 @@
   "author": "WisdomSky",
   "thumbnail": "/apps/petio/assets/icon.svg",
   "category": "Media",
-  "updateAt": "2023-07-26",
-  "releaseNotes": "",
+  "update_at": "2023-07-26",
+  "release_notes": "",
   "website": "https://petio.tv",
   "repo": "https://github.com/petio-team/petio",
   "support": "https://github.com/petio-team/petio/issues",
@@ -26,5 +26,6 @@
   "categories": [
     "media"
   ],
-  "min_memory": 0
+  "min_memory": 0,
+  "min_image_size": 206810765
 }

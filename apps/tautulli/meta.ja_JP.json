@@ -1,4 +1,4 @@
 {
   "id": "tautulli",
-  "releaseNotes": "- v2.13.2 は history watch status 向けの quarter-value icons を追加します。\n- concurrent streams per day graph と metadata directory exporter field が追加されました。\n- notification と newsletter agent の一覧は last triggered time を表示するようになり、X-Plex-Language は config で上書きできます。"
+  "release_notes": "- v2.13.2 は history watch status 向けの quarter-value icons を追加します。\n- concurrent streams per day graph と metadata directory exporter field が追加されました。\n- notification と newsletter agent の一覧は last triggered time を表示するようになり、X-Plex-Language は config で上書きできます。"
 }

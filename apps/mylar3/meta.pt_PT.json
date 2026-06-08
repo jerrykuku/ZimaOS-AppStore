@@ -1,4 +1,4 @@
 {
   "id": "mylar3",
-  "releaseNotes": "- v0.8.3 adiciona marcação selected-issue, enfileiramento forçado para subconjuntos de problemas procurados, verificações CRC e um ecrã de importação CBL reading-list.\n- O tempo de pesquisa, a nomenclatura do intervalo de pesquisa, a tabela shift-select e o registo de GetComics foram melhorados.\n- As correções cobrem out-of-order release-date post-processing, manipulação de downloads SAB/NZBGET, construção de feeds RSS URL e problemas de notificação."
+  "release_notes": "- v0.8.3 adiciona marcação selected-issue, enfileiramento forçado para subconjuntos de problemas procurados, verificações CRC e um ecrã de importação CBL reading-list.\n- O tempo de pesquisa, a nomenclatura do intervalo de pesquisa, a tabela shift-select e o registo de GetComics foram melhorados.\n- As correções cobrem out-of-order release-date post-processing, manipulação de downloads SAB/NZBGET, construção de feeds RSS URL e problemas de notificação."
 }

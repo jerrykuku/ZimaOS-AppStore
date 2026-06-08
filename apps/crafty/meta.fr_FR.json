@@ -1,6 +1,6 @@
 {
   "id": "crafty",
-  "releaseNotes": "- Crafty 4.4.11 est la version d'image configurée depuis le projet GitLab amont.\n- Aucun changelog GitHub n'est disponible pour cette application, car Crafty publie ses versions sur GitLab.",
+  "release_notes": "- Crafty 4.4.11 est la version d'image configurée depuis le projet GitLab amont.\n- Aucun changelog GitHub n'est disponible pour cette application, car Crafty publie ses versions sur GitLab.",
   "tips": {
     "before_install": "Compte par défaut\n| Nom d'utilisateur | Mot de passe |\n|----------|----------|\n| `admin`    | `app/config/default-creds.txt` |\n"
   }

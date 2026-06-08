@@ -11,8 +11,8 @@
     "/apps/filedrop/assets/screenshot-1.webp"
   ],
   "category": "Productivity",
-  "updateAt": "2024-01-25",
-  "releaseNotes": "",
+  "update_at": "2024-01-25",
+  "release_notes": "",
   "website": "",
   "repo": "",
   "support": "",
@@ -22,5 +22,6 @@
   "categories": [
     "productivity"
   ],
-  "min_memory": 2147483648
+  "min_memory": 2147483648,
+  "min_image_size": 6387454
 }

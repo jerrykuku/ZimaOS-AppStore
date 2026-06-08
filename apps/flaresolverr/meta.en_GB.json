@@ -1,4 +1,4 @@
 {
   "id": "flaresolverr",
-  "releaseNotes": "- v3.4.5 reverts the runtime to Python v3.13 and bumps FlareSolverr to 3.4.5.\n- Dockerfile casing and changelog generation were fixed."
+  "release_notes": "- v3.4.5 reverts the runtime to Python v3.13 and bumps FlareSolverr to 3.4.5.\n- Dockerfile casing and changelog generation were fixed."
 }

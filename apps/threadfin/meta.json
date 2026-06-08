@@ -10,8 +10,8 @@
   "author": "Fabio Tea",
   "category": "Media",
   "store_app_id": "threadfin",
-  "updateAt": "2024-01-25",
-  "releaseNotes": "",
+  "update_at": "2024-01-25",
+  "release_notes": "",
   "website": "",
   "repo": "https://github.com/Threadfin/Threadfin",
   "support": "https://github.com/Threadfin/Threadfin/issues",
@@ -21,5 +21,6 @@
   "categories": [
     "media"
   ],
-  "min_memory": 0
+  "min_memory": 0,
+  "min_image_size": 0
 }

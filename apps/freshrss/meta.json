@@ -13,8 +13,8 @@
   ],
   "tagline": "A free, self-hostable news aggregator…",
   "store_app_id": "freshrss",
-  "updateAt": "2025-09-27",
-  "releaseNotes": "- 1.27.1 is a security and bug-fix release for the 1.27.x series.\n- It keeps sort/order criteria after marking articles as read and adds Docker healthcheck support.\n- Security fixes include login session regeneration, stricter language handling, cURL restrictions, and CSRF fixes.",
+  "update_at": "2025-09-27",
+  "release_notes": "- 1.27.1 is a security and bug-fix release for the 1.27.x series.\n- It keeps sort/order criteria after marking articles as read and adds Docker healthcheck support.\n- Security fixes include login session regeneration, stricter language handling, cURL restrictions, and CSRF fixes.",
   "website": "https://freshrss.org/",
   "repo": "https://github.com/FreshRSS/FreshRSS",
   "support": "https://github.com/FreshRSS/FreshRSS/issues",
@@ -24,5 +24,6 @@
   "categories": [
     "productivity"
   ],
-  "min_memory": 0
+  "min_memory": 0,
+  "min_image_size": 79237624
 }

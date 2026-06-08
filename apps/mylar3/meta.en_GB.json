@@ -1,4 +1,4 @@
 {
   "id": "mylar3",
-  "releaseNotes": "- v0.8.3 adds selected-issue tagging, forced queueing for subsets of Wanted issues, CRC checks, and a CBL reading-list import screen.\n- Search timing, search interval naming, table shift-select, and GetComics logging were improved.\n- Fixes cover out-of-order release-date post-processing, SAB/NZBGET download handling, RSS feed URL construction, and notification issues."
+  "release_notes": "- v0.8.3 adds selected-issue tagging, forced queueing for subsets of Wanted issues, CRC checks, and a CBL reading-list import screen.\n- Search timing, search interval naming, table shift-select, and GetComics logging were improved.\n- Fixes cover out-of-order release-date post-processing, SAB/NZBGET download handling, RSS feed URL construction, and notification issues."
 }

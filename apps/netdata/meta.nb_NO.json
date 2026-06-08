@@ -1,4 +1,4 @@
 {
   "id": "netdata",
-  "releaseNotes": "- v2.8.1 fikser dynamic-configuration vnoder som forsvinner etter omstart av agent.\n- PSS minnesampling i apps.plugin ble deaktivert av default for å redusere CPU overhead.\n- Visning av varselkildeenhet, logging av Windows-datafilsynkronisering, dbengine-disabled-kompilering og Podman-beholdernavnoppløsning ble forbedret."
+  "release_notes": "- v2.8.1 fikser dynamic-configuration vnoder som forsvinner etter omstart av agent.\n- PSS minnesampling i apps.plugin ble deaktivert av default for å redusere CPU overhead.\n- Visning av varselkildeenhet, logging av Windows-datafilsynkronisering, dbengine-disabled-kompilering og Podman-beholdernavnoppløsning ble forbedret."
 }

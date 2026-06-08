@@ -1,4 +1,4 @@
 {
   "id": "freshrss",
-  "releaseNotes": "- 1.27.1, 1.27.x serisi için bir menkul kıymet ve bug-fix sürümüdür.\n- Makaleleri okundu olarak işaretledikten sonra sıralama/sıralama kriterlerini korur ve Docker sağlık kontrolü desteği ekler.\n- Güvenlik düzeltmeleri, oturum açma oturumunun yeniden oluşturulmasını, daha katı dil yönetimini, cURL kısıtlamalarını ve CSRF düzeltmelerini içerir."
+  "release_notes": "- 1.27.1, 1.27.x serisi için bir menkul kıymet ve bug-fix sürümüdür.\n- Makaleleri okundu olarak işaretledikten sonra sıralama/sıralama kriterlerini korur ve Docker sağlık kontrolü desteği ekler.\n- Güvenlik düzeltmeleri, oturum açma oturumunun yeniden oluşturulmasını, daha katı dil yönetimini, cURL kısıtlamalarını ve CSRF düzeltmelerini içerir."
 }

@@ -14,8 +14,8 @@
     "/apps/v2raya/assets/screenshot-3.webp"
   ],
   "thumbnail": "",
-  "updateAt": "2025-03-27",
-  "releaseNotes": "- v2.2.6.7 fixes English text in latency test notifications.\n- Core startup timeout handling on old devices was fixed.",
+  "update_at": "2025-03-27",
+  "release_notes": "- v2.2.6.7 fixes English text in latency test notifications.\n- Core startup timeout handling on old devices was fixed.",
   "website": "https://v2raya.org/",
   "repo": "https://github.com/v2rayA/v2rayA",
   "support": "https://github.com/v2rayA/v2rayA/issues",
@@ -25,5 +25,6 @@
   "categories": [
     "networking"
   ],
-  "min_memory": 134217728
+  "min_memory": 134217728,
+  "min_image_size": 0
 }

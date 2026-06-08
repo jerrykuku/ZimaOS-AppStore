@@ -1,4 +1,4 @@
 {
   "id": "pocketbase",
-  "releaseNotes": "- v0.25.9 corrige a propriedade do objeto/array DynamicModel que reflete a cache de tipos."
+  "release_notes": "- v0.25.9 corrige a propriedade do objeto/array DynamicModel que reflete a cache de tipos."
 }

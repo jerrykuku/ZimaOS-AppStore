@@ -1,4 +1,4 @@
 {
   "id": "mylar3",
-  "releaseNotes": "- v0.8.3 は selected-issue tagging、Wanted issues のサブセットの強制キュー投入、CRC checks、CBL reading-list import screen を追加します。\n- search timing、search interval naming、table shift-select、GetComics logging が改善されました。\n- out-of-order release-date post-processing、SAB/NZBGET download handling、RSS feed URL construction、notification issues が修正されました。"
+  "release_notes": "- v0.8.3 は selected-issue tagging、Wanted issues のサブセットの強制キュー投入、CRC checks、CBL reading-list import screen を追加します。\n- search timing、search interval naming、table shift-select、GetComics logging が改善されました。\n- out-of-order release-date post-processing、SAB/NZBGET download handling、RSS feed URL construction、notification issues が修正されました。"
 }

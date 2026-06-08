@@ -1,4 +1,4 @@
 {
   "id": "ombi",
-  "releaseNotes": "- Ombi v4.47.1 je uzvodno izdanje koje koristi slika this i objavljuje Linux, macOS i Windows artefakte na GitHub.\n- Tijelo izdanja GitHub za v4.47.1 je prazno, tako da nema dostupnih značajki ili bilješki o popravcima za točnu oznaku."
+  "release_notes": "- Ombi v4.47.1 je uzvodno izdanje koje koristi slika this i objavljuje Linux, macOS i Windows artefakte na GitHub.\n- Tijelo izdanja GitHub za v4.47.1 je prazno, tako da nema dostupnih značajki ili bilješki o popravcima za točnu oznaku."
 }

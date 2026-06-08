@@ -17,8 +17,8 @@
     "/apps/medusa/assets/screenshot-6.webp"
   ],
   "store_app_id": "medusa",
-  "updateAt": "2024-03-26",
-  "releaseNotes": "",
+  "update_at": "2024-03-26",
+  "release_notes": "",
   "website": "",
   "repo": "https://github.com/pymedusa/Medusa",
   "support": "https://github.com/pymedusa/Medusa/issues",
@@ -28,5 +28,6 @@
   "categories": [
     "media"
   ],
-  "min_memory": 0
+  "min_memory": 0,
+  "min_image_size": 96874055
 }

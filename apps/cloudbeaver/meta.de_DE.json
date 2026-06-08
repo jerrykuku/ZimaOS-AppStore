@@ -1,4 +1,4 @@
 {
   "id": "cloudbeaver",
-  "releaseNotes": "- Der konfigurierte Image-Tag 25.2.5 hat kein passendes GitHub-Release-Objekt in dbeaver/cloudbeaver.\n- Dieser Eintrag bleibt an die CloudBeaver-25.2-Image-Reihe gebunden, bis Upstream tagbezogene Release Notes veröffentlicht."
+  "release_notes": "- Der konfigurierte Image-Tag 25.2.5 hat kein passendes GitHub-Release-Objekt in dbeaver/cloudbeaver.\n- Dieser Eintrag bleibt an die CloudBeaver-25.2-Image-Reihe gebunden, bis Upstream tagbezogene Release Notes veröffentlicht."
 }

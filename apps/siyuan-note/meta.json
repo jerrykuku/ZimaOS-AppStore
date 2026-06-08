@@ -19,8 +19,8 @@
   "tips": {
     "before_install": "| accessAuthCode |\n| -------- |\n| `casaos`    |\n"
   },
-  "updateAt": "2024-02-27",
-  "releaseNotes": "- v3.0.1 adds flashcard set review mode.\n- Enhancements include Mermaid error logs, F13-F32 shortcuts, database relation-field behavior, mobile menu improvements, and database table view template columns.\n- Fixes cover Azure OpenAI setup, inline markdown editing, database date export, plain-text paste, and user-guide tab closing.",
+  "update_at": "2024-02-27",
+  "release_notes": "- v3.0.1 adds flashcard set review mode.\n- Enhancements include Mermaid error logs, F13-F32 shortcuts, database relation-field behavior, mobile menu improvements, and database table view template columns.\n- Fixes cover Azure OpenAI setup, inline markdown editing, database date export, plain-text paste, and user-guide tab closing.",
   "website": "https://b3log.org/siyuan/",
   "repo": "https://github.com/siyuan-note/siyuan",
   "support": "https://github.com/siyuan-note/siyuan/issues",
@@ -30,5 +30,6 @@
   "categories": [
     "productivity"
   ],
-  "min_memory": 536870912
+  "min_memory": 536870912,
+  "min_image_size": 74815780
 }

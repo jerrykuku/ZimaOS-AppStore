@@ -1,4 +1,4 @@
 {
   "id": "mariadb",
-  "releaseNotes": "- GitHub release は対応する MariaDB community server release notes を参照しています。\n- 詳細な変更は対応する MariaDB release-notes ページに委ねています。"
+  "release_notes": "- GitHub release は対応する MariaDB community server release notes を参照しています。\n- 詳細な変更は対応する MariaDB release-notes ページに委ねています。"
 }

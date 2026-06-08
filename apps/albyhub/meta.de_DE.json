@@ -1,5 +1,5 @@
 {
   "id": "albyhub",
-  "releaseNotes": "- v1.20.0 fuegt einen Verbindungsassistenten fuer Apps aus dem App Store hinzu.\n- Alby Hub-Transaktionen koennen nun aus der Haupttransaktionsliste und einzelnen Verbindungen/Subwallets als CSV exportiert werden.\n- Channels koennen mit der bevorzugten Zahlungsmethode gekauft werden, und ein Suchdialog/Hotkey fuer schnelle Navigation wurde hinzugefuegt.",
+  "release_notes": "- v1.20.0 fuegt einen Verbindungsassistenten fuer Apps aus dem App Store hinzu.\n- Alby Hub-Transaktionen koennen nun aus der Haupttransaktionsliste und einzelnen Verbindungen/Subwallets als CSV exportiert werden.\n- Channels koennen mit der bevorzugten Zahlungsmethode gekauft werden, und ein Suchdialog/Hotkey fuer schnelle Navigation wurde hinzugefuegt.",
   "tagline": "Ein einfacher Bitcoin-Lightning-Knoten mit einer Wallet, Unterkonten und NWC-Verbindungen."
 }

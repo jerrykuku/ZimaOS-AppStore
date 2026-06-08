@@ -1,4 +1,4 @@
 {
   "id": "mariadb",
-  "releaseNotes": "- Izdanje GitHub ukazuje na odgovarajuće napomene o izdanju poslužitelja zajednice MariaDB.\n- Detaljne promjene delegirane su na odgovarajuću stranicu MariaDB release-notes."
+  "release_notes": "- Izdanje GitHub ukazuje na odgovarajuće napomene o izdanju poslužitelja zajednice MariaDB.\n- Detaljne promjene delegirane su na odgovarajuću stranicu MariaDB release-notes."
 }

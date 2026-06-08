@@ -1,4 +1,4 @@
 {
   "id": "ddns-updater",
-  "releaseNotes": "- v2.9.0 adiciona suporte de fornecedor para domene.shop, loopia.se, vultr.com, myaddr.tools e namesilo.com.\n- A configuração do servidor de integridade pode ser executada fora de Docker ou desativada em contentores.\n- As correções incluem a manipulação pública multi-address IP, a resolução do nome de host IPv6, Porkbun, Gandi, DonDominio, Netcup, GCP, permissões de ficheiro, análise de resposta NoIP, registo IP real e corte de resposta."
+  "release_notes": "- v2.9.0 adiciona suporte de fornecedor para domene.shop, loopia.se, vultr.com, myaddr.tools e namesilo.com.\n- A configuração do servidor de integridade pode ser executada fora de Docker ou desativada em contentores.\n- As correções incluem a manipulação pública multi-address IP, a resolução do nome de host IPv6, Porkbun, Gandi, DonDominio, Netcup, GCP, permissões de ficheiro, análise de resposta NoIP, registo IP real e corte de resposta."
 }

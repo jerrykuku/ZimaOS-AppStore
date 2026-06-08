@@ -1,4 +1,4 @@
 {
   "id": "pocketbase",
-  "releaseNotes": "- v0.25.9 fixes DynamicModel object/array property reflect type caching."
+  "release_notes": "- v0.25.9 fixes DynamicModel object/array property reflect type caching."
 }

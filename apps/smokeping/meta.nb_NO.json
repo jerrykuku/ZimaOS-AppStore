@@ -1,4 +1,4 @@
 {
   "id": "smokeping",
-  "releaseNotes": "- 2.8.2 er en samleutgivelse med automatisert byggetesting og InfluxDB-støtte.\n- Probehåndtering, FPing command-line oppførsel, SSH håndtering, zoommodus URLs, cropper relative-time oppføring, konfigurasjonsinnlastinger for slaver, maler, tapsfarger og graftitler ble forbedret.\n- Rettelser inkluderer å gjenopprette FindBin, legge til den manglende README og korrigere stavemåten i FTPtransfer.pm."
+  "release_notes": "- 2.8.2 er en samleutgivelse med automatisert byggetesting og InfluxDB-støtte.\n- Probehåndtering, FPing command-line oppførsel, SSH håndtering, zoommodus URLs, cropper relative-time oppføring, konfigurasjonsinnlastinger for slaver, maler, tapsfarger og graftitler ble forbedret.\n- Rettelser inkluderer å gjenopprette FindBin, legge til den manglende README og korrigere stavemåten i FTPtransfer.pm."
 }

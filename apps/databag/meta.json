@@ -12,8 +12,8 @@
   ],
   "author": "Pierre Balzack",
   "category": "Social",
-  "updateAt": "2025-11-28",
-  "releaseNotes": "",
+  "update_at": "2025-11-28",
+  "release_notes": "",
   "website": "",
   "repo": "https://github.com/balzack/databag",
   "support": "https://github.com/balzack/databag/discussions",
@@ -23,5 +23,6 @@
   "categories": [
     "social"
   ],
-  "min_memory": 0
+  "min_memory": 0,
+  "min_image_size": 250701066
 }

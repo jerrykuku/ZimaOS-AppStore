@@ -1,4 +1,4 @@
 {
   "id": "mylar3",
-  "releaseNotes": "- v0.8.3 dodaje selected-issue označavanje, prisilno čekanje za podskupove željenih problema, CRC provjere i CBL reading-list ekran za uvoz.\n- Poboljšano je vrijeme pretraživanja, imenovanje intervala pretraživanja, bilježenje tablice shift-select i GetComics.\n- Popravci pokrivaju out-of-order release-date post-processing, SAB/NZBGET upravljanje preuzimanjem, RSS feed URL konstrukciju i probleme s obavijestima."
+  "release_notes": "- v0.8.3 dodaje selected-issue označavanje, prisilno čekanje za podskupove željenih problema, CRC provjere i CBL reading-list ekran za uvoz.\n- Poboljšano je vrijeme pretraživanja, imenovanje intervala pretraživanja, bilježenje tablice shift-select i GetComics.\n- Popravci pokrivaju out-of-order release-date post-processing, SAB/NZBGET upravljanje preuzimanjem, RSS feed URL konstrukciju i probleme s obavijestima."
 }

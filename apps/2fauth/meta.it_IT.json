@@ -1,6 +1,6 @@
 {
   "id": "2fauth",
-  "releaseNotes": "- v5.4.3 corregge le icone cancellate che riappaiono dopo il salvataggio dal modulo avanzato the.\n- Sono stati corretti il ​​caricamento della pagina di accesso, l'invio del modulo del menu a piè di pagina, i codici QR ritagliati, i blocchi della modalità di gestione e le icone dell'account no-icon mancanti.\n- La vista /up non carica più gli stili CSS da tailwindcss.com.",
-  "tagline": "Un'applicazione web per gestire i tuoi account di autenticazione a due fattori (2FA) e generare i loro codici di sicurezza",
-  "description": "2FAuth è un'alternativa auto-hosted basata su web ai generatori di codici a tempo singolo (OTP) come Google Authenticator, progettati per dispositivi mobili e desktop."
+  "release_notes": "- v5.4.3 corregge le icone cancellate che riappaiono dopo il salvataggio dal modulo avanzato the.\n- Sono stati corretti il ​​caricamento della pagina di accesso, l'invio del modulo del menu a piè di pagina, i codici QR ritagliati, i blocchi della modalità di gestione e le icone dell'account no-icon mancanti.\n- La vista /up non carica più gli stili CSS da tailwindcss.com.",
+  "description": "2FAuth è un'alternativa auto-hosted basata su web ai generatori di codici a tempo singolo (OTP) come Google Authenticator, progettati per dispositivi mobili e desktop.",
+  "tagline": "Un'applicazione web per gestire i tuoi account di autenticazione a due fattori (2FA) e generare i loro codici di sicurezza"
 }

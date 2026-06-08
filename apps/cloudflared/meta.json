@@ -15,8 +15,8 @@
   "author": "WisdomSky",
   "thumbnail": "/apps/cloudflared/assets/thumbnail.webp",
   "category": "Networking",
-  "updateAt": "2025-05-30",
-  "releaseNotes": "",
+  "update_at": "2025-05-30",
+  "release_notes": "",
   "website": "https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/",
   "repo": "https://github.com/WisdomSky/Cloudflared-web",
   "support": "https://github.com/WisdomSky/Cloudflared-web/issues",
@@ -26,5 +26,6 @@
   "categories": [
     "networking"
   ],
-  "min_memory": 0
+  "min_memory": 0,
+  "min_image_size": 215937764
 }

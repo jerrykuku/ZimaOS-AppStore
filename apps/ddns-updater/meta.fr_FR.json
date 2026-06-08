@@ -1,4 +1,4 @@
 {
   "id": "ddns-updater",
-  "releaseNotes": "- v2.9.0 ajoute la prise en charge des providers domene.shop, loopia.se, vultr.com, myaddr.tools et namesilo.com.\n- La configuration Health server peut s'executer hors Docker ou etre desactivee dans les conteneurs.\n- Les correctifs couvrent multi-address public IP, IPv6 hostname resolution, Porkbun, Gandi, DonDominio, Netcup, GCP, permissions de fichiers, NoIP response parsing, real IP logging et response trimming."
+  "release_notes": "- v2.9.0 ajoute la prise en charge des providers domene.shop, loopia.se, vultr.com, myaddr.tools et namesilo.com.\n- La configuration Health server peut s'executer hors Docker ou etre desactivee dans les conteneurs.\n- Les correctifs couvrent multi-address public IP, IPv6 hostname resolution, Porkbun, Gandi, DonDominio, Netcup, GCP, permissions de fichiers, NoIP response parsing, real IP logging et response trimming."
 }

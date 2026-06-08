@@ -1,4 +1,4 @@
 {
   "id": "lucky",
-  "releaseNotes": "- v2.20.2 は Alibaba Cloud ESA の証明書同期サポートと、まだ公開されていない Tencent Cloud オプションを追加します。\n- Volcengine はドメインパッケージに基づいて最小 TTL を自動設定するようになりました。\n- 汎用 OIDC サードパーティログイン対応が追加され、ACME 証明書申請速度が最適化され、Filebrowser が v2.45.0 に更新されました。"
+  "release_notes": "- v2.20.2 は Alibaba Cloud ESA の証明書同期サポートと、まだ公開されていない Tencent Cloud オプションを追加します。\n- Volcengine はドメインパッケージに基づいて最小 TTL を自動設定するようになりました。\n- 汎用 OIDC サードパーティログイン対応が追加され、ACME 証明書申請速度が最適化され、Filebrowser が v2.45.0 に更新されました。"
 }

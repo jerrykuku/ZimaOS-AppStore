@@ -18,8 +18,8 @@
   "tagline": "A fancy monitoring tool",
   "thumbnail": "/apps/uptimekuma/assets/thumbnail.webp",
   "tips": {},
-  "updateAt": "2025-07-08",
-  "releaseNotes": "- Uptime Kuma 1.23.16 updates dependencies for security.\n- It fixes CVE-2024-56331, a local file inclusion issue in the Real-Browser monitor's URL handling.",
+  "update_at": "2025-07-08",
+  "release_notes": "- Uptime Kuma 1.23.16 updates dependencies for security.\n- It fixes CVE-2024-56331, a local file inclusion issue in the Real-Browser monitor's URL handling.",
   "website": "https://uptimekuma.org",
   "repo": "https://github.com/louislam/uptime-kuma",
   "support": "https://github.com/louislam/uptime-kuma/issues",
@@ -29,5 +29,6 @@
   "categories": [
     "networking"
   ],
-  "min_memory": 134217728
+  "min_memory": 134217728,
+  "min_image_size": 0
 }

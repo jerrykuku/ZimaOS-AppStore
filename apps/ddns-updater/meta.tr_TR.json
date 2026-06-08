@@ -1,4 +1,4 @@
 {
   "id": "ddns-updater",
-  "releaseNotes": "- v2.9.0, domene.shop, loopia.se, vultr.com, myaddr.tools ve namesilo.com için sağlayıcı desteği ekler.\n- Sistem durumu sunucusu yapılandırması Docker dışında çalışabilir veya kapsayıcılarda devre dışı bırakılabilir.\n- Düzeltmeler arasında multi-address genel IP işleme, IPv6 ana bilgisayar adı çözümlemesi, Porkbun, Gandi, DonDominio, Netcup, GCP, dosya izinleri, NoIP yanıt ayrıştırma, gerçek IP günlüğe kaydetme ve yanıt kırpma yer alıyor."
+  "release_notes": "- v2.9.0, domene.shop, loopia.se, vultr.com, myaddr.tools ve namesilo.com için sağlayıcı desteği ekler.\n- Sistem durumu sunucusu yapılandırması Docker dışında çalışabilir veya kapsayıcılarda devre dışı bırakılabilir.\n- Düzeltmeler arasında multi-address genel IP işleme, IPv6 ana bilgisayar adı çözümlemesi, Porkbun, Gandi, DonDominio, Netcup, GCP, dosya izinleri, NoIP yanıt ayrıştırma, gerçek IP günlüğe kaydetme ve yanıt kırpma yer alıyor."
 }

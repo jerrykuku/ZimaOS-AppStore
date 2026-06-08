@@ -1,4 +1,4 @@
 {
   "id": "crafty",
-  "releaseNotes": "- Crafty 4.4.11 je konfigurirano izdanje slike iz the uzvodnog GitLab projekta.\n- Za ovu aplikaciju nije dostupan zapisnik promjena GitHub jer Crafty objavljuje izdanja od GitLab."
+  "release_notes": "- Crafty 4.4.11 je konfigurirano izdanje slike iz the uzvodnog GitLab projekta.\n- Za ovu aplikaciju nije dostupan zapisnik promjena GitHub jer Crafty objavljuje izdanja od GitLab."
 }

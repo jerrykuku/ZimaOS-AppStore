@@ -1,8 +1,8 @@
 {
   "id": "pdfding",
-  "releaseNotes": "- v1.3.1 lägger till stöd för att ställa in administratörsrättigheter via OIDC-anspråk.\n- UI förbättringar gjordes, inklusive bättre trunkering för långa titlar.\n- Långa PDF-filnamn stöds av increasing filfältslängden PDF, och stjärnstorleken förblir fixerad i PDF-översikten när namn trunkeras.",
-  "tagline": "Självhostade PDF-hanterare, -visare och -redigerare",
+  "release_notes": "- v1.3.1 lägger till stöd för att ställa in administratörsrättigheter via OIDC-anspråk.\n- UI förbättringar gjordes, inklusive bättre trunkering för långa titlar.\n- Långa PDF-filnamn stöds av increasing filfältslängden PDF, och stjärnstorleken förblir fixerad i PDF-översikten när namn trunkeras.",
   "description": "PdfDing är en självhostade PDF-hanterare, -visare och -redigerare som erbjuder en sömlös användarupplevelse på flera enheter. Den är designad för att vara minimal, snabb och enkel att ställa in med Docker.\n\nMed funktioner som sömlös webbläsarbaserad PDF-visning som kommer ihåg din nuvarande position, flernivåtaggning, stjärnmärkning och arkiveringsfunktioner, PDF-redigering med kommentarer, markeringar och ritningar, rent intuitivt användargränssnitt med mörkt läge, SSO-stöd via OIDC, PDF-delning med extern publik, markdown-anteckningar och förloppsindikationer som visar läsframsteg, säkerställer PdfDing en utmärkt PDF-hanteringsupplevelse.\n\nAtt distribuera PdfDing på privata molnenheter som Zima ger oöverträffad bekvämlighet med åtkomst från flera enheter, vilket säkerställer att din PDF-samling alltid är inom räckhåll och säker, oavsett var du är.\n",
+  "tagline": "Självhostade PDF-hanterare, -visare och -redigerare",
   "tips": {
     "before_install": "Efter installationen kan du komma åt PdfDing på http://your-server-ip:8000. Skapa ditt första administratörskonto under den första installationen.\n\nObs: Om du stöter på åtkomstproblem kan du behöva manuellt redigera docker-compose.yml-filen och ersätta HOST_NAME-miljövariabeln med din faktiska server-IP-adress.\n"
   }

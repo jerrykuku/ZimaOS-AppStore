@@ -15,8 +15,8 @@
     "/apps/excalidraw/assets/screenshot-5.webp"
   ],
   "thumbnail": "",
-  "updateAt": "2025-08-06",
-  "releaseNotes": "",
+  "update_at": "2025-08-06",
+  "release_notes": "",
   "website": "https://excalidraw.com/",
   "repo": "https://github.com/excalidraw/excalidraw",
   "support": "https://github.com/excalidraw/excalidraw/issues",
@@ -26,5 +26,6 @@
   "categories": [
     "productivity"
   ],
-  "min_memory": 268435456
+  "min_memory": 268435456,
+  "min_image_size": 43247225
 }

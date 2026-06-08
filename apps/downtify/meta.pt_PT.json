@@ -1,4 +1,4 @@
 {
   "id": "downtify",
-  "releaseNotes": "- 2.6.0 adiciona a opção de guardar música em pastas de artistas.\n- Adiciona uma definição para desativar o download de letras.\n- Corrige a limpeza do histórico de downloads e a persistência das definições."
+  "release_notes": "- 2.6.0 adiciona a opção de guardar música em pastas de artistas.\n- Adiciona uma definição para desativar o download de letras.\n- Corrige a limpeza do histórico de downloads e a persistência das definições."
 }

@@ -16,8 +16,8 @@
   "tagline": "Memos is a lightweight, self-hosted memo hub. Open Source and Free forever.",
   "thumbnail": "/apps/memos/assets/thumbnail.webp",
   "tips": {},
-  "updateAt": "2025-07-16",
-  "releaseNotes": "- v0.25.0 includes database and API changes, so upstream recommends backing up data before upgrading.\n- User sessions now support a sliding window, and webhook data storage moved to user settings.\n- Themes, variant colors, highlighted pinned memos, and several RSS/search/avatar fixes were added.",
+  "update_at": "2025-07-16",
+  "release_notes": "- v0.25.0 includes database and API changes, so upstream recommends backing up data before upgrading.\n- User sessions now support a sliding window, and webhook data storage moved to user settings.\n- Themes, variant colors, highlighted pinned memos, and several RSS/search/avatar fixes were added.",
   "website": "https://usememos.com/",
   "repo": "https://github.com/usememos/memos",
   "support": "https://github.com/usememos/memos/issues",
@@ -27,5 +27,6 @@
   "categories": [
     "productivity"
   ],
-  "min_memory": 67108864
+  "min_memory": 67108864,
+  "min_image_size": 18588809
 }

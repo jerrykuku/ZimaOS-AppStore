@@ -16,8 +16,8 @@
     "/apps/sure/assets/screenshot-5.webp"
   ],
   "thumbnail": "",
-  "updateAt": "2025-12-03",
-  "releaseNotes": "- v0.6.5-hotfix.1 fixes mobile drag and re-order behavior.\n- Simplefin liabilities recording was fixed.",
+  "update_at": "2025-12-03",
+  "release_notes": "- v0.6.5-hotfix.1 fixes mobile drag and re-order behavior.\n- Simplefin liabilities recording was fixed.",
   "website": "https://sure.am",
   "repo": "https://github.com/we-promise/sure",
   "support": "https://github.com/we-promise/sure/issues",
@@ -27,5 +27,6 @@
   "categories": [
     "finance"
   ],
-  "min_memory": 4294967296
+  "min_memory": 4294967296,
+  "min_image_size": 483165008
 }

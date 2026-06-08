@@ -14,8 +14,8 @@
   "tips": {
     "before_install": "Attention Please\nWill update IPv6 address by default. You can modify it by settings.\n\nPlease register sub-domain on https://www.duckdns.org/ and gain your token.\n"
   },
-  "updateAt": "2025-03-13",
-  "releaseNotes": "",
+  "update_at": "2025-03-13",
+  "release_notes": "",
   "website": "https://www.duckdns.org",
   "repo": "https://github.com/linuxserver/docker-duckdns",
   "support": "https://github.com/linuxserver/docker-duckdns/issues",
@@ -25,5 +25,6 @@
   "categories": [
     "networking"
   ],
-  "min_memory": 0
+  "min_memory": 0,
+  "min_image_size": 15522610
 }

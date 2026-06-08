@@ -12,8 +12,8 @@
     "/apps/ddns-go/assets/screenshot-1.webp"
   ],
   "tagline": "Simple and easy to use DDNS",
-  "updateAt": "2026-05-01",
-  "releaseNotes": "- v6.17.0 adds ClouDNS support.\n- It fixes callback handling so protocol enablement is respected and the correct HTTP client is used.",
+  "update_at": "2026-05-01",
+  "release_notes": "- v6.17.0 adds ClouDNS support.\n- It fixes callback handling so protocol enablement is respected and the correct HTTP client is used.",
   "website": "",
   "repo": "https://github.com/jeessy2/ddns-go",
   "support": "https://github.com/jeessy2/ddns-go/issues",
@@ -23,5 +23,6 @@
   "categories": [
     "networking"
   ],
-  "min_memory": 33554432
+  "min_memory": 33554432,
+  "min_image_size": 11599402
 }

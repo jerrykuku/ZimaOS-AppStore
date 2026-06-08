@@ -1,4 +1,4 @@
 {
   "id": "openhab",
-  "releaseNotes": "- 4.3.3 é uma versão de patch com correções de bugs e melhorias de add-on.\n- As correções incluem a manipulação delta de perfis básicos, bluetooth.bluez NullPointerException, configuração de limite easye API, retenções de férias ecobee, Free@home em falta IDs, etiquetas de ponte hdpowerview, suporte de dinâmica Hue e manipulação de tokens huesync API.\n- Foram atualizados os filtros tarifários da Energidataservice e de vários outros add-ons."
+  "release_notes": "- 4.3.3 é uma versão de patch com correções de bugs e melhorias de add-on.\n- As correções incluem a manipulação delta de perfis básicos, bluetooth.bluez NullPointerException, configuração de limite easye API, retenções de férias ecobee, Free@home em falta IDs, etiquetas de ponte hdpowerview, suporte de dinâmica Hue e manipulação de tokens huesync API.\n- Foram atualizados os filtros tarifários da Energidataservice e de vários outros add-ons."
 }

@@ -1,6 +1,6 @@
 {
   "id": "ombi",
-  "releaseNotes": "- Ombi v4.47.1 是该镜像使用的上游版本，并在 GitHub 上发布 Linux、macOS 和 Windows 构建产物。\n- v4.47.1 的 GitHub Release 正文为空，因此该精确标签没有可用的功能或修复说明。",
-  "tagline": "友好的媒体请求工具，自动与您的媒体服务器同步！",
-  "description": "Ombi是一个自托管的Web应用程序，它可以自动为您的共享Plex或Emby用户提供自助请求内容的功能！ Ombi可以链接到多个电视节目和电影DVR工具，为用户提供无缝的端到端体验。"
+  "release_notes": "- Ombi v4.47.1 是该镜像使用的上游版本，并在 GitHub 上发布 Linux、macOS 和 Windows 构建产物。\n- v4.47.1 的 GitHub Release 正文为空，因此该精确标签没有可用的功能或修复说明。",
+  "description": "Ombi是一个自托管的Web应用程序，它可以自动为您的共享Plex或Emby用户提供自助请求内容的功能！ Ombi可以链接到多个电视节目和电影DVR工具，为用户提供无缝的端到端体验。",
+  "tagline": "友好的媒体请求工具，自动与您的媒体服务器同步！"
 }

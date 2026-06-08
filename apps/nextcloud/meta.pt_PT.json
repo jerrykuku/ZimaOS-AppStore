@@ -1,4 +1,4 @@
 {
   "id": "nextcloud",
-  "releaseNotes": "- v32.0.0 aponta para o pacote de lançamento do servidor Nextcloud correspondente.\n- Esta aplicação rastreia a versão do servidor Nextcloud 32.0.0 referenciada pela versão the upstream GitHub."
+  "release_notes": "- v32.0.0 aponta para o pacote de lançamento do servidor Nextcloud correspondente.\n- Esta aplicação rastreia a versão do servidor Nextcloud 32.0.0 referenciada pela versão the upstream GitHub."
 }

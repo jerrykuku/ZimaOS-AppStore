@@ -16,8 +16,8 @@
     "/apps/trilium/assets/screenshot-4.webp"
   ],
   "store_app_id": "trilium",
-  "updateAt": "",
-  "releaseNotes": "",
+  "update_at": "",
+  "release_notes": "",
   "website": "",
   "repo": "",
   "support": "",
@@ -27,5 +27,6 @@
   "categories": [
     "productivity"
   ],
-  "min_memory": 268435456
+  "min_memory": 268435456,
+  "min_image_size": 109812503
 }

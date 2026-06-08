@@ -15,8 +15,8 @@
   "tagline": "Friendly media request tool, automatically syncs with your media servers!",
   "thumbnail": "/apps/ombi/assets/thumbnail.webp",
   "tips": {},
-  "updateAt": "2025-01-05",
-  "releaseNotes": "- Ombi v4.47.1 is the upstream release used by this image and publishes Linux, macOS, and Windows artifacts on GitHub.\n- The GitHub Release body for v4.47.1 is empty, so no feature or fix notes are available for this exact tag.",
+  "update_at": "2025-01-05",
+  "release_notes": "- Ombi v4.47.1 is the upstream release used by this image and publishes Linux, macOS, and Windows artifacts on GitHub.\n- The GitHub Release body for v4.47.1 is empty, so no feature or fix notes are available for this exact tag.",
   "website": "https://ombi.io",
   "repo": "https://github.com/Ombi-app/Ombi",
   "support": "https://github.com/Ombi-app/Ombi/issues",
@@ -26,5 +26,6 @@
   "categories": [
     "media"
   ],
-  "min_memory": 67108864
+  "min_memory": 67108864,
+  "min_image_size": 127142405
 }

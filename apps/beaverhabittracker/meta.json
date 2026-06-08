@@ -14,8 +14,8 @@
     "/apps/beaverhabittracker/assets/screenshot-3.webp"
   ],
   "thumbnail": "",
-  "updateAt": "2025-10-12",
-  "releaseNotes": "- v0.7.3 upgrades the application stack to Python 3.14 and NiceGUI 3.0.",
+  "update_at": "2025-10-12",
+  "release_notes": "- v0.7.3 upgrades the application stack to Python 3.14 and NiceGUI 3.0.",
   "website": "https://beaverhabits.com/",
   "repo": "https://github.com/daya0576/beaverhabits",
   "support": "https://github.com/daya0576/beaverhabits/issues",
@@ -25,5 +25,6 @@
   "categories": [
     "productivity"
   ],
-  "min_memory": 134217728
+  "min_memory": 134217728,
+  "min_image_size": 112362462
 }

@@ -1,6 +1,6 @@
 {
   "id": "smokeping",
-  "releaseNotes": "- 2.8.2 är en samlad version med automatiserad byggtestning och InfluxDB-stöd.\n- Sondhantering, FPing command-line beteende, SSH hantering, zoomläge URLs, cropper relative-time post, konfigurationsomladdningar för slavar, mallar, förlustfärger och graftitlar förbättrades.\n- Korrigeringar inkluderar att återställa FindBin, lägga till den saknade README och rätta stavningen i FTPtransfer.pm.",
-  "tagline": "Gratis öppen källkodsnätverksprestandamonteringsverktyg",
-  "description": "håller reda på din nätverkslatens."
+  "release_notes": "- 2.8.2 är en samlad version med automatiserad byggtestning och InfluxDB-stöd.\n- Sondhantering, FPing command-line beteende, SSH hantering, zoomläge URLs, cropper relative-time post, konfigurationsomladdningar för slavar, mallar, förlustfärger och graftitlar förbättrades.\n- Korrigeringar inkluderar att återställa FindBin, lägga till den saknade README och rätta stavningen i FTPtransfer.pm.",
+  "description": "håller reda på din nätverkslatens.",
+  "tagline": "Gratis öppen källkodsnätverksprestandamonteringsverktyg"
 }

@@ -17,8 +17,8 @@
   "tagline": "Letter generators for Sonarr and Radarr",
   "thumbnail": "/apps/bazarr/assets/thumbnail.webp",
   "tips": {},
-  "updateAt": "2026-02-26",
-  "releaseNotes": "- v1.5.6 improves subdl and Gestdown provider error handling and release matching.\n- Adds Spain vs LATAM Spanish detection for SubX and completes SubX API key integration.\n- Fixes audio profile migration, Windows post-processing, assrt season-pack matching, and CJK title matching issues.",
+  "update_at": "2026-02-26",
+  "release_notes": "- v1.5.6 improves subdl and Gestdown provider error handling and release matching.\n- Adds Spain vs LATAM Spanish detection for SubX and completes SubX API key integration.\n- Fixes audio profile migration, Windows post-processing, assrt season-pack matching, and CJK title matching issues.",
   "website": "https://www.bazarr.media",
   "repo": "https://github.com/morpheus65535/bazarr",
   "support": "https://github.com/morpheus65535/bazarr/issues",
@@ -28,5 +28,6 @@
   "categories": [
     "media"
   ],
-  "min_memory": 67108864
+  "min_memory": 67108864,
+  "min_image_size": 147212860
 }

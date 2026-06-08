@@ -15,8 +15,8 @@
   "tagline": "The Unifi-controller software is a powerful, enterprise wireless software engine ideal for high-density client deployments requiring low latency and high uptime performance.",
   "thumbnail": "/apps/unifi-controller/assets/thumbnail.webp",
   "tips": {},
-  "updateAt": "2024-02-20",
-  "releaseNotes": "UniFi Controller 8.0.7 is the application version used by this container; see UniFi release notes for detailed changes.",
+  "update_at": "2024-02-20",
+  "release_notes": "UniFi Controller 8.0.7 is the application version used by this container; see UniFi release notes for detailed changes.",
   "website": "https://ui.com",
   "repo": "https://github.com/linuxserver/docker-unifi-controller",
   "support": "https://github.com/linuxserver/docker-unifi-controller/issues",
@@ -26,5 +26,6 @@
   "categories": [
     "networking"
   ],
-  "min_memory": 67108864
+  "min_memory": 67108864,
+  "min_image_size": 351519303
 }

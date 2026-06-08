@@ -1,4 +1,4 @@
 {
   "id": "flaresolverr",
-  "releaseNotes": "- v3.4.5 はランタイムを Python v3.13 に戻し、FlareSolverr を 3.4.5 に更新します。\n- Dockerfile の大文字小文字と changelog 生成が修正されました。"
+  "release_notes": "- v3.4.5 はランタイムを Python v3.13 に戻し、FlareSolverr を 3.4.5 に更新します。\n- Dockerfile の大文字小文字と changelog 生成が修正されました。"
 }

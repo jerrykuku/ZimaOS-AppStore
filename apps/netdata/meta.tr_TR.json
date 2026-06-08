@@ -1,4 +1,4 @@
 {
   "id": "netdata",
-  "releaseNotes": "- v2.8.1, aracı yeniden başlatıldıktan sonra dynamic-configuration vnode'larının kaybolmasını düzeltir.\n- apps.plugin içindeki PSS bellek örneklemesi, CPU yükünü azaltmak için default tarafından devre dışı bırakıldı.\n- Uyarı kaynak birimi ekranı, Windows veri dosyası eşitleme günlüğü, dbengine-disabled derlemesi ve Podman kapsayıcı adı çözümlemesi iyileştirildi."
+  "release_notes": "- v2.8.1, aracı yeniden başlatıldıktan sonra dynamic-configuration vnode'larının kaybolmasını düzeltir.\n- apps.plugin içindeki PSS bellek örneklemesi, CPU yükünü azaltmak için default tarafından devre dışı bırakıldı.\n- Uyarı kaynak birimi ekranı, Windows veri dosyası eşitleme günlüğü, dbengine-disabled derlemesi ve Podman kapsayıcı adı çözümlemesi iyileştirildi."
 }

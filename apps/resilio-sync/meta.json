@@ -12,8 +12,8 @@
   "category": "Productivity",
   "hostname": "",
   "store_app_id": "resilio-sync",
-  "updateAt": "2024-06-14",
-  "releaseNotes": "",
+  "update_at": "2024-06-14",
+  "release_notes": "",
   "website": "https://www.resilio.com/sync/",
   "repo": "https://github.com/linuxserver/docker-resilio-sync",
   "support": "https://github.com/linuxserver/docker-resilio-sync/issues",
@@ -23,5 +23,6 @@
   "categories": [
     "productivity"
   ],
-  "min_memory": 0
+  "min_memory": 0,
+  "min_image_size": 82698747
 }

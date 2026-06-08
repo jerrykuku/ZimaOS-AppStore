@@ -1,6 +1,6 @@
 {
   "id": "freshrss",
-  "releaseNotes": "- 1.27.1 è una versione di sicurezza e bug-fix per la serie 1.27.x.\n- Mantiene i criteri di ordinamento/ordinamento dopo aver contrassegnato gli articoli come letti e aggiunge il supporto per il controllo dello stato Docker.\n- Le correzioni di sicurezza includono la rigenerazione della sessione di accesso, una gestione più rigorosa della lingua, restrizioni cURL e correzioni CSRF.",
-  "tagline": "Un aggregatore di notizie gratuito e auto-ostabile...",
-  "description": "FreshRSS è un aggregatore di feed RSS e Atom autoportato. È leggero, facile da usare, potente e personalizzabile."
+  "release_notes": "- 1.27.1 è una versione di sicurezza e bug-fix per la serie 1.27.x.\n- Mantiene i criteri di ordinamento/ordinamento dopo aver contrassegnato gli articoli come letti e aggiunge il supporto per il controllo dello stato Docker.\n- Le correzioni di sicurezza includono la rigenerazione della sessione di accesso, una gestione più rigorosa della lingua, restrizioni cURL e correzioni CSRF.",
+  "description": "FreshRSS è un aggregatore di feed RSS e Atom autoportato. È leggero, facile da usare, potente e personalizzabile.",
+  "tagline": "Un aggregatore di notizie gratuito e auto-ostabile..."
 }

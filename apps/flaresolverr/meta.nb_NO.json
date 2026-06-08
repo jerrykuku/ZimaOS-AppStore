@@ -1,4 +1,4 @@
 {
   "id": "flaresolverr",
-  "releaseNotes": "- v3.4.5 tilbakestiller kjøretiden til Python v3.13 og bumper FlareSolverr til 3.4.5.\n- Dockerfile-casing og endringslogggenerering ble fikset."
+  "release_notes": "- v3.4.5 tilbakestiller kjøretiden til Python v3.13 og bumper FlareSolverr til 3.4.5.\n- Dockerfile-casing og endringslogggenerering ble fikset."
 }

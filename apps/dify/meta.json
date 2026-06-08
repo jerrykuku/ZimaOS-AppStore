@@ -15,8 +15,8 @@
   ],
   "thumbnail": "/apps/dify/assets/thumbnail.webp",
   "tagline": "LLM App Development Platform",
-  "updateAt": "2024-11-26",
-  "releaseNotes": "- 0.12.1 fixes custom icon display in the webapp and file handling in Start forms.\n- LLM memory processing, conversation deletion, app creation, and template import errors were corrected.\n- The release includes upgrade guidance for Docker Compose deployments.",
+  "update_at": "2024-11-26",
+  "release_notes": "- 0.12.1 fixes custom icon display in the webapp and file handling in Start forms.\n- LLM memory processing, conversation deletion, app creation, and template import errors were corrected.\n- The release includes upgrade guidance for Docker Compose deployments.",
   "website": "https://dify.ai",
   "repo": "https://github.com/langgenius/dify",
   "support": "https://github.com/langgenius/dify/discussions",
@@ -26,5 +26,6 @@
   "categories": [
     "ai"
   ],
-  "min_memory": 2147483648
+  "min_memory": 2147483648,
+  "min_image_size": 1525317032
 }

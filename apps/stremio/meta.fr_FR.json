@@ -1,4 +1,4 @@
 {
   "id": "stremio",
-  "releaseNotes": "- v1.2.5 utilise Stremio web version v5.0.0-beta.27.\n- L'URL du serveur pointe vers le v4.20.12 desktop server script."
+  "release_notes": "- v1.2.5 utilise Stremio web version v5.0.0-beta.27.\n- L'URL du serveur pointe vers le v4.20.12 desktop server script."
 }

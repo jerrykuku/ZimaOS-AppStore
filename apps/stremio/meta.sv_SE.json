@@ -1,4 +1,4 @@
 {
   "id": "stremio",
-  "releaseNotes": "- v1.2.5 använder Stremio webbversion v5.0.0-beta.27.\n- Servern URL pekar på v4.20.12 skrivbordsserverskriptet."
+  "release_notes": "- v1.2.5 använder Stremio webbversion v5.0.0-beta.27.\n- Servern URL pekar på v4.20.12 skrivbordsserverskriptet."
 }

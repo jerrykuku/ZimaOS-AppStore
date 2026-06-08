@@ -1,4 +1,4 @@
 {
   "id": "vaultwarden",
-  "releaseNotes": "- 1.32.7, ORG_GROUPS_ENABLED etkinleştirilmiş kurulumlar için bir güvenlik düzeltmesi içerir.\n- SMTP resim kaynağı değerleri destek dizesinde maskelenmiştir.\n- Yeniden düzenleme, optimizasyonlar, connect-src giriş desteği ve güncellenmiş eğrelti otu kullanımı dahildir."
+  "release_notes": "- 1.32.7, ORG_GROUPS_ENABLED etkinleştirilmiş kurulumlar için bir güvenlik düzeltmesi içerir.\n- SMTP resim kaynağı değerleri destek dizesinde maskelenmiştir.\n- Yeniden düzenleme, optimizasyonlar, connect-src giriş desteği ve güncellenmiş eğrelti otu kullanımı dahildir."
 }

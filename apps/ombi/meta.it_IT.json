@@ -1,6 +1,6 @@
 {
   "id": "ombi",
-  "releaseNotes": "- Ombi v4.47.1 è la versione upstream utilizzata dall'immagine this e pubblica artefatti Linux, macOS e Windows su GitHub.\n- Il corpo della versione GitHub per v4.47.1 è vuoto, quindi non sono disponibili funzionalità o note di correzione per questo tag esatto.",
-  "tagline": "Strumento di richiesta di media amichevole, sincronizza automaticamente con i tuoi server multimediali!",
-  "description": "Ombi è un'applicazione web autohosted che consente ai tuoi utenti di Plex o Emby di richiedere autonomamente contenuti. Ombi può essere collegato a più strumenti DVR TV Show e Movie per creare un'esperienza senza interruzioni per i tuoi utenti!"
+  "release_notes": "- Ombi v4.47.1 è la versione upstream utilizzata dall'immagine this e pubblica artefatti Linux, macOS e Windows su GitHub.\n- Il corpo della versione GitHub per v4.47.1 è vuoto, quindi non sono disponibili funzionalità o note di correzione per questo tag esatto.",
+  "description": "Ombi è un'applicazione web autohosted che consente ai tuoi utenti di Plex o Emby di richiedere autonomamente contenuti. Ombi può essere collegato a più strumenti DVR TV Show e Movie per creare un'esperienza senza interruzioni per i tuoi utenti!",
+  "tagline": "Strumento di richiesta di media amichevole, sincronizza automaticamente con i tuoi server multimediali!"
 }

@@ -1,4 +1,4 @@
 {
   "id": "photoprism",
-  "releaseNotes": "- PhotoPrism build 250228 adds a Retina 5K thumbnail size and usability/performance improvements.\n- Viewer updates reduce eager preloading, WebDAV upload actions now depend on sharing being enabled, and M4V files are treated as MP4-compatible."
+  "release_notes": "- PhotoPrism build 250228 adds a Retina 5K thumbnail size and usability/performance improvements.\n- Viewer updates reduce eager preloading, WebDAV upload actions now depend on sharing being enabled, and M4V files are treated as MP4-compatible."
 }

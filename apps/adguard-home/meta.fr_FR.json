@@ -1,6 +1,6 @@
 {
   "id": "adguard-home",
-  "description": "AdGuard Home est un logiciel réseau pour bloquer les publicités et le suivi. Une fois configuré, il couvrira tous vos appareils domestiques et vous n'aurez pas besoin de logiciel client pour cela. En savoir plus sur notre référentiel officiel Github.",
   "tagline": "Serveur DNS de blocage de publicités et de traqueurs sur tout le réseau",
+  "description": "AdGuard Home est un logiciel réseau pour bloquer les publicités et le suivi. Une fois configuré, il couvrira tous vos appareils domestiques et vous n'aurez pas besoin de logiciel client pour cela. En savoir plus sur notre référentiel officiel Github.",
   "release_notes": "- v0.107.61 corrige une vulnerabilite de cache poisoning.\n- Les requetes simultanees dupliquees sont maintenant regroupees en une seule requete upstream.\n- La nouvelle configuration pending_requests est activee par defaut et recommandee pour les clients non fiables."
 }

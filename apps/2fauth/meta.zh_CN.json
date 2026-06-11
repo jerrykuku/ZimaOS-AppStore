@@ -1,6 +1,6 @@
 {
   "id": "2fauth",
-  "description": "2FAuth是一个基于Web的自托管的替代Google Authenticator的一次性密码（OTP）生成器，旨在为移动和桌面设备提供服务。",
   "tagline": "一个用于管理您的两步验证（2FA）帐户并生成其安全代码的Web应用程序",
+  "description": "2FAuth是一个基于Web的自托管的替代Google Authenticator的一次性密码（OTP）生成器，旨在为移动和桌面设备提供服务。",
   "release_notes": "- v5.4.3 修复了从高级表单保存后已删除图标重新出现的问题。\n- 修复了登录页加载、页脚菜单表单提交、二维码裁剪、Manage 模式冻结以及无图标账户图标缺失的问题。\n- /up 视图不再从 tailwindcss.com 加载 CSS 样式。"
 }

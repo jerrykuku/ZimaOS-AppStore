@@ -1,6 +1,6 @@
 {
   "id": "nextcloud",
-  "description": "Nextcloud ger dig kontroll över dina data. Lagra dina dokument, kalender, kontakter och foton på en server hemma, hos en av våra leverantörer eller i ett datacenter du litar på.",
   "tagline": "Produktivitetsplattformen som håller dig i kontroll",
+  "description": "Nextcloud ger dig kontroll över dina data. Lagra dina dokument, kalender, kontakter och foton på en server hemma, hos en av våra leverantörer eller i ett datacenter du litar på.",
   "release_notes": "- v32.0.0 pekar på motsvarande Nextcloud-serverversionspaket.\n- Den här appen spårar Nextcloud 32.0.0-serverversionen som refereras av the uppströms GitHub-release."
 }

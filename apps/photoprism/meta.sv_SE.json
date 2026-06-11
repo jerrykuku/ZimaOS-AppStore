@@ -1,6 +1,6 @@
 {
   "id": "photoprism",
-  "description": "PhotoPrism® är en AI-drivet app för att bläddra, organisera och dela din fotokollektion. Den använder de senaste teknologierna för att märka och hitta bilder automatiskt utan att störa dig. Du kan köra det hemma, på en privat server eller i molnet.",
   "tagline": "Bläddra, organisera och dela din fotokollektion",
+  "description": "PhotoPrism® är en AI-drivet app för att bläddra, organisera och dela din fotokollektion. Den använder de senaste teknologierna för att märka och hitta bilder automatiskt utan att störa dig. Du kan köra det hemma, på en privat server eller i molnet.",
   "release_notes": "- PhotoPrism build 250228 lägger till en Retina 5K miniatyrstorlek och förbättringar av användbarhet/prestanda.\n- Viewer-uppdateringar minskar ivrig förladdning, WebDAV uppladdningsåtgärder är nu beroende av att delning är aktiverad och M4V-filer behandlas som MP4-compatible."
 }

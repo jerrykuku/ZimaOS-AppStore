@@ -1,6 +1,6 @@
 {
   "id": "vaultwarden",
-  "description": "Implémentation alternative de l'API du serveur Bitwarden écrite en Rust et compatible avec les clients Bitwarden supérieurs *, parfaite pour le déploiement auto-hébergé où l'exécution du service officiel lourd en ressources peut ne pas être idéale.",
   "tagline": "Un serveur Bitwarden auto-hébergé",
+  "description": "Implémentation alternative de l'API du serveur Bitwarden écrite en Rust et compatible avec les clients Bitwarden supérieurs *, parfaite pour le déploiement auto-hébergé où l'exécution du service officiel lourd en ressources peut ne pas être idéale.",
   "release_notes": "- 1.32.7 inclut un correctif de sécurité pour les installations avec ORG_GROUPS_ENABLED activé.\n- Les SMTP image source values sont masquées dans le support string.\n- La version inclut aussi du refactoring, des optimisations, la prise en charge des entrées connect-src et une utilisation de fern mise à jour."
 }

@@ -24,6 +24,7 @@ import copy
 import hashlib
 import json
 from json import JSONDecodeError
+import os
 import re
 import shutil
 import socket
@@ -86,6 +87,7 @@ IMAGE_SIZE_CACHE = {}
 REGISTRY_TOKEN_CACHE = {}
 RATE_LIMITED_REGISTRIES = {}
 RATE_LIMIT_WARNED_REGISTRIES = set()
+IMAGE_SIZE_CACHE_FILE = None
 NETWORK_RETRY_ATTEMPTS = 4
 NETWORK_RETRYABLE_HTTP_CODES = {408, 425, 429, 500, 502, 503, 504}
 
@@ -112,6 +114,11 @@ def parse_args():
         "--base-url",
         default="",
         help="Base URL prefix for resource links (e.g. https://user.github.io/repo)",
+    )
+    parser.add_argument(
+        "--cache-file",
+        default="",
+        help="Optional JSON cache file for image metadata (default: <source>/.cache/build_appstore/image-size-cache.json)",
     )
     return parser.parse_args()
 
@@ -364,6 +371,77 @@ def normalize_base_url(base):
     return base.rstrip("/")
 
 
+def default_cache_file(source_root):
+    """Return the default on-disk cache file path."""
+    return source_root / ".cache" / "build_appstore" / "image-size-cache.json"
+
+
+def serialize_image_descriptors(descriptors):
+    """Convert cached descriptors to JSON-safe form."""
+    return [{"digest": digest, "size": int(size)} for digest, size in descriptors]
+
+
+def deserialize_image_descriptors(payload):
+    """Convert JSON-loaded descriptors to tuple form."""
+    out = []
+    if not isinstance(payload, list):
+        return out
+    for item in payload:
+        if not isinstance(item, dict):
+            continue
+        digest = item.get("digest")
+        size = item.get("size")
+        if not digest or size is None:
+            continue
+        out.append((str(digest), int(size)))
+    return out
+
+
+def load_image_size_cache(cache_file):
+    """Load persisted image descriptor cache from disk."""
+    global IMAGE_SIZE_CACHE_FILE
+    IMAGE_SIZE_CACHE_FILE = cache_file
+    if not cache_file.exists():
+        return
+    try:
+        payload = json.loads(cache_file.read_text(encoding="utf-8"))
+    except Exception as exc:
+        print(f"  WARN  Failed to load image size cache: {cache_file} ({exc})")
+        return
+
+    entries = payload.get("image_size_cache", {})
+    if not isinstance(entries, dict):
+        return
+
+    for image_ref, descriptors in entries.items():
+        parsed = deserialize_image_descriptors(descriptors)
+        if parsed:
+            IMAGE_SIZE_CACHE[image_ref] = parsed
+
+
+def save_image_size_cache():
+    """Persist image descriptor cache to disk atomically."""
+    if not IMAGE_SIZE_CACHE_FILE:
+        return
+    IMAGE_SIZE_CACHE_FILE.parent.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "version": 1,
+        "image_size_cache": {
+            image_ref: serialize_image_descriptors(descriptors)
+            for image_ref, descriptors in sorted(IMAGE_SIZE_CACHE.items())
+        },
+    }
+    tmp_file = IMAGE_SIZE_CACHE_FILE.with_suffix(".tmp")
+    tmp_file.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    os.replace(tmp_file, IMAGE_SIZE_CACHE_FILE)
+
+
+def update_image_size_cache_entry(image_ref, descriptors):
+    """Store one resolved image entry and immediately persist cache to disk."""
+    IMAGE_SIZE_CACHE[image_ref] = descriptors
+    save_image_size_cache()
+
+
 def parse_memory_to_bytes(value):
     """Convert docker-style memory strings like 64M / 1G to bytes."""
     if value is None:
@@ -553,7 +631,7 @@ def calculate_min_image_size(compose_data, app_id):
             descriptors = IMAGE_SIZE_CACHE.get(image_ref)
             if descriptors is None:
                 descriptors = estimate_image_blob_descriptors(image_ref)
-                IMAGE_SIZE_CACHE[image_ref] = descriptors
+                update_image_size_cache_entry(image_ref, descriptors)
             for digest, size in descriptors:
                 if digest in seen:
                     continue
@@ -1288,11 +1366,15 @@ def main():
     source = Path(args.source).resolve()
     output = Path(args.output).resolve()
     base_url = args.base_url
+    cache_file = Path(args.cache_file).resolve() if args.cache_file else default_cache_file(source)
 
     print(f"Source: {source}")
     print(f"Output: {output}")
     print(f"Base URL: {base_url or '(relative)'}")
+    print(f"Cache file: {cache_file}")
     print()
+
+    load_image_size_cache(cache_file)
 
     if output.exists():
         shutil.rmtree(output)
@@ -1508,6 +1590,8 @@ def main():
     print("  apps/{app_id}/assets/*")
     if skipped:
         print(f"  Skipped: {', '.join(skipped)}")
+
+    save_image_size_cache()
 
 
 if __name__ == "__main__":

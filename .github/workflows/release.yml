@@ -30,6 +30,14 @@ jobs:
           sudo apt-get update && sudo apt-get install -y librsvg2-bin
           pip install pyyaml Pillow
 
+      - name: Restore image size cache
+        uses: actions/cache@v4
+        with:
+          path: .cache/build_appstore/image-size-cache.json
+          key: build-appstore-image-size-cache-${{ github.ref_name }}
+          restore-keys: |
+            build-appstore-image-size-cache-
+
       - name: Build static appstore dist
         env:
           BASE_URL_INPUT: ${{ inputs.base_url }}
@@ -38,6 +46,7 @@ jobs:
           python3 scripts/build_appstore.py \
             --source . \
             --output dist \
+            --cache-file .cache/build_appstore/image-size-cache.json \
             --base-url "${BASE_URL}"
           touch dist/.nojekyll
 

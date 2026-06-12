@@ -1,5 +1,0 @@
-{
-  "id": "jenkins",
-  "description": "Szerver Jenkins folyamatos integrációs és szállítási folyamatok létrehozásához.",
-  "tagline": "Jenkins folyamatos integrációs és szállítási szerver."
-}

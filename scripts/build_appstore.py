@@ -1429,8 +1429,6 @@ def main():
         min_memory = calculate_min_memory(compose_data)
         min_image_size = calculate_min_image_size(compose_data, app_id)
         compose_xc = compose_l.get("x-casaos", {})
-        if "title" in compose_xc:
-            compose_xc["title"] = resolve_i18n(compose_xc["title"], DEFAULT_LOCALE)
         compose_xc["icon"] = url_join(base_url, f"{assets_path}/{icon_filename}")
         compose_l["x-casaos"] = compose_xc
 

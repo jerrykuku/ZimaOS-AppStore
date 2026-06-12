@@ -20,7 +20,8 @@ services:
 x-casaos:
   main: node-red
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/node-red/assets/icon.svg
-  title: Node-RED
+  title:
+    en_US: Node-RED
   index: /
   port_map: '1880'
   version: 4.1.10

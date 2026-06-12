@@ -21,7 +21,8 @@ services:
 x-casaos:
   main: crafty
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/crafty/assets/icon.svg
-  title: Crafty
+  title:
+    en_US: Crafty
   index: /panel
   scheme: https
   port_map: '8111'

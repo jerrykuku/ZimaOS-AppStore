@@ -13,6 +13,7 @@ services:
 x-casaos:
   main: adminer
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/adminer/assets/icon.svg
-  title: Adminer
+  title:
+    en_US: Adminer
   port_map: '8080'
   version: 5.4.2

@@ -24,6 +24,7 @@ services:
 x-casaos:
   main: memos
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/memos/assets/icon.svg
-  title: Memos
+  title:
+    en_US: Memos
   port_map: '5230'
   version: 0.28.0

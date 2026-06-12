@@ -22,7 +22,8 @@ services:
 x-casaos:
   main: vocechat
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/vocechat/assets/icon.svg
-  title: VoceChat
+  title:
+    en_US: VoceChat
   index: /
   port_map: '3009'
   version: v0.5.17

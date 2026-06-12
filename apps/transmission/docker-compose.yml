@@ -39,7 +39,8 @@ services:
 x-casaos:
   main: transmission
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/transmission/assets/icon.svg
-  title: Transmission
+  title:
+    en_US: Transmission
   index: /
   port_map: '9091'
   version: 4.1.1

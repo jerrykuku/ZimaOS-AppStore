@@ -183,6 +183,7 @@ configs:
 x-casaos:
   main: frontend
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/taskingai/assets/icon.svg
-  title: TaskingAI
+  title:
+    en_US: TaskingAI
   port_map: '3080'
   version: v0.3.0

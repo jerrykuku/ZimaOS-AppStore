@@ -22,5 +22,6 @@ services:
 x-casaos:
   main: mongo
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/mongodb/assets/icon.svg
-  title: MongoDB
+  title:
+    en_US: MongoDB
   version: 8.2.2

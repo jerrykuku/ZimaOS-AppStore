@@ -29,7 +29,8 @@ services:
 x-casaos:
   main: homeassistant
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/homeassistant/assets/icon.svg
-  title: Home Assistant
+  title:
+    en_US: Home Assistant
   index: /
   port_map: '8123'
   version: 2026.5.4

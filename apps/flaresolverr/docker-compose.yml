@@ -29,5 +29,6 @@ x-casaos:
   index: /
   port_map: '8191'
   scheme: http
-  title: FlareSolverr
+  title:
+    en_US: FlareSolverr
   version: v3.4.6

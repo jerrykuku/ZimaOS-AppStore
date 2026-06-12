@@ -112,5 +112,20 @@ x-casaos:
   scheme: http
   port_map: '18010'
   index: /
-  title: ArchiveBox
+  title:
+    en_US: ArchiveBox
+    en_GB: ArchiveBox
+    it_IT: ArchiveBox
+    nb_NO: ArchiveBox
+    zh_CN: ArchiveBox
+    ja_JP: ArchiveBox
+    ko_KR: ArchiveBox
+    fr_FR: ArchiveBox
+    de_DE: ArchiveBox
+    sv_SE: ArchiveBox
+    el_GR: ArchiveBox
+    hr_HR: ArchiveBox
+    pt_PT: ArchiveBox
+    ru_RU: ArchiveBox
+    tr_TR: ArchiveBox
   version: 0.7.4

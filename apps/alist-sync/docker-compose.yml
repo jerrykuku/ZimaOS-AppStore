@@ -15,6 +15,7 @@ services:
 x-casaos:
   main: alist-sync
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/alist-sync/assets/icon.svg
-  title: Alist-Sync
+  title:
+    en_US: Alist-Sync
   port_map: '52441'
   version: 1.1.5

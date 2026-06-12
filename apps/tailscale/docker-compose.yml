@@ -29,5 +29,6 @@ x-casaos:
   scheme: ''
   port_map: '5252'
   index: /
-  title: Tailscale
+  title:
+    en_US: Tailscale
   version: v1.98.3

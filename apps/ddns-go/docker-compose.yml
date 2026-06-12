@@ -22,5 +22,6 @@ x-casaos:
   main: ddns-go
   port_map: '9876'
   scheme: http
-  title: ddns-go
+  title:
+    en_US: ddns-go
   version: v6.17.1

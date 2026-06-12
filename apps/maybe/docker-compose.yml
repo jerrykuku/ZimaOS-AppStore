@@ -120,5 +120,20 @@ x-casaos:
   scheme: http
   port_map: '23000'
   index: /
-  title: Maybe
+  title:
+    en_US: Maybe
+    en_GB: Maybe
+    it_IT: Maybe
+    nb_NO: Maybe
+    zh_CN: Maybe
+    ja_JP: Maybe
+    ko_KR: Maybe
+    fr_FR: Maybe
+    de_DE: Maybe
+    sv_SE: Maybe
+    el_GR: Maybe
+    hr_HR: Maybe
+    pt_PT: Maybe
+    ru_RU: Maybe
+    tr_TR: Maybe
   version: latest

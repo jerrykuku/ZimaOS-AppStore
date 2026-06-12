@@ -26,7 +26,8 @@ services:
 x-casaos:
   main: downtify
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/downtify/assets/icon.svg
-  title: Downtify
+  title:
+    en_US: Downtify
   index: /
   port_map: '8582'
   version: 2.7.0

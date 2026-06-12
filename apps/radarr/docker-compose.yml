@@ -30,7 +30,8 @@ services:
 x-casaos:
   main: radarr
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/radarr/assets/icon.svg
-  title: Radarr
+  title:
+    en_US: Radarr
   index: /
   port_map: '7878'
   version: 6.1.1

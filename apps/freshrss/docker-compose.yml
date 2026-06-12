@@ -24,5 +24,6 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/freshrss/assets/icon.svg
   port_map: '8749'
   scheme: http
-  title: FreshRSS
+  title:
+    en_US: FreshRSS
   version: 1.29.1

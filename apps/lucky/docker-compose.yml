@@ -19,7 +19,8 @@ x-casaos:
   main: lucky
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/lucky/assets/icon.svg
   index: /
-  title: Lucky
+  title:
+    en_US: Lucky
   port_map: '16601'
   scheme: http
   version: 2.27.2

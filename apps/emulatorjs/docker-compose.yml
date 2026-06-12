@@ -36,5 +36,6 @@ x-casaos:
   index: /
   port_map: '88'
   scheme: http
-  title: emulatorjs
+  title:
+    en_US: emulatorjs
   version: 1.9.2

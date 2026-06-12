@@ -30,6 +30,7 @@ services:
 x-casaos:
   main: bazarr
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/bazarr/assets/icon.svg
-  title: Bazarr
+  title:
+    en_US: Bazarr
   port_map: '6767'
   version: 1.5.6

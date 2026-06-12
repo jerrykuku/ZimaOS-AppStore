@@ -46,7 +46,8 @@ services:
 x-casaos:
   main: jellyfin
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jellyfin/assets/icon.svg
-  title: Jellyfin
+  title:
+    en_US: Jellyfin
   index: /
   port_map: '8097'
   version: 10.11.10

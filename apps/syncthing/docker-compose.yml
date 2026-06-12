@@ -36,7 +36,8 @@ services:
 x-casaos:
   main: syncthing
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/syncthing/assets/icon.svg
-  title: Syncthing
+  title:
+    en_US: Syncthing
   index: /
   port_map: '8384'
   version: 1.29.7

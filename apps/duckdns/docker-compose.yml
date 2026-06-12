@@ -18,6 +18,7 @@ services:
 x-casaos:
   main: duckdns
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/duckdns/assets/icon.svg
-  title: duckdns
+  title:
+    en_US: duckdns
   index: /
   version: latest

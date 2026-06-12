@@ -27,5 +27,6 @@ x-casaos:
   scheme: http
   port_map: '2017'
   index: /
-  title: V2rayA
+  title:
+    en_US: V2rayA
   version: v2.2.7.5

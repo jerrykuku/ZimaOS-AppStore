@@ -35,7 +35,8 @@ services:
 x-casaos:
   main: pihole
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pihole/assets/icon.svg
-  title: Pi-hole
+  title:
+    en_US: Pi-hole
   index: /admin
   port_map: '8800'
   version: 2026.05.0

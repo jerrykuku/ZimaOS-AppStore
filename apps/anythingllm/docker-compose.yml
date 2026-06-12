@@ -21,7 +21,11 @@ x-casaos:
   main: anythingllm
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/anythingllm/assets/icon.svg
   scheme: http
-  title: AnythingLLM
+  title:
+    en_US: AnythingLLM
+    en_UK: AnythingLLM
+    zh_CN: AnythingLLM
+    ja_JP: AnythingLLM
   index: /
   port_map: '3051'
   version: latest

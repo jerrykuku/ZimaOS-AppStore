@@ -29,5 +29,6 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/virtmanager/assets/icon.svg
   port_map: '8185'
   scheme: http
-  title: Virtual Machine Manager
+  title:
+    en_US: Virtual Machine Manager
   version: latest

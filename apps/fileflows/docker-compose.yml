@@ -39,7 +39,8 @@ x-casaos:
   main: fileflows
   port_map: '19200'
   scheme: http
-  title: FileFlows
+  title:
+    en_US: FileFlows
   index: /
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/fileflows/assets/icon.svg
   version: stable

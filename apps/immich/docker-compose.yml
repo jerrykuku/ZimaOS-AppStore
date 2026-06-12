@@ -69,7 +69,8 @@ networks:
 x-casaos:
   main: immich-server
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/immich/assets/icon.svg
-  title: Immich
+  title:
+    en_US: Immich
   port_map: '2283'
   scheme: http
   index: /

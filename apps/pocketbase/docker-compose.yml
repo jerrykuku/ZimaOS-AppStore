@@ -20,7 +20,8 @@ services:
 x-casaos:
   main: pocketbase
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pocketbase/assets/icon.svg
-  title: PocketBase
+  title:
+    en_US: PocketBase
   index: /_/
   port_map: '8090'
   version: 0.26.6

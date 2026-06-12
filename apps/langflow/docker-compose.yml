@@ -39,5 +39,20 @@ x-casaos:
   scheme: http
   port_map: '17860'
   index: /
-  title: Langflow
+  title:
+    en_US: Langflow
+    en_GB: Langflow
+    it_IT: Langflow
+    nb_NO: Langflow
+    zh_CN: Langflow
+    ja_JP: Langflow
+    ko_KR: Langflow
+    fr_FR: Langflow
+    de_DE: Langflow
+    sv_SE: Langflow
+    el_GR: Langflow
+    hr_HR: Langflow
+    pt_PT: Langflow
+    ru_RU: Langflow
+    tr_TR: Langflow
   version: 1.9.3

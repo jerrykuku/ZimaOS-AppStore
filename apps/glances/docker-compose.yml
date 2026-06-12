@@ -30,7 +30,10 @@ services:
 x-casaos:
   main: glances
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/glances/assets/icon.svg
-  title: Glances
+  title:
+    en_US: Glances
+    zh_CN: Glances
+    pt_BR: Glances
   index: /
   port_map: '61208'
   version: 4.5.4

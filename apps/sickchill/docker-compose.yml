@@ -30,6 +30,7 @@ services:
 x-casaos:
   main: sickchill
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/sickchill/assets/icon.svg
-  title: Sickchill
+  title:
+    en_US: Sickchill
   port_map: '8081'
   version: 2023.6.27

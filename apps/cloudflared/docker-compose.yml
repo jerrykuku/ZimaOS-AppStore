@@ -16,6 +16,7 @@ services:
 x-casaos:
   main: cloudflared
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/cloudflared/assets/icon.svg
-  title: Cloudflared
+  title:
+    en_US: Cloudflared
   port_map: '14333'
   version: 2026.5.0

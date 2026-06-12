@@ -24,5 +24,6 @@ x-casaos:
   scheme: http
   port_map: '11434'
   index: /
-  title: Ollama
+  title:
+    en_US: Ollama
   version: 0.24.0

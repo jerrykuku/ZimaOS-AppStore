@@ -34,5 +34,6 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jdownloader2/assets/icon.svg
   port_map: '5800'
   scheme: http
-  title: JDownloader2
+  title:
+    en_US: JDownloader2
   version: latest

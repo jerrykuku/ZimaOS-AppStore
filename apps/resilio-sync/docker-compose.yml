@@ -32,5 +32,6 @@ x-casaos:
   index: /
   port_map: '8888'
   scheme: http
-  title: resilio-sync
+  title:
+    en_US: resilio-sync
   version: 3.1.2

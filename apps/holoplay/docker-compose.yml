@@ -12,7 +12,8 @@ services:
 x-casaos:
   main: holoplay
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/holoplay/assets/icon.svg
-  title: HoloPlay
+  title:
+    en_US: HoloPlay
   index: /
   port_map: '3000'
   version: 1.12.3

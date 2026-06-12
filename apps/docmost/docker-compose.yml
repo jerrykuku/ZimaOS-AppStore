@@ -59,5 +59,6 @@ x-casaos:
   scheme: http
   port_map: '3000'
   index: /
-  title: Docmost
+  title:
+    en_US: Docmost
   version: 0.90.0

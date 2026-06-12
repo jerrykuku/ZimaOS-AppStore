@@ -54,5 +54,6 @@ x-casaos:
   scheme: http
   port_map: '9001'
   index: /
-  title: Etherpad
+  title:
+    en_US: Etherpad
   version: 3.1.0

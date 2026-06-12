@@ -19,7 +19,22 @@ services:
           memory: 256M
     restart: unless-stopped
 x-casaos:
-  title: PsiTransfer
+  title:
+    de_DE: PsiTransfer
+    el_GR: PsiTransfer
+    en_GB: PsiTransfer
+    en_US: PsiTransfer
+    fr_FR: PsiTransfer
+    hr_HR: PsiTransfer
+    it_IT: PsiTransfer
+    ja_JP: PsiTransfer
+    ko_KR: PsiTransfer
+    nb_NO: PsiTransfer
+    pt_PT: PsiTransfer
+    ru_RU: PsiTransfer
+    sv_SE: PsiTransfer
+    tr_TR: PsiTransfer
+    zh_CN: PsiTransfer
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/psitransfer/assets/icon.png
   index: /
   main: psitransfer

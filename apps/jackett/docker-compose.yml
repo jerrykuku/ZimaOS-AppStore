@@ -28,7 +28,8 @@ services:
 x-casaos:
   main: jackett
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jackett/assets/icon.svg
-  title: Jackett
+  title:
+    en_US: Jackett
   index: /
   port_map: '9117'
   version: 0.24.1985

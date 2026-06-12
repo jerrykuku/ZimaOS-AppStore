@@ -28,5 +28,6 @@ x-casaos:
   scheme: http
   port_map: '5150'
   index: /
-  title: Kavita
+  title:
+    en_US: Kavita
   version: 0.9.0.2

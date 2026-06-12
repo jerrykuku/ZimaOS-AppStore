@@ -23,6 +23,7 @@ services:
 x-casaos:
   main: filedrop
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/filedrop/assets/icon.svg
-  title: FileDrop
+  title:
+    en_US: FileDrop
   port_map: '8000'
   version: 1.0.1

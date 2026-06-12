@@ -20,7 +20,8 @@ services:
 x-casaos:
   main: vaultwarden
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/vaultwarden/assets/icon.svg
-  title: Vaultwarden
+  title:
+    en_US: Vaultwarden
   index: /
   port_map: '10380'
   version: 1.36.0

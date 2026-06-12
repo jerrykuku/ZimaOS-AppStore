@@ -30,6 +30,7 @@ services:
 x-casaos:
   main: wg-easy
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/wg-easy/assets/icon.svg
-  title: WireGuard Easy
+  title:
+    en_US: WireGuard Easy
   port_map: '51821'
   version: '13'

@@ -30,6 +30,7 @@ services:
 x-casaos:
   main: lidarr
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/lidarr/assets/icon.svg
-  title: Lidarr
+  title:
+    en_US: Lidarr
   port_map: '8686'
   version: 3.1.0

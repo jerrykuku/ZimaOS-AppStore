@@ -28,7 +28,8 @@ services:
 x-casaos:
   main: calibre-web
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/calibre-web/assets/icon.svg
-  title: Calibre-web
+  title:
+    en_US: Calibre-web
   index: /
   port_map: '8083'
   version: 0.6.24

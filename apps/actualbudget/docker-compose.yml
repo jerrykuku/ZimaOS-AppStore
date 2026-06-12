@@ -22,5 +22,6 @@ x-casaos:
   scheme: http
   port_map: '15006'
   index: /
-  title: Actual Budget
+  title:
+    en_US: Actual Budget
   version: 26.5.2

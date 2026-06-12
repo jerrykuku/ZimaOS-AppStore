@@ -27,5 +27,6 @@ x-casaos:
   scheme: http
   port_map: '5244'
   index: /
-  title: OpenList
+  title:
+    en_US: OpenList
   version: 4.2.2

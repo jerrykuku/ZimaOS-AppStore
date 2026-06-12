@@ -27,5 +27,6 @@ x-casaos:
   main: esphome
   port_map: '6052'
   scheme: http
-  title: ESPHome
+  title:
+    en_US: ESPHome
   version: 2026.5.1

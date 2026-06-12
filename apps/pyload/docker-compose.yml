@@ -31,7 +31,10 @@ services:
 x-casaos:
   main: pyload
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/pyload/assets/icon.svg
-  title: PyLoad
+  title:
+    en_US: PyLoad
+    zh_CN: PyLoad
+    pt_BR: PyLoad
   index: /
   port_map: '8000'
   version: 0.5.0

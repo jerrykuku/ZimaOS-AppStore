@@ -30,7 +30,8 @@ services:
 x-casaos:
   main: duplicati
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/duplicati/assets/icon.svg
-  title: Duplicati
+  title:
+    en_US: Duplicati
   index: /
   port_map: '8200'
   version: 2.1.0

@@ -26,7 +26,8 @@ networks:
 x-casaos:
   main: mineos
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/mineos-node/assets/icon.svg
-  title: MineOS
+  title:
+    en_US: MineOS
   index: /admin/index.html
   scheme: https
   port_map: '8444'

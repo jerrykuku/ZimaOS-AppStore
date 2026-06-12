@@ -230,7 +230,8 @@ networks:
 x-casaos:
   main: web
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/dify/assets/icon.svg
-  title: Dify
+  title:
+    en_US: Dify
   index: /
   port_map: '3701'
   version: 0.15.8

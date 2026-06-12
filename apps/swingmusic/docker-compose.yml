@@ -16,7 +16,9 @@ services:
 x-casaos:
   main: swingmusic
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/swingmusic/assets/icon.svg
-  title: Swing Music
+  title:
+    en_US: Swing Music
+    zh_CN: Swing Music
   index: /
   port_map: '1970'
   version: v2.1.4

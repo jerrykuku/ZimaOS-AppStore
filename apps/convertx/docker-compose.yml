@@ -24,5 +24,6 @@ x-casaos:
   port_map: '3333'
   index: /
   scheme: http
-  title: ConvertX
+  title:
+    en_US: ConvertX
   version: v0.17.0

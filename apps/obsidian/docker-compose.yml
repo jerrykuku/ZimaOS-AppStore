@@ -31,5 +31,6 @@ x-casaos:
   scheme: https
   port_map: '15324'
   index: /
-  title: Obsidian
+  title:
+    en_US: Obsidian
   version: 1.12.7

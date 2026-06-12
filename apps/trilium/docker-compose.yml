@@ -24,5 +24,7 @@ x-casaos:
   index: /
   port_map: '8088'
   scheme: http
-  title: Trilium
+  title:
+    en_US: Trilium
+    zh_CN: Trilium
   version: v0.103.0

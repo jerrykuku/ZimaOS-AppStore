@@ -29,5 +29,6 @@ x-casaos:
   scheme: http
   port_map: '11434'
   index: /
-  title: Ollama(Nvidia GPU)
+  title:
+    en_US: Ollama(Nvidia GPU)
   version: 0.9.5

@@ -21,5 +21,6 @@ x-casaos:
   scheme: http
   port_map: '13378'
   index: /
-  title: Audiobookshelf
+  title:
+    en_US: Audiobookshelf
   version: 2.35.0

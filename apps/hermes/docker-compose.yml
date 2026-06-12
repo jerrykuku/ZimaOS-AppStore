@@ -31,5 +31,6 @@ x-casaos:
   scheme: http
   port_map: '9119'
   index: /
-  title: Hermes
+  title:
+    en_US: Hermes
   version: 0.16.0

@@ -22,5 +22,6 @@ x-casaos:
   main: gateway-go
   port_map: '34323'
   scheme: http
-  title: gateway-go
+  title:
+    en_US: gateway-go
   version: v2.0.12

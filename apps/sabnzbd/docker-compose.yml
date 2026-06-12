@@ -30,6 +30,7 @@ services:
 x-casaos:
   main: sabnzbd
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/sabnzbd/assets/icon.svg
-  title: Sabnzbd
+  title:
+    en_US: Sabnzbd
   port_map: '8282'
   version: 5.0.3

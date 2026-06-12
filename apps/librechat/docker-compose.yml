@@ -156,7 +156,22 @@ networks:
     driver: bridge
 x-casaos:
   main: librechat-api
-  title: LibreChat
+  title:
+    de_DE: LibreChat
+    el_GR: LibreChat
+    en_GB: LibreChat
+    en_US: LibreChat
+    fr_FR: LibreChat
+    hr_HR: LibreChat
+    it_IT: LibreChat
+    ja_JP: LibreChat
+    ko_KR: LibreChat
+    nb_NO: LibreChat
+    pt_PT: LibreChat
+    ru_RU: LibreChat
+    sv_SE: LibreChat
+    tr_TR: LibreChat
+    zh_CN: LibreChat
   port_map: '3080'
   scheme: http
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/librechat/assets/icon.svg

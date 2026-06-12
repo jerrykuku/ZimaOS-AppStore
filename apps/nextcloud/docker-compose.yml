@@ -23,7 +23,8 @@ services:
 x-casaos:
   main: nextcloud
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/nextcloud/assets/icon.svg
-  title: Nextcloud
+  title:
+    en_US: Nextcloud
   index: /
   port_map: '10081'
   version: 33.0.3

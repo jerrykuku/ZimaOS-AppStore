@@ -33,7 +33,8 @@ x-casaos:
   main: icewhale-stable-diffusion-webui
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/icewhale-stable-diffusion-webui/assets/icon.svg
   scheme: http
-  title: Stable Diffusion
+  title:
+    en_US: Stable Diffusion
   index: /
   port_map: '7860'
   version: latest

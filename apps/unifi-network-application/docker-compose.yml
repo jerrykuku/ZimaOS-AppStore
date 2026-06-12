@@ -74,5 +74,6 @@ x-casaos:
   index: /
   port_map: '8443'
   scheme: https
-  title: Unifi Network Application
+  title:
+    en_US: Unifi Network Application
   version: latest

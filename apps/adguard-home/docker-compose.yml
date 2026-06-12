@@ -35,7 +35,8 @@ services:
 x-casaos:
   main: adguard-home
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/adguard-home/assets/icon.svg
-  title: AdGuard Home
+  title:
+    en_US: AdGuard Home
   index: /
   port_map: '3001'
   version: v0.107.76

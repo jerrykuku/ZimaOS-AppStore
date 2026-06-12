@@ -28,7 +28,8 @@ services:
 x-casaos:
   main: qbittorrent
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/qbittorrent/assets/icon.svg
-  title: qBittorrent
+  title:
+    en_US: qBittorrent
   index: /
   port_map: '8181'
   version: release-5.0.4

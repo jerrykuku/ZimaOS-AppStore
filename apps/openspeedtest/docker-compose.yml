@@ -16,7 +16,8 @@ services:
 x-casaos:
   main: openspeedtest
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/openspeedtest/assets/icon.svg
-  title: OpenSpeedTest
+  title:
+    en_US: OpenSpeedTest
   index: /
   port_map: '3004'
   version: v2.0.6

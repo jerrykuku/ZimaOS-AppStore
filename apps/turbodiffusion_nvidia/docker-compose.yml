@@ -35,7 +35,22 @@ services:
     - turbodiffusion/app_gradio.py
     restart: unless-stopped
 x-casaos:
-  title: TurboDiffusion(Nvidia GPU)
+  title:
+    de_DE: TurboDiffusion(Nvidia GPU)
+    el_GR: TurboDiffusion(Nvidia GPU)
+    en_GB: TurboDiffusion(Nvidia GPU)
+    en_US: TurboDiffusion(Nvidia GPU)
+    fr_FR: TurboDiffusion(Nvidia GPU)
+    hr_HR: TurboDiffusion(Nvidia GPU)
+    it_IT: TurboDiffusion(Nvidia GPU)
+    ja_JP: TurboDiffusion(Nvidia GPU)
+    ko_KR: TurboDiffusion(Nvidia GPU)
+    nb_NO: TurboDiffusion(Nvidia GPU)
+    pt_PT: TurboDiffusion(Nvidia GPU)
+    ru_RU: TurboDiffusion(Nvidia GPU)
+    sv_SE: TurboDiffusion(Nvidia GPU)
+    tr_TR: TurboDiffusion(Nvidia GPU)
+    zh_CN: TurboDiffusion(Nvidia GPU)
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/turbodiffusion_nvidia/assets/icon.png
   main: turbodiffusion
   port_map: '27860'

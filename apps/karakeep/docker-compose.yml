@@ -69,5 +69,6 @@ x-casaos:
   scheme: http
   port_map: '14592'
   index: /
-  title: Karakeep
+  title:
+    en_US: Karakeep
   version: 0.32.0

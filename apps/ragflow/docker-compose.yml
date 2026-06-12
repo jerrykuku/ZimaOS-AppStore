@@ -349,5 +349,20 @@ x-casaos:
   main: ragflow
   port_map: '30080'
   scheme: http
-  title: RagFlow
+  title:
+    de_DE: RagFlow
+    el_GR: RagFlow
+    en_GB: RagFlow
+    en_US: RagFlow
+    fr_FR: RagFlow
+    hr_HR: RagFlow
+    it_IT: RagFlow
+    ja_JP: RagFlow
+    ko_KR: RagFlow
+    nb_NO: RagFlow
+    pt_PT: RagFlow
+    ru_RU: RagFlow
+    sv_SE: RagFlow
+    tr_TR: RagFlow
+    zh_CN: RagFlow
   version: v0.21.1

@@ -22,7 +22,9 @@ services:
 x-casaos:
   main: cloudbeaver
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/cloudbeaver/assets/icon.svg
-  title: CloudBeaver
+  title:
+    en_US: CloudBeaver
+    pt_BR: CloudBeaver
   index: /
   port_map: '8978'
   version: 26.0.5

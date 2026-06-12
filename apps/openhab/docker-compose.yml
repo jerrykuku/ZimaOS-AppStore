@@ -34,7 +34,8 @@ services:
 x-casaos:
   main: openhab
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/openhab/assets/icon.svg
-  title: OpenHAB
+  title:
+    en_US: OpenHAB
   index: /
   port_map: '8080'
   version: 5.1.4

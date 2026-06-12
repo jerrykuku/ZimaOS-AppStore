@@ -32,7 +32,22 @@ services:
     container_name: openclaw
 name: openclaw
 x-casaos:
-  title: OpenClaw
+  title:
+    de_DE: OpenClaw
+    el_GR: OpenClaw
+    en_GB: OpenClaw
+    en_US: OpenClaw
+    fr_FR: OpenClaw
+    hr_HR: OpenClaw
+    it_IT: OpenClaw
+    ja_JP: OpenClaw
+    ko_KR: OpenClaw
+    nb_NO: OpenClaw
+    pt_PT: OpenClaw
+    ru_RU: OpenClaw
+    sv_SE: OpenClaw
+    tr_TR: OpenClaw
+    zh_CN: OpenClaw
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/openclaw/assets/icon.svg
   main: openclaw
   port_map: '24190'

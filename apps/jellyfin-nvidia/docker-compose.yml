@@ -53,7 +53,8 @@ services:
 x-casaos:
   main: jellyfin
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jellyfin-nvidia/assets/icon.svg
-  title: Jellyfin(Nvidia GPU)
+  title:
+    en_US: Jellyfin(Nvidia GPU)
   index: /
   port_map: '8097'
   version: 10.10.6

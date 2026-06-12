@@ -23,7 +23,8 @@ services:
 x-casaos:
   main: twingate-connector
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/twingate-connector/assets/icon.svg
-  title: Twingate
+  title:
+    en_US: Twingate
   index: /
   port_map: ''
   version: '1'

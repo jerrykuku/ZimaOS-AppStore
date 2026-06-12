@@ -30,7 +30,8 @@ services:
 x-casaos:
   main: sonarr
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/sonarr/assets/icon.svg
-  title: Sonarr
+  title:
+    en_US: Sonarr
   index: /
   port_map: '8989'
   version: 4.0.17

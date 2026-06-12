@@ -15,7 +15,8 @@ services:
 x-casaos:
   main: homebridge
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/homebridge/assets/icon.svg
-  title: Homebridge
+  title:
+    en_US: Homebridge
   index: /
   port_map: '8581'
   version: latest

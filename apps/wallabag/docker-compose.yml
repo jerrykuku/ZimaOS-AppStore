@@ -36,5 +36,6 @@ x-casaos:
   scheme: http
   port_map: '25661'
   index: /
-  title: Wallabag
+  title:
+    en_US: Wallabag
   version: 2.6.14

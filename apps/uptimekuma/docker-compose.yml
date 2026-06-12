@@ -20,7 +20,8 @@ services:
 x-casaos:
   main: uptimekuma
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/uptimekuma/assets/icon.svg
-  title: Uptime Kuma
+  title:
+    en_US: Uptime Kuma
   index: /
   port_map: '3001'
   version: 2.4.0

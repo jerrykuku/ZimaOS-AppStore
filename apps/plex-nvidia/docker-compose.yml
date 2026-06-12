@@ -33,7 +33,8 @@ services:
 x-casaos:
   main: plex
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/plex-nvidia/assets/icon.svg
-  title: Plex(Nvidia GPU)
+  title:
+    en_US: Plex(Nvidia GPU)
   index: /web/index.html
   port_map: '32400'
   version: 1.41.3

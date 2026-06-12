@@ -20,7 +20,8 @@ services:
 x-casaos:
   main: grafana
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/grafana/assets/icon.svg
-  title: Grafana
+  title:
+    en_US: Grafana
   index: /
   port_map: '3003'
   version: 13.0.1-security-01

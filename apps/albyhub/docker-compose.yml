@@ -32,5 +32,6 @@ x-casaos:
   index: /
   port_map: '58000'
   scheme: http
-  title: Alby Hub ✨
+  title:
+    en_US: Alby Hub ✨
   version: v1.22.2

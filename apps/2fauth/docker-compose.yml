@@ -22,7 +22,8 @@ services:
 x-casaos:
   main: 2fauth
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/2fauth/assets/icon.svg
-  title: 2FAuth
+  title:
+    en_US: 2FAuth
   index: /
   port_map: '8000'
   version: 6.1.3

@@ -22,5 +22,20 @@ x-casaos:
   scheme: http
   port_map: '13333'
   index: /
-  title: OpenHands
+  title:
+    en_US: OpenHands
+    en_GB: OpenHands
+    it_IT: OpenHands
+    nb_NO: OpenHands
+    zh_CN: OpenHands
+    ja_JP: OpenHands
+    ko_KR: OpenHands
+    fr_FR: OpenHands
+    de_DE: OpenHands
+    sv_SE: OpenHands
+    el_GR: OpenHands
+    hr_HR: OpenHands
+    pt_PT: OpenHands
+    ru_RU: OpenHands
+    tr_TR: OpenHands
   version: '0.59'

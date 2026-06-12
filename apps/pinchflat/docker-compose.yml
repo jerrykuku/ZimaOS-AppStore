@@ -29,5 +29,6 @@ x-casaos:
   main: pinchflat
   port_map: '8945'
   scheme: http
-  title: Pinchflat
+  title:
+    en_US: Pinchflat
   version: latest

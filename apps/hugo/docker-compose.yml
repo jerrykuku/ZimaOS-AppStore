@@ -29,5 +29,6 @@ x-casaos:
   scheme: http
   port_map: '1313'
   index: /
-  title: Hugo
+  title:
+    en_US: Hugo
   version: v0.161.1

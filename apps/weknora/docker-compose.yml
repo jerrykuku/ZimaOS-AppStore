@@ -302,7 +302,22 @@ networks:
   weknora-network:
     driver: bridge
 x-casaos:
-  title: WeKnora
+  title:
+    de_DE: WeKnora
+    el_GR: WeKnora
+    en_GB: WeKnora
+    en_US: WeKnora
+    fr_FR: WeKnora
+    hr_HR: WeKnora
+    it_IT: WeKnora
+    ja_JP: WeKnora
+    ko_KR: WeKnora
+    nb_NO: WeKnora
+    pt_PT: WeKnora
+    ru_RU: WeKnora
+    sv_SE: WeKnora
+    tr_TR: WeKnora
+    zh_CN: WeKnora
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/weknora/assets/icon.svg
   main: weknora
   port_map: '1080'

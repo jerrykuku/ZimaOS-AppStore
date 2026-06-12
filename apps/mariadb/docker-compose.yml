@@ -24,5 +24,6 @@ services:
 x-casaos:
   main: mariadb
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/mariadb/assets/icon.svg
-  title: MariaDB
+  title:
+    en_US: MariaDB
   version: 11.4.8

@@ -27,7 +27,8 @@ services:
 x-casaos:
   main: photoprism
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/photoprism/assets/icon.svg
-  title: PhotoPrism
+  title:
+    en_US: PhotoPrism
   index: /
   port_map: '2342'
   version: '260523'

@@ -26,7 +26,8 @@ services:
 x-casaos:
   main: plex
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/plex/assets/icon.svg
-  title: Plex
+  title:
+    en_US: Plex
   index: /web/index.html
   port_map: '32400'
   version: 1.43.2

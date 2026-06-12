@@ -34,7 +34,8 @@ services:
 x-casaos:
   main: deluge
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/deluge/assets/icon.svg
-  title: Deluge
+  title:
+    en_US: Deluge
   index: /
   port_map: '8112'
   version: 2.2.0

@@ -22,5 +22,6 @@ x-casaos:
   main: alist
   port_map: '5244'
   scheme: http
-  title: Alist
+  title:
+    en_US: Alist
   version: v3.40.0

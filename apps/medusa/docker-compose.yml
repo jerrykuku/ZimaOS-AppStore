@@ -32,5 +32,6 @@ x-casaos:
   index: /
   port_map: '8081'
   scheme: http
-  title: Medusa
+  title:
+    en_US: Medusa
   version: master

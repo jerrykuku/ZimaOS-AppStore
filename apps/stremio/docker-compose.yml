@@ -29,7 +29,10 @@ services:
 x-casaos:
   main: stremio
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/stremio/assets/icon.svg
-  title: Stremio
+  title:
+    en_US: Stremio
+    pt_BR: Stremio
+    zh_CN: Stremio
   index: /
   port_map: '8100'
   version: v1.3.4

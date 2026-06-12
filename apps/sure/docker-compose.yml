@@ -124,5 +124,21 @@ x-casaos:
   scheme: http
   port_map: '23000'
   index: /
-  title: Sure
+  title:
+    en_US: Sure
+    en_GB: Sure
+    it_IT: Sure
+    nb_NO: Sure
+    zh_CN: Sure
+    ja_JP: Sure
+    ko_KR: Sure
+    fr_FR: Sure
+    de_DE: Sure
+    sv_SE: Sure
+    el_GR: Sure
+    hr_HR: Sure
+    pt_BR: Sure
+    pt_PT: Sure
+    ru_RU: Sure
+    tr_TR: Sure
   version: 0.6.5-hotfix.1

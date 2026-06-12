@@ -22,7 +22,8 @@ services:
     hostname: Jenkins
 x-casaos:
   main: jenkins
-  title: Jenkins CI/CD
+  title:
+    en_US: Jenkins CI/CD
   port_map: '8080'
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jenkins/assets/icon.svg
   version: lts-jdk17

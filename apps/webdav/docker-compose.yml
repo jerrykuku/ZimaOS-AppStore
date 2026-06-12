@@ -29,7 +29,8 @@ services:
 x-casaos:
   main: webdav
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/webdav/assets/icon.svg
-  title: WebDAV
+  title:
+    en_US: WebDAV
   index: /
   port_map: '5005'
   version: amd64

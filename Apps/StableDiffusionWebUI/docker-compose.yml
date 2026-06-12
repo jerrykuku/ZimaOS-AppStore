@@ -53,7 +53,7 @@ x-casaos:
   index: /
   port_map: "7860"
   version: "latest"
-  update_at: "2024-03-11"
+  update_at: "2024-01-11"
   release_notes: ""
   website: ""
   repo: "https://github.com/AUTOMATIC1111/stable-diffusion-webui"

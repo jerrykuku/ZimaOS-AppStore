@@ -88,7 +88,7 @@ x-casaos:
     en_US: Embystat
   port_map: "6555"
   version: "0.2.0"
-  update_at: "2023-11-27"
+  update_at: "2023-10-25"
   release_notes:
     en_US: |-
       - The configured EmbyStat 0.2.0 image does not map to a non-prerelease GitHub Release entry in mregni/EmbyStat.

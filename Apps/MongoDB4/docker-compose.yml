@@ -84,12 +84,12 @@ x-casaos:
   developer: MongoDB Inc.
   author: WisdomSky
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/MongoDB4/icon.svg
-  thumbnail: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/MongoDB4/icon.svg
+  thumbnail: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/MongoDB4/icon.png
   category: Developer
   title:
     en_US: MongoDB 4
   version: "4.4.22"
-  update_at: "2024-01-25"
+  update_at: "2023-07-04"
   release_notes:
     en_US: |-
       - MongoDB 4.4.22 is a production release with fixes since 4.4.21 and is recommended for MongoDB 4.4 users.

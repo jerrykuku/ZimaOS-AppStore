@@ -765,7 +765,7 @@ x-casaos:
   index: /
   scheme: http
   version: "v2.14.1"
-  update_at: "2026-04-22"
+  update_at: "2026-04-23"
   release_notes:
     en_US: |-
       - Linkwarden 2.14.1 adds support for serving preserved HTML archives from a separate public hostname to isolate untrusted content from the main app.

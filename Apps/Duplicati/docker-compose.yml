@@ -101,7 +101,7 @@ x-casaos:
   index: /
   port_map: "8200"
   version: "2.1.0"
-  update_at: "2025-03-06"
+  update_at: "2025-10-18"
   release_notes:
     en_US: |-
       - Duplicati 2.1.0 is the configured image line for this CasaOS entry.

@@ -73,7 +73,7 @@ x-casaos:
     en_US: duckdns
   index: /
   version: "latest"
-  update_at: "2025-03-13"
+  update_at: "2026-05-11"
   release_notes: ""
   website: "https://www.duckdns.org"
   repo: "https://github.com/linuxserver/docker-duckdns"

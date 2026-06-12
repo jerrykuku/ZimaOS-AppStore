@@ -78,7 +78,7 @@ x-casaos:
   developer: WeejeWel
   author: Sawy
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/WireGuardEasy/icon.svg
-  thumbnail: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/WireGuardEasy/icon.svg
+  thumbnail: ""
   category: Networking
   tips:
     before_install:
@@ -108,7 +108,7 @@ x-casaos:
     en_US: WireGuard Easy
   port_map: '51821'
   version: "13"
-  update_at: "2024-05-20"
+  update_at: "2024-07-16"
   release_notes:
     en_US: |-
       - v13.0.0 introduces the new h3 framework.

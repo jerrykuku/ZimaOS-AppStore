@@ -116,7 +116,7 @@ x-casaos:
     en_US: Sickchill
   port_map: "8081"
   version: "2023.6.27"
-  update_at: "2023-06-28"
+  update_at: "2024-01-04"
   release_notes:
     en_US: |-
       - 2023.6.27 has an empty GitHub release body, so changes were checked against the upstream tag compare.

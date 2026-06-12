@@ -58,7 +58,7 @@ x-casaos:
   title:
     en_US: Motioneye
   version: "master-amd64"
-  update_at: "2024-01-25"
+  update_at: "2020-06-06"
   release_notes: ""
   website: ""
   repo: "https://github.com/motioneye-project/motioneye"

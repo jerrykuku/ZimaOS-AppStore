@@ -108,7 +108,7 @@ x-casaos:
   index: /
   port_map: "8083"
   version: "0.6.24"
-  update_at: "2024-11-16"
+  update_at: "2025-08-24"
   release_notes:
     en_US: |-
       - 0.6.24 adds audio-file metadata extraction during upload and a refreshed PDF viewer.

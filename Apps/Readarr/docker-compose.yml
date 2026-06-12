@@ -102,7 +102,7 @@ x-casaos:
     en_US: Readarr
   port_map: "8787"
   version: "0.3.10-develop"
-  update_at: "2023-12-05"
+  update_at: "2023-12-07"
   release_notes: ""
   website: "https://readarr.com"
   repo: "https://github.com/Readarr/Readarr"

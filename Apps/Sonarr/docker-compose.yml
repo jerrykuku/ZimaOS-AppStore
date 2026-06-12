@@ -5,7 +5,7 @@ services:
       PGID: $PGID
       PUID: $PUID
       TZ: $TZ
-    image: linuxserver/sonarr:4.0.15
+    image: linuxserver/sonarr:4.0.17
     deploy:
       resources:
         reservations:
@@ -109,7 +109,7 @@ x-casaos:
   index: /
   port_map: "8989"
   version: "4.0.17"
-  update_at: "2026-05-04"
+  update_at: "2026-05-09"
   release_notes:
     en_US: |-
       - Sonarr 4.0.17.2967 backports qBittorrent fixes to the v4 release line.

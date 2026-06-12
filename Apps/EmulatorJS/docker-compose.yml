@@ -86,7 +86,7 @@ x-casaos:
   title:
     en_US: emulatorjs
   version: "1.9.2"
-  update_at: "2024-09-12"
+  update_at: "2025-06-09"
   release_notes:
     en_US: |-
       - Metadata release 1.9.2 adds logos and videos for 3DO, Arcade, MSX, NDS, NGP, PSX, Saturn, and Wonderswan.

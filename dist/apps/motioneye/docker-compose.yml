@@ -1,0 +1,27 @@
+name: motioneye
+services:
+  motioneye:
+    container_name: motioneye
+    image: ccrisan/motioneye:master-amd64
+    ports:
+    - target: 8765
+      published: '8765'
+      protocol: tcp
+    restart: unless-stopped
+    volumes:
+    - type: bind
+      source: /DATA/AppData/motioneye/config
+      target: /etc/motioneye
+    - type: bind
+      source: /DATA/Media/motioneye
+      target: /var/lib/motioneye
+    network_mode: bridge
+    privileged: false
+x-casaos:
+  icon: /apps/motioneye/assets/icon.svg
+  index: /
+  main: motioneye
+  port_map: '8765'
+  scheme: http
+  title: Motioneye
+  version: master-amd64

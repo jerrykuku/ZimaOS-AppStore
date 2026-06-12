@@ -533,7 +533,7 @@ x-casaos:
   index: /
   port_map: "3050"
   version: "ollama"
-  update_at: "2025-07-11"
+  update_at: "2026-05-10"
   release_notes: ""
   website: "https://openwebui.com"
   repo: "https://github.com/open-webui/open-webui"

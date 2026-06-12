@@ -71,7 +71,7 @@ x-casaos:
   index: /
   port_map: "3004"
   version: "v2.0.6"
-  update_at: "2025-03-18"
+  update_at: "2025-01-09"
   release_notes: ""
   website: ""
   repo: "https://github.com/openspeedtest/Speed-Test"

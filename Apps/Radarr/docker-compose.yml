@@ -5,7 +5,7 @@ services:
       PGID: $PGID
       PUID: $PUID
       TZ: $TZ
-    image: linuxserver/radarr:5.26.2
+    image: linuxserver/radarr:6.1.1
     deploy:
       resources:
         reservations:
@@ -109,7 +109,7 @@ x-casaos:
   index: /
   port_map: "7878"
   version: "6.1.1"
-  update_at: "2026-03-26"
+  update_at: "2026-05-17"
   release_notes:
     en_US: |-
       - Radarr 6.1.1.10360 fixes Inno Setup download handling and URL parsing on some systems.

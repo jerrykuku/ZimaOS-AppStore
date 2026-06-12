@@ -1,4 +1,4 @@
 {
   "id": "downtify",
-  "release_notes": "- 2.6.0 dodaje opciju spremanja glazbe u mape izvođača.\n- Dodaje postavku za onemogućavanje preuzimanja pjesama.\n- Popravlja brisanje povijesti preuzimanja i postojanost postavki."
+  "release_notes": "- v2.7.0 adds configurable parallel downloads.\n- It adds weekly and monthly playlist synchronization intervals.\n- Dependency maintenance updates are included."
 }

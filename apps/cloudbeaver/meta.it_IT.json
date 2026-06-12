@@ -1,4 +1,4 @@
 {
   "id": "cloudbeaver",
-  "release_notes": "- Il tag immagine 25.2.5 configurato non ha un oggetto di rilascio GitHub corrispondente in dbeaver/cloudbeaver.\n- Mantieni questa voce legata alla riga dell'immagine CloudBeaver 25.2 finché l'upstream non pubblica le note di rilascio per-tag."
+  "release_notes": "- The 26.0.5 Docker image tag was published on Docker Hub, but dbeaver/cloudbeaver has no matching GitHub Release object.\n- Keep this entry tied to the CloudBeaver 26.0 image line until upstream publishes per-tag release notes.\n- Validate the Web UI after updating because only image tag metadata is available for this specific tag."
 }

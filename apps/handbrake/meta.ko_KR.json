@@ -1,4 +1,4 @@
 {
   "id": "handbrake",
-  "release_notes": "- v25.10.1은 Automatic Video Converter에서 안정성을 확인하기 전에 video files를 잠급니다.\n- 컨테이너 종료 중 Automatic Video Converter cleanup이 향상되었습니다."
+  "release_notes": "- v26.03.3 updates HandBrake to version 1.11.1.\n- It keeps the jlesage HandBrake container release line current.\n- The jlesage/handbrake:v26.03.3 Docker image tag was published on 2026-03-23."
 }

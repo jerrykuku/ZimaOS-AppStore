@@ -14,7 +14,7 @@
     "/apps/monica/assets/screenshot-3.webp"
   ],
   "thumbnail": "",
-  "update_at": "2024-05-04",
+  "update_at": "2026-05-12",
   "release_notes": "- v4.1.2 fixes contact listing updates that changed the updated_at date for all contacts.",
   "website": "https://www.monicahq.com",
   "repo": "https://github.com/monicahq/monica",

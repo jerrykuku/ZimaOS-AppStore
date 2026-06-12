@@ -136,6 +136,10 @@
       "tagline": "Befreie deine Videos und entfessle unbegrenzte Möglichkeiten."
     },
     {
+      "id": "hermes",
+      "tagline": "Ein selbstverbessernder KI-Agent mit Speicher, Fähigkeiten, Messaging und Web-Dashboard."
+    },
+    {
       "id": "homeassistant",
       "tagline": "Open-Source-Hausautomatisierung, die lokale Kontrolle und Privatsphäre in den Vordergrund stellt."
     },
@@ -176,6 +180,10 @@
     {
       "id": "jenkins",
       "tagline": "Jenkins Server für kontinuierliche Integration und Bereitstellung."
+    },
+    {
+      "id": "karakeep",
+      "tagline": "Die App zum Speichern von allem"
     },
     {
       "id": "kavita",

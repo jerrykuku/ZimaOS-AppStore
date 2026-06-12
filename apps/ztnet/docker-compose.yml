@@ -1,7 +1,7 @@
 name: ztnet
 services:
   ztnet:
-    image: sinamics/ztnet:0.7.5
+    image: sinamics/ztnet:0.7.18
     container_name: ztnet
     deploy:
       resources:
@@ -59,4 +59,4 @@ x-casaos:
   port_map: '3050'
   index: /
   title: ZTnet
-  version: 0.7.5
+  version: 0.7.18

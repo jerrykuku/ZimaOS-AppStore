@@ -13,8 +13,8 @@
     "/apps/convertx/assets/screenshot-2.webp",
     "/apps/convertx/assets/screenshot-3.webp"
   ],
-  "update_at": "2025-06-04",
-  "release_notes": "- 0.14.1 changes to a baseline build.\n- It adds support for KEPUB conversion.",
+  "update_at": "2026-01-13",
+  "release_notes": "- v0.17.0 adds VCF to CSV conversion and a multi-select bulk job deletion UI.\n- It adds markitdown-based conversion support.\n- Fixes include WMA input handling, timezone display in history, and Docker support for Inkscape DXF export.",
   "website": "",
   "repo": "https://github.com/c4illin/convertx",
   "support": "https://github.com/c4illin/convertx/issues",
@@ -25,5 +25,5 @@
     "productivity"
   ],
   "min_memory": 524288000,
-  "min_image_size": 951980911
+  "min_image_size": 1422842842
 }

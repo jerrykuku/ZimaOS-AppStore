@@ -1,4 +1,4 @@
 {
   "id": "adminer",
-  "release_notes": "- v5.4.1 fixar att ta bort NULL primärnycklar från kommandot SQL.\n- CSV export anger inte längre nollvärden, och importer varnar när upload_max_filesize överskrids.\n- Sparade SQL kommandoförfrågningar kan förlängas till URL och MySQL rutindefinitionsvisning har fixats."
+  "release_notes": "- v5.4.2 avoids a denial-of-service issue in the version check.\n- It improves JSON display, generated values, exports, database support, and plugins."
 }

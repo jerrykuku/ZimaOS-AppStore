@@ -1,4 +1,4 @@
 {
   "id": "downtify",
-  "release_notes": "- 2.6.0 müziği sanatçı klasörlerine kaydetme seçeneğini ekler.\n- Şarkı sözü indirmelerini devre dışı bırakmak için bir ayar ekler.\n- İndirme geçmişinin temizlenmesini ve ayarların kalıcılığını düzeltir."
+  "release_notes": "- v2.7.0 adds configurable parallel downloads.\n- It adds weekly and monthly playlist synchronization intervals.\n- Dependency maintenance updates are included."
 }

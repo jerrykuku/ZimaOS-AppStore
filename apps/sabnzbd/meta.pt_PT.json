@@ -1,4 +1,4 @@
 {
   "id": "sabnzbd",
-  "release_notes": "- 4.1.0 adiciona o modo escuro para as páginas de configuração, login e assistente, bem como multi-select no histórico.\n- A validação de proxy, a limpeza de registos, a seleção do servidor IP, as definições do servidor IPv6 e o comportamento de descompactação de ficheiros foram atualizados.\n- As correções incluem deteção duplicada, classificação de nomes de ficheiros, tratamento de prioridade de fila pausada, limpeza de registos API-key, gravações de disco, limpeza de pastas, descodificação de artigos e renomeação QuickCheck."
+  "release_notes": "- SABnzbd 5.0.3 includes the fifth major release updates with NNTP pipelining, direct write, a reworked cache, safer processing, and platform updates.\n- Fixes in 5.0.1 through 5.0.3 cover new-install NZB fetching, queue loading after upgrade, duplicate nzo_id handling, RSS priority, duplicate filename stalls, IPv6 binding, and post-processing queue saves.\n- The linuxserver/sabnzbd:5.0.3 Docker image tag was published on 2026-05-21."
 }

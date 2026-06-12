@@ -10,6 +10,12 @@
   "tips": {
     "before_install": "Default Account\n\n| Username | Password |\n|----------|----------|\n| `mc`    | `root` |\n"
   },
+  "update_at": "2022-04-25",
+  "release_notes": "",
+  "website": "https://www.mineos.net/",
+  "repo": "https://github.com/hexparrot/mineos-node",
+  "support": "https://github.com/hexparrot/mineos-node/issues",
+  "docs": "https://www.mineos.net/",
   "title": "MineOS",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [

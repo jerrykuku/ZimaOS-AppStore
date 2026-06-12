@@ -1,6 +1,6 @@
 {
   "id": "tautulli",
-  "tagline": "Отслеживайте свой сервер мультимедиа Plex и многое другое.",
   "description": "Tautulli - это стороннее приложение, которое вы можете запустить вместе с вашим сервером мультимедиа Plex, чтобы отслеживать активность и отслеживать различные статистические данные.",
-  "release_notes": "- v2.13.2 добавляет значки quarter-value для статуса просмотра истории.\n- Добавлен график одновременных потоков в день и поле экспорта каталога метаданных.\n- В списках агентов уведомлений и информационных бюллетеней теперь отображается время последнего срабатывания, а X-Plex-Language можно переопределить в конфигурации."
+  "release_notes": "- Tautulli 2.17.1 fixes Tautulli Remote App notification sending and folder path browsing errors.\n- Fixes CVE-2026-41065 in newsletter custom template directory handling.\n- Adds Simkl URL notification parameters and AV1 and Opus media flag images.",
+  "tagline": "Отслеживайте свой сервер мультимедиа Plex и многое другое."
 }

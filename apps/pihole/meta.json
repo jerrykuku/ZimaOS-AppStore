@@ -19,8 +19,8 @@
   "tips": {
     "before_install": "Default password: `casaos`\n"
   },
-  "update_at": "2025-12-23",
-  "release_notes": "- Docker image 2025.11.1 adds RISCV support back and improves FTL startup detection and log tailing.\n- The bundled Pi-hole updates include FTL v6.4.1, Web v6.4, and Core v6.3 fixes.\n- FTL changes include SQLite 3.51.0, DNS upstream API/spec fixes, reduced database locking, TOTP validation rate limiting, and search/API improvements.",
+  "update_at": "2026-05-11",
+  "release_notes": "- Docker image 2026.05.0 refreshes the Pi-hole container build and updates container capability documentation.\n- This Docker-specific release is light; review the upstream upgrade impact section before updating production deployments.",
   "website": "https://pi-hole.net/",
   "repo": "https://github.com/pi-hole/pi-hole",
   "support": "https://discourse.pi-hole.net",
@@ -31,5 +31,5 @@
     "networking"
   ],
   "min_memory": 67108864,
-  "min_image_size": 41638626
+  "min_image_size": 42256481
 }

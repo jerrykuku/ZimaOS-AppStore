@@ -1,4 +1,4 @@
 {
   "id": "openhab",
-  "release_notes": "- Το 4.3.3 είναι μια έκδοση ενημέρωσης κώδικα με add-on διορθώσεις σφαλμάτων και βελτιώσεις.\n- Οι διορθώσεις περιλαμβάνουν χειρισμό δέλτα βασικών προφίλ, bluetooth.bluez NullPointerException, ρύθμιση παραμέτρων ορίου easee API, κράτηση ecobee vacation, Free@home που λείπει IDs, ετικέτες γέφυρας hdpowerview, υποστήριξη Hue dynamics __R handling7_nc και huesN.\n- Τα φίλτρα χρέωσης Energidataservice και πολλά άλλα add-ons ενημερώθηκαν."
+  "release_notes": "- openHAB 5.1.4 is a patch release with add-on bug fixes across ahawastecollection, airparif, dirigera, ecoflow, electroluxappliance, enocean, evohome, heos, matter, roborock, solaredge, unifi, vesync, and others.\n- JavaScript scripting upgrades to openhab-js 5.17.1 and fixes line-number reporting in injected stack traces.\n- Main UI fixes cover widget editor screen values, item back navigation, page duplication, chart period adjustments, variable handling, map dark-mode updates, gauge sizing, wrappers, and Analyzer axis settings."
 }

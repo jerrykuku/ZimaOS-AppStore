@@ -1,6 +1,6 @@
 {
   "id": "2fauth",
-  "tagline": "En webbapp för att hantera dina tvåfaktorsautentiserings (2FA) -konton och generera deras säkerhetskoder",
   "description": "2FAuth är en självhärdad webbaserad alternativ till One Time Passcode (OTP) -genererare som Google Authenticator, utformad för både mobila och skrivbordsenheter.",
-  "release_notes": "- v5.4.3 fixar borttagna ikoner som dyker upp igen efter att ha sparats från the avancerad form.\n- Inloggningssidan laddas, sidfotsmenyformulär, beskurna QR-koder, hanteringsläge fryser och saknade no-icon-kontoikoner fixades.\n- /up-vyn laddar inte längre CSS-stilar från tailwindcss.com."
+  "release_notes": "- v6.1.3 fixes the Try my luck feature being grayed out.\n- It also fixes minor UI glitches.",
+  "tagline": "En webbapp för att hantera dina tvåfaktorsautentiserings (2FA) -konton och generera deras säkerhetskoder"
 }

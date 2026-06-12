@@ -1,4 +1,4 @@
 {
   "id": "smokeping",
-  "release_notes": "- Η 2.8.2 είναι μια αθροιστική κυκλοφορία με αυτοματοποιημένη δοκιμή κατασκευής και υποστήριξη InfluxDB.\n- Βελτιώθηκαν ο χειρισμός ανιχνευτή, η συμπεριφορά FPing command-line, ο χειρισμός SSH, η λειτουργία ζουμ URLs, η είσοδος κοπής relative-time, οι επαναφορτώσεις ρυθμίσεων για σκλάβους, τα πρότυπα, τα χρώματα απώλειας και οι τίτλοι γραφημάτων.\n- Οι διορθώσεις περιλαμβάνουν την επαναφορά FindBin, την προσθήκη του README που λείπει και τη διόρθωση της ορθογραφίας στο FTPtransfer.pm."
+  "release_notes": "- SmokePing 2.9.0 improves SSH probe configuration, OpenSSH and IPv6 handling, autorefresh controls, responsive images, and literal target search.\n- The release improves InfluxDB compatibility, slave update directory creation, dark template color handling, graph borders, and base page navigation/favicon.\n- Fixes include curl feature checks, SSH plugin compatibility with OpenSSH 9.8, and autorefresh toggling errors."
 }

@@ -14,8 +14,8 @@
     "/apps/ollama/assets/screenshot-3.webp"
   ],
   "thumbnail": "",
-  "update_at": "2025-07-02",
-  "release_notes": "- v0.9.5 updates the macOS and Windows applications.\n- Ollama can now be exposed on the network, and the model storage directory can be changed.\n- The macOS app is now native with a smaller footprint and faster startup, and fixes include CLI installation and notarization issues.",
+  "update_at": "2026-05-14",
+  "release_notes": "- Ollama 0.24.0 adds Codex App support through the ollama launch codex-app command.\n- The release includes built-in browser and review-mode support for the Codex App workflow.\n- It also reworks the MLX sampler for improved generation quality on Apple Silicon.",
   "website": "https://ollama.com/",
   "repo": "https://github.com/ollama/ollama",
   "support": "https://github.com/ollama/ollama/issues",
@@ -26,5 +26,5 @@
     "ai"
   ],
   "min_memory": 2147483648,
-  "min_image_size": 1168433570
+  "min_image_size": 4010926584
 }

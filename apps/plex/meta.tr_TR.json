@@ -1,4 +1,4 @@
 {
   "id": "plex",
-  "release_notes": "- Yapılandırılmış görüntü etiketi linuxserver/plex:1.41.3'dir.\n- LinuxServer ayrıca bu Plex görüntü hattı için bir version-1.41.3.9314-a0bfb8370 etiketi yayınlar.\n- Bu CasaOS girişi, ayrı bir Plex yukarı akış değişiklik günlüğü yerine LinuxServer kapsayıcı etiketini izler."
+  "release_notes": "- Updates the LinuxServer Plex image to the 1.43.2 release line.\n- Includes upstream LinuxServer image refreshes and CI-tested container updates.\n- Pulls in Plex Media Server fixes from the 1.43.2 release stream."
 }

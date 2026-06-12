@@ -14,11 +14,12 @@
     "/apps/openlist/assets/screenshot-2.webp",
     "/apps/openlist/assets/screenshot-3.webp"
   ],
+  "thumbnail": "/apps/openlist/assets/thumbnail.webp",
   "tips": {
     "before_install": "Default username: `admin`\nDefault password: `casaos`\nIf you want to change the password, please modify it in the OpenList WebUI.\n"
   },
-  "update_at": "2026-04-09",
-  "release_notes": "- v4.2.1 locks musl outputs to fully static linking in the build script and CI workflows.\n- It also fixes path cache invalidation after meta path updates.",
+  "update_at": "2026-05-25",
+  "release_notes": "- v4.2.2 includes breaking cache changes by extracting the hybrid_cache package.\n- Includes upstream fixes and maintenance from the 4.2.2 release.\n- Review the upstream release notes before upgrading existing custom cache integrations.",
   "store_app_id": "openlist",
   "website": "https://oplist.org/",
   "repo": "https://github.com/OpenListTeam/OpenList",
@@ -30,5 +31,5 @@
     "productivity"
   ],
   "min_memory": 268435456,
-  "min_image_size": 64468138
+  "min_image_size": 54560181
 }

@@ -1,4 +1,4 @@
 {
   "id": "sabnzbd",
-  "release_notes": "- Το 4.1.0 προσθέτει τη σκοτεινή λειτουργία για τις σελίδες Config, Login και Wizard, καθώς και multi-select στο Ιστορικό.\n- Η επικύρωση διακομιστή μεσολάβησης, η εκκαθάριση αρχείων καταγραφής, η επιλογή διακομιστή IP, οι ρυθμίσεις διακομιστή IPv6 και η συμπεριφορά αποσυσκευασίας αρχείου ενημερώθηκαν.\n- Οι επιδιορθώσεις περιλαμβάνουν εντοπισμό διπλότυπων, ταξινόμηση ονομάτων αρχείου, διαχείριση προτεραιότητας ουράς σε παύση, εξυγίανση αρχείου καταγραφής API-key, εγγραφή δίσκου, εξυγίανση φακέλων, αποκωδικοποίηση άρθρου και μετονομασία QuickCheck."
+  "release_notes": "- SABnzbd 5.0.3 includes the fifth major release updates with NNTP pipelining, direct write, a reworked cache, safer processing, and platform updates.\n- Fixes in 5.0.1 through 5.0.3 cover new-install NZB fetching, queue loading after upgrade, duplicate nzo_id handling, RSS priority, duplicate filename stalls, IPv6 binding, and post-processing queue saves.\n- The linuxserver/sabnzbd:5.0.3 Docker image tag was published on 2026-05-21."
 }

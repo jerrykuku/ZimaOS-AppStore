@@ -136,6 +136,10 @@
       "tagline": "Libera i tuoi video e scopri possibilità infinite."
     },
     {
+      "id": "hermes",
+      "tagline": "Un agente AI auto-migliorante con memoria, competenze, messaggistica e dashboard web."
+    },
+    {
       "id": "homeassistant",
       "tagline": "Automazione domestica open source che mette al primo posto il controllo locale e la privacy."
     },
@@ -176,6 +180,10 @@
     {
       "id": "jenkins",
       "tagline": "Server Jenkins per Integrazione Continua e Distribuzione."
+    },
+    {
+      "id": "karakeep",
+      "tagline": "L'app per salvare tutto"
     },
     {
       "id": "kavita",

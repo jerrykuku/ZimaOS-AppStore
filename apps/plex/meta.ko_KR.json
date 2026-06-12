@@ -1,4 +1,4 @@
 {
   "id": "plex",
-  "release_notes": "- 구성된 이미지 태그는 linuxserver/plex:1.41.3입니다.\n- LinuxServer는 이 Plex 이미지 라인에 대해 version-1.41.3.9314-a0bfb8370 태그도 게시합니다.\n- 이 CasaOS 항목은 별도의 Plex 업스트림 변경 로그가 아니라 LinuxServer 컨테이너 태그를 따릅니다."
+  "release_notes": "- Updates the LinuxServer Plex image to the 1.43.2 release line.\n- Includes upstream LinuxServer image refreshes and CI-tested container updates.\n- Pulls in Plex Media Server fixes from the 1.43.2 release stream."
 }

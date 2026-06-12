@@ -22,8 +22,8 @@
   "tagline": "Content collaboration platform",
   "thumbnail": "/apps/nextcloud/assets/thumbnail.webp",
   "tips": {},
-  "update_at": "2025-09-27",
-  "release_notes": "- v32.0.0 points to the corresponding Nextcloud server release package.\n- This app tracks the Nextcloud 32.0.0 server release referenced by the upstream GitHub release.",
+  "update_at": "2026-04-30",
+  "release_notes": "- Nextcloud 33.0.3 includes server fixes for external storage options, sharing user ID alignment, OAuth2 throttle metadata, and iCalendar event URI search.\n- The release improves preview regeneration, chunked upload parallel-count handling, drag-and-drop folder uploads, zip downloads, dashboard/settings edge cases, and LDAP configuration flows.\n- The nextcloud:33.0.3 Docker image tag was published on 2026-05-23.",
   "website": "https://nextcloud.com",
   "repo": "https://github.com/nextcloud/server",
   "support": "https://help.nextcloud.com",
@@ -34,5 +34,5 @@
     "productivity"
   ],
   "min_memory": 536870912,
-  "min_image_size": 500535181
+  "min_image_size": 504288210
 }

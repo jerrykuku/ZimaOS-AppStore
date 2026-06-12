@@ -5,7 +5,7 @@ services:
       PHOTOPRISM_ADMIN_PASSWORD: casaos
       PHOTOPRISM_UPLOAD_NSFW: 'true'
       TZ: $TZ
-    image: photoprism/photoprism:250228
+    image: photoprism/photoprism:260523
     deploy:
       resources:
         reservations:
@@ -30,4 +30,4 @@ x-casaos:
   title: PhotoPrism
   index: /
   port_map: '2342'
-  version: '250228'
+  version: '260523'

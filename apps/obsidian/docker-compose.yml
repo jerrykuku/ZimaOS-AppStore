@@ -1,7 +1,7 @@
 name: obsidian
 services:
   obsidian:
-    image: lscr.io/linuxserver/obsidian:1.8.10
+    image: lscr.io/linuxserver/obsidian:1.12.7
     container_name: obsidian
     deploy:
       resources:
@@ -32,4 +32,4 @@ x-casaos:
   port_map: '15324'
   index: /
   title: Obsidian
-  version: 1.8.10
+  version: 1.12.7

@@ -14,8 +14,8 @@
     "/apps/beaverhabittracker/assets/screenshot-3.webp"
   ],
   "thumbnail": "",
-  "update_at": "2025-10-12",
-  "release_notes": "- v0.7.3 upgrades the application stack to Python 3.14 and NiceGUI 3.0.",
+  "update_at": "2026-05-20",
+  "release_notes": "- v0.9.1 adds a completion-status page for default and custom status configuration.\n- It adds the TIME_ZONE environment variable to override the browser-detected timezone.\n- It strips HTML from custom CSS to prevent stored XSS and auto-refreshes the habit list when the local date changes.",
   "website": "https://beaverhabits.com/",
   "repo": "https://github.com/daya0576/beaverhabits",
   "support": "https://github.com/daya0576/beaverhabits/issues",
@@ -26,5 +26,5 @@
     "productivity"
   ],
   "min_memory": 134217728,
-  "min_image_size": 112362462
+  "min_image_size": 112367590
 }

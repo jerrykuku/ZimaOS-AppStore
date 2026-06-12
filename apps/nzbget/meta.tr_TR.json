@@ -1,4 +1,4 @@
 {
   "id": "nzbget",
-  "release_notes": "- NZBGet 25.4, ServerX.Cipher seçeneği aracılığıyla TLS 1.3 şifre paketi desteğini ekler.\n- Küçük ekranlarda web UI arama çubuğu etkinleştirilir.\n- Düzeltmeler, Tarama komut dosyası API işlemeyi, filter kurallarından RSS besleme kategorisi uygulamasını, JSON değer ayrıştırmayı ve test sunucusu API yöntemini içerir."
+  "release_notes": "- NZBGet 26.1 improves archived NZB handling support.\n- Adds NzbDirArchiveScan for scanning zip, rar, 7z, and other archives in NzbDir.\n- Uses the LinuxServer 26.1.20260522 image build for this release line."
 }

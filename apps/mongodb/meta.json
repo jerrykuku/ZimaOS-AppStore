@@ -8,12 +8,12 @@
   "screenshot_link": [],
   "developer": "MongoDB Inc.",
   "author": "WisdomSky",
-  "thumbnail": "/apps/mongodb/assets/icon.svg",
+  "thumbnail": "/apps/mongodb/assets/icon.webp",
   "category": "Developer",
   "tips": {
     "before_install": "This version of MongoDB requires a CPU with AVX support. This version of MongoDB will not work with ZimaBoard."
   },
-  "update_at": "2025-12-05",
+  "update_at": "2025-12-09",
   "release_notes": "- MongoDB 8.2.2 is the database image version used by this app entry.\n- MongoDB publishes database release notes outside GitHub Releases, so this Docker tag is kept as image metadata.",
   "website": "https://www.mongodb.com/",
   "repo": "https://github.com/mongodb/mongo",

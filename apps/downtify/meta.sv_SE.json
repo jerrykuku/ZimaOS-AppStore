@@ -1,4 +1,4 @@
 {
   "id": "downtify",
-  "release_notes": "- 2.6.0 lägger till alternativet att spara musik i artistmappar.\n- Det lägger till en inställning för att inaktivera nedladdning av låttexter.\n- Det fixar nedladdningshistoriken och inställningarnas beständighet."
+  "release_notes": "- v2.7.0 adds configurable parallel downloads.\n- It adds weekly and monthly playlist synchronization intervals.\n- Dependency maintenance updates are included."
 }

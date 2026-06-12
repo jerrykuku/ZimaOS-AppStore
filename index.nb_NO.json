@@ -68,6 +68,10 @@
       "tagline": "Åpen kildekode, lett, innfødt, støtter (HTTP, BitTorrent, Magnet, osv.) for nedlasting."
     },
     {
+      "id": "hermes",
+      "tagline": "En selvforbedrende AI-agent med minne, ferdigheter, meldinger og et webdashboard."
+    },
+    {
       "id": "homeassistant",
       "tagline": "Åpen kildekode hjemmeautomatisering som setter lokal kontroll og personvern først."
     },
@@ -96,6 +100,10 @@
     {
       "id": "jellyseerr",
       "tagline": "Jellyseerr er en gratis og åpen kildekode programvare for å administrere forespørsler for mediebiblioteket ditt."
+    },
+    {
+      "id": "karakeep",
+      "tagline": "Appen for å bokmerke alt"
     },
     {
       "id": "kavita",

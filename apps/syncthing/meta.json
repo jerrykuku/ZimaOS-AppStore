@@ -14,7 +14,7 @@
     "/apps/syncthing/assets/screenshot-2.webp"
   ],
   "tips": {},
-  "update_at": "2025-06-02",
+  "update_at": "2025-06-14",
   "release_notes": "Syncthing 1.29.7 is an upstream release; see official release notes for detailed fixes and changes.",
   "website": "https://syncthing.net",
   "repo": "https://github.com/syncthing/syncthing",

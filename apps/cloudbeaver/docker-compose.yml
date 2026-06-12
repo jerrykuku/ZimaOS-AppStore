@@ -7,7 +7,7 @@ services:
       resources:
         reservations:
           memory: 256M
-    image: dbeaver/cloudbeaver:25.2.5
+    image: dbeaver/cloudbeaver:26.0.5
     ports:
     - target: 8978
       published: '8978'
@@ -25,4 +25,4 @@ x-casaos:
   title: CloudBeaver
   index: /
   port_map: '8978'
-  version: 25.2.5
+  version: 26.0.5

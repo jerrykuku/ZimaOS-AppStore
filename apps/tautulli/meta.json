@@ -16,8 +16,8 @@
   "tagline": "Monitor your Plex Media Server and much more.",
   "thumbnail": "/apps/tautulli/assets/thumbnail.webp",
   "tips": {},
-  "update_at": "2023-10-26",
-  "release_notes": "- v2.13.2 adds quarter-value icons for history watch status.\n- A concurrent streams per day graph and metadata directory exporter field were added.\n- Notification and newsletter agent lists now show the last triggered time, and X-Plex-Language can be overridden in config.",
+  "update_at": "2026-05-05",
+  "release_notes": "- Tautulli 2.17.1 fixes Tautulli Remote App notification sending and folder path browsing errors.\n- Fixes CVE-2026-41065 in newsletter custom template directory handling.\n- Adds Simkl URL notification parameters and AV1 and Opus media flag images.",
   "website": "https://tautulli.com",
   "repo": "https://github.com/Tautulli/Tautulli",
   "support": "https://github.com/Tautulli/Tautulli/issues",
@@ -28,5 +28,5 @@
     "media"
   ],
   "min_memory": 67108864,
-  "min_image_size": 0
+  "min_image_size": 57574941
 }

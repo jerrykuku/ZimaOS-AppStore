@@ -10,8 +10,8 @@
   "author": "Fabio Tea",
   "category": "Media",
   "store_app_id": "threadfin",
-  "update_at": "2024-01-25",
-  "release_notes": "",
+  "update_at": "2025-09-11",
+  "release_notes": "Threadfin 1.2.37 clears XMLTV cache during updates and adds older glibc to the build process.",
   "website": "",
   "repo": "https://github.com/Threadfin/Threadfin",
   "support": "https://github.com/Threadfin/Threadfin/issues",
@@ -22,5 +22,5 @@
     "media"
   ],
   "min_memory": 0,
-  "min_image_size": 0
+  "min_image_size": 298723521
 }

@@ -13,8 +13,8 @@
   "tagline": "Label Studio is an open source data labeling tool. It lets you label data types like audio, text, images, videos, and time series with a simple and straightforward UI and export to various model formats. It can be used to prepare raw data or improve existing training data to get more accurate ML models.",
   "thumbnail": "/apps/label-studio/assets/thumbnail.webp",
   "tips": {},
-  "update_at": "2023-11-07",
-  "release_notes": "- 1.9.2 adds a legacy Taxonomy parameter and support for AWS Signature Version 4 query parameters.\n- VERIFY_SSL_CERTS now defaults to true for deployment-wide HTTPS certificate verification.\n- Security fixes address XSS issues and an SSRF DNS rebinding issue.",
+  "update_at": "2026-03-13",
+  "release_notes": "- v1.23.0 adds Vector and VectorLabels tags for point-based image annotations such as polylines, polygons, and skeletons.\n- Data Manager and template-builder updates add interactive task-source viewing, filter copy/paste, JSON filter copy, row context menus, Ctrl+F search, panel resizing, and shift range selection.\n- The heartexlabs/label-studio:1.23.0 Docker image tag was published on 2026-03-13.",
   "website": "https://labelstud.io/",
   "repo": "https://github.com/HumanSignal/label-studio",
   "support": "https://github.com/HumanSignal/label-studio/issues",
@@ -25,5 +25,5 @@
     "ai"
   ],
   "min_memory": 268435456,
-  "min_image_size": 450283804
+  "min_image_size": 370723777
 }

@@ -1,4 +1,4 @@
 {
   "id": "plex",
-  "release_notes": "- 設定されているイメージタグは linuxserver/plex:1.41.3 です。\n- LinuxServer はこの Plex イメージ系統向けに version-1.41.3.9314-a0bfb8370 タグも公開しています。\n- この CasaOS エントリは、個別の Plex 上流 changelog ではなく LinuxServer コンテナタグを追跡します。"
+  "release_notes": "- Updates the LinuxServer Plex image to the 1.43.2 release line.\n- Includes upstream LinuxServer image refreshes and CI-tested container updates.\n- Pulls in Plex Media Server fixes from the 1.43.2 release stream."
 }

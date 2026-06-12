@@ -1,6 +1,6 @@
 {
   "id": "tautulli",
-  "tagline": "监视您的Plex Media Server以及更多内容。",
   "description": "Tautulli是您可以在Plex Media Server旁边运行的第三方应用程序，用于监视活动并跟踪各种统计信息。",
-  "release_notes": "- v2.13.2 为 history watch status 增加了 quarter-value icons。\n- 新增 concurrent streams per day graph 和 metadata directory exporter field。\n- Notification 和 newsletter agent 列表现在会显示 last triggered time，并且可以在 config 中覆盖 X-Plex-Language。"
+  "release_notes": "- Tautulli 2.17.1 fixes Tautulli Remote App notification sending and folder path browsing errors.\n- Fixes CVE-2026-41065 in newsletter custom template directory handling.\n- Adds Simkl URL notification parameters and AV1 and Opus media flag images.",
+  "tagline": "监视您的Plex Media Server以及更多内容。"
 }

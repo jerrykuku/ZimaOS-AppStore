@@ -13,7 +13,7 @@
   ],
   "tagline": "RagFlow is an open-source RAG engine based on deep document understanding.",
   "thumbnail": "/apps/ragflow/assets/thumbnail.webp",
-  "update_at": "2025-10-23",
+  "update_at": "2025-10-30",
   "release_notes": "- v0.21.1 experimentally adds PDF document parsing with MinerU.\n- Dataset and personal center UI/UX were improved.\n- The Infinity document engine was upgraded to v0.6.1, and video parsing was fixed.",
   "website": "https://ragflow.io",
   "repo": "https://github.com/infiniflow/ragflow",

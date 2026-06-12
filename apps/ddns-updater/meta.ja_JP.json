@@ -1,4 +1,4 @@
 {
   "id": "ddns-updater",
-  "release_notes": "- v2.9.0 は domene.shop、loopia.se、vultr.com、myaddr.tools、namesilo.com の provider 対応を追加します。\n- Health server 設定は Docker 外で実行でき、コンテナ内では無効化できます。\n- multi-address public IP、IPv6 hostname resolution、Porkbun、Gandi、DonDominio、Netcup、GCP、ファイル権限、NoIP response parsing、real IP logging、response trimming が修正されました。"
+  "release_notes": "- v2.10.0 adds provider support for Scaleway, IPv64, Vercel, Hetzner Cloud, and Spaceship.\n- It fixes DNS resolution hangs, Route53 wildcard updates, Ionos URL paths, DonDominio key naming, deSEC IP-version updates, and Njalla paths.\n- Documentation and dependency updates are included."
 }

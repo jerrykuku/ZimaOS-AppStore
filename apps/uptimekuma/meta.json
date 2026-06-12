@@ -18,8 +18,8 @@
   "tagline": "A fancy monitoring tool",
   "thumbnail": "/apps/uptimekuma/assets/thumbnail.webp",
   "tips": {},
-  "update_at": "2025-07-08",
-  "release_notes": "- Uptime Kuma 1.23.16 updates dependencies for security.\n- It fixes CVE-2024-56331, a local file inclusion issue in the Real-Browser monitor's URL handling.",
+  "update_at": "2026-05-31",
+  "release_notes": "- 2.4.0 adds incidents to RSS plus EgoSMS and VKTeams notification providers.\n- Improves token handling for gamedig, bearer tokens, and WebSocket upgrade monitors.\n- Includes NTLM HTTP monitor, npm handling, translation, and authenticated admin security fixes.",
   "website": "https://uptimekuma.org",
   "repo": "https://github.com/louislam/uptime-kuma",
   "support": "https://github.com/louislam/uptime-kuma/issues",
@@ -30,5 +30,5 @@
     "networking"
   ],
   "min_memory": 134217728,
-  "min_image_size": 0
+  "min_image_size": 600497136
 }

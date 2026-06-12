@@ -7,7 +7,7 @@ services:
       PGID: '1000'
       PUID: '1000'
       TZ: Europe/London
-    image: linuxserver/nzbget:25.4.20251205
+    image: linuxserver/nzbget:26.1.20260522
     deploy:
       resources:
         reservations:
@@ -31,4 +31,4 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/nzbget/assets/icon.svg
   title: Nzbget
   port_map: '6789'
-  version: 25.4.20251205
+  version: 26.1.20260522

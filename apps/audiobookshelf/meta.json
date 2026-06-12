@@ -14,8 +14,8 @@
     "/apps/audiobookshelf/assets/screenshot-3.webp"
   ],
   "thumbnail": "",
-  "update_at": "2025-10-08",
-  "release_notes": "- v2.30.0 adds a Best option for book cover search across Audible, Google, and FantLab.\n- Cover search is now async and streams results over websockets, with shorter metadata-provider timeouts.\n- Fixes include OIDC callback protocol handling, MultiSelect responsiveness, podcast downloads without audio streams, and chapter editor overflow.",
+  "update_at": "2026-05-17",
+  "release_notes": "- v2.35.0 adds an access-token refresh grace period to reduce repeated logins.\n- It fixes Android listening sessions showing as Abs iOS and fixes m4b RSS feed Content-Type handling.\n- Book and podcast descriptions from audio files are sanitized, socket-event validation was tightened, and translations were updated.",
   "website": "https://audiobookshelf.org",
   "repo": "https://github.com/advplyr/audiobookshelf",
   "support": "https://github.com/advplyr/audiobookshelf/issues",
@@ -26,5 +26,5 @@
     "media"
   ],
   "min_memory": 67108864,
-  "min_image_size": 112717058
+  "min_image_size": 115794273
 }

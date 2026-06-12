@@ -17,7 +17,7 @@
   "tips": {
     "before_install": "Default Account\n\n| Username | Password |\n|----------|----------|\n| `pyload`    | `pyload` |\n\nDefault Accessible Path in Pyload\n\n| Name | Value |\n| ---- | ----- |\n| Downloads Path | `/DATA/Downloads` |\n"
   },
-  "update_at": "2024-01-25",
+  "update_at": "2026-05-17",
   "release_notes": "",
   "website": "https://pyload.net",
   "repo": "https://github.com/pyload/pyload",

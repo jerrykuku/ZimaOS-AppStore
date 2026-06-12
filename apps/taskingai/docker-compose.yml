@@ -185,3 +185,4 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/taskingai/assets/icon.svg
   title: TaskingAI
   port_map: '3080'
+  version: v0.3.0

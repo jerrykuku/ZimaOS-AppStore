@@ -1,7 +1,7 @@
 name: peanut
 services:
   peanut:
-    image: brandawg93/peanut:5.19.1
+    image: brandawg93/peanut:6.0.0
     container_name: PeaNUT
     restart: unless-stopped
     volumes:
@@ -25,4 +25,4 @@ x-casaos:
   port_map: '8084'
   index: /
   scheme: http
-  version: 5.19.1
+  version: 6.0.0

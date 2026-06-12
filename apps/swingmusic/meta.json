@@ -17,8 +17,8 @@
   "tips": {
     "before_install": "When you first start Swing Music, it will ask you to pick music directory: Where do you want to look for music?\nselect \"Specific directories\" Option, and select \"/music\" and rescan.\n\nDefault Account\n| Name | Password |\n| -------- | -------- |\n| `admin` | `admin` |\n"
   },
-  "update_at": "2024-02-26",
-  "release_notes": "- v1.4.8 adds an opt-in no-sidebar layout, top-bar search, centered default content, and homepage browse changes.\n- The backend moved to the Waitress WSGI server with proper ARM64 and other platform support.\n- Fixes include lyrics plugin autostart, queue removal, playlist list layout, save-queue-as-playlist, keyboard shortcuts, and recently added item display.",
+  "update_at": "2026-01-18",
+  "release_notes": "- v2.1.4 patches a path traversal vulnerability in the directory browser endpoint.\n- Bug fixes cover Last.fm scrobbles being saved to user id 1, unsetting the admin role, a Windows startup crash, default artist split ignore rules, and album soundtrack classification.\n- The ghcr.io/swingmx/swingmusic:v2.1.4 Docker image tag exists, and the upstream release was published on 2026-01-18.",
   "website": "https://swingmx.com",
   "repo": "https://github.com/swing-opensource/swingmusic",
   "support": "https://github.com/swing-opensource/swingmusic/issues",
@@ -29,5 +29,5 @@
     "media"
   ],
   "min_memory": 0,
-  "min_image_size": 719643326
+  "min_image_size": 430883500
 }

@@ -1,4 +1,4 @@
 {
   "id": "albyhub",
-  "release_notes": "- v1.20.0 は app store のアプリ向け接続ウィザードを追加します。\n- Alby Hub のトランザクションを、メインのトランザクション一覧や個別の接続/subwallet から CSV にエクスポートできるようになりました。\n- 優先する支払い方法で channels を購入でき、クイックナビゲーション用の検索ダイアログ/ホットキーが追加されました。"
+  "release_notes": "- v1.22.2 adds a new AI & Agents page, integrated on-chain wallet mode, and custom transaction labels.\n- Redesigns settings pages and improves budget selection when creating app connections.\n- Adds support for connecting Alby Hub to Core Lightning and includes additional fixes."
 }

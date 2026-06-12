@@ -5,7 +5,7 @@ services:
       PGID: $PGID
       PUID: $PUID
       TZ: $TZ
-    image: ghcr.io/henriquesebastiao/downtify:1.1.1
+    image: ghcr.io/henriquesebastiao/downtify:2.7.0
     deploy:
       resources:
         reservations:
@@ -19,6 +19,9 @@ services:
     - type: bind
       source: /DATA/Downloads/downtify
       target: /downloads
+    - type: bind
+      source: /DATA/AppData/$AppID/data
+      target: /data
     container_name: downtify
 x-casaos:
   main: downtify
@@ -26,4 +29,4 @@ x-casaos:
   title: Downtify
   index: /
   port_map: '8582'
-  version: 2.6.0
+  version: 2.7.0

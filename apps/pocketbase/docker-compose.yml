@@ -1,7 +1,7 @@
 name: pocketbase
 services:
   pocketbase:
-    image: argonptg/pocketbase:0.25.9
+    image: argonptg/pocketbase:0.26.6
     deploy:
       resources:
         limits:
@@ -23,4 +23,4 @@ x-casaos:
   title: PocketBase
   index: /_/
   port_map: '8090'
-  version: 0.25.9
+  version: 0.26.6

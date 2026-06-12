@@ -10,7 +10,7 @@ services:
       resources:
         limits:
           memory: 1794M
-    image: netdata/netdata:v2.8.1
+    image: netdata/netdata:v2.10.3
     pid: host
     ports:
     - target: 19999
@@ -55,4 +55,4 @@ x-casaos:
   port_map: '19999'
   scheme: http
   title: Netdata
-  version: v2.8.1
+  version: v2.10.3

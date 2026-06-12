@@ -1,4 +1,4 @@
 {
   "id": "jackett",
-  "release_notes": "- Το v0.24.1841 ενημερώνει το χειρισμό torrenttip, torrentsome, btstate, ADC, u2p, magnetcat, torrent9 και czteam indexer.\n- Αρκετοί τομείς παρακολούθησης και διαμορφώσεις επιλογέα/κατηγορίας ανανεώθηκαν.\n- Οι χρήστες Docker θα πρέπει να ενημερώσουν την εικόνα του κοντέινερ αντί να εκτελούν το πρόγραμμα ενημέρωσης in-app μέσα σε ένα υπάρχον κοντέινερ."
+  "release_notes": "- v0.24.1985 removes obsolete moviesdvdr, demonoid-clone, and divxtotal indexers.\n- Adds f1gp and uztracker categories and bumps torrenttip and torrentsome domains.\n- Improves secretcinema release metadata, myanonamouse download links, and .NET packages."
 }

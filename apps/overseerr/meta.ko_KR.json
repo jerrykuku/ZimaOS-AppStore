@@ -1,4 +1,4 @@
 {
   "id": "overseerr",
-  "release_notes": "- v1.33.2는 incorrect media가 unknown으로 변경될 수 있는 문제를 수정합니다."
+  "release_notes": "- Overseerr 1.35.0 includes bug fixes for notifications, web push resubscription, Plex Watchlist URL handling, availability sync, request state updates, and specials handling.\n- The release also updates Docker build support, including py3-setuptools for arm builds on Node 20.\n- The linuxserver/overseerr:1.35.0 Docker image tag was published on 2026-02-16."
 }

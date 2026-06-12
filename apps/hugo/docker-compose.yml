@@ -1,7 +1,7 @@
 name: hugo
 services:
   hugo:
-    image: ghcr.io/gohugoio/hugo:v0.152.2
+    image: ghcr.io/gohugoio/hugo:v0.161.1
     container_name: hugo
     deploy:
       resources:
@@ -30,4 +30,4 @@ x-casaos:
   port_map: '1313'
   index: /
   title: Hugo
-  version: v0.152.2
+  version: v0.161.1

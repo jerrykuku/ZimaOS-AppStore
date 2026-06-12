@@ -1,4 +1,4 @@
 {
   "id": "gitea",
-  "release_notes": "- v1.25.0 dodaje strujanje arhive spremišta, konfigurabilna Git udaljena imena i e-poruke o uspjehu/neuspjehu tijeka rada.\n- OpenID Connect, poboljšani su pregledi sadržaja repozitorija APIs, SSH commit signing i 3D/CAD.\n- Sigurnosna ažuriranja uključuju nadogradnju public-key i sve sigurnosne popravke 1.24.x nakon 1.25.0-rc0."
+  "release_notes": "- v1.26.2 includes security fixes for permissions, artifact signatures, token scope checks, OAuth/PKCE handling, downloads, wiki writes, and LFS token access.\n- It also fixes package permission checks, smart HTTP request scopes, basic auth, maintainer edit permissions, URL sanitization, and attachment Content-Security-Policy.\n- Dependency security updates are included, such as mermaid v11.15.0 and go-git updates."
 }

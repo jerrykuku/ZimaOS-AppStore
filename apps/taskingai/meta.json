@@ -18,11 +18,17 @@
   "tips": {
     "before_install": "| Username | Password   |\n| -------- | ---------- |\n| admin    | TaskingAI321 |\n"
   },
+  "update_at": "2024-05-30",
+  "release_notes": "- v0.3.0 adds Markdown rendering and image uploads in Playground.\n- An OpenAI-compatible chat completions API was introduced for LLM tasks and agent invocations.\n- Inference and Plugin services were open sourced, with fixes for Gemini function error logs, wildcard model inference, Docker Compose server versioning, and UI navigation/search.",
+  "website": "https://docs.tasking.ai/",
+  "repo": "https://github.com/TaskingAI/TaskingAI",
+  "support": "https://github.com/TaskingAI/TaskingAI/issues",
+  "docs": "https://docs.tasking.ai/",
   "title": "TaskingAI",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [
     "ai"
   ],
   "min_memory": 0,
-  "min_image_size": 955771702
+  "min_image_size": 1178922693
 }

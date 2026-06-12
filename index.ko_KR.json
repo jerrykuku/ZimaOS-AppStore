@@ -72,6 +72,10 @@
       "tagline": "오픈 소스, 경량, 네이티브, 다운로드용 (HTTP, BitTorrent, Magnet 등) 지원."
     },
     {
+      "id": "hermes",
+      "tagline": "메모리, 스킬, 메시징, 웹 대시보드를 갖춘 자기개선형 AI 에이전트입니다."
+    },
+    {
       "id": "homeassistant",
       "tagline": "로컬 제어와 프라이버시를 우선시하는 오픈 소스 홈 자동화."
     },
@@ -100,6 +104,10 @@
     {
       "id": "jellyseerr",
       "tagline": "Jellyseerr는 미디어 라이브러리 요청을 관리하기 위한 무료 오픈소스 소프트웨어 애플리케이션입니다."
+    },
+    {
+      "id": "karakeep",
+      "tagline": "무엇이든 저장하는 북마크 앱"
     },
     {
       "id": "kavita",

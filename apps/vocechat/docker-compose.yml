@@ -3,7 +3,7 @@ services:
   vocechat:
     environment:
       TZ: $TZ
-    image: privoce/vocechat-server:v0.3.33
+    image: privoce/vocechat-server:v0.5.17
     deploy:
       resources:
         reservations:
@@ -25,4 +25,4 @@ x-casaos:
   title: VoceChat
   index: /
   port_map: '3009'
-  version: v0.3.33
+  version: v0.5.17

@@ -1,6 +1,6 @@
 {
   "id": "smokeping",
-  "tagline": "Strumento di monitoraggio delle prestazioni di rete open source gratuito",
   "description": "tiene traccia della latenza della rete.",
-  "release_notes": "- 2.8.2 è una versione cumulativa con test di build automatizzati e supporto InfluxDB.\n- Sono stati migliorati la gestione della sonda, il comportamento FPing command-line, la gestione di SSH, la modalità zoom URLs, la voce cropper relative-time, i ricaricamenti della configurazione per gli slave, i modelli, i colori delle perdite e i titoli dei grafici.\n- Le correzioni includono il ripristino di FindBin, l'aggiunta di README mancante e la correzione dell'ortografia in FTPtransfer.pm."
+  "release_notes": "- SmokePing 2.9.0 improves SSH probe configuration, OpenSSH and IPv6 handling, autorefresh controls, responsive images, and literal target search.\n- The release improves InfluxDB compatibility, slave update directory creation, dark template color handling, graph borders, and base page navigation/favicon.\n- Fixes include curl feature checks, SSH plugin compatibility with OpenSSH 9.8, and autorefresh toggling errors.",
+  "tagline": "Strumento di monitoraggio delle prestazioni di rete open source gratuito"
 }

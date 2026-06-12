@@ -8,12 +8,12 @@
   "tagline": "PostgreSQL is an advanced, enterprise-class, and open-source relational database system. PostgreSQL supports both SQL (relational) and JSON (non-relational) querying.",
   "developer": "PostgreSQL Global Dev't Group",
   "author": "WisdomSky",
-  "thumbnail": "/apps/postgresql/assets/icon.svg",
+  "thumbnail": "",
   "tips": {
     "before_install": "Default user: `casaos`\nDefault password: `casaos`\nDefault database: `casaos`\n"
   },
   "category": "Developer",
-  "update_at": "2025-03-18",
+  "update_at": "2025-04-29",
   "release_notes": "- PostgreSQL 17.4 fixes libpq quoting behavior after CVE-2025-1094 so length-limited strings are handled correctly.\n- The release also fixes a pg_createsubscriber memory leak and a Meson build-system header detection issue.",
   "website": "https://www.postgresql.org",
   "repo": "https://github.com/postgres/postgres",

@@ -15,7 +15,7 @@
   "tagline": "The personal Media System",
   "thumbnail": "/apps/jellyfin-nvidia/assets/thumbnail.webp",
   "tips": {},
-  "update_at": "2025-02-16",
+  "update_at": "2025-04-01",
   "release_notes": "- v10.10.6 includes bug fixes for Jellyfin Server.\n- The release fixes Apple silicon crashes by bumping the .NET framework version to 8.0.13.\n- Fixes include subnet checks, image encoding concurrency, SchedulesDirect image prefetching, Live TV guide backdrops, and websocket state locking.",
   "website": "https://jellyfin.org/",
   "repo": "https://github.com/jellyfin/jellyfin",

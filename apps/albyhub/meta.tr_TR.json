@@ -1,4 +1,4 @@
 {
   "id": "albyhub",
-  "release_notes": "- v1.20.0, the uygulama mağazasındaki uygulamalar için bir bağlantı sihirbazı ekler.\n- Alby Hub işlemleri artık the ana işlem listesinden ve bireysel bağlantılardan/alt cüzdanlardan CSV'ye aktarılabilir.\n- Kanallar tercih edilen ödeme yöntemi kullanılarak satın alınabilir ve hızlı gezinme için bir arama iletişim kutusu/kısayol tuşu eklenmiştir."
+  "release_notes": "- v1.22.2 adds a new AI & Agents page, integrated on-chain wallet mode, and custom transaction labels.\n- Redesigns settings pages and improves budget selection when creating app connections.\n- Adds support for connecting Alby Hub to Core Lightning and includes additional fixes."
 }

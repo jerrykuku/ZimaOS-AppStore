@@ -1,4 +1,4 @@
 {
   "id": "openhab",
-  "release_notes": "- 4.3.3은 add-on 버그 수정과 개선 사항을 포함한 patch release입니다.\n- 수정 사항에는 basicprofiles delta handling, bluetooth.bluez NullPointerException, easee API limit configuration, ecobee vacation holds, Free@home missing IDs, hdpowerview bridge labels, Hue dynamics support, huesync API token handling이 포함됩니다.\n- Energidataservice tariff filters 및 여러 add-ons가 업데이트되었습니다."
+  "release_notes": "- openHAB 5.1.4 is a patch release with add-on bug fixes across ahawastecollection, airparif, dirigera, ecoflow, electroluxappliance, enocean, evohome, heos, matter, roborock, solaredge, unifi, vesync, and others.\n- JavaScript scripting upgrades to openhab-js 5.17.1 and fixes line-number reporting in injected stack traces.\n- Main UI fixes cover widget editor screen values, item back navigation, page duplication, chart period adjustments, variable handling, map dark-mode updates, gauge sizing, wrappers, and Analyzer axis settings."
 }

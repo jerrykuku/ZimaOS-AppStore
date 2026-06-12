@@ -1,4 +1,4 @@
 {
   "id": "tautulli",
-  "release_notes": "- Το v2.13.2 προσθέτει εικονίδια quarter-value για την κατάσταση παρακολούθησης ιστορικού.\n- Προστέθηκε ένα γράφημα ταυτόχρονων ροών ανά ημέρα και πεδίο εξαγωγής καταλόγου μεταδεδομένων.\n- Οι λίστες πρακτόρων ειδοποιήσεων και ενημερωτικών δελτίων εμφανίζουν πλέον τον τελευταίο χρόνο ενεργοποίησης και το X-Plex-Language μπορεί να παρακαμφθεί στις ρυθμίσεις παραμέτρων."
+  "release_notes": "- Tautulli 2.17.1 fixes Tautulli Remote App notification sending and folder path browsing errors.\n- Fixes CVE-2026-41065 in newsletter custom template directory handling.\n- Adds Simkl URL notification parameters and AV1 and Opus media flag images."
 }

@@ -199,6 +199,10 @@
       "tagline": "解放你的视频，创造无限可能。"
     },
     {
+      "id": "hermes",
+      "tagline": "一款具备记忆、技能、消息功能和 Web 仪表盘的自我改进 AI 代理。"
+    },
+    {
       "id": "holoplay",
       "tagline": "一个用于收听Youtube音频源的Web应用。"
     },
@@ -255,6 +259,10 @@
     {
       "id": "jenkins",
       "tagline": "Jenkins 持续集成和交付服务器。"
+    },
+    {
+      "id": "karakeep",
+      "tagline": "什么都能收藏的应用"
     },
     {
       "id": "kavita",

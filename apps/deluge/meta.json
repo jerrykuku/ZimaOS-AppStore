@@ -18,7 +18,7 @@
   "tips": {
     "before_install": "Default Password: `deluge`\n\nDefault Accessible Path in Deluge\n\n| Name | Value |\n| --- | --- |\n| DATA Path | `/DATA` |\n| Downloads Path | `/DATA/Downloads` |\n| Media Path | `/DATA/Media` |\n\nThe paths of other DATA subdirectories in CasaOS are also similar.\n\nPlease make sure you use the correct path when using Deluge.\n"
   },
-  "update_at": "2025-04-28",
+  "update_at": "2026-05-18",
   "release_notes": "- Deluge 2.2.0 removes Python 3.6 support and fixes multiple GHSL security issues in update checks and Web UI endpoints.\n- Core and UI changes add v2 torrent creation, theme switching, network-interface name support, and AutoAdd watch-folder improvements.",
   "website": "https://deluge-torrent.org",
   "repo": "https://github.com/deluge-torrent/deluge",

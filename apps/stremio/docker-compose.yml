@@ -11,7 +11,7 @@ services:
     - AUTO_SERVER_URL=1
     devices:
     - /dev/dri:/dev/dri
-    image: tsaridas/stremio-docker:v1.2.5
+    image: tsaridas/stremio-docker:v1.3.4
     volumes:
     - type: bind
       source: /DATA/AppData/$AppID/config
@@ -32,4 +32,4 @@ x-casaos:
   title: Stremio
   index: /
   port_map: '8100'
-  version: v1.2.5
+  version: v1.3.4

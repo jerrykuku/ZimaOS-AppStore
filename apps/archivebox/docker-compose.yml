@@ -1,7 +1,7 @@
 name: archivebox
 services:
   archivebox:
-    image: archivebox/archivebox:0.7.3
+    image: archivebox/archivebox:0.7.4
     container_name: archivebox
     deploy:
       resources:
@@ -42,7 +42,7 @@ services:
       interval: 1m
       timeout: 3s
   archivebox_scheduler:
-    image: archivebox/archivebox:0.7.3
+    image: archivebox/archivebox:0.7.4
     container_name: archivebox_scheduler
     deploy:
       resources:
@@ -113,4 +113,4 @@ x-casaos:
   port_map: '18010'
   index: /
   title: ArchiveBox
-  version: 0.7.3
+  version: 0.7.4

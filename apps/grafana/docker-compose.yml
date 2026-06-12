@@ -1,7 +1,7 @@
 name: grafana
 services:
   grafana:
-    image: grafana/grafana:12.1.4
+    image: grafana/grafana:13.0.1-security-01
     deploy:
       resources:
         reservations:
@@ -23,4 +23,4 @@ x-casaos:
   title: Grafana
   index: /
   port_map: '3003'
-  version: 12.1.4
+  version: 13.0.1-security-01

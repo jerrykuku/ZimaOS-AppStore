@@ -5,7 +5,7 @@ services:
     environment:
       TZ: ''
       CRON_MIN: 1,31
-    image: freshrss/freshrss:1.27.1
+    image: freshrss/freshrss:1.29.1
     network_mode: bridge
     ports:
     - target: 80
@@ -25,4 +25,4 @@ x-casaos:
   port_map: '8749'
   scheme: http
   title: FreshRSS
-  version: 1.27.1
+  version: 1.29.1

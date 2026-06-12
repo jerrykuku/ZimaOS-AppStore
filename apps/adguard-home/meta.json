@@ -18,8 +18,8 @@
   "tagline": "Blocking ads & tracking Network-widly",
   "thumbnail": "/apps/adguard-home/assets/thumbnail.webp",
   "tips": {},
-  "update_at": "2025-04-22",
-  "release_notes": "- v0.107.61 fixes a cache poisoning vulnerability.\n- Duplicate simultaneous requests are now coalesced into a single upstream request.\n- The new pending_requests configuration is enabled by default and is recommended for untrusted clients.",
+  "update_at": "2026-05-21",
+  "release_notes": "- v0.107.76 fixes DNS caching when DNSSEC is disabled.\n- YAML duration values now support days with the d unit; downgrades below v0.107.76 should convert those values back to hours.",
   "website": "https://adguard.com/en/adguard-home/overview.html",
   "repo": "https://github.com/AdguardTeam/AdGuardHome",
   "support": "https://github.com/AdguardTeam/AdGuardHome/issues",
@@ -30,5 +30,5 @@
     "networking"
   ],
   "min_memory": 67108864,
-  "min_image_size": 26679722
+  "min_image_size": 28507910
 }

@@ -68,6 +68,10 @@
       "tagline": "Açık kaynak, hafif, yerel, indirme için (HTTP, BitTorrent, Magnet, vb.) destekler."
     },
     {
+      "id": "hermes",
+      "tagline": "Hafıza, beceriler, mesajlaşma ve web paneline sahip kendini geliştiren bir yapay zeka aracısı."
+    },
+    {
       "id": "homeassistant",
       "tagline": "Yerel kontrol ve gizliliği ön planda tutan açık kaynak ev otomasyonu."
     },
@@ -96,6 +100,10 @@
     {
       "id": "jellyseerr",
       "tagline": "Jellyseerr, medya kütüphaneniz için istekleri yönetmek üzere tasarlanmış ücretsiz ve açık kaynaklı bir yazılım uygulamasıdır."
+    },
+    {
+      "id": "karakeep",
+      "tagline": "Her şeyi kaydetme uygulaması"
     },
     {
       "id": "kavita",

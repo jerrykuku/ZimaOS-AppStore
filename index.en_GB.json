@@ -69,6 +69,10 @@
       "tagline": "Open source, lightweight, native, supports (HTTP, BitTorrent, Magnet, etc.) for downloading."
     },
     {
+      "id": "hermes",
+      "tagline": "A self-improving AI agent with memory, skills, messaging, and a web dashboard."
+    },
+    {
       "id": "homeassistant",
       "tagline": "Open source home automation that puts local control and privacy first."
     },
@@ -97,6 +101,10 @@
     {
       "id": "jellyseerr",
       "tagline": "Jellyseerr is a free and open source software application for managing requests for your media library."
+    },
+    {
+      "id": "karakeep",
+      "tagline": "The Bookmark Everything App"
     },
     {
       "id": "kavita",

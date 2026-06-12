@@ -13,8 +13,8 @@
   ],
   "description": "Autobrr is the modern download automation tool for torrents and usenet. With inspiration and ideas from tools like trackarr, autodl-irssi and flexget we built one tool that can do it all, and then some.",
   "tagline": "Modern, easy to use download automation for torrents and usenet.",
-  "update_at": "2025-11-10",
-  "release_notes": "- v1.69.0 adds configurable CORS settings, HTTP resource release on close, Pending release filtering, failed-list refresh warnings, BJ-Share support, and DarkPeers Featured Promo support.\n- Indexer updates include Aither SASL authentication and ReelFlix domain changes.\n- Fixes include missing database rows.Close calls, SQLite-to-PostgreSQL conversion issues, HHD regex, proxy credential testing, Windows exec arg parsing, and a web dropdown crash.",
+  "update_at": "2026-05-17",
+  "release_notes": "- v1.79.0 adds indexer updates including Nexum freeleech support and Ultrabits.\n- Includes notification and action workflow improvements from the upstream changelog.\n- Includes bug fixes and dependency maintenance across the Autobrr release.",
   "website": "https://autobrr.com",
   "repo": "https://github.com/autobrr/autobrr",
   "support": "https://github.com/autobrr/autobrr/issues",
@@ -25,5 +25,5 @@
     "media"
   ],
   "min_memory": 0,
-  "min_image_size": 27438304
+  "min_image_size": 28462782
 }

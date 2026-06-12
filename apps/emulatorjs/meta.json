@@ -25,7 +25,7 @@
   "category": "Media",
   "hostname": "",
   "store_app_id": "emulatorjs",
-  "update_at": "2024-09-12",
+  "update_at": "2025-06-09",
   "release_notes": "- Metadata release 1.9.2 adds logos and videos for 3DO, Arcade, MSX, NDS, NGP, PSX, Saturn, and Wonderswan.\n- This entry remains tied to the configured LinuxServer image tag.",
   "website": "https://emulatorjs.org/",
   "repo": "https://github.com/linuxserver/emulatorjs",

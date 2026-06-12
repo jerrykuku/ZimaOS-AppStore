@@ -16,8 +16,8 @@
     "/apps/komga/assets/screenshot-4.webp"
   ],
   "thumbnail": "",
-  "update_at": "2025-11-28",
-  "release_notes": "- 1.23.6 fixes Kobo proxy initialization, double URL encoding, and Content-Type proxying.\n- EPUB cover generation now properly decodes cover href values.\n- Docker builds were adjusted to use the old-releases apt repository.",
+  "update_at": "2026-04-24",
+  "release_notes": "- v1.24.4 fixes API age-restriction serialization, EPUB TOC parsing, Kobo raw-body proxying, KOReader Accept headers, and OPDS2 navigation/auth-logo behavior.\n- Docker base images were updated to Ubuntu 26.04 for amd64 and arm64.\n- The gotson/komga:1.24.4 Docker image tag was published on 2026-04-24.",
   "website": "https://komga.org",
   "repo": "https://github.com/gotson/komga",
   "support": "https://github.com/gotson/komga/issues",
@@ -28,5 +28,5 @@
     "media"
   ],
   "min_memory": 134217728,
-  "min_image_size": 272740669
+  "min_image_size": 256068835
 }

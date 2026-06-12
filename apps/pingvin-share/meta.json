@@ -13,7 +13,7 @@
     "amd64",
     "arm64"
   ],
-  "update_at": "2026-01-05",
+  "update_at": "2025-05-25",
   "release_notes": "- Latest upstream release v1.13.0 adds support for using Redis cache instead of memory cache.\n- The backend can now define the path to the config file.",
   "website": "https://stonith404.github.io/pingvin-share/",
   "repo": "https://github.com/stonith404/pingvin-share",

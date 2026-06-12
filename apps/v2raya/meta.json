@@ -14,8 +14,8 @@
     "/apps/v2raya/assets/screenshot-3.webp"
   ],
   "thumbnail": "",
-  "update_at": "2025-03-27",
-  "release_notes": "- v2.2.6.7 fixes English text in latency test notifications.\n- Core startup timeout handling on old devices was fixed.",
+  "update_at": "2026-01-25",
+  "release_notes": "- v2rayA v2.2.7.5 fixes Trojan gRPC parameter handling.\n- Corrects LRU cache list operations.\n- Adds XHTTP support powered by Xray.",
   "website": "https://v2raya.org/",
   "repo": "https://github.com/v2rayA/v2rayA",
   "support": "https://github.com/v2rayA/v2rayA/issues",
@@ -26,5 +26,5 @@
     "networking"
   ],
   "min_memory": 134217728,
-  "min_image_size": 0
+  "min_image_size": 56593376
 }

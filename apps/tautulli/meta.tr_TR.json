@@ -1,4 +1,4 @@
 {
   "id": "tautulli",
-  "release_notes": "- v2.13.2 geçmiş izleme durumu için quarter-value simgeleri ekler.\n- Günlük eş zamanlı akış grafiği ve meta veri dizini dışa aktarıcı alanı eklendi.\n- Bildirim ve haber bülteni aracısı listeleri artık en son tetiklenen zamanı gösteriyor ve X-Plex-Language, yapılandırmada geçersiz kılınabilir."
+  "release_notes": "- Tautulli 2.17.1 fixes Tautulli Remote App notification sending and folder path browsing errors.\n- Fixes CVE-2026-41065 in newsletter custom template directory handling.\n- Adds Simkl URL notification parameters and AV1 and Opus media flag images."
 }

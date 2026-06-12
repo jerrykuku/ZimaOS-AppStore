@@ -17,7 +17,7 @@
   "tips": {
     "before_install": "Default Account\n\n| Username | Password |\n|----------|----------|\n| `admin`    | Get from log |\n\nPasswords need to be viewed in the log\n\nDefault Accessible Path in qBittorrent\n\n| Name | Value |\n| ---- | ----- |\n| DATA Path | `/DATA` |\n| Downloads Path | `/DATA/Downloads` |\n| Media Path | `/DATA/Media` |\n\nThe paths of other DATA subdirectories in CasaOS are also similar.\nPlease make sure you use the correct path when using qBittorrent.\n"
   },
-  "update_at": "2025-02-18",
+  "update_at": "2025-04-09",
   "release_notes": "- release-5.0.4 fixes removing trackers via WebAPI and torrent content checkbox state handling.\n- Peer-list zero/infinity values are hidden only when that setting is Always.\n- Fixes include stopped torrents in the error tracker filter, WebUI context-menu memory leaks, WebAPI string trimming, Windows Qt style handling, and a macOS memory leak.",
   "website": "https://www.qbittorrent.org",
   "repo": "https://github.com/qbittorrent/qBittorrent",

@@ -1,7 +1,7 @@
 name: node-red
 services:
   node-red:
-    image: nodered/node-red:4.1.2
+    image: nodered/node-red:4.1.10
     deploy:
       resources:
         reservations:
@@ -23,4 +23,4 @@ x-casaos:
   title: Node-RED
   index: /
   port_map: '1880'
-  version: 4.1.2
+  version: 4.1.10

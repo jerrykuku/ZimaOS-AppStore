@@ -1,4 +1,4 @@
 {
   "id": "photoprism",
-  "release_notes": "- PhotoPrism build 250228 は Retina 5K サムネイルサイズと、使いやすさおよびパフォーマンスの改善を追加します。\n- Viewer の更新により先行プリロードが抑えられ、WebDAV アップロード操作は共有が有効な場合に依存するようになり、M4V ファイルは MP4 互換として扱われます。"
+  "release_notes": "- PhotoPrism build 260523 redesigns the Info Sidebar with editable metadata, albums, labels, and face tagging.\n- Modernizes media handling with FFmpeg 8 Vulkan transcoding, native HEIC/AVIF reading, and layered TIFF/PSD support.\n- Adds drag-and-drop uploads, zstd/pre-compressed frontend assets, MCP read-only support, and parameterized search queries."
 }

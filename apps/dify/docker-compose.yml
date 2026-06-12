@@ -17,7 +17,7 @@ services:
     networks:
     - dify
   api:
-    image: langgenius/dify-api:0.12.1
+    image: langgenius/dify-api:0.15.8
     container_name: dify-api
     restart: unless-stopped
     environment:
@@ -70,7 +70,7 @@ services:
     - ssrf_proxy_network
     - dify
   worker:
-    image: langgenius/dify-api:0.12.1
+    image: langgenius/dify-api:0.15.8
     container_name: dify-worker
     restart: unless-stopped
     environment:
@@ -102,7 +102,7 @@ services:
     - ssrf_proxy_network
     - dify
   web:
-    image: langgenius/dify-web:0.12.1
+    image: langgenius/dify-web:0.15.8
     container_name: dify-web
     restart: unless-stopped
     environment:
@@ -173,7 +173,7 @@ services:
     networks:
     - dify
   sandbox:
-    image: langgenius/dify-sandbox:0.2.10
+    image: langgenius/dify-sandbox:0.2.11
     container_name: dify-sandbox
     restart: unless-stopped
     environment:
@@ -208,7 +208,7 @@ services:
     depends_on:
     - config
   nginx:
-    image: nginx@sha256:1df1a963b5b8a3315c81c9d3c6fbd3324479a16c5e266bc6642c080be636145f
+    image: nginx@sha256:608a100c71651bf5b773c89083b4a1ad7ef4b2bd05d7a7e552271e03123692ad
     container_name: dify-nginx
     restart: unless-stopped
     volumes:
@@ -233,4 +233,4 @@ x-casaos:
   title: Dify
   index: /
   port_map: '3701'
-  version: 0.12.1
+  version: 0.15.8

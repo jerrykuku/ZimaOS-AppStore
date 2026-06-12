@@ -1,4 +1,4 @@
 {
   "id": "smokeping",
-  "release_notes": "- 2.8.2 は automated build testing と InfluxDB support を含む rollup release です。\n- probe handling、FPing command-line behavior、SSH handling、zoom mode URLs、cropper relative-time entry、slaves/templates の config reloads、loss colors、graph titles が改善されました。\n- FindBin の復元、欠落していた README の追加、FTPtransfer.pm のスペル修正が含まれます。"
+  "release_notes": "- SmokePing 2.9.0 improves SSH probe configuration, OpenSSH and IPv6 handling, autorefresh controls, responsive images, and literal target search.\n- The release improves InfluxDB compatibility, slave update directory creation, dark template color handling, graph borders, and base page navigation/favicon.\n- Fixes include curl feature checks, SSH plugin compatibility with OpenSSH 9.8, and autorefresh toggling errors."
 }

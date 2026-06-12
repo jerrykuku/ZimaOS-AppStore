@@ -1,4 +1,4 @@
 {
   "id": "mylar3",
-  "release_notes": "- v0.8.3 dodaje selected-issue označavanje, prisilno čekanje za podskupove željenih problema, CRC provjere i CBL reading-list ekran za uvoz.\n- Poboljšano je vrijeme pretraživanja, imenovanje intervala pretraživanja, bilježenje tablice shift-select i GetComics.\n- Popravci pokrivaju out-of-order release-date post-processing, SAB/NZBGET upravljanje preuzimanjem, RSS feed URL konstrukciju i probleme s obavijestima."
+  "release_notes": "- LinuxServer image 0.9.0 updates Mylar3 to the 0.9.0 container build.\n- The image is published for amd64 and arm64 on Docker Hub."
 }

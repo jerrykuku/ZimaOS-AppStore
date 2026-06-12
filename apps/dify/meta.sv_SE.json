@@ -1,4 +1,4 @@
 {
   "id": "dify",
-  "release_notes": "- 0.12.1 fixar anpassad ikonvisning i webbappen och filhantering i Start-formulär.\n- LLM minnesbearbetning, konversationsradering, appskapande och mallimportfel korrigerades.\n- Utgåvan innehåller uppgraderingsvägledning för Docker Compose-distributioner."
+  "release_notes": "- The 0.15.8 Git tag and Docker images were published without a matching GitHub Release object.\n- The API, worker, and web images are updated together to 0.15.8; the sandbox image is aligned to the 0.15.8 compose baseline.\n- Back up Dify data before upgrading and validate the Web UI after the service finishes migrations."
 }

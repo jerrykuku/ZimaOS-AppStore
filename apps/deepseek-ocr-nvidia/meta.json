@@ -16,7 +16,7 @@
   "tips": {
     "before_install": "The first run will download the model (~5-10GB), which may take some time."
   },
-  "update_at": "2026-03-27",
+  "update_at": "2025-12-10",
   "release_notes": "",
   "website": "",
   "repo": "https://github.com/rdumasia303/deepseek_ocr_app",

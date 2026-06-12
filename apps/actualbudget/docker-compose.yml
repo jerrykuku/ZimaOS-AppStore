@@ -1,7 +1,7 @@
 name: actualbudget
 services:
   actualbudget:
-    image: actualbudget/actual-server:25.7.1
+    image: actualbudget/actual-server:26.5.2
     container_name: actualbudget
     deploy:
       resources:
@@ -23,4 +23,4 @@ x-casaos:
   port_map: '15006'
   index: /
   title: Actual Budget
-  version: 25.7.1
+  version: 26.5.2

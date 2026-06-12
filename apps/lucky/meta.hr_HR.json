@@ -1,4 +1,4 @@
 {
   "id": "lucky",
-  "release_notes": "- v2.20.2 dodaje podršku za sinkronizaciju certifikata za Alibaba Cloud ESA i opciju Tencent Cloud koja još nije otvorena.\n- Volcengine sada automatski postavlja minimalni TTL na temelju paketa domene.\n- Dodana je generička podrška za prijavu OIDC third-party, optimizirana je brzina primjene certifikata ACME, a Filebrowser je ažuriran na v2.45.0."
+  "release_notes": "- v2.27.2 refactors and optimizes the file service and WebDav frontend display.\n- CorazaWAF built-in rules were updated to v4.22.0, with rule tips and custom inbound/outbound threshold settings.\n- The gdy666/lucky:2.27.2 Docker image tag was published on 2026-02-02."
 }

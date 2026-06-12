@@ -17,8 +17,8 @@
     "/apps/romm/assets/screenshot-5.webp"
   ],
   "thumbnail": "",
-  "update_at": "2025-07-26",
-  "release_notes": "- 4.0.1 adds a clean resources task and revamps the task system.\n- Last scan selected sources are now stored, and custom YouTube proxy base URLs are supported.\n- Fixes include details-view horizontal scrolling, ROM file path validation, meta-pill filtering, LaunchBox URLs, symlink handling, and SSFR platform IDs.",
+  "update_at": "2026-04-03",
+  "release_notes": "- 4.8.1 makes per-platform homepage stats opt-in so the homepage no longer fetches them by default.\n- Adds outbound HTTP proxy support for backend requests and includes 4.8 hotfixes.\n- Fixes cleanup_missing_roms task status errors, registration invite redirects losing tokens, and related mobile link/BIOS hash issues.",
   "website": "https://romm.app",
   "repo": "https://github.com/rommapp/romm",
   "support": "https://github.com/rommapp/romm/issues",
@@ -29,5 +29,5 @@
     "media"
   ],
   "min_memory": 536870912,
-  "min_image_size": 532656152
+  "min_image_size": 538355361
 }

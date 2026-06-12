@@ -5,7 +5,7 @@ services:
       PGID: $PGID
       PUID: $PUID
       TZ: $TZ
-    image: linuxserver/mylar3:0.8.3
+    image: linuxserver/mylar3:0.9.0
     deploy:
       resources:
         reservations:
@@ -32,4 +32,4 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/mylar3/assets/icon.svg
   title: Mylar3
   port_map: '8090'
-  version: 0.8.3
+  version: 0.9.0

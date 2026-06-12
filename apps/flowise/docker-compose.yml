@@ -1,7 +1,7 @@
 name: flowise
 services:
   flowise:
-    image: flowiseai/flowise:3.0.11
+    image: flowiseai/flowise:3.1.2
     container_name: flowise
     restart: unless-stopped
     deploy:
@@ -29,4 +29,4 @@ x-casaos:
   port_map: '3025'
   scheme: http
   index: /
-  version: 3.0.11
+  version: 3.1.2

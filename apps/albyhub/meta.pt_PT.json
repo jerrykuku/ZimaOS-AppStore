@@ -1,4 +1,4 @@
 {
   "id": "albyhub",
-  "release_notes": "- v1.20.0 adiciona um assistente de ligação para aplicações da loja de aplicações the.\n- As transações do Alby Hub podem agora ser exportadas para CSV a partir da lista de transações principal the e das ligações/subcarteiras individuais.\n- Os canais podem ser adquiridos utilizando o método de pagamento preferido, e foi adicionada uma caixa de diálogo/tecla de atalho de pesquisa para uma navegação rápida."
+  "release_notes": "- v1.22.2 adds a new AI & Agents page, integrated on-chain wallet mode, and custom transaction labels.\n- Redesigns settings pages and improves budget selection when creating app connections.\n- Adds support for connecting Alby Hub to Core Lightning and includes additional fixes."
 }

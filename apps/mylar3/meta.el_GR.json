@@ -1,4 +1,4 @@
 {
   "id": "mylar3",
-  "release_notes": "- Ο v0.8.3 προσθέτει ετικέτες selected-issue, αναγκαστική ουρά για υποσύνολα ζητημάτων Ζητείται, ελέγχους CRC και οθόνη εισαγωγής CBL reading-list.\n- Βελτιώθηκαν ο χρονισμός αναζήτησης, η ονομασία διαστήματος αναζήτησης, ο πίνακας shift-select και η καταγραφή GetComics.\n- Διορθώνει προβλήματα κάλυψης out-of-order release-date post-processing, SAB/NZBGET διαχείρισης λήψεων, RSS τροφοδοσίας URL κατασκευής και ειδοποιήσεων."
+  "release_notes": "- LinuxServer image 0.9.0 updates Mylar3 to the 0.9.0 container build.\n- The image is published for amd64 and arm64 on Docker Hub."
 }

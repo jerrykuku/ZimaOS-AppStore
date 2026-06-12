@@ -7,12 +7,12 @@
   "tagline": "MariaDB Server is one of the most popular database servers in the world. It's made by the original developers of MySQL and guaranteed to stay open source.",
   "developer": "MariaDB Foundation",
   "author": "WisdomSky",
-  "thumbnail": "/apps/mariadb/assets/icon.svg",
+  "thumbnail": "",
   "tips": {
     "before_install": "Default user: `casaos`\nDefault password: `casaos`\nDefault database: `casaos`\n\nDefault root password: `casaos`\n"
   },
   "category": "Developer",
-  "update_at": "2025-08-06",
+  "update_at": "2026-02-24",
   "release_notes": "- The GitHub release points to the matching MariaDB community server release notes.\n- Detailed changes are delegated to the corresponding MariaDB release-notes page.",
   "website": "https://mariadb.org/",
   "repo": "https://github.com/MariaDB/server",

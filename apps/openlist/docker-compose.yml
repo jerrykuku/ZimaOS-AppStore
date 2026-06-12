@@ -1,7 +1,7 @@
 name: openlist
 services:
   openlist:
-    image: openlistteam/openlist:v4.2.1
+    image: openlistteam/openlist:v4.2.2
     container_name: openlist
     deploy:
       resources:
@@ -28,4 +28,4 @@ x-casaos:
   port_map: '5244'
   index: /
   title: OpenList
-  version: 4.2.1
+  version: 4.2.2

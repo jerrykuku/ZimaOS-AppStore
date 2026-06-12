@@ -1,4 +1,4 @@
 {
   "id": "gateway-go",
-  "release_notes": "- v2.0.11 には OpenWrt 関連の変更が含まれます。\n- panic recovery とサービス登録処理が更新されました。\n- README ドキュメントが更新されました。"
+  "release_notes": "- v2.0.12 adds Docker service handling.\n- System status reporting now includes status information.\n- README documentation was refreshed."
 }

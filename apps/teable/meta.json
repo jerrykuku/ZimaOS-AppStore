@@ -14,7 +14,7 @@
     "amd64",
     "arm64"
   ],
-  "update_at": "2026-01-14",
+  "update_at": "2026-05-13",
   "release_notes": "- Latest upstream release release.2026-05-12T16-05-24Z.1665 adds real-time voice input for AI text boxes.\n- Chat now supports reasoning effort, tagged references in the queue, and easier editing of queued messages.\n- Fixes and improvements include AI response regeneration with the selected model/reasoning effort, collaborator notification fixes, Markdown collaborative editing improvements, and AI input stability improvements.",
   "website": "https://teable.ai",
   "repo": "https://github.com/teableio/teable",
@@ -26,5 +26,5 @@
     "productivity"
   ],
   "min_memory": 1073741824,
-  "min_image_size": 0
+  "min_image_size": 797701067
 }

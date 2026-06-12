@@ -17,8 +17,8 @@
   "tips": {
     "before_install": "You need to set the environment variable `SYMFONY__ENV__DOMAIN_NAME` to your domain name or IP address, which can be modified through the Wallabag settings page.\n\n**Default Account**\n\n| Username | Password |\n|----------|----------|\n| `wallabag`    | `wallabag` |\n"
   },
-  "update_at": "2025-06-04",
-  "release_notes": "- 2.6.13 prevents non-validated OTP from being enabled.\n- Pocket and Shaarli imports were backported, and Pocket CSV import support was added.\n- Readability and site-configuration dependencies were updated.",
+  "update_at": "2025-10-07",
+  "release_notes": "- 2.6.14 adds an annotations filter to the entries API endpoint.\n- Fixes include deprecations, the Docker base image, reading-time computation for short entries, storing many URLs through the API, and dependency updates.\n- The wallabag/wallabag:2.6.14 Docker image tag was published on 2025-10-07.",
   "website": "https://wallabag.org",
   "repo": "https://github.com/wallabag/wallabag",
   "support": "https://github.com/wallabag/wallabag/issues",
@@ -29,5 +29,5 @@
     "productivity"
   ],
   "min_memory": 536870912,
-  "min_image_size": 0
+  "min_image_size": 112854284
 }

@@ -17,8 +17,8 @@
   ],
   "developer": "brandawg93",
   "thumbnail": "/apps/peanut/assets/thumbnail.webp",
-  "update_at": "2025-12-05",
-  "release_notes": "- v5.19.1 updates Next.js for a CVE fix.\n- The official changelog points to the full v5.19.0...v5.19.1 comparison.",
+  "update_at": "2026-05-02",
+  "release_notes": "- v6.0.0 enables authentication by default and redirects first boot to setup when no credentials are configured.\n- WEB_USERNAME and WEB_PASSWORD are now bootstrap-only, and credentials persist in /config/auth.yaml.\n- The brandawg93/peanut:6.0.0 Docker image tag was published on 2026-05-02.",
   "website": "",
   "repo": "https://github.com/brandawg93/peanut",
   "support": "https://github.com/brandawg93/PeaNUT/issues",
@@ -29,5 +29,5 @@
     "home"
   ],
   "min_memory": 268435456,
-  "min_image_size": 57058922
+  "min_image_size": 64769748
 }

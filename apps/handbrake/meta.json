@@ -14,8 +14,8 @@
   "category": "Media",
   "hostname": "",
   "store_app_id": "handbrake",
-  "update_at": "2025-10-14",
-  "release_notes": "- v25.10.1 locks video files before checking stability in Automatic Video Converter.\n- Automatic Video Converter cleanup during container shutdown was enhanced.",
+  "update_at": "2026-03-23",
+  "release_notes": "- v26.03.3 updates HandBrake to version 1.11.1.\n- It keeps the jlesage HandBrake container release line current.\n- The jlesage/handbrake:v26.03.3 Docker image tag was published on 2026-03-23.",
   "website": "https://handbrake.fr",
   "repo": "https://github.com/jlesage/docker-handbrake",
   "support": "https://github.com/jlesage/docker-handbrake/issues",
@@ -26,5 +26,5 @@
     "media"
   ],
   "min_memory": 0,
-  "min_image_size": 218437656
+  "min_image_size": 235970547
 }

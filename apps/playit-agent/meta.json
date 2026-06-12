@@ -24,7 +24,7 @@
   "developer": "Patrick Lorio",
   "tagline": "A free reverse proxy for tunneling services (not self-hosted).",
   "store_app_id": "playit-agent",
-  "update_at": "2024-12-18",
+  "update_at": "2024-11-11",
   "release_notes": "",
   "website": "https://playit.gg",
   "repo": "https://github.com/playit-cloud/playit-agent",

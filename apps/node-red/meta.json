@@ -15,10 +15,10 @@
     "/apps/node-red/assets/screenshot-3.webp"
   ],
   "tagline": "Low-code programming for event-driven applications",
-  "thumbnail": "/apps/node-red/assets/thimbnail.webp",
+  "thumbnail": "/apps/node-red/assets/thumbnail.webp",
   "tips": {},
-  "update_at": "2025-12-03",
-  "release_notes": "- 4.1.2 fixes RED.comms.subscribe error callbacks, read-only lock icons, project initialization races, dirty state during redo, and node/port selection behavior.\n- Subflow input labels, selection-to-subflow context menu support, plugin config name handling, README updates, and Express 4.22.1 are included.",
+  "update_at": "2026-05-08",
+  "release_notes": "- Node-RED 4.1.10 is a maintenance release.\n- It fixes module name validation for uninstall and tgz install operations.\n- It also ensures project files stay inside the project root path.",
   "website": "https://nodered.org/",
   "repo": "https://github.com/node-red/node-red",
   "support": "https://discourse.nodered.org",
@@ -29,5 +29,5 @@
     "developer"
   ],
   "min_memory": 67108864,
-  "min_image_size": 197785421
+  "min_image_size": 217641770
 }

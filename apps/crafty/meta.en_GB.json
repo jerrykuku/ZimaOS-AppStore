@@ -1,4 +1,4 @@
 {
   "id": "crafty",
-  "release_notes": "- Crafty 4.4.11 is the configured image release from the upstream GitLab project.\n- No GitHub changelog is available for this app because Crafty publishes releases from GitLab."
+  "release_notes": "- v4.10.4 fixes servers with registered webhooks failing to start.\n- This update follows the Crafty v4.10.4 GitLab release."
 }

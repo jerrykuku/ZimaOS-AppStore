@@ -68,6 +68,10 @@
       "tagline": "Otvoreni kod, lagani, urođeni, podržava (HTTP, BitTorrent, Magnet, itd.) za preuzimanje."
     },
     {
+      "id": "hermes",
+      "tagline": "Samopoboljšavajući AI agent s memorijom, vještinama, porukama i web nadzornom pločom."
+    },
+    {
       "id": "homeassistant",
       "tagline": "Automatizacija doma otvorenog koda koja daje prioritet lokalnoj kontroli i privatnosti."
     },
@@ -96,6 +100,10 @@
     {
       "id": "jellyseerr",
       "tagline": "Jellyseerr je besplatna aplikacija otvorenog koda za upravljanje zahtjevima za vašu medijsku biblioteku."
+    },
+    {
+      "id": "karakeep",
+      "tagline": "Aplikacija za spremanje svega"
     },
     {
       "id": "kavita",

@@ -17,8 +17,8 @@
   "tips": {
     "before_install": "| username | password |\n| -------- | -------- |\n| `casaos` | `casaos` |\n"
   },
-  "update_at": "2023-08-28",
-  "release_notes": "- 4.0.4 is a bugfix-only release for the 4.0.x series.\n- Fixes include torrent metadata sent to peers, filename collision handling, locale-based statistic rounding, tracker announce keys, LPD announce ports, tracker URL editing, and listening-interface announces.\n- Qt, GTK, Web, CLI, and remote clients received UI, display, crash, and command fixes.",
+  "update_at": "2026-02-20",
+  "release_notes": "- 4.1.1 is a bugfix release after the 4.1.0 feature cycle.\n- Fixes more than 20 issues and includes performance improvements.\n- Recommended by upstream for all users on the 4.1.x line.",
   "website": "https://transmissionbt.com/",
   "repo": "https://github.com/transmission/transmission",
   "support": "https://github.com/transmission/transmission/issues",
@@ -29,5 +29,5 @@
     "media"
   ],
   "min_memory": 67108864,
-  "min_image_size": 0
+  "min_image_size": 33712259
 }

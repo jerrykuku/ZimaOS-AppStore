@@ -12,7 +12,7 @@
   ],
   "tagline": "An AI model used to generate images conditioned on text descriptions.",
   "store_app_id": "icewhale-stable-diffusion-webui",
-  "update_at": "2024-03-11",
+  "update_at": "2024-01-11",
   "release_notes": "",
   "website": "",
   "repo": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",

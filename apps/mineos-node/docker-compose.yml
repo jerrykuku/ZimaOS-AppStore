@@ -30,3 +30,4 @@ x-casaos:
   index: /admin/index.html
   scheme: https
   port_map: '8444'
+  version: latest

@@ -1,4 +1,4 @@
 {
   "id": "freshrss",
-  "release_notes": "- 1.27.1 je sigurnosno i bug-fix izdanje za seriju 1.27.x.\n- Čuva kriterije sortiranja/redoslijeda nakon označavanja članaka kao pročitanih i dodaje podršku za provjeru stanja Docker.\n- Sigurnosni popravci uključuju regeneraciju sesije prijave, strože rukovanje jezikom, ograničenja cURL-a i popravke CSRF."
+  "release_notes": "- 1.29.1 is a bug-fix release following FreshRSS 1.29.0.\n- Adds .txt feed URL imports in addition to OPML workflows.\n- Adds a CLI for periodic SQLite export and includes fixes from the 1.29.x cycle."
 }

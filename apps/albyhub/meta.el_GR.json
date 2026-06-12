@@ -1,4 +1,4 @@
 {
   "id": "albyhub",
-  "release_notes": "- Το v1.20.0 προσθέτει έναν οδηγό σύνδεσης για εφαρμογές από το the app store.\n- Οι συναλλαγές Alby Hub μπορούν πλέον να εξαχθούν στο CSV από the κύρια λίστα συναλλαγών και μεμονωμένες συνδέσεις/υποπορτοφόλια.\n- Τα κανάλια μπορούν να αγοραστούν χρησιμοποιώντας την προτιμώμενη μέθοδο πληρωμής και προστέθηκε ένα παράθυρο διαλόγου/πλήκτρο πρόσβασης αναζήτησης για γρήγορη πλοήγηση."
+  "release_notes": "- v1.22.2 adds a new AI & Agents page, integrated on-chain wallet mode, and custom transaction labels.\n- Redesigns settings pages and improves budget selection when creating app connections.\n- Adds support for connecting Alby Hub to Core Lightning and includes additional fixes."
 }

@@ -1,7 +1,7 @@
 name: ollama
 services:
   ollama:
-    image: ollama/ollama:0.9.5
+    image: ollama/ollama:0.24.0
     container_name: ollama
     deploy:
       resources:
@@ -25,4 +25,4 @@ x-casaos:
   port_map: '11434'
   index: /
   title: Ollama
-  version: 0.9.5
+  version: 0.24.0

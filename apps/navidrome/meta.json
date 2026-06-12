@@ -13,8 +13,8 @@
     "/apps/navidrome/assets/screenshot-2.webp"
   ],
   "store_app_id": "navidrome",
-  "update_at": "2025-11-09",
-  "release_notes": "- v0.58.5 focuses on stability improvements and bug fixes.\n- Includes fixes for UI themes, translations, database operations, and scanner behavior.",
+  "update_at": "2026-04-12",
+  "release_notes": "- v0.61.2 fixes transcoding channel clamping and lets WAV files play directly in browsers without unnecessary transcoding.\n- Scanner and artwork fixes include ORIGYEAR support for VorbisComment/MP4, configurable max cover-art upload size, and shared disc-art handling.\n- Plugin and server fixes add file path to TrackInfo, improve ShareURL handling, surface SQLite backup errors, and improve configuration validation.",
   "website": "https://www.navidrome.org",
   "repo": "https://github.com/navidrome/navidrome",
   "support": "https://github.com/navidrome/navidrome/issues",
@@ -25,5 +25,5 @@
     "media"
   ],
   "min_memory": 1073741824,
-  "min_image_size": 98437958
+  "min_image_size": 88759279
 }

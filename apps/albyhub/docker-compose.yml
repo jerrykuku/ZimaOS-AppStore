@@ -10,7 +10,7 @@ services:
       LOG_EVENTS: true
     command: []
     container_name: albyhub
-    image: ghcr.io/getalby/hub:v1.20.0
+    image: ghcr.io/getalby/hub:v1.22.2
     deploy:
       resources:
         reservations:
@@ -33,4 +33,4 @@ x-casaos:
   port_map: '58000'
   scheme: http
   title: Alby Hub ✨
-  version: v1.20.0
+  version: v1.22.2

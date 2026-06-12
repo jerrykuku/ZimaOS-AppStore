@@ -1,7 +1,7 @@
 name: beaverhabittracker
 services:
   beaverhabittracker:
-    image: daya0576/beaverhabits:0.7.3
+    image: daya0576/beaverhabits:0.9.1
     container_name: beaverhabittracker
     deploy:
       resources:
@@ -31,4 +31,4 @@ x-casaos:
   port_map: '15580'
   index: /
   title: BeaverHabitTracker
-  version: 0.7.3
+  version: 0.9.1

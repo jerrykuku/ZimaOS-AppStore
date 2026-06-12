@@ -1,6 +1,6 @@
 {
   "id": "jackett",
-  "tagline": "Jackett fungerar som en proxyserver",
   "description": "Jackett översätter applikationsförfrågningar (Sonarr, Radarr, SickRage, CouchPotato, Mylar3, Lidarr, DuckieTV, qBittorrent, Nefarious, etc.) till specifika HTTP-förfrågningar för spårningssidan, analyserar HTML- eller JSON-svaret och skickar sedan tillbaka resultatet till den begärande mjukvaran. Detta gör det möjligt att hämta senaste uppladdningar (till exempel RSS) och utföra sökningar. Jackett är ett enda repository för skrapnings- och översättningslogiken för indexer - borttagning av belastning från andra appar.",
-  "release_notes": "- v0.24.1841 uppdaterar torrenttip, torrentsome, btstate, ADC, u2p, magnetcat, torrent9 och czteam indexer hantering.\n- Flera spårardomäner och väljare/kategorikonfigurationer uppdaterades.\n- Docker-användare bör uppdatera behållarbilden istället för att köra in-app-uppdateringsprogrammet i en befintlig behållare."
+  "release_notes": "- v0.24.1985 removes obsolete moviesdvdr, demonoid-clone, and divxtotal indexers.\n- Adds f1gp and uztracker categories and bumps torrenttip and torrentsome domains.\n- Improves secretcinema release metadata, myanonamouse download links, and .NET packages.",
+  "tagline": "Jackett fungerar som en proxyserver"
 }

@@ -15,8 +15,8 @@
     "/apps/lyrionmusicserver/assets/screenshot-3.webp"
   ],
   "thumbnail": "",
-  "update_at": "2026-02-19",
-  "release_notes": "- This release was checked from the upstream GitHub tag compare.\n- Advanced Search gained subtitle support, including track subtitle and album/set subtitle distinctions.\n- Updates include individual album rescan mode, additional browse modes with CLI support, radio artwork lookup improvements, WEBP image proxy resizing, CJK search handling, and embedded cuesheet FLAC transcoding.",
+  "update_at": "2026-05-24",
+  "release_notes": "- The lmscommunity/lyrionmusicserver:9.1.1 stable Docker image tag was published on 2026-05-24.\n- This keeps the app on the stable 9.1.x image line and avoids the newer development image tags.\n- The update refreshes the Lyrion Music Server container image while preserving the existing CasaOS app configuration.",
   "website": "https://www.lyrion.org",
   "repo": "https://github.com/lms-community/slimserver",
   "support": "",
@@ -27,5 +27,5 @@
     "media"
   ],
   "min_memory": 268435456,
-  "min_image_size": 79070144
+  "min_image_size": 79059728
 }

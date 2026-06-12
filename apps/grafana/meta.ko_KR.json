@@ -1,4 +1,4 @@
 {
   "id": "grafana",
-  "release_notes": "- v12.1.4는 time intervals를 포함하도록 alerting status unmarshalling을 수정합니다.\n- Enterprise dashboard rollup metrics의 last-period summaries와 total resets가 수정되었습니다.\n- CVE-2025-41115에 대한 Enterprise SCIM security fix가 포함됩니다."
+  "release_notes": "- v13.0.1-security-01 ships Grafana 13.0.1 with security fixes.\n- Security fixes cover CVE-2026-28374, CVE-2026-28376, CVE-2026-28383, CVE-2026-28380, CVE-2026-33376, CVE-2026-28379, CVE-2026-33377, CVE-2026-33378, CVE-2026-33381, and CVE-2026-33380.\n- The grafana/grafana:13.0.1-security-01 Docker image tag was published on 2026-05-12."
 }

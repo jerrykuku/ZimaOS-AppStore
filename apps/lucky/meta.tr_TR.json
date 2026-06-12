@@ -1,4 +1,4 @@
 {
   "id": "lucky",
-  "release_notes": "- v2.20.2, Alibaba Cloud ESA için sertifika senkronizasyon desteği ve henüz açık olmayan bir Tencent Cloud seçeneği ekler.\n- Volcengine artık minimum TTL değerini alan adı paketine göre otomatik olarak ayarlıyor.\n- Genel OIDC third-party oturum açma desteği eklendi, ACME sertifika uygulama hızı optimize edildi ve Dosya Tarayıcı v2.45.0 olarak güncellendi."
+  "release_notes": "- v2.27.2 refactors and optimizes the file service and WebDav frontend display.\n- CorazaWAF built-in rules were updated to v4.22.0, with rule tips and custom inbound/outbound threshold settings.\n- The gdy666/lucky:2.27.2 Docker image tag was published on 2026-02-02."
 }

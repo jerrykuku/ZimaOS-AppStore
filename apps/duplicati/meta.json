@@ -15,7 +15,7 @@
   "tagline": "Store securely encrypted backups in the cloud!",
   "thumbnail": "/apps/duplicati/assets/thumbnail.webp",
   "tips": {},
-  "update_at": "2025-03-06",
+  "update_at": "2025-10-18",
   "release_notes": "- Duplicati 2.1.0 is the configured image line for this CasaOS entry.\n- The upstream 2.1.0.x release notes include critical fixes for failed upload handling, source URL path handling, zip fallback support, and macOS dark/light mode icons.\n- Major changes from older 2.0.8.x builds include .NET 8, Kestrel, mandatory password authentication, and updated database versions.",
   "website": "https://duplicati.com/",
   "repo": "https://github.com/duplicati/duplicati",

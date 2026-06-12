@@ -1,7 +1,7 @@
 name: adminer
 services:
   adminer:
-    image: adminer:5.4.1
+    image: adminer:5.4.2
     deploy:
       resources:
         reservations:
@@ -15,4 +15,4 @@ x-casaos:
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/adminer/assets/icon.svg
   title: Adminer
   port_map: '8080'
-  version: 5.4.1
+  version: 5.4.2

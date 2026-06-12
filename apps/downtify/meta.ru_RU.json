@@ -1,4 +1,4 @@
 {
   "id": "downtify",
-  "release_notes": "- 2.6.0 добавляет возможность сохранять музыку в папки исполнителей.\n- Добавлена ​​настройка для отключения загрузки текстов песен.\n- Исправлена ​​очистка истории загрузок и сохранение настроек."
+  "release_notes": "- v2.7.0 adds configurable parallel downloads.\n- It adds weekly and monthly playlist synchronization intervals.\n- Dependency maintenance updates are included."
 }

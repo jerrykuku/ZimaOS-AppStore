@@ -1,4 +1,4 @@
 {
   "id": "ombi",
-  "release_notes": "- Ombi v4.47.1 はこのイメージで使用されている上流リリースで、GitHub に Linux、macOS、Windows 向け成果物を公開しています。\n- v4.47.1 の GitHub Release 本文は空のため、この正確なタグに対する機能や修正のノートはありません。"
+  "release_notes": "- Ombi 4.53.5 fixes sqlite_sequence reset after cache table deletes.\n- The fix prevents Int32 overflow after cache cleanup.\n- The linuxserver/ombi:4.53.5 Docker image tag was published on 2026-05-16."
 }

@@ -136,6 +136,10 @@
       "tagline": "Frigör dina videor och låt fantasin flöda fritt."
     },
     {
+      "id": "hermes",
+      "tagline": "En självförbättrande AI-agent med minne, färdigheter, meddelanden och en webbpanel."
+    },
+    {
       "id": "homeassistant",
       "tagline": "Hemautomation med öppen källkod som sätter lokal kontroll och integritet först."
     },
@@ -176,6 +180,10 @@
     {
       "id": "jenkins",
       "tagline": "Jenkins server för kontinuerlig integration och leverans."
+    },
+    {
+      "id": "karakeep",
+      "tagline": "Appen för att bokmärka allt"
     },
     {
       "id": "kavita",

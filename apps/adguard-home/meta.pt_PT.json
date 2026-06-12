@@ -1,4 +1,4 @@
 {
   "id": "adguard-home",
-  "release_notes": "- v0.107.61 corrige uma vulnerabilidade de envenenamento da cache.\n- As solicitações simultâneas duplicadas são agora agrupadas numa única solicitação upstream.\n- A nova configuração pendente_requests é ativada por default e é recomendada para clientes não fidedignos."
+  "release_notes": "- v0.107.76 fixes DNS caching when DNSSEC is disabled.\n- YAML duration values now support days with the d unit; downgrades below v0.107.76 should convert those values back to hours."
 }

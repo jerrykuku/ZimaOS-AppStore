@@ -1,7 +1,7 @@
 name: 2fauth
 services:
   2fauth:
-    image: 2fauth/2fauth:5.4.3
+    image: 2fauth/2fauth:6.1.3
     deploy:
       resources:
         reservations:
@@ -16,11 +16,13 @@ services:
     - type: bind
       source: /DATA/AppData/$AppID
       target: /2fauth
+    environment:
+      APP_KEY: SomeRandomStringOf32CharsExactly
+    container_name: 2fauth
 x-casaos:
   main: 2fauth
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/2fauth/assets/icon.svg
+  title: 2FAuth
   index: /
   port_map: '8000'
-  scheme: http
-  title: 2FAuth
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/2fauth/assets/icon.svg
-  version: 5.4.3
+  version: 6.1.3

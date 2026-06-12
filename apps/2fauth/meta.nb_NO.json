@@ -1,4 +1,4 @@
 {
   "id": "2fauth",
-  "release_notes": "- v5.4.3 fikser slettede ikoner som dukker opp igjen etter lagring fra the avansert skjema.\n- Innlasting av påloggingsside, innsending av bunntekstmeny, beskjærte QR-koder, Administrasjonsmodus fryser og manglende no-icon-kontoikoner ble fikset.\n- /up-visningen laster ikke lenger CSS-stiler fra tailwindcss.com."
+  "release_notes": "- v6.1.3 fixes the Try my luck feature being grayed out.\n- It also fixes minor UI glitches."
 }

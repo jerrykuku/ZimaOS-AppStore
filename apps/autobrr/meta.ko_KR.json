@@ -1,4 +1,4 @@
 {
   "id": "autobrr",
-  "release_notes": "- v1.69.0은 구성 가능한 CORS, 닫을 때 HTTP resource 해제, Pending release 필터링, failed-list 새로고침 경고, BJ-Share 지원, DarkPeers Featured Promo 지원을 추가합니다.\n- Indexer 업데이트에는 Aither SASL authentication과 ReelFlix 도메인 변경이 포함됩니다.\n- 누락된 database rows.Close 호출, SQLite에서 PostgreSQL 변환 문제, HHD regex, proxy credential 테스트, Windows exec arg 파싱, web 드롭다운 crash가 수정되었습니다."
+  "release_notes": "- v1.79.0 adds indexer updates including Nexum freeleech support and Ultrabits.\n- Includes notification and action workflow improvements from the upstream changelog.\n- Includes bug fixes and dependency maintenance across the Autobrr release."
 }

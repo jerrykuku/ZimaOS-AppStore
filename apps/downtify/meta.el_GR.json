@@ -1,4 +1,4 @@
 {
   "id": "downtify",
-  "release_notes": "- Το 2.6.0 προσθέτει την επιλογή αποθήκευσης μουσικής σε φακέλους καλλιτεχνών.\n- Προσθέτει μια ρύθμιση για την απενεργοποίηση των λήψεων στίχων.\n- Διορθώνει την εκκαθάριση ιστορικού λήψεων και τη διατήρηση των ρυθμίσεων."
+  "release_notes": "- v2.7.0 adds configurable parallel downloads.\n- It adds weekly and monthly playlist synchronization intervals.\n- Dependency maintenance updates are included."
 }

@@ -1,4 +1,4 @@
 {
   "id": "flaresolverr",
-  "release_notes": "- v3.4.5 setzt die Laufzeit auf Python v3.13 zurück und erhöht FlareSolverr auf 3.4.5.\n- Dockerfile-Großschreibung und Changelog-Erzeugung wurden korrigiert."
+  "release_notes": "- v3.4.6 adds an option to disable image, CSS, and font loading through CDP.\n- The README was updated."
 }

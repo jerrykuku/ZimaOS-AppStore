@@ -14,7 +14,7 @@
   "tagline": "Integration of various PVR applications",
   "thumbnail": "/apps/prowlarr/assets/thumbnail.webp",
   "tips": {},
-  "update_at": "2026-04-04",
+  "update_at": "2026-05-13",
   "release_notes": "- Prowlarr 2.3.5.5327 updates the browserlist database and improves HTTP file mappers.\n- Fixes backup downloads when paths contain trailing slashes and PWA manifest behavior with URL bases.\n- Docker users should update the container image rather than running the in-app updater inside an existing container.",
   "website": "https://prowlarr.com",
   "repo": "https://github.com/Prowlarr/Prowlarr",
@@ -26,5 +26,5 @@
     "media"
   ],
   "min_memory": 67108864,
-  "min_image_size": 79315943
+  "min_image_size": 81985870
 }

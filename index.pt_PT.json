@@ -68,6 +68,10 @@
       "tagline": "Código aberto, leve, nativo, suporta (HTTP, BitTorrent, Magnet, etc.) para descarregamento."
     },
     {
+      "id": "hermes",
+      "tagline": "Um agente de IA autoaperfeiçoável com memória, competências, mensagens e painel web."
+    },
+    {
       "id": "homeassistant",
       "tagline": "Automatização doméstica de código aberto que prioriza o controlo local e a privacidade."
     },
@@ -96,6 +100,10 @@
     {
       "id": "jellyseerr",
       "tagline": "Jellyseerr é uma aplicação de software gratuita e de código aberto para gerir pedidos da sua biblioteca multimédia."
+    },
+    {
+      "id": "karakeep",
+      "tagline": "A aplicação para guardar tudo"
     },
     {
       "id": "kavita",

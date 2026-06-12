@@ -1,6 +1,6 @@
 {
   "id": "crafty",
-  "release_notes": "- Crafty 4.4.11 ist die konfigurierte Image-Version aus dem Upstream-GitLab-Projekt.\n- Für diese App ist kein GitHub-Changelog verfügbar, da Crafty Releases über GitLab veröffentlicht.",
+  "release_notes": "- v4.10.4 fixes servers with registered webhooks failing to start.\n- This update follows the Crafty v4.10.4 GitLab release.",
   "tips": {
     "before_install": "Standardkonto\n| Benutzername | Passwort |\n|----------|----------|\n| `admin`    | `app/config/default-creds.txt` |\n"
   }

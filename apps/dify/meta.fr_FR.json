@@ -1,4 +1,4 @@
 {
   "id": "dify",
-  "release_notes": "- 0.12.1 corrige l'affichage des custom icons dans la webapp et la gestion des fichiers dans Start forms.\n- LLM memory processing, conversation deletion, app creation et les erreurs template import ont ete corriges.\n- Cette version inclut des consignes de mise a niveau pour les deploiements Docker Compose."
+  "release_notes": "- The 0.15.8 Git tag and Docker images were published without a matching GitHub Release object.\n- The API, worker, and web images are updated together to 0.15.8; the sandbox image is aligned to the 0.15.8 compose baseline.\n- Back up Dify data before upgrading and validate the Web UI after the service finishes migrations."
 }

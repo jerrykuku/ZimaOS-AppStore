@@ -1,4 +1,4 @@
 {
   "id": "downtify",
-  "release_notes": "- 2.6.0은 음악을 artist folders에 저장하는 옵션을 추가합니다.\n- lyric downloads를 비활성화하는 설정이 추가되었습니다.\n- download history 지우기와 settings persistence가 수정되었습니다."
+  "release_notes": "- v2.7.0 adds configurable parallel downloads.\n- It adds weekly and monthly playlist synchronization intervals.\n- Dependency maintenance updates are included."
 }

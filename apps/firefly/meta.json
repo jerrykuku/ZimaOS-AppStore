@@ -17,7 +17,7 @@
     "before_install": "Default password for admin background `firefly`, you can modify it in environment variables.",
     "custom": ""
   },
-  "update_at": "2024-06-11",
+  "update_at": "2025-02-21",
   "release_notes": "",
   "website": "https://qq.uusec.com/",
   "repo": "https://github.com/Safe3/firefly",

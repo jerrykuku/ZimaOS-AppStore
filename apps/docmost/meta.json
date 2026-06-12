@@ -21,8 +21,8 @@
     "/apps/docmost/assets/screenshot-10.webp"
   ],
   "thumbnail": "",
-  "update_at": "2025-06-18",
-  "release_notes": "- v0.21.0 adds ZIP imports, Notion imports, Confluence imports for Enterprise Edition, and generic iframe embeds.\n- Read/edit mode preferences, creating pages from @ mentions, table header row/column toggles, and persistent Excalidraw libraries were added.\n- Fixes include Safari editor popup links, shared-page alignment, page title updates, page move/copy space lists, table hover height, and other editor improvements.",
+  "update_at": "2026-05-21",
+  "release_notes": "- v0.90.0 adds page labels, synced blocks, indents, table sorting, backlinks, Azure Storage Blobs support, and accessibility fixes.\n- It includes fixes for editor toolbar preference, page permissions, PDF uploads, macOS Ctrl-K behavior, and table width preservation.\n- Enterprise additions include templates, PDF import, and SCIM provisioning.",
   "website": "https://docmost.com/",
   "repo": "https://github.com/docmost/docmost",
   "support": "https://github.com/docmost/docmost/issues",
@@ -33,5 +33,5 @@
     "productivity"
   ],
   "min_memory": 536870912,
-  "min_image_size": 256189473
+  "min_image_size": 331240764
 }

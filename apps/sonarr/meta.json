@@ -16,7 +16,7 @@
   "tagline": "The PVR for Usenet and BitTorrent users",
   "thumbnail": "/apps/sonarr/assets/thumbnail.webp",
   "tips": {},
-  "update_at": "2026-05-04",
+  "update_at": "2026-05-09",
   "release_notes": "- Sonarr 4.0.17.2967 backports qBittorrent fixes to the v4 release line.\n- The release is based on changes after v4.0.17.2953.",
   "website": "https://sonarr.tv",
   "repo": "https://github.com/Sonarr/Sonarr",
@@ -28,5 +28,5 @@
     "media"
   ],
   "min_memory": 268435456,
-  "min_image_size": 89015582
+  "min_image_size": 89219837
 }

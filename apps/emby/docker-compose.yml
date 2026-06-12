@@ -11,7 +11,7 @@ services:
       PGID: '1000'
       PUID: '1000'
       TZ: $TZ
-    image: linuxserver/emby:4.9.1
+    image: linuxserver/emby:4.9.5
     deploy:
       resources:
         reservations:
@@ -42,4 +42,4 @@ x-casaos:
   title: Emby
   index: /
   port_map: '8096'
-  version: 4.9.1
+  version: 4.9.5

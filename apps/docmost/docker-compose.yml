@@ -1,7 +1,7 @@
 name: docmost
 services:
   docmost:
-    image: docmost/docmost:0.21.0
+    image: docmost/docmost:0.90.0
     container_name: docmost
     deploy:
       resources:
@@ -60,4 +60,4 @@ x-casaos:
   port_map: '3000'
   index: /
   title: Docmost
-  version: 0.21.0
+  version: 0.90.0

@@ -16,17 +16,17 @@
     "/apps/trilium/assets/screenshot-4.webp"
   ],
   "store_app_id": "trilium",
-  "update_at": "",
-  "release_notes": "",
-  "website": "",
-  "repo": "",
-  "support": "",
-  "docs": "",
+  "update_at": "2026-05-13",
+  "release_notes": "- TriliumNext v0.103.0 adds beta spreadsheet notes and expands anchors so they can be linked across notes and inserted with a slash command.\n- Back-end scripting removes deprecated api.axios and deprecates api.cheerio; use the documented alternatives before relying on those APIs.\n- Fixes cover save indicator behavior, table-of-contents refreshes, horizontal scrolling, mobile add-button snapping, note reordering reactions, and board URL quick edits.",
+  "website": "https://triliumnext.github.io/Docs/",
+  "repo": "https://github.com/TriliumNext/Trilium",
+  "support": "https://github.com/TriliumNext/Trilium/issues",
+  "docs": "https://triliumnext.github.io/Docs/",
   "title": "Trilium",
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "categories": [
     "productivity"
   ],
   "min_memory": 268435456,
-  "min_image_size": 0
+  "min_image_size": 137855474
 }

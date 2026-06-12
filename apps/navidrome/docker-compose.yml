@@ -6,7 +6,7 @@ services:
       resources:
         reservations:
           memory: 1024M
-    image: deluan/navidrome:0.58.5
+    image: deluan/navidrome:0.61.2
     restart: unless-stopped
     ports:
     - target: 4533
@@ -34,4 +34,4 @@ x-casaos:
   port_map: '4533'
   scheme: http
   title: Navidrome
-  version: 0.58.5
+  version: 0.61.2

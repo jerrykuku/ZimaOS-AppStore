@@ -1,4 +1,4 @@
 {
   "id": "gitea",
-  "release_notes": "- Το v1.25.0 προσθέτει ροή αρχείου αποθετηρίου, ρυθμιζόμενα ονόματα απομακρυσμένου Git και μηνύματα ηλεκτρονικού ταχυδρομείου επιτυχίας/αποτυχίας ροής εργασιών.\n- OpenID Σύνδεση, τα περιεχόμενα του αποθετηρίου APIs, η υπογραφή δέσμευσης SSH και οι προεπισκοπήσεις 3D/CAD βελτιώθηκαν.\n- Οι ενημερώσεις ασφαλείας περιλαμβάνουν μια αναβάθμιση public-key και όλες τις διορθώσεις ασφαλείας 1.24.x μετά το 1.25.0-rc0."
+  "release_notes": "- v1.26.2 includes security fixes for permissions, artifact signatures, token scope checks, OAuth/PKCE handling, downloads, wiki writes, and LFS token access.\n- It also fixes package permission checks, smart HTTP request scopes, basic auth, maintainer edit permissions, URL sanitization, and attachment Content-Security-Policy.\n- Dependency security updates are included, such as mermaid v11.15.0 and go-git updates."
 }

@@ -15,8 +15,8 @@
   "tagline": "Friendly media request tool, automatically syncs with your media servers!",
   "thumbnail": "/apps/ombi/assets/thumbnail.webp",
   "tips": {},
-  "update_at": "2025-01-05",
-  "release_notes": "- Ombi v4.47.1 is the upstream release used by this image and publishes Linux, macOS, and Windows artifacts on GitHub.\n- The GitHub Release body for v4.47.1 is empty, so no feature or fix notes are available for this exact tag.",
+  "update_at": "2026-04-20",
+  "release_notes": "- Ombi 4.53.5 fixes sqlite_sequence reset after cache table deletes.\n- The fix prevents Int32 overflow after cache cleanup.\n- The linuxserver/ombi:4.53.5 Docker image tag was published on 2026-05-16.",
   "website": "https://ombi.io",
   "repo": "https://github.com/Ombi-app/Ombi",
   "support": "https://github.com/Ombi-app/Ombi/issues",
@@ -27,5 +27,5 @@
     "media"
   ],
   "min_memory": 67108864,
-  "min_image_size": 127142405
+  "min_image_size": 125558503
 }

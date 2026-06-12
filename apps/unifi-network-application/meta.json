@@ -17,7 +17,7 @@
   },
   "thumbnail": "",
   "store_app_id": "unifi-network-application",
-  "update_at": "2024-01-29",
+  "update_at": "2026-05-12",
   "release_notes": "",
   "website": "https://ui.com",
   "repo": "https://github.com/linuxserver/docker-unifi-network-application",
@@ -29,5 +29,5 @@
     "networking"
   ],
   "min_memory": 0,
-  "min_image_size": 281543502
+  "min_image_size": 451437562
 }

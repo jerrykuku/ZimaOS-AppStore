@@ -1,7 +1,7 @@
 name: nextcloud
 services:
   nextcloud:
-    image: nextcloud:32.0
+    image: nextcloud:33.0.3
     deploy:
       resources:
         reservations:
@@ -26,4 +26,4 @@ x-casaos:
   title: Nextcloud
   index: /
   port_map: '10081'
-  version: '32.0'
+  version: 33.0.3

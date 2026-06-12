@@ -1,4 +1,4 @@
 {
   "id": "adguard-home",
-  "release_notes": "- v0.107.61 popravlja ranjivost trovanja predmemorije.\n- Dvostruki istodobni zahtjevi sada su spojeni u jedan uzvodni zahtjev.\n- Novu konfiguraciju pending_requests omogućio je default i preporučuje se nepouzdanim klijentima."
+  "release_notes": "- v0.107.76 fixes DNS caching when DNSSEC is disabled.\n- YAML duration values now support days with the d unit; downgrades below v0.107.76 should convert those values back to hours."
 }

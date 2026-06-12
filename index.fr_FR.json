@@ -136,6 +136,10 @@
       "tagline": "Libérez vos vidéos et créez des possibilités infinies."
     },
     {
+      "id": "hermes",
+      "tagline": "Un agent IA auto-améliorant avec mémoire, compétences, messagerie et tableau de bord web."
+    },
+    {
       "id": "holoplay",
       "tagline": "Une application Web pour écouter les sources audio de Youtube."
     },
@@ -180,6 +184,10 @@
     {
       "id": "jenkins",
       "tagline": "Serveur d'Intégration Continue et de Livraison Jenkins."
+    },
+    {
+      "id": "karakeep",
+      "tagline": "L'application pour tout mettre en favoris"
     },
     {
       "id": "kavita",

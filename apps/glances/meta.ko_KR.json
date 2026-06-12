@@ -1,4 +1,4 @@
 {
   "id": "glances",
-  "release_notes": "- v4.4.1은 v4.4.0부터 v4.4.1까지의 공식 전체 변경 로그를 가리킵니다."
+  "release_notes": "- v4.5.4 fixes temperature thresholds, negative memory values, Docker container counts through Home Assistant, and LXD container filtering.\n- It adds Rockchip MPP monitoring, clamps LXC memory values, and improves single-core Rockchip NPU parsing and device naming.\n- Security fixes cover SSRF in the IP plugin, unauthenticated REST API information disclosure, and Cassandra CQL injection."
 }

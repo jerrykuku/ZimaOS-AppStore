@@ -5,7 +5,7 @@ services:
     environment:
       PUID: '1000'
       PGID: '1000'
-    image: b3log/siyuan:v3.0.1
+    image: b3log/siyuan:v3.6.5
     deploy:
       resources:
         reservations:
@@ -27,4 +27,4 @@ x-casaos:
   title: SiYuan Note
   index: null
   port_map: '6806'
-  version: v3.0.1
+  version: v3.6.5

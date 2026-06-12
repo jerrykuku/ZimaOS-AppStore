@@ -1,4 +1,4 @@
 {
   "id": "crafty",
-  "release_notes": "- Το Crafty 4.4.11 είναι η διαμορφωμένη έκδοση εικόνας από το έργο the upstream GitLab.\n- Δεν υπάρχει αρχείο καταγραφής αλλαγών GitHub για αυτήν την εφαρμογή, επειδή το Crafty δημοσιεύει εκδόσεις από GitLab."
+  "release_notes": "- v4.10.4 fixes servers with registered webhooks failing to start.\n- This update follows the Crafty v4.10.4 GitLab release."
 }

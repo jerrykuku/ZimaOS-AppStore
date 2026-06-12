@@ -1,4 +1,4 @@
 {
   "id": "nextcloud",
-  "release_notes": "- v32.0.0은 해당 Nextcloud server release package를 가리킵니다.\n- 이 앱은 업스트림 GitHub release에서 참조된 Nextcloud 32.0.0 server release를 따릅니다."
+  "release_notes": "- Nextcloud 33.0.3 includes server fixes for external storage options, sharing user ID alignment, OAuth2 throttle metadata, and iCalendar event URI search.\n- The release improves preview regeneration, chunked upload parallel-count handling, drag-and-drop folder uploads, zip downloads, dashboard/settings edge cases, and LDAP configuration flows.\n- The nextcloud:33.0.3 Docker image tag was published on 2026-05-23."
 }

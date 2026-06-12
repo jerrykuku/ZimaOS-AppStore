@@ -1,4 +1,4 @@
 {
   "id": "gitea",
-  "release_notes": "- v1.25.0 はリポジトリアーカイブのストリーミング、設定可能な Git remote 名、workflow 成功/失敗メールを追加します。\n- OpenID Connect、リポジトリ contents API、SSH commit signing、3D/CAD プレビューが改善されました。\n- セキュリティ更新には public-key upgrade と、1.25.0-rc0 以降のすべての 1.24.x セキュリティ修正が含まれます。"
+  "release_notes": "- v1.26.2 includes security fixes for permissions, artifact signatures, token scope checks, OAuth/PKCE handling, downloads, wiki writes, and LFS token access.\n- It also fixes package permission checks, smart HTTP request scopes, basic auth, maintainer edit permissions, URL sanitization, and attachment Content-Security-Policy.\n- Dependency security updates are included, such as mermaid v11.15.0 and go-git updates."
 }

@@ -1,4 +1,4 @@
 {
   "id": "adguard-home",
-  "release_notes": "- Το v0.107.61 διορθώνει μια ευπάθεια δηλητηρίασης κρυφής μνήμης.\n- Διπλότυπα ταυτόχρονα αιτήματα συγχωνεύονται πλέον σε ένα μόνο ανάντη αίτημα.\n- Η νέα διαμόρφωση pending_requests ενεργοποιείται από default και συνιστάται για μη αξιόπιστους πελάτες."
+  "release_notes": "- v0.107.76 fixes DNS caching when DNSSEC is disabled.\n- YAML duration values now support days with the d unit; downgrades below v0.107.76 should convert those values back to hours."
 }

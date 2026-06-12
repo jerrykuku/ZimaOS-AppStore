@@ -19,8 +19,8 @@
   "tips": {
     "before_install": "After opening the web page for the first time, you will see an error popup. Click the `Advanced options` option to successfully enter the Actual Budget web page.\n"
   },
-  "update_at": "2025-07-03",
-  "release_notes": "- This release contains the following improvements:\n- Fix the amount input in the rules and schedules page not allowing decimals\n- Docker tag: v25.7.1\nBugfix:\n- #5270 Fix adding decimals to desktop amount inputs — thanks youngcw",
+  "update_at": "2026-05-08",
+  "release_notes": "- v26.5.2 is functionally identical to v26.5.1 and was published to resolve Windows Store release packaging.\n- It fixes authentication rate limiting, desktop self-signed certificates, and UUID generation in insecure HTTP contexts.",
   "website": "https://actualbudget.org",
   "repo": "https://github.com/actualbudget/actual",
   "support": "https://github.com/actualbudget/actual/issues",
@@ -31,5 +31,5 @@
     "finance"
   ],
   "min_memory": 134217728,
-  "min_image_size": 92733553
+  "min_image_size": 112725841
 }

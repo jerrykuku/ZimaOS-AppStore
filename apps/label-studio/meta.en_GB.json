@@ -1,4 +1,4 @@
 {
   "id": "label-studio",
-  "release_notes": "- 1.9.2 adds a legacy Taxonomy parameter and support for AWS Signature Version 4 query parameters.\n- VERIFY_SSL_CERTS now defaults to true for deployment-wide HTTPS certificate verification.\n- Security fixes address XSS issues and an SSRF DNS rebinding issue."
+  "release_notes": "- v1.23.0 adds Vector and VectorLabels tags for point-based image annotations such as polylines, polygons, and skeletons.\n- Data Manager and template-builder updates add interactive task-source viewing, filter copy/paste, JSON filter copy, row context menus, Ctrl+F search, panel resizing, and shift range selection.\n- The heartexlabs/label-studio:1.23.0 Docker image tag was published on 2026-03-13."
 }

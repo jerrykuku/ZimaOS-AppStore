@@ -1,4 +1,4 @@
 {
   "id": "autobrr",
-  "release_notes": "- v1.69.0 добавляет настраиваемые параметры CORS, выпуск ресурсов HTTP при закрытии, фильтрацию ожидающих выпусков, предупреждения об обновлении failed-list, поддержку BJ-Share и поддержку DarkPeers Featured Promo.\n- Обновления индексатора включают аутентификацию Aither SASL и изменения домена ReelFlix.\n- Исправления включают в себя отсутствующие вызовы базы данных rows.Close, проблемы преобразования SQLite-to-PostgreSQL, регулярное выражение HHD, проверку учетных данных прокси-сервера, синтаксический анализ аргументов exec Windows и сбой раскрывающегося списка веб-страниц."
+  "release_notes": "- v1.79.0 adds indexer updates including Nexum freeleech support and Ultrabits.\n- Includes notification and action workflow improvements from the upstream changelog.\n- Includes bug fixes and dependency maintenance across the Autobrr release."
 }

@@ -14,8 +14,8 @@
     "/apps/obsidian/assets/screenshot-3.webp"
   ],
   "thumbnail": "",
-  "update_at": "2025-04-22",
-  "release_notes": "- v1.8.10 points to the official Obsidian desktop changelog for this release.\n- Linux arm64 builds were re-uploaded with a different Electron version to fix a critical crash.",
+  "update_at": "2026-03-23",
+  "release_notes": "- Obsidian desktop 1.12.7 is the latest upstream release published on 2026-03-23.\n- The linuxserver/obsidian:1.12.7 Docker image tag was published on 2026-05-24.\n- This refreshes the container from the 1.8.x image line to the 1.12.x desktop release line.",
   "website": "https://obsidian.md",
   "repo": "https://github.com/obsidianmd/obsidian-releases",
   "support": "https://help.obsidian.md/Help+and+support",
@@ -26,5 +26,5 @@
     "productivity"
   ],
   "min_memory": 536870912,
-  "min_image_size": 1244303207
+  "min_image_size": 1334973317
 }

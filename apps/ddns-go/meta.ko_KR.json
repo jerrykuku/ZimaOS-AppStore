@@ -1,4 +1,4 @@
 {
   "id": "ddns-go",
-  "release_notes": "- v6.17.0은 ClouDNS 지원을 추가합니다.\n- 콜백 처리가 수정되어 프로토콜 활성화 상태를 따르고 올바른 HTTP 클라이언트를 사용합니다."
+  "release_notes": "- v6.17.1 optimizes the HiPMDnsMgr adapter with English logs and pagination support.\n- Improves the HiDNS DNSMgr provider with a two-stage query strategy for better performance.\n- Updates Go crypto and network dependencies from the upstream release stream."
 }

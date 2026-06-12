@@ -1,4 +1,4 @@
 {
   "id": "mylar3",
-  "release_notes": "- v0.8.3 は selected-issue tagging、Wanted issues のサブセットの強制キュー投入、CRC checks、CBL reading-list import screen を追加します。\n- search timing、search interval naming、table shift-select、GetComics logging が改善されました。\n- out-of-order release-date post-processing、SAB/NZBGET download handling、RSS feed URL construction、notification issues が修正されました。"
+  "release_notes": "- LinuxServer image 0.9.0 updates Mylar3 to the 0.9.0 container build.\n- The image is published for amd64 and arm64 on Docker Hub."
 }

@@ -15,8 +15,8 @@
   "tagline": "Have a Private Social Space Hosted on Your Site",
   "thumbnail": "/apps/vocechat/assets/thumbnail.webp",
   "tips": {},
-  "update_at": "2025-05-28",
-  "release_notes": "- The configured VoceChat image tag is v0.3.33.\n- The Privoce/vocechat-server-rust GitHub repository currently exposes tags only through v0.3.20, so this image tag cannot be mapped to a matching GitHub changelog.",
+  "update_at": "2026-05-17",
+  "release_notes": "- VoceChat image v0.5.17 is available on Docker Hub for amd64.\n- The Privoce/vocechat-server-rust GitHub repository still only exposes tags through v0.3.20, so this update is based on the published Docker image tag.",
   "website": "https://voce.chat",
   "repo": "https://github.com/Privoce/vocechat-server-rust",
   "support": "https://github.com/Privoce/vocechat-server-rust/issues",
@@ -27,5 +27,5 @@
     "social"
   ],
   "min_memory": 67108864,
-  "min_image_size": 0
+  "min_image_size": 25055687
 }

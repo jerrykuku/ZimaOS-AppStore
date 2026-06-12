@@ -11,8 +11,8 @@
     "/apps/glances/assets/screenshot-1.webp"
   ],
   "tagline": "Cross-platform monitoring tool.",
-  "update_at": "2025-11-05",
-  "release_notes": "- v4.4.1 points to the official full changelog from v4.4.0 to v4.4.1.",
+  "update_at": "2026-04-19",
+  "release_notes": "- v4.5.4 fixes temperature thresholds, negative memory values, Docker container counts through Home Assistant, and LXD container filtering.\n- It adds Rockchip MPP monitoring, clamps LXC memory values, and improves single-core Rockchip NPU parsing and device naming.\n- Security fixes cover SSRF in the IP plugin, unauthenticated REST API information disclosure, and Cassandra CQL injection.",
   "website": "https://nicolargo.github.io/glances/",
   "repo": "https://github.com/nicolargo/glances",
   "support": "https://github.com/nicolargo/glances/issues",
@@ -23,5 +23,5 @@
     "productivity"
   ],
   "min_memory": 268435456,
-  "min_image_size": 33819941
+  "min_image_size": 43501264
 }

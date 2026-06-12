@@ -1,4 +1,4 @@
 {
   "id": "netdata",
-  "release_notes": "- v2.8.1 fixes dynamic-configuration vnodes disappearing after agent restart.\n- PSS memory sampling in apps.plugin was disabled by default to reduce CPU overhead.\n- Alert source unit display, Windows datafile sync logging, dbengine-disabled compilation, and Podman container name resolution were improved."
+  "release_notes": "- v2.10.3 fixes an eBPF per-PID shared-memory pool leak that could fill the pool and peg a CPU core.\n- SNMP uptime collection now uses snmpEngineTime first to avoid TimeTicks wraparound, while keeping the existing systemUptime metric name.\n- Dynamic configuration name validation and go.d/powerstore hardware decoding were fixed."
 }

@@ -1,7 +1,7 @@
 name: swingmusic
 services:
   swingmusic:
-    image: ghcr.io/swingmx/swingmusic:v1.4.8
+    image: ghcr.io/swingmx/swingmusic:v2.1.4
     container_name: swingmusic
     volumes:
     - type: bind
@@ -19,4 +19,4 @@ x-casaos:
   title: Swing Music
   index: /
   port_map: '1970'
-  version: v1.4.8
+  version: v2.1.4

@@ -15,7 +15,7 @@
   "tagline": "Calculate all kinds of statistics from your (local) Emby or Jellyfin server",
   "thumbnail": "",
   "tips": {},
-  "update_at": "2023-11-27",
+  "update_at": "2023-10-25",
   "release_notes": "- The configured EmbyStat 0.2.0 image does not map to a non-prerelease GitHub Release entry in mregni/EmbyStat.\n- Keep release notes bound to this image tag until upstream publishes a matching stable changelog.",
   "website": "",
   "repo": "https://github.com/mregni/EmbyStat",

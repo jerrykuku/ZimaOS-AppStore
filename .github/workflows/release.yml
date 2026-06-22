@@ -27,7 +27,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          sudo apt-get update && sudo apt-get install -y librsvg2-bin
+          sudo apt-get update && sudo apt-get install -y librsvg2-bin zip unzip
           pip install pyyaml Pillow
 
       - name: Restore image size cache
@@ -50,6 +50,30 @@ jobs:
             --base-url "${BASE_URL}"
           touch dist/.nojekyll
 
+      - name: Build legacy v1 appstore zip
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/appstore-v1
+          mkdir -p /tmp/appstore-v1/build/sysroot/var/lib/casaos/appstore/default.new
+          cp -rv build/* /tmp/appstore-v1/build/
+          cp -rv Apps /tmp/appstore-v1/build/sysroot/var/lib/casaos/appstore/default.new/
+          cp -v category-list.json /tmp/appstore-v1/build/sysroot/var/lib/casaos/appstore/default.new/
+          cp -v featured-apps.json /tmp/appstore-v1/build/sysroot/var/lib/casaos/appstore/default.new/
+          cp -v recommend-list.json /tmp/appstore-v1/build/sysroot/var/lib/casaos/appstore/default.new/
+          cp -v README.md /tmp/appstore-v1/build/sysroot/var/lib/casaos/appstore/default.new/
+          find /tmp/appstore-v1/build -type f -not \( \
+            -name '*.yaml' -or \
+            -name '*.yml' -or \
+            -name 'category-list.json' -or \
+            -name 'featured-apps.json' -or \
+            -name 'recommend-list.json' -or \
+            -name 'README.md' -or \
+            -name '*.sh' \
+          \) -delete
+          mkdir -p dist/store
+          (cd /tmp/appstore-v1 && zip -r "${GITHUB_WORKSPACE}/dist/store/main.zip" build)
+          unzip -t dist/store/main.zip
+
       - name: Deploy dist to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
@@ -60,3 +84,4 @@ jobs:
       - name: Refresh jsDelivr cache
         run: |
           curl -fsSL "https://purge.jsdelivr.net/gh/${{ github.repository }}@gh-pages/index.json" || true
+          curl -fsSL "https://purge.jsdelivr.net/gh/${{ github.repository }}@gh-pages/store/main.zip" || true

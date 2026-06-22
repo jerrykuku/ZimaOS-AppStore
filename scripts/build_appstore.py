@@ -821,13 +821,18 @@ def load_supported_languages(source):
 
 def optimize_and_convert_image(src_path, dst_path, max_width=MAX_IMAGE_WIDTH, quality=WEBP_QUALITY):
     """Optimize and convert image to WebP format. Returns output filename."""
-    if not PILLOW_AVAILABLE:
-        shutil.copy2(src_path, dst_path)
-        return dst_path.name
-
     src_ext = src_path.suffix.lower()
 
     if src_ext == ".svg":
+        shutil.copy2(src_path, dst_path)
+        return dst_path.name
+
+    # Keep animated GIFs in their original format to avoid losing frames.
+    if src_ext == ".gif":
+        shutil.copy2(src_path, dst_path)
+        return dst_path.name
+
+    if not PILLOW_AVAILABLE:
         shutil.copy2(src_path, dst_path)
         return dst_path.name
 

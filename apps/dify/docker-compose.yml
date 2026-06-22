@@ -208,7 +208,7 @@ services:
     depends_on:
     - config
   nginx:
-    image: nginx@sha256:608a100c71651bf5b773c89083b4a1ad7ef4b2bd05d7a7e552271e03123692ad
+    image: nginx@sha256:42f2d24ae18df9b5251d1cc45548085656d2335e9338fd150a24e415462d151f
     container_name: dify-nginx
     restart: unless-stopped
     volumes:

@@ -77,7 +77,7 @@ x-casaos:
   store_app_id: netdata
   title:
     en_US: Netdata
-  version: "v2.10.3"
+  version: "2.10.3"
   update_at: "2026-04-27"
   release_notes:
     en_US: |-

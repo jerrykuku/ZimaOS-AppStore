@@ -90,6 +90,14 @@ RATE_LIMIT_WARNED_REGISTRIES = set()
 IMAGE_SIZE_CACHE_FILE = None
 NETWORK_RETRY_ATTEMPTS = 4
 NETWORK_RETRYABLE_HTTP_CODES = {408, 425, 429, 500, 502, 503, 504}
+SEMVER_PATTERN = re.compile(
+    r"^(0|[1-9]\d*)\."
+    r"(0|[1-9]\d*)\."
+    r"(0|[1-9]\d*)"
+    r"(?:-((?:0|[1-9]\d*|\d*[A-Za-z-][0-9A-Za-z-]*)"
+    r"(?:\.(?:0|[1-9]\d*|\d*[A-Za-z-][0-9A-Za-z-]*))*))?"
+    r"(?:\+([0-9A-Za-z-]+(?:\.[0-9A-Za-z-]+)*))?$"
+)
 
 
 # ---------------------------------------------------------------------------
@@ -1315,18 +1323,36 @@ def build_meta_i18n_overlay(app_id, meta, locale, title_i18n=None):
     return out
 
 
+def normalize_index_version(app_id, version_value):
+    """Return a semver-compliant version string for index.json, or None."""
+    if version_value is None:
+        return None
+
+    version = str(version_value).strip()
+    if not version:
+        return None
+
+    if SEMVER_PATTERN.fullmatch(version):
+        return version
+
+    print(
+        f"  WARN  App '{app_id}' has non-semver x-casaos.version '{version}'; "
+        "skipping version in index.json"
+    )
+    return None
+
+
 def build_index_entry(app_id, original_xcasaos, locale, assets_path, icon_filename,
                       thumbnail, compose_url, meta_url, content_hash_value, strict=False):
     """Build one index entry for a locale."""
     resolver = resolve_i18n_strict if strict else resolve_i18n
     category = original_xcasaos.get("category", "")
-    return {
+    entry = {
         "id": app_id,
         "title": resolver(original_xcasaos.get("title", ""), locale),
         "tagline": resolver(original_xcasaos.get("tagline", ""), locale),
         "category": category,
         "categories": normalize_categories(category),
-        "version": original_xcasaos.get("version") or "",
         "author": original_xcasaos.get("author", ""),
         "developer": original_xcasaos.get("developer", ""),
         "architectures": original_xcasaos.get("architectures", []),
@@ -1336,6 +1362,11 @@ def build_index_entry(app_id, original_xcasaos, locale, assets_path, icon_filena
         "meta_url": meta_url,
         "content_hash": content_hash_value,
     }
+
+    version = normalize_index_version(app_id, original_xcasaos.get("version"))
+    if version is not None:
+        entry["version"] = version
+    return entry
 
 
 def build_index_i18n_overlay_entry(app_id, original_xcasaos, locale):

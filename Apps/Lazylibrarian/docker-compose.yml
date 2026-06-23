@@ -103,7 +103,7 @@ x-casaos:
   title:
     en_US: Lazylibrarian
   port_map: "5299"
-  version: "version-169e669f"
+  version: "0.0.0-version-169e669f"
   update_at: "2025-12-06"
   release_notes: ""
   website: "https://lazylibrarian.gitlab.io/"

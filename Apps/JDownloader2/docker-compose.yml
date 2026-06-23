@@ -104,7 +104,7 @@ x-casaos:
   store_app_id: jdownloader2
   title:
     en_US: JDownloader2
-  version: "latest"
+  version: "26.3.1"
   update_at: "2026-03-14"
   release_notes: ""
   website: ""

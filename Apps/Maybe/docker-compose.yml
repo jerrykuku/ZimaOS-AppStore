@@ -536,7 +536,7 @@ x-casaos:
     pt_PT: Maybe
     ru_RU: Maybe
     tr_TR: Maybe
-  version: "latest"
+  version: "0.6.0"
   update_at: "2025-07-24"
   release_notes: ""
   website: ""

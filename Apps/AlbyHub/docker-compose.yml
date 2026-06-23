@@ -72,7 +72,7 @@ x-casaos:
   store_app_id: albyhub
   title:
     en_US: Alby Hub ✨
-  version: "v1.22.2"
+  version: "1.22.2"
   update_at: "2026-05-11"
   release_notes:
     en_US: |-

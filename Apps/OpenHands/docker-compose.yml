@@ -414,7 +414,7 @@ x-casaos:
     pt_PT: OpenHands
     ru_RU: OpenHands
     tr_TR: OpenHands
-  version: "0.59"
+  version: "0.59.0"
   update_at: "2025-10-10"
   release_notes:
     en_US: |-

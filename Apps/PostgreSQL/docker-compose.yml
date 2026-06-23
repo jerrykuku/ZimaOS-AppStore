@@ -169,7 +169,7 @@ x-casaos:
   title:
     en_US: PostgreSQL
   category: Developer
-  version: "17.4"
+  version: "17.4.0"
   update_at: "2025-04-29"
   release_notes:
     en_US: |-

@@ -258,7 +258,7 @@ x-casaos:
   scheme: https
   port_map: "8444"
 
-  version: "latest"
+  version: "1.2.2"
   update_at: "2022-04-25"
   release_notes: ""
   website: "https://www.mineos.net/"

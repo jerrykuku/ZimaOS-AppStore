@@ -67,7 +67,7 @@ x-casaos:
   hostname: ""
   index: /
   port_map: ""
-  version: "1"
+  version: "1.0.0"
   update_at: "2026-04-22"
   release_notes: ""
   website: "https://www.twingate.com"

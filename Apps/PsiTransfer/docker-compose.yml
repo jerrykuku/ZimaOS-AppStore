@@ -331,7 +331,7 @@ x-casaos:
   main: psitransfer
   port_map: "13001"
   scheme: http
-  version: "v2.4.1"
+  version: "2.4.1"
   update_at: "2026-02-14"
   release_notes:
     en_US: |-

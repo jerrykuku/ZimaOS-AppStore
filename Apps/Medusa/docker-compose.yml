@@ -51,7 +51,7 @@ x-casaos:
   store_app_id: medusa
   title:
     en_US: Medusa
-  version: "master"
+  version: "1.0.25"
   update_at: "2026-05-17"
   release_notes: ""
   website: ""

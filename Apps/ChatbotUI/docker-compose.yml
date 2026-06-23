@@ -61,7 +61,7 @@ x-casaos:
     en_US: Chatbot UI
   index: /
   port_map: "3080"
-  version: "main"
+  version: "0.0.1"
   update_at: "2024-01-04"
   release_notes: ""
   website: "https://www.chatbotui.com"

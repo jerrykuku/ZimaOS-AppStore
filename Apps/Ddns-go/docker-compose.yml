@@ -56,7 +56,7 @@ x-casaos:
     zh_CN: 简单好用的DDNS
   title:
     en_US: ddns-go
-  version: "v6.17.1"
+  version: "6.17.1"
   update_at: "2026-05-31"
   release_notes:
     en_US: |-

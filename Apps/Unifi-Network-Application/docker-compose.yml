@@ -145,7 +145,7 @@ x-casaos:
   store_app_id: unifi-network-application
   title:
     en_US: Unifi Network Application
-  version: "latest"
+  version: "10.4.57-ls133"
   update_at: "2026-05-12"
   release_notes: ""
   website: "https://ui.com"

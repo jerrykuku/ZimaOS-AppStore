@@ -311,7 +311,7 @@ x-casaos:
     - arm64
   index: /
   scheme: http
-  version: "latest"
+  version: "0.0.1"
   update_at: "2026-05-01"
   release_notes: ""
   website: "https://fossil.kd2.org/opodsync/"

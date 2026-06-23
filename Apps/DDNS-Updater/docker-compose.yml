@@ -68,7 +68,7 @@ x-casaos:
     zh_CN: 简单好用的DDNS
   title:
     en_US: ddns-updater
-  version: "v2.10.0"
+  version: "2.10.0"
   update_at: "2026-05-01"
   release_notes:
     en_US: |-

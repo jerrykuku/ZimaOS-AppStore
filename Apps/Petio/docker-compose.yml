@@ -138,7 +138,7 @@ x-casaos:
     en_US: Petio
   category: Media
   port_map: '7777'
-  version: "sha256:1c5a9276a844f4284601cbe332905864950545ebdeaad74bacb9097ea4f4b333"
+  version: "0.5.5"
   update_at: "2022-01-13"
   release_notes: ""
   website: "https://petio.tv"

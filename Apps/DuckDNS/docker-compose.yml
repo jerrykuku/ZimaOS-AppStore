@@ -72,7 +72,7 @@ x-casaos:
   title:
     en_US: duckdns
   index: /
-  version: "latest"
+  version: "0.0.1"
   update_at: "2026-05-11"
   release_notes: ""
   website: "https://www.duckdns.org"

@@ -397,7 +397,7 @@ x-casaos:
   port_map: "2283"
   scheme: http
   index: /
-  version: "v2.7.2"
+  version: "2.7.2"
   update_at: "2026-04-07"
   release_notes:
     en_US: |-

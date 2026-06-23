@@ -614,7 +614,7 @@ x-casaos:
     - arm64
   index: /
   scheme: http
-  version: "latest"
+  version: "0.0.1"
   update_at: "2026-05-13"
   release_notes:
     en_US: |-

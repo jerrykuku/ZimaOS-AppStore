@@ -386,7 +386,7 @@ x-casaos:
   index: /
   title:
     en_US: RetroArch
-  version: "latest"
+  version: "0.0.1"
   update_at: "2025-11-20"
   release_notes: ""
   website: "https://www.retroarch.com"

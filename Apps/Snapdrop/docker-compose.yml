@@ -65,7 +65,7 @@ x-casaos:
   store_app_id: snapdrop
   title:
     en_US: snapdrop
-  version: "version-eac78009"
+  version: "0.0.0-version-eac78009"
   update_at: "2024-07-18"
   release_notes: ""
   website: "https://snapdrop.net"

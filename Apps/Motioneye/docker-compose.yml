@@ -57,7 +57,7 @@ x-casaos:
     zh_CN: 用于motion的Web前端守护程序。
   title:
     en_US: Motioneye
-  version: "master-amd64"
+  version: "0.44.0"
   update_at: "2020-06-06"
   release_notes: ""
   website: ""

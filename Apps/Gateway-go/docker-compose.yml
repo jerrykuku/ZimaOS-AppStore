@@ -59,7 +59,7 @@ x-casaos:
     zh_CN: 支持内网穿透，作为开源第三方客户端支持客户端远程管理casaOS、zimaOS，远程访问你的所有应用。
   title:
     en_US: gateway-go
-  version: "v2.0.12"
+  version: "2.0.12"
   update_at: "2026-01-11"
   release_notes:
     en_US: |-

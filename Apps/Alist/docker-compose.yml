@@ -173,7 +173,7 @@ x-casaos:
       tr_TR: Kurulumdan sonra, başlangıç şifresini konteyner günlüğünde kontrol edin (Ayarlar - Sağ Üst - Terminal ve Günlükler - Günlükler).
   title:
     en_US: Alist
-  version: "v3.40.0"
+  version: "3.40.0"
   update_at: "2024-11-22"
   release_notes:
     en_US: |-

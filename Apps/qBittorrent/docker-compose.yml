@@ -165,7 +165,7 @@ x-casaos:
     en_US: qBittorrent
   index: /
   port_map: "8181"
-  version: "release-5.0.4"
+  version: "5.0.4"
   update_at: "2025-04-09"
   release_notes:
     en_US: |-

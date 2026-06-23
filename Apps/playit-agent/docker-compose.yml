@@ -48,7 +48,7 @@ x-casaos:
   store_app_id: playit-agent
   title:
     en_US: Playit Agent
-  version: "latest"
+  version: "1.0.10"
   update_at: "2024-11-11"
   release_notes: ""
   website: "https://playit.gg"

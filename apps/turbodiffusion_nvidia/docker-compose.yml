@@ -56,4 +56,4 @@ x-casaos:
   port_map: '27860'
   index: /
   scheme: http
-  version: '20260312'
+  version: 20260312.0.0

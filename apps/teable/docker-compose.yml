@@ -111,4 +111,4 @@ x-casaos:
   port_map: '3200'
   index: /
   scheme: http
-  version: latest
+  version: 0.0.1

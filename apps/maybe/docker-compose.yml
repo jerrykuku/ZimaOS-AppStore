@@ -136,4 +136,4 @@ x-casaos:
     pt_PT: Maybe
     ru_RU: Maybe
     tr_TR: Maybe
-  version: latest
+  version: 0.6.0

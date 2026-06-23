@@ -25,4 +25,4 @@ x-casaos:
   scheme: http
   title:
     en_US: Motioneye
-  version: master-amd64
+  version: 0.44.0

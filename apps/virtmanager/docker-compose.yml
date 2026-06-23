@@ -31,4 +31,4 @@ x-casaos:
   scheme: http
   title:
     en_US: Virtual Machine Manager
-  version: latest
+  version: 0.0.1

@@ -26,4 +26,4 @@ x-casaos:
   title:
     en_US: ChatGPT Next Web
   port_map: '3000'
-  version: v2.16.1
+  version: 2.16.1

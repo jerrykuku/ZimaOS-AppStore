@@ -34,4 +34,4 @@ x-casaos:
   scheme: http
   title:
     en_US: Medusa
-  version: master
+  version: 1.0.25

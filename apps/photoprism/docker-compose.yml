@@ -31,4 +31,4 @@ x-casaos:
     en_US: PhotoPrism
   index: /
   port_map: '2342'
-  version: '260523'
+  version: 260523.0.0

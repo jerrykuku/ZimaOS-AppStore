@@ -43,4 +43,4 @@ x-casaos:
     en_US: FileFlows
   index: /
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/fileflows/assets/icon.svg
-  version: stable
+  version: 0.0.1

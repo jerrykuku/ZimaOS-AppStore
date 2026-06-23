@@ -29,4 +29,4 @@ x-casaos:
     zh_CN: 思源笔记
   index: null
   port_map: '6806'
-  version: v3.6.5
+  version: 3.6.5

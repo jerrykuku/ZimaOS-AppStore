@@ -37,4 +37,4 @@ x-casaos:
     ja_JP: Open WebUI
   index: /
   port_map: '3050'
-  version: ollama
+  version: 0.9.6

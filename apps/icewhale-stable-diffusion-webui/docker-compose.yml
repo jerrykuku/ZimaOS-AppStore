@@ -37,4 +37,4 @@ x-casaos:
     en_US: Stable Diffusion
   index: /
   port_map: '7860'
-  version: latest
+  version: 9.0.0

@@ -35,4 +35,4 @@ x-casaos:
     zh_CN: Stremio
   index: /
   port_map: '8100'
-  version: v1.3.4
+  version: 1.3.4

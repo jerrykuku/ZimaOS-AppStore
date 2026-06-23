@@ -45,4 +45,4 @@ x-casaos:
   scheme: http
   title:
     en_US: ddns-updater
-  version: v2.10.0
+  version: 2.10.0

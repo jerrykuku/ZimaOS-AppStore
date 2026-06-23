@@ -29,4 +29,4 @@ x-casaos:
   port_map: '50121'
   scheme: http
   index: /
-  version: latest
+  version: 0.0.1

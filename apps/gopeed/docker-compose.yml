@@ -31,4 +31,4 @@ x-casaos:
     pt_BR: Gopeed
   index: /
   port_map: '9999'
-  version: v1.9.3
+  version: 1.9.3

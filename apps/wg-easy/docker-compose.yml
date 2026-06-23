@@ -33,4 +33,4 @@ x-casaos:
   title:
     en_US: WireGuard Easy
   port_map: '51821'
-  version: '13'
+  version: 13.0.0

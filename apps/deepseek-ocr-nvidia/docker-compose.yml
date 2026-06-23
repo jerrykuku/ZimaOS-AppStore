@@ -71,4 +71,4 @@ x-casaos:
     sv_SE: DeepSeek OCR(Nvidia GPU)
     tr_TR: DeepSeek OCR(Nvidia GPU)
     zh_CN: DeepSeek OCR(Nvidia GPU)
-  version: v2.2.0
+  version: 2.2.0

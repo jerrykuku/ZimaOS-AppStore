@@ -24,4 +24,4 @@ x-casaos:
   scheme: http
   title:
     en_US: gateway-go
-  version: v2.0.12
+  version: 2.0.12

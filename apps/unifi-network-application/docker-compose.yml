@@ -76,4 +76,4 @@ x-casaos:
   scheme: https
   title:
     en_US: Unifi Network Application
-  version: latest
+  version: 10.4.57-ls133

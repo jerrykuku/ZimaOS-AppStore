@@ -26,4 +26,4 @@ x-casaos:
     en_US: Jenkins CI/CD
   port_map: '8080'
   icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/jenkins/assets/icon.svg
-  version: lts-jdk17
+  version: 2.569.0

@@ -39,4 +39,4 @@ x-casaos:
     en_US: Pi-hole
   index: /admin
   port_map: '8800'
-  version: 2026.05.0
+  version: 2026.5.0

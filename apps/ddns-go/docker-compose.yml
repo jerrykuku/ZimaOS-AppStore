@@ -24,4 +24,4 @@ x-casaos:
   scheme: http
   title:
     en_US: ddns-go
-  version: v6.17.1
+  version: 6.17.1

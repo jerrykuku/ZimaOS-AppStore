@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-06-23T10:19:01Z",
+  "updated_at": "2026-06-24T03:22:10Z",
   "app_count": 166,
   "base_url": "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages",
   "apps": [
@@ -216,7 +216,7 @@
       "thumbnail": "/apps/archivebox/assets/thumbnail.webp",
       "compose_url": "/apps/archivebox/docker-compose.yml",
       "meta_url": "/apps/archivebox/meta.json",
-      "content_hash": "32b1cdc5",
+      "content_hash": "bd8eec20",
       "version": "0.7.4"
     },
     {
@@ -281,7 +281,7 @@
       "thumbnail": "/apps/bazarr/assets/thumbnail.webp",
       "compose_url": "/apps/bazarr/docker-compose.yml",
       "meta_url": "/apps/bazarr/meta.json",
-      "content_hash": "2556003b",
+      "content_hash": "286c975f",
       "version": "1.5.6"
     },
     {
@@ -1568,7 +1568,7 @@
       "thumbnail": "",
       "compose_url": "/apps/librechat/docker-compose.yml",
       "meta_url": "/apps/librechat/meta.json",
-      "content_hash": "9ad44e91",
+      "content_hash": "3da14b27",
       "version": "0.8.7-rc1"
     },
     {
@@ -2341,7 +2341,7 @@
       "thumbnail": "",
       "compose_url": "/apps/opodsync/docker-compose.yml",
       "meta_url": "/apps/opodsync/meta.json",
-      "content_hash": "6322a9fe",
+      "content_hash": "9a0645b5",
       "version": "0.0.1"
     },
     {
@@ -2956,7 +2956,7 @@
       "thumbnail": "/apps/smokeping/assets/thumbnail.webp",
       "compose_url": "/apps/smokeping/docker-compose.yml",
       "meta_url": "/apps/smokeping/meta.json",
-      "content_hash": "8f0f0658",
+      "content_hash": "15877c40",
       "version": "2.9.0"
     },
     {
@@ -3316,7 +3316,7 @@
       "thumbnail": "",
       "compose_url": "/apps/unifi-network-application/docker-compose.yml",
       "meta_url": "/apps/unifi-network-application/meta.json",
-      "content_hash": "543b01c1",
+      "content_hash": "c5be7384",
       "version": "10.4.57-ls133"
     },
     {
@@ -3466,7 +3466,7 @@
       "thumbnail": "",
       "compose_url": "/apps/webdav/docker-compose.yml",
       "meta_url": "/apps/webdav/meta.json",
-      "content_hash": "8b73eb52",
+      "content_hash": "7b716de3",
       "version": "0.0.1"
     },
     {
@@ -3487,7 +3487,7 @@
       "thumbnail": "/apps/weknora/assets/thumbnail.webp",
       "compose_url": "/apps/weknora/docker-compose.yml",
       "meta_url": "/apps/weknora/meta.json",
-      "content_hash": "def6db2f",
+      "content_hash": "db236163",
       "version": "0.2.14"
     },
     {
@@ -3530,7 +3530,7 @@
       "thumbnail": "",
       "compose_url": "/apps/ztnet/docker-compose.yml",
       "meta_url": "/apps/ztnet/meta.json",
-      "content_hash": "936216da",
+      "content_hash": "f0fc0f81",
       "version": "0.7.18"
     }
   ]

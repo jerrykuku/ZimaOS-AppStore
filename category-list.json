@@ -1,90 +1,47 @@
 [
   {
-    "name": {
-      "en_US": "Media",
-      "zh_CN": "媒体"
-    },
+    "name": "Media",
     "font": "play-circle-outline",
-    "description": {
-      "en_US": "Media Apps",
-      "zh_CN": "媒体应用"
-    }
+    "description": "Media Apps"
   },
   {
-    "name": {
-      "en_US": "Productivity",
-      "zh_CN": "效率工具"
-    },
+    "name": "Productivity",
     "font": "toolbox-outline",
-    "description": {
-      "en_US": "Productivity Apps",
-      "zh_CN": "效率工具应用"
-    }
+    "description": "Productivity Apps"
   },
   {
-    "name": {
-      "en_US": "Home",
-      "zh_CN": "智能家居"
-    },
+    "name": "Home",
     "font": "home-automation",
-    "description": {
-      "en_US": "Home Apps",
-      "zh_CN": "智能家居应用"
-    }
+    "description": "Home Apps"
   },
   {
-    "name": {
-      "en_US": "Networking",
-      "zh_CN": "网络"
-    },
+    "name": "Networking",
     "font": "lan",
-    "description": {
-      "en_US": "Networking Apps",
-      "zh_CN": "网络应用"
-    }
+    "description": "Networking Apps"
   },
   {
-    "name": {
-      "en_US": "AI",
-      "zh_CN": "人工智能"
-    },
+    "name": "AI",
     "font": "chat-processing-outline",
-    "description": {
-      "en_US": "AI Apps",
-      "zh_CN": "人工智能应用"
-    }
+    "description": "AI Apps"
   },
   {
-    "name": {
-      "en_US": "Finance",
-      "zh_CN": "金融"
-    },
+    "name": "Finance",
     "font": "currency-usd",
-    "description": {
-      "en_US": "Finance Apps",
-      "zh_CN": "金融应用"
-    }
+    "description": "Finance Apps"
   },
   {
-    "name": {
-      "en_US": "Social",
-      "zh_CN": "社交"
-    },
+    "name": "Social",
     "font": "account-box-outline",
-    "description": {
-      "en_US": "Social Apps",
-      "zh_CN": "社交应用"
-    }
+    "description": "Social Apps"
   },
   {
-    "name": {
-      "en_US": "Developer",
-      "zh_CN": "开发者"
-    },
+    "name": "Developer",
     "font": "code-greater-than-or-equal",
-    "description": {
-      "en_US": "Developer Apps",
-      "zh_CN": "开发者应用"
-    }
+    "description": "Developer Apps"
+  },
+  {
+    "name": "Others",
+    "font": "apps",
+    "description": "Other Apps"
   }
 ]

@@ -29,14 +29,14 @@ jobs:
 
       - name: Upload validation report artifacts
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: validation-report
           path: |
             out/validation-report.json
 
       - name: Restore build caches
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@v5
         with:
           path: |
             .cache/build_appstore/image-size-cache.json
@@ -60,7 +60,7 @@ jobs:
 
       - name: Upload build validation report artifacts
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: build-v2-validation-report
           path: |
@@ -68,7 +68,7 @@ jobs:
 
       - name: Save build caches
         if: always()
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v5
         with:
           path: |
             .cache/build_appstore/image-size-cache.json

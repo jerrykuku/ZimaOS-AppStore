@@ -24,7 +24,7 @@ jobs:
       - uses: actions/checkout@v6
 
       - name: Restore build caches
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@v5
         with:
           path: |
             .cache/build_appstore/image-size-cache.json
@@ -48,7 +48,7 @@ jobs:
 
       - name: Upload build report artifacts
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: build-v2-report
           path: |
@@ -79,7 +79,7 @@ jobs:
 
       - name: Upload v1 build report artifacts
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: build-v1-report
           path: |
@@ -97,7 +97,7 @@ jobs:
 
       - name: Upload store deliverables
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: store-deliverables
           path: |
@@ -107,7 +107,7 @@ jobs:
 
       - name: Save build caches
         if: always()
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v5
         with:
           path: |
             .cache/build_appstore/image-size-cache.json

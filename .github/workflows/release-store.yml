@@ -1,22 +1,28 @@
-name: Build Store Artifacts
+name: Release Store
 
 on:
   push:
-    branches:
-      - main
+    tags:
+      - "v*"
   workflow_dispatch:
     inputs:
+      tag_name:
+        description: "Optional tag name to publish as the release version"
+        required: false
+        default: ""
       base_url:
         description: "Base URL used by the build action"
         required: false
         default: "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
-  build:
+  release:
     runs-on: ubuntu-latest
+    env:
+      RELEASE_TAG: ${{ inputs.tag_name != '' && inputs.tag_name || github.ref_name }}
     steps:
       - uses: actions/checkout@v6
 
@@ -41,7 +47,7 @@ jobs:
           cache-file: .cache/build_appstore/image-size-cache.json
           digest-cache-file: .cache/build_appstore/image-digest-cache.json
           report-json: out/build-v2-report.json
-          report-title: Build V2 Store Report
+          report-title: Release V2 Store Report
 
       - name: Render build HTML report
         if: always()
@@ -49,13 +55,13 @@ jobs:
         with:
           report-json: out/build-v2-report.json
           report-html: out/build-v2-report.html
-          title: Build V2 Store Report
+          title: Release V2 Store Report
 
       - name: Upload build report artifacts
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: build-v2-report
+          name: release-build-v2-report
           path: |
             out/build-v2-report.json
             out/build-v2-report.html
@@ -67,7 +73,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          echo "V2 store build failed. See build-v2-report artifact."
+          echo "V2 store build failed. See release-build-v2-report artifact."
           exit 1
 
       - name: Disable Jekyll
@@ -82,7 +88,7 @@ jobs:
           source: .
           output-zip: dist/store/main.zip
           report-json: out/build-v1-report.json
-          report-title: Build V1 Store Report
+          report-title: Release V1 Store Report
 
       - name: Render v1 build HTML report
         if: always()
@@ -90,13 +96,13 @@ jobs:
         with:
           report-json: out/build-v1-report.json
           report-html: out/build-v1-report.html
-          title: Build V1 Store Report
+          title: Release V1 Store Report
 
       - name: Upload v1 build report artifacts
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: build-v1-report
+          name: release-build-v1-report
           path: |
             out/build-v1-report.json
             out/build-v1-report.html
@@ -108,24 +114,57 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          echo "V1 store build failed. See build-v1-report artifact."
+          echo "V1 store build failed. See release-build-v1-report artifact."
           exit 1
 
-      - name: Upload store deliverables
-        if: always()
+      - name: Create release bundles
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p release-assets
+          (cd dist && zip -r ../release-assets/v2-dist.zip .)
+          cp dist/store/main.zip release-assets/main.zip
+          cp out/build-v2-report.json release-assets/build-v2-report.json
+          cp out/build-v2-report.html release-assets/build-v2-report.html
+          cp out/build-v1-report.json release-assets/build-v1-report.json
+          cp out/build-v1-report.html release-assets/build-v1-report.html
+
+      - name: Upload release bundles artifact
         uses: actions/upload-artifact@v4
         with:
-          name: store-deliverables
-          path: |
-            dist
-            dist/store/main.zip
-          if-no-files-found: warn
+          name: release-bundles
+          path: release-assets
 
-      - name: Write build job summary
+      - name: Write release job summary
         if: always()
         uses: ./actions/write-job-summary
         with:
-          title: Build Summary
+          title: Release Summary
           report-jsons: |
             out/build-v2-report.json
             out/build-v1-report.json
+
+      - name: Deploy dist to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./dist
+
+      - name: Refresh jsDelivr cache
+        run: |
+          curl -fsSL "https://purge.jsdelivr.net/gh/${{ github.repository }}@gh-pages/index.json" || true
+          curl -fsSL "https://purge.jsdelivr.net/gh/${{ github.repository }}@gh-pages/store/main.zip" || true
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ env.RELEASE_TAG }}
+          generate_release_notes: true
+          files: |
+            release-assets/v2-dist.zip
+            release-assets/main.zip
+            release-assets/build-v2-report.json
+            release-assets/build-v2-report.html
+            release-assets/build-v1-report.json
+            release-assets/build-v1-report.html

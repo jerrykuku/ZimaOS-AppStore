@@ -17,18 +17,21 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      BUILD_CACHE_KEY: build-appstore-cache-${{ github.ref_name }}-${{ github.run_id }}
+      BUILD_CACHE_PREFIX: build-appstore-cache-${{ github.ref_name }}-
     steps:
       - uses: actions/checkout@v6
 
       - name: Restore build caches
-        uses: actions/cache@v4
+        uses: actions/cache/restore@v4
         with:
           path: |
             .cache/build_appstore/image-size-cache.json
             .cache/build_appstore/image-digest-cache.json
-          key: build-appstore-image-size-cache-${{ github.ref_name }}
+          key: ${{ env.BUILD_CACHE_KEY }}
           restore-keys: |
-            build-appstore-image-size-cache-
+            ${{ env.BUILD_CACHE_PREFIX }}
 
       - name: Build static appstore dist
         id: build_v2
@@ -101,6 +104,15 @@ jobs:
             dist
             dist/store/main.zip
           if-no-files-found: warn
+
+      - name: Save build caches
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            .cache/build_appstore/image-size-cache.json
+            .cache/build_appstore/image-digest-cache.json
+          key: ${{ env.BUILD_CACHE_KEY }}
 
       - name: Write build job summary
         if: always()

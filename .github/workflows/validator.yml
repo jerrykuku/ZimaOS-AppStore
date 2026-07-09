@@ -13,6 +13,9 @@ on:
 jobs:
   validate:
     runs-on: ubuntu-latest
+    env:
+      BUILD_CACHE_KEY: build-appstore-cache-${{ github.ref_name }}-${{ github.run_id }}
+      BUILD_CACHE_PREFIX: build-appstore-cache-${{ github.ref_name }}-
     steps:
       - uses: actions/checkout@v6
 
@@ -33,14 +36,14 @@ jobs:
             out/validation-report.json
 
       - name: Restore build caches
-        uses: actions/cache@v4
+        uses: actions/cache/restore@v4
         with:
           path: |
             .cache/build_appstore/image-size-cache.json
             .cache/build_appstore/image-digest-cache.json
-          key: build-appstore-image-size-cache-${{ github.ref_name }}
+          key: ${{ env.BUILD_CACHE_KEY }}
           restore-keys: |
-            build-appstore-image-size-cache-
+            ${{ env.BUILD_CACHE_PREFIX }}
 
       - name: Validate appstore build
         id: validate_build
@@ -62,6 +65,15 @@ jobs:
           name: build-v2-validation-report
           path: |
             out/build-v2-validation-report.json
+
+      - name: Save build caches
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            .cache/build_appstore/image-size-cache.json
+            .cache/build_appstore/image-digest-cache.json
+          key: ${{ env.BUILD_CACHE_KEY }}
 
       - name: Write validation job summary
         if: always()

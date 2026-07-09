@@ -290,11 +290,14 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Build dist via official action
-        uses: IceWhaleTech/ZimaOS-AppStore/actions/build-appstore@v1
+        uses: IceWhaleTech/build-appstore-action@v1
         with:
           source: .
           output: dist
-          base_url: ${{ inputs.base_url }}
+          base-url: ${{ inputs.base_url }}
+
+      - name: Disable Jekyll
+        run: touch dist/.nojekyll
 
       - name: Deploy dist to gh-pages
         uses: peaceiris/actions-gh-pages@v4

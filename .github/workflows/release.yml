@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       base_url:
-        description: "Base URL used by build_appstore.py"
+        description: "Base URL used by the build action"
         required: false
         default: "https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages"
 
@@ -20,34 +20,27 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-
-      - name: Install dependencies
-        run: |
-          sudo apt-get update && sudo apt-get install -y librsvg2-bin zip unzip
-          pip install pyyaml Pillow
-
-      - name: Restore image size cache
+      - name: Restore build caches
         uses: actions/cache@v4
         with:
-          path: .cache/build_appstore/image-size-cache.json
+          path: |
+            .cache/build_appstore/image-size-cache.json
+            .cache/build_appstore/image-digest-cache.json
           key: build-appstore-image-size-cache-${{ github.ref_name }}
           restore-keys: |
             build-appstore-image-size-cache-
 
-      - name: Build static appstore dist
-        env:
-          BASE_URL_INPUT: ${{ inputs.base_url }}
+      - name: Build static appstore dist via GitHub Action
+        uses: IceWhaleTech/build-appstore-action@v1
+        with:
+          source: .
+          output: dist
+          base-url: ${{ inputs.base_url }}
+          cache-file: .cache/build_appstore/image-size-cache.json
+          digest-cache-file: .cache/build_appstore/image-digest-cache.json
+
+      - name: Disable Jekyll
         run: |
-          BASE_URL="${BASE_URL_INPUT:-https://cdn.jsdelivr.net/gh/${{ github.repository }}@gh-pages}"
-          python3 scripts/build_appstore.py \
-            --source . \
-            --output dist \
-            --cache-file .cache/build_appstore/image-size-cache.json \
-            --base-url "${BASE_URL}"
           touch dist/.nojekyll
 
       - name: Build legacy v1 appstore zip

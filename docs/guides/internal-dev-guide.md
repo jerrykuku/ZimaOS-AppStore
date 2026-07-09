@@ -982,26 +982,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Build dist via official action
+        uses: IceWhaleTech/build-appstore-action@v1
         with:
-          python-version: "3.11"
+          source: .
+          output: dist
+          base-url: ${{ inputs.base_url }}
 
-      - name: Install dependencies
-        run: |
-          sudo apt-get update && sudo apt-get install -y librsvg2-bin
-          pip install pyyaml Pillow
-
-      - name: Build static appstore dist
-        env:
-          BASE_URL_INPUT: ${{ inputs.base_url }}
-        run: |
-          BASE_URL="${BASE_URL_INPUT:-https://cdn.jsdelivr.net/gh/${{ github.repository }}@gh-pages}"
-          python3 scripts/build_appstore.py \
-            --source . \
-            --output dist \
-            --base-url "${BASE_URL}"
-          touch dist/.nojekyll
+      - name: Disable Jekyll
+        run: touch dist/.nojekyll
 
       - name: Deploy dist to gh-pages
         uses: peaceiris/actions-gh-pages@v4

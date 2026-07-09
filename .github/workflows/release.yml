@@ -36,7 +36,7 @@ jobs:
       - name: Build static appstore dist
         id: build_v2
         continue-on-error: true
-        uses: ./actions/build-store-v2
+        uses: ./.github/actions/build-store-v2
         with:
           source: .
           output: dist
@@ -70,7 +70,7 @@ jobs:
       - name: Build legacy v1 appstore zip
         id: build_v1
         continue-on-error: true
-        uses: ./actions/build-store-v1
+        uses: ./.github/actions/build-store-v1
         with:
           source: .
           output-zip: dist/store/main.zip
@@ -116,7 +116,7 @@ jobs:
 
       - name: Write build job summary
         if: always()
-        uses: ./actions/write-job-summary
+        uses: ./.github/actions/write-job-summary
         with:
           title: Build Summary
           report-jsons: |

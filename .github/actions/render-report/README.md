@@ -57,7 +57,7 @@ The renderer is intentionally tolerant, but works best with a report like:
 
 ```yaml
 - name: Render validation report
-  uses: ./actions/render-report
+  uses: ./.github/actions/render-report
   with:
     report-json: out/validation-report.json
     report-html: out/validation-report.html

@@ -22,7 +22,7 @@ jobs:
       - name: Validate compose metadata
         id: validate_compose
         continue-on-error: true
-        uses: ./actions/validate-compose
+        uses: ./.github/actions/validate-compose
         with:
           app-path: ${{ inputs.app_path }}
           report-json: out/validation-report.json
@@ -48,7 +48,7 @@ jobs:
       - name: Validate appstore build
         id: validate_build
         continue-on-error: true
-        uses: ./actions/build-store-v2
+        uses: ./.github/actions/build-store-v2
         with:
           source: .
           output: /tmp/appstore-dist
@@ -77,7 +77,7 @@ jobs:
 
       - name: Write validation job summary
         if: always()
-        uses: ./actions/write-job-summary
+        uses: ./.github/actions/write-job-summary
         with:
           title: Validation Summary
           report-jsons: |

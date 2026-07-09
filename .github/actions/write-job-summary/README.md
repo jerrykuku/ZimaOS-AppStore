@@ -12,7 +12,7 @@ Writes one or more structured report JSON files into the GitHub Actions job summ
 ```yaml
 - name: Write workflow summary
   if: always()
-  uses: ./actions/write-job-summary
+  uses: ./.github/actions/write-job-summary
   with:
     title: Validation Summary
     report-jsons: |

@@ -31,7 +31,7 @@ be rendered to HTML.
 - name: Build v2 store
   id: build_v2
   continue-on-error: true
-  uses: ./actions/build-store-v2
+  uses: ./.github/actions/build-store-v2
   with:
     output: dist
     report-json: out/build-v2-report.json

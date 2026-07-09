@@ -23,7 +23,7 @@ Validates AppStore `docker-compose.yml` files and writes a structured JSON repor
 
 ```yaml
 - name: Validate app metadata
-  uses: ./actions/validate-compose
+  uses: ./.github/actions/validate-compose
   with:
     report-json: out/validation-report.json
 ```

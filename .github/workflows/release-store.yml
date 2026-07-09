@@ -49,14 +49,6 @@ jobs:
           report-json: out/build-v2-report.json
           report-title: Release V2 Store Report
 
-      - name: Render build HTML report
-        if: always()
-        uses: ./actions/render-report
-        with:
-          report-json: out/build-v2-report.json
-          report-html: out/build-v2-report.html
-          title: Release V2 Store Report
-
       - name: Upload build report artifacts
         if: always()
         uses: actions/upload-artifact@v4
@@ -64,8 +56,6 @@ jobs:
           name: release-build-v2-report
           path: |
             out/build-v2-report.json
-            out/build-v2-report.html
-            dist
           if-no-files-found: warn
 
       - name: Fail workflow if v2 build failed
@@ -90,14 +80,6 @@ jobs:
           report-json: out/build-v1-report.json
           report-title: Release V1 Store Report
 
-      - name: Render v1 build HTML report
-        if: always()
-        uses: ./actions/render-report
-        with:
-          report-json: out/build-v1-report.json
-          report-html: out/build-v1-report.html
-          title: Release V1 Store Report
-
       - name: Upload v1 build report artifacts
         if: always()
         uses: actions/upload-artifact@v4
@@ -105,7 +87,6 @@ jobs:
           name: release-build-v1-report
           path: |
             out/build-v1-report.json
-            out/build-v1-report.html
             dist/store/main.zip
           if-no-files-found: warn
 
@@ -125,9 +106,7 @@ jobs:
           (cd dist && zip -r ../release-assets/v2-dist.zip .)
           cp dist/store/main.zip release-assets/main.zip
           cp out/build-v2-report.json release-assets/build-v2-report.json
-          cp out/build-v2-report.html release-assets/build-v2-report.html
           cp out/build-v1-report.json release-assets/build-v1-report.json
-          cp out/build-v1-report.html release-assets/build-v1-report.html
 
       - name: Upload release bundles artifact
         uses: actions/upload-artifact@v4
@@ -165,6 +144,4 @@ jobs:
             release-assets/v2-dist.zip
             release-assets/main.zip
             release-assets/build-v2-report.json
-            release-assets/build-v2-report.html
             release-assets/build-v1-report.json
-            release-assets/build-v1-report.html

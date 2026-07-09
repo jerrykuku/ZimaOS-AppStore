@@ -24,14 +24,6 @@ jobs:
           app-path: ${{ inputs.app_path }}
           report-json: out/validation-report.json
 
-      - name: Render validation HTML report
-        if: always()
-        uses: ./actions/render-report
-        with:
-          report-json: out/validation-report.json
-          report-html: out/validation-report.html
-          title: Compose Validation Report
-
       - name: Upload validation report artifacts
         if: always()
         uses: actions/upload-artifact@v4
@@ -39,7 +31,6 @@ jobs:
           name: validation-report
           path: |
             out/validation-report.json
-            out/validation-report.html
 
       - name: Restore build caches
         uses: actions/cache@v4
@@ -64,14 +55,6 @@ jobs:
           report-json: out/build-v2-validation-report.json
           report-title: Validation Build Report
 
-      - name: Render build validation HTML report
-        if: always()
-        uses: ./actions/render-report
-        with:
-          report-json: out/build-v2-validation-report.json
-          report-html: out/build-v2-validation-report.html
-          title: Validation Build Report
-
       - name: Upload build validation report artifacts
         if: always()
         uses: actions/upload-artifact@v4
@@ -79,7 +62,6 @@ jobs:
           name: build-v2-validation-report
           path: |
             out/build-v2-validation-report.json
-            out/build-v2-validation-report.html
 
       - name: Write validation job summary
         if: always()

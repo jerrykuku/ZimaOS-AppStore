@@ -43,14 +43,6 @@ jobs:
           report-json: out/build-v2-report.json
           report-title: Build V2 Store Report
 
-      - name: Render build HTML report
-        if: always()
-        uses: ./actions/render-report
-        with:
-          report-json: out/build-v2-report.json
-          report-html: out/build-v2-report.html
-          title: Build V2 Store Report
-
       - name: Upload build report artifacts
         if: always()
         uses: actions/upload-artifact@v4
@@ -58,8 +50,6 @@ jobs:
           name: build-v2-report
           path: |
             out/build-v2-report.json
-            out/build-v2-report.html
-            dist
           if-no-files-found: warn
 
       - name: Fail workflow if v2 build failed
@@ -84,14 +74,6 @@ jobs:
           report-json: out/build-v1-report.json
           report-title: Build V1 Store Report
 
-      - name: Render v1 build HTML report
-        if: always()
-        uses: ./actions/render-report
-        with:
-          report-json: out/build-v1-report.json
-          report-html: out/build-v1-report.html
-          title: Build V1 Store Report
-
       - name: Upload v1 build report artifacts
         if: always()
         uses: actions/upload-artifact@v4
@@ -99,7 +81,6 @@ jobs:
           name: build-v1-report
           path: |
             out/build-v1-report.json
-            out/build-v1-report.html
             dist/store/main.zip
           if-no-files-found: warn
 

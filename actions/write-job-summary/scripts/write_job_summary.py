@@ -22,6 +22,16 @@ def safe_text(value: object) -> str:
     return str(value)
 
 
+def md_escape(value: object) -> str:
+    text = safe_text(value)
+    return text.replace("|", "\\|").replace("\n", "<br>")
+
+
+def format_status(status: object) -> str:
+    value = safe_text(status).upper() or "UNKNOWN"
+    return value
+
+
 def issue_line(issue: dict) -> str:
     severity = safe_text(issue.get("severity", "info")).upper()
     code = safe_text(issue.get("code", "UNKNOWN"))
@@ -39,6 +49,29 @@ def issue_line(issue: dict) -> str:
     return line
 
 
+def format_summary_table(summary: dict) -> list[str]:
+    if not summary:
+        return []
+
+    lines = ["| Metric | Value |", "| --- | --- |"]
+    for key, value in summary.items():
+        lines.append(f"| {md_escape(key.replace('_', ' ').title())} | `{md_escape(value)}` |")
+    return lines
+
+
+def format_artifact_line(artifact: dict) -> str:
+    name = safe_text(artifact.get("name") or artifact.get("path") or "artifact")
+    path = safe_text(artifact.get("path") or "")
+    note = safe_text(artifact.get("note") or "")
+
+    line = f"- `{name}`"
+    if path:
+        line += f" -> `{path}`"
+    if note:
+        line += f" ({note})"
+    return line
+
+
 def summarize_report(report_path: Path) -> str:
     if not report_path.exists():
         return f"## Missing Report\n- `{report_path}` was not found.\n"
@@ -47,29 +80,46 @@ def summarize_report(report_path: Path) -> str:
     title = safe_text(report.get("title") or report.get("kind") or report_path.name)
     status = safe_text(report.get("status") or "unknown").upper()
     summary = report.get("summary") if isinstance(report.get("summary"), dict) else {}
+    context = report.get("context") if isinstance(report.get("context"), dict) else {}
     issues = report.get("issues") if isinstance(report.get("issues"), list) else []
     artifacts = report.get("artifacts") if isinstance(report.get("artifacts"), list) else []
 
-    lines = [f"## {title}", f"- Status: `{status}`"]
+    lines = [f"## {title}", f"- Status: `{format_status(status)}`"]
 
-    for key, value in summary.items():
-        lines.append(f"- {key.replace('_', ' ').title()}: `{value}`")
+    summary_table = format_summary_table(summary)
+    if summary_table:
+        lines.extend(["", *summary_table])
 
     if issues:
-        lines.append("- Top issues:")
+        lines.append("")
+        lines.append("### Top Issues")
         for issue in issues[:5]:
             if isinstance(issue, dict):
                 lines.append(issue_line(issue))
     else:
-        lines.append("- Top issues: none")
+        lines.append("")
+        lines.append("### Top Issues")
+        lines.append("- None")
 
     if artifacts:
-        lines.append("- Artifacts:")
+        lines.append("")
+        lines.append("### Artifacts")
         for artifact in artifacts[:5]:
             if isinstance(artifact, dict):
-                name = safe_text(artifact.get("name") or artifact.get("path") or "artifact")
-                path = safe_text(artifact.get("path") or "")
-                lines.append(f"- `{name}` -> `{path}`" if path else f"- `{name}`")
+                lines.append(format_artifact_line(artifact))
+
+    repo = safe_text(context.get("repo"))
+    ref = safe_text(context.get("ref"))
+    sha = safe_text(context.get("sha"))
+    if repo or ref or sha:
+        lines.append("")
+        lines.append("### Context")
+        if repo:
+            lines.append(f"- Repo: `{repo}`")
+        if ref:
+            lines.append(f"- Ref: `{ref}`")
+        if sha:
+            lines.append(f"- SHA: `{sha}`")
 
     return "\n".join(lines) + "\n"
 

@@ -1,0 +1,30 @@
+name: label-studio
+services:
+  label-studio:
+    environment:
+      PGID: $PGID
+      PUID: $PUID
+      TZ: $TZ
+    image: heartexlabs/label-studio:1.23.0@sha256:20cec817e63144adec9f23d699bf4f33ce4249a56eb183ae4853d20fbd10fd93
+    deploy:
+      resources:
+        reservations:
+          memory: 256M
+    network_mode: bridge
+    ports:
+    - target: 8080
+      published: '3080'
+      protocol: tcp
+    restart: unless-stopped
+    volumes:
+    - type: bind
+      source: /DATA/AppData/$AppID/data
+      target: /label-studio/data
+x-casaos:
+  id: org.icewhale.labelstudio
+  main: label-studio
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/org.icewhale.labelstudio/assets/icon.svg
+  title:
+    en_US: Label Studio
+  port_map: '3080'
+  version: 1.23.0

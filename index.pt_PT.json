@@ -1,300 +1,300 @@
 {
   "apps": [
     {
-      "id": "actualbudget",
+      "id": "org.icewhale.actualbudget",
       "tagline": "Aplicação financeira que prioriza privacidade com orçamentação por envelopes e sincronização multi-dispositivos."
     },
     {
-      "id": "alist",
+      "id": "org.icewhale.alist",
       "tagline": "Monte o seu disco na nuvem no seu NAS doméstico"
     },
     {
-      "id": "archivebox",
-      "tagline": "Solução de Arquivamento de Internet Auto-hospedada",
-      "title": "ArchiveBox"
+      "id": "org.icewhale.archivebox",
+      "title": "ArchiveBox",
+      "tagline": "Solução de Arquivamento de Internet Auto-hospedada"
     },
     {
-      "id": "audiobookshelf",
+      "id": "org.icewhale.audiobookshelf",
       "tagline": "O Audiobookshelf é um servidor auto-hospedado de audiolivros e podcasts."
     },
     {
-      "id": "beaverhabittracker",
+      "id": "org.icewhale.beaverhabittracker",
       "tagline": "Uma ferramenta de rastreamento de hábitos auto-hospedada e sem objetivos."
     },
     {
-      "id": "blinko",
+      "id": "org.icewhale.blinko",
       "tagline": "O Blinko é um projeto de notas em cartões alimentado por IA. Foi concebido para indivíduos que desejam capturar e organizar rapidamente os seus pensamentos fugazes. O Blinko permite aos utilizadores anotar ideias sem esforço no momento em que surgem, garantindo que nenhuma centelha de criatividade se perde."
     },
     {
-      "id": "cloudflared",
+      "id": "org.icewhale.cloudflared",
       "tagline": "Um daemon de tunneling da Cloudflare que expõe com segurança os seus servidores web à internet."
     },
     {
-      "id": "convertx",
+      "id": "org.icewhale.convertx",
       "tagline": "Uma ferramenta de conversão de arquivos versátil que suporta múltiplos formatos."
     },
     {
-      "id": "copyparty",
-      "tagline": "Um servidor de ficheiros simples e privado.",
-      "title": "CopyParty"
+      "id": "org.icewhale.copyparty",
+      "title": "CopyParty",
+      "tagline": "Um servidor de ficheiros simples e privado."
     },
     {
-      "id": "deepseek-ocr-nvidia",
-      "tagline": "OCR poderoso alimentado por DeepSeek AI",
-      "title": "DeepSeek OCR(Nvidia GPU)"
+      "id": "org.icewhale.deepseekocrnvidia",
+      "title": "DeepSeek OCR(Nvidia GPU)",
+      "tagline": "OCR poderoso alimentado por DeepSeek AI"
     },
     {
-      "id": "docmost",
+      "id": "org.icewhale.docmost",
       "tagline": "Um wiki moderno e base de conhecimento para equipas"
     },
     {
-      "id": "emby",
+      "id": "org.icewhale.emby",
       "tagline": "O Emby reúne os seus vídeos pessoais, música, fotografias e televisão ao vivo."
     },
     {
-      "id": "etherpad",
+      "id": "org.icewhale.etherpad",
       "tagline": "Editor colaborativo de documentos em tempo real"
     },
     {
-      "id": "excalidraw",
+      "id": "org.icewhale.excalidraw",
       "tagline": "Quadro branco virtual para esboçar diagramas estilo desenho à mão"
     },
     {
-      "id": "flowise",
+      "id": "org.icewhale.flowise",
       "tagline": "Plataforma de desenvolvimento de IA generativa de código aberto para construir Agentes de IA e fluxos de trabalho LLM"
     },
     {
-      "id": "gopeed",
+      "id": "org.icewhale.gopeed",
       "tagline": "Código aberto, leve, nativo, suporta (HTTP, BitTorrent, Magnet, etc.) para descarregamento."
     },
     {
-      "id": "hermes",
+      "id": "org.icewhale.hermes",
       "tagline": "Um agente de IA autoaperfeiçoável com memória, competências, mensagens e painel web."
     },
     {
-      "id": "homeassistant",
+      "id": "org.icewhale.homeassistant",
       "tagline": "Automatização doméstica de código aberto que prioriza o controlo local e a privacidade."
     },
     {
-      "id": "hugo",
+      "id": "org.icewhale.hugo",
       "tagline": "O framework mais rápido do mundo para construir websites"
     },
     {
-      "id": "immich",
+      "id": "org.icewhale.immich",
       "tagline": "Solução de gestão de multimédia auto-hospedada"
     },
     {
-      "id": "index-tts",
-      "tagline": "Um sistema de texto para fala zero-shot controlável e eficiente de nível industrial",
-      "title": "Index-TTS"
+      "id": "org.icewhale.indextts",
+      "title": "Index-TTS",
+      "tagline": "Um sistema de texto para fala zero-shot controlável e eficiente de nível industrial"
     },
     {
-      "id": "index-tts-nvidia",
-      "tagline": "Um sistema de texto para fala zero-shot controlável e eficiente de nível industrial",
-      "title": "Index-TTS(Nvidia GPU)"
+      "id": "org.icewhale.indexttsnvidia",
+      "title": "Index-TTS(Nvidia GPU)",
+      "tagline": "Um sistema de texto para fala zero-shot controlável e eficiente de nível industrial"
     },
     {
-      "id": "jellyfin",
+      "id": "org.icewhale.jellyfin",
       "tagline": "O sistema de media pessoal"
     },
     {
-      "id": "jellyseerr",
+      "id": "org.icewhale.jellyseerr",
       "tagline": "Jellyseerr é uma aplicação de software gratuita e de código aberto para gerir pedidos da sua biblioteca multimédia."
     },
     {
-      "id": "karakeep",
+      "id": "org.icewhale.karakeep",
       "tagline": "A aplicação para guardar tudo"
     },
     {
-      "id": "kavita",
+      "id": "org.icewhale.kavita",
       "tagline": "O Kavita é um servidor de banda desenhada e livros baseado na Web, gratuito e de código aberto."
     },
     {
-      "id": "komga",
+      "id": "org.icewhale.komga",
       "tagline": "O Komga é um servidor multimédia para as suas bandas desenhadas, mangas, revistas e eBooks."
     },
     {
-      "id": "langflow",
-      "tagline": "Interface de código aberto para criar e depurar aplicações multi-agente e RAG",
-      "title": "Langflow"
+      "id": "org.icewhale.langflow",
+      "title": "Langflow",
+      "tagline": "Interface de código aberto para criar e depurar aplicações multi-agente e RAG"
     },
     {
-      "id": "librechat",
-      "tagline": "Uma interface de chat AI completa e open-source",
-      "title": "LibreChat"
+      "id": "org.icewhale.librechat",
+      "title": "LibreChat",
+      "tagline": "Uma interface de chat AI completa e open-source"
     },
     {
-      "id": "linkwarden",
-      "tagline": "Gestor colaborativo de marcadores autoalojado para recolher, ler, anotar e preservar totalmente o que importa, tudo num só lugar.",
-      "title": "Linkwarden"
+      "id": "org.icewhale.linkwarden",
+      "title": "Linkwarden",
+      "tagline": "Gestor colaborativo de marcadores autoalojado para recolher, ler, anotar e preservar totalmente o que importa, tudo num só lugar."
     },
     {
-      "id": "llama-factory-nvidia",
-      "tagline": "Ajuste fino unificado de LLM com 100+ modelos",
-      "title": "LLaMA Factory(Nvidia GPU)"
+      "id": "org.icewhale.llamafactorynvidia",
+      "title": "LLaMA Factory(Nvidia GPU)",
+      "tagline": "Ajuste fino unificado de LLM com 100+ modelos"
     },
     {
-      "id": "lyrionmusicserver",
+      "id": "org.icewhale.lyrionmusicserver",
       "tagline": "O Lyrion Music Server é um servidor de áudio streaming para reprodutores de áudio Squeezebox."
     },
     {
-      "id": "maybe",
-      "tagline": "Aplicação de gestão financeira pessoal",
-      "title": "Maybe"
+      "id": "org.icewhale.maybe",
+      "title": "Maybe",
+      "tagline": "Aplicação de gestão financeira pessoal"
     },
     {
-      "id": "memos",
+      "id": "org.icewhale.memos",
       "tagline": "Memos é um hub de memos leve e auto-hospedado. Código aberto e grátis para sempre。"
     },
     {
-      "id": "monica",
+      "id": "org.icewhale.monica",
       "tagline": "Uma ferramenta de gestão de relacionamentos pessoais para ajudá-lo a documentar a sua vida social."
     },
     {
-      "id": "n8n",
+      "id": "org.icewhale.n8n",
       "tagline": "Ferramenta de automação de fluxos de trabalho"
     },
     {
-      "id": "node-red",
+      "id": "org.icewhale.nodered",
       "tagline": "Programação de baixo código para aplicações baseadas em eventos"
     },
     {
-      "id": "obsidian",
+      "id": "org.icewhale.obsidian",
       "tagline": "Obsidian é uma aplicação de gestão de conhecimento para criar, ligar e organizar visualmente notas Markdown."
     },
     {
-      "id": "ollama",
+      "id": "org.icewhale.ollama",
       "tagline": "Execute grandes modelos de linguagem localmente"
     },
     {
-      "id": "ollama-nvidia",
+      "id": "org.icewhale.ollamanvidia",
       "tagline": "Execute grandes modelos de linguagem localmente"
     },
     {
-      "id": "open-webui-ollama",
-      "tagline": "WebUI amigável para LLMs (anteriormente Ollama WebUI)"
+      "id": "org.icewhale.openclaw",
+      "title": "OpenClaw",
+      "tagline": "OpenClaw é um assistente de IA pessoal que executa nos seus próprios dispositivos."
     },
     {
-      "id": "openclaw",
-      "tagline": "OpenClaw é um assistente de IA pessoal que executa nos seus próprios dispositivos.",
-      "title": "OpenClaw"
+      "id": "org.icewhale.openhands",
+      "title": "OpenHands",
+      "tagline": "Assistente de Codificação de Código Aberto Alimentado por IA"
     },
     {
-      "id": "openhands",
-      "tagline": "Assistente de Codificação de Código Aberto Alimentado por IA",
-      "title": "OpenHands"
-    },
-    {
-      "id": "openlist",
+      "id": "org.icewhale.openlist",
       "tagline": "Monte o seu disco na nuvem no seu NAS doméstico"
     },
     {
-      "id": "opodsync",
-      "tagline": "Serviço de sincronização de podcasts",
-      "title": "oPodSync"
+      "id": "org.icewhale.openwebuiollama",
+      "tagline": "WebUI amigável para LLMs (anteriormente Ollama WebUI)"
     },
     {
-      "id": "pdfding",
+      "id": "org.icewhale.opodsync",
+      "title": "oPodSync",
+      "tagline": "Serviço de sincronização de podcasts"
+    },
+    {
+      "id": "org.icewhale.pdfding",
       "tagline": "Gestor, visualizador e editor PDF auto-hospedado"
     },
     {
-      "id": "peanut",
-      "tagline": "Sistema de monitorização UPS e notificação de interrupção de energia",
-      "title": "PeaNUT"
+      "id": "org.icewhale.peanut",
+      "title": "PeaNUT",
+      "tagline": "Sistema de monitorização UPS e notificação de interrupção de energia"
     },
     {
-      "id": "pihole",
+      "id": "org.icewhale.pihole",
       "tagline": "Bloqueio de Anúncios ao Nível da Rede"
     },
     {
-      "id": "pinchflat",
+      "id": "org.icewhale.pinchflat",
       "tagline": "O seu próximo gestor multimédia YouTube"
     },
     {
-      "id": "pingvin-share",
-      "tagline": "Partilha de ficheiros auto-hospedada com uma interface web moderna",
-      "title": "Pingvin-Share"
+      "id": "org.icewhale.pingvinshare",
+      "title": "Pingvin-Share",
+      "tagline": "Partilha de ficheiros auto-hospedada com uma interface web moderna"
     },
     {
-      "id": "portainer",
+      "id": "org.icewhale.portainer",
       "tagline": "Interface leve de gestão Docker"
     },
     {
-      "id": "psitransfer",
-      "tagline": "Um host de partilha de ficheiros simples e de código aberto.",
-      "title": "PsiTransfer"
+      "id": "org.icewhale.psitransfer",
+      "title": "PsiTransfer",
+      "tagline": "Um host de partilha de ficheiros simples e de código aberto."
     },
     {
-      "id": "ragflow",
-      "tagline": "RagFlow é um motor RAG de código aberto baseado na compreensão profunda de documentos.",
-      "title": "RagFlow"
+      "id": "org.icewhale.ragflow",
+      "title": "RagFlow",
+      "tagline": "RagFlow é um motor RAG de código aberto baseado na compreensão profunda de documentos."
     },
     {
-      "id": "retroarch",
+      "id": "org.icewhale.retroarch",
       "tagline": "Emulador de jogos retro online"
     },
     {
-      "id": "romm",
+      "id": "org.icewhale.romm",
       "tagline": "O RomM é um gestor de ROM auto-hospedado para gerir e jogar coleções de jogos."
     },
     {
-      "id": "sure",
-      "tagline": "Aplicação de gestão financeira pessoal",
-      "title": "Sure"
+      "id": "org.icewhale.sure",
+      "title": "Sure",
+      "tagline": "Aplicação de gestão financeira pessoal"
     },
     {
-      "id": "swingmusic",
+      "id": "org.icewhale.swingmusic",
       "tagline": "O Swing Music é um servidor de streaming de música lindamente projetado e auto-hospedado. Como um Spotify mais cool... mas traga a sua própria música."
     },
     {
-      "id": "syncthing",
+      "id": "org.icewhale.syncthing",
       "tagline": "Sincronização de ficheiros aberta e descentralizada"
     },
     {
-      "id": "tailscale",
+      "id": "org.icewhale.tailscale",
       "tagline": "Conecte os seus dispositivos e utilizadores numa rede privada virtual segura."
     },
     {
-      "id": "teable",
-      "tagline": "O Teable adota uma interface de planilha concisa, mas cria aplicativos de banco de dados poderosos",
-      "title": "Teable"
+      "id": "org.icewhale.teable",
+      "title": "Teable",
+      "tagline": "O Teable adota uma interface de planilha concisa, mas cria aplicativos de banco de dados poderosos"
     },
     {
-      "id": "transmission",
+      "id": "org.icewhale.transmission",
       "tagline": "Transmission é um cliente BitTorrent multiplataforma"
     },
     {
-      "id": "trilium",
+      "id": "org.icewhale.trilium",
       "tagline": "Construa a sua base de conhecimento pessoal com TriliumNext Notes"
     },
     {
-      "id": "turbodiffusion_nvidia",
-      "tagline": "Um framework de aceleração para geração por difusão de ponta a ponta mantendo a qualidade de vídeo",
-      "title": "TurboDiffusion(Nvidia GPU)"
+      "id": "org.icewhale.turbodiffusionnvidia",
+      "title": "TurboDiffusion(Nvidia GPU)",
+      "tagline": "Um framework de aceleração para geração por difusão de ponta a ponta mantendo a qualidade de vídeo"
     },
     {
-      "id": "uptimekuma",
+      "id": "org.icewhale.uptimekuma",
       "tagline": "Uma ferramenta de monitorização elegante"
     },
     {
-      "id": "v2raya",
+      "id": "org.icewhale.v2raya",
       "tagline": "Um cliente GUI web do Project V que suporta protocolos VMess, VLESS, SS, SSR, Trojan, Tuic e Juicity"
     },
     {
-      "id": "vocechat",
+      "id": "org.icewhale.vocechat",
       "tagline": "Tenha um Espaço Social Privado Hospedado no Seu Site"
     },
     {
-      "id": "wallabag",
+      "id": "org.icewhale.wallabag",
       "tagline": "Guarde e classifique artigos. Leia-os mais tarde. Livremente."
     },
     {
-      "id": "weknora",
-      "tagline": "O WeKnora é uma framework baseada em LLM projetado para compreensão profunda de documentos e recuperação semântica, especialmente para lidar com documentos complexos e heterogéneos.",
-      "title": "WeKnora"
+      "id": "org.icewhale.weknora",
+      "title": "WeKnora",
+      "tagline": "O WeKnora é uma framework baseada em LLM projetado para compreensão profunda de documentos e recuperação semântica, especialmente para lidar com documentos complexos e heterogéneos."
     },
     {
-      "id": "ztnet",
+      "id": "org.icewhale.ztnet",
       "tagline": "Controlador de rede ZeroTier auto-hospedado com interface web para gestão centralizada."
     }
   ]

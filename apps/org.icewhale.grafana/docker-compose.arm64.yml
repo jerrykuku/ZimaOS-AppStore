@@ -1,0 +1,28 @@
+name: grafana
+services:
+  grafana:
+    image: grafana/grafana:13.0.1-security-01@sha256:081a24a2bdc9f86588205525e6a341eb2231af63665b1ba55264a38da010163b
+    deploy:
+      resources:
+        reservations:
+          memory: 64M
+    network_mode: bridge
+    ports:
+    - target: 3000
+      published: '3003'
+      protocol: tcp
+    restart: always
+    volumes:
+    - type: bind
+      source: /DATA/AppData/$AppID/data
+      target: /var/lib/grafana
+    container_name: grafana
+x-casaos:
+  id: org.icewhale.grafana
+  main: grafana
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/org.icewhale.grafana/assets/icon.svg
+  title:
+    en_US: Grafana
+  index: /
+  port_map: '3003'
+  version: 13.0.1-security-01

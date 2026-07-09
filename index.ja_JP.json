@@ -1,310 +1,310 @@
 {
   "apps": [
     {
-      "id": "actualbudget",
+      "id": "org.icewhale.actualbudget",
       "tagline": "プライバシー重視の家計管理アプリ、封筒予算と複数デバイス同期対応。"
     },
     {
-      "id": "alist",
+      "id": "org.icewhale.alist",
       "tagline": "クラウドドライブをホームNASにマウント"
     },
     {
-      "id": "anythingllm",
-      "tagline": "オールインワン AI アプリケーション。",
-      "title": "AnythingLLM"
+      "id": "org.icewhale.anythingllm",
+      "title": "AnythingLLM",
+      "tagline": "オールインワン AI アプリケーション。"
     },
     {
-      "id": "archivebox",
-      "tagline": "セルフホスト型インターネットアーカイブソリューション",
-      "title": "ArchiveBox"
+      "id": "org.icewhale.archivebox",
+      "title": "ArchiveBox",
+      "tagline": "セルフホスト型インターネットアーカイブソリューション"
     },
     {
-      "id": "audiobookshelf",
+      "id": "org.icewhale.audiobookshelf",
       "tagline": "Audiobookshelfはセルフホスト型のオーディオブックおよびポッドキャストサーバーです。"
     },
     {
-      "id": "beaverhabittracker",
+      "id": "org.icewhale.beaverhabittracker",
       "tagline": "セルフホスト型のゴールフリー習慣追跡ツール。"
     },
     {
-      "id": "blinko",
+      "id": "org.icewhale.blinko",
       "tagline": "Blinko は、AI 搭載のカード形式ノートアプリです。瞬念的な思考を素早くキャプチャし、整理したい個人向けに設計されています。アイデアが閃いた瞬間にシームレスにメモを取ることができ、創造性の火花を失くすことはありません。"
     },
     {
-      "id": "cloudflared",
+      "id": "org.icewhale.cloudflared",
       "tagline": "Cloudflareが提供するトンネリングデーモンで、Webサーバーを安全にインターネットに公開します。"
     },
     {
-      "id": "convertx",
+      "id": "org.icewhale.convertx",
       "tagline": "複数のフォーマットをサポートする多目的ファイル変換ツール。"
     },
     {
-      "id": "copyparty",
-      "tagline": "シンプルでプライベートなファイルサーバー。",
-      "title": "CopyParty"
+      "id": "org.icewhale.copyparty",
+      "title": "CopyParty",
+      "tagline": "シンプルでプライベートなファイルサーバー。"
     },
     {
-      "id": "deepseek-ocr-nvidia",
-      "tagline": "DeepSeek AI搭載の強力なOCR",
-      "title": "DeepSeek OCR(Nvidia GPU)"
+      "id": "org.icewhale.deepseekocrnvidia",
+      "title": "DeepSeek OCR(Nvidia GPU)",
+      "tagline": "DeepSeek AI搭載の強力なOCR"
     },
     {
-      "id": "docmost",
+      "id": "org.icewhale.docmost",
       "tagline": "チーム向けのモダンなwikiと知識ベース"
     },
     {
-      "id": "emby",
+      "id": "org.icewhale.emby",
       "tagline": "Embyは個人ビデオ、音楽、写真、ライブテレビをまとめます。"
     },
     {
-      "id": "etherpad",
+      "id": "org.icewhale.etherpad",
       "tagline": "リアルタイム共同文書エディタ"
     },
     {
-      "id": "excalidraw",
+      "id": "org.icewhale.excalidraw",
       "tagline": "手描き風ダイアグラムをスケッチするための仮想ホワイトボード"
     },
     {
-      "id": "flowise",
+      "id": "org.icewhale.flowise",
       "tagline": "AIエージェントとLLMワークフローを構築するためのオープンソース生成AI開発プラットフォーム"
     },
     {
-      "id": "gopeed",
+      "id": "org.icewhale.gopeed",
       "tagline": "オープンソース、軽量、ネイティブ、ダウンロード用（HTTP、BitTorrent、Magnetなど）をサポート。"
     },
     {
-      "id": "hermes",
+      "id": "org.icewhale.hermes",
       "tagline": "メモリ、スキル、メッセージング、Webダッシュボードを備えた自己改善型AIエージェント。"
     },
     {
-      "id": "homeassistant",
+      "id": "org.icewhale.homeassistant",
       "tagline": "ローカル制御とプライバシーを最優先にするオープンソースホームオートメーション。"
     },
     {
-      "id": "hugo",
+      "id": "org.icewhale.hugo",
       "tagline": "世界最速のウェブサイト構築フレームワーク"
     },
     {
-      "id": "immich",
+      "id": "org.icewhale.immich",
       "tagline": "セルフホスト型メディア管理ソリューション"
     },
     {
-      "id": "index-tts",
-      "tagline": "工業レベルの制御可能で効率的なゼロショットテキスト読み上げシステム",
-      "title": "Index-TTS"
+      "id": "org.icewhale.indextts",
+      "title": "Index-TTS",
+      "tagline": "工業レベルの制御可能で効率的なゼロショットテキスト読み上げシステム"
     },
     {
-      "id": "index-tts-nvidia",
-      "tagline": "工業レベルの制御可能で効率的なゼロショットテキスト読み上げシステム",
-      "title": "Index-TTS(Nvidia GPU)"
+      "id": "org.icewhale.indexttsnvidia",
+      "title": "Index-TTS(Nvidia GPU)",
+      "tagline": "工業レベルの制御可能で効率的なゼロショットテキスト読み上げシステム"
     },
     {
-      "id": "jellyfin",
+      "id": "org.icewhale.jellyfin",
       "tagline": "個人用メディアシステム"
     },
     {
-      "id": "jellyseerr",
+      "id": "org.icewhale.jellyseerr",
       "tagline": "Jellyseerr は、メディアライブラリのリクエストを管理するための無料のオープンソースソフトウェアアプリケーションです。"
     },
     {
-      "id": "karakeep",
+      "id": "org.icewhale.karakeep",
       "tagline": "何でも保存できるブックマークアプリ"
     },
     {
-      "id": "kavita",
+      "id": "org.icewhale.kavita",
       "tagline": "Kavitaは無料でオープンソースのWebベースのコミックおよびブックサーバーです。"
     },
     {
-      "id": "komga",
+      "id": "org.icewhale.komga",
       "tagline": "Komgaはコミック、マンガ、BD、雑誌、電子書籍のためのメディアサーバーです。"
     },
     {
-      "id": "langflow",
-      "tagline": "マルチエージェントおよびRAGアプリケーションの構築とデバッグのためのオープンソースUI",
-      "title": "Langflow"
+      "id": "org.icewhale.langflow",
+      "title": "Langflow",
+      "tagline": "マルチエージェントおよびRAGアプリケーションの構築とデバッグのためのオープンソースUI"
     },
     {
-      "id": "librechat",
-      "tagline": "フル機能のオープンソースAIチャットインターフェース",
-      "title": "LibreChat"
+      "id": "org.icewhale.librechat",
+      "title": "LibreChat",
+      "tagline": "フル機能のオープンソースAIチャットインターフェース"
     },
     {
-      "id": "linkwarden",
-      "tagline": "収集・閲覧・注釈・完全保存を1か所で行える、セルフホスト型の共同ブックマーク管理ツール。",
-      "title": "Linkwarden"
+      "id": "org.icewhale.linkwarden",
+      "title": "Linkwarden",
+      "tagline": "収集・閲覧・注釈・完全保存を1か所で行える、セルフホスト型の共同ブックマーク管理ツール。"
     },
     {
-      "id": "llama-factory-nvidia",
-      "tagline": "100以上のモデルで統一されたLLMファインチューニング",
-      "title": "LLaMA Factory(Nvidia GPU)"
+      "id": "org.icewhale.llamafactorynvidia",
+      "title": "LLaMA Factory(Nvidia GPU)",
+      "tagline": "100以上のモデルで統一されたLLMファインチューニング"
     },
     {
-      "id": "lyrionmusicserver",
+      "id": "org.icewhale.lyrionmusicserver",
       "tagline": "Lyrion Music Server は Squeezebox オーディオプレーヤー用のストリーミングオーディオサーバーです。"
     },
     {
-      "id": "maybe",
-      "tagline": "個人ファイナンス管理アプリケーション",
-      "title": "Maybe"
+      "id": "org.icewhale.maybe",
+      "title": "Maybe",
+      "tagline": "個人ファイナンス管理アプリケーション"
     },
     {
-      "id": "memos",
+      "id": "org.icewhale.memos",
       "tagline": "Memosは軽量な自己ホスト型メモハブです。オープンソースで永遠に無料。"
     },
     {
-      "id": "monica",
+      "id": "org.icewhale.monica",
       "tagline": "社交生活を記録するための個人関係管理ツール。"
     },
     {
-      "id": "n8n",
+      "id": "org.icewhale.n8n",
       "tagline": "ワークフロー自動化ツール"
     },
     {
-      "id": "netbird",
+      "id": "org.icewhale.netbird",
       "tagline": "SSO、MFA、きめ細かなアクセス制御を備えた安全なWireGuard®ベースのオーバーレイネットワークにデバイスを接続します。"
     },
     {
-      "id": "node-red",
+      "id": "org.icewhale.nodered",
       "tagline": "イベント駆動アプリケーション向けローコードプログラミング"
     },
     {
-      "id": "obsidian",
+      "id": "org.icewhale.obsidian",
       "tagline": "Obsidian は、Markdown ノートの作成、リンク、および視覚的な整理を行うための知識管理アプリです。"
     },
     {
-      "id": "ollama",
+      "id": "org.icewhale.ollama",
       "tagline": "大規模言語モデルをローカルで実行"
     },
     {
-      "id": "ollama-nvidia",
+      "id": "org.icewhale.ollamanvidia",
       "tagline": "大規模言語モデルをローカルで実行"
     },
     {
-      "id": "open-webui-ollama",
-      "tagline": "ユーザーフレンドリーな LLMs WebUI（旧 Ollama WebUI）",
-      "title": "Open WebUI"
+      "id": "org.icewhale.openclaw",
+      "title": "OpenClaw",
+      "tagline": "OpenClawは、ご自身のデバイスで実行するパーソナルAIアシスタントです。"
     },
     {
-      "id": "openclaw",
-      "tagline": "OpenClawは、ご自身のデバイスで実行するパーソナルAIアシスタントです。",
-      "title": "OpenClaw"
+      "id": "org.icewhale.openhands",
+      "title": "OpenHands",
+      "tagline": "オープンソースAI駆動型コーディングアシスタント"
     },
     {
-      "id": "openhands",
-      "tagline": "オープンソースAI駆動型コーディングアシスタント",
-      "title": "OpenHands"
-    },
-    {
-      "id": "openlist",
+      "id": "org.icewhale.openlist",
       "tagline": "クラウドドライブをホーム NAS にマウント"
     },
     {
-      "id": "opodsync",
-      "tagline": "ポッドキャスト同期サービス",
-      "title": "oPodSync"
+      "id": "org.icewhale.openwebuiollama",
+      "title": "Open WebUI",
+      "tagline": "ユーザーフレンドリーな LLMs WebUI（旧 Ollama WebUI）"
     },
     {
-      "id": "pdfding",
+      "id": "org.icewhale.opodsync",
+      "title": "oPodSync",
+      "tagline": "ポッドキャスト同期サービス"
+    },
+    {
+      "id": "org.icewhale.pdfding",
       "tagline": "セルフホスト型PDFマネージャー、ビューアー、エディター"
     },
     {
-      "id": "peanut",
-      "tagline": "UPS監視および停電通知システム",
-      "title": "PeaNUT"
+      "id": "org.icewhale.peanut",
+      "title": "PeaNUT",
+      "tagline": "UPS監視および停電通知システム"
     },
     {
-      "id": "pihole",
+      "id": "org.icewhale.pihole",
       "tagline": "ネットワーク全体広告ブロッキング"
     },
     {
-      "id": "pinchflat",
+      "id": "org.icewhale.pinchflat",
       "tagline": "あなたの次のYouTubeメディアマネージャー"
     },
     {
-      "id": "pingvin-share",
-      "tagline": "モダンなWebインターフェースを備えたセルフホスト型ファイル共有",
-      "title": "Pingvin-Share"
+      "id": "org.icewhale.pingvinshare",
+      "title": "Pingvin-Share",
+      "tagline": "モダンなWebインターフェースを備えたセルフホスト型ファイル共有"
     },
     {
-      "id": "portainer",
+      "id": "org.icewhale.portainer",
       "tagline": "軽量 Docker 管理UI"
     },
     {
-      "id": "psitransfer",
-      "tagline": "シンプルなオープンソースのファイル共有ホスト。",
-      "title": "PsiTransfer"
+      "id": "org.icewhale.psitransfer",
+      "title": "PsiTransfer",
+      "tagline": "シンプルなオープンソースのファイル共有ホスト。"
     },
     {
-      "id": "ragflow",
-      "tagline": "RagFlowは、深い文書理解に基づいたオープンソースのRAGエンジンです。",
-      "title": "RagFlow"
+      "id": "org.icewhale.ragflow",
+      "title": "RagFlow",
+      "tagline": "RagFlowは、深い文書理解に基づいたオープンソースのRAGエンジンです。"
     },
     {
-      "id": "retroarch",
+      "id": "org.icewhale.retroarch",
       "tagline": "オンラインレトロゲームエミュレーター"
     },
     {
-      "id": "romm",
+      "id": "org.icewhale.romm",
       "tagline": "RomMは、ゲームコレクションの管理とプレイのためのセルフホスト型ROMマネージャーです。"
     },
     {
-      "id": "sure",
-      "tagline": "個人ファイナンス管理アプリケーション",
-      "title": "Sure"
+      "id": "org.icewhale.sure",
+      "title": "Sure",
+      "tagline": "個人ファイナンス管理アプリケーション"
     },
     {
-      "id": "swingmusic",
+      "id": "org.icewhale.swingmusic",
       "tagline": "Swing Musicは美しくデザインされたセルフホスト型音楽ストリーミングサーバーです。よりクールなSpotifyのよう...ただし、自分の音楽を持参してください。"
     },
     {
-      "id": "syncthing",
+      "id": "org.icewhale.syncthing",
       "tagline": "オープンな分散型ファイル同期"
     },
     {
-      "id": "tailscale",
+      "id": "org.icewhale.tailscale",
       "tagline": "安全な仮想プライベートネットワークでデバイスとユーザーを接続します。"
     },
     {
-      "id": "teable",
-      "tagline": "Teableはシンプルなスプレッドシート形式のインターフェースを採用しながら、強力なデータベースアプリケーションを作成できます",
-      "title": "Teable"
+      "id": "org.icewhale.teable",
+      "title": "Teable",
+      "tagline": "Teableはシンプルなスプレッドシート形式のインターフェースを採用しながら、強力なデータベースアプリケーションを作成できます"
     },
     {
-      "id": "transmission",
+      "id": "org.icewhale.transmission",
       "tagline": "Transmission はクロスプラットフォームの BitTorrent クライアントです"
     },
     {
-      "id": "trilium",
+      "id": "org.icewhale.trilium",
       "tagline": "TriliumNext Notes でパーソナル知識ベースを構築"
     },
     {
-      "id": "turbodiffusion_nvidia",
-      "tagline": "動画品質を維持しながらエンドツーエンドの拡散生成を高速化する動画生成フレームワーク",
-      "title": "TurboDiffusion(Nvidia GPU)"
+      "id": "org.icewhale.turbodiffusionnvidia",
+      "title": "TurboDiffusion(Nvidia GPU)",
+      "tagline": "動画品質を維持しながらエンドツーエンドの拡散生成を高速化する動画生成フレームワーク"
     },
     {
-      "id": "uptimekuma",
+      "id": "org.icewhale.uptimekuma",
       "tagline": "おしゃれな監視ツール"
     },
     {
-      "id": "v2raya",
+      "id": "org.icewhale.v2raya",
       "tagline": "VMess、VLESS、SS、SSR、Trojan、Tuic、Juicity プロトコルをサポートする Project V の Web GUI クライアント"
     },
     {
-      "id": "vocechat",
+      "id": "org.icewhale.vocechat",
       "tagline": "あなたのサイトでホストされるプライベートなソーシャルスペースを持つ"
     },
     {
-      "id": "wallabag",
+      "id": "org.icewhale.wallabag",
       "tagline": "記事を保存・分類し、後で自由に読めます。"
     },
     {
-      "id": "weknora",
-      "tagline": "WeKnoraは、大規模言語モデル（LLM）を活用したフレームワークで、深層的なドキュメント理解とセマンティック検索を目的として設計されており、特に複雑で異種のドキュメントを扱うのに適しています。",
-      "title": "WeKnora"
+      "id": "org.icewhale.weknora",
+      "title": "WeKnora",
+      "tagline": "WeKnoraは、大規模言語モデル（LLM）を活用したフレームワークで、深層的なドキュメント理解とセマンティック検索を目的として設計されており、特に複雑で異種のドキュメントを扱うのに適しています。"
     },
     {
-      "id": "ztnet",
+      "id": "org.icewhale.ztnet",
       "tagline": "集中管理のためのWeb UIを備えたセルフホスト型ZeroTierネットワークコントローラー。"
     }
   ]

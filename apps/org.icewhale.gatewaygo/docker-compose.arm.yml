@@ -1,0 +1,28 @@
+name: gateway-go
+services:
+  gateway-go:
+    image: openiothub/gateway-go:v2.0.12@sha256:7206cbc2d40475215462f30aa1d66b836c2dda3177421386eaaeb28f79e964f8
+    network_mode: host
+    deploy:
+      resources:
+        reservations:
+          memory: 32M
+    restart: unless-stopped
+    volumes:
+    - type: bind
+      source: /DATA/AppData/$AppID/config
+      target: /root
+    ports:
+    - target: 34323
+      published: '34323'
+      protocol: tcp
+    container_name: gateway-go
+x-casaos:
+  id: org.icewhale.gatewaygo
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/org.icewhale.gatewaygo/assets/icon.svg
+  main: gateway-go
+  port_map: '34323'
+  scheme: http
+  title:
+    en_US: gateway-go
+  version: 2.0.12

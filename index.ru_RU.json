@@ -1,516 +1,516 @@
 {
   "apps": [
     {
-      "id": "2fauth",
+      "id": "org.icewhale.2fauth",
       "tagline": "Веб-приложение для управления учетными записями двухфакторной аутентификации (2FA) и генерации их кодов безопасности"
     },
     {
-      "id": "actualbudget",
+      "id": "org.icewhale.actualbudget",
       "tagline": "Финансовое приложение с приоритетом конфиденциальности, конвертное бюджетирование и синхронизация между устройствами."
     },
     {
-      "id": "adguard-home",
+      "id": "org.icewhale.adguardhome",
       "tagline": "DNS-сервер блокировки рекламы и трекеров на уровне сети"
     },
     {
-      "id": "albyhub",
+      "id": "org.icewhale.albyhub",
       "tagline": "Простой узел Bitcoin Lightning с кошельком, субсчетами и подключениями NWC."
     },
     {
-      "id": "alist",
+      "id": "org.icewhale.alist",
       "tagline": "Подключите ваш облачный диск к домашнему NAS"
     },
     {
-      "id": "archivebox",
-      "tagline": "Самохостинговое решение для архивирования интернета",
-      "title": "ArchiveBox"
+      "id": "org.icewhale.archivebox",
+      "title": "ArchiveBox",
+      "tagline": "Самохостинговое решение для архивирования интернета"
     },
     {
-      "id": "audiobookshelf",
+      "id": "org.icewhale.audiobookshelf",
       "tagline": "Audiobookshelf — это самостоятельный сервер аудиокниг и подкастов."
     },
     {
-      "id": "bazarr",
+      "id": "org.icewhale.bazarr",
       "tagline": "Генераторы писем для Sonarr и Radarr"
     },
     {
-      "id": "beaverhabittracker",
+      "id": "org.icewhale.beaverhabittracker",
       "tagline": "Самостоятельно размещаемый инструмент отслеживания привычек без целей."
     },
     {
-      "id": "blinko",
+      "id": "org.icewhale.blinko",
       "tagline": "Blinko — это проект для заметок на карточках с использованием искусственного интеллекта. Он разработан для людей, которые хотят быстро фиксировать и организовывать свои мимолётные мысли. Blinko позволяет пользователям легко записывать идеи в тот момент, когда они возникают, гарантируя, что ни одна искра креативности не будет потеряна."
     },
     {
-      "id": "calibre-web",
+      "id": "org.icewhale.calibreweb",
       "tagline": "Веб-приложение для просмотра, чтения и загрузки электронных книг, хранящихся в базе данных Calibre"
     },
     {
-      "id": "chatbot-ui",
+      "id": "org.icewhale.chatbotui",
       "tagline": "Открытый чат-интерфейс для моделей ИИ"
     },
     {
-      "id": "cloudflared",
+      "id": "org.icewhale.cloudflared",
       "tagline": "Демон туннелирования от Cloudflare, который безопасно открывает ваши веб-серверы в интернете."
     },
     {
-      "id": "convertx",
+      "id": "org.icewhale.convertx",
       "tagline": "Универсальный инструмент для преобразования файлов, поддерживающий несколько форматов."
     },
     {
-      "id": "copyparty",
-      "tagline": "Простой частный файловый сервер.",
-      "title": "CopyParty"
+      "id": "org.icewhale.copyparty",
+      "title": "CopyParty",
+      "tagline": "Простой частный файловый сервер."
     },
     {
-      "id": "deepseek-ocr-nvidia",
-      "tagline": "Мощный OCR на базе DeepSeek AI",
-      "title": "DeepSeek OCR(Nvidia GPU)"
+      "id": "org.icewhale.deepseekocrnvidia",
+      "title": "DeepSeek OCR(Nvidia GPU)",
+      "tagline": "Мощный OCR на базе DeepSeek AI"
     },
     {
-      "id": "deluge",
+      "id": "org.icewhale.deluge",
       "tagline": "Легковесный и бесплатный клиент BitTorrent."
     },
     {
-      "id": "docmost",
+      "id": "org.icewhale.docmost",
       "tagline": "Современная вики и база знаний для команд"
     },
     {
-      "id": "duckdns",
+      "id": "org.icewhale.duckdns",
       "tagline": "Динамический DNS для вашего домена, поддерживает как IPv4, так и IPv6"
     },
     {
-      "id": "duplicati",
+      "id": "org.icewhale.duplicati",
       "tagline": "Храните безопасные зашифрованные резервные копии в облаке!"
     },
     {
-      "id": "emby",
+      "id": "org.icewhale.emby",
       "tagline": "Emby объединяет ваши личные видео, музыку, фотографии и прямое телевидение."
     },
     {
-      "id": "emby-nvidia",
+      "id": "org.icewhale.embynvidia",
       "tagline": "ВЗЯТЬ СЕБЕ МЕДИА ВСЮДУ С EMBY"
     },
     {
-      "id": "embystat",
+      "id": "org.icewhale.embystat",
       "tagline": "Вычислите все виды статистики с вашего (локального) сервера Emby или Jellyfin"
     },
     {
-      "id": "etherpad",
+      "id": "org.icewhale.etherpad",
       "tagline": "Редактор совместных документов в реальном времени"
     },
     {
-      "id": "excalidraw",
+      "id": "org.icewhale.excalidraw",
       "tagline": "Виртуальная доска для создания рисованных диаграмм"
     },
     {
-      "id": "filedrop",
+      "id": "org.icewhale.filedrop",
       "tagline": "FileDrop - это бесплатный файлообменный сервис с открытым исходным кодом."
     },
     {
-      "id": "fileflows",
+      "id": "org.icewhale.fileflows",
       "tagline": "Обработка файлов стала проще!"
     },
     {
-      "id": "flowise",
+      "id": "org.icewhale.flowise",
       "tagline": "Платформа разработки генеративного ИИ с открытым исходным кодом для создания ИИ-агентов и рабочих процессов LLM"
     },
     {
-      "id": "freshrss",
+      "id": "org.icewhale.freshrss",
       "tagline": "Бесплатный, самодостаточный агрегатор новостей..."
     },
     {
-      "id": "gitea",
+      "id": "org.icewhale.gitea",
       "tagline": "Git с чашечкой чая"
     },
     {
-      "id": "gopeed",
+      "id": "org.icewhale.gopeed",
       "tagline": "Открытый исходный код, легкий, нативный, поддерживает (HTTP, BitTorrent, Magnet и т.д.) для загрузки."
     },
     {
-      "id": "grafana",
+      "id": "org.icewhale.grafana",
       "tagline": "Grafana - это полный стек наблюдаемости, который позволяет вам мониторить и анализировать метрики, журналы и трассы. Он позволяет вам запрашивать, визуализировать, оповещать и понимать ваши данные, независимо от того, где они хранятся.\n"
     },
     {
-      "id": "handbrake",
+      "id": "org.icewhale.handbrake",
       "tagline": "Освободите ваши видео и раскройте бесконечные возможности."
     },
     {
-      "id": "hermes",
+      "id": "org.icewhale.hermes",
       "tagline": "Самообучающийся ИИ-агент с памятью, навыками, сообщениями и веб-панелью."
     },
     {
-      "id": "homeassistant",
+      "id": "org.icewhale.homeassistant",
       "tagline": "Домашняя автоматизация с открытым исходным кодом, которая ставит локальное управление и конфиденциальность на первое место."
     },
     {
-      "id": "hugo",
+      "id": "org.icewhale.hugo",
       "tagline": "Самый быстрый в мире фреймворк для создания веб-сайтов"
     },
     {
-      "id": "immich",
+      "id": "org.icewhale.immich",
       "tagline": "Самоуправляемое решение для управления медиа"
     },
     {
-      "id": "index-tts",
-      "tagline": "Контролируемая и эффективная система синтеза речи с нулевым обучением промышленного уровня",
-      "title": "Index-TTS"
+      "id": "org.icewhale.indextts",
+      "title": "Index-TTS",
+      "tagline": "Контролируемая и эффективная система синтеза речи с нулевым обучением промышленного уровня"
     },
     {
-      "id": "index-tts-nvidia",
-      "tagline": "Контролируемая и эффективная система синтеза речи с нулевым обучением промышленного уровня",
-      "title": "Index-TTS(Nvidia GPU)"
+      "id": "org.icewhale.indexttsnvidia",
+      "title": "Index-TTS(Nvidia GPU)",
+      "tagline": "Контролируемая и эффективная система синтеза речи с нулевым обучением промышленного уровня"
     },
     {
-      "id": "jackett",
+      "id": "org.icewhale.jackett",
       "tagline": "Jackett работает как прокси-сервер"
     },
     {
-      "id": "jellyfin",
+      "id": "org.icewhale.jellyfin",
       "tagline": "Личная медиа-система"
     },
     {
-      "id": "jellyfin-nvidia",
+      "id": "org.icewhale.jellyfinnvidia",
       "tagline": "Помогает вам контролировать свою медиаинформацию."
     },
     {
-      "id": "jellyseerr",
+      "id": "org.icewhale.jellyseerr",
       "tagline": "Jellyseerr - это бесплатное приложение с открытым исходным кодом для управления запросами вашей медиабиблиотеки."
     },
     {
-      "id": "jenkins",
+      "id": "org.icewhale.jenkins",
       "tagline": "Сервер непрерывной интеграции и доставки Jenkins."
     },
     {
-      "id": "karakeep",
+      "id": "org.icewhale.karakeep",
       "tagline": "Приложение, чтобы сохранять всё"
     },
     {
-      "id": "kavita",
+      "id": "org.icewhale.kavita",
       "tagline": "Kavita — это бесплатный и с открытым исходным кодом веб-сервер для комиксов и книг."
     },
     {
-      "id": "komga",
+      "id": "org.icewhale.komga",
       "tagline": "Komga — это медиа-сервер для ваших комиксов, манги, журналов и электронных книг."
     },
     {
-      "id": "langflow",
-      "tagline": "Открытый интерфейс для создания и отладки мультиагентных приложений и RAG",
-      "title": "Langflow"
+      "id": "org.icewhale.langflow",
+      "title": "Langflow",
+      "tagline": "Открытый интерфейс для создания и отладки мультиагентных приложений и RAG"
     },
     {
-      "id": "lazylibrarian",
+      "id": "org.icewhale.lazylibrarian",
       "tagline": "Автоматический загрузчик электронных книг"
     },
     {
-      "id": "librechat",
-      "tagline": "Полнофункциональный интерфейс AI-чата с открытым исходным кодом",
-      "title": "LibreChat"
+      "id": "org.icewhale.librechat",
+      "title": "LibreChat",
+      "tagline": "Полнофункциональный интерфейс AI-чата с открытым исходным кодом"
     },
     {
-      "id": "lidarr",
+      "id": "org.icewhale.lidarr",
       "tagline": "Менеджер музыкальных коллекций для пользователей Usenet и BitTorrent"
     },
     {
-      "id": "linkwarden",
-      "tagline": "Самостоятельно размещаемый совместный менеджер закладок для сбора, чтения, аннотирования и полного сохранения важного контента в одном месте.",
-      "title": "Linkwarden"
+      "id": "org.icewhale.linkwarden",
+      "title": "Linkwarden",
+      "tagline": "Самостоятельно размещаемый совместный менеджер закладок для сбора, чтения, аннотирования и полного сохранения важного контента в одном месте."
     },
     {
-      "id": "llama-factory-nvidia",
-      "tagline": "Унифицированная тонкая настройка LLM с 100+ моделями",
-      "title": "LLaMA Factory(Nvidia GPU)"
+      "id": "org.icewhale.llamafactorynvidia",
+      "title": "LLaMA Factory(Nvidia GPU)",
+      "tagline": "Унифицированная тонкая настройка LLM с 100+ моделями"
     },
     {
-      "id": "lyrionmusicserver",
+      "id": "org.icewhale.lyrionmusicserver",
       "tagline": "Lyrion Music Server — это потоковый аудиосервер для аудиоплееров Squeezebox."
     },
     {
-      "id": "mariadb",
+      "id": "org.icewhale.mariadb",
       "tagline": "Сервер MariaDB является одним из самых популярных серверов баз данных в мире. Он создан оригинальными разработчиками MySQL и гарантированно остается открытым исходным кодом."
     },
     {
-      "id": "maybe",
-      "tagline": "Приложение для управления личными финансами",
-      "title": "Maybe"
+      "id": "org.icewhale.maybe",
+      "title": "Maybe",
+      "tagline": "Приложение для управления личными финансами"
     },
     {
-      "id": "memos",
+      "id": "org.icewhale.memos",
       "tagline": "Memos — это легкий, саморазмещаемый центр заметок. Открытый исходный код и бесплатный навсегда。"
     },
     {
-      "id": "mineos-node",
+      "id": "org.icewhale.mineosnode",
       "tagline": "Бесплатный и простой в использовании инструмент управления сервером Minecraft."
     },
     {
-      "id": "mongodb",
+      "id": "org.icewhale.mongodb",
       "tagline": "Бесплатная и открытая кросс-платформенная программная система, ориентированная на документы. MongoDB классифицируется как программная система базы данных NoSQL и использует документы в формате JSON с схемами."
     },
     {
-      "id": "mongodb4",
+      "id": "org.icewhale.mongodb4",
       "tagline": "Бесплатная и открытая кросс-платформенная программная система, ориентированная на документы. MongoDB классифицируется как программная система базы данных NoSQL и использует документы в формате JSON с схемами."
     },
     {
-      "id": "monica",
+      "id": "org.icewhale.monica",
       "tagline": "Инструмент управления личными отношениями, который поможет вам документировать вашу социальную жизнь."
     },
     {
-      "id": "mylar3",
+      "id": "org.icewhale.mylar3",
       "tagline": "Автоматическая программа загрузки комиксов (cbr/cbz)"
     },
     {
-      "id": "n8n",
+      "id": "org.icewhale.n8n",
       "tagline": "Инструмент автоматизации рабочих процессов"
     },
     {
-      "id": "nextcloud",
+      "id": "org.icewhale.nextcloud",
       "tagline": "Платформа производительности, которая держит вас под контролем"
     },
     {
-      "id": "nginxproxymanager",
+      "id": "org.icewhale.nginxproxymanager",
       "tagline": "Управление хостами прокси Nginx с помощью простого и мощного интерфейса."
     },
     {
-      "id": "node-red",
+      "id": "org.icewhale.nodered",
       "tagline": "Программирование с низким кодом для событийно-ориентированных приложений"
     },
     {
-      "id": "nzbget",
+      "id": "org.icewhale.nzbget",
       "tagline": "Эффективный загрузчик Usenet"
     },
     {
-      "id": "obsidian",
+      "id": "org.icewhale.obsidian",
       "tagline": "Obsidian — это приложение для управления знаниями, предназначенное для создания, связывания и визуальной организации заметок в формате Markdown."
     },
     {
-      "id": "ollama",
+      "id": "org.icewhale.ollama",
       "tagline": "Запуск больших языковых моделей локально"
     },
     {
-      "id": "ollama-nvidia",
+      "id": "org.icewhale.ollamanvidia",
       "tagline": "Запуск больших языковых моделей локально"
     },
     {
-      "id": "ombi",
+      "id": "org.icewhale.ombi",
       "tagline": "Дружественный инструмент запроса медиа, автоматически синхронизируется с вашими медиа-серверами!"
     },
     {
-      "id": "open-webui-ollama",
-      "tagline": "Удобный WebUI для LLM (ранее Ollama WebUI)"
+      "id": "org.icewhale.openclaw",
+      "title": "OpenClaw",
+      "tagline": "OpenClaw — это персональный ИИ-помощник, который вы запускаете на своих собственных устройствах."
     },
     {
-      "id": "openclaw",
-      "tagline": "OpenClaw — это персональный ИИ-помощник, который вы запускаете на своих собственных устройствах.",
-      "title": "OpenClaw"
-    },
-    {
-      "id": "openhab",
+      "id": "org.icewhale.openhab",
       "tagline": "Усиление умного дома"
     },
     {
-      "id": "openhands",
-      "tagline": "Ассистент программирования с открытым исходным кодом на основе ИИ",
-      "title": "OpenHands"
+      "id": "org.icewhale.openhands",
+      "title": "OpenHands",
+      "tagline": "Ассистент программирования с открытым исходным кодом на основе ИИ"
     },
     {
-      "id": "openlist",
+      "id": "org.icewhale.openlist",
       "tagline": "Подключите ваш облачный диск к домашнему NAS"
     },
     {
-      "id": "openspeedtest",
+      "id": "org.icewhale.openspeedtest",
       "tagline": "HTML5-сервер тестирования скорости сети."
     },
     {
-      "id": "opodsync",
-      "tagline": "Сервис синхронизации подкастов",
-      "title": "oPodSync"
+      "id": "org.icewhale.openwebuiollama",
+      "tagline": "Удобный WebUI для LLM (ранее Ollama WebUI)"
     },
     {
-      "id": "overseerr",
+      "id": "org.icewhale.opodsync",
+      "title": "oPodSync",
+      "tagline": "Сервис синхронизации подкастов"
+    },
+    {
+      "id": "org.icewhale.overseerr",
       "tagline": "Overseerr - это инструмент управления запросами и обнаружения медиа, разработанный для работы с вашей существующей экосистемой Plex."
     },
     {
-      "id": "pdfding",
+      "id": "org.icewhale.pdfding",
       "tagline": "Самостоятельно размещаемый менеджер, просмотрщик и редактор PDF"
     },
     {
-      "id": "peanut",
-      "tagline": "Система мониторинга ИБП и уведомлений об отключении электроэнергии",
-      "title": "PeaNUT"
+      "id": "org.icewhale.peanut",
+      "title": "PeaNUT",
+      "tagline": "Система мониторинга ИБП и уведомлений об отключении электроэнергии"
     },
     {
-      "id": "petio",
+      "id": "org.icewhale.petio",
       "tagline": "Стороннее приложение-компаньон, доступное владельцам серверов Plex, чтобы их пользователи могли запрашивать, рецензировать и открывать контент."
     },
     {
-      "id": "photoprism",
+      "id": "org.icewhale.photoprism",
       "tagline": "Просмотр, организация и обмен фотоколлекцией"
     },
     {
-      "id": "pihole",
+      "id": "org.icewhale.pihole",
       "tagline": "Блокировка Рекламы на Уровне Сети"
     },
     {
-      "id": "pinchflat",
+      "id": "org.icewhale.pinchflat",
       "tagline": "Ваш следующий менеджер медиа YouTube"
     },
     {
-      "id": "pingvin-share",
-      "tagline": "Самостоятельно размещенный обмен файлами с современным веб-интерфейсом",
-      "title": "Pingvin-Share"
+      "id": "org.icewhale.pingvinshare",
+      "title": "Pingvin-Share",
+      "tagline": "Самостоятельно размещенный обмен файлами с современным веб-интерфейсом"
     },
     {
-      "id": "playit-agent",
+      "id": "org.icewhale.playitagent",
       "tagline": "Бесплатный обратный прокси-сервер для туннельных сервисов (не самостоятельный хостинг)."
     },
     {
-      "id": "portainer",
+      "id": "org.icewhale.portainer",
       "tagline": "Легкий интерфейс управления Docker"
     },
     {
-      "id": "postgresql",
+      "id": "org.icewhale.postgresql",
       "tagline": "PostgreSQL - это продвинутая, корпоративного класса, открытая реляционная система управления базами данных. PostgreSQL поддерживает как SQL (реляционный), так и JSON (нереляционный) запросы."
     },
     {
-      "id": "prowlarr",
+      "id": "org.icewhale.prowlarr",
       "tagline": "Интеграция различных приложений PVR"
     },
     {
-      "id": "psitransfer",
-      "tagline": "Простой хост для обмена файлами с открытым исходным кодом.",
-      "title": "PsiTransfer"
+      "id": "org.icewhale.psitransfer",
+      "title": "PsiTransfer",
+      "tagline": "Простой хост для обмена файлами с открытым исходным кодом."
     },
     {
-      "id": "qbittorrent",
+      "id": "org.icewhale.qbittorrent",
       "tagline": "Бесплатный загрузчик BitTorrent"
     },
     {
-      "id": "radarr",
+      "id": "org.icewhale.radarr",
       "tagline": "Менеджер коллекций фильмов для пользователей Usenet и BitTorrent"
     },
     {
-      "id": "ragflow",
-      "tagline": "RagFlow — это механизм RAG с открытым исходным кодом, основанный на глубоком понимании документов.",
-      "title": "RagFlow"
+      "id": "org.icewhale.ragflow",
+      "title": "RagFlow",
+      "tagline": "RagFlow — это механизм RAG с открытым исходным кодом, основанный на глубоком понимании документов."
     },
     {
-      "id": "readarr",
+      "id": "org.icewhale.readarr",
       "tagline": "Менеджер коллекций электронных книг и аудиокниг для пользователей Usenet и BitTorrent."
     },
     {
-      "id": "resilio-sync",
+      "id": "org.icewhale.resiliosync",
       "tagline": "Разблокируйте мощь безупречной синхронизации файлов."
     },
     {
-      "id": "retroarch",
+      "id": "org.icewhale.retroarch",
       "tagline": "Онлайн эмулятор ретро-игр"
     },
     {
-      "id": "romm",
+      "id": "org.icewhale.romm",
       "tagline": "RomM — это самостоятельный менеджер ROM для управления и запуска коллекций игр."
     },
     {
-      "id": "sabnzbd",
+      "id": "org.icewhale.sabnzbd",
       "tagline": "Бесплатный и простой бинарный новостной читатель"
     },
     {
-      "id": "sickchill",
+      "id": "org.icewhale.sickchill",
       "tagline": "Автоматический менеджер видеобиблиотек для телевизионных шоу"
     },
     {
-      "id": "smokeping",
+      "id": "org.icewhale.smokeping",
       "tagline": "Бесплатный инструмент мониторинга производительности сети с открытым исходным кодом"
     },
     {
-      "id": "snapdrop",
+      "id": "org.icewhale.snapdrop",
       "tagline": "Простой обмен файлами между платформами."
     },
     {
-      "id": "sonarr",
+      "id": "org.icewhale.sonarr",
       "tagline": "PVR для пользователей Usenet и BitTorrent"
     },
     {
-      "id": "sure",
-      "tagline": "Приложение для управления личными финансами",
-      "title": "Sure"
+      "id": "org.icewhale.sure",
+      "title": "Sure",
+      "tagline": "Приложение для управления личными финансами"
     },
     {
-      "id": "swingmusic",
+      "id": "org.icewhale.swingmusic",
       "tagline": "Swing Music — это красиво оформленный, самохостируемый сервер потоковой передачи музыки. Как более крутой Spotify... но приносите свою музыку."
     },
     {
-      "id": "syncthing",
+      "id": "org.icewhale.syncthing",
       "tagline": "Открытая децентрализованная синхронизация файлов"
     },
     {
-      "id": "tailscale",
+      "id": "org.icewhale.tailscale",
       "tagline": "Подключите ваши устройства и пользователей в собственной безопасной виртуальной частной сети."
     },
     {
-      "id": "tautulli",
+      "id": "org.icewhale.tautulli",
       "tagline": "Отслеживайте свой сервер мультимедиа Plex и многое другое."
     },
     {
-      "id": "teable",
-      "tagline": "Teable использует лаконичный интерфейс электронных таблиц, однако создает мощные приложения баз данных",
-      "title": "Teable"
+      "id": "org.icewhale.teable",
+      "title": "Teable",
+      "tagline": "Teable использует лаконичный интерфейс электронных таблиц, однако создает мощные приложения баз данных"
     },
     {
-      "id": "transmission",
+      "id": "org.icewhale.transmission",
       "tagline": "Transmission — это кроссплатформенный BitTorrent-клиент"
     },
     {
-      "id": "trilium",
+      "id": "org.icewhale.trilium",
       "tagline": "Создайте свою личную базу знаний с TriliumNext Notes"
     },
     {
-      "id": "turbodiffusion_nvidia",
-      "tagline": "Ускоряющий фреймворк для сквозной диффузионной генерации с сохранением качества видео",
-      "title": "TurboDiffusion(Nvidia GPU)"
+      "id": "org.icewhale.turbodiffusionnvidia",
+      "title": "TurboDiffusion(Nvidia GPU)",
+      "tagline": "Ускоряющий фреймворк для сквозной диффузионной генерации с сохранением качества видео"
     },
     {
-      "id": "unifi-controller",
+      "id": "org.icewhale.unificontroller",
       "tagline": "ПО Unifi-controller - это мощный корпоративный беспроводной программный двигатель, идеально подходящий для реализации клиентов с высокой плотностью, требующих низкую задержку и высокую производительность доступности."
     },
     {
-      "id": "uptimekuma",
+      "id": "org.icewhale.uptimekuma",
       "tagline": "Красивый инструмент мониторинга"
     },
     {
-      "id": "v2raya",
+      "id": "org.icewhale.v2raya",
       "tagline": "Веб-GUI клиент Project V, поддерживающий протоколы VMess, VLESS, SS, SSR, Trojan, Tuic и Juicity"
     },
     {
-      "id": "vaultwarden",
+      "id": "org.icewhale.vaultwarden",
       "tagline": "Самостоятельный сервер Bitwarden"
     },
     {
-      "id": "virtmanager",
+      "id": "org.icewhale.virtmanager",
       "tagline": "Веб-интерфейс GTK Broadway для libvirt и virt-manager."
     },
     {
-      "id": "vocechat",
+      "id": "org.icewhale.vocechat",
       "tagline": "Создайте Приватное Социальное Пространство на Вашем Сайте"
     },
     {
-      "id": "wallabag",
+      "id": "org.icewhale.wallabag",
       "tagline": "Сохраняйте и классифицируйте статьи. Читайте их позже. Свободно."
     },
     {
-      "id": "webdav",
+      "id": "org.icewhale.webdav",
       "tagline": "Веб-протокол обмена и управления файлами"
     },
     {
-      "id": "weknora",
-      "tagline": "WeKnora — это платформа на базе LLM, предназначенная для глубокого понимания документов и семантического поиска, особенно для работы со сложными и разнородными документами.",
-      "title": "WeKnora"
+      "id": "org.icewhale.weknora",
+      "title": "WeKnora",
+      "tagline": "WeKnora — это платформа на базе LLM, предназначенная для глубокого понимания документов и семантического поиска, особенно для работы со сложными и разнородными документами."
     },
     {
-      "id": "wg-easy",
+      "id": "org.icewhale.wgeasy",
       "tagline": "WEB-интерфейс для управления WireGuard VPN."
     },
     {
-      "id": "ztnet",
+      "id": "org.icewhale.ztnet",
       "tagline": "Самостоятельно размещаемый сетевой контроллер ZeroTier с веб-интерфейсом для централизованного управления."
     }
   ]

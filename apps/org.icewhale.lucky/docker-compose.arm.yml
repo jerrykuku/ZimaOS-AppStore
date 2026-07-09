@@ -1,0 +1,27 @@
+name: lucky
+services:
+  lucky:
+    deploy:
+      resources:
+        reservations:
+          memory: 64M
+    image: gdy666/lucky:2.27.2@sha256:a6d046f4465317f3d1b55de97784ecf1de1836fa27724321e6dd3a9ce5be7232
+    restart: unless-stopped
+    volumes:
+    - type: bind
+      source: /DATA/AppData/lucky
+      target: /goodluck
+    environment:
+      TZ: $TZ
+    network_mode: host
+    privileged: false
+x-casaos:
+  id: org.icewhale.lucky
+  main: lucky
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/org.icewhale.lucky/assets/icon.svg
+  index: /
+  title:
+    en_US: Lucky
+  port_map: '16601'
+  scheme: http
+  version: 2.27.2

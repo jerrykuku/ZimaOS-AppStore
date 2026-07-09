@@ -1,0 +1,31 @@
+name: memos
+services:
+  memos:
+    environment:
+      PGID: $PGID
+      PUID: $PUID
+      TZ: $TZ
+    image: neosmemo/memos:0.28.0@sha256:0d9a7fca5d04f5c8e12a949e2f842445d9915a24c490339c1ec349bd6692b396
+    deploy:
+      resources:
+        reservations:
+          memory: 64M
+    network_mode: bridge
+    ports:
+    - target: 5230
+      published: '5230'
+      protocol: tcp
+    restart: unless-stopped
+    volumes:
+    - type: bind
+      source: /DATA/AppData/memos/memos
+      target: /var/opt/memos
+    container_name: memos
+x-casaos:
+  id: org.icewhale.memos
+  main: memos
+  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@gh-pages/apps/org.icewhale.memos/assets/icon.svg
+  title:
+    en_US: Memos
+  port_map: '5230'
+  version: 0.28.0

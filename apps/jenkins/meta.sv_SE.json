@@ -1,5 +1,0 @@
-{
-  "id": "jenkins",
-  "tagline": "Jenkins server för kontinuerlig integration och leverans.",
-  "description": "En server för att skapa pipelines för Jenkins kontinuerliga integration och leverans."
-}

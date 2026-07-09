@@ -81,6 +81,7 @@ services:
             tr_TR: PdfDing medya dosyaları dizini
     container_name: pdfding
 x-casaos:
+  id: org.icewhale.pdfding
   architectures:
     - amd64
     - arm64
@@ -178,11 +179,11 @@ x-casaos:
 
       PdfDing'i Zima gibi özel bulut cihazlarında dağıtmak, çok cihazlı erişimle benzersiz kolaylık getirir ve PDF koleksiyonunuzun nerede olursanız olun her zaman elinizin altında ve güvenli olmasını sağlar.
   developer: mrmn2
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/PdfDing/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/PdfDing/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/PdfDing/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/PdfDing/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/PdfDing/screenshot-3.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/PdfDing/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/PdfDing/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/PdfDing/screenshot-3.png
   main: pdfding
   port_map: "8000"
   scheme: http

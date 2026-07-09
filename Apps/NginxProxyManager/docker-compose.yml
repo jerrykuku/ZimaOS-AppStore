@@ -53,6 +53,7 @@ services:
             zh_CN: Nginx 代理管理器 letsencrypt 目录。
     container_name: nginxproxymanager
 x-casaos:
+  id: org.icewhale.nginxproxymanager
   architectures:
     - amd64
     - arm64
@@ -75,11 +76,11 @@ x-casaos:
     sv_SE: Nginx Proxy Manager är ett enkelt och kraftfullt verktyg som hjälper dig att hosta flera webbplatser på en server.
     uk_UA: Nginx Proxy Manager - це простий і потужний інструмент, який допоможе вам розмістити кілька веб-сайтів на одному сервері.
   developer: Nginx Proxy Manager
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/NginxProxyManager/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/NginxProxyManager/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/NginxProxyManager/screenshot-1.jpg
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/NginxProxyManager/screenshot-2.jpg
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/NginxProxyManager/screenshot-3.jpg
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/NginxProxyManager/screenshot-1.jpg
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/NginxProxyManager/screenshot-2.jpg
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/NginxProxyManager/screenshot-3.jpg
   tagline:
     en_US: Managing Nginx proxy hosts with a simple, powerful interface.
     zh_CN: 通过简单、强大的界面管理 Nginx 代理主机。
@@ -94,7 +95,7 @@ x-casaos:
     pt_BR: Gerenciando hosts proxy do Nginx com uma interface simples e poderosa.
     sv_SE: Hantering av Nginx-proxyvärdar med ett enkelt och kraftfullt gränssnitt.
     uk_UA: Управління хостами проксі Nginx за допомогою простого і потужного інтерфейсу.
-  thumbnail: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/NginxProxyManager/thumbnail.png
+  thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/NginxProxyManager/thumbnail.png
   tips:
     before_install:
       en_US: |

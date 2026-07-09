@@ -54,9 +54,9 @@ services:
             en_US: ""
     container_name: bazarr
 x-casaos:
+  id: org.icewhale.bazarr
   architectures:
     - amd64
-    - arm
     - arm64
   main: bazarr
   author: CasaOS Team
@@ -76,12 +76,12 @@ x-casaos:
     sv_SE: Bazarr är ett komplement till Sonarr och Radarr. Det kan hantera och ladda ner undertexter baserat på dina krav. Du definierar dina preferenser för TV-serie eller film och Bazarr tar hand om allt åt dig.
     uk_UA: Bazarr - це додаткова програма до Sonarr і Radarr. Він може керувати і завантажувати субтитри відповідно до ваших вимог. Ви визначаєте свої вподобання за серіалом або фільмом, а Bazarr займається усім за вас.
   developer: Sabnzbd Team
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Bazarr/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Bazarr/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Bazarr/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Bazarr/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Bazarr/screenshot-3.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Bazarr/screenshot-4.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Bazarr/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Bazarr/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Bazarr/screenshot-3.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Bazarr/screenshot-4.png
   tagline:
     en_US: Letter generators for Sonarr and Radarr
     zh_CN: Sonarr和Radarr的信件生成器
@@ -96,7 +96,7 @@ x-casaos:
     pt_BR: Geradores de cartas para Sonarr e Radarr
     sv_SE: Brevgenererare för Sonarr och Radarr
     uk_UA: Генератори листів для Sonarr і Radarr
-  thumbnail: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Bazarr/thumbnail.png
+  thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Bazarr/thumbnail.png
   tips: {}
   title:
     en_US: Bazarr

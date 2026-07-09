@@ -27,6 +27,7 @@ services:
     network_mode: bridge
     privileged: false
 x-casaos:
+  id: org.icewhale.jellyseerr
   scheme: http
   title:
     en_US: Jellyseerr
@@ -398,11 +399,11 @@ x-casaos:
       - [Jellyseerr Belgeleri](https://docs.jellyseerr.dev/)
       - [Jellyseerr GitHub Deposu](https://github.com/Fallenbagel/jellyseerr)
   developer: Fallenbagel
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Jellyseerr/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Jellyseerr/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Jellyseerr/screenshot-1.jpg
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Jellyseerr/screenshot-2.jpg
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Jellyseerr/screenshot-3.jpg
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Jellyseerr/screenshot-1.jpg
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Jellyseerr/screenshot-2.jpg
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Jellyseerr/screenshot-3.jpg
   tagline:
     en_US: Jellyseerr is a free and open source software application for managing requests for your media library.
     en_GB: Jellyseerr is a free and open source software application for managing requests for your media library.

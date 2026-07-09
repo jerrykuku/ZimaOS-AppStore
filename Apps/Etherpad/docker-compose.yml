@@ -96,16 +96,9 @@ services:
         - container: TRUST_PROXY
           description:
             en_US: Set to "true" when running behind CasaOS's reverse proxy.
-      ports:
-        - container: "9001"
-          description:
-            en_US: WebUI HTTP Port
-      volumes:
-        - container: /opt/etherpad-lite/var
-          description:
-            en_US: Etherpad data directory (pads, sessions, dirty.db, plugins).
 
 x-casaos:
+  id: org.icewhale.etherpad
   architectures:
     - amd64
     - arm64
@@ -370,12 +363,12 @@ x-casaos:
       - [Etherpad Resmi Web Sitesi](https://etherpad.org/)
       - [Etherpad GitHub](https://github.com/ether/etherpad)
       - [Etherpad Dokümantasyonu](https://docs.etherpad.org/)
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Etherpad/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Etherpad/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Etherpad/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Etherpad/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Etherpad/screenshot-3.png
-  thumbnail: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Etherpad/thumbnail.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Etherpad/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Etherpad/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Etherpad/screenshot-3.png
+  thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Etherpad/thumbnail.png
   tips:
     before_install:
       en_US: |

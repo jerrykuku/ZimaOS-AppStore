@@ -36,6 +36,7 @@ services:
             ru_RU: HTTP порт веб-интерфейса
             tr_TR: WebUI HTTP Portu
 x-casaos:
+  id: org.icewhale.retroarch
   architectures:
     - amd64
     - arm64
@@ -375,11 +376,11 @@ x-casaos:
       **Daha fazla bilgi:**
       - [RetroArch resmi web sitesi](https://www.retroarch.com)
       - [RetroArch GitHub deposu](https://github.com/libretro/RetroArch)
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/RetroArch/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/RetroArch/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/RetroArch/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/RetroArch/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/RetroArch/screenshot-3.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/RetroArch/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/RetroArch/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/RetroArch/screenshot-3.png
   thumbnail: ""
   scheme: http
   port_map: "8183"

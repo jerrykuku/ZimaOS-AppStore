@@ -60,9 +60,9 @@ networks:
   petio-network:
     driver: bridge
 x-casaos:
+  id: org.icewhale.petio
   architectures:
     - amd64
-    - arm
     - arm64
   main: petio
   description:
@@ -127,12 +127,12 @@ x-casaos:
     pl_PL: Aplikacja towarzysząca od osoby trzeciej, dostępna dla właścicieli serwerów Plex, umożliwiająca użytkownikom żądanie, przeglądanie i odkrywanie treści.
     pt_BR: Um aplicativo complementar de terceiros disponível para proprietários de servidores Plex, permitindo que seus usuários solicitem, revisem e descubram conteúdo.
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Petio/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Petio/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Petio/screenshot-3.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Petio/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Petio/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Petio/screenshot-3.png
   developer: Petio Team
   author: WisdomSky
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Petio/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Petio/icon.svg
   thumbnail: ""
   title:
     en_US: Petio

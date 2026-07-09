@@ -11,7 +11,7 @@ services:
     hostname: fileflows
     image: revenz/fileflows:stable
     labels:
-      icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/FileFlows/icon.svg
+      icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/FileFlows/icon.svg
     restart: unless-stopped
     ports: 
       - target: 5000
@@ -38,6 +38,7 @@ services:
         source: /var/run/docker.sock
         target: /var/run/docker.sock
 x-casaos:
+  id: org.icewhale.fileflows
   architectures:
     - amd64
     - arm64
@@ -50,11 +51,11 @@ x-casaos:
     en_US: FileFlows
   index: /
   developer: FileFlows
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/FileFlows/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/FileFlows/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/FileFlows/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/FileFlows/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/FileFlows/screenshot-3.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/FileFlows/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/FileFlows/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/FileFlows/screenshot-3.png
   tagline:
     en_US: File processing made easy!
     zh_CN: 文件处理变得轻松！

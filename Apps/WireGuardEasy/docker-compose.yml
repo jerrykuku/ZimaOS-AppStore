@@ -40,6 +40,7 @@ services:
       - net.ipv4.conf.all.src_valid_mark=1
     container_name: wg-easy
 x-casaos:
+  id: org.icewhale.wgeasy
   architectures:
     - amd64
     - arm
@@ -72,12 +73,12 @@ x-casaos:
     sv_SE: Du har hittat det enklaste sättet att installera och hantera WireGuard på en Linux-värd!
     uk_UA: Ви знайшли найпростіший спосіб встановити WireGuard та керувати ним на будь-якому комп'ютері з Linux!
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/WireGuardEasy/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/WireGuardEasy/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/WireGuardEasy/screenshot-3.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/WireGuardEasy/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/WireGuardEasy/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/WireGuardEasy/screenshot-3.png
   developer: WeejeWel
   author: Sawy
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/WireGuardEasy/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/WireGuardEasy/icon.svg
   thumbnail: ""
   category: Networking
   tips:

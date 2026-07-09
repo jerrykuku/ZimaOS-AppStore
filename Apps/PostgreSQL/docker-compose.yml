@@ -48,6 +48,7 @@ services:
         target: /var/lib/postgresql/data
     container_name: postgresql
 x-casaos:
+  id: org.icewhale.postgresql
   architectures:
     - amd64
     - arm
@@ -158,7 +159,7 @@ x-casaos:
     uk_UA: "PostgreSQL - це передова, корпоративного класу та відкрита система управління реляційними базами даних. PostgreSQL підтримує як SQL (реляційний), так і JSON (нереляційний) запити."
   developer: PostgreSQL Global Dev't Group
   author: WisdomSky
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/PostgreSQL/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/PostgreSQL/icon.svg
   thumbnail: ""
   tips:
     before_install:

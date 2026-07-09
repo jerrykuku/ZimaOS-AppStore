@@ -29,6 +29,7 @@ services:
             en_US: ""
     container_name: 2fauth
 x-casaos:
+  id: org.icewhale.2fauth
   architectures:
     - amd64
     - "386"
@@ -52,11 +53,11 @@ x-casaos:
     sv_SE: 2FAuth är en självhärdad webbaserad alternativ till One Time Passcode (OTP) -genererare som Google Authenticator, utformad för både mobila och skrivbordsenheter.
     uk_UA: 2FAuth - це веб-базова самохостингова альтернатива генераторам одноразових кодів (OTP) на кшталт Google Authenticator, розроблена для мобільних та стільниць пристроїв.
   developer: Bubka
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/2FAuth/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/2FAuth/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/2FAuth/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/2FAuth/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/2FAuth/screenshot-3.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/2FAuth/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/2FAuth/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/2FAuth/screenshot-3.png
   tagline:
     en_US: A web app to manage your Two-Factor Authentication (2FA) accounts and generate their security codes
     zh_CN: 一个用于管理您的两步验证（2FA）帐户并生成其安全代码的Web应用程序
@@ -71,7 +72,7 @@ x-casaos:
     pt_BR: Um aplicativo da web para gerenciar suas contas de autenticação de dois fatores (2FA) e gerar seus códigos de segurança
     sv_SE: En webbapp för att hantera dina tvåfaktorsautentiserings (2FA) -konton och generera deras säkerhetskoder
     uk_UA: Веб-застосунок для керування обліковими записами двофакторної аутентифікації (2FA) та генерації їх кодів безпеки
-  thumbnail: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/2FAuth/thumbnail.png
+  thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/2FAuth/thumbnail.png
   tips: {}
   title:
     en_US: 2FAuth

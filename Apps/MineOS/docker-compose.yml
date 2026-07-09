@@ -137,6 +137,7 @@ services:
           description:
             en_US: MineOS directory.
 x-casaos:
+  id: org.icewhale.mineosnode
   architectures:
     - amd64
   main: mineos
@@ -157,7 +158,7 @@ x-casaos:
     sv_SE: MineOS är ett serverfront som underlättar hanteringen av administrativa uppgifter för Minecraft. Denna iteration med Node.js syftar till att förbättra tidigare MineOS-skript (baserade på Python), genom att utnyttja Node.JS och websockets händelseutlösningsmodell.
     uk_UA: MineOS - це серверний фронт-енд, який полегшує управління адміністративними завданнями Minecraft. Ця ітерація з використанням Node.js спрямована на поліпшення попередніх сценаріїв MineOS (на основі Python), використовуючи подійно-орієнтовану, асинхронну модель Node.JS та websockets.
   developer: hexparrot
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/MineOS/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/MineOS/icon.svg
   tagline:
     en_US: Free and easy to use Minecraft server management tool.
     zh_CN: 免费且易于使用的Minecraft服务器管理工具。

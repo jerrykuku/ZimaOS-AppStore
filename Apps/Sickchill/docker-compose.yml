@@ -54,6 +54,7 @@ services:
             en_US: ""
     container_name: sickchill
 x-casaos:
+  id: org.icewhale.sickchill
   architectures:
     - amd64
     - arm64
@@ -88,14 +89,14 @@ x-casaos:
     uk_UA: |
       SickChill - це автоматичний менеджер відеобібліотек для телевізійних шоу. Він слідкує за новими епізодами ваших улюблених шоу, і коли вони випускаються, він робить свою магію: автоматичний пошук торрентів / nzbs, завантаження і обробка в якості, яку ви хочете.
   developer: Sickchill Team
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Sickchill/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Sickchill/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Sickchill/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Sickchill/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Sickchill/screenshot-3.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Sickchill/screenshot-4.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Sickchill/screenshot-5.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Sickchill/screenshot-6.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Sickchill/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Sickchill/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Sickchill/screenshot-3.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Sickchill/screenshot-4.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Sickchill/screenshot-5.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Sickchill/screenshot-6.png
   tagline:
     en_US: Automatic video library manager for TV Shows
     zh_CN: 自动视频库管理器
@@ -110,7 +111,7 @@ x-casaos:
     pt_BR: Gerenciador automático de bibliotecas de vídeo para programas de TV
     sv_SE: Automatisk videobibliotekshanterare för TV-program
     uk_UA: Автоматичний менеджер відеобібліотек для телевізійних шоу
-  thumbnail: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Readarr/thumbnail.png
+  thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Readarr/thumbnail.png
   tips: {}
   title:
     en_US: Sickchill

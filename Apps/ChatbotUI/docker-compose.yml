@@ -19,6 +19,7 @@ services:
             en_US: WebUI HTTP Port
     container_name: chatbot-ui
 x-casaos:
+  id: org.icewhale.chatbotui
   architectures:
     - amd64
     - arm64
@@ -40,9 +41,9 @@ x-casaos:
     sv_SE: Chatbot UI är ett öppen källkod chattgränssnitt för AI-modeller.
     uk_UA: Chatbot UI - це відкритий чат-інтерфейс для моделей ШІ.
   developer: Mckay Wrigley
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/ChatbotUI/icon.jpg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/ChatbotUI/icon.jpg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/ChatbotUI/screenshot-1.jpg
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/ChatbotUI/screenshot-1.jpg
   tagline:
     en_US: Open source chat UI for AI models
     zh_CN: 用于AI模型的开源聊天界面

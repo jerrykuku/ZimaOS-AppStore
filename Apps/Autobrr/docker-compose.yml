@@ -32,6 +32,7 @@ services:
             en_US: Autobrr config directory
             zh_CN: Autobrr配置目录
 x-casaos:
+  id: org.icewhale.autobrr
   main: autobrr
   architectures:
     - amd64
@@ -43,10 +44,10 @@ x-casaos:
   author: Autobrr Team
   developer: Autobrr Team
   category: Media
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Autobrr/icon.svg
-  thumbnail: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Autobrr/thumbnail.png
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Autobrr/icon.svg
+  thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Autobrr/thumbnail.png
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Autobrr/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Autobrr/screenshot-1.png
   description:
     en_US: Autobrr is the modern download automation tool for torrents and usenet. With inspiration and ideas from tools like trackarr, autodl-irssi and flexget we built one tool that can do it all, and then some.
     zh_CN: Autobrr是用于torrents和Usenet的现代下载自动化工具。受到trackarr、autodl-irssi和flexget等工具的启发和理念，我们构建了一个可以完成所有这些任务的工具，甚至更多。

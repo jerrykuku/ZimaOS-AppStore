@@ -44,6 +44,7 @@ services:
     container_name: threadfin
 
 x-casaos:
+  id: org.icewhale.threadfin
   architectures:
     - amd64
     - arm64
@@ -56,7 +57,7 @@ x-casaos:
     en_US: M3U proxy server
     zh_CN: M3U代理服务器
   developer: jdownloader
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Threadfin/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Threadfin/icon.svg
   author: Fabio Tea
   category: Media
   index: /web/

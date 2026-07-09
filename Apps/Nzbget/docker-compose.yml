@@ -56,9 +56,9 @@ services:
             en_US: ""
     container_name: nzbget
 x-casaos:
+  id: org.icewhale.nzbget
   architectures:
     - amd64
-    - arm
     - arm64
   main: nzbget
   author: CasaOS Team
@@ -78,12 +78,12 @@ x-casaos:
     sv_SE: NZBGet kan köras på nästan vilket enhet - klassisk PC, NAS, mediaspelare, SAT-mottagare, WLAN-router, etc. Nedladdningsområdet tillhandahåller förinstallerade binära filer för Windows, macOS, Linux (kompatibel med många CPU och plattformsversioner), FreeBSD och Android. För andra plattformar kan programmet kompileras från källkod.
     uk_UA: NZBGet може працювати на майже будь-якому пристрої - класичному ПК, NAS, медіаплеєрі, SAT-приймачі, WLAN-роутері та ін. Зона завантаження надає попередньо скомпільовані бінарні файли для Windows, macOS, Linux (сумісний з багатьма процесорами та платформою), FreeBSD та Android. Для інших платформ програму можна скомпілювати з джерел.
   developer: Nzbget Team
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Nzbget/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Nzbget/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Nzbget/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Nzbget/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Nzbget/screenshot-3.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Nzbget/screenshot-4.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Nzbget/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Nzbget/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Nzbget/screenshot-3.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Nzbget/screenshot-4.png
   tagline:
     en_US: Efficient Usenet downloader
     zh_CN: 高效的Usenet下载器
@@ -98,7 +98,7 @@ x-casaos:
     pt_BR: Downloader Usenet eficiente
     sv_SE: Effektiv Usenet-downladdare
     uk_UA: Ефективний завантажувач Usenet
-  thumbnail: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Nzbget/thumbnail.png
+  thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Nzbget/thumbnail.png
   tips:
     before_install:
       en_US: |

@@ -60,6 +60,7 @@ services:
             tr_TR: Paylaşılan dosyalarınız ve dizinleriniz için ana bağlama noktası (örneğin, NAS depolama konumunuz).
             zh_CN: 您共享文件和目录的主挂载点（例如，您的NAS存储位置）。
 x-casaos:
+  id: org.icewhale.copyparty
   title:
     de_DE: CopyParty
     el_GR: CopyParty
@@ -383,11 +384,11 @@ x-casaos:
   developer: CopyParty
   architectures:
     - amd64
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/CopyParty/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/CopyParty/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/CopyParty/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/CopyParty/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/CopyParty/screenshot-3.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/CopyParty/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/CopyParty/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/CopyParty/screenshot-3.png
   index: /
   main: copyparty
   port_map: "29708"

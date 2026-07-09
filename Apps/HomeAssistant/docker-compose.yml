@@ -98,10 +98,10 @@ services:
             tr_TR: HomeAssistant yapılandırma dizini.
     container_name: homeassistant
 x-casaos:
+  id: org.icewhale.homeassistant
   architectures:
     - amd64
     - arm64
-    - arm
   main: homeassistant
   author: CasaOS Team
   category: Home
@@ -452,12 +452,12 @@ x-casaos:
       - [Home Assistant Topluluğu](https://community.home-assistant.io)
       - [Home Assistant Eklentileri](https://www.home-assistant.io/addons)
   developer: Home Assistant
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/HomeAssistant/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/HomeAssistant/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/HomeAssistant/screenshot-1.jpg
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/HomeAssistant/screenshot-2.jpg
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/HomeAssistant/screenshot-3.jpg
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/HomeAssistant/screenshot-4.jpg
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/HomeAssistant/screenshot-1.jpg
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/HomeAssistant/screenshot-2.jpg
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/HomeAssistant/screenshot-3.jpg
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/HomeAssistant/screenshot-4.jpg
   tagline:
     en_US: Open source home automation that puts local control and privacy first.
     en_GB: Open source home automation that puts local control and privacy first.
@@ -474,7 +474,7 @@ x-casaos:
     pt_PT: Automatização doméstica de código aberto que prioriza o controlo local e a privacidade.
     ru_RU: Домашняя автоматизация с открытым исходным кодом, которая ставит локальное управление и конфиденциальность на первое место.
     tr_TR: Yerel kontrol ve gizliliği ön planda tutan açık kaynak ev otomasyonu.
-  thumbnail: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/HomeAssistant/thumbnail.png
+  thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/HomeAssistant/thumbnail.png
   tips: {}
   title:
     en_US: Home Assistant

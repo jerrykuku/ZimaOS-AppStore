@@ -22,6 +22,7 @@ services:
     hostname: Jenkins
 
 x-casaos:
+  id: org.icewhale.jenkins
   architectures:
     - amd64
     - arm64

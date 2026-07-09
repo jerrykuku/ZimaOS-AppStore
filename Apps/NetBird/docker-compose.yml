@@ -63,6 +63,7 @@ services:
             zh_CN: NetBird 状态目录
             ja_JP: NetBird状態ディレクトリ
 x-casaos:
+  id: org.icewhale.netbird
   architectures:
     - amd64
     - arm64
@@ -140,12 +141,12 @@ x-casaos:
       - [セルフホストガイド](https://docs.netbird.io/selfhosted/selfhosted-quickstart)
       - [NetBird GitHub](https://github.com/netbirdio/netbird)
       - [Slack コミュニティ](https://docs.netbird.io/slack-url)
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/NetBird/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/NetBird/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/NetBird/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/NetBird/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/NetBird/screenshot-3.png
-  thumbnail: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/NetBird/thumbnail.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/NetBird/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/NetBird/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/NetBird/screenshot-3.png
+  thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/NetBird/thumbnail.png
   scheme: "https"
   hostname: "app.netbird.io"
   port_map: ""

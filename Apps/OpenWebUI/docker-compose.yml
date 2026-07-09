@@ -27,6 +27,7 @@ services:
     privileged: false
     container_name: open-webui-ollama
 x-casaos:
+  id: org.icewhale.openwebuiollama
   architectures:
     - amd64
   main: open-webui-ollama
@@ -349,12 +350,12 @@ x-casaos:
       - [Open WebUI Belgeleri](https://docs.openwebui.com)
       - [Open WebUI GitHub Deposu](https://github.com/open-webui/open-webui)
 
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/OpenWebUI/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/OpenWebUI/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/OpenWebUI/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/OpenWebUI/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/OpenWebUI/screenshot-3.png
-  thumbnail: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/OpenWebUI/thumbnail.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/OpenWebUI/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/OpenWebUI/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/OpenWebUI/screenshot-3.png
+  thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/OpenWebUI/thumbnail.png
   tagline:
     en_US: User-friendly WebUI for LLMs (Formerly Ollama WebUI)
     en_GB: User-friendly WebUI for LLMs (Formerly Ollama WebUI)

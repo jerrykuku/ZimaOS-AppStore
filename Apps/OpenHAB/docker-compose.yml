@@ -70,10 +70,10 @@ services:
             zh_CN: 用于日志，缓存，持久性数据库等的位置。
     container_name: openhab
 x-casaos:
+  id: org.icewhale.openhab
   architectures:
     - amd64
     - arm64
-    - arm
   main: openhab
   author: CasaOS Team
   category: Home
@@ -92,12 +92,12 @@ x-casaos:
     sv_SE: Open Home Automation Bus (openHAB, uttalas ˈəʊpənˈhæb) är en öppen plattform för hemautomation och teknologiagnostisk som fungerar som centrum för ditt smarta hem. Sitt förmåga att integrera en mängd andra enheter och system. openHAB inkluderar andra hemautomationsystem, enheter (smart) och andra teknologier i en enda lösning. För att ge en enhetlig användargränssnitt och en gemensam tillvägagångssätt till automationsregler över hela systemet, oavsett antal tillverkare och underliggande system. Du ger dig själv den mest flexibla verktygen tillgängliga för att genomföra nästan alla dina önskemål om hemautomation; om du kan tänka dig det, är det troligt att du kan genomföra det med openHAB.
     uk_UA: Відкритий автоматизаційний домашній автобус (openHAB, проноситься ˈəʊpənˈhæb) - це відкрита платформа для автоматизації домашньої техніки і технології, яка працює як центр вашого розумного дому. Його здатність інтегрувати безліч інших пристроїв і систем. openHAB включає в себе інші системи автоматизації домашньої техніки, (розумні) пристрої і інші технології в єдину систему. Для забезпечення єдиного користувацького інтерфейсу і єдиного підходу до правил автоматизації по всій системі, незалежно від кількості виробників і підсистем. Даваючи вам найбільш гнучкий інструмент, щоб зробити майже будь-яке бажання по автоматизації дому; якщо ви можете собі це уявити, ймовірно, ви можете зробити це з openHAB.
   developer: openHAB
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/OpenHAB/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/OpenHAB/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/OpenHAB/screenshot-1.jpg
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/OpenHAB/screenshot-2.jpg
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/OpenHAB/screenshot-3.jpg
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/OpenHAB/screenshot-4.jpg
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/OpenHAB/screenshot-1.jpg
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/OpenHAB/screenshot-2.jpg
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/OpenHAB/screenshot-3.jpg
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/OpenHAB/screenshot-4.jpg
   tagline:
     en_US: Empowering the smart home
     zh_CN: 助力智能家居
@@ -112,7 +112,7 @@ x-casaos:
     pt_BR: Empoderando o lar inteligente
     sv_SE: Stärkning av smart hem
     uk_UA: Підтримка розумного дому
-  thumbnail: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/OpenHAB/thumbnail.png
+  thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/OpenHAB/thumbnail.png
   tips: {}
   title:
     en_US: OpenHAB

@@ -60,6 +60,7 @@ services:
             zh_CN: 驱动器挂载点
 
 x-casaos:
+  id: org.icewhale.glances
   architectures:
     - amd64
     - arm64
@@ -71,9 +72,9 @@ x-casaos:
     zh_CN: Glances 是一个开源的跨平台系统监控工具。它允许实时监控系统的各个方面，如 CPU、内存、磁盘、网络使用情况等。
     pt_BR: Glances é uma ferramenta de monitoramento de sistema de plataforma cruzada de código aberto. Ele permite o monitoramento em tempo real de vários aspectos do seu sistema, como CPU, memória, disco, uso da rede, etc.
   developer: Nicolas Hennion
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Glances/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Glances/icon.svg
   screenshot_link:
-  - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Glances/screenshot-1.png
+  - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Glances/screenshot-1.png
   tagline:
     en_US: Cross-platform monitoring tool.
     zh_CN: 跨平台监控工具

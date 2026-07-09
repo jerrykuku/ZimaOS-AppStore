@@ -102,6 +102,7 @@ services:
             zh_CN: OpenMax库
     container_name: jellyfin
 x-casaos:
+  id: org.icewhale.jellyfinnvidia
   architectures:
     - amd64
     - arm64
@@ -133,11 +134,11 @@ x-casaos:
     sv_SE: Jellyfin gör det möjligt att samla in, hantera och strömma dina medier. Kör Jellyfin-servern på ditt system och få tillgång till ledande underhållningssystem med fri mjukvara, med klockor och dekorationer inkluderade.
     uk_UA: Jellyfin дозволяє збирати, керувати та транслювати вашу медіаінформацію. Запустіть сервер Jellyfin на своєму системі та отримайте доступ до лідерської системи розваг з відкритим програмним забезпеченням, включаючи дзвінки та оздоблення.
   developer: Jellyfin
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Jellyfin/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Jellyfin/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Jellyfin/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Jellyfin/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Jellyfin/screenshot-3.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Jellyfin/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Jellyfin/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Jellyfin/screenshot-3.png
   tagline:
     en_US: The personal Media System
     zh_CN: 个人媒体系统
@@ -152,7 +153,7 @@ x-casaos:
     pt_BR: Coloca você no controle de seus meios de comunicação.
     sv_SE: Lägger dig i centrum av dina medier.
     uk_UA: Помагає вам контролювати вашу медіаінформацію.
-  thumbnail: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Jellyfin/thumbnail.png
+  thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Jellyfin/thumbnail.png
   tips: {}
   title:
     en_US: Jellyfin(Nvidia GPU)

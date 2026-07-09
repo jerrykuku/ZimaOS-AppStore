@@ -189,6 +189,7 @@ networks:
   karakeep:
     driver: bridge
 x-casaos:
+  id: org.icewhale.karakeep
   architectures:
     - amd64
     - arm64
@@ -453,12 +454,12 @@ x-casaos:
       - [Karakeep Resmi Web Sitesi](https://karakeep.app/)
       - [Karakeep GitHub](https://github.com/karakeep-app/karakeep)
       - [Karakeep Dokümantasyonu](https://docs.karakeep.app/)
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Karakeep/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Karakeep/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Karakeep/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Karakeep/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Karakeep/screenshot-3.png
-  thumbnail: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Karakeep/thumbnail.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Karakeep/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Karakeep/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Karakeep/screenshot-3.png
+  thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Karakeep/thumbnail.png
   tips:
     before_install:
       en_US: |

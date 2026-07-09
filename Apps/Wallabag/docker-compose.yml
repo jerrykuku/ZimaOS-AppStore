@@ -97,6 +97,7 @@ services:
             ru_RU: HTTP порт Wallabag
             tr_TR: Wallabag HTTP Portu
 x-casaos:
+  id: org.icewhale.wallabag
   architectures:
     - amd64
     - arm64
@@ -450,11 +451,11 @@ x-casaos:
       - [Wallabag GitHub Deposu](https://github.com/wallabag/wallabag)
       - [Wallabag Belgeleri](https://doc.wallabag.org)
       - [Wallabag Docker İmajı](https://hub.docker.com/r/wallabag/wallabag)
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Wallabag/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Wallabag/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Wallabag/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Wallabag/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Wallabag/screenshot-3.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Wallabag/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Wallabag/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Wallabag/screenshot-3.png
   thumbnail: ""
   tips:
     before_install:

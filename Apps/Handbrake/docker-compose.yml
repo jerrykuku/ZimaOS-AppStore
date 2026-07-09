@@ -24,6 +24,7 @@ services:
         target: /config
     container_name: handbrake
 x-casaos:
+  id: org.icewhale.handbrake
   architectures:
     - amd64
   description:
@@ -40,9 +41,9 @@ x-casaos:
     pt_BR: Handbrake é um aplicativo baseado em Docker para transcodificação e compressão de vídeo, oferecendo recursos poderosos e flexíveis de processamento de mídia em várias plataformas.
     sv_SE: Handbrake är en Docker-baserad applikation för videoomkodning och komprimering, som erbjuder kraftfull och flexibel multimediebehandling över flera plattformar.
     uk_UA: Handbrake - це додаток на основі Docker для транскодування та стиснення відео, що надає потужну та гнучку обробку мультимедіа на різних платформах.
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Handbrake/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Handbrake/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Handbrake/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Handbrake/screenshot-1.png
   tagline:
     en_US: Liberate your videos and unleash infinite possibilities.
     zh_CN: 解放你的视频，创造无限可能。

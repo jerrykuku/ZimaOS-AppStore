@@ -61,6 +61,7 @@ services:
             zh_CN: Radarr下载目录
     container_name: radarr
 x-casaos:
+  id: org.icewhale.radarr
   architectures:
     - amd64
     - arm64
@@ -81,13 +82,13 @@ x-casaos:
     sv_SE: Radarr är en filmkolektionshanterare för användare av Usenet och BitTorrent. Den kan övervaka flera RSS-flöden för att hitta nya filmer och interagera med klienter och indexer för att sortera, döpa om och ladda ner dem. Den kan också konfigureras för att automatiskt uppdatera kvaliteten på befintliga filer i biblioteket när en bättre kvalitet är tillgänglig. Observera att endast en typ av specifik film stöds. Om du vill ha en 4k-version och en 1080p-version av en specifik film behöver du flera instanser.
     uk_UA: Radarr - це менеджер колекцій фільмів для користувачів Usenet і BitTorrent. Він може моніторити декілька RSS-каналів для пошуку нових фільмів і взаємодіяти з клієнтами і індексаторами для їх сортування, перейменування і завантаження. Він також може бути налаштований для автоматичного оновлення якості існуючих файлів в бібліотеці, коли доступна краща якість. Зверніть увагу, що підтримується лише один тип визначеного фільму. Якщо ви хочете версію 4k і версію 1080p визначеного фільму, вам потрібно декілька екземплярів.
   developer: Radarr
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Radarr/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Radarr/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Radarr/screenshot-1.jpg
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Radarr/screenshot-2.jpg
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Radarr/screenshot-3.jpg
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Radarr/screenshot-4.jpg
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Radarr/screenshot-5.jpg
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Radarr/screenshot-1.jpg
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Radarr/screenshot-2.jpg
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Radarr/screenshot-3.jpg
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Radarr/screenshot-4.jpg
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Radarr/screenshot-5.jpg
   tagline:
     en_US: The movie collection manager for Usenet and BitTorrent users
     zh_CN: 为Usenet和BitTorrent用户提供的电影集合管理器
@@ -102,7 +103,7 @@ x-casaos:
     pt_BR: O gerenciador de coleções de filmes para usuários de Usenet e BitTorrent
     sv_SE: Filmkolektionshanteraren för användare av Usenet och BitTorrent
     uk_UA: Менеджер колекцій фільмів для користувачів Usenet і BitTorrent
-  thumbnail: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Radarr/thumbnail.jpg
+  thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Radarr/thumbnail.jpg
   tips: {}
   title:
     en_US: Radarr

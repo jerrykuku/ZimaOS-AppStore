@@ -79,9 +79,9 @@ services:
             tr_TR: Pinchflat indirme dizini.
     container_name: pinchflat
 x-casaos:
+  id: org.icewhale.pinchflat
   architectures:
     - amd64
-    - arm64
   author: kieraneglin
   category: Media
   description:
@@ -401,10 +401,10 @@ x-casaos:
 
       Medya merkezi uygulamasıyla kullanmak için içerik indirmek isteyen kişiler veya medyayı arşivlemek isteyenler için mükemmel!
   developer: kieraneglin
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Pinchflat/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Pinchflat/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Pinchflat/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Pinchflat/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Pinchflat/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Pinchflat/screenshot-2.png
   main: pinchflat
   port_map: "8945"
   scheme: http

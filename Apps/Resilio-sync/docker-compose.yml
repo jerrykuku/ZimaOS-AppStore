@@ -28,6 +28,7 @@ services:
     privileged: false
     container_name: resilio-sync
 x-casaos:
+  id: org.icewhale.resiliosync
   architectures:
     - amd64
     - arm64
@@ -45,9 +46,9 @@ x-casaos:
     pt_BR: resilio-sync é um aplicativo baseado em Docker que permite a sincronização e compartilhamento de arquivos de forma rápida e segura.
     sv_SE: resilio-sync är en Docker-baserad applikation som möjliggör snabb och säker filsynkronisering och delning.
     uk_UA: resilio-sync - це додаток на основі Docker, який забезпечує швидку і безпечну синхронізацію та обмін файлами.
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Resilio-sync/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Resilio-sync/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Resilio-sync/screenshot-1.jpg
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Resilio-sync/screenshot-1.jpg
   tagline:
     en_US: Unleash the power of seamless file synchronization.
     zh_CN: 发挥无缝文件同步的力量。

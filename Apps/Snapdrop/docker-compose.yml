@@ -22,6 +22,7 @@ services:
     privileged: false
     container_name: snapdrop
 x-casaos:
+  id: org.icewhale.snapdrop
   architectures:
     - amd64
     - arm64
@@ -39,9 +40,9 @@ x-casaos:
     pt_BR: Snapdrop é um aplicativo da Web progressivo (PWA) que permite transferir arquivos entre dispositivos na mesma rede sem precisar instalar nada.
     sv_SE: Snapdrop är en progressiv webbapp (PWA) som låter dig överföra filer mellan enheter i samma nätverk utan att behöva installera något.
     uk_UA: Snapdrop - це прогресивний веб-додаток (PWA), який дозволяє передавати файли між пристроями в одній мережі без необхідності встановлювати що-небудь.
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Snapdrop/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Snapdrop/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Snapdrop/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Snapdrop/screenshot-1.png
   tagline:
     en_US: Cross-platform file sharing made easy.
     zh_CN: 轻松实现跨平台文件共享。

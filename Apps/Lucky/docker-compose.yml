@@ -16,6 +16,7 @@ services:
     network_mode: host
     privileged: false
 x-casaos:
+  id: org.icewhale.lucky
   architectures:
     - amd64
     - arm
@@ -27,12 +28,12 @@ x-casaos:
     en_US: A powerful tool for port forwarding, reverse proxy, dynamic DNS, wake-on-LAN, IPv4 NAT traversal, webdav services, task scheduling, and automatic certificate management.
     zh_CN: 一款功能强大的端口转发、反向代理、动态域名、网络唤醒、IPv4内网穿透、webdav服务、计划任务和自动证书管理工具。
   developer: gdy666
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Lucky/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Lucky/icon.svg
   index: /
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Lucky/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Lucky/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Lucky/screenshot-3.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Lucky/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Lucky/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Lucky/screenshot-3.png
   tagline:
     en_US: Powerful networking tool
     zh_CN: 家用软硬路由公网利器

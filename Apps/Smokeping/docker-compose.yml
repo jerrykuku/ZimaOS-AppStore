@@ -48,6 +48,7 @@ services:
             en_US: ""
     container_name: smokeping
 x-casaos:
+  id: org.icewhale.smokeping
   architectures:
     - amd64
     - arm64
@@ -69,13 +70,13 @@ x-casaos:
     sv_SE: håller reda på din nätverkslatens.
     uk_UA: відстежує затримку мережі.
   developer: Lazylibrarian Team
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Smokeping/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Smokeping/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Smokeping/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Smokeping/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Smokeping/screenshot-3.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Smokeping/screenshot-4.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Smokeping/screenshot-5.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Smokeping/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Smokeping/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Smokeping/screenshot-3.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Smokeping/screenshot-4.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Smokeping/screenshot-5.png
   tagline:
     en_US: Free open source network performance monitoring tool
     zh_CN: 免费开源的网络性能监控工具
@@ -90,7 +91,7 @@ x-casaos:
     pt_BR: Ferramenta de monitoramento de desempenho de rede de código aberto gratuita
     sv_SE: Gratis öppen källkodsnätverksprestandamonteringsverktyg
     uk_UA: Безкоштовний інструмент моніторингу продуктивності мережі з відкритим вихідним кодом
-  thumbnail: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Smokeping/thumbnail.png
+  thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Smokeping/thumbnail.png
   tips: {}
   title:
     en_US: Smokeping

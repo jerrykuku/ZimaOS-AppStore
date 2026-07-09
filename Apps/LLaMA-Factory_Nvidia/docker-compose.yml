@@ -43,6 +43,7 @@ services:
             zh_CN: LLaMA Factory Web UI 端口
 
 x-casaos:
+  id: org.icewhale.llamafactorynvidia
   architectures:
     - amd64
   author: hiyouga
@@ -304,11 +305,11 @@ x-casaos:
       - [GitHub Repository](https://github.com/hiyouga/LLaMA-Factory)
       - [官方文档](https://llamafactory.readthedocs.io/)
   developer: hiyouga
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/LLaMA-Factory_Nvidia/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/LLaMA-Factory_Nvidia/icon.svg
   screenshot_link: 
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/LLaMA-Factory_Nvidia/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/LLaMA-Factory_Nvidia/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/LLaMA-Factory_Nvidia/screenshot-3.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/LLaMA-Factory_Nvidia/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/LLaMA-Factory_Nvidia/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/LLaMA-Factory_Nvidia/screenshot-3.png
   tagline:
     de_DE: Einheitliche LLM-Feinabstimmung mit 100+ Modellen
     el_GR: Ενοποιημένη ρύθμιση LLM με 100+ μοντέλα

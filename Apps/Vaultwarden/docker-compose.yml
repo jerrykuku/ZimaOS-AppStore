@@ -30,6 +30,7 @@ services:
             zh_CN: Vaultwarden 数据目录。
     container_name: vaultwarden
 x-casaos:
+  id: org.icewhale.vaultwarden
   architectures:
     - amd64
     - arm
@@ -52,11 +53,11 @@ x-casaos:
     sv_SE: Alternativ implementering av Bitwarden-serverns API skriven i Rust och kompatibel med översta Bitwarden-klienterna *, perfekt för självhärdad drift där körning av den officiella resurskrävande tjänsten kanske inte är idealisk.
     uk_UA: Альтернативна реалізація API-інтерфейсу сервера Bitwarden, написана на Rust і сумісна з клієнтами Bitwarden вищого рівня *, ідеально підходить для самостійного розгортання, де запуск офіційного ресурсоємкого сервісу може не бути ідеальним.
   developer: Daniel García
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Vaultwarden/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Vaultwarden/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Vaultwarden/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Vaultwarden/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Vaultwarden/screenshot-3.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Vaultwarden/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Vaultwarden/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Vaultwarden/screenshot-3.png
   tagline:
     en_US: A self-hosted Bitwarden server
     zh_CN: 自托管的 Bitwarden 服务器
@@ -71,7 +72,7 @@ x-casaos:
     pt_BR: Um servidor Bitwarden auto-hospedado
     sv_SE: En självhärdad Bitwarden-server
     uk_UA: Самостійний сервер Bitwarden
-  thumbnail: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Vaultwarden/thumbnail.png
+  thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Vaultwarden/thumbnail.png
   tips: {}
   title:
     en_US: Vaultwarden

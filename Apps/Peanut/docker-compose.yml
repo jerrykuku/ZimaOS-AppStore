@@ -76,6 +76,7 @@ services:
             zh_CN: PeaNUT配置目录
 
 x-casaos:
+  id: org.icewhale.peanut
   title:
     de_DE: PeaNUT
     el_GR: PeaNUT
@@ -443,11 +444,11 @@ x-casaos:
 
   category: Home
   author: brandawg93
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Peanut/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Peanut/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Peanut/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Peanut/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Peanut/screenshot-3.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Peanut/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Peanut/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Peanut/screenshot-3.png
   main: peanut
   port_map: "8084"
   architectures:
@@ -456,7 +457,7 @@ x-casaos:
   index: /
   scheme: http
   developer: brandawg93
-  thumbnail: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Peanut/thumbnail.png
+  thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Peanut/thumbnail.png
   version: "6.0.0"
   update_at: "2026-05-02"
   release_notes:

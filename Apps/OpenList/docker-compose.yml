@@ -77,6 +77,7 @@ services:
             ru_RU: Задает маску создания файлов по умолчанию для OpenList
             tr_TR: OpenList için varsayılan dosya oluşturma maskesini ayarlar
 x-casaos:
+  id: org.icewhale.openlist
   architectures:
     - amd64
     - arm
@@ -327,12 +328,12 @@ x-casaos:
       **Daha Fazla Bilgi:**
       - [OpenList Resmi Web Sitesi](https://oplist.org/)
       - [OpenList GitHub](https://github.com/OpenListTeam/OpenList)
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/OpenList/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/OpenList/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/OpenList/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/OpenList/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/OpenList/screenshot-3.png
-  thumbnail: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/OpenList/thumbnail.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/OpenList/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/OpenList/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/OpenList/screenshot-3.png
+  thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/OpenList/thumbnail.png
   tips:
     before_install:
       en_US: |

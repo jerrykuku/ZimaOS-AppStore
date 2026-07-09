@@ -24,6 +24,7 @@ services:
         target: /var/lib/databag
     container_name: databag
 x-casaos:
+  id: org.icewhale.databag
   architectures:
     - amd64
     - arm64
@@ -35,10 +36,10 @@ x-casaos:
     en_US: Messenger for the Decentralized Web
     zh_CN: 分布式网络的通讯应用
   developer: balzack
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Databag/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Databag/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Databag/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Databag/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Databag/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Databag/screenshot-2.png
   author: Pierre Balzack
   category: Social
   title:

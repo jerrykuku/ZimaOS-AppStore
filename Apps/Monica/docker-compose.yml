@@ -244,6 +244,7 @@ networks:
   monica_network:
     driver: bridge
 x-casaos:
+  id: org.icewhale.monica
   architectures:
     - amd64
     - arm64
@@ -568,11 +569,11 @@ x-casaos:
       **Daha Fazla Bilgi:**
       - [Monica Resmi Web Sitesi](https://www.monicahq.com)
       - [Monica GitHub Deposu](https://github.com/monicahq/monica)
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Monica/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Monica/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Monica/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Monica/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Monica/screenshot-3.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Monica/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Monica/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Monica/screenshot-3.png
   thumbnail: ""
   scheme: ""
   port_map: "18930"

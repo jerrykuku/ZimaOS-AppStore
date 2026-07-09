@@ -95,6 +95,7 @@ services:
             zh_CN: 自定义徽标和图标的前端图像目录
 
 x-casaos:
+  id: org.icewhale.pingvinshare
   title:
     de_DE: Pingvin-Share
     el_GR: Pingvin-Share
@@ -357,11 +358,11 @@ x-casaos:
   category: Productivity
   author: stonith404
   developer: stonith404
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Pingvin-Share/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Pingvin-Share/icon.svg
   screenshot_link: 
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Pingvin-Share/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Pingvin-Share/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Pingvin-Share/screenshot-3.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Pingvin-Share/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Pingvin-Share/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Pingvin-Share/screenshot-3.png
   main: pingvin-share
   port_map: "3410"
   architectures:

@@ -60,6 +60,7 @@ services:
             ru_RU: Каталог моделей и данных Ollama
             tr_TR: Ollama Modeller ve Veri Dizini
 x-casaos:
+  id: org.icewhale.ollamanvidia
   architectures:
     - amd64
     - arm64
@@ -669,11 +670,11 @@ x-casaos:
       - [Ollama Resmi Web Sitesi](https://ollama.com/)
       - [Ollama GitHub Deposu](https://github.com/ollama/ollama)
       - [Model Kütüphanesi](https://ollama.com/library)
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Ollama/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Ollama/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Ollama/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Ollama/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Ollama/screenshot-3.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Ollama/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Ollama/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Ollama/screenshot-3.png
   thumbnail: ""
   scheme: http
   port_map: "11434"

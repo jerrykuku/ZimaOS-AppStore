@@ -58,6 +58,7 @@ services:
             en_US:  "LazyLibrarian config directory"
     container_name: lazylibrarian
 x-casaos:
+  id: org.icewhale.lazylibrarian
   architectures:
     - amd64
     - arm64
@@ -79,11 +80,11 @@ x-casaos:
     sv_SE: Lazylibrarian är ett program för att följa författare och hämta metadata för alla dina digitala läsningsbehov. Det använder en kombination av Goodreads Librarything och valfritt GoogleBooks som källor för författar- och bokinformation. Denna behållare baseras på DobyTang-forken.
     uk_UA: Lazylibrarian - це програма для відстеження авторів і отримання метаданих для всіх ваших цифрових потреб в читанні. Він використовує комбінацію Goodreads Librarything і за бажанням GoogleBooks як джерела інформації про автора і книгу. Цей контейнер базується на форку DobyTang.
   developer: Lazylibrarian Team
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Lazylibrarian/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Lazylibrarian/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Lazylibrarian/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Lazylibrarian/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Lazylibrarian/screenshot-3.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Lazylibrarian/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Lazylibrarian/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Lazylibrarian/screenshot-3.png
   tagline:
     en_US: eBook Auto Downloader
     zh_CN: eBook自动下载器
@@ -98,7 +99,7 @@ x-casaos:
     pt_BR: eBook Auto Downloader
     sv_SE: eBook Auto Downloader
     uk_UA: Автоматичний завантажувач електронних книг
-  thumbnail: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Lazylibrarian/thumbnail.png
+  thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Lazylibrarian/thumbnail.png
   tips: {}
   title:
     en_US: Lazylibrarian

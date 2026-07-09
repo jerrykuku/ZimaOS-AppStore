@@ -74,6 +74,7 @@ services:
             tr_TR: Yüklenen dosyaların ve uygulama verilerinin depolama konumu.
             zh_CN: 上传文件和应用数据的存储位置。
 x-casaos:
+  id: org.icewhale.psitransfer
   title:
     de_DE: PsiTransfer
     el_GR: PsiTransfer
@@ -323,10 +324,10 @@ x-casaos:
   architectures:
     - amd64
     - arm64
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/PsiTransfer/icon.png
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/PsiTransfer/icon.png
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/PsiTransfer/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/PsiTransfer/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/PsiTransfer/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/PsiTransfer/screenshot-2.png
   index: /
   main: psitransfer
   port_map: "13001"

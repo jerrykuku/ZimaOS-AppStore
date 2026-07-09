@@ -9,7 +9,7 @@ services:
           memory: "256M"
     image: triliumnext/trilium:v0.103.0
     labels:
-      icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Trilium/icon.svg
+      icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Trilium/icon.svg
     ports:
       - target: 8080
         published: "8088"
@@ -22,6 +22,7 @@ services:
     network_mode: bridge
     privileged: false
 x-casaos:
+  id: org.icewhale.trilium
   architectures:
     - amd64
     - arm64
@@ -601,12 +602,12 @@ x-casaos:
       - [awesome-trilium](https://github.com/Nriver/awesome-trilium) üçüncü taraf temalar, betikler, eklentiler ve daha fazlası için
       - [TriliumRocks!](https://trilium.rocks/) eğitimler, kılavuzlar ve çok daha fazlası için
   developer: zadam
-  icon: https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Trilium/icon.svg
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Trilium/icon.svg
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Trilium/screenshot-1.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Trilium/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Trilium/screenshot-3.png
-    - https://cdn.jsdelivr.net/gh/jerrykuku/ZimaOS-AppStore@main/Apps/Trilium/screenshot-4.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Trilium/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Trilium/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Trilium/screenshot-3.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Trilium/screenshot-4.png
   index: /
   port_map: "8088"
   scheme: http
